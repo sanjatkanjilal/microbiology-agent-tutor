@@ -41,15 +41,17 @@ docs/
 tests/
 
 # ─── Frontend (Node / Vite) ───────────────────────────────────────────────────
-V4_refactor/frontend/node_modules/
-V4_refactor/frontend/.vite/
+frontend/node_modules/
+frontend/.vite/
 
 # ─── Frontend build output ────────────────────────────────────────────────────
-V4_refactor/src/microtutor/api/static/react/
+src/microtutor/api/static/react/
 
-# ─── Large static assets (copy locally — see FRONTEND_README.md) ─────────────
-V4_refactor/frontend/public/case-images/   # 127 MB — copy from data/cases/ID_Images/All_cases/
-V4_refactor/frontend/public/case_library.json  # copy from data/cases/case_library.json
-V4_refactor/frontend/public/case-images
-V4_refactor/frontend/public/case_library.json
+# ─── Large static assets (copy locally — see README.md) ─────────────
+frontend/public/case-images/   # 127 MB — copy from data/cases/ID_Images/All_cases/
+frontend/public/case_library.json  # copy from data/cases/case_library.json
+frontend/public/organisms.json  # copy from data/cases/organisms.json
+frontend/public/case-images
+frontend/public/case_library.json
+frontend/public/organisms.json
 *.zip
