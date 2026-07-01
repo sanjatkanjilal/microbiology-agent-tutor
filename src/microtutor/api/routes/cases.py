@@ -61,6 +61,7 @@ async def list_cases(
             "id": c["id"],
             "title": c["title"],
             "figures": c.get("figures", []),
+            "tags": c.get("tags", []),
         }
         for c in page
     ]

@@ -1817,12 +1817,50 @@ function CaseDetailPage({ caseId, onBack }) {
   );
 }
 
-function CaseRow({ c, i, onOpen }) {
+// Tags are flat "type:value" strings (see README.md's "Adding tags to
+// cases" section) — pull out each category for display.
+function tagsByType(tags, type) {
+  const prefix = `${type}:`;
+  return (tags || [])
+    .filter(t => t.startsWith(prefix))
+    .map(t => t.slice(prefix.length));
+}
+
+function BlurCell({ revealed, children }) {
+  return (
+    <div
+      style={{
+        filter: revealed ? "none" : "blur(5px)",
+        userSelect: revealed ? "auto" : "none",
+        transition: "filter 0.15s",
+        fontSize: 13,
+        color: "var(--text-primary)",
+        lineHeight: 1.4,
+        overflow: "hidden",
+      }}
+      aria-hidden={!revealed}
+    >
+      {children}
+    </div>
+  );
+}
+
+const CASE_ROW_GRID = "90px 1fr 200px 220px 200px 64px 74px";
+
+function CaseRow({ c, i, onOpen, revealed, onToggleReveal }) {
+  const organisms = tagsByType(c.tags, "organism");
+  const syndromes = tagsByType(c.tags, "syndrome");
+  const hosts = tagsByType(c.tags, "host");
+
+  const plainText = (items) => items.length
+    ? items.join(", ")
+    : <span style={{ color: "var(--text-muted)" }}>—</span>;
+
   return (
     <div
       onClick={onOpen}
       style={{
-        display: "grid", gridTemplateColumns: "100px 1fr 90px",
+        display: "grid", gridTemplateColumns: CASE_ROW_GRID,
         padding: "11px 14px", borderTop: i > 0 ? "1px solid var(--border)" : "none",
         background: i % 2 === 0 ? "var(--surface-1)" : "var(--surface-0)",
         alignItems: "center", gap: 12, cursor: "pointer",
@@ -1833,7 +1871,26 @@ function CaseRow({ c, i, onOpen }) {
     >
       <div style={{ fontSize: 11, fontWeight: 600, color: "var(--text-accent)", fontFamily: "monospace" }}>{c.id}</div>
       <div style={{ fontSize: 13, color: "var(--text-primary)", lineHeight: 1.4 }}>{c.title}</div>
-      <div style={{ fontSize: 11, color: "var(--text-muted)" }}>{c.figures?.length || 0} figure{c.figures?.length !== 1 ? "s" : ""}</div>
+
+      <BlurCell revealed={revealed}>{plainText(organisms)}</BlurCell>
+      <BlurCell revealed={revealed}>{plainText(syndromes)}</BlurCell>
+      <BlurCell revealed={revealed}>{plainText(hosts)}</BlurCell>
+      <BlurCell revealed={revealed}>
+        {c.figures?.length || 0} fig{c.figures?.length !== 1 ? "s" : ""}
+      </BlurCell>
+
+      <button
+        onClick={e => { e.stopPropagation(); onToggleReveal(); }}
+        style={{
+          fontSize: 11, fontWeight: 600, padding: "5px 8px", borderRadius: "var(--radius)",
+          border: "1px solid var(--border-strong)",
+          background: revealed ? "var(--bg-accent)" : "var(--surface-0)",
+          color: revealed ? "var(--text-accent)" : "var(--text-secondary)",
+          cursor: "pointer", whiteSpace: "nowrap", fontFamily: "var(--font-sans)",
+        }}
+      >
+        {revealed ? "Hide" : "Reveal"}
+      </button>
     </div>
   );
 }
@@ -1858,6 +1915,15 @@ function CaseLibraryPage({ onBack, onOpenCase }) {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
+  const [revealedIds, setRevealedIds] = useState(() => new Set());
+
+  const toggleReveal = (id) => {
+    setRevealedIds(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
 
   useEffect(() => {
     loadAllCases().then(data => { setCases(data); setLoading(false); }).catch(() => setLoading(false));
@@ -1886,7 +1952,7 @@ function CaseLibraryPage({ onBack, onOpenCase }) {
         background: "var(--surface-0)",
         flexShrink: 0,
       }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+        <div style={{ maxWidth: 1300, margin: "0 auto" }}>
           <button onClick={onBack} style={{ ...backBtn, marginBottom: 14 }}>← Back</button>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 12, flexWrap: "wrap", gap: 8 }}>
             <h1 style={{ ...pageH1, margin: 0 }}>Case library</h1>
@@ -1910,20 +1976,30 @@ function CaseLibraryPage({ onBack, onOpenCase }) {
 
       {/* Scrollable table area */}
       <div style={{ flex: 1, overflowY: "auto", padding: "16px 24px 40px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
-          <div style={{ border: "1px solid var(--border)", borderRadius: 10, overflow: "hidden" }}>
-            {/* Sticky column headers */}
-            <div style={{
-              display: "grid", gridTemplateColumns: "100px 1fr 90px",
-              padding: "9px 14px", background: "var(--surface-0)",
-              borderBottom: "1px solid var(--border)", gap: 12,
-              position: "sticky", top: 0, zIndex: 2,
-            }}>
-              {["Case ID", "Title", "Figures"].map(h => (
-                <div key={h} style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.06em" }}>{h}</div>
-              ))}
-            </div>
+        <div style={{ maxWidth: 1300, margin: "0 auto" }}>
+          <div style={{ marginBottom: 10, fontSize: 12, color: "var(--text-muted)" }}>
+            Organism, syndrome, host, and tags are hidden per case — click <strong>Reveal</strong> on a row to check your read before opening it.
+          </div>
 
+          {/* Sticky column headers — kept OUTSIDE the rows wrapper below.
+              position:sticky stops working if any ancestor between the
+              sticky element and its scrolling container has overflow
+              other than 'visible' — the rows wrapper needs overflow:
+              hidden to clip rounded corners, so the header can't live
+              inside it. */}
+          <div style={{
+            display: "grid", gridTemplateColumns: CASE_ROW_GRID,
+            padding: "9px 14px", background: "var(--surface-0)",
+            border: "1px solid var(--border)", borderBottom: "none",
+            borderRadius: "10px 10px 0 0", gap: 12,
+            position: "sticky", top: 0, zIndex: 2,
+          }}>
+            {["Case ID", "Title", "Organism", "Syndrome", "Host", "Figures", ""].map((h, idx) => (
+              <div key={idx} style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.06em" }}>{h}</div>
+            ))}
+          </div>
+
+          <div style={{ border: "1px solid var(--border)", borderRadius: "0 0 10px 10px", overflow: "hidden" }}>
             {loading ? (
               <div style={{ padding: "32px", textAlign: "center", color: "var(--text-muted)", display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
                 <span style={{ display: "inline-block", width: 14, height: 14, border: "2px solid var(--border-strong)", borderTopColor: "var(--text-accent)", borderRadius: "50%", animation: "spin 0.7s linear infinite" }} />
@@ -1933,7 +2009,11 @@ function CaseLibraryPage({ onBack, onOpenCase }) {
               <div style={{ padding: "24px 14px", fontSize: 14, color: "var(--text-muted)", textAlign: "center" }}>No cases match your search.</div>
             ) : (
               filtered.map((c, i) => (
-                <CaseRow key={c.id} c={c} i={i} onOpen={() => onOpenCase(c.id)} />
+                <CaseRow
+                  key={c.id} c={c} i={i} onOpen={() => onOpenCase(c.id)}
+                  revealed={revealedIds.has(c.id)}
+                  onToggleReveal={() => toggleReveal(c.id)}
+                />
               ))
             )}
           </div>

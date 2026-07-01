@@ -1,97 +1,72 @@
 [
   {
-    "value": "staphylococcus aureus",
-    "label": "Staphylococcus aureus",
+    "value": "acanthamoeba castellanii",
+    "label": "Acanthamoeba castellanii",
+    "group": "Parasites"
+  },
+  {
+    "value": "actinomyces israelii",
+    "label": "Actinomyces israelii",
     "group": "Bacteria"
   },
   {
-    "value": "staphylococcus epidermidis",
-    "label": "Staphylococcus epidermidis",
+    "value": "actinomyces meyeri",
+    "label": "Actinomyces meyeri",
     "group": "Bacteria"
   },
   {
-    "value": "streptococcus pyogenes",
-    "label": "Streptococcus pyogenes (Group A Strep)",
+    "value": "adenovirus",
+    "label": "Adenovirus",
+    "group": "Viruses"
+  },
+  {
+    "value": "alternaria species",
+    "label": "Alternaria species",
+    "group": "Fungi"
+  },
+  {
+    "value": "anaplasma phagocytophilum",
+    "label": "Anaplasma phagocytophilum",
     "group": "Bacteria"
   },
   {
-    "value": "streptococcus pneumoniae",
-    "label": "Streptococcus pneumoniae",
+    "value": "aspergillus fumigatus",
+    "label": "Aspergillus fumigatus",
+    "group": "Fungi"
+  },
+  {
+    "value": "babesia microti",
+    "label": "Babesia microti",
+    "group": "Parasites"
+  },
+  {
+    "value": "bacillus anthracis",
+    "label": "Bacillus anthracis",
     "group": "Bacteria"
   },
   {
-    "value": "streptococcus intermedius",
-    "label": "Streptococcus intermedius",
-    "group": "Bacteria"
-  },
-  {
-    "value": "escherichia coli",
-    "label": "Escherichia coli",
-    "group": "Bacteria"
-  },
-  {
-    "value": "klebsiella pneumoniae",
-    "label": "Klebsiella pneumoniae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "klebsiella rhinoscleromatis",
-    "label": "Klebsiella rhinoscleromatis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "pseudomonas aeruginosa",
-    "label": "Pseudomonas aeruginosa",
-    "group": "Bacteria"
-  },
-  {
-    "value": "pseudomonas oryzihabitans",
-    "label": "Pseudomonas oryzihabitans",
-    "group": "Bacteria"
-  },
-  {
-    "value": "proteus mirabilis",
-    "label": "Proteus mirabilis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "neisseria meningitidis",
-    "label": "Neisseria meningitidis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "neisseria gonorrhoeae",
-    "label": "Neisseria gonorrhoeae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "haemophilus parainfluenzae",
-    "label": "Haemophilus parainfluenzae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "legionella pneumophila",
-    "label": "Legionella pneumophila",
-    "group": "Bacteria"
-  },
-  {
-    "value": "bordetella pertussis",
-    "label": "Bordetella pertussis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "francisella tularensis",
-    "label": "Francisella tularensis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "brucella melitensis",
-    "label": "Brucella melitensis",
+    "value": "bacillus cereus",
+    "label": "Bacillus cereus",
     "group": "Bacteria"
   },
   {
     "value": "bartonella henselae",
     "label": "Bartonella henselae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "basidiobolus ranarum",
+    "label": "Basidiobolus ranarum",
+    "group": "Fungi"
+  },
+  {
+    "value": "blastomyces dermatitidis",
+    "label": "Blastomyces dermatitidis",
+    "group": "Fungi"
+  },
+  {
+    "value": "bordetella pertussis",
+    "label": "Bordetella pertussis",
     "group": "Bacteria"
   },
   {
@@ -105,143 +80,18 @@
     "group": "Bacteria"
   },
   {
-    "value": "treponema pallidum",
-    "label": "Treponema pallidum (Syphilis)",
+    "value": "brucella melitensis",
+    "label": "Brucella melitensis",
     "group": "Bacteria"
   },
   {
-    "value": "mycobacterium tuberculosis",
-    "label": "Mycobacterium tuberculosis",
+    "value": "burkholderia pseudomallei",
+    "label": "Burkholderia pseudomallei",
     "group": "Bacteria"
   },
   {
-    "value": "mycobacterium avium",
-    "label": "Mycobacterium avium complex",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium bovis",
-    "label": "Mycobacterium bovis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium leprae",
-    "label": "Mycobacterium leprae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium marinum",
-    "label": "Mycobacterium marinum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium chelonae",
-    "label": "Mycobacterium chelonae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium ulcerans",
-    "label": "Mycobacterium ulcerans",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycobacterium haemophilum",
-    "label": "Mycobacterium haemophilum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "nocardia asteroides",
-    "label": "Nocardia asteroides",
-    "group": "Bacteria"
-  },
-  {
-    "value": "nocardia nova",
-    "label": "Nocardia nova",
-    "group": "Bacteria"
-  },
-  {
-    "value": "nocardia cyriacigeorgica",
-    "label": "Nocardia cyriacigeorgica",
-    "group": "Bacteria"
-  },
-  {
-    "value": "nocardia brasiliensis",
-    "label": "Nocardia brasiliensis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "rhodococcus equi",
-    "label": "Rhodococcus equi",
-    "group": "Bacteria"
-  },
-  {
-    "value": "actinomyces israelii",
-    "label": "Actinomyces israelii",
-    "group": "Bacteria"
-  },
-  {
-    "value": "streptobacillus moniliformis",
-    "label": "Streptobacillus moniliformis (Rat-bite fever)",
-    "group": "Bacteria"
-  },
-  {
-    "value": "capnocytophaga canimorsus",
-    "label": "Capnocytophaga canimorsus",
-    "group": "Bacteria"
-  },
-  {
-    "value": "pasteurella multocida",
-    "label": "Pasteurella multocida",
-    "group": "Bacteria"
-  },
-  {
-    "value": "erysipelothrix rhusiopathiae",
-    "label": "Erysipelothrix rhusiopathiae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "fusobacterium necrophorum",
-    "label": "Fusobacterium necrophorum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "clostridioides difficile",
-    "label": "Clostridioides difficile",
-    "group": "Bacteria"
-  },
-  {
-    "value": "clostridium septicum",
-    "label": "Clostridium septicum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "clostridium botulinum",
-    "label": "Clostridium botulinum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "clostridium sordellii",
-    "label": "Clostridium sordellii",
-    "group": "Bacteria"
-  },
-  {
-    "value": "bacillus cereus",
-    "label": "Bacillus cereus",
-    "group": "Bacteria"
-  },
-  {
-    "value": "bacillus anthracis",
-    "label": "Bacillus anthracis",
-    "group": "Bacteria"
-  },
-  {
-    "value": "vibrio vulnificus",
-    "label": "Vibrio vulnificus",
-    "group": "Bacteria"
-  },
-  {
-    "value": "vibrio cholerae",
-    "label": "Vibrio cholerae",
+    "value": "burkholderia species",
+    "label": "Burkholderia species",
     "group": "Bacteria"
   },
   {
@@ -250,44 +100,89 @@
     "group": "Bacteria"
   },
   {
+    "value": "candida albicans",
+    "label": "Candida albicans",
+    "group": "Fungi"
+  },
+  {
+    "value": "candida dubliniensis",
+    "label": "Candida dubliniensis",
+    "group": "Fungi"
+  },
+  {
+    "value": "candida lusitaniae",
+    "label": "Candida lusitaniae",
+    "group": "Fungi"
+  },
+  {
+    "value": "candida tropicalis",
+    "label": "Candida tropicalis",
+    "group": "Fungi"
+  },
+  {
+    "value": "capnocytophaga canimorsus",
+    "label": "Capnocytophaga canimorsus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "chlamydia trachomatis",
+    "label": "Chlamydia trachomatis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "cladophialophora bantiana",
+    "label": "Cladophialophora bantiana",
+    "group": "Fungi"
+  },
+  {
+    "value": "clostridioides difficile",
+    "label": "Clostridioides difficile",
+    "group": "Bacteria"
+  },
+  {
+    "value": "clostridium botulinum",
+    "label": "Clostridium botulinum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "clostridium septicum",
+    "label": "Clostridium septicum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "clostridium sordellii",
+    "label": "Clostridium sordellii",
+    "group": "Bacteria"
+  },
+  {
+    "value": "coccidioides immitis",
+    "label": "Coccidioides immitis",
+    "group": "Fungi"
+  },
+  {
+    "value": "cordylobia anthropophaga",
+    "label": "Cordylobia anthropophaga (Tumbu fly myiasis)",
+    "group": "Parasites"
+  },
+  {
+    "value": "corynebacterium diphtheriae",
+    "label": "Corynebacterium diphtheriae",
+    "group": "Bacteria"
+  },
+  {
     "value": "coxiella burnetii",
     "label": "Coxiella burnetii (Q fever)",
     "group": "Bacteria"
   },
   {
-    "value": "ehrlichia chaffeensis",
-    "label": "Ehrlichia chaffeensis",
-    "group": "Bacteria"
+    "value": "cryptococcus neoformans",
+    "label": "Cryptococcus neoformans",
+    "group": "Fungi"
   },
   {
-    "value": "orientia tsutsugamushi",
-    "label": "Orientia tsutsugamushi (Scrub typhus)",
-    "group": "Bacteria"
-  },
-  {
-    "value": "mycoplasma pneumoniae",
-    "label": "Mycoplasma pneumoniae",
-    "group": "Bacteria"
-  },
-  {
-    "value": "ureaplasma urealyticum",
-    "label": "Ureaplasma urealyticum",
-    "group": "Bacteria"
-  },
-  {
-    "value": "rothia mucilaginosa",
-    "label": "Rothia mucilaginosa",
-    "group": "Bacteria"
-  },
-  {
-    "value": "tropheryma whipplei",
-    "label": "Tropheryma whipplei (Whipple's disease)",
-    "group": "Bacteria"
-  },
-  {
-    "value": "hiv",
-    "label": "Human immunodeficiency virus (HIV)",
-    "group": "Viruses"
+    "value": "cryptosporidium parvum",
+    "label": "Cryptosporidium parvum",
+    "group": "Parasites"
   },
   {
     "value": "cytomegalovirus",
@@ -295,13 +190,28 @@
     "group": "Viruses"
   },
   {
-    "value": "herpes simplex virus",
-    "label": "Herpes simplex virus (HSV)",
-    "group": "Viruses"
+    "value": "dirofilaria immitis",
+    "label": "Dirofilaria immitis",
+    "group": "Parasites"
   },
   {
-    "value": "varicella zoster virus",
-    "label": "Varicella-zoster virus (VZV)",
+    "value": "echinococcus granulosus",
+    "label": "Echinococcus granulosus",
+    "group": "Parasites"
+  },
+  {
+    "value": "ehrlichia chaffeensis",
+    "label": "Ehrlichia chaffeensis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "entamoeba histolytica",
+    "label": "Entamoeba histolytica",
+    "group": "Parasites"
+  },
+  {
+    "value": "enterovirus",
+    "label": "Enterovirus",
     "group": "Viruses"
   },
   {
@@ -310,29 +220,49 @@
     "group": "Viruses"
   },
   {
-    "value": "parvovirus b19",
-    "label": "Parvovirus B19",
-    "group": "Viruses"
+    "value": "erysipelothrix rhusiopathiae",
+    "label": "Erysipelothrix rhusiopathiae",
+    "group": "Bacteria"
   },
   {
-    "value": "enterovirus",
-    "label": "Enterovirus",
-    "group": "Viruses"
+    "value": "escherichia coli",
+    "label": "Escherichia coli",
+    "group": "Bacteria"
   },
   {
-    "value": "parainfluenza virus",
-    "label": "Parainfluenza virus",
-    "group": "Viruses"
+    "value": "fasciola hepatica",
+    "label": "Fasciola hepatica",
+    "group": "Parasites"
   },
   {
-    "value": "jc virus",
-    "label": "JC virus (PML)",
-    "group": "Viruses"
+    "value": "francisella tularensis",
+    "label": "Francisella tularensis",
+    "group": "Bacteria"
   },
   {
-    "value": "adenovirus",
-    "label": "Adenovirus",
-    "group": "Viruses"
+    "value": "fusobacterium necrophorum",
+    "label": "Fusobacterium necrophorum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "fusobacterium nucleatum",
+    "label": "Fusobacterium nucleatum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "fusobacterium species",
+    "label": "Fusobacterium species",
+    "group": "Bacteria"
+  },
+  {
+    "value": "giardia lamblia",
+    "label": "Giardia lamblia",
+    "group": "Parasites"
+  },
+  {
+    "value": "haemophilus parainfluenzae",
+    "label": "Haemophilus parainfluenzae",
+    "group": "Bacteria"
   },
   {
     "value": "hepatitis a virus",
@@ -350,18 +280,8 @@
     "group": "Viruses"
   },
   {
-    "value": "west nile virus",
-    "label": "West Nile virus",
-    "group": "Viruses"
-  },
-  {
-    "value": "measles virus",
-    "label": "Measles virus",
-    "group": "Viruses"
-  },
-  {
-    "value": "vaccinia virus",
-    "label": "Vaccinia virus",
+    "value": "herpes simplex virus",
+    "label": "Herpes simplex virus (HSV)",
     "group": "Viruses"
   },
   {
@@ -370,13 +290,18 @@
     "group": "Viruses"
   },
   {
-    "value": "rubella virus",
-    "label": "Rubella virus",
+    "value": "histoplasma capsulatum",
+    "label": "Histoplasma capsulatum",
+    "group": "Fungi"
+  },
+  {
+    "value": "hiv",
+    "label": "Human immunodeficiency virus (HIV)",
     "group": "Viruses"
   },
   {
-    "value": "molluscum contagiosum virus",
-    "label": "Molluscum contagiosum virus",
+    "value": "human papillomavirus",
+    "label": "Human papillomavirus (HPV)",
     "group": "Viruses"
   },
   {
@@ -385,133 +310,38 @@
     "group": "Viruses"
   },
   {
-    "value": "sars-cov-2",
-    "label": "SARS-CoV-2",
+    "value": "isospora belli",
+    "label": "Cystoisospora (Isospora) belli",
+    "group": "Parasites"
+  },
+  {
+    "value": "jc virus",
+    "label": "JC virus (PML)",
     "group": "Viruses"
   },
   {
-    "value": "histoplasma capsulatum",
-    "label": "Histoplasma capsulatum",
-    "group": "Fungi"
+    "value": "klebsiella pneumoniae",
+    "label": "Klebsiella pneumoniae",
+    "group": "Bacteria"
   },
   {
-    "value": "coccidioides immitis",
-    "label": "Coccidioides immitis",
-    "group": "Fungi"
+    "value": "klebsiella rhinoscleromatis",
+    "label": "Klebsiella rhinoscleromatis",
+    "group": "Bacteria"
   },
   {
-    "value": "blastomyces dermatitidis",
-    "label": "Blastomyces dermatitidis",
-    "group": "Fungi"
+    "value": "legionella micdadei",
+    "label": "Legionella micdadei",
+    "group": "Bacteria"
   },
   {
-    "value": "aspergillus fumigatus",
-    "label": "Aspergillus fumigatus",
-    "group": "Fungi"
+    "value": "legionella pneumophila",
+    "label": "Legionella pneumophila",
+    "group": "Bacteria"
   },
   {
-    "value": "cryptococcus neoformans",
-    "label": "Cryptococcus neoformans",
-    "group": "Fungi"
-  },
-  {
-    "value": "candida albicans",
-    "label": "Candida albicans",
-    "group": "Fungi"
-  },
-  {
-    "value": "pneumocystis jirovecii",
-    "label": "Pneumocystis jirovecii",
-    "group": "Fungi"
-  },
-  {
-    "value": "sporothrix schenckii",
-    "label": "Sporothrix schenckii",
-    "group": "Fungi"
-  },
-  {
-    "value": "scedosporium apiospermum",
-    "label": "Scedosporium apiospermum",
-    "group": "Fungi"
-  },
-  {
-    "value": "scedosporium boydii",
-    "label": "Scedosporium boydii (Pseudallescheria boydii)",
-    "group": "Fungi"
-  },
-  {
-    "value": "penicillium marneffei",
-    "label": "Talaromyces (Penicillium) marneffei",
-    "group": "Fungi"
-  },
-  {
-    "value": "trichophyton rubrum",
-    "label": "Trichophyton rubrum",
-    "group": "Fungi"
-  },
-  {
-    "value": "trichosporon beigelii",
-    "label": "Trichosporon beigelii",
-    "group": "Fungi"
-  },
-  {
-    "value": "prototheca wickerhamii",
-    "label": "Prototheca wickerhamii",
-    "group": "Fungi"
-  },
-  {
-    "value": "cladophialophora bantiana",
-    "label": "Cladophialophora bantiana",
-    "group": "Fungi"
-  },
-  {
-    "value": "pythium insidiosum",
-    "label": "Pythium insidiosum",
-    "group": "Fungi"
-  },
-  {
-    "value": "paracoccidioides brasiliensis",
-    "label": "Paracoccidioides brasiliensis",
-    "group": "Fungi"
-  },
-  {
-    "value": "schizophyllum commune",
-    "label": "Schizophyllum commune",
-    "group": "Fungi"
-  },
-  {
-    "value": "basidiobolus ranarum",
-    "label": "Basidiobolus ranarum",
-    "group": "Fungi"
-  },
-  {
-    "value": "toxoplasma gondii",
-    "label": "Toxoplasma gondii",
-    "group": "Parasites"
-  },
-  {
-    "value": "entamoeba histolytica",
-    "label": "Entamoeba histolytica",
-    "group": "Parasites"
-  },
-  {
-    "value": "strongyloides stercoralis",
-    "label": "Strongyloides stercoralis",
-    "group": "Parasites"
-  },
-  {
-    "value": "echinococcus granulosus",
-    "label": "Echinococcus granulosus",
-    "group": "Parasites"
-  },
-  {
-    "value": "plasmodium falciparum",
-    "label": "Plasmodium falciparum",
-    "group": "Parasites"
-  },
-  {
-    "value": "plasmodium vivax",
-    "label": "Plasmodium vivax",
+    "value": "leishmania braziliensis",
+    "label": "Leishmania braziliensis",
     "group": "Parasites"
   },
   {
@@ -525,38 +355,308 @@
     "group": "Parasites"
   },
   {
-    "value": "leishmania braziliensis",
-    "label": "Leishmania braziliensis",
+    "value": "listeria monocytogenes",
+    "label": "Listeria monocytogenes",
+    "group": "Bacteria"
+  },
+  {
+    "value": "malassezia furfur",
+    "label": "Malassezia furfur",
+    "group": "Fungi"
+  },
+  {
+    "value": "measles virus",
+    "label": "Measles virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "microsporidia",
+    "label": "Microsporidia",
     "group": "Parasites"
   },
   {
-    "value": "trypanosoma cruzi",
-    "label": "Trypanosoma cruzi",
+    "value": "molluscum contagiosum virus",
+    "label": "Molluscum contagiosum virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "mycobacterium abscessus",
+    "label": "Mycobacterium abscessus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium avium",
+    "label": "Mycobacterium avium complex",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium bovis",
+    "label": "Mycobacterium bovis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium chelonae",
+    "label": "Mycobacterium chelonae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium haemophilum",
+    "label": "Mycobacterium haemophilum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium leprae",
+    "label": "Mycobacterium leprae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium marinum",
+    "label": "Mycobacterium marinum",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium tuberculosis",
+    "label": "Mycobacterium tuberculosis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycobacterium ulcerans",
+    "label": "Mycobacterium ulcerans",
+    "group": "Bacteria"
+  },
+  {
+    "value": "mycoplasma pneumoniae",
+    "label": "Mycoplasma pneumoniae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "neisseria gonorrhoeae",
+    "label": "Neisseria gonorrhoeae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "neisseria meningitidis",
+    "label": "Neisseria meningitidis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "nocardia asteroides",
+    "label": "Nocardia asteroides",
+    "group": "Bacteria"
+  },
+  {
+    "value": "nocardia brasiliensis",
+    "label": "Nocardia brasiliensis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "nocardia cyriacigeorgica",
+    "label": "Nocardia cyriacigeorgica",
+    "group": "Bacteria"
+  },
+  {
+    "value": "nocardia nova",
+    "label": "Nocardia nova",
+    "group": "Bacteria"
+  },
+  {
+    "value": "nocardia species",
+    "label": "Nocardia species",
+    "group": "Bacteria"
+  },
+  {
+    "value": "orientia tsutsugamushi",
+    "label": "Orientia tsutsugamushi (Scrub typhus)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "paracoccidioides brasiliensis",
+    "label": "Paracoccidioides brasiliensis",
+    "group": "Fungi"
+  },
+  {
+    "value": "parainfluenza virus",
+    "label": "Parainfluenza virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "parvovirus b19",
+    "label": "Parvovirus B19",
+    "group": "Viruses"
+  },
+  {
+    "value": "pasteurella multocida",
+    "label": "Pasteurella multocida",
+    "group": "Bacteria"
+  },
+  {
+    "value": "penicillium marneffei",
+    "label": "Talaromyces (Penicillium) marneffei",
+    "group": "Fungi"
+  },
+  {
+    "value": "peptostreptococcus species",
+    "label": "Peptostreptococcus species",
+    "group": "Bacteria"
+  },
+  {
+    "value": "plasmodium falciparum",
+    "label": "Plasmodium falciparum",
     "group": "Parasites"
   },
   {
-    "value": "cryptosporidium parvum",
-    "label": "Cryptosporidium parvum",
+    "value": "plasmodium vivax",
+    "label": "Plasmodium vivax",
     "group": "Parasites"
   },
   {
-    "value": "isospora belli",
-    "label": "Cystoisospora (Isospora) belli",
+    "value": "pneumocystis jirovecii",
+    "label": "Pneumocystis jirovecii",
+    "group": "Fungi"
+  },
+  {
+    "value": "proteus mirabilis",
+    "label": "Proteus mirabilis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "prototheca wickerhamii",
+    "label": "Prototheca wickerhamii",
+    "group": "Fungi"
+  },
+  {
+    "value": "pseudomonas aeruginosa",
+    "label": "Pseudomonas aeruginosa",
+    "group": "Bacteria"
+  },
+  {
+    "value": "pseudomonas oryzihabitans",
+    "label": "Pseudomonas oryzihabitans",
+    "group": "Bacteria"
+  },
+  {
+    "value": "pythium insidiosum",
+    "label": "Pythium insidiosum",
+    "group": "Fungi"
+  },
+  {
+    "value": "respiratory syncytial virus",
+    "label": "Respiratory syncytial virus (RSV)",
+    "group": "Viruses"
+  },
+  {
+    "value": "rhizopus species",
+    "label": "Rhizopus species",
+    "group": "Fungi"
+  },
+  {
+    "value": "rhodococcus equi",
+    "label": "Rhodococcus equi",
+    "group": "Bacteria"
+  },
+  {
+    "value": "rickettsia akari",
+    "label": "Rickettsia akari (Rickettsialpox)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "rickettsia species",
+    "label": "Rickettsia species (Spotted fever group)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "rothia mucilaginosa",
+    "label": "Rothia mucilaginosa",
+    "group": "Bacteria"
+  },
+  {
+    "value": "rubella virus",
+    "label": "Rubella virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "salmonella species",
+    "label": "Salmonella species",
+    "group": "Bacteria"
+  },
+  {
+    "value": "sarcoptes scabiei",
+    "label": "Sarcoptes scabiei (Scabies)",
     "group": "Parasites"
   },
   {
-    "value": "wuchereria bancrofti",
-    "label": "Wuchereria bancrofti",
-    "group": "Parasites"
+    "value": "sars-cov-2",
+    "label": "SARS-CoV-2",
+    "group": "Viruses"
   },
   {
-    "value": "fasciola hepatica",
-    "label": "Fasciola hepatica",
-    "group": "Parasites"
+    "value": "scedosporium apiospermum",
+    "label": "Scedosporium apiospermum",
+    "group": "Fungi"
+  },
+  {
+    "value": "scedosporium boydii",
+    "label": "Scedosporium boydii (Pseudallescheria boydii)",
+    "group": "Fungi"
   },
   {
     "value": "schistosoma mansoni",
     "label": "Schistosoma mansoni",
+    "group": "Parasites"
+  },
+  {
+    "value": "schizophyllum commune",
+    "label": "Schizophyllum commune",
+    "group": "Fungi"
+  },
+  {
+    "value": "sporothrix schenckii",
+    "label": "Sporothrix schenckii",
+    "group": "Fungi"
+  },
+  {
+    "value": "staphylococcus aureus",
+    "label": "Staphylococcus aureus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "staphylococcus epidermidis",
+    "label": "Staphylococcus epidermidis",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptobacillus moniliformis",
+    "label": "Streptobacillus moniliformis (Rat-bite fever)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptococcus agalactiae",
+    "label": "Streptococcus agalactiae (Group B Strep)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptococcus anginosus",
+    "label": "Streptococcus anginosus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptococcus intermedius",
+    "label": "Streptococcus intermedius",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptococcus pneumoniae",
+    "label": "Streptococcus pneumoniae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "streptococcus pyogenes",
+    "label": "Streptococcus pyogenes (Group A Strep)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "strongyloides stercoralis",
+    "label": "Strongyloides stercoralis",
     "group": "Parasites"
   },
   {
@@ -565,28 +665,78 @@
     "group": "Parasites"
   },
   {
-    "value": "babesia microti",
-    "label": "Babesia microti",
+    "value": "toxoplasma gondii",
+    "label": "Toxoplasma gondii",
     "group": "Parasites"
   },
   {
-    "value": "dirofilaria immitis",
-    "label": "Dirofilaria immitis",
+    "value": "treponema pallidum",
+    "label": "Treponema pallidum (Syphilis)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "trichophyton rubrum",
+    "label": "Trichophyton rubrum",
+    "group": "Fungi"
+  },
+  {
+    "value": "trichosporon beigelii",
+    "label": "Trichosporon beigelii",
+    "group": "Fungi"
+  },
+  {
+    "value": "trichuris trichiura",
+    "label": "Trichuris trichiura",
     "group": "Parasites"
   },
   {
-    "value": "acanthamoeba castellanii",
-    "label": "Acanthamoeba castellanii",
+    "value": "tropheryma whipplei",
+    "label": "Tropheryma whipplei (Whipple's disease)",
+    "group": "Bacteria"
+  },
+  {
+    "value": "trypanosoma cruzi",
+    "label": "Trypanosoma cruzi",
     "group": "Parasites"
   },
   {
-    "value": "cordylobia anthropophaga",
-    "label": "Cordylobia anthropophaga (Tumbu fly myiasis)",
-    "group": "Parasites"
+    "value": "ureaplasma urealyticum",
+    "label": "Ureaplasma urealyticum",
+    "group": "Bacteria"
   },
   {
-    "value": "sarcoptes scabiei",
-    "label": "Sarcoptes scabiei (Scabies)",
+    "value": "vaccinia virus",
+    "label": "Vaccinia virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "varicella zoster virus",
+    "label": "Varicella-zoster virus (VZV)",
+    "group": "Viruses"
+  },
+  {
+    "value": "vibrio cholerae",
+    "label": "Vibrio cholerae",
+    "group": "Bacteria"
+  },
+  {
+    "value": "vibrio parahaemolyticus",
+    "label": "Vibrio parahaemolyticus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "vibrio vulnificus",
+    "label": "Vibrio vulnificus",
+    "group": "Bacteria"
+  },
+  {
+    "value": "west nile virus",
+    "label": "West Nile virus",
+    "group": "Viruses"
+  },
+  {
+    "value": "wuchereria bancrofti",
+    "label": "Wuchereria bancrofti",
     "group": "Parasites"
   }
 ]
