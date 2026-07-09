@@ -1,5 +1,5 @@
 """API routes for MicroTutor."""
 
-from . import assessment, chat, mcq, tag_review, voice
+from . import assessment, auth, chat, mcq, study_admin, tag_review, voice
 
-__all__ = ["assessment", "chat", "mcq", "tag_review", "voice"]
+__all__ = ["assessment", "auth", "chat", "mcq", "study_admin", "tag_review", "voice"]

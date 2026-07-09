@@ -1,79 +1,38 @@
-"""Human review workflow for case tags.
-
-This router exposes a lightweight review layer on top of the case
-library's current auto-parsed tags so subject-matter experts can verify
-or correct organism, syndrome, and host labels in a shared UI.
-"""
+"""Human review workflow for case tags."""
 
 from __future__ import annotations
 
-import json
-import logging
-from datetime import datetime, timezone
-from pathlib import Path
-from threading import Lock
-from typing import Any, Literal, Optional
+from typing import Any
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from pydantic import BaseModel, Field, field_validator
 
-from .cases import _PROJECT_ROOT, _load_cases
+from microtutor.api.study_dependencies import get_current_user
+from microtutor.core.study_store import (
+    get_tag_review_counts_by_case,
+    get_tag_review_draft,
+    list_reviewer_users,
+    list_tag_reviews_for_case,
+    record_usage_event,
+    upsert_tag_review,
+    upsert_tag_review_draft,
+)
 
-logger = logging.getLogger(__name__)
+from .cases import _load_cases
+
 router = APIRouter()
-
-_REVIEW_STORE_PATH = _PROJECT_ROOT / "data" / "cases" / "tag_reviews.json"
-_STORE_LOCK = Lock()
 _REQUIRED_REVIEWERS_PER_CASE = 1
 
 
-class TagReviewSubmission(BaseModel):
-    """Validated payload for a single expert review."""
-
-    reviewer_name: str = Field(..., min_length=1, max_length=80)
-    organisms: list[str] = Field(default_factory=list)
-    syndromes: list[str] = Field(default_factory=list)
-    hosts: list[str] = Field(default_factory=list)
-    notes: str = Field(default="", max_length=4000)
-
-    @field_validator("reviewer_name")
-    @classmethod
-    def clean_reviewer_name(cls, value: str) -> str:
-        cleaned = " ".join(value.split()).strip()
-        if not cleaned:
-            raise ValueError("reviewer_name cannot be empty")
-        return cleaned
-
-    @field_validator("organisms", "syndromes", "hosts", mode="before")
-    @classmethod
-    def default_list(cls, value: Any) -> list[str]:
-        if value is None:
-            return []
-        if isinstance(value, str):
-            value = [value]
-        if not isinstance(value, list):
-            raise ValueError("Expected a list of strings")
-        return value
-
-    @field_validator("organisms", "syndromes", "hosts")
-    @classmethod
-    def clean_values(cls, values: list[str]) -> list[str]:
-        return _normalize_values(values)
-
-    @field_validator("notes")
-    @classmethod
-    def clean_notes(cls, value: str) -> str:
-        return value.strip()
+def _normalize_text(value: str) -> str:
+    return " ".join(value.split()).strip()
 
 
 def _normalize_values(values: list[str]) -> list[str]:
-    """Trim, deduplicate, and preserve order for user-entered tag lists."""
     seen: set[str] = set()
     normalized: list[str] = []
     for raw in values:
-        if raw is None:
-            continue
-        cleaned = " ".join(str(raw).split()).strip()
+        cleaned = _normalize_text(str(raw))
         if not cleaned:
             continue
         key = cleaned.casefold()
@@ -85,8 +44,7 @@ def _normalize_values(values: list[str]) -> list[str]:
 
 
 def _compare_values(values: list[str]) -> list[str]:
-    """Canonical representation for equality checks that ignores order/case."""
-    return sorted(v.casefold() for v in _normalize_values(values))
+    return sorted(value.casefold() for value in _normalize_values(values))
 
 
 def _tags_by_type(tags: list[str] | None, tag_type: str) -> list[str]:
@@ -107,113 +65,6 @@ def _machine_answers(case: dict[str, Any]) -> dict[str, list[str]]:
     }
 
 
-def _empty_store() -> dict[str, Any]:
-    return {
-        "version": 1,
-        "required_reviews_per_case": _REQUIRED_REVIEWERS_PER_CASE,
-        "cases": {},
-    }
-
-
-def _load_review_store() -> dict[str, Any]:
-    if not _REVIEW_STORE_PATH.exists():
-        return _empty_store()
-
-    with open(_REVIEW_STORE_PATH) as handle:
-        store = json.load(handle)
-
-    if not isinstance(store, dict):
-        raise ValueError(f"Invalid tag review store at {_REVIEW_STORE_PATH}")
-
-    store.setdefault("version", 1)
-    store.setdefault("required_reviews_per_case", _REQUIRED_REVIEWERS_PER_CASE)
-    store.setdefault("cases", {})
-
-    if not isinstance(store["cases"], dict):
-        raise ValueError(f"Invalid tag review cases payload at {_REVIEW_STORE_PATH}")
-
-    return store
-
-
-def _save_review_store(store: dict[str, Any]) -> None:
-    _REVIEW_STORE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    tmp_path = Path(f"{_REVIEW_STORE_PATH}.tmp")
-    with open(tmp_path, "w") as handle:
-        json.dump(store, handle, indent=2)
-        handle.write("\n")
-    tmp_path.replace(_REVIEW_STORE_PATH)
-
-
-def _public_review(review: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "reviewer_name": review["reviewer_name"],
-        "organisms": review.get("organisms", []),
-        "syndromes": review.get("syndromes", []),
-        "hosts": review.get("hosts", []),
-        "notes": review.get("notes", ""),
-        "decision": review.get("decision", "modified"),
-        "submitted_at": review.get("submitted_at"),
-    }
-
-
-def _case_reviews(case_id: str, store: dict[str, Any]) -> list[dict[str, Any]]:
-    case_entry = store.get("cases", {}).get(case_id, {})
-    reviews = case_entry.get("reviews", [])
-    if not isinstance(reviews, list):
-        return []
-    return [
-        review
-        for review in reviews
-        if isinstance(review, dict) and review.get("reviewer_name")
-    ]
-
-
-def _case_review_summary(case_id: str, store: dict[str, Any]) -> dict[str, Any]:
-    reviews = _case_reviews(case_id, store)
-    reviewers = [review["reviewer_name"] for review in reviews]
-    reviewer_count = len(reviewers)
-    last_reviewed_at = max((review.get("submitted_at") for review in reviews if review.get("submitted_at")), default=None)
-    required_reviews = int(store.get("required_reviews_per_case", _REQUIRED_REVIEWERS_PER_CASE))
-
-    return {
-        "reviewer_count": reviewer_count,
-        "reviewers": reviewers,
-        "review_count": reviewer_count,
-        "last_reviewed_at": last_reviewed_at,
-        "needs_review": reviewer_count < required_reviews,
-        "required_reviews_per_case": required_reviews,
-    }
-
-
-def _case_summary(case: dict[str, Any], store: dict[str, Any]) -> dict[str, Any]:
-    review_summary = _case_review_summary(case["id"], store)
-    machine_answers = _machine_answers(case)
-    return {
-        "id": case["id"],
-        "title": case.get("title", ""),
-        "machine_answers": machine_answers,
-        "machine_answer_counts": {
-            "organisms": len(machine_answers["organisms"]),
-            "syndromes": len(machine_answers["syndromes"]),
-            "hosts": len(machine_answers["hosts"]),
-        },
-        "figures_count": len(case.get("figures", [])),
-        **review_summary,
-    }
-
-
-def _list_summary(case_summaries: list[dict[str, Any]], store: dict[str, Any]) -> dict[str, Any]:
-    reviewed_cases = sum(not case["needs_review"] for case in case_summaries)
-    total_reviews = sum(case["review_count"] for case in case_summaries)
-    return {
-        "total_cases": len(case_summaries),
-        "reviewed_cases": reviewed_cases,
-        "pending_cases": len(case_summaries) - reviewed_cases,
-        "total_reviews": total_reviews,
-        "required_reviews_per_case": int(store.get("required_reviews_per_case", _REQUIRED_REVIEWERS_PER_CASE)),
-    }
-
-
 def _find_case(case_id: str) -> dict[str, Any]:
     for case in _load_cases():
         if case.get("id") == case_id:
@@ -221,116 +72,228 @@ def _find_case(case_id: str) -> dict[str, Any]:
     raise HTTPException(status_code=404, detail=f"Case {case_id!r} not found")
 
 
+def _require_review_access(user: dict) -> dict:
+    if user.get("role") not in {"reviewer", "admin"}:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Reviewer or admin access required",
+        )
+    return user
+
+
+def _resolve_reviewer(user: dict, reviewer_user_id: str | None = None) -> dict[str, Any]:
+    reviewers = list_reviewer_users()
+    reviewer_map = {reviewer["user_id"]: reviewer for reviewer in reviewers}
+    target_id = reviewer_user_id or user["user_id"]
+
+    if user["role"] != "admin" and target_id != user["user_id"]:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="You can only save tag reviews under your own reviewer account",
+        )
+
+    reviewer = reviewer_map.get(target_id)
+    if reviewer is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Reviewer account not found",
+        )
+    return reviewer
+
+
+def _case_review_summary(case_id: str, counts_by_case: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    counts = counts_by_case.get(case_id, {})
+    reviewer_count = int(counts.get("reviewer_count", 0))
+    return {
+        "reviewer_count": reviewer_count,
+        "review_count": reviewer_count,
+        "last_reviewed_at": counts.get("last_reviewed_at"),
+        "needs_review": reviewer_count < _REQUIRED_REVIEWERS_PER_CASE,
+        "required_reviews_per_case": _REQUIRED_REVIEWERS_PER_CASE,
+    }
+
+
+class TagReviewDraftRequest(BaseModel):
+    reviewer_user_id: str | None = Field(default=None, max_length=120)
+    organisms: list[str] = Field(default_factory=list)
+    syndromes: list[str] = Field(default_factory=list)
+    hosts: list[str] = Field(default_factory=list)
+    comments: str = Field(default="", max_length=4000)
+
+    @field_validator("organisms", "syndromes", "hosts", mode="before")
+    @classmethod
+    def normalize_list_input(cls, value: Any) -> list[str]:
+        if value is None:
+            return []
+        if isinstance(value, str):
+            value = [value]
+        if not isinstance(value, list):
+            raise ValueError("Expected a list")
+        return value
+
+    @field_validator("organisms", "syndromes", "hosts")
+    @classmethod
+    def clean_values(cls, values: list[str]) -> list[str]:
+        return _normalize_values(values)
+
+    @field_validator("comments")
+    @classmethod
+    def clean_comments(cls, value: str) -> str:
+        return value.strip()
+
+
 @router.get("/tag-review/cases")
 async def list_tag_review_cases(
-    search: Optional[str] = Query(None, description="Filter by case ID, title, history, or diagnosis"),
-    status: str = Query("all", pattern="^(all|needs_review|reviewed)$"),
+    search: str | None = Query(default=None),
+    user: dict = Depends(get_current_user),
 ):
-    """Return review-oriented case summaries and queue-level counters."""
+    reviewer = _require_review_access(user)
     cases = _load_cases()
-    with _STORE_LOCK:
-        store = _load_review_store()
+    counts_by_case = get_tag_review_counts_by_case()
 
-    case_summaries = [_case_summary(case, store) for case in cases]
+    case_summaries = []
+    for case in cases:
+      machine_answers = _machine_answers(case)
+      review_summary = _case_review_summary(case["id"], counts_by_case)
+      case_summaries.append(
+          {
+              "id": case["id"],
+              "title": case.get("title", ""),
+              "machine_answers": machine_answers,
+              "machine_answer_counts": {
+                  "organisms": len(machine_answers["organisms"]),
+                  "syndromes": len(machine_answers["syndromes"]),
+                  "hosts": len(machine_answers["hosts"]),
+              },
+              "figures_count": len(case.get("figures", [])),
+              **review_summary,
+          }
+      )
 
     if search:
-        query = search.casefold()
-        matched_ids = {
-            case["id"]
-            for case in cases
-            if query in case.get("id", "").casefold()
-            or query in case.get("title", "").casefold()
-            or query in case.get("history", "").casefold()
-            or query in case.get("diagnosis", "").casefold()
-        }
-        case_summaries = [summary for summary in case_summaries if summary["id"] in matched_ids]
+        q = search.casefold()
+        case_summaries = [
+            summary
+            for summary in case_summaries
+            if q in summary["id"].casefold()
+            or q in summary["title"].casefold()
+            or q in " ".join(
+                summary["machine_answers"]["organisms"]
+                + summary["machine_answers"]["syndromes"]
+                + summary["machine_answers"]["hosts"]
+            ).casefold()
+        ]
 
-    if status == "needs_review":
-        case_summaries = [summary for summary in case_summaries if summary["needs_review"]]
-    elif status == "reviewed":
-        case_summaries = [summary for summary in case_summaries if not summary["needs_review"]]
-
-    return {
-        "summary": _list_summary(case_summaries, store),
-        "cases": case_summaries,
+    summary = {
+        "total_cases": len(case_summaries),
+        "reviewed_cases": sum(not case["needs_review"] for case in case_summaries),
+        "pending_cases": sum(case["needs_review"] for case in case_summaries),
+        "total_reviews": sum(case["review_count"] for case in case_summaries),
+        "required_reviews_per_case": _REQUIRED_REVIEWERS_PER_CASE,
     }
+    record_usage_event(event_type="view_tag_review_queue", user=reviewer, screen="tag_review")
+    return {"summary": summary, "cases": case_summaries}
 
 
 @router.get("/tag-review/cases/{case_id}")
-async def get_tag_review_case(case_id: str):
-    """Return a full case plus machine suggestions and prior expert reviews."""
+async def get_tag_review_case(
+    case_id: str,
+    reviewer_user_id: str | None = Query(default=None),
+    user: dict = Depends(get_current_user),
+):
+    reviewer = _require_review_access(user)
+    target_reviewer = _resolve_reviewer(reviewer, reviewer_user_id)
     case = _find_case(case_id)
+    counts_by_case = get_tag_review_counts_by_case()
+    reviews = list_tag_reviews_for_case(case_id)
+    draft = get_tag_review_draft(case_id, target_reviewer["user_id"])
 
-    with _STORE_LOCK:
-        store = _load_review_store()
-
-    reviews = sorted(
-        (_public_review(review) for review in _case_reviews(case_id, store)),
-        key=lambda review: review.get("submitted_at") or "",
-        reverse=True,
+    record_usage_event(
+        event_type="open_tag_review_case",
+        user=reviewer,
+        screen="tag_review",
+        case_id=case_id,
+        metadata={"reviewer_user_id": target_reviewer["user_id"]},
     )
-
     return {
         "case": case,
         "machine_answers": _machine_answers(case),
-        "review_summary": _case_review_summary(case_id, store),
+        "review_summary": _case_review_summary(case_id, counts_by_case),
         "reviews": reviews,
+        "current_draft": draft,
+        "reviewer_directory": list_reviewer_users(),
+        "selected_reviewer": target_reviewer,
     }
+
+
+@router.put("/tag-review/cases/{case_id}/draft")
+async def save_tag_review_draft(
+    case_id: str,
+    request: TagReviewDraftRequest,
+    user: dict = Depends(get_current_user),
+):
+    reviewer = _require_review_access(user)
+    target_reviewer = _resolve_reviewer(reviewer, request.reviewer_user_id)
+    _find_case(case_id)
+
+    draft = upsert_tag_review_draft(
+        case_id=case_id,
+        reviewer_user_id=target_reviewer["user_id"],
+        reviewer_name=target_reviewer["display_name"],
+        organisms=request.organisms,
+        syndromes=request.syndromes,
+        hosts=request.hosts,
+        comments=request.comments,
+    )
+    record_usage_event(
+        event_type="autosave_tag_review_draft",
+        user=reviewer,
+        screen="tag_review",
+        case_id=case_id,
+        metadata={"watermark_uuid": draft.get("watermark_uuid"), "reviewer_user_id": target_reviewer["user_id"]},
+    )
+    return {"draft": draft}
 
 
 @router.post("/tag-review/cases/{case_id}/reviews")
-async def submit_tag_review(case_id: str, submission: TagReviewSubmission):
-    """Create or update a review for a case by reviewer name."""
+async def submit_tag_review(
+    case_id: str,
+    request: TagReviewDraftRequest,
+    user: dict = Depends(get_current_user),
+):
+    reviewer = _require_review_access(user)
+    target_reviewer = _resolve_reviewer(reviewer, request.reviewer_user_id)
     case = _find_case(case_id)
     machine_answers = _machine_answers(case)
 
-    decision: Literal["accepted", "modified"] = "accepted"
+    decision = "accepted"
     if (
-        _compare_values(submission.organisms) != _compare_values(machine_answers["organisms"])
-        or _compare_values(submission.syndromes) != _compare_values(machine_answers["syndromes"])
-        or _compare_values(submission.hosts) != _compare_values(machine_answers["hosts"])
+        _compare_values(request.organisms) != _compare_values(machine_answers["organisms"])
+        or _compare_values(request.syndromes) != _compare_values(machine_answers["syndromes"])
+        or _compare_values(request.hosts) != _compare_values(machine_answers["hosts"])
     ):
         decision = "modified"
 
-    stored_review = {
-        "reviewer_name": submission.reviewer_name,
-        "reviewer_key": submission.reviewer_name.casefold(),
-        "organisms": submission.organisms,
-        "syndromes": submission.syndromes,
-        "hosts": submission.hosts,
-        "notes": submission.notes,
-        "decision": decision,
-        "submitted_at": datetime.now(timezone.utc).isoformat(),
-    }
-
-    with _STORE_LOCK:
-        store = _load_review_store()
-        case_entry = store.setdefault("cases", {}).setdefault(case_id, {"reviews": []})
-        reviews = case_entry.setdefault("reviews", [])
-
-        replaced = False
-        for index, existing in enumerate(reviews):
-            if existing.get("reviewer_key") == stored_review["reviewer_key"]:
-                reviews[index] = stored_review
-                replaced = True
-                break
-
-        if not replaced:
-            reviews.append(stored_review)
-
-        _save_review_store(store)
-        review_summary = _case_review_summary(case_id, store)
-
-    logger.info(
-        "Saved tag review for %s by %s (%s)",
-        case_id,
-        submission.reviewer_name,
-        decision,
+    review = upsert_tag_review(
+        case_id=case_id,
+        reviewer_user_id=target_reviewer["user_id"],
+        reviewer_name=target_reviewer["display_name"],
+        organisms=request.organisms,
+        syndromes=request.syndromes,
+        hosts=request.hosts,
+        comments=request.comments,
+        decision=decision,
     )
-
+    counts_by_case = get_tag_review_counts_by_case()
+    record_usage_event(
+        event_type="submit_tag_review",
+        user=reviewer,
+        screen="tag_review",
+        case_id=case_id,
+        metadata={"review_id": review.get("review_id"), "watermark_uuid": review.get("watermark_uuid")},
+    )
     return {
         "message": "Review saved",
-        "review": _public_review(stored_review),
-        "review_summary": review_summary,
-        "case_summary": _case_summary(case, store),
+        "review": review,
+        "review_summary": _case_review_summary(case_id, counts_by_case),
     }

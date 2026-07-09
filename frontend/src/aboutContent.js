@@ -54,43 +54,53 @@ export const ABOUT_ARCHITECTURE_CONTENT = {
 
 export const ABOUT_TEAM_CONTENT = {
   intro:
-    "This page is set up for four team members. Replace the placeholder roles, bios, and images below as your final copy is ready.",
+    "Meet the docent.ID team and open each profile for a fuller background and bio.",
   members: [
     {
       id: "sk-pi",
-      name: "SK-PI",
-      role: "Role / title placeholder",
+      name: "Dr. Sanjat Kanjilal",
+      role: "Principal Investigator",
       imageSrc: "/about/team/sk-pi.jpg",
-      imageAlt: "Portrait placeholder for SK-PI",
-      bio:
-        "Add a short bio here covering background, expertise, and role on docent.ID.",
+      imageAlt: "Portrait of Dr. Sanjat Kanjilal",
+      bio: [
+        "Sanjat Kanjilal is a physician-scientist, an infectious diseases physician, and a clinical microbiologist. He is the former director of the microbiology and infectious diseases course (HST 040) and an integrative physiology course (I2MS 2) for pre-clinical medical students in the Harvard-MIT Health Sciences and Technology (HST) program at Harvard Medical School and the Massachusetts Institute of Technology. He was a key member of a multi-year curriculum reform to fundamentally re-orient HST's strategy for preparing physician-scientists for research and practice in the 21st century. In addition to teaching medical students, Dr. Kanjilal attended on the Bigelow General Medicine teaching service at Massachusetts General Hospital and contributed to the training of both infectious diseases and clinical microbiology fellows at Brigham and Women's Hospital. He also has experience in the classroom from low-resource settings, having taught basic physiology to medical students in Southern Sudan at the Juba University School of Medicine.",
+        "Dr. Kanjilal has a history of innovation in medical education, having revamped HST 040 and built I2MS 2 from the ground up based on the following principles: opportunities to teach real-time clinical decision making in the face of uncertainty; a highly interactive classroom where the focus is on participation via the Socratic method; an explicit emphasis on approaching clinical problems from basic principles of pathophysiology rather than pattern recognition; coherent narratives to explicitly connect micro-scale events to macro phenomena via all scales in between; inclusion of cutting-edge, rigorous basic and translational research tailored to in-class topics; slide formats incorporating design principles for effective learning; and integration of AI and other educational technologies to support active learning of basic principles.",
+        "Dr. Kanjilal is currently a faculty member at Amsterdam University Medical Center where he heads the Microbiology Informatics Team. His research focus is on building robust, comprehensive, and safe learning health systems from multimodal observational health data.",
+      ],
     },
     {
       id: "az",
-      name: "AZ",
-      role: "Role / title placeholder",
+      name: "Andrew Zhou",
+      role: "Research Assistant",
       imageSrc: "/about/team/az.jpg",
-      imageAlt: "Portrait placeholder for AZ",
-      bio:
-        "Add a short bio here covering background, expertise, and role on docent.ID.",
+      imageAlt: "Portrait of Andrew Zhou",
+      bio: [
+        "Andrew is a medical student in the Harvard-MIT Health Sciences and Technology program. He graduated from Caltech with a degree in Chemistry in 2021 and from the University of Cambridge with an MPhil in 2022.",
+        "He hopes to become an oncologist, and his research interests are in protein engineering, computational biology, and genetics. Outside of academics, he enjoys playing tennis, running, hiking, skiing, and playing the cello.",
+      ],
     },
     {
       id: "rc",
-      name: "RC",
-      role: "Role / title placeholder",
-      imageSrc: "/about/team/rc.jpg",
-      imageAlt: "Portrait placeholder for RC",
-      bio:
-        "Add a short bio here covering background, expertise, and role on docent.ID.",
+      name: "Riccardo Conci",
+      role: "Research Assistant",
+      imageSrc: "/about/team/rc.jpeg",
+      imageAlt: "Portrait of Riccardo Conci",
+      bio: [
+        "Riccardo is a Ph.D. student in the Artificial Intelligence in Medicine program at Harvard. He graduated from the University of Cambridge with degrees in Computer Science, Computational Biology, and Neuroscience.",
+        "He also served as an acute medicine doctor in the NHS, training at Addenbrooke's and Milton Keynes University Hospital.",
+        "His research interests are in machine learning, natural language processing, and computational biology. Outside of academics, he enjoys singing and playing the piano.",
+      ],
     },
     {
       id: "sk",
-      name: "SK",
-      role: "Role / title placeholder",
+      name: "Sukanya Krishna",
+      role: "Research Assistant",
       imageSrc: "/about/team/sk.jpg",
-      imageAlt: "Portrait placeholder for SK",
-      bio:
-        "Add a short bio here covering background, expertise, and role on docent.ID.",
+      imageAlt: "Portrait of Sukanya Krishna",
+      bio: [
+        "Sukanya is a Ph.D. student in the Computer Science program at Harvard. Her research interests sit broadly in trustworthy machine learning and evaluation of large language models. She is particularly interested in the intersection of machine learning and healthcare, and her work focuses on developing methods to improve the reliability and interpretability of AI systems in clinical settings.",
+        "Outside of academics, she enjoys running and hiking, reading manga, and baking.",
+      ],
     },
   ],
 };

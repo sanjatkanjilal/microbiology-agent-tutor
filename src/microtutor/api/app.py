@@ -25,7 +25,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from microtutor.schemas.api.responses import ErrorResponse
-from microtutor.api.routes import chat, voice, mcq, assessment, cases as cases_router, tag_review
+from microtutor.api.routes import auth, chat, voice, mcq, assessment, cases as cases_router, study_admin, tag_review
 from microtutor.api.routes.admin import analytics, monitoring, config
 from microtutor.api.routes.data import database, faiss_management
 from microtutor.api.startup import get_lifespan
@@ -153,6 +153,8 @@ app.include_router(voice.router, prefix="/api/v1", tags=["voice"])
 app.include_router(mcq.router, prefix="/api/v1", tags=["mcq"])
 app.include_router(assessment.router, prefix="/api/v1", tags=["assessment"])
 app.include_router(cases_router.router, prefix="/api/v1", tags=["cases"])
+app.include_router(auth.router, prefix="/api/v1", tags=["auth"])
+app.include_router(study_admin.router, prefix="/api/v1", tags=["study-admin"])
 app.include_router(tag_review.router, prefix="/api/v1", tags=["tag-review"])
 
 # Admin routes

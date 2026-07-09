@@ -1,15 +1,12 @@
 import { useEffect, useState } from "react";
 
-const API_BASE = "/api/v1";
-const REVIEWER_STORAGE_KEY = "docent_id_tag_reviewer";
-
 const FILTERS = [
   { id: "needs_review", label: "Needs review" },
   { id: "all", label: "All cases" },
   { id: "reviewed", label: "Reviewed" },
-  { id: "no_organism", label: "No organism tag" },
-  { id: "no_syndrome", label: "No syndrome tag" },
-  { id: "no_host", label: "No host tag" },
+  { id: "no_organism", label: "No organism" },
+  { id: "no_syndrome", label: "No syndrome" },
+  { id: "no_host", label: "No host" },
 ];
 
 const CASE_SECTIONS = [
@@ -18,61 +15,6 @@ const CASE_SECTIONS = [
   { key: "diagnosis", label: "Diagnosis" },
   { key: "more_info", label: "More info" },
 ];
-
-function loadStoredReviewer() {
-  try {
-    return window.localStorage.getItem(REVIEWER_STORAGE_KEY) || "";
-  } catch {
-    return "";
-  }
-}
-
-function splitTagText(text) {
-  const seen = new Set();
-  return text
-    .split(/\n|,/)
-    .map((value) => value.trim())
-    .filter(Boolean)
-    .filter((value) => {
-      const key = value.toLowerCase();
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-}
-
-function formatTagText(values) {
-  return (values || []).join("\n");
-}
-
-function formatDateTime(value) {
-  if (!value) return "Not yet reviewed";
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return value;
-  return date.toLocaleString();
-}
-
-function getDraftKey(caseId, reviewerName) {
-  return `${caseId || ""}::${reviewerName.trim().toLowerCase() || "__anon__"}`;
-}
-
-function buildInitialDraft(detail, reviewerName) {
-  const reviewerKey = reviewerName.trim().toLowerCase();
-  const existingReview = reviewerKey
-    ? (detail.reviews || []).find(
-        (review) => review.reviewer_name.trim().toLowerCase() === reviewerKey,
-      )
-    : null;
-
-  const source = existingReview || detail.machine_answers;
-
-  return {
-    organismsText: formatTagText(source.organisms || []),
-    syndromesText: formatTagText(source.syndromes || []),
-    hostsText: formatTagText(source.hosts || []),
-    notes: existingReview?.notes || "",
-  };
-}
 
 function matchesFilter(item, filterId) {
   if (filterId === "all") return true;
@@ -84,92 +26,40 @@ function matchesFilter(item, filterId) {
   return true;
 }
 
-function TagPill({ children, tone = "default" }) {
+function formatDateTime(value) {
+  if (!value) return "—";
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : date.toLocaleString();
+}
+
+function pillStyle(tone = "default") {
   const tones = {
     default: {
       background: "var(--surface-0)",
-      border: "1px solid var(--border)",
       color: "var(--text-secondary)",
+      border: "1px solid var(--border)",
     },
     accent: {
       background: "var(--bg-accent)",
-      border: "1px solid var(--border-accent)",
       color: "var(--text-accent)",
+      border: "1px solid var(--border-accent)",
     },
     success: {
       background: "var(--bg-success)",
-      border: "1px solid var(--border-success)",
       color: "var(--text-success)",
+      border: "1px solid var(--border-success)",
     },
   };
-
-  return (
-    <span
-      style={{
-        display: "inline-flex",
-        alignItems: "center",
-        padding: "4px 8px",
-        borderRadius: 999,
-        fontSize: 12,
-        lineHeight: 1.2,
-        whiteSpace: "nowrap",
-        ...tones[tone],
-      }}
-    >
-      {children}
-    </span>
-  );
-}
-
-function TagGroup({ label, values, emptyLabel = "None suggested" }) {
-  return (
-    <div
-      style={{
-        padding: "14px 16px",
-        border: "1px solid var(--border)",
-        borderRadius: 10,
-        background: "var(--surface-1)",
-      }}
-    >
-      <div
-        style={{
-          fontSize: 11,
-          textTransform: "uppercase",
-          letterSpacing: "0.06em",
-          fontWeight: 700,
-          color: "var(--text-muted)",
-          marginBottom: 10,
-        }}
-      >
-        {label}
-      </div>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-        {values.length > 0 ? (
-          values.map((value) => <TagPill key={value}>{value}</TagPill>)
-        ) : (
-          <span style={{ color: "var(--text-muted)", fontSize: 13 }}>{emptyLabel}</span>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function SummaryCard({ label, value, hint }) {
-  return (
-    <div
-      style={{
-        padding: "16px 18px",
-        border: "1px solid var(--border)",
-        borderRadius: 12,
-        background: "var(--surface-1)",
-        minWidth: 0,
-      }}
-    >
-      <div style={{ fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>{label}</div>
-      <div style={{ fontSize: 26, fontWeight: 700, color: "var(--text-primary)", letterSpacing: "-0.03em" }}>{value}</div>
-      <div style={{ fontSize: 12, color: "var(--text-secondary)", marginTop: 4 }}>{hint}</div>
-    </div>
-  );
+  return {
+    display: "inline-flex",
+    alignItems: "center",
+    padding: "4px 9px",
+    borderRadius: 999,
+    fontSize: 12,
+    lineHeight: 1.2,
+    whiteSpace: "nowrap",
+    ...tones[tone],
+  };
 }
 
 function QueueItem({ item, selected, onSelect }) {
@@ -188,138 +78,210 @@ function QueueItem({ item, selected, onSelect }) {
         borderBottom: "1px solid var(--border)",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, marginBottom: 5 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 6 }}>
         <span style={{ fontFamily: "monospace", fontSize: 11, color: "var(--text-accent)", fontWeight: 700 }}>{item.id}</span>
-        <TagPill tone={item.needs_review ? "accent" : "success"}>
-          {item.reviewer_count} reviewer{item.reviewer_count === 1 ? "" : "s"}
-        </TagPill>
+        <span style={pillStyle(item.needs_review ? "accent" : "success")}>
+          {item.reviewer_count} review{item.reviewer_count === 1 ? "" : "s"}
+        </span>
       </div>
       <div style={{ fontSize: 13, lineHeight: 1.45, color: "var(--text-primary)", marginBottom: 8 }}>{item.title}</div>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
-        <TagPill>Org {item.machine_answer_counts.organisms}</TagPill>
-        <TagPill>Syn {item.machine_answer_counts.syndromes}</TagPill>
-        <TagPill>Host {item.machine_answer_counts.hosts}</TagPill>
+        <span style={pillStyle()}>Org {item.machine_answer_counts.organisms}</span>
+        <span style={pillStyle()}>Syn {item.machine_answer_counts.syndromes}</span>
+        <span style={pillStyle()}>Host {item.machine_answer_counts.hosts}</span>
       </div>
     </button>
   );
 }
 
-function TextSection({ label, text }) {
+function FigureGallery({ caseId, figures }) {
+  if (!figures?.length) return null;
   return (
-    <section
-      style={{
-        padding: "18px 20px",
-        border: "1px solid var(--border)",
-        borderRadius: 12,
-        background: "var(--surface-1)",
-      }}
-    >
-      <div
-        style={{
-          fontSize: 11,
-          textTransform: "uppercase",
-          letterSpacing: "0.06em",
-          fontWeight: 700,
-          color: "var(--text-muted)",
-          marginBottom: 10,
-        }}
-      >
-        {label}
+    <section style={caseSectionCard}>
+      <div style={caseSectionHeader}>Images</div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 12 }}>
+        {figures.map((figure) => (
+          <a
+            key={figure}
+            href={`/case-images/${caseId}/${figure}`}
+            target="_blank"
+            rel="noreferrer"
+            style={{ display: "block", borderRadius: 12, overflow: "hidden", border: "1px solid var(--border)", background: "var(--surface-0)" }}
+          >
+            <img
+              src={`/case-images/${caseId}/${figure}`}
+              alt={`${caseId} ${figure}`}
+              style={{ width: "100%", height: 180, objectFit: "cover", display: "block" }}
+            />
+            <div style={{ padding: "8px 10px", fontSize: 12, color: "var(--text-secondary)" }}>{figure}</div>
+          </a>
+        ))}
       </div>
-      <div style={{ whiteSpace: "pre-wrap", fontSize: 14, lineHeight: 1.7, color: "var(--text-primary)" }}>
+    </section>
+  );
+}
+
+function CaseSection({ label, text }) {
+  return (
+    <section style={caseSectionCard}>
+      <div style={caseSectionHeader}>{label}</div>
+      <div style={{ whiteSpace: "pre-wrap", fontSize: 14, lineHeight: 1.75, color: "var(--text-primary)" }}>
         {text || "No text available."}
       </div>
     </section>
   );
 }
 
-function ReviewCard({ review }) {
+function SuggestedTags({ values }) {
   return (
-    <div
-      style={{
-        padding: "14px 16px",
-        border: "1px solid var(--border)",
-        borderRadius: 10,
-        background: "var(--surface-1)",
-      }}
-    >
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, marginBottom: 8, flexWrap: "wrap" }}>
-        <div style={{ fontSize: 14, fontWeight: 600, color: "var(--text-primary)" }}>{review.reviewer_name}</div>
-        <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-          <TagPill tone={review.decision === "accepted" ? "success" : "accent"}>
-            {review.decision === "accepted" ? "Accepted suggestions" : "Modified suggestions"}
-          </TagPill>
-          <span style={{ fontSize: 12, color: "var(--text-muted)" }}>{formatDateTime(review.submitted_at)}</span>
-        </div>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+      {values.length > 0 ? (
+        values.map((value) => (
+          <span key={value} style={pillStyle("accent")}>{value}</span>
+        ))
+      ) : (
+        <span style={{ fontSize: 12, color: "var(--text-muted)" }}>No machine suggestion</span>
+      )}
+    </div>
+  );
+}
+
+function ChipInput({ label, values, suggestions, onChange, placeholder }) {
+  const [inputValue, setInputValue] = useState("");
+
+  function addValue(rawValue) {
+    const candidate = rawValue.trim().replace(/,$/, "");
+    if (!candidate) return;
+    const next = [...values];
+    if (!next.some((value) => value.toLowerCase() === candidate.toLowerCase())) {
+      next.push(candidate);
+      onChange(next);
+    }
+    setInputValue("");
+  }
+
+  function removeValue(target) {
+    onChange(values.filter((value) => value !== target));
+  }
+
+  return (
+    <div style={reviewFieldCard}>
+      <div style={{ fontSize: 12, color: "var(--text-muted)", marginBottom: 8 }}>Suggested tags</div>
+      <SuggestedTags values={suggestions} />
+      <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)", margin: "14px 0 8px" }}>{label}</div>
+      <div style={chipWrap}>
+        {values.map((value) => (
+          <span key={value} style={chipStyle}>
+            {value}
+            <button
+              type="button"
+              onClick={() => removeValue(value)}
+              style={chipRemoveButton}
+              aria-label={`Remove ${value}`}
+            >
+              ×
+            </button>
+          </span>
+        ))}
+        <input
+          value={inputValue}
+          onChange={(event) => setInputValue(event.target.value)}
+          onBlur={() => addValue(inputValue)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === ",") {
+              event.preventDefault();
+              addValue(inputValue);
+            } else if (event.key === "Backspace" && !inputValue && values.length > 0) {
+              removeValue(values[values.length - 1]);
+            }
+          }}
+          placeholder={placeholder}
+          style={chipInput}
+        />
       </div>
-      <div style={{ display: "grid", gap: 10 }}>
-        <TagGroup label="Organisms" values={review.organisms || []} emptyLabel="No organism tags" />
-        <TagGroup label="Syndromes" values={review.syndromes || []} emptyLabel="No syndrome tags" />
-        <TagGroup label="Host characteristics" values={review.hosts || []} emptyLabel="No host tags" />
+    </div>
+  );
+}
+
+function PriorReviewCard({ review }) {
+  return (
+    <div style={{ ...reviewFieldCard, gap: 10 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", gap: 8, flexWrap: "wrap" }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)" }}>{review.reviewer_name}</div>
+        <span style={pillStyle(review.decision === "accepted" ? "success" : "accent")}>{review.decision}</span>
       </div>
-      {review.notes ? (
-        <div style={{ marginTop: 12, fontSize: 13, lineHeight: 1.6, color: "var(--text-secondary)", whiteSpace: "pre-wrap" }}>
-          {review.notes}
-        </div>
+      <div style={{ fontSize: 12, color: "var(--text-muted)" }}>{formatDateTime(review.updated_at || review.created_at)}</div>
+      {review.comments ? (
+        <div style={{ fontSize: 13, lineHeight: 1.6, color: "var(--text-secondary)", whiteSpace: "pre-wrap" }}>{review.comments}</div>
       ) : null}
     </div>
   );
 }
 
-export default function TagReviewPage({ onBack }) {
-  const [reviewerName, setReviewerName] = useState(loadStoredReviewer);
+export default function TagReviewPage({ onBack, authToken, currentUser }) {
   const [queue, setQueue] = useState([]);
   const [summary, setSummary] = useState(null);
   const [queueLoading, setQueueLoading] = useState(true);
   const [queueError, setQueueError] = useState("");
-  const [selectedCaseId, setSelectedCaseId] = useState(null);
-  const [detailsById, setDetailsById] = useState({});
-  const [detailLoading, setDetailLoading] = useState(false);
-  const [detailError, setDetailError] = useState("");
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("needs_review");
-  const [drafts, setDrafts] = useState({});
+  const [selectedCaseId, setSelectedCaseId] = useState(null);
+  const [detailByCaseId, setDetailByCaseId] = useState({});
+  const [detailLoading, setDetailLoading] = useState(false);
+  const [detailError, setDetailError] = useState("");
+  const [selectedReviewerId, setSelectedReviewerId] = useState(currentUser?.user_id || "");
+  const [draft, setDraft] = useState({
+    reviewer_user_id: currentUser?.user_id || "",
+    organisms: [],
+    syndromes: [],
+    hosts: [],
+    comments: "",
+  });
   const [saveState, setSaveState] = useState({ tone: "", message: "" });
-  const [saving, setSaving] = useState(false);
+  const [hasLocalEdits, setHasLocalEdits] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(REVIEWER_STORAGE_KEY, reviewerName);
-    } catch {
-      // Ignore storage failures in private browsing or locked-down environments.
-    }
-  }, [reviewerName]);
+  function authHeaders(extra = {}) {
+    return {
+      Authorization: `Bearer ${authToken}`,
+      ...extra,
+    };
+  }
+
+  async function fetchJson(url, options = {}) {
+    const response = await fetch(url, {
+      ...options,
+      headers: authHeaders(options.headers || {}),
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data?.detail || "Request failed");
+    return data;
+  }
 
   async function loadQueue() {
     setQueueLoading(true);
     setQueueError("");
     try {
-      const response = await fetch(`${API_BASE}/tag-review/cases`);
-      if (!response.ok) throw new Error("Unable to load review queue");
-      const data = await response.json();
+      const data = await fetchJson("/api/v1/tag-review/cases");
       setQueue(data.cases || []);
       setSummary(data.summary || null);
-    } catch (error) {
-      setQueueError(error.message || "Unable to load review queue");
+    } catch (err) {
+      setQueueError(err.message || "Unable to load review queue");
     } finally {
       setQueueLoading(false);
     }
   }
 
-  async function loadDetail(caseId, force = false) {
+  async function loadDetail(caseId, reviewerUserId) {
     if (!caseId) return null;
-    if (!force && detailsById[caseId]) return detailsById[caseId];
-
     setDetailLoading(true);
     setDetailError("");
     try {
-      const response = await fetch(`${API_BASE}/tag-review/cases/${caseId}`);
-      if (!response.ok) throw new Error("Unable to load case detail");
-      const data = await response.json();
-      setDetailsById((current) => ({ ...current, [caseId]: data }));
+      const data = await fetchJson(`/api/v1/tag-review/cases/${caseId}?reviewer_user_id=${encodeURIComponent(reviewerUserId)}`);
+      setDetailByCaseId((current) => ({ ...current, [caseId]: data }));
       return data;
-    } catch (error) {
-      setDetailError(error.message || "Unable to load case detail");
+    } catch (err) {
+      setDetailError(err.message || "Unable to load case detail");
       return null;
     } finally {
       setDetailLoading(false);
@@ -330,32 +292,20 @@ export default function TagReviewPage({ onBack }) {
     loadQueue();
   }, []);
 
-  const filteredQueue = [...queue]
+  const filteredQueue = queue
     .filter((item) => matchesFilter(item, filter))
     .filter((item) => {
       const query = search.trim().toLowerCase();
       if (!query) return true;
-      const machineText = [
-        ...(item.machine_answers?.organisms || []),
-        ...(item.machine_answers?.syndromes || []),
-        ...(item.machine_answers?.hosts || []),
-      ]
-        .join(" ")
-        .toLowerCase();
       return (
         item.id.toLowerCase().includes(query)
         || item.title.toLowerCase().includes(query)
-        || machineText.includes(query)
+        || [...item.machine_answers.organisms, ...item.machine_answers.syndromes, ...item.machine_answers.hosts].join(" ").toLowerCase().includes(query)
       );
-    })
-    .sort((a, b) => {
-      if (a.needs_review !== b.needs_review) return a.needs_review ? -1 : 1;
-      if (a.reviewer_count !== b.reviewer_count) return a.reviewer_count - b.reviewer_count;
-      return a.id.localeCompare(b.id);
     });
 
   useEffect(() => {
-    if (filteredQueue.length === 0) {
+    if (!filteredQueue.length) {
       setSelectedCaseId(null);
       return;
     }
@@ -365,203 +315,106 @@ export default function TagReviewPage({ onBack }) {
   }, [filteredQueue, selectedCaseId]);
 
   useEffect(() => {
-    if (!selectedCaseId) return;
-    loadDetail(selectedCaseId);
-  }, [selectedCaseId]);
-
-  const selectedDetail = selectedCaseId ? detailsById[selectedCaseId] : null;
-  const draftKey = getDraftKey(selectedCaseId, reviewerName);
+    if (!selectedCaseId || !selectedReviewerId) return;
+    loadDetail(selectedCaseId, selectedReviewerId).then((data) => {
+      if (!data) return;
+      const source = data.current_draft || data.reviews.find((review) => review.reviewer_user_id === selectedReviewerId) || data.machine_answers;
+      setDraft({
+        reviewer_user_id: selectedReviewerId,
+        organisms: [...(source.organisms || [])],
+        syndromes: [...(source.syndromes || [])],
+        hosts: [...(source.hosts || [])],
+        comments: source.comments || "",
+      });
+      setHasLocalEdits(false);
+      setSaveState({ tone: "", message: "" });
+    });
+  }, [selectedCaseId, selectedReviewerId]);
 
   useEffect(() => {
-    if (!selectedDetail || !selectedCaseId) return;
-    setDrafts((current) => {
-      if (current[draftKey]) return current;
-      return {
-        ...current,
-        [draftKey]: buildInitialDraft(selectedDetail, reviewerName),
-      };
-    });
-  }, [draftKey, reviewerName, selectedCaseId, selectedDetail]);
+    if (!selectedCaseId || !selectedReviewerId || !hasLocalEdits) return undefined;
+    const timeoutId = window.setTimeout(async () => {
+      try {
+        const data = await fetchJson(`/api/v1/tag-review/cases/${selectedCaseId}/draft`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(draft),
+        });
+        setSaveState({
+          tone: "success",
+          message: `Autosaved ${formatDateTime(data.draft?.updated_at)} · UUID ${data.draft?.watermark_uuid || "—"}`,
+        });
+        setHasLocalEdits(false);
+      } catch (err) {
+        setSaveState({ tone: "error", message: err.message || "Autosave failed" });
+      }
+    }, 700);
+    return () => window.clearTimeout(timeoutId);
+  }, [draft, hasLocalEdits, selectedCaseId, selectedReviewerId]);
 
-  const currentDraft = drafts[draftKey] || {
-    organismsText: "",
-    syndromesText: "",
-    hostsText: "",
-    notes: "",
-  };
+  const selectedDetail = selectedCaseId ? detailByCaseId[selectedCaseId] : null;
 
-  function updateDraft(patch) {
-    setDrafts((current) => ({
-      ...current,
-      [draftKey]: {
-        ...(current[draftKey] || currentDraft),
-        ...patch,
-      },
-    }));
-  }
-
-  function resetToMachineSuggestions() {
-    if (!selectedDetail) return;
-    updateDraft({
-      organismsText: formatTagText(selectedDetail.machine_answers.organisms),
-      syndromesText: formatTagText(selectedDetail.machine_answers.syndromes),
-      hostsText: formatTagText(selectedDetail.machine_answers.hosts),
-    });
-  }
-
-  async function handleSave() {
-    if (!selectedCaseId || !selectedDetail) return;
-    const trimmedReviewer = reviewerName.trim();
-    if (!trimmedReviewer) {
-      setSaveState({ tone: "error", message: "Enter your name so reviews can be counted correctly." });
-      return;
-    }
-
-    const payload = {
-      reviewer_name: trimmedReviewer,
-      organisms: splitTagText(currentDraft.organismsText),
-      syndromes: splitTagText(currentDraft.syndromesText),
-      hosts: splitTagText(currentDraft.hostsText),
-      notes: currentDraft.notes.trim(),
-    };
-
-    setSaving(true);
-    setSaveState({ tone: "", message: "" });
-
+  async function submitReview() {
+    if (!selectedCaseId) return;
+    setSubmitting(true);
     try {
-      const response = await fetch(`${API_BASE}/tag-review/cases/${selectedCaseId}/reviews`, {
+      const data = await fetchJson(`/api/v1/tag-review/cases/${selectedCaseId}/reviews`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        body: JSON.stringify(draft),
       });
-      const data = await response.json();
-      if (!response.ok) {
-        throw new Error(data?.detail || data?.error || "Unable to save review");
-      }
-
-      await Promise.all([loadQueue(), loadDetail(selectedCaseId, true)]);
-      setDrafts((current) => ({
-        ...current,
-        [draftKey]: {
-          organismsText: formatTagText(payload.organisms),
-          syndromesText: formatTagText(payload.syndromes),
-          hostsText: formatTagText(payload.hosts),
-          notes: payload.notes,
-        },
-      }));
-      setSaveState({ tone: "success", message: "Review saved to the shared queue." });
-    } catch (error) {
-      setSaveState({ tone: "error", message: error.message || "Unable to save review." });
+      setSaveState({
+        tone: "success",
+        message: `Review submitted · UUID ${data.review?.watermark_uuid || "—"} · ${formatDateTime(data.review?.updated_at || data.review?.created_at)}`,
+      });
+      await Promise.all([loadQueue(), loadDetail(selectedCaseId, selectedReviewerId)]);
+      setHasLocalEdits(false);
+    } catch (err) {
+      setSaveState({ tone: "error", message: err.message || "Unable to submit review" });
     } finally {
-      setSaving(false);
+      setSubmitting(false);
     }
   }
 
-  const saveToneStyle = saveState.tone === "success"
-    ? { color: "var(--text-success)" }
-    : saveState.tone === "error"
-      ? { color: "var(--text-danger)" }
+  function updateDraft(patch) {
+    setDraft((current) => ({ ...current, ...patch, reviewer_user_id: selectedReviewerId }));
+    setHasLocalEdits(true);
+  }
+
+  const saveTone = saveState.tone === "error"
+    ? { color: "var(--text-danger)" }
+    : saveState.tone === "success"
+      ? { color: "var(--text-success)" }
       : { color: "var(--text-muted)" };
 
   return (
     <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", background: "var(--surface-0)", fontFamily: "var(--font-sans)" }}>
-      <div style={{ padding: "22px 24px 18px", borderBottom: "1px solid var(--border)", background: "var(--surface-0)" }}>
-        <div style={{ maxWidth: 1440, margin: "0 auto" }}>
-          <button
-            type="button"
-            onClick={onBack}
-            style={{
-              padding: "5px 12px",
-              borderRadius: "var(--radius)",
-              border: "1px solid var(--border-strong)",
-              background: "transparent",
-              color: "var(--text-secondary)",
-              cursor: "pointer",
-              fontSize: 13,
-              marginBottom: 16,
-            }}
-          >
-            ← Back
-          </button>
-
-          <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 18, flexWrap: "wrap", marginBottom: 18 }}>
-            <div style={{ minWidth: 280 }}>
-              <h1 style={{ fontSize: 28, lineHeight: 1.1, margin: 0, color: "var(--text-primary)", letterSpacing: "-0.03em" }}>Tag review queue</h1>
-              <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6, margin: "10px 0 0" }}>
-                Review organism, syndrome, and host tags against the full case text. The current suggestions are seeded from the repo&apos;s existing auto-parsed case tags.
-              </p>
-            </div>
-
-            <div style={{ width: "min(420px, 100%)" }}>
-              <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>Reviewer name</label>
-              <input
-                type="text"
-                value={reviewerName}
-                onChange={(event) => setReviewerName(event.target.value)}
-                placeholder="Enter your name"
-                style={{
-                  width: "100%",
-                  padding: "10px 12px",
-                  borderRadius: 10,
-                  border: "1px solid var(--border-strong)",
-                  background: "var(--surface-1)",
-                  color: "var(--text-primary)",
-                  fontSize: 14,
-                  boxSizing: "border-box",
-                }}
-              />
-              <div style={{ fontSize: 12, color: "var(--text-muted)", marginTop: 6 }}>
-                Re-using the same name updates your prior review instead of creating a duplicate count.
-              </div>
-            </div>
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 12 }}>
-            <SummaryCard
-              label="Cases still requiring review"
-              value={summary?.pending_cases ?? "—"}
-              hint={`Threshold: ${summary?.required_reviews_per_case ?? 1} reviewer${summary?.required_reviews_per_case === 1 ? "" : "s"} per case`}
-            />
-            <SummaryCard
-              label="Reviewed cases"
-              value={summary?.reviewed_cases ?? "—"}
-              hint="Cases that already cleared the review threshold"
-            />
-            <SummaryCard
-              label="Total cases"
-              value={summary?.total_cases ?? "—"}
-              hint="Full MGH case corpus loaded into the queue"
-            />
-            <SummaryCard
-              label="Submitted reviews"
-              value={summary?.total_reviews ?? "—"}
-              hint="Unique reviewer submissions saved so far"
-            />
-          </div>
-        </div>
+      <div style={{
+        padding: "10px 18px",
+        borderBottom: "1px solid var(--border)",
+        background: "var(--surface-1)",
+        display: "flex",
+        alignItems: "center",
+        gap: 10,
+        flexWrap: "wrap",
+      }}>
+        <button onClick={onBack} style={smallButton}>← Back</button>
+        <span style={{ ...pillStyle("accent"), fontWeight: 700 }}>Pending {summary?.pending_cases ?? "—"}</span>
+        <span style={pillStyle()}>Reviewed {summary?.reviewed_cases ?? "—"}</span>
+        <span style={pillStyle()}>Total {summary?.total_cases ?? "—"}</span>
+        <span style={pillStyle()}>Submitted reviews {summary?.total_reviews ?? "—"}</span>
       </div>
 
-      <div style={{ flex: 1, minHeight: 0, display: "grid", gridTemplateColumns: "360px minmax(0, 1fr)", overflow: "hidden" }}>
+      <div style={{ flex: 1, minHeight: 0, display: "grid", gridTemplateColumns: "320px minmax(0, 1fr) 360px", overflow: "hidden" }}>
         <aside style={{ borderRight: "1px solid var(--border)", background: "var(--surface-1)", display: "flex", flexDirection: "column", minHeight: 0 }}>
           <div style={{ padding: "14px 14px 12px", borderBottom: "1px solid var(--border)" }}>
             <input
-              type="text"
               value={search}
               onChange={(event) => setSearch(event.target.value)}
-              placeholder="Search title, case ID, or suggested tags…"
-              style={{
-                width: "100%",
-                padding: "9px 11px",
-                borderRadius: 10,
-                border: "1px solid var(--border-strong)",
-                background: "var(--surface-0)",
-                color: "var(--text-primary)",
-                fontSize: 13,
-                boxSizing: "border-box",
-                marginBottom: 10,
-              }}
+              placeholder="Search case title or tags..."
+              style={searchInput}
             />
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 10 }}>
               {FILTERS.map((item) => (
                 <button
                   key={item.id}
@@ -582,15 +435,14 @@ export default function TagReviewPage({ onBack }) {
               ))}
             </div>
             <div style={{ fontSize: 12, color: "var(--text-muted)", marginTop: 10 }}>
-              {queueLoading ? "Loading queue…" : `${filteredQueue.length} visible of ${queue.length} total cases`}
+              {queueLoading ? "Loading queue..." : `${filteredQueue.length} visible of ${queue.length}`}
             </div>
           </div>
-
           <div style={{ flex: 1, overflowY: "auto" }}>
             {queueError ? (
               <div style={{ padding: 16, color: "var(--text-danger)", fontSize: 13 }}>{queueError}</div>
             ) : queueLoading ? (
-              <div style={{ padding: 16, color: "var(--text-muted)", fontSize: 13 }}>Loading cases…</div>
+              <div style={{ padding: 16, color: "var(--text-muted)", fontSize: 13 }}>Loading cases...</div>
             ) : filteredQueue.length === 0 ? (
               <div style={{ padding: 16, color: "var(--text-muted)", fontSize: 13 }}>No cases match this filter.</div>
             ) : (
@@ -606,228 +458,273 @@ export default function TagReviewPage({ onBack }) {
           </div>
         </aside>
 
-        <main style={{ minWidth: 0, overflowY: "auto", padding: "20px 24px 56px" }}>
-          <div style={{ maxWidth: 980, margin: "0 auto", display: "grid", gap: 18 }}>
-            {!selectedCaseId ? (
-              <div
-                style={{
-                  padding: "44px 24px",
-                  border: "1px dashed var(--border-strong)",
-                  borderRadius: 16,
-                  background: "var(--surface-1)",
-                  color: "var(--text-muted)",
-                  textAlign: "center",
-                }}
-              >
-                Choose a case from the queue to start reviewing.
-              </div>
-            ) : detailError ? (
-              <div style={{ color: "var(--text-danger)", fontSize: 14 }}>{detailError}</div>
-            ) : detailLoading && !selectedDetail ? (
-              <div style={{ color: "var(--text-muted)", fontSize: 14 }}>Loading case detail…</div>
-            ) : selectedDetail ? (
-              <>
-                <section
-                  style={{
-                    padding: "18px 20px",
-                    border: "1px solid var(--border)",
-                    borderRadius: 14,
-                    background: "var(--surface-1)",
-                  }}
-                >
-                  <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
-                    <div style={{ minWidth: 0 }}>
-                      <div style={{ fontFamily: "monospace", fontSize: 12, color: "var(--text-accent)", fontWeight: 700, marginBottom: 8 }}>
-                        {selectedDetail.case.id}
-                      </div>
-                      <h2 style={{ fontSize: 24, lineHeight: 1.2, margin: 0, color: "var(--text-primary)", letterSpacing: "-0.03em" }}>
-                        {selectedDetail.case.title}
-                      </h2>
+        <main style={{ overflowY: "auto", padding: "18px 18px 40px" }}>
+          {!selectedDetail ? (
+            <div style={emptyStateCard}>
+              {detailLoading ? "Loading case..." : "Choose a case from the left to review."}
+            </div>
+          ) : (
+            <div style={{ display: "grid", gap: 14 }}>
+              <section style={{ ...caseSectionCard, background: "linear-gradient(135deg, var(--surface-1), var(--surface-0))" }}>
+                <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 14, flexWrap: "wrap" }}>
+                  <div>
+                    <div style={{ fontFamily: "monospace", fontSize: 12, color: "var(--text-accent)", fontWeight: 700, marginBottom: 8 }}>
+                      {selectedDetail.case.id}
                     </div>
-                    <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                      <TagPill tone={selectedDetail.review_summary.needs_review ? "accent" : "success"}>
-                        {selectedDetail.review_summary.needs_review ? "Needs review" : "Reviewed"}
-                      </TagPill>
-                      <TagPill>{selectedDetail.case.figures?.length || 0} figures</TagPill>
-                      <TagPill>
-                        {selectedDetail.review_summary.reviewer_count} reviewer{selectedDetail.review_summary.reviewer_count === 1 ? "" : "s"}
-                      </TagPill>
-                    </div>
+                    <h1 style={{ fontSize: 24, lineHeight: 1.2, margin: 0, color: "var(--text-primary)", letterSpacing: "-0.03em" }}>
+                      {selectedDetail.case.title}
+                    </h1>
                   </div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 12, fontSize: 13, color: "var(--text-secondary)" }}>
-                    <span>Last reviewed: {formatDateTime(selectedDetail.review_summary.last_reviewed_at)}</span>
-                    <span>
-                      Reviewers: {selectedDetail.review_summary.reviewers.length > 0 ? selectedDetail.review_summary.reviewers.join(", ") : "None yet"}
+                  <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                    <span style={pillStyle(selectedDetail.review_summary.needs_review ? "accent" : "success")}>
+                      {selectedDetail.review_summary.needs_review ? "Needs review" : "Reviewed"}
                     </span>
+                    <span style={pillStyle()}>{selectedDetail.review_summary.reviewer_count} reviewers</span>
+                    <span style={pillStyle()}>{selectedDetail.case.figures?.length || 0} images</span>
                   </div>
-                </section>
+                </div>
+                <div style={{ marginTop: 12, display: "flex", gap: 12, flexWrap: "wrap", fontSize: 12, color: "var(--text-secondary)" }}>
+                  <span>Last reviewed: {formatDateTime(selectedDetail.review_summary.last_reviewed_at)}</span>
+                  <span>Required reviewers: {selectedDetail.review_summary.required_reviews_per_case}</span>
+                </div>
+              </section>
 
-                <section
-                  style={{
-                    padding: "18px 20px",
-                    border: "1px solid var(--border)",
-                    borderRadius: 14,
-                    background: "var(--surface-1)",
-                  }}
-                >
-                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, flexWrap: "wrap", marginBottom: 14 }}>
-                    <div>
-                      <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)" }}>Machine / LLM starting point</div>
-                      <div style={{ fontSize: 13, color: "var(--text-secondary)", marginTop: 4 }}>
-                        These values are pulled from the current auto-parsed tags in <code>case_library.json</code>.
-                      </div>
-                    </div>
-                    <button
-                      type="button"
-                      onClick={resetToMachineSuggestions}
-                      style={{
-                        padding: "7px 12px",
-                        borderRadius: 10,
-                        border: "1px solid var(--border-strong)",
-                        background: "transparent",
-                        color: "var(--text-secondary)",
-                        cursor: "pointer",
-                        fontSize: 13,
-                      }}
-                    >
-                      Reset form to machine suggestions
-                    </button>
-                  </div>
-                  <div style={{ display: "grid", gap: 12 }}>
-                    <TagGroup label="Organisms" values={selectedDetail.machine_answers.organisms || []} />
-                    <TagGroup label="Syndromes" values={selectedDetail.machine_answers.syndromes || []} />
-                    <TagGroup label="Host characteristics" values={selectedDetail.machine_answers.hosts || []} />
-                  </div>
-                </section>
+              {selectedDetail.case.figures?.length ? (
+                <FigureGallery caseId={selectedDetail.case.id} figures={selectedDetail.case.figures} />
+              ) : null}
 
-                <section
-                  style={{
-                    padding: "18px 20px",
-                    border: "1px solid var(--border)",
-                    borderRadius: 14,
-                    background: "var(--surface-1)",
-                  }}
-                >
-                  <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 12 }}>Full case text</div>
-                  <div style={{ display: "grid", gap: 12 }}>
-                    {CASE_SECTIONS.map((section) => (
-                      <TextSection
-                        key={section.key}
-                        label={section.label}
-                        text={selectedDetail.case[section.key]}
-                      />
-                    ))}
-                  </div>
-                </section>
-
-                <section
-                  style={{
-                    padding: "18px 20px",
-                    border: "1px solid var(--border)",
-                    borderRadius: 14,
-                    background: "var(--surface-1)",
-                  }}
-                >
-                  <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 12 }}>Expert review</div>
-                  <div style={{ display: "grid", gap: 14 }}>
-                    <div>
-                      <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>Organisms</label>
-                      <textarea
-                        value={currentDraft.organismsText}
-                        onChange={(event) => updateDraft({ organismsText: event.target.value })}
-                        placeholder="One organism per line"
-                        style={textareaStyle}
-                      />
-                    </div>
-                    <div>
-                      <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>Syndromes</label>
-                      <textarea
-                        value={currentDraft.syndromesText}
-                        onChange={(event) => updateDraft({ syndromesText: event.target.value })}
-                        placeholder="One syndrome per line"
-                        style={textareaStyle}
-                      />
-                    </div>
-                    <div>
-                      <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>Host characteristics</label>
-                      <textarea
-                        value={currentDraft.hostsText}
-                        onChange={(event) => updateDraft({ hostsText: event.target.value })}
-                        placeholder="One host characteristic per line"
-                        style={textareaStyle}
-                      />
-                    </div>
-                    <div>
-                      <label style={{ display: "block", fontSize: 12, color: "var(--text-muted)", marginBottom: 6 }}>Notes for the team</label>
-                      <textarea
-                        value={currentDraft.notes}
-                        onChange={(event) => updateDraft({ notes: event.target.value })}
-                        placeholder="Optional context, uncertainty, or rationale"
-                        style={{ ...textareaStyle, minHeight: 96 }}
-                      />
-                    </div>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 14, flexWrap: "wrap" }}>
-                      <div style={{ fontSize: 12, ...saveToneStyle }}>{saveState.message || "One tag per line. Commas also work if you paste a list."}</div>
-                      <button
-                        type="button"
-                        disabled={saving}
-                        onClick={handleSave}
-                        style={{
-                          padding: "10px 16px",
-                          borderRadius: 10,
-                          border: "1px solid var(--border-accent)",
-                          background: saving ? "var(--fill-disabled)" : "var(--fill-accent)",
-                          color: "var(--on-accent)",
-                          cursor: saving ? "not-allowed" : "pointer",
-                          fontSize: 14,
-                          fontWeight: 600,
-                        }}
-                      >
-                        {saving ? "Saving…" : "Save review"}
-                      </button>
-                    </div>
-                  </div>
-                </section>
-
-                <section
-                  style={{
-                    padding: "18px 20px",
-                    border: "1px solid var(--border)",
-                    borderRadius: 14,
-                    background: "var(--surface-1)",
-                  }}
-                >
-                  <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 12 }}>Prior reviews</div>
-                  {selectedDetail.reviews.length === 0 ? (
-                    <div style={{ fontSize: 14, color: "var(--text-muted)" }}>No one has reviewed this case yet.</div>
-                  ) : (
-                    <div style={{ display: "grid", gap: 12 }}>
-                      {selectedDetail.reviews.map((review) => (
-                        <ReviewCard key={`${review.reviewer_name}-${review.submitted_at}`} review={review} />
-                      ))}
-                    </div>
-                  )}
-                </section>
-              </>
-            ) : null}
-          </div>
+              {CASE_SECTIONS.map((section) => (
+                <CaseSection key={section.key} label={section.label} text={selectedDetail.case[section.key]} />
+              ))}
+            </div>
+          )}
         </main>
+
+        <aside style={{ borderLeft: "1px solid var(--border)", background: "var(--surface-1)", overflowY: "auto", padding: "18px 16px 40px" }}>
+          {!selectedDetail ? (
+            <div style={emptyStateCard}>Pick a case to start reviewing.</div>
+          ) : (
+            <div style={{ display: "grid", gap: 14 }}>
+              <section style={reviewPanelCard}>
+                <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 12 }}>Expert review</div>
+                <label style={{ display: "grid", gap: 6, marginBottom: 12 }}>
+                  <span style={{ fontSize: 12, color: "var(--text-muted)" }}>Reviewer</span>
+                  <select
+                    value={selectedReviewerId}
+                    onChange={(event) => setSelectedReviewerId(event.target.value)}
+                    disabled={currentUser?.role !== "admin"}
+                    style={selectStyle}
+                  >
+                    {(selectedDetail.reviewer_directory || []).map((reviewer) => (
+                      <option key={reviewer.user_id} value={reviewer.user_id}>
+                        {reviewer.display_name} ({reviewer.role})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <ChipInput
+                  label="Organism(s)"
+                  values={draft.organisms}
+                  suggestions={selectedDetail.machine_answers.organisms || []}
+                  onChange={(values) => updateDraft({ organisms: values })}
+                  placeholder="Type organism and press Enter"
+                />
+                <ChipInput
+                  label="Syndrome(s)"
+                  values={draft.syndromes}
+                  suggestions={selectedDetail.machine_answers.syndromes || []}
+                  onChange={(values) => updateDraft({ syndromes: values })}
+                  placeholder="Type syndrome and press Enter"
+                />
+                <ChipInput
+                  label="Host characteristic(s)"
+                  values={draft.hosts}
+                  suggestions={selectedDetail.machine_answers.hosts || []}
+                  onChange={(values) => updateDraft({ hosts: values })}
+                  placeholder="Type host characteristic and press Enter"
+                />
+
+                <div style={reviewFieldCard}>
+                  <div style={{ fontSize: 12, color: "var(--text-muted)", marginBottom: 8 }}>Comments</div>
+                  <textarea
+                    value={draft.comments}
+                    onChange={(event) => updateDraft({ comments: event.target.value })}
+                    placeholder="Comments, rationale, or uncertainty"
+                    style={commentBox}
+                  />
+                </div>
+
+                <div style={{ fontSize: 12, ...saveTone }}>
+                  {saveState.message || "Autosave is on. Each draft and submitted review gets a backend UUID watermark and timestamp."}
+                </div>
+                <button
+                  type="button"
+                  onClick={submitReview}
+                  disabled={submitting}
+                  style={{
+                    padding: "10px 14px",
+                    borderRadius: 10,
+                    border: "1px solid var(--border-accent)",
+                    background: submitting ? "var(--fill-disabled)" : "var(--fill-accent)",
+                    color: "var(--on-accent)",
+                    cursor: submitting ? "not-allowed" : "pointer",
+                    fontSize: 14,
+                    fontWeight: 700,
+                  }}
+                >
+                  {submitting ? "Submitting..." : "Submit review"}
+                </button>
+              </section>
+
+              <section style={reviewPanelCard}>
+                <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text-primary)", marginBottom: 10 }}>Prior reviews</div>
+                <div style={{ display: "grid", gap: 10 }}>
+                  {selectedDetail.reviews.length > 0 ? (
+                    selectedDetail.reviews.map((review) => (
+                      <PriorReviewCard key={review.review_id || `${review.reviewer_user_id}-${review.updated_at}`} review={review} />
+                    ))
+                  ) : (
+                    <div style={{ fontSize: 13, color: "var(--text-muted)" }}>No submitted reviews yet.</div>
+                  )}
+                </div>
+              </section>
+            </div>
+          )}
+        </aside>
       </div>
     </div>
   );
 }
 
-const textareaStyle = {
+const caseSectionCard = {
+  padding: "16px 18px",
+  border: "1px solid var(--border)",
+  borderRadius: 14,
+  background: "var(--surface-1)",
+};
+
+const caseSectionHeader = {
+  fontSize: 15,
+  fontWeight: 800,
+  color: "var(--text-primary)",
+  textTransform: "uppercase",
+  letterSpacing: "0.08em",
+  marginBottom: 12,
+};
+
+const reviewPanelCard = {
+  padding: "16px 16px 18px",
+  border: "1px solid var(--border)",
+  borderRadius: 14,
+  background: "var(--surface-1)",
+  display: "grid",
+  gap: 12,
+};
+
+const reviewFieldCard = {
+  padding: "12px 12px 14px",
+  border: "1px solid var(--border)",
+  borderRadius: 12,
+  background: "var(--surface-0)",
+  display: "grid",
+  gap: 8,
+};
+
+const searchInput = {
   width: "100%",
-  minHeight: 84,
-  padding: "10px 12px",
+  padding: "9px 11px",
   borderRadius: 10,
   border: "1px solid var(--border-strong)",
   background: "var(--surface-0)",
   color: "var(--text-primary)",
-  fontSize: 14,
-  lineHeight: 1.55,
+  fontSize: 13,
+  boxSizing: "border-box",
+};
+
+const chipWrap = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: 8,
+  padding: "9px 10px",
+  borderRadius: 12,
+  border: "1px solid var(--border-strong)",
+  background: "var(--surface-1)",
+  minHeight: 52,
+};
+
+const chipStyle = {
+  display: "inline-flex",
+  alignItems: "center",
+  gap: 8,
+  padding: "6px 10px",
+  borderRadius: 999,
+  background: "var(--bg-accent)",
+  color: "var(--text-accent)",
+  border: "1px solid var(--border-accent)",
+  fontSize: 13,
+};
+
+const chipRemoveButton = {
+  border: "none",
+  background: "transparent",
+  color: "var(--text-accent)",
+  cursor: "pointer",
+  fontSize: 16,
+  lineHeight: 1,
+  padding: 0,
+};
+
+const chipInput = {
+  flex: 1,
+  minWidth: 160,
+  border: "none",
+  outline: "none",
+  background: "transparent",
+  color: "var(--text-primary)",
+  fontSize: 13,
+};
+
+const commentBox = {
+  width: "100%",
+  minHeight: 110,
+  padding: "10px 12px",
+  borderRadius: 12,
+  border: "1px solid var(--border-strong)",
+  background: "var(--surface-1)",
+  color: "var(--text-primary)",
+  fontSize: 13,
+  lineHeight: 1.6,
   resize: "vertical",
   boxSizing: "border-box",
-  fontFamily: "var(--font-sans)",
+};
+
+const selectStyle = {
+  width: "100%",
+  padding: "9px 11px",
+  borderRadius: 10,
+  border: "1px solid var(--border-strong)",
+  background: "var(--surface-0)",
+  color: "var(--text-primary)",
+  fontSize: 13,
+  boxSizing: "border-box",
+};
+
+const smallButton = {
+  padding: "5px 12px",
+  borderRadius: "var(--radius)",
+  border: "1px solid var(--border-strong)",
+  background: "transparent",
+  color: "var(--text-secondary)",
+  cursor: "pointer",
+  fontSize: 13,
+};
+
+const emptyStateCard = {
+  padding: "30px 24px",
+  borderRadius: 14,
+  border: "1px dashed var(--border-strong)",
+  background: "var(--surface-1)",
+  color: "var(--text-muted)",
+  textAlign: "center",
 };
