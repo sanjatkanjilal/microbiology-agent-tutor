@@ -1,0 +1,15 @@
+USE_AZURE_OPENAI=True
+AZURE_OPENAI_API_KEY=<API_KEY>
+AZURE_OPENAI_ENDPOINT="https://azure-ai.hms.edu"
+AZURE_OPENAI_API_VERSION="2025-03-01-preview"
+AZURE_OPENAI_DEPLOYMENT_NAME="gpt-5-mini"
+AZURE_OPENAI_MODEL_NAME="gpt-5-mini"
+OPENAI_API_TYPE="azure"
+
+QDRANT_URL=<QDRANT_URL>
+QDRANT_API_KEY=<QDRANT_API_KEY>
+
+# Database Configuration (Set USE_GLOBAL_DB=False for local dev; True when deployed on Render)
+USE_GLOBAL_DB=False
+USE_LOCAL_DB=True
+LOCAL_DATABASE_URL="sqlite:///data/microtutor.db"
