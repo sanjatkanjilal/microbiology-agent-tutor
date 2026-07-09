@@ -1,4 +1,9 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { ABOUT_ARCHITECTURE_CONTENT, ABOUT_TEAM_CONTENT } from "./aboutContent";
+import AdminPage from "./AdminPage";
+import AuthPage from "./AuthPage";
+import TagReviewPage from "./TagReviewPage";
+import TasksPage from "./TasksPage";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -409,9 +414,8 @@ function AboutDropdown({ onNavigate }) {
   }, []);
 
   const items = [
-    { id: "about_overview", label: "Overview", desc: "What is docent.ID?" },
-    { id: "about_architecture", label: "Architecture", desc: "RAG, agents & LLM pipeline" },
-    { id: "about_team", label: "The team", desc: "Who built this" },
+    { id: "about_architecture", label: "Product + Architecture", desc: "What docent.ID is and how it works" },
+    { id: "about_team", label: "The team", desc: "Photos, bios, and roles" },
   ];
 
   return (
@@ -472,6 +476,10 @@ function AboutDropdown({ onNavigate }) {
 }
 
 function AppHeader({ user, onLogout, dark, onToggleDark, onNavigate, onShowHowItWorks, onShowHistory, onShowProfile }) {
+  const isAdmin = user?.role === "admin";
+  const canReview = user?.role === "admin" || user?.role === "reviewer";
+  const pendingTasks = user?.task_summary?.pending_count || 0;
+
   return (
     <header style={{
       display: "flex", alignItems: "center", justifyContent: "space-between",
@@ -490,9 +498,32 @@ function AppHeader({ user, onLogout, dark, onToggleDark, onNavigate, onShowHowIt
         <AboutDropdown onNavigate={onNavigate} />
         <button onClick={onShowHowItWorks} style={hBtn}>How it works</button>
         <button onClick={() => onNavigate("case_library")} style={hBtn}>Case library</button>
+        {canReview && <button onClick={() => onNavigate("tag_review")} style={hBtn}>Tag review</button>}
+        <button onClick={() => onNavigate("tasks")} style={{ ...hBtn, position: "relative" }}>
+          Tasks
+          {pendingTasks > 0 && (
+            <span style={{
+              marginLeft: 6,
+              minWidth: 18,
+              height: 18,
+              borderRadius: 999,
+              background: "var(--fill-accent)",
+              color: "var(--on-accent)",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: 11,
+              fontWeight: 700,
+              padding: "0 5px",
+            }}>
+              {pendingTasks}
+            </span>
+          )}
+        </button>
+        {isAdmin && <button onClick={() => onNavigate("admin")} style={hBtn}>Admin</button>}
         <button onClick={onShowHistory} style={hBtn}>My history</button>
         <button onClick={onShowProfile} style={{ ...hBtn, background: "var(--bg-accent)", borderColor: "var(--border-accent)", color: "var(--text-accent)", fontWeight: 500 }}>
-          {user || "Account"}
+          {user?.display_name || user?.username || "Account"}
         </button>
       </div>
     </header>
@@ -1523,25 +1554,55 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   }
 }
 
-// ─── About: Overview ─────────────────────────────────────────────────────────
+function AboutImageSlot({
+  src,
+  alt,
+  title,
+  caption,
+  aspectRatio = "16 / 9",
+  showMeta = true,
+  fallbackHint = "",
+}) {
+  const [failed, setFailed] = useState(false);
 
-function AboutOverviewPage({ onBack }) {
   return (
-    <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
-        <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
-        <h1 style={pageH1}>Overview</h1>
-        <p style={pageP}>
-          docent.ID is an AI-powered clinical microbiology tutor built for medical students and trainees. It uses real cases, Socratic teaching, and evidence-based resources to help learners reason through infectious disease — not just recall it.
-        </p>
-        <p style={pageP}>
-          Rather than presenting information to read, docent.ID puts you inside a case. You interview a patient, gather findings, reason through a differential diagnosis, and justify your management plan — guided throughout by questioning that never gives away the answer.
-        </p>
-        <p style={pageP}>
-          Each session draws on real cases from the MGH ID Images library and is grounded in Mandell's Principles and Practices of Infectious Diseases. The tutor adapts to your reasoning in real time, probing gaps and reinforcing strong thinking.
-        </p>
-        <p style={{ ...pageP, color: "var(--text-muted)", fontStyle: "italic" }}>Full overview coming soon.</p>
+    <div style={{
+      border: "1px solid var(--border)", borderRadius: 14,
+      overflow: "hidden", background: "var(--surface-1)",
+    }}>
+      <div style={{
+        aspectRatio,
+        background: failed
+          ? "linear-gradient(135deg, var(--surface-0), var(--surface-1))"
+          : "var(--surface-0)",
+        borderBottom: showMeta ? "1px solid var(--border)" : "none",
+        display: "flex", alignItems: "center", justifyContent: "center",
+        position: "relative",
+      }}>
+        {!failed ? (
+          <img
+            src={src}
+            alt={alt}
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            onError={() => setFailed(true)}
+          />
+        ) : (
+          <div style={{ padding: 20, textAlign: "center", maxWidth: 320 }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)", marginBottom: 8 }}>{title}</div>
+            <div style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.6 }}>
+              {fallbackHint || <>Add an image at <code>{src}</code></>}
+            </div>
+          </div>
+        )}
       </div>
+      {showMeta ? (
+        <div style={{ padding: "12px 14px 14px" }}>
+          <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)", marginBottom: caption ? 4 : 0 }}>{title}</div>
+          {caption ? (
+            <div style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.5 }}>{caption}</div>
+          ) : null}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -1551,13 +1612,59 @@ function AboutOverviewPage({ onBack }) {
 function AboutArchitecturePage({ onBack }) {
   return (
     <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
+      <div style={{ maxWidth: 1120, margin: "0 auto" }}>
         <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
-        <h1 style={pageH1}>Architecture</h1>
-        <p style={pageP}>
-          docent.ID is built on a multi-agent pipeline that coordinates a patient agent, a preceptor agent, and a RAG-backed knowledge layer. This section will describe how those components interact, how cases are generated and retrieved, and how the LLM is guided to teach rather than tell.
-        </p>
-        <p style={{ ...pageP, color: "var(--text-muted)", fontStyle: "italic" }}>Detailed architecture documentation coming soon.</p>
+        <div style={{ marginBottom: 28 }}>
+          <h1 style={{ ...pageH1, marginBottom: 12 }}>{ABOUT_ARCHITECTURE_CONTENT.title}</h1>
+          {ABOUT_ARCHITECTURE_CONTENT.intro.map((paragraph) => (
+            <p key={paragraph} style={pageP}>{paragraph}</p>
+          ))}
+        </div>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gap: 16,
+          marginBottom: 28,
+        }}>
+          {ABOUT_ARCHITECTURE_CONTENT.imageSlots.map((image) => (
+            <AboutImageSlot
+              key={image.src}
+              src={image.src}
+              alt={image.alt}
+              title={image.title}
+              caption={image.caption}
+            />
+          ))}
+        </div>
+
+        <div style={{ marginBottom: 28 }}>
+          <h2 style={aboutSectionH2}>Product highlights</h2>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gap: 14,
+          }}>
+            {ABOUT_ARCHITECTURE_CONTENT.productHighlights.map((item) => (
+              <div key={item.title} style={aboutInfoCard}>
+                <div style={aboutInfoTitle}>{item.title}</div>
+                <div style={aboutInfoBody}>{item.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h2 style={aboutSectionH2}>Architecture at a glance</h2>
+          <div style={{ display: "grid", gap: 14 }}>
+            {ABOUT_ARCHITECTURE_CONTENT.architectureHighlights.map((item) => (
+              <div key={item.title} style={aboutInfoCard}>
+                <div style={aboutInfoTitle}>{item.title}</div>
+                <div style={aboutInfoBody}>{item.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -1565,32 +1672,119 @@ function AboutArchitecturePage({ onBack }) {
 
 // ─── About: Team ─────────────────────────────────────────────────────────────
 
+function getBioParagraphs(member) {
+  if (Array.isArray(member.bio)) {
+    return member.bio.filter((paragraph) => typeof paragraph === "string" && paragraph.trim());
+  }
+  if (typeof member.bio === "string") {
+    return member.bio
+      .split(/\n\s*\n/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean);
+  }
+  return [];
+}
+
+function getBioPreview(paragraphs, maxChars = 240) {
+  const plainText = paragraphs.join(" ").replace(/\s+/g, " ").trim();
+  if (!plainText) return { text: "", truncated: false };
+  if (plainText.length <= maxChars) return { text: plainText, truncated: false };
+
+  let trimmed = plainText.slice(0, maxChars);
+  const lastSpace = trimmed.lastIndexOf(" ");
+  if (lastSpace > maxChars * 0.65) {
+    trimmed = trimmed.slice(0, lastSpace);
+  }
+  return { text: `${trimmed}...`, truncated: true };
+}
+
 function AboutTeamPage({ onBack }) {
-  const members = [
-    { name: "Team Member 1", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 2", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 3", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 4", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 5", role: "Role TBD", bio: "Bio coming soon." },
-  ];
+  const [selectedMemberId, setSelectedMemberId] = useState(null);
+  const selectedMember = ABOUT_TEAM_CONTENT.members.find((member) => member.id === selectedMemberId) || null;
+  const selectedParagraphs = selectedMember ? getBioParagraphs(selectedMember) : [];
+
   return (
     <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
+      <div style={{ maxWidth: 1120, margin: "0 auto" }}>
         <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
         <h1 style={pageH1}>The team</h1>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16, marginTop: 8 }}>
-          {members.map((m, i) => (
-            <div key={i} style={{
-              padding: "16px 20px", background: "var(--surface-1)",
-              border: "1px solid var(--border)", borderRadius: 10,
-            }}>
-              <div style={{ fontSize: 15, fontWeight: 600, color: "var(--text-primary)", marginBottom: 2 }}>{m.name}</div>
-              <div style={{ fontSize: 12, color: "var(--text-accent)", marginBottom: 8, fontWeight: 500 }}>{m.role}</div>
-              <div style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.6 }}>{m.bio}</div>
-            </div>
-          ))}
+        <p style={{ ...pageP, maxWidth: 760 }}>{ABOUT_TEAM_CONTENT.intro}</p>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gap: 18,
+          marginTop: 18,
+        }}>
+          {ABOUT_TEAM_CONTENT.members.map((member) => {
+            const paragraphs = getBioParagraphs(member);
+            const preview = getBioPreview(paragraphs);
+
+            return (
+              <div key={member.id} style={teamMemberCard}>
+                <AboutImageSlot
+                  src={member.imageSrc}
+                  alt={member.imageAlt}
+                  title={member.name}
+                  caption=""
+                  aspectRatio="4 / 5"
+                  showMeta={false}
+                  fallbackHint={<>Add a headshot at <code>{member.imageSrc}</code></>}
+                />
+                <div style={teamMemberBody}>
+                  <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 4 }}>{member.name}</div>
+                  <div style={{ fontSize: 13, color: "var(--text-accent)", marginBottom: 12, fontWeight: 600 }}>{member.role}</div>
+                  <div style={teamBioPreview}>{preview.text}</div>
+                  <button
+                    type="button"
+                    onClick={() => setSelectedMemberId(member.id)}
+                    style={teamReadMoreButton}
+                  >
+                    {preview.truncated ? "Read more" : "View profile"}
+                  </button>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
+
+      {selectedMember ? (
+        <div style={teamModalBackdrop} onClick={() => setSelectedMemberId(null)}>
+          <div style={teamModalCard} onClick={(event) => event.stopPropagation()}>
+            <button
+              type="button"
+              onClick={() => setSelectedMemberId(null)}
+              style={teamModalClose}
+              aria-label="Close profile"
+            >
+              x
+            </button>
+            <div style={teamModalGrid}>
+              <AboutImageSlot
+                src={selectedMember.imageSrc}
+                alt={selectedMember.imageAlt}
+                title={selectedMember.name}
+                caption=""
+                aspectRatio="4 / 5"
+                showMeta={false}
+                fallbackHint={<>Add a headshot at <code>{selectedMember.imageSrc}</code></>}
+              />
+              <div>
+                <div style={{ fontSize: 28, fontWeight: 700, color: "var(--text-primary)", marginBottom: 6 }}>{selectedMember.name}</div>
+                <div style={{ fontSize: 14, color: "var(--text-accent)", marginBottom: 18, fontWeight: 600 }}>{selectedMember.role}</div>
+                <div style={{ display: "grid", gap: 14 }}>
+                  {selectedParagraphs.map((paragraph, index) => (
+                    <p key={`${selectedMember.id}-${index}`} style={teamModalParagraph}>
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -2031,6 +2225,97 @@ const caseH3 = { fontSize: 15, fontWeight: 700, color: "var(--text-primary)", ma
 const caseBodyP = { fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.75, margin: "0 0 14px", fontFamily: "var(--font-sans)" };
 const pageH1 = { fontSize: 24, fontWeight: 700, color: "var(--text-primary)", margin: "0 0 16px", letterSpacing: "-0.02em" };
 const pageP = { fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.75, margin: "0 0 14px" };
+const aboutSectionH2 = { fontSize: 18, fontWeight: 700, color: "var(--text-primary)", margin: "0 0 14px" };
+const aboutInfoCard = {
+  padding: "16px 18px",
+  background: "var(--surface-1)",
+  border: "1px solid var(--border)",
+  borderRadius: 14,
+};
+const aboutInfoTitle = { fontSize: 14, fontWeight: 700, color: "var(--text-primary)", marginBottom: 6 };
+const aboutInfoBody = { fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.65 };
+const teamMemberCard = {
+  padding: 18,
+  background: "var(--surface-1)",
+  border: "1px solid var(--border)",
+  borderRadius: 14,
+  display: "grid",
+  gap: 14,
+  alignContent: "start",
+};
+const teamMemberBody = {
+  display: "grid",
+  alignContent: "start",
+};
+const teamBioPreview = {
+  fontSize: 14,
+  color: "var(--text-secondary)",
+  lineHeight: 1.7,
+  minHeight: 120,
+  display: "-webkit-box",
+  WebkitLineClamp: 5,
+  WebkitBoxOrient: "vertical",
+  overflow: "hidden",
+  marginBottom: 14,
+};
+const teamReadMoreButton = {
+  justifySelf: "start",
+  padding: "8px 12px",
+  borderRadius: 999,
+  border: "1px solid var(--border-strong)",
+  background: "var(--surface-0)",
+  color: "var(--text-primary)",
+  cursor: "pointer",
+  fontSize: 13,
+  fontWeight: 600,
+};
+const teamModalBackdrop = {
+  position: "fixed",
+  inset: 0,
+  background: "rgba(10, 16, 24, 0.56)",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: 24,
+  zIndex: 50,
+};
+const teamModalCard = {
+  width: "min(960px, 100%)",
+  maxHeight: "min(88vh, 920px)",
+  overflowY: "auto",
+  background: "var(--surface-1)",
+  border: "1px solid var(--border)",
+  borderRadius: 18,
+  boxShadow: "0 24px 80px rgba(0, 0, 0, 0.25)",
+  padding: 24,
+  position: "relative",
+};
+const teamModalGrid = {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+  gap: 22,
+  alignItems: "start",
+};
+const teamModalClose = {
+  position: "absolute",
+  top: 14,
+  right: 14,
+  width: 34,
+  height: 34,
+  borderRadius: 999,
+  border: "1px solid var(--border-strong)",
+  background: "var(--surface-0)",
+  color: "var(--text-primary)",
+  cursor: "pointer",
+  fontSize: 16,
+  fontWeight: 700,
+};
+const teamModalParagraph = {
+  margin: 0,
+  fontSize: 14,
+  color: "var(--text-secondary)",
+  lineHeight: 1.8,
+};
 const backBtn = {
   padding: "5px 12px", borderRadius: "var(--radius)",
   border: "1px solid var(--border-strong)", background: "transparent",
@@ -2044,31 +2329,113 @@ export default function DocentID() {
   const [dark, setDark] = useDarkMode();
   const [user, setUser] = useState(null);
   const [screen, setScreen] = useState("login");
+  const [authLoading, setAuthLoading] = useState(true);
   const [caseOrganism, setCaseOrganism] = useState(null);
   const [caseModules, setCaseModules] = useState([]);
   const [modal, setModal] = useState(null);
 
   const [caseIsRandom, setCaseIsRandom] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
-  const handleLogin = (username) => { setUser(username); setScreen("setup"); };
-  const handleLogout = () => { setUser(null); setScreen("login"); setCaseOrganism(null); setCaseModules([]); setCaseIsRandom(false); setModal(null); };
+  const authToken = user?.token || "";
+
+  const refreshSession = useCallback(() => {
+    const token = window.localStorage.getItem("docent_auth_token");
+    if (!token) return Promise.resolve();
+    return fetch("/api/v1/auth/session", {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+      .then(async (response) => {
+        const data = await response.json();
+        if (!response.ok) throw new Error(data?.detail || "Session expired");
+        setUser({ ...data.user, token });
+      })
+      .catch(() => {
+        window.localStorage.removeItem("docent_auth_token");
+        setUser(null);
+        setScreen("login");
+        throw new Error("Session expired");
+      });
+  }, []);
+
+  useEffect(() => {
+    const token = window.localStorage.getItem("docent_auth_token");
+    if (!token) {
+      setAuthLoading(false);
+      return;
+    }
+
+    refreshSession()
+      .then(() => setScreen("setup"))
+      .catch(() => {
+        window.localStorage.removeItem("docent_auth_token");
+        setUser(null);
+        setScreen("login");
+      })
+      .finally(() => setAuthLoading(false));
+  }, [refreshSession]);
+
+  const handleLogin = (nextUser) => {
+    window.localStorage.setItem("docent_auth_token", nextUser.token);
+    setUser(nextUser);
+    setScreen("setup");
+  };
+  const handleLogout = () => {
+    const token = user?.token;
+    if (token) {
+      fetch("/api/v1/auth/logout", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` },
+      }).catch(() => {});
+    }
+    window.localStorage.removeItem("docent_auth_token");
+    setUser(null);
+    setScreen("login");
+    setCaseOrganism(null);
+    setCaseModules([]);
+    setCaseIsRandom(false);
+    setModal(null);
+  };
   const handleStartCase = (organism, modules, isRandom) => { setCaseOrganism(organism); setCaseModules(modules); setCaseIsRandom(!!isRandom); setScreen("chat"); };
   const handleEndCase = () => { setCaseOrganism(null); setCaseModules([]); setCaseIsRandom(false); setScreen("setup"); };
+
+  useEffect(() => {
+    if (!authToken || screen === "login") return;
+    fetch("/api/v1/usage-events", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${authToken}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        event_type: "navigate_screen",
+        screen,
+      }),
+    }).catch(() => {});
+    refreshSession().catch(() => {});
+  }, [authToken, refreshSession, screen]);
 
   const navigate = (dest) => { setScreen(dest); setModal(null); };
   const openCase = (id) => { setSelectedCase(id); setScreen("case_detail"); };
 
-  if (screen === "login") {
+  if (authLoading) {
     return (
       <>
         <style>{globalStyles}</style>
-        <LoginPage onLogin={handleLogin} dark={dark} onToggleDark={() => setDark(d => !d)} />
+        <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "var(--surface-0)", color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>
+          Loading docent.ID...
+        </div>
       </>
     );
   }
 
-  const pageScreens = ["about_overview", "about_architecture", "about_team", "case_library"];
-  const isPageScreen = pageScreens.includes(screen);
+  if (screen === "login" || !user) {
+    return (
+      <>
+        <style>{globalStyles}</style>
+        <AuthPage onLogin={handleLogin} dark={dark} onToggleDark={() => setDark(d => !d)} />
+      </>
+    );
+  }
 
   return (
     <>
@@ -2087,10 +2454,13 @@ export default function DocentID() {
 
         {screen === "setup" && <SetupScreen onStart={handleStartCase} />}
         {screen === "chat" && caseOrganism && <ChatScreen organism={caseOrganism} modules={caseModules} isRandom={caseIsRandom} onEndCase={handleEndCase} />}
-        {screen === "about_overview" && <AboutOverviewPage onBack={() => navigate("setup")} />}
         {screen === "about_architecture" && <AboutArchitecturePage onBack={() => navigate("setup")} />}
         {screen === "about_team" && <AboutTeamPage onBack={() => navigate("setup")} />}
         {screen === "case_library" && <CaseLibraryPage onBack={() => navigate("setup")} onOpenCase={openCase} />}
+        {screen === "tag_review" && (user.role === "reviewer" || user.role === "admin")
+          && <TagReviewPage onBack={() => navigate("setup")} authToken={authToken} currentUser={user} />}
+        {screen === "tasks" && <TasksPage onBack={() => navigate("setup")} authToken={authToken} />}
+        {screen === "admin" && user.role === "admin" && <AdminPage onBack={() => navigate("setup")} authToken={authToken} />}
         {screen === "case_detail" && selectedCase && <CaseDetailPage caseId={selectedCase} onBack={() => navigate("case_library")} />}
 
         {modal === "howitworks" && (
@@ -2114,11 +2484,15 @@ export default function DocentID() {
             <div style={{ display: "flex", flexDirection: "column", gap: 12, fontFamily: "var(--font-sans)" }}>
               <div style={{ padding: "12px 16px", background: "var(--surface-0)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }}>
                 <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 2, textTransform: "uppercase", letterSpacing: "0.05em" }}>Username</div>
-                <div style={{ fontSize: 15, fontWeight: 500, color: "var(--text-primary)" }}>{user}</div>
+                <div style={{ fontSize: 15, fontWeight: 500, color: "var(--text-primary)" }}>{user.username}</div>
               </div>
               <div style={{ padding: "12px 16px", background: "var(--surface-0)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }}>
                 <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 2, textTransform: "uppercase", letterSpacing: "0.05em" }}>Role</div>
-                <div style={{ fontSize: 14, color: "var(--text-secondary)" }}>Administrator</div>
+                <div style={{ fontSize: 14, color: "var(--text-secondary)", textTransform: "capitalize" }}>{user.role}</div>
+              </div>
+              <div style={{ padding: "12px 16px", background: "var(--surface-0)", borderRadius: "var(--radius)", border: "1px solid var(--border)" }}>
+                <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 2, textTransform: "uppercase", letterSpacing: "0.05em" }}>Anonymous user ID</div>
+                <div style={{ fontSize: 14, color: "var(--text-secondary)" }}>{user.anonymous_user_id}</div>
               </div>
               <button onClick={handleLogout} style={{ padding: "9px", background: "var(--bg-danger)", color: "var(--text-danger)", border: "1px solid var(--border-danger)", borderRadius: "var(--radius)", cursor: "pointer", fontSize: 14, fontFamily: "var(--font-sans)" }}>
                 Sign out

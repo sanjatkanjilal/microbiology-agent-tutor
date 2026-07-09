@@ -39,6 +39,11 @@ case.txt
 Datasets/
 docs/
 tests/
+data/study_admin.db
+data/study_admin.db-shm
+data/study_admin.db-wal
+data/*.db-shm
+data/*.db-wal
 
 # ─── Frontend (Node / Vite) ───────────────────────────────────────────────────
 frontend/node_modules/
