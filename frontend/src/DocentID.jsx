@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { ABOUT_ARCHITECTURE_CONTENT, ABOUT_TEAM_CONTENT } from "./aboutContent";
+import TagReviewPage from "./TagReviewPage";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -409,9 +411,8 @@ function AboutDropdown({ onNavigate }) {
   }, []);
 
   const items = [
-    { id: "about_overview", label: "Overview", desc: "What is docent.ID?" },
-    { id: "about_architecture", label: "Architecture", desc: "RAG, agents & LLM pipeline" },
-    { id: "about_team", label: "The team", desc: "Who built this" },
+    { id: "about_architecture", label: "Product + Architecture", desc: "What docent.ID is and how it works" },
+    { id: "about_team", label: "The team", desc: "Photos, bios, and roles" },
   ];
 
   return (
@@ -490,6 +491,7 @@ function AppHeader({ user, onLogout, dark, onToggleDark, onNavigate, onShowHowIt
         <AboutDropdown onNavigate={onNavigate} />
         <button onClick={onShowHowItWorks} style={hBtn}>How it works</button>
         <button onClick={() => onNavigate("case_library")} style={hBtn}>Case library</button>
+        <button onClick={() => onNavigate("tag_review")} style={hBtn}>Tag review</button>
         <button onClick={onShowHistory} style={hBtn}>My history</button>
         <button onClick={onShowProfile} style={{ ...hBtn, background: "var(--bg-accent)", borderColor: "var(--border-accent)", color: "var(--text-accent)", fontWeight: 500 }}>
           {user || "Account"}
@@ -1523,24 +1525,42 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   }
 }
 
-// ─── About: Overview ─────────────────────────────────────────────────────────
+function AboutImageSlot({ src, alt, title, caption, aspectRatio = "16 / 9" }) {
+  const [failed, setFailed] = useState(false);
 
-function AboutOverviewPage({ onBack }) {
   return (
-    <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
-        <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
-        <h1 style={pageH1}>Overview</h1>
-        <p style={pageP}>
-          docent.ID is an AI-powered clinical microbiology tutor built for medical students and trainees. It uses real cases, Socratic teaching, and evidence-based resources to help learners reason through infectious disease — not just recall it.
-        </p>
-        <p style={pageP}>
-          Rather than presenting information to read, docent.ID puts you inside a case. You interview a patient, gather findings, reason through a differential diagnosis, and justify your management plan — guided throughout by questioning that never gives away the answer.
-        </p>
-        <p style={pageP}>
-          Each session draws on real cases from the MGH ID Images library and is grounded in Mandell's Principles and Practices of Infectious Diseases. The tutor adapts to your reasoning in real time, probing gaps and reinforcing strong thinking.
-        </p>
-        <p style={{ ...pageP, color: "var(--text-muted)", fontStyle: "italic" }}>Full overview coming soon.</p>
+    <div style={{
+      border: "1px solid var(--border)", borderRadius: 14,
+      overflow: "hidden", background: "var(--surface-1)",
+    }}>
+      <div style={{
+        aspectRatio,
+        background: failed
+          ? "linear-gradient(135deg, var(--surface-0), var(--surface-1))"
+          : "var(--surface-0)",
+        borderBottom: "1px solid var(--border)",
+        display: "flex", alignItems: "center", justifyContent: "center",
+        position: "relative",
+      }}>
+        {!failed ? (
+          <img
+            src={src}
+            alt={alt}
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            onError={() => setFailed(true)}
+          />
+        ) : (
+          <div style={{ padding: 20, textAlign: "center", maxWidth: 320 }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)", marginBottom: 8 }}>{title}</div>
+            <div style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.6 }}>
+              Add an image at <code>{src}</code>
+            </div>
+          </div>
+        )}
+      </div>
+      <div style={{ padding: "12px 14px 14px" }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)", marginBottom: 4 }}>{title}</div>
+        <div style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.5 }}>{caption}</div>
       </div>
     </div>
   );
@@ -1551,13 +1571,59 @@ function AboutOverviewPage({ onBack }) {
 function AboutArchitecturePage({ onBack }) {
   return (
     <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
+      <div style={{ maxWidth: 1120, margin: "0 auto" }}>
         <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
-        <h1 style={pageH1}>Architecture</h1>
-        <p style={pageP}>
-          docent.ID is built on a multi-agent pipeline that coordinates a patient agent, a preceptor agent, and a RAG-backed knowledge layer. This section will describe how those components interact, how cases are generated and retrieved, and how the LLM is guided to teach rather than tell.
-        </p>
-        <p style={{ ...pageP, color: "var(--text-muted)", fontStyle: "italic" }}>Detailed architecture documentation coming soon.</p>
+        <div style={{ marginBottom: 28 }}>
+          <h1 style={{ ...pageH1, marginBottom: 12 }}>{ABOUT_ARCHITECTURE_CONTENT.title}</h1>
+          {ABOUT_ARCHITECTURE_CONTENT.intro.map((paragraph) => (
+            <p key={paragraph} style={pageP}>{paragraph}</p>
+          ))}
+        </div>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gap: 16,
+          marginBottom: 28,
+        }}>
+          {ABOUT_ARCHITECTURE_CONTENT.imageSlots.map((image) => (
+            <AboutImageSlot
+              key={image.src}
+              src={image.src}
+              alt={image.alt}
+              title={image.title}
+              caption={image.caption}
+            />
+          ))}
+        </div>
+
+        <div style={{ marginBottom: 28 }}>
+          <h2 style={aboutSectionH2}>Product highlights</h2>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gap: 14,
+          }}>
+            {ABOUT_ARCHITECTURE_CONTENT.productHighlights.map((item) => (
+              <div key={item.title} style={aboutInfoCard}>
+                <div style={aboutInfoTitle}>{item.title}</div>
+                <div style={aboutInfoBody}>{item.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h2 style={aboutSectionH2}>Architecture at a glance</h2>
+          <div style={{ display: "grid", gap: 14 }}>
+            {ABOUT_ARCHITECTURE_CONTENT.architectureHighlights.map((item) => (
+              <div key={item.title} style={aboutInfoCard}>
+                <div style={aboutInfoTitle}>{item.title}</div>
+                <div style={aboutInfoBody}>{item.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -1566,27 +1632,37 @@ function AboutArchitecturePage({ onBack }) {
 // ─── About: Team ─────────────────────────────────────────────────────────────
 
 function AboutTeamPage({ onBack }) {
-  const members = [
-    { name: "Team Member 1", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 2", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 3", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 4", role: "Role TBD", bio: "Bio coming soon." },
-    { name: "Team Member 5", role: "Role TBD", bio: "Bio coming soon." },
-  ];
   return (
     <div style={{ flex: 1, overflowY: "auto", padding: "40px 24px", fontFamily: "var(--font-sans)" }}>
-      <div style={{ maxWidth: 680, margin: "0 auto" }}>
+      <div style={{ maxWidth: 1120, margin: "0 auto" }}>
         <button onClick={onBack} style={{ ...backBtn, marginBottom: 24 }}>← Back</button>
         <h1 style={pageH1}>The team</h1>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16, marginTop: 8 }}>
-          {members.map((m, i) => (
-            <div key={i} style={{
-              padding: "16px 20px", background: "var(--surface-1)",
-              border: "1px solid var(--border)", borderRadius: 10,
+        <p style={{ ...pageP, maxWidth: 760 }}>{ABOUT_TEAM_CONTENT.intro}</p>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gap: 18,
+          marginTop: 18,
+        }}>
+          {ABOUT_TEAM_CONTENT.members.map((member) => (
+            <div key={member.id} style={{
+              padding: 18, background: "var(--surface-1)",
+              border: "1px solid var(--border)", borderRadius: 14,
+              display: "grid", gap: 14,
             }}>
-              <div style={{ fontSize: 15, fontWeight: 600, color: "var(--text-primary)", marginBottom: 2 }}>{m.name}</div>
-              <div style={{ fontSize: 12, color: "var(--text-accent)", marginBottom: 8, fontWeight: 500 }}>{m.role}</div>
-              <div style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.6 }}>{m.bio}</div>
+              <AboutImageSlot
+                src={member.imageSrc}
+                alt={member.imageAlt}
+                title={`${member.name} portrait`}
+                caption={`Replace this placeholder with a headshot at ${member.imageSrc}`}
+                aspectRatio="4 / 5"
+              />
+              <div>
+                <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text-primary)", marginBottom: 4 }}>{member.name}</div>
+                <div style={{ fontSize: 13, color: "var(--text-accent)", marginBottom: 10, fontWeight: 600 }}>{member.role}</div>
+                <div style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.7 }}>{member.bio}</div>
+              </div>
             </div>
           ))}
         </div>
@@ -2031,6 +2107,15 @@ const caseH3 = { fontSize: 15, fontWeight: 700, color: "var(--text-primary)", ma
 const caseBodyP = { fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.75, margin: "0 0 14px", fontFamily: "var(--font-sans)" };
 const pageH1 = { fontSize: 24, fontWeight: 700, color: "var(--text-primary)", margin: "0 0 16px", letterSpacing: "-0.02em" };
 const pageP = { fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.75, margin: "0 0 14px" };
+const aboutSectionH2 = { fontSize: 18, fontWeight: 700, color: "var(--text-primary)", margin: "0 0 14px" };
+const aboutInfoCard = {
+  padding: "16px 18px",
+  background: "var(--surface-1)",
+  border: "1px solid var(--border)",
+  borderRadius: 14,
+};
+const aboutInfoTitle = { fontSize: 14, fontWeight: 700, color: "var(--text-primary)", marginBottom: 6 };
+const aboutInfoBody = { fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.65 };
 const backBtn = {
   padding: "5px 12px", borderRadius: "var(--radius)",
   border: "1px solid var(--border-strong)", background: "transparent",
@@ -2067,9 +2152,6 @@ export default function DocentID() {
     );
   }
 
-  const pageScreens = ["about_overview", "about_architecture", "about_team", "case_library"];
-  const isPageScreen = pageScreens.includes(screen);
-
   return (
     <>
       <style>{globalStyles}</style>
@@ -2087,10 +2169,10 @@ export default function DocentID() {
 
         {screen === "setup" && <SetupScreen onStart={handleStartCase} />}
         {screen === "chat" && caseOrganism && <ChatScreen organism={caseOrganism} modules={caseModules} isRandom={caseIsRandom} onEndCase={handleEndCase} />}
-        {screen === "about_overview" && <AboutOverviewPage onBack={() => navigate("setup")} />}
         {screen === "about_architecture" && <AboutArchitecturePage onBack={() => navigate("setup")} />}
         {screen === "about_team" && <AboutTeamPage onBack={() => navigate("setup")} />}
         {screen === "case_library" && <CaseLibraryPage onBack={() => navigate("setup")} onOpenCase={openCase} />}
+        {screen === "tag_review" && <TagReviewPage onBack={() => navigate("setup")} />}
         {screen === "case_detail" && selectedCase && <CaseDetailPage caseId={selectedCase} onBack={() => navigate("case_library")} />}
 
         {modal === "howitworks" && (

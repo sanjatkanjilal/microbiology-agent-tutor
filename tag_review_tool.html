@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tag Review — docent.ID</title>
+<style>
+  :root {
+    --paper: #eef1ee;
+    --card: #ffffff;
+    --ink: #1c2b28;
+    --ink-soft: #4a5c58;
+    --ink-faint: #8a9895;
+    --line: #d6ddda;
+    --line-strong: #b7c2be;
+    --teal: #0f6d5e;
+    --teal-soft: #e3f1ed;
+    --amber: #c68a1b;
+    --amber-soft: #faf1de;
+    --red: #b0463c;
+    --red-soft: #fbe9e6;
+    --focus: #0f6d5e;
+    --mono: "IBM Plex Mono", "SF Mono", Menlo, Consolas, monospace;
+    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ── Top bar ─────────────────────────────────────────────── */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 18px;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    flex-shrink: 0;
+    z-index: 10;
+  }
+  .brand {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--teal);
+    white-space: nowrap;
+  }
+  .brand small {
+    display: block;
+    font-family: var(--sans);
+    font-weight: 400;
+    color: var(--ink-faint);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 1px;
+  }
+  .filebar { display: flex; gap: 8px; align-items: center; }
+  .filebtn {
+    font-family: var(--sans);
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid var(--line-strong);
+    background: var(--card);
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+  .filebtn:hover { border-color: var(--teal); color: var(--teal); }
+  .filebtn.primary { background: var(--teal); border-color: var(--teal); color: white; }
+  .filebtn.primary:hover { background: #0c5b4e; }
+  .filebtn:disabled { opacity: 0.4; cursor: not-allowed; }
+  input[type="file"] { display: none; }
+
+  .stats {
+    display: flex;
+    gap: 18px;
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  .stats b { color: var(--ink); font-weight: 700; }
+  .progress-track {
+    width: 90px; height: 5px; border-radius: 3px;
+    background: var(--line); overflow: hidden; align-self: center;
+  }
+  .progress-fill { height: 100%; background: var(--teal); transition: width 0.2s; }
+
+  /* ── Body layout ─────────────────────────────────────────── */
+  .layout { flex: 1; display: flex; overflow: hidden; min-height: 0; }
+
+  /* ── Sidebar (case list) ─────────────────────────────────── */
+  .sidebar {
+    width: 380px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--line);
+    background: var(--card);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .searchbox {
+    padding: 10px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .searchbox input[type="text"] {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--line-strong);
+    font-family: var(--sans);
+    font-size: 13px;
+    background: var(--paper);
+    color: var(--ink);
+    outline: none;
+  }
+  .searchbox input[type="text"]:focus { border-color: var(--focus); background: var(--card); }
+  .filterrow { display: flex; gap: 5px; flex-wrap: wrap; }
+  .filterchip {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--paper);
+    color: var(--ink-soft);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .filterchip.active { background: var(--teal); border-color: var(--teal); color: white; }
+
+  .caselist { flex: 1; overflow-y: auto; }
+  .caseitem {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--line);
+    border-left: 3px solid transparent;
+    cursor: pointer;
+  }
+  .caseitem:hover { background: var(--paper); }
+  .caseitem.selected { background: var(--teal-soft); }
+  .caseitem.status-reviewed { border-left-color: var(--teal); }
+  .caseitem.status-flagged { border-left-color: var(--red); }
+  .caseitem.status-pending { border-left-color: var(--amber); }
+  .caseitem .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    margin-top: 5px; flex-shrink: 0;
+    background: var(--line-strong);
+  }
+  .caseitem.status-reviewed .dot { background: var(--teal); }
+  .caseitem.status-flagged .dot { background: var(--red); }
+  .caseitem.status-pending .dot { background: var(--amber); }
+  .caseitem .meta { flex: 1; min-width: 0; }
+  .caseitem .id {
+    font-family: var(--mono); font-size: 10.5px; color: var(--ink-faint);
+  }
+  .caseitem .title {
+    font-size: 12.5px; color: var(--ink); line-height: 1.35; margin-top: 1px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .caseitem .badges { display: flex; gap: 4px; margin-top: 4px; }
+  .badge {
+    font-family: var(--mono); font-size: 9px; padding: 1px 5px; border-radius: 3px;
+    background: var(--paper); color: var(--ink-faint); border: 1px solid var(--line);
+  }
+  .badge.filled { background: var(--teal-soft); color: var(--teal); border-color: var(--teal); }
+
+  /* ── Main detail panel ───────────────────────────────────── */
+  .detail { flex: 1; overflow-y: auto; padding: 22px 34px 60px; min-height: 0; }
+  .detail-empty {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    color: var(--ink-faint); font-size: 14px; text-align: center; padding: 40px;
+  }
+  .detail-inner { max-width: 760px; margin: 0 auto; }
+
+  .detail-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 4px; }
+  .case-id-label {
+    font-family: var(--mono); font-size: 11.5px; color: var(--teal); font-weight: 700; letter-spacing: 0.03em;
+  }
+  .nav-buttons { display: flex; gap: 6px; }
+  .navbtn {
+    font-family: var(--mono); font-size: 12px; padding: 4px 10px; border-radius: 5px;
+    border: 1px solid var(--line-strong); background: var(--card); color: var(--ink-soft); cursor: pointer;
+  }
+  .navbtn:hover { border-color: var(--teal); color: var(--teal); }
+
+  h1.case-title { font-size: 20px; font-weight: 700; line-height: 1.3; margin: 6px 0 18px; letter-spacing: -0.01em; }
+
+  .status-row { display: flex; gap: 8px; margin-bottom: 22px; }
+  .statusbtn {
+    font-family: var(--sans); font-size: 12px; font-weight: 600; padding: 6px 13px;
+    border-radius: 5px; border: 1px solid var(--line-strong); background: var(--card);
+    color: var(--ink-soft); cursor: pointer;
+  }
+  .statusbtn.pending.active { background: var(--amber-soft); border-color: var(--amber); color: var(--amber); }
+  .statusbtn.reviewed.active { background: var(--teal-soft); border-color: var(--teal); color: var(--teal); }
+  .statusbtn.flagged.active { background: var(--red-soft); border-color: var(--red); color: var(--red); }
+
+  .source-block {
+    background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    padding: 14px 16px; margin-bottom: 22px;
+  }
+  .source-block h3 {
+    font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--ink-faint); margin: 0 0 8px;
+  }
+  .source-block p { font-size: 14px; line-height: 1.65; color: var(--ink); margin: 0 0 10px; white-space: pre-wrap; }
+  .source-block p:last-child { margin-bottom: 0; }
+  .source-block .collapsed { max-height: 130px; overflow: hidden; position: relative; }
+  .source-block .collapsed::after {
+    content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 40px;
+    background: linear-gradient(transparent, var(--card));
+  }
+  .expand-link {
+    font-family: var(--sans); font-size: 12px; font-weight: 600; color: var(--teal);
+    cursor: pointer; background: none; border: none; padding: 0; text-decoration: underline;
+  }
+
+  .field-group { margin-bottom: 22px; }
+  .field-group label {
+    display: block; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-faint); margin-bottom: 7px;
+  }
+  .chip-input-wrap {
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+    padding: 7px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--card);
+    min-height: 40px;
+  }
+  .chip-input-wrap:focus-within { border-color: var(--focus); box-shadow: 0 0 0 2px var(--teal-soft); }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12.5px; padding: 3px 4px 3px 10px; border-radius: 999px;
+    background: var(--teal-soft); color: var(--teal); border: 1px solid var(--teal);
+    white-space: nowrap;
+  }
+  .chip button {
+    border: none; background: none; color: var(--teal); cursor: pointer; font-size: 14px;
+    line-height: 1; padding: 2px 5px; border-radius: 50%;
+  }
+  .chip button:hover { background: rgba(15, 109, 94, 0.18); }
+  .chip-input-wrap input {
+    border: none; outline: none; font-family: var(--sans); font-size: 13px;
+    flex: 1; min-width: 120px; padding: 4px; background: transparent; color: var(--ink);
+  }
+  .hint { font-size: 11px; color: var(--ink-faint); margin-top: 5px; }
+
+  .note-box textarea {
+    width: 100%; min-height: 60px; padding: 9px 11px; border-radius: 7px;
+    border: 1px solid var(--line-strong); font-family: var(--sans); font-size: 13px;
+    background: var(--card); color: var(--ink); resize: vertical; outline: none;
+  }
+  .note-box textarea:focus { border-color: var(--focus); }
+
+  .figures-note { font-size: 12px; color: var(--ink-faint); margin-top: -8px; margin-bottom: 20px; }
+
+  datalist {}
+
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  .kbd { font-family: var(--mono); font-size: 10.5px; background: var(--paper); border: 1px solid var(--line-strong); border-radius: 3px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">docent.ID<small>Tag review</small></div>
+  <div class="filebar">
+    <label class="filebtn primary" for="loadCaseFile">Load case_library.json</label>
+    <input type="file" id="loadCaseFile" accept=".json">
+    <label class="filebtn" for="loadOrgFile">Load organisms.json</label>
+    <input type="file" id="loadOrgFile" accept=".json">
+    <button class="filebtn" id="exportBtn" disabled>Export corrected JSON</button>
+    <button class="filebtn" id="clearBtn" disabled title="Clear saved progress from this browser">Clear saved progress</button>
+  </div>
+  <div class="stats" id="statsBar" style="display:none">
+    <span><b id="statReviewed">0</b>/<span id="statTotal">0</span> reviewed</span>
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <span>organism <b id="statOrganism">0</b></span>
+    <span>syndrome <b id="statSyndrome">0</b></span>
+    <span>host <b id="statHost">0</b></span>
+    <span>flagged <b id="statFlagged">0</b></span>
+  </div>
+</header>
+
+<div class="layout" id="mainLayout" style="display:none">
+  <div class="sidebar">
+    <div class="searchbox">
+      <input type="text" id="searchInput" placeholder="Search title or diagnosis… ( / )">
+      <div class="filterrow" id="filterRow">
+        <span class="filterchip active" data-filter="all">All</span>
+        <span class="filterchip" data-filter="pending">Pending</span>
+        <span class="filterchip" data-filter="reviewed">Reviewed</span>
+        <span class="filterchip" data-filter="flagged">Flagged</span>
+        <span class="filterchip" data-filter="no-organism">No organism</span>
+        <span class="filterchip" data-filter="no-syndrome">No syndrome</span>
+        <span class="filterchip" data-filter="no-host">No host</span>
+      </div>
+    </div>
+    <div class="caselist" id="caseList"></div>
+  </div>
+
+  <div class="detail" id="detailPanel">
+    <div class="detail-empty">Select a case from the list, or press <span class="kbd">j</span>/<span class="kbd">k</span> to navigate.</div>
+  </div>
+</div>
+
+<div class="detail-empty" id="emptyState" style="flex:1">
+  Load <b>data/cases/case_library.json</b> to start reviewing.<br>
+  <span style="font-size:12.5px; margin-top:8px; display:block; color:var(--ink-faint)">
+    Optionally load <b>data/cases/organisms.json</b> too, for organism-name autocomplete.<br>
+    Everything runs locally in this browser tab — nothing is uploaded anywhere.
+  </span>
+</div>
+
+<datalist id="organismOptions"></datalist>
+<datalist id="syndromeOptions"></datalist>
+<datalist id="hostOptions"></datalist>
+
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "docentid_tag_review_v1";
+
+  let cases = [];          // full case objects, mutated in place as edits happen
+  let byId = new Map();
+  let organismLabels = []; // for autocomplete
+  let filteredIds = [];    // currently visible case ids, in order
+  let selectedId = null;
+  let currentFilter = "all";
+  let searchQuery = "";
+
+  const els = {
+    loadCaseFile: document.getElementById("loadCaseFile"),
+    loadOrgFile: document.getElementById("loadOrgFile"),
+    exportBtn: document.getElementById("exportBtn"),
+    clearBtn: document.getElementById("clearBtn"),
+    statsBar: document.getElementById("statsBar"),
+    mainLayout: document.getElementById("mainLayout"),
+    emptyState: document.getElementById("emptyState"),
+    caseList: document.getElementById("caseList"),
+    detailPanel: document.getElementById("detailPanel"),
+    searchInput: document.getElementById("searchInput"),
+    filterRow: document.getElementById("filterRow"),
+    organismOptions: document.getElementById("organismOptions"),
+  };
+
+  // ── Tag helpers ──────────────────────────────────────────────
+  function tagsByType(tags, type) {
+    const prefix = type + ":";
+    return (tags || []).filter(t => t.startsWith(prefix)).map(t => t.slice(prefix.length));
+  }
+  function buildTags(organism, syndrome, host) {
+    const tags = [];
+    organism.forEach(v => tags.push("organism:" + v));
+    syndrome.forEach(v => tags.push("syndrome:" + v));
+    host.forEach(v => tags.push("host:" + v));
+    return tags;
+  }
+
+  function diagnosisLead(diagnosis, nSentences) {
+    const text = (diagnosis || "").replace(/\n/g, " ");
+    const parts = text.split(/(?<=[a-z0-9)])\.\s+(?=[A-Z])/);
+    return parts.slice(0, nSentences || 3).join(". ");
+  }
+
+  // ── Persistence (localStorage autosave of edits) ────────────
+  function loadSavedEdits() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch (e) { return {}; }
+  }
+  function saveEdits() {
+    const edits = {};
+    cases.forEach(c => {
+      edits[c.id] = {
+        tags: c.tags,
+        review_status: c.review_status || "pending",
+        review_note: c.review_note || "",
+      };
+    });
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(edits)); } catch (e) { /* ignore quota errors */ }
+  }
+  function applySavedEdits() {
+    const saved = loadSavedEdits();
+    cases.forEach(c => {
+      const s = saved[c.id];
+      if (s) {
+        c.tags = s.tags || c.tags;
+        c.review_status = s.review_status || "pending";
+        c.review_note = s.review_note || "";
+      } else {
+        c.review_status = c.review_status || "pending";
+        c.review_note = c.review_note || "";
+      }
+    });
+  }
+
+  // ── File loading ─────────────────────────────────────────────
+  els.loadCaseFile.addEventListener("change", e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = evt => {
+      try {
+        cases = JSON.parse(evt.target.result);
+        byId = new Map(cases.map(c => [c.id, c]));
+        applySavedEdits();
+        onDataLoaded();
+      } catch (err) {
+        alert("Couldn't parse that file as JSON: " + err.message);
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  els.loadOrgFile.addEventListener("change", e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = evt => {
+      try {
+        const organisms = JSON.parse(evt.target.result);
+        organismLabels = organisms.map(o => o.label);
+        els.organismOptions.innerHTML = organismLabels.map(l => `<option value="${escapeHtml(l)}">`).join("");
+      } catch (err) {
+        alert("Couldn't parse that file as JSON: " + err.message);
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  function onDataLoaded() {
+    els.emptyState.style.display = "none";
+    els.mainLayout.style.display = "flex";
+    els.statsBar.style.display = "flex";
+    els.exportBtn.disabled = false;
+    els.clearBtn.disabled = false;
+    applyFilter();
+    if (filteredIds.length) selectCase(filteredIds[0]);
+    updateStats();
+  }
+
+  function escapeHtml(s) {
+    return (s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  // ── Filtering / search ───────────────────────────────────────
+  els.filterRow.addEventListener("click", e => {
+    const chip = e.target.closest(".filterchip");
+    if (!chip) return;
+    document.querySelectorAll(".filterchip").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    currentFilter = chip.dataset.filter;
+    applyFilter();
+  });
+
+  els.searchInput.addEventListener("input", e => {
+    searchQuery = e.target.value.trim().toLowerCase();
+    applyFilter();
+  });
+
+  function matchesFilter(c) {
+    switch (currentFilter) {
+      case "pending": return (c.review_status || "pending") === "pending";
+      case "reviewed": return c.review_status === "reviewed";
+      case "flagged": return c.review_status === "flagged";
+      case "no-organism": return tagsByType(c.tags, "organism").length === 0;
+      case "no-syndrome": return tagsByType(c.tags, "syndrome").length === 0;
+      case "no-host": return tagsByType(c.tags, "host").length === 0;
+      default: return true;
+    }
+  }
+  function matchesSearch(c) {
+    if (!searchQuery) return true;
+    return (c.title || "").toLowerCase().includes(searchQuery)
+      || (c.diagnosis || "").toLowerCase().includes(searchQuery)
+      || (c.id || "").toLowerCase().includes(searchQuery);
+  }
+
+  function applyFilter() {
+    filteredIds = cases.filter(c => matchesFilter(c) && matchesSearch(c)).map(c => c.id);
+    renderCaseList();
+  }
+
+  // ── Sidebar list rendering ───────────────────────────────────
+  function renderCaseList() {
+    const html = filteredIds.map(id => {
+      const c = byId.get(id);
+      const status = c.review_status || "pending";
+      const orgN = tagsByType(c.tags, "organism").length;
+      const synN = tagsByType(c.tags, "syndrome").length;
+      const hostN = tagsByType(c.tags, "host").length;
+      return `
+        <div class="caseitem status-${status} ${id === selectedId ? "selected" : ""}" data-id="${escapeHtml(id)}">
+          <div class="dot"></div>
+          <div class="meta">
+            <div class="id">${escapeHtml(id)}</div>
+            <div class="title">${escapeHtml(c.title || "(no title)")}</div>
+            <div class="badges">
+              <span class="badge ${orgN ? "filled" : ""}">org ${orgN}</span>
+              <span class="badge ${synN ? "filled" : ""}">syn ${synN}</span>
+              <span class="badge ${hostN ? "filled" : ""}">host ${hostN}</span>
+            </div>
+          </div>
+        </div>`;
+    }).join("");
+    els.caseList.innerHTML = html || `<div style="padding:20px; color:var(--ink-faint); font-size:13px;">No cases match this filter.</div>`;
+  }
+
+  els.caseList.addEventListener("click", e => {
+    const item = e.target.closest(".caseitem");
+    if (item) selectCase(item.dataset.id);
+  });
+
+  // ── Detail panel ─────────────────────────────────────────────
+  function selectCase(id) {
+    selectedId = id;
+    renderCaseList();
+    renderDetail();
+    const el = els.caseList.querySelector(`.caseitem[data-id="${CSS.escape(id)}"]`);
+    if (el) el.scrollIntoView({ block: "nearest" });
+  }
+
+  function renderDetail() {
+    const c = byId.get(selectedId);
+    if (!c) {
+      els.detailPanel.innerHTML = `<div class="detail-empty">Select a case from the list.</div>`;
+      return;
+    }
+    const organism = tagsByType(c.tags, "organism");
+    const syndrome = tagsByType(c.tags, "syndrome");
+    const host = tagsByType(c.tags, "host");
+    const status = c.review_status || "pending";
+    const idx = filteredIds.indexOf(selectedId);
+
+    els.detailPanel.innerHTML = `
+      <div class="detail-inner">
+        <div class="detail-header">
+          <div class="case-id-label">${escapeHtml(c.id)} &nbsp;·&nbsp; ${idx + 1} of ${filteredIds.length}</div>
+          <div class="nav-buttons">
+            <button class="navbtn" id="prevBtn" title="Previous (k)">&larr; Prev</button>
+            <button class="navbtn" id="nextBtn" title="Next (j)">Next &rarr;</button>
+          </div>
+        </div>
+        <h1 class="case-title">${escapeHtml(c.title || "(no title)")}</h1>
+
+        <div class="status-row">
+          <button class="statusbtn pending ${status === "pending" ? "active" : ""}" data-status="pending">Pending</button>
+          <button class="statusbtn reviewed ${status === "reviewed" ? "active" : ""}" data-status="reviewed">Reviewed ✓</button>
+          <button class="statusbtn flagged ${status === "flagged" ? "active" : ""}" data-status="flagged">Flag for discussion</button>
+        </div>
+
+        <div class="source-block">
+          <h3>History</h3>
+          <div class="collapsed-wrap"><p class="collapsed" id="historyText">${escapeHtml(c.history || "(none)")}</p></div>
+          <button class="expand-link" data-expand="historyText">Show full text</button>
+        </div>
+
+        <div class="source-block">
+          <h3>Diagnosis</h3>
+          <div class="collapsed-wrap"><p class="collapsed" id="diagnosisText">${escapeHtml(c.diagnosis || "(none)")}</p></div>
+          <button class="expand-link" data-expand="diagnosisText">Show full text</button>
+        </div>
+
+        <div class="figures-note">${(c.figures || []).length} figure${(c.figures || []).length === 1 ? "" : "s"}</div>
+
+        <div class="field-group">
+          <label>Organism</label>
+          <div class="chip-input-wrap" data-field="organism">
+            ${organism.map(v => chipHtml(v)).join("")}
+            <input type="text" list="organismOptions" placeholder="Type and press Enter…">
+          </div>
+          <div class="hint">Autocompletes against organisms.json if loaded. Press Enter or comma to add.</div>
+        </div>
+
+        <div class="field-group">
+          <label>Syndrome</label>
+          <div class="chip-input-wrap" data-field="syndrome">
+            ${syndrome.map(v => chipHtml(v)).join("")}
+            <input type="text" placeholder="Type and press Enter…">
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label>Host characteristics</label>
+          <div class="chip-input-wrap" data-field="host">
+            ${host.map(v => chipHtml(v)).join("")}
+            <input type="text" placeholder="Type and press Enter…">
+          </div>
+        </div>
+
+        <div class="field-group note-box">
+          <label>Review note (optional — visible only in this tool, not the app)</label>
+          <textarea id="reviewNote" placeholder="e.g. &quot;ambiguous — could be either X or Y, deferred&quot;">${escapeHtml(c.review_note || "")}</textarea>
+        </div>
+      </div>
+    `;
+
+    wireDetailEvents(c);
+  }
+
+  function chipHtml(value) {
+    return `<span class="chip">${escapeHtml(value)}<button data-remove-chip="${escapeHtml(value)}">&times;</button></span>`;
+  }
+
+  function wireDetailEvents(c) {
+    document.getElementById("prevBtn").addEventListener("click", () => navigate(-1));
+    document.getElementById("nextBtn").addEventListener("click", () => navigate(1));
+
+    document.querySelectorAll(".expand-link").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = document.getElementById(btn.dataset.expand);
+        target.classList.toggle("collapsed");
+        btn.textContent = target.classList.contains("collapsed") ? "Show full text" : "Show less";
+      });
+    });
+
+    document.querySelectorAll(".statusbtn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        c.review_status = btn.dataset.status;
+        saveEdits();
+        renderDetail();
+        renderCaseList();
+        updateStats();
+      });
+    });
+
+    document.getElementById("reviewNote").addEventListener("input", e => {
+      c.review_note = e.target.value;
+      saveEdits();
+    });
+
+    document.querySelectorAll(".chip-input-wrap").forEach(wrap => {
+      const field = wrap.dataset.field;
+      const input = wrap.querySelector("input");
+
+      wrap.addEventListener("click", e => {
+        const removeBtn = e.target.closest("[data-remove-chip]");
+        if (removeBtn) {
+          const value = removeBtn.dataset.removeChip;
+          const current = tagsByType(c.tags, field).filter(v => v !== value);
+          setFieldTags(c, field, current);
+          renderDetail();
+          renderCaseList();
+          updateStats();
+        } else if (e.target === wrap) {
+          input.focus();
+        }
+      });
+
+      input.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === ",") {
+          e.preventDefault();
+          const value = input.value.trim().replace(/,$/, "");
+          if (value) {
+            const current = tagsByType(c.tags, field);
+            if (!current.includes(value)) current.push(value);
+            setFieldTags(c, field, current);
+            renderDetail();
+            renderCaseList();
+            updateStats();
+            // refocus the same field's input after re-render
+            const newWrap = document.querySelector(`.chip-input-wrap[data-field="${field}"] input`);
+            if (newWrap) newWrap.focus();
+          }
+        } else if (e.key === "Backspace" && input.value === "") {
+          const current = tagsByType(c.tags, field);
+          if (current.length) {
+            current.pop();
+            setFieldTags(c, field, current);
+            renderDetail();
+            renderCaseList();
+            updateStats();
+          }
+        }
+      });
+    });
+  }
+
+  function setFieldTags(c, field, values) {
+    const organism = field === "organism" ? values : tagsByType(c.tags, "organism");
+    const syndrome = field === "syndrome" ? values : tagsByType(c.tags, "syndrome");
+    const host = field === "host" ? values : tagsByType(c.tags, "host");
+    c.tags = buildTags(organism, syndrome, host);
+    saveEdits();
+  }
+
+  function navigate(delta) {
+    const idx = filteredIds.indexOf(selectedId);
+    const next = idx + delta;
+    if (next >= 0 && next < filteredIds.length) selectCase(filteredIds[next]);
+  }
+
+  // ── Keyboard shortcuts ───────────────────────────────────────
+  document.addEventListener("keydown", e => {
+    const typing = document.activeElement && ["INPUT", "TEXTAREA"].includes(document.activeElement.tagName);
+    if (e.key === "/" && !typing) { e.preventDefault(); els.searchInput.focus(); return; }
+    if (typing) return;
+    if (e.key === "j") navigate(1);
+    else if (e.key === "k") navigate(-1);
+    else if (e.key === "r") {
+      const c = byId.get(selectedId);
+      if (c) { c.review_status = "reviewed"; saveEdits(); renderDetail(); renderCaseList(); updateStats(); navigate(1); }
+    }
+  });
+
+  // ── Stats ────────────────────────────────────────────────────
+  function updateStats() {
+    const total = cases.length;
+    const reviewed = cases.filter(c => c.review_status === "reviewed").length;
+    const flagged = cases.filter(c => c.review_status === "flagged").length;
+    const hasOrg = cases.filter(c => tagsByType(c.tags, "organism").length).length;
+    const hasSyn = cases.filter(c => tagsByType(c.tags, "syndrome").length).length;
+    const hasHost = cases.filter(c => tagsByType(c.tags, "host").length).length;
+
+    document.getElementById("statReviewed").textContent = reviewed;
+    document.getElementById("statTotal").textContent = total;
+    document.getElementById("statOrganism").textContent = hasOrg;
+    document.getElementById("statSyndrome").textContent = hasSyn;
+    document.getElementById("statHost").textContent = hasHost;
+    document.getElementById("statFlagged").textContent = flagged;
+    document.getElementById("progressFill").style.width = total ? (100 * reviewed / total) + "%" : "0%";
+  }
+
+  // ── Export ───────────────────────────────────────────────────
+  els.exportBtn.addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify(cases, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "case_library.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+
+  els.clearBtn.addEventListener("click", () => {
+    if (confirm("Clear all saved review progress from this browser? This can't be undone (unless you've already exported).")) {
+      localStorage.removeItem(STORAGE_KEY);
+      alert("Cleared. Reload the case_library.json file to start fresh.");
+    }
+  });
+})();
+</script>
+</body>
+</html>
