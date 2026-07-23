@@ -115,132 +115,14 @@ function formatMessage(text) {
   return out;
 }
 
-/**
- * Extract structured EMR data from an assistant response and user question
- * by detecting clinical topics, keywords, and patterns. Appends to existing fields.
- */
-function extractEMRFromResponse(assistantText, userText = "", toolsUsed = []) {
-  if (!assistantText) return {};
-  const lower = assistantText.toLowerCase();
-  const userLower = (userText || "").toLowerCase();
-  const extracted = {};
-
-  // Helper to get clean sentences
-  const sentences = assistantText.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 5);
-
-  // ── Chief complaint (first interaction or explicit mention) ──
-  const ccMatch = assistantText.match(/(?:chief complaint|(?:presents? with|complain(?:s|ing) of|came in (?:for|because|with)|brought in for|here (?:for|because)))[:\s]+([^.\n]+)/i);
-  if (ccMatch) extracted.chief_complaint = ccMatch[1].trim();
-
-  // ── Vitals ──
-  const vitalPatterns = [
-    /(?:temperature|temp)[\s:is]+([\d.]+\s*°?[CF]?)/i,
-    /(?:pulse|heart rate|hr)[\s:is]+(\d+[^.\n]{0,30})/i,
-    /(?:blood pressure|bp)[\s:is]+(\d+\/\d+[^.\n]{0,20})/i,
-    /(?:respiratory rate|rr|respirations)[\s:is]+(\d+[^.\n]{0,30})/i,
-    /(?:oxygen saturation|o2 sat|spo2|sao2|sat)[\s:is]+(\d+%?[^.\n]{0,30})/i,
-  ];
-  const vitalHits = [];
-  for (const p of vitalPatterns) {
-    const m = assistantText.match(p);
-    if (m) vitalHits.push(m[0].trim());
+/** Merge backend emr_data into panel state, preserving seeded chief_complaint. */
+function applyEmrData(prev, nextData) {
+  if (!nextData || typeof nextData !== "object") return prev;
+  const merged = { ...prev, ...nextData };
+  if (prev?.chief_complaint && !merged.chief_complaint) {
+    merged.chief_complaint = prev.chief_complaint;
   }
-  if (vitalHits.length > 0) {
-    extracted.vitals = vitalHits.join("; ");
-  } else if (userLower.match(/(?:vitals?|temperature|temp|heart rate|pulse|blood pressure|bp|respiratory rate|o2 sat|spo2)/i)) {
-    if (sentences.length > 0) extracted.vitals = assistantText.trim();
-  }
-
-  // ── HPI / history of present illness ──
-  if (toolsUsed.includes("patient") || userLower.match(/(?:symptoms?|when did|how long|started|pain|cough|fever|chills|fatigue|sweat|brings you in|tell me about)/i)) {
-    if (!extracted.chief_complaint && sentences.length > 0) {
-      extracted.hpi = assistantText.trim();
-    }
-  }
-
-  // ── PMH ──
-  const pmhMatch = assistantText.match(/(?:past medical history|pmh|medical history|history of)[:\s]+([^.\n]+(?:\.[^.\n]+){0,3})/i);
-  if (pmhMatch) {
-    extracted.pmh = pmhMatch[1].trim();
-  } else if (userLower.match(/(?:medical history|pmh|history of|conditions|chronic|diagnos|illness|health problems)/i)) {
-    extracted.pmh = assistantText.trim();
-  } else if (lower.includes("diabetes") || lower.includes("hypertension") || lower.includes("copd") || lower.includes("hiv") || lower.includes("asthma")) {
-    const conditionSentences = sentences.filter(s => {
-      const sl = s.toLowerCase();
-      return sl.includes("history of") || sl.includes("diagnosed with") || sl.includes("i have") || sl.includes("i've had") || sl.includes("hiv") || sl.includes("diabetes");
-    });
-    if (conditionSentences.length > 0 && !extracted.pmh) {
-      extracted.pmh = conditionSentences.join(". ") + ".";
-    }
-  }
-
-  // ── Medications ──
-  const medMatch = assistantText.match(/(?:medications?|meds|taking)[:\s]+([^.\n]+(?:\.[^.\n]+){0,2})/i);
-  if (medMatch) {
-    extracted.medications = medMatch[1].trim();
-  } else if (userLower.match(/(?:medications?|meds|taking|pills|prescript|treatment|adherent)/i)) {
-    extracted.medications = assistantText.trim();
-  }
-
-  // ── Allergies ──
-  const allergyMatch = assistantText.match(/(?:allerg(?:y|ies))[:\s]+([^.\n]+)/i);
-  if (allergyMatch) {
-    extracted.allergies = allergyMatch[1].trim();
-  } else if (userLower.match(/(?:allerg(?:y|ies)|allergic|nkda)/i)) {
-    if (lower.includes("no") || lower.includes("none") || lower.includes("not that i know")) {
-      extracted.allergies = "No known drug allergies (NKDA)";
-    } else {
-      extracted.allergies = assistantText.trim();
-    }
-  } else if (lower.includes("no known allergies") || lower.includes("no allergies") || lower.includes("nkda")) {
-    extracted.allergies = "No known allergies";
-  }
-
-  // ── Social history ──
-  const socialKeywords = ["smok", "alcohol", "drink", "drug use", "tobacco", "marijuana", "occupation", "works as", "lives with", "travel"];
-  if (socialKeywords.some(k => lower.includes(k)) || userLower.match(/(?:smoke|smoking|tobacco|alcohol|drink|drug|occupation|work|live|social history)/i)) {
-    const socialSentences = sentences.filter(s => socialKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:smoke|smoking|alcohol|drink|occupation|work|live)/i));
-    if (socialSentences.length > 0) extracted.social_history = socialSentences.join(". ") + ".";
-  }
-
-  // ── Physical exam findings ──
-  const examKeywords = ["examination", "on exam", "physical exam", "auscultation", "palpation", "inspection", "tender", "swollen", "rash", "crackles", "murmur", "lymphadenopathy", "edema", "erythema", "lesion", "thrush"];
-  if (examKeywords.some(k => lower.includes(k)) || userLower.match(/(?:examine|examination|exam|inspect|look at|listen to|auscultat|palpat|skin|mouth|heart|lungs|abdomen)/i)) {
-    const examSentences = sentences.filter(s => examKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:examine|examination|exam|inspect|look at|listen|skin|mouth|heart|lungs|abdomen)/i));
-    if (examSentences.length > 0) extracted.exam = examSentences.join(". ") + ".";
-  }
-
-  // ── Labs (general + specific) ──
-  const labKeywords = ["wbc", "white blood cell", "white cell count", "hemoglobin", "hematocrit", "platelet", "creatinine", "bun", "sodium", "potassium", "glucose", "lab", "blood work", "blood test", "ast", "alt"];
-  if (labKeywords.some(k => lower.includes(k)) || userLower.match(/(?:labs?|blood work|tests?|cbc|electrolyte|renal|liver)/i)) {
-    const labSentences = sentences.filter(s => labKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:labs?|blood work|tests?|cbc)/i));
-    if (labSentences.length > 0) extracted.labs = labSentences.join(". ") + ".";
-  }
-
-  // ── CBC specifically ──
-  if (lower.includes("cbc") || (lower.includes("white blood cell") && lower.includes("platelet")) || userLower.includes("cbc")) {
-    const cbcSentences = sentences.filter(s => {
-      const sl = s.toLowerCase();
-      return sl.includes("cbc") || sl.includes("white blood") || sl.includes("wbc") || sl.includes("hematocrit") || sl.includes("hemoglobin") || sl.includes("platelet") || userLower.includes("cbc");
-    });
-    if (cbcSentences.length > 0) extracted.cbc = cbcSentences.join(". ") + ".";
-  }
-
-  // ── Microbiology ──
-  const microKeywords = ["culture", "gram stain", "acid-fast", "sensitivity", "susceptib", "grew", "organism", "blood culture", "urine culture", "sputum culture", "silver stain", "mucicarmine", "biopsy"];
-  if (microKeywords.some(k => lower.includes(k)) || userLower.match(/(?:culture|gram stain|silver stain|mucicarmine|biopsy|microbiolog|pathology)/i)) {
-    const microSentences = sentences.filter(s => microKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:culture|gram stain|silver stain|biopsy)/i));
-    if (microSentences.length > 0) extracted.microbiology = microSentences.join(". ") + ".";
-  }
-
-  // ── Imaging ──
-  const imagingKeywords = ["x-ray", "xray", "ct scan", "ct ", "mri", "ultrasound", "chest radiograph", "radiograph", "imaging", "computed tomography", "magnetic resonance"];
-  if (imagingKeywords.some(k => lower.includes(k)) || userLower.match(/(?:x-?ray|radiograph|ct|mri|ultrasound|imaging)/i)) {
-    const imgSentences = sentences.filter(s => imagingKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:x-?ray|radiograph|ct|mri|ultrasound|imaging)/i));
-    if (imgSentences.length > 0) extracted.imaging = imgSentences.join(". ") + ".";
-  }
-
-  return extracted;
+  return merged;
 }
 
 // ─── CSS variables injected into <head> ──────────────────────────────────────
@@ -1240,14 +1122,38 @@ const emrGroupLabel = {
   borderBottom: "1px solid var(--border)", paddingBottom: 4, marginBottom: 8,
 };
 
-function EMRPanel({ module, emrData, hasHistoryModule }) {
+function EMRPanel({ module, emrData, hasHistoryModule, emrBusy, onRefresh, refreshing }) {
   const data = emrData || {};
-  const isEmpty = Object.keys(data).length === 0;
+  const isEmpty = Object.keys(data).filter(k => data[k]).length === 0;
 
   return (
     <div style={{ height: "100%", overflowY: "auto", padding: "12px 12px 20px" }}>
-      <div style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 14 }}>
-        Electronic Medical Record
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 14 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em" }}>
+          Electronic Medical Record
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          {emrBusy && (
+            <span style={{ fontSize: 10, color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>Updating…</span>
+          )}
+          {onRefresh && (
+            <button
+              type="button"
+              onClick={onRefresh}
+              disabled={refreshing || emrBusy}
+              title="Rebuild EMR from full conversation"
+              style={{
+                padding: "3px 8px", borderRadius: "var(--radius)",
+                border: "1px solid var(--border-strong)", background: "transparent",
+                color: refreshing || emrBusy ? "var(--text-muted)" : "var(--text-secondary)",
+                cursor: refreshing || emrBusy ? "default" : "pointer",
+                fontSize: 11, fontFamily: "var(--font-sans)",
+              }}
+            >
+              {refreshing ? "Rebuilding…" : "Refresh"}
+            </button>
+          )}
+        </div>
       </div>
 
       {isEmpty ? (
@@ -1434,8 +1340,10 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   const [caseContext, setCaseContext] = useState(null);
   const [revealedInfo, setRevealedInfo] = useState({});
   const [progress, setProgress] = useState({});
-  // EMR data persists across module switches; initialized from caseContext for non-history modules
+  // EMR data persists across module switches; filled by backend structured extraction
   const [emrData, setEmrData] = useState({});
+  const [emrBusy, setEmrBusy] = useState(false);
+  const [emrRefreshing, setEmrRefreshing] = useState(false);
   const hasHistoryModule = modules.includes("history_taking");
 
   const historyRef = useRef([]);
@@ -1445,6 +1353,30 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   useEffect(() => {
     if (chatboxRef.current) chatboxRef.current.scrollTop = chatboxRef.current.scrollHeight;
   }, [messages]);
+
+  // Poll structured EMR notes (src_simplified-style background extraction)
+  useEffect(() => {
+    if (!caseActive || !caseId) return undefined;
+    let cancelled = false;
+    const poll = async () => {
+      try {
+        const res = await fetch(`${API_BASE}/emr_notes/${encodeURIComponent(caseId)}`);
+        if (!res.ok) return;
+        const data = await res.json();
+        if (cancelled) return;
+        if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+        setEmrBusy(Boolean(data.emr_busy));
+      } catch {
+        // ignore transient poll errors
+      }
+    };
+    poll();
+    const interval = setInterval(poll, emrBusy ? 1500 : 4000);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
+  }, [caseActive, caseId, emrBusy]);
 
   useEffect(() => {
     (async () => {
@@ -1461,12 +1393,13 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
         // Extract chief complaint from first message (first sentence of patient speech)
         const firstSentence = data.initial_message.split(/[.!?]/)[0]?.trim();
         if (firstSentence) setChiefComplaint(firstSentence + ".");
-        // Seed EMR right at start of case so it's never empty
+        // Seed chief complaint; structured HPI arrives via EMR extraction poll
         setEmrData(prev => ({
           ...prev,
           chief_complaint: firstSentence ? firstSentence + "." : "Initial presentation",
-          hpi: data.initial_message,
         }));
+        if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+        setEmrBusy(true);
         // Extract structured context from history
         if (data.history) extractCaseContext(data);
         setCaseActive(true);
@@ -1503,7 +1436,6 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       const contentType = res.headers.get("content-type") || "";
       let responseText = "";
 
-      let usedTools = [];
       if (contentType.includes("text/event-stream")) {
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
@@ -1517,7 +1449,8 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
                 if (p.content) { responseText += p.content; setMessages(prev => prev.map(m => m.id === streamingId ? { ...m, content: responseText } : m)); }
                 if (p.phase) setCurrentPhase(p.phase);
                 if (p.revealed_info) setRevealedInfo(prev => ({ ...prev, ...p.revealed_info }));
-                if (p.tools_used) usedTools = p.tools_used;
+                if (p.emr_data) setEmrData(prev => applyEmrData(prev, p.emr_data));
+                if (typeof p.emr_busy === "boolean") setEmrBusy(p.emr_busy);
               } catch {}
             }
           }
@@ -1525,46 +1458,23 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       } else {
         const data = await res.json();
         responseText = data.response || data.content || data.message || JSON.stringify(data);
-        usedTools = data.tools_used || [];
         if (data.metadata?.current_phase) setCurrentPhase(data.metadata.current_phase);
         if (data.metadata?.revealed_info) {
           setRevealedInfo(prev => ({ ...prev, ...data.metadata.revealed_info }));
-          setEmrData(prev => ({ ...prev, ...data.metadata.revealed_info }));
         }
+        if (data.emr_data) {
+          setEmrData(prev => applyEmrData(prev, data.emr_data));
+        } else if (Array.isArray(data.emr_notes) && data.emr_notes.length) {
+          // Snapshot may arrive as raw notes; poll will normalize shortly
+          setEmrBusy(true);
+        }
+        if (typeof data.emr_busy === "boolean") setEmrBusy(data.emr_busy);
+        else setEmrBusy(true);
         // Increment progress for active module
         setProgress(prev => ({
           ...prev,
           [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
         }));
-      }
-
-      // Auto-extract EMR data from the response text and user question
-      const emrExtracted = extractEMRFromResponse(responseText, text, usedTools);
-      if (Object.keys(emrExtracted).length > 0) {
-        Object.entries(emrExtracted).forEach(([key, value]) => {
-          fetch(`${API_BASE}/summarize_emr`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ field: key, text: value })
-          })
-            .then(res => res.json())
-            .then(data => {
-              if (data.summary) {
-                setEmrData(prev => {
-                  const merged = { ...prev };
-                  if (merged[key]) {
-                    if (!merged[key].includes(data.summary)) {
-                      merged[key] = merged[key] + "\n" + data.summary;
-                    }
-                  } else {
-                    merged[key] = data.summary;
-                  }
-                  return merged;
-                });
-              }
-            })
-            .catch(err => console.error("Error summarizing EMR:", err));
-        });
       }
 
       // Check if relevant images should be unlocked based on the inquiry
@@ -1589,6 +1499,27 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       });
     } catch {}
   }, [caseId, organism]);
+
+  const handleEmrRefresh = useCallback(async () => {
+    if (!caseId || emrRefreshing) return;
+    setEmrRefreshing(true);
+    setEmrBusy(true);
+    try {
+      const res = await fetch(`${API_BASE}/emr_refresh/${encodeURIComponent(caseId)}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ history: historyRef.current }),
+      });
+      if (!res.ok) throw new Error(`Server error ${res.status}`);
+      const data = await res.json();
+      if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+      setEmrBusy(Boolean(data.emr_busy));
+    } catch (err) {
+      console.error("EMR refresh failed:", err);
+    } finally {
+      setEmrRefreshing(false);
+    }
+  }, [caseId, emrRefreshing]);
 
   const handleKeyDown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } };
 
@@ -1748,6 +1679,9 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
             module={activeModule}
             emrData={emrData}
             hasHistoryModule={hasHistoryModule}
+            emrBusy={emrBusy}
+            onRefresh={handleEmrRefresh}
+            refreshing={emrRefreshing}
           />
         </div>
       </div>

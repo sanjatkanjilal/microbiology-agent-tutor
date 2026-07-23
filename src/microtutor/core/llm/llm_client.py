@@ -95,7 +95,8 @@ class LLMClient:
         model: Optional[str] = None,
         tools: Optional[List[Dict]] = None,
         retries: int = 4,
-        fallback_model: Optional[str] = None
+        fallback_model: Optional[str] = None,
+        response_format: Optional[Dict] = None,
     ) -> Union[str, Dict]:
         """
         Generate response from LLM with automatic retry for empty responses and fallback model.
@@ -106,6 +107,7 @@ class LLMClient:
             tools: Optional tool schemas
             retries: Number of retry attempts
             fallback_model: Fallback model to try if primary model fails
+            response_format: Optional OpenAI response_format (e.g. json_object)
         
         Returns:
             str: Text response (normal)
@@ -121,21 +123,32 @@ class LLMClient:
         fallback_model = fallback_model or "gpt-5"
         
         # Try primary model first
-        result = self._try_model(primary_model, messages, tools, retries)
+        result = self._try_model(
+            primary_model, messages, tools, retries, response_format=response_format
+        )
         if result is not None:
             return result
         
         # If primary model failed, try fallback model
         if fallback_model != primary_model:
             print(f"Primary model {primary_model} failed, trying fallback model {fallback_model}")
-            result = self._try_model(fallback_model, messages, tools, retries)
+            result = self._try_model(
+                fallback_model, messages, tools, retries, response_format=response_format
+            )
             if result is not None:
                 return result
         
         print(f"Error: Both primary model {primary_model} and fallback model {fallback_model} failed")
         return None
     
-    def _try_model(self, model: str, messages: List[Dict[str, str]], tools: Optional[List[Dict]], retries: int) -> Union[str, Dict, None]:
+    def _try_model(
+        self,
+        model: str,
+        messages: List[Dict[str, str]],
+        tools: Optional[List[Dict]],
+        retries: int,
+        response_format: Optional[Dict] = None,
+    ) -> Union[str, Dict, None]:
         """Try a specific model with retries."""
         for attempt in range(retries):
             try:
@@ -158,6 +171,9 @@ class LLMClient:
                 if tools:
                     api_params["tools"] = tools
                     api_params["tool_choice"] = "auto"
+
+                if response_format:
+                    api_params["response_format"] = response_format
                 
                 # Call API
                 response = self.client.chat.completions.create(**api_params)

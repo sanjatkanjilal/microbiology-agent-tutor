@@ -1,10 +1,12 @@
 """Chat-related API endpoints."""
 
+import asyncio
 import logging
 from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from microtutor.api.dependencies import get_tutor_service
 from microtutor.api.dependencies import get_db
@@ -12,6 +14,8 @@ from microtutor.core.config.config_helper import config
 from microtutor.schemas.api.requests import StartCaseRequest, ChatRequest, FeedbackRequest, CaseFeedbackRequest
 from microtutor.schemas.api.responses import StartCaseResponse, ChatResponse, ErrorResponse
 from microtutor.schemas.domain.domain import TutorContext
+from microtutor.services.emr import get_emr_service
+from microtutor.services.emr.service import notes_to_emr_data
 from microtutor.services.infrastructure.background import BackgroundTaskService, get_background_service
 from microtutor.services.tutor.service import TutorService
 from sqlalchemy.orm import Session
@@ -19,6 +23,9 @@ from sqlalchemy import text
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
+
+# Tools whose replies should feed structured EMR extraction
+_EMR_SOURCE_TOOLS = {"patient", "tests_management"}
 
 
 @router.post(
@@ -63,6 +70,15 @@ async def start_case(
             case_library_id = case_library_matches[0]["id"]
             figures = case_library_matches[0].get("figures", [])
             logger.info(f"[START_CASE] Found case library match: {case_library_id} with {len(figures)} figures")
+
+        # Structured EMR session (src_simplified-style background extraction)
+        emr_service = get_emr_service()
+        emr_service.start_case(request.case_id)
+        emr_service.enqueue_exchange(
+            case_id=request.case_id,
+            student_question="(Patient introduces themselves)",
+            patient_response=response.content,
+        )
         
         # Log asynchronously
         background_service.log_conversation_async(
@@ -87,6 +103,8 @@ async def start_case(
             organism=request.organism,
             case_library_id=case_library_id,
             figures=figures,
+            emr_notes=emr_service.get_notes(request.case_id),
+            emr_data=notes_to_emr_data(emr_service.get_notes(request.case_id)),
         )
         
     except ValueError as e:
@@ -208,6 +226,16 @@ async def chat(
             content=response.content,
             metadata={"tools_used": response.tools_used, "organism": request.organism_key}
         )
+
+        # Queue structured EMR extraction for patient / test-result replies
+        emr_service = get_emr_service()
+        tools_used = response.tools_used or []
+        if any(t in _EMR_SOURCE_TOOLS for t in tools_used):
+            emr_service.enqueue_exchange(
+                case_id=request.case_id,
+                student_question=request.message,
+                patient_response=response.content,
+            )
         
         processing_time = (datetime.now() - start_time).total_seconds() * 1000
         logger.info(f"[CHAT] Completed in {processing_time:.2f}ms for case_id={request.case_id}")
@@ -225,7 +253,10 @@ async def chat(
                 # Normalize phase naming for frontend consumers
                 "current_phase": (response.metadata or {}).get("current_phase") or (response.metadata or {}).get("state"),
             },
-            feedback_examples=response.feedback_examples or []
+            feedback_examples=response.feedback_examples or [],
+            emr_notes=emr_service.get_notes(request.case_id),
+            emr_data=notes_to_emr_data(emr_service.get_notes(request.case_id)),
+            emr_busy=emr_service.is_busy(request.case_id),
         )
         
     except ValueError as e:
@@ -389,35 +420,46 @@ async def get_available_organisms() -> dict:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to retrieve organisms")
 
 
-class SummarizeEMRRequest(BaseModel):
-    field: str
-    text: str
+class EmrRefreshRequest(BaseModel):
+    history: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Full conversation history for a complete EMR rebuild",
+    )
+
+
+@router.get(
+    "/emr_notes/{case_id}",
+    summary="Poll structured EMR notes",
+    description="Return the current structured EMR notes snapshot for a case",
+)
+async def get_emr_notes(case_id: str) -> dict:
+    emr_service = get_emr_service()
+    # Recreate empty session after server restart so polling does not 404
+    session = emr_service.ensure_session(case_id)
+    notes = session.snapshot()
+    return {
+        "emr_notes": notes,
+        "emr_busy": session.is_busy(),
+        "emr_data": notes_to_emr_data(notes),
+    }
+
 
 @router.post(
-    "/summarize_emr",
-    summary="Summarize EMR updates",
-    description="Summarize raw dialogue into clinical phrasing for the EMR"
+    "/emr_refresh/{case_id}",
+    summary="Rebuild EMR notes from conversation",
+    description="Full re-extraction of structured EMR notes from the conversation history",
 )
-async def summarize_emr(request: SummarizeEMRRequest) -> dict:
-    if not request.text:
-        return {"summary": ""}
-        
-    try:
-        from microtutor.core.llm.llm_router import chat_complete
-        
-        system_prompt = (
-            f"You are a clinical scribe. Convert the following raw patient dialogue or tutor notes into a highly concise, "
-            f"professional clinical summary for the '{request.field}' section of an Electronic Medical Record (EMR). "
-            f"Use standard medical abbreviations. Output ONLY the summarized text and nothing else."
-        )
-        
-        response = chat_complete(
-            system_prompt=system_prompt,
-            user_prompt=request.text,
-            model=config.API_MODEL_NAME,
-            conversation_history=[]
-        )
-        return {"summary": response.strip()}
-    except Exception as e:
-        logger.error(f"[SUMMARIZE_EMR] Error: {e}", exc_info=True)
-        return {"summary": request.text}
+async def emr_refresh(case_id: str, request: EmrRefreshRequest) -> dict:
+    emr_service = get_emr_service()
+    history = request.history or []
+    clean_history = [
+        {"role": m.get("role", ""), "content": m.get("content", "")}
+        for m in history
+        if m.get("role") in ("user", "assistant") and m.get("content")
+    ]
+    notes = await asyncio.to_thread(emr_service.rebuild, case_id, clean_history)
+    return {
+        "emr_notes": notes,
+        "emr_busy": False,
+        "emr_data": notes_to_emr_data(notes),
+    }

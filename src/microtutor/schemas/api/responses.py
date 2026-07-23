@@ -36,6 +36,22 @@ class StartCaseResponse(BaseModel):
         ...,
         description="Organism for this case"
     )
+    case_library_id: Optional[str] = Field(
+        default=None,
+        description="Matched case-library folder id for figure URLs"
+    )
+    figures: Optional[List[str]] = Field(
+        default_factory=list,
+        description="Figure filenames available for this case"
+    )
+    emr_notes: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Structured EMR notes snapshot (usually empty at start)"
+    )
+    emr_data: Optional[Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="EMR panel field map derived from emr_notes"
+    )
     
     model_config = ConfigDict(
         json_schema_extra={
@@ -83,6 +99,18 @@ class ChatResponse(BaseModel):
     feedback_examples: Optional[List[Dict[str, Any]]] = Field(
         default_factory=list,
         description="AI feedback examples used to guide the response"
+    )
+    emr_notes: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Structured EMR notes snapshot at response time (may still be updating)"
+    )
+    emr_data: Optional[Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="EMR panel field map derived from emr_notes"
+    )
+    emr_busy: Optional[bool] = Field(
+        default=False,
+        description="True if background EMR extraction is still running"
     )
     
     model_config = ConfigDict(
