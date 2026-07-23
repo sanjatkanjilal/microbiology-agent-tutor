@@ -140,18 +140,22 @@ class TutorService:
         case_id: str,
         model_name: Optional[str] = None,
         enable_guidelines: bool = False,
+        case_description: Optional[str] = None,
+        case_source: Optional[str] = None,
     ) -> TutorResponse:
         """Start a new case for the given organism.
         
         Flow:
-        a) Organism has cached case AND cached first_pt_sentence → use cached sentence
-        b) Organism has cached case BUT no cached first_pt_sentence → generate sentence via LLM
-        c) Organism has NO cached case → generate case via QDRANT RAG, then generate first_pt_sentence
+        a) If case_description is provided (bound case package), use it
+        b) Else load/generate via get_case(organism)
+        c) Cached first_pt_sentence when using organism cache; else LLM-generate from narrative
         
         Args:
             organism: The microorganism name
             case_id: Unique case identifier
             model_name: Optional LLM model to use
+            case_description: Optional pre-bound narrative (same source as figures)
+            case_source: Optional label for metadata (case_library | organism_cache | …)
             
         Returns:
             TutorResponse with initial welcome message
@@ -168,17 +172,22 @@ class TutorService:
             case_generator_cache=case_generator.case_cache
         )
         
-        # Get or generate case description
-        case_desc = get_case(organism)
+        # Prefer bound package narrative so text and figures stay aligned
+        if case_description and case_description.strip():
+            case_desc = case_description.strip()
+            resolved_source = case_source or "bound_package"
+        else:
+            case_desc = get_case(organism)
+            resolved_source = "cached" if organism_has_cached_case else "generated"
         if not case_desc:
             raise ValueError(f"Could not load or generate case for organism: {organism}")
 
-        # Get first patient sentence
-        # a) Check for cached first_pt_sentence
-        first_pt_sentence = get_cached_first_pt_sentence(organism, self._first_pt_sentence_path)
+        # First patient sentence: only reuse organism cache when not on a library package
+        first_pt_sentence = None
+        if resolved_source != "case_library":
+            first_pt_sentence = get_cached_first_pt_sentence(organism, self._first_pt_sentence_path)
         
         if not first_pt_sentence:
-            # b) or c) Generate first_pt_sentence via LLM (using the case description)
             logger.info("Generating first patient sentence via LLM")
             first_pt_sentence = self._generate_first_pt_sentence_via_llm(case_desc, model)
 
@@ -209,7 +218,9 @@ class TutorService:
                 "state": TutorState.INFORMATION_GATHERING.value, 
                 "model": model,
                 "guidelines_prefetching": self.enable_guidelines_prefetch and self.guidelines_cache is not None,
-                "case_source": "cached" if organism_has_cached_case else "generated"
+                "case_source": resolved_source,
+                # Clinical one-liner only — not the welcome boilerplate
+                "presentation": first_pt_sentence,
             },
         )
 

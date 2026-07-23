@@ -34,6 +34,66 @@ def _load_cases() -> list:
     return _case_cache
 
 
+def get_library_case(case_id: str) -> Optional[dict]:
+    """Return a single case-library entry by id, or None."""
+    if not case_id or not str(case_id).strip():
+        return None
+    needle = str(case_id).strip()
+    for case in _load_cases():
+        if case.get("id") == needle:
+            return case
+    return None
+
+
+def organism_from_library_case(case: dict) -> Optional[str]:
+    """Primary organism tag from a library case, if present."""
+    for tag in case.get("tags") or []:
+        if isinstance(tag, str) and tag.lower().startswith("organism:"):
+            value = tag.split(":", 1)[1].strip()
+            if value:
+                return value.lower()
+    return None
+
+
+def lookup_cases_by_organism(organism: str) -> list[dict]:
+    """Return case-library entries matching an organism name.
+
+    Used by start_case to attach figure metadata for the DocentID image panel.
+    Matches ``organism:…`` tags first, then falls back to title/diagnosis text.
+    """
+    if not organism or not str(organism).strip():
+        return []
+
+    needle = str(organism).strip().lower()
+    # Normalize common variants (e.g. "staphylococcus aureus" vs "S. aureus")
+    needle_compact = needle.replace(".", " ").replace("-", " ")
+    needle_compact = " ".join(needle_compact.split())
+
+    cases = _load_cases()
+    tag_hits: list[dict] = []
+    text_hits: list[dict] = []
+
+    for case in cases:
+        tags = case.get("tags") or []
+        organism_tags = [
+            t.split(":", 1)[1].strip().lower()
+            for t in tags
+            if isinstance(t, str) and t.lower().startswith("organism:")
+        ]
+        if any(
+            needle in tag or needle_compact in tag or tag in needle or tag in needle_compact
+            for tag in organism_tags
+        ):
+            tag_hits.append(case)
+            continue
+
+        blob = f"{case.get('title', '')} {case.get('diagnosis', '')}".lower()
+        if needle in blob or needle_compact in blob:
+            text_hits.append(case)
+
+    return tag_hits or text_hits
+
+
 @router.get("/cases")
 async def list_cases(
     search: Optional[str] = Query(None, description="Full-text search across title, history, diagnosis"),

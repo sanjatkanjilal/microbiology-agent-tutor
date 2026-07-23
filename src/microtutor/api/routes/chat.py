@@ -14,6 +14,11 @@ from microtutor.core.config.config_helper import config
 from microtutor.schemas.api.requests import StartCaseRequest, ChatRequest, FeedbackRequest, CaseFeedbackRequest
 from microtutor.schemas.api.responses import StartCaseResponse, ChatResponse, ErrorResponse
 from microtutor.schemas.domain.domain import TutorContext
+from microtutor.services.case import (
+    get_case_package_store,
+    resolve_case_package,
+    resolve_case_package_by_id,
+)
 from microtutor.services.emr import get_emr_service
 from microtutor.services.emr.service import notes_to_emr_data
 from microtutor.services.infrastructure.background import BackgroundTaskService, get_background_service
@@ -50,42 +55,56 @@ async def start_case(
     - **model_name**: Optional LLM model to use (defaults to o3-mini)
     """
     model_name = request.model_name or config.API_MODEL_NAME
-    logger.info(f"[START_CASE] organism={request.organism}, case_id={request.case_id}, model={model_name}")
+    logger.info(
+        f"[START_CASE] organism={request.organism}, "
+        f"library_case_id={request.library_case_id}, "
+        f"case_id={request.case_id}, model={model_name}"
+    )
     
     try:
+        # Explicit library case wins; otherwise pick among organism matches
+        if request.library_case_id:
+            package = resolve_case_package_by_id(request.library_case_id)
+        else:
+            package = resolve_case_package(request.organism or "", prefer_figures=True)
+
+        organism = package.organism or (request.organism or "")
+        get_case_package_store().put(request.case_id, package)
+
         response = await tutor_service.start_case(
-            organism=request.organism,
+            organism=organism,
             case_id=request.case_id,
             model_name=request.model_name,
-            enable_guidelines=request.enable_guidelines or False
+            enable_guidelines=request.enable_guidelines or False,
+            case_description=package.narrative,
+            case_source=package.source,
         )
-        
-        # Look up case library metadata for images
-        from microtutor.api.routes.cases import lookup_cases_by_organism
-        case_library_matches = lookup_cases_by_organism(request.organism)
-        case_library_id = None
-        figures = []
-        if case_library_matches:
-            # Use the first matching case
-            case_library_id = case_library_matches[0]["id"]
-            figures = case_library_matches[0].get("figures", [])
-            logger.info(f"[START_CASE] Found case library match: {case_library_id} with {len(figures)} figures")
+
+        presentation = (response.metadata or {}).get("presentation") or ""
+        presentation = presentation.strip()
 
         # Structured EMR session (src_simplified-style background extraction)
+        # Seed with the clinical one-liner only — not the welcome boilerplate.
         emr_service = get_emr_service()
         emr_service.start_case(request.case_id)
-        emr_service.enqueue_exchange(
-            case_id=request.case_id,
-            student_question="(Patient introduces themselves)",
-            patient_response=response.content,
-        )
+        if presentation:
+            emr_service.enqueue_exchange(
+                case_id=request.case_id,
+                student_question="(Initial presentation)",
+                patient_response=presentation,
+            )
         
         # Log asynchronously
         background_service.log_conversation_async(
             case_id=request.case_id,
             role="system",
-            content=f"Case started: {request.organism}",
-            metadata={"organism": request.organism, "model": model_name}
+            content=f"Case started: {organism}",
+            metadata={
+                "organism": organism,
+                "model": model_name,
+                "library_case_id": package.library_case_id,
+                "case_source": package.source,
+            }
         )
         background_service.log_conversation_async(
             case_id=request.case_id,
@@ -94,17 +113,26 @@ async def start_case(
             metadata={"tools_used": response.tools_used}
         )
         
-        logger.info(f"[START_CASE] Success for case_id={request.case_id}")
+        logger.info(
+            f"[START_CASE] Success for case_id={request.case_id} "
+            f"source={package.source} library_id={package.library_case_id} "
+            f"figures={len(package.figures)}"
+        )
         
+        emr_data = notes_to_emr_data(emr_service.get_notes(request.case_id))
+        if presentation and not emr_data.get("chief_complaint"):
+            emr_data = {**emr_data, "chief_complaint": presentation}
+
         return StartCaseResponse(
             initial_message=response.content,
             history=[{"role": "assistant", "content": response.content}],
             case_id=request.case_id,
-            organism=request.organism,
-            case_library_id=case_library_id,
-            figures=figures,
+            organism=organism,
+            case_library_id=package.library_case_id,
+            figures=package.figures,
             emr_notes=emr_service.get_notes(request.case_id),
-            emr_data=notes_to_emr_data(emr_service.get_notes(request.case_id)),
+            emr_data=emr_data,
+            presentation=presentation or None,
         )
         
     except ValueError as e:
@@ -185,9 +213,12 @@ async def chat(
             except Exception as e:
                 logger.warning(f"[CHAT] Failed to hydrate history from DB: {e}")
         
+        # Prefer the bound package narrative so chat turns use the same case as figures
+        bound_narrative = get_case_package_store().get_narrative(request.case_id)
         context = TutorContext(
             case_id=request.case_id,
             organism=request.organism_key,
+            case_description=bound_narrative,
             conversation_history=clean_history,
             model_name=model_name,
             use_azure=use_azure,

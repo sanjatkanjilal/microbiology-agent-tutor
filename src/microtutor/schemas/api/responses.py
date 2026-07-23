@@ -52,6 +52,10 @@ class StartCaseResponse(BaseModel):
         default_factory=dict,
         description="EMR panel field map derived from emr_notes"
     )
+    presentation: Optional[str] = Field(
+        default=None,
+        description="Clinical one-liner (chief complaint seed), without tutor boilerplate",
+    )
     
     model_config = ConfigDict(
         json_schema_extra={
@@ -64,7 +68,8 @@ class StartCaseResponse(BaseModel):
                     }
                 ],
                 "case_id": "case_2024_abc123",
-                "organism": "staphylococcus aureus"
+                "organism": "staphylococcus aureus",
+                "presentation": "A 45-year-old man presents with fever and back pain."
             }
         }
     )

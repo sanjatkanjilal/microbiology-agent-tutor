@@ -125,6 +125,27 @@ function applyEmrData(prev, nextData) {
   return merged;
 }
 
+/** Clinical one-liner from start_case — skips tutor welcome boilerplate. */
+function extractPresentation(data) {
+  const fromApi = (data?.presentation || data?.emr_data?.chief_complaint || "").trim();
+  if (fromApi && !/^welcome\b/i.test(fromApi)) return fromApi;
+
+  const text = (data?.initial_message || "").trim();
+  if (!text) return "";
+
+  // Prefer the paragraph after "Welcome to today's case."
+  const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  for (const p of paragraphs) {
+    if (/^welcome\b/i.test(p)) continue;
+    if (/^begin by asking/i.test(p)) continue;
+    const sentence = p.split(/(?<=[.!?])\s+/)[0]?.trim();
+    if (sentence && !/^welcome\b/i.test(sentence)) {
+      return /[.!?]$/.test(sentence) ? sentence : `${sentence}.`;
+    }
+  }
+  return "";
+}
+
 // ─── CSS variables injected into <head> ──────────────────────────────────────
 
 function useDarkMode() {
@@ -788,10 +809,85 @@ function MessageBubble({ msg, onFeedback }) {
   );
 }
 
+// ─── Image lightbox ───────────────────────────────────────────────────────────
+
+function ImageLightbox({ src, alt, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [onClose]);
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={alt || "Enlarged image"}
+      onClick={onClose}
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 10000,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 24,
+        background: "rgba(8, 10, 14, 0.72)",
+        backdropFilter: "blur(10px)",
+        WebkitBackdropFilter: "blur(10px)",
+        cursor: "zoom-out",
+      }}
+    >
+      <button
+        type="button"
+        onClick={onClose}
+        aria-label="Close"
+        style={{
+          position: "absolute",
+          top: 16,
+          right: 18,
+          width: 36,
+          height: 36,
+          border: "none",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.12)",
+          color: "#fff",
+          fontSize: 22,
+          lineHeight: 1,
+          cursor: "pointer",
+          fontFamily: "var(--font-sans)",
+        }}
+      >
+        ×
+      </button>
+      <img
+        src={src}
+        alt={alt || ""}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          maxWidth: "min(960px, 94vw)",
+          maxHeight: "90vh",
+          objectFit: "contain",
+          borderRadius: 6,
+          boxShadow: "0 20px 60px rgba(0,0,0,0.45)",
+          cursor: "default",
+          background: "#111",
+        }}
+      />
+    </div>
+  );
+}
+
 // ─── Collapsible Image ────────────────────────────────────────────────────────
 
 function CollapsibleImage({ title, src }) {
   const [open, setOpen] = useState(true);
+  const [lightbox, setLightbox] = useState(false);
   return (
     <div style={{ marginBottom: 8 }}>
       <button
@@ -808,8 +904,17 @@ function CollapsibleImage({ title, src }) {
       </button>
       {open && (
         <div style={{ border: "1px solid var(--border)", borderTop: "none", borderRadius: "0 0 6px 6px", overflow: "hidden" }}>
-          <img src={src} alt={title} style={{ width: "100%", display: "block" }} />
+          <img
+            src={src}
+            alt={title}
+            title="Click to enlarge"
+            onClick={() => setLightbox(true)}
+            style={{ width: "100%", display: "block", cursor: "zoom-in" }}
+          />
         </div>
+      )}
+      {lightbox && (
+        <ImageLightbox src={src} alt={title} onClose={() => setLightbox(false)} />
       )}
     </div>
   );
@@ -1326,7 +1431,7 @@ function ModuleProgressBar({ modules, activeModule, onSwitchModule, progress }) 
 
 // ─── Chat Screen ──────────────────────────────────────────────────────────────
 
-function ChatScreen({ organism, modules, isRandom, onEndCase }) {
+function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -1344,6 +1449,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   const [emrData, setEmrData] = useState({});
   const [emrBusy, setEmrBusy] = useState(false);
   const [emrRefreshing, setEmrRefreshing] = useState(false);
+  const [resolvedOrganism, setResolvedOrganism] = useState(organism || "");
   const hasHistoryModule = modules.includes("history_taking");
 
   const historyRef = useRef([]);
@@ -1381,22 +1487,29 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   useEffect(() => {
     (async () => {
       try {
+        const payload = {
+          case_id: caseId,
+          model_name: null,
+          enable_guidelines: false,
+        };
+        if (libraryCaseId) payload.library_case_id = libraryCaseId;
+        if (organism) payload.organism = organism;
         const res = await fetch(`${API_BASE}/start_case`, {
           method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ organism, case_id: caseId, model_name: null, enable_guidelines: false }),
+          body: JSON.stringify(payload),
         });
         if (!res.ok) throw new Error(`Server error ${res.status}`);
         const data = await res.json();
+        if (data.organism) setResolvedOrganism(data.organism);
         const msg = { role: "assistant", content: data.initial_message };
         historyRef.current = [msg];
         setMessages([msg]);
-        // Extract chief complaint from first message (first sentence of patient speech)
-        const firstSentence = data.initial_message.split(/[.!?]/)[0]?.trim();
-        if (firstSentence) setChiefComplaint(firstSentence + ".");
-        // Seed chief complaint; structured HPI arrives via EMR extraction poll
+        // Prefer backend clinical one-liner; never use welcome boilerplate as CC
+        const presentation = extractPresentation(data);
+        if (presentation) setChiefComplaint(presentation);
         setEmrData(prev => ({
           ...prev,
-          chief_complaint: firstSentence ? firstSentence + "." : "Initial presentation",
+          chief_complaint: presentation || "Initial presentation",
         }));
         if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
         setEmrBusy(true);
@@ -1429,7 +1542,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
     try {
       const res = await fetch(`${API_BASE}/chat`, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text, history: historyRef.current, organism_key: organism, case_id: caseId, model_name: null, feedback_enabled: true, current_phase: currentPhase }),
+        body: JSON.stringify({ message: text, history: historyRef.current, organism_key: resolvedOrganism || organism, case_id: caseId, model_name: null, feedback_enabled: true, current_phase: currentPhase }),
       });
       if (!res.ok) throw new Error(`Server error ${res.status}`);
 
@@ -1489,16 +1602,16 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
     } finally {
       setLoading(false);
     }
-  }, [input, loading, caseActive, organism, caseId, currentPhase, activeModule]);
+  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule]);
 
   const handleFeedback = useCallback(async (msg, rating) => {
     try {
       await fetch(`${API_BASE}/feedback`, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ rating, message: msg.content, history: historyRef.current, case_id: caseId, organism }),
+        body: JSON.stringify({ rating, message: msg.content, history: historyRef.current, case_id: caseId, organism: resolvedOrganism || organism }),
       });
     } catch {}
-  }, [caseId, organism]);
+  }, [caseId, organism, resolvedOrganism]);
 
   const handleEmrRefresh = useCallback(async () => {
     if (!caseId || emrRefreshing) return;
@@ -1524,7 +1637,8 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   const handleKeyDown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } };
 
   const [revealed, setRevealed] = useState(false);
-  const orgLabel = ORGANISMS.find(o => o.value === organism)?.label || organism;
+  const displayOrganism = resolvedOrganism || organism;
+  const orgLabel = ORGANISMS.find(o => o.value === displayOrganism)?.label || displayOrganism;
 
   return (
     <div style={{ display: "flex", flexDirection: "column", flex: 1, overflow: "hidden", fontFamily: "var(--font-sans)" }}>
@@ -2054,11 +2168,12 @@ function CaseText({ text, figures, caseId }) {
   );
 }
 
-function CaseDetailPage({ caseId, onBack }) {
+function CaseDetailPage({ caseId, onBack, onStartTutoring }) {
   const [activeTab, setActiveTab] = useState("History");
   const [caseData, setCaseData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [tutorModules, setTutorModules] = useState(["history_taking"]);
 
   useEffect(() => {
     setLoading(true);
@@ -2098,6 +2213,24 @@ function CaseDetailPage({ caseId, onBack }) {
   );
 
   const figures = caseData.figures || [];
+  const organismTags = tagsByType(caseData.tags, "organism");
+  const primaryOrganism = organismTags[0] || "";
+  const canTutor = tutorModules.length > 0;
+
+  const toggleTutorModule = (id) => {
+    setTutorModules(prev =>
+      prev.includes(id) ? prev.filter(m => m !== id) : [...prev, id]
+    );
+  };
+
+  const startTutoring = () => {
+    if (!canTutor || !onStartTutoring) return;
+    onStartTutoring({
+      libraryCaseId: caseId,
+      organism: primaryOrganism,
+      modules: tutorModules,
+    });
+  };
 
   const renderContent = () => {
     if (activeTab === "Diagnosis") {
@@ -2154,11 +2287,36 @@ function CaseDetailPage({ caseId, onBack }) {
               display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28,
             }}>🦠</div>
           )}
-          <div>
+          <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 4, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em" }}>{caseId}</div>
             <h1 style={{ fontSize: 24, fontWeight: 600, color: "var(--text-primary)", margin: 0, lineHeight: 1.3, letterSpacing: "-0.02em" }}>
               {caseData.title}
             </h1>
+            {primaryOrganism && (
+              <div style={{ marginTop: 6, fontSize: 13, color: "var(--text-secondary)", fontStyle: "italic" }}>
+                {primaryOrganism}
+              </div>
+            )}
+            {onStartTutoring && (
+              <button
+                onClick={startTutoring}
+                disabled={!canTutor}
+                style={{
+                  marginTop: 14,
+                  padding: "9px 16px",
+                  borderRadius: "var(--radius)",
+                  border: "none",
+                  background: canTutor ? "var(--fill-accent)" : "var(--fill-disabled)",
+                  color: canTutor ? "var(--on-accent)" : "var(--text-disabled)",
+                  cursor: canTutor ? "pointer" : "default",
+                  fontSize: 13,
+                  fontWeight: 600,
+                  fontFamily: "var(--font-sans)",
+                }}
+              >
+                Start tutoring this case
+              </button>
+            )}
           </div>
         </div>
 
@@ -2214,6 +2372,47 @@ function CaseDetailPage({ caseId, onBack }) {
                   {figures.map((f, idx) => (
                     <CollapsibleImage key={f} title={`Figure ${idx + 1}`} src={`/case-images/${caseId}/${f}`} />
                   ))}
+                </div>
+              </div>
+            )}
+
+            {onStartTutoring && (
+              <div style={{ border: "1px solid var(--border)", borderRadius: 8, overflow: "hidden", background: "var(--surface-1)", marginBottom: 14 }}>
+                <div style={{ padding: "10px 14px", borderBottom: "1px solid var(--border)", background: "var(--surface-0)" }}>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)" }}>Tutor modules</div>
+                </div>
+                <div style={{ padding: "10px 14px", display: "flex", flexDirection: "column", gap: 8 }}>
+                  {MODULES.map(mod => {
+                    const active = tutorModules.includes(mod.id);
+                    return (
+                      <label key={mod.id} style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", fontSize: 13, color: "var(--text-secondary)", fontFamily: "var(--font-sans)" }}>
+                        <input
+                          type="checkbox"
+                          checked={active}
+                          onChange={() => toggleTutorModule(mod.id)}
+                        />
+                        <span>{mod.label}</span>
+                      </label>
+                    );
+                  })}
+                  <button
+                    onClick={startTutoring}
+                    disabled={!canTutor}
+                    style={{
+                      marginTop: 4,
+                      padding: "8px 12px",
+                      borderRadius: "var(--radius)",
+                      border: "none",
+                      background: canTutor ? "var(--fill-accent)" : "var(--fill-disabled)",
+                      color: canTutor ? "var(--on-accent)" : "var(--text-disabled)",
+                      cursor: canTutor ? "pointer" : "default",
+                      fontSize: 13,
+                      fontWeight: 600,
+                      fontFamily: "var(--font-sans)",
+                    }}
+                  >
+                    Start tutoring
+                  </button>
                 </div>
               </div>
             )}
@@ -2562,6 +2761,7 @@ export default function DocentID() {
   const [modal, setModal] = useState(null);
 
   const [caseIsRandom, setCaseIsRandom] = useState(false);
+  const [libraryCaseId, setLibraryCaseId] = useState(null);
   const [selectedCase, setSelectedCase] = useState(null);
   const authToken = user?.token || "";
 
@@ -2620,10 +2820,30 @@ export default function DocentID() {
     setCaseOrganism(null);
     setCaseModules([]);
     setCaseIsRandom(false);
+    setLibraryCaseId(null);
     setModal(null);
   };
-  const handleStartCase = (organism, modules, isRandom) => { setCaseOrganism(organism); setCaseModules(modules); setCaseIsRandom(!!isRandom); setScreen("chat"); };
-  const handleEndCase = () => { setCaseOrganism(null); setCaseModules([]); setCaseIsRandom(false); setScreen("setup"); };
+  const handleStartCase = (organism, modules, isRandom) => {
+    setCaseOrganism(organism);
+    setCaseModules(modules);
+    setCaseIsRandom(!!isRandom);
+    setLibraryCaseId(null);
+    setScreen("chat");
+  };
+  const handleStartFromLibrary = ({ libraryCaseId: libId, organism, modules }) => {
+    setCaseOrganism(organism || libId);
+    setCaseModules(modules?.length ? modules : ["history_taking"]);
+    setCaseIsRandom(false);
+    setLibraryCaseId(libId);
+    setScreen("chat");
+  };
+  const handleEndCase = () => {
+    setCaseOrganism(null);
+    setCaseModules([]);
+    setCaseIsRandom(false);
+    setLibraryCaseId(null);
+    setScreen("setup");
+  };
 
   useEffect(() => {
     if (!authToken || screen === "login") return;
@@ -2680,7 +2900,15 @@ export default function DocentID() {
         />
 
         {screen === "setup" && <SetupScreen onStart={handleStartCase} />}
-        {screen === "chat" && caseOrganism && <ChatScreen organism={caseOrganism} modules={caseModules} isRandom={caseIsRandom} onEndCase={handleEndCase} />}
+        {screen === "chat" && caseOrganism && (
+          <ChatScreen
+            organism={caseOrganism}
+            modules={caseModules}
+            isRandom={caseIsRandom}
+            libraryCaseId={libraryCaseId}
+            onEndCase={handleEndCase}
+          />
+        )}
         {screen === "about_architecture" && <AboutArchitecturePage onBack={() => navigate("setup")} />}
         {screen === "about_team" && <AboutTeamPage onBack={() => navigate("setup")} />}
         {screen === "case_library" && <CaseLibraryPage onBack={() => navigate("setup")} onOpenCase={openCase} />}
@@ -2688,7 +2916,13 @@ export default function DocentID() {
           && <TagReviewPage onBack={() => navigate("setup")} authToken={authToken} currentUser={user} />}
         {screen === "tasks" && <TasksPage onBack={() => navigate("setup")} authToken={authToken} />}
         {screen === "admin" && user.role === "admin" && <AdminPage onBack={() => navigate("setup")} authToken={authToken} />}
-        {screen === "case_detail" && selectedCase && <CaseDetailPage caseId={selectedCase} onBack={() => navigate("case_library")} />}
+        {screen === "case_detail" && selectedCase && (
+          <CaseDetailPage
+            caseId={selectedCase}
+            onBack={() => navigate("case_library")}
+            onStartTutoring={handleStartFromLibrary}
+          />
+        )}
 
         {modal === "howitworks" && (
           <Modal title="How it works" onClose={() => setModal(null)}>
