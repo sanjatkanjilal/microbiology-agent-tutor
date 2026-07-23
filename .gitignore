@@ -23,11 +23,16 @@ venv/
 dot_env_microtutor.txt     # LLM API credentials — never commit
 
 # ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
 *.log
 case_feedback.log
 feedback.log
 debug_log.log
 llm_interactions.log
+
+# ─── Local DB / cache churn (keep local; do not commit) ───────────────────────
+data/microtutor.db
+data/**/case_cache.json
 
 # ─── Legacy conversation artefacts ───────────────────────────────────────────
 conversation_history.txt
