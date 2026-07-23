@@ -152,12 +152,48 @@ def resolve_case_package(
     )
 
 
+@dataclass
+class PatientSessionSettings:
+    """Per-session patient voice knobs (keyed by client case_id)."""
+
+    patient_style: str = "neutral"
+    allow_plausible_findings: bool = False
+
+
+@dataclass
+class CaseOpeningSnapshot:
+    """Cached start_case opening so duplicate starts (e.g. React StrictMode) are idempotent."""
+
+    organism: str
+    initial_message: str
+    presentation: str
+    opening_messages: list[dict[str, str]]
+    history: list[dict[str, str]]
+    library_case_id: Optional[str] = None
+    figures: list[str] = field(default_factory=list)
+
+
 class CasePackageStore:
     """In-memory package store keyed by client session case_id."""
 
     def __init__(self) -> None:
         self._packages: dict[str, CasePackage] = {}
+        self._settings: dict[str, PatientSessionSettings] = {}
+        self._openings: dict[str, CaseOpeningSnapshot] = {}
         self._lock = threading.Lock()
+        # asyncio locks created lazily in the event loop (see get_start_lock)
+        self._async_start_locks: dict[str, Any] = {}
+
+    def get_start_lock(self, session_case_id: str):
+        """Return an asyncio.Lock that serializes start_case for this case_id."""
+        import asyncio
+
+        with self._lock:
+            lock = self._async_start_locks.get(session_case_id)
+            if lock is None:
+                lock = asyncio.Lock()
+                self._async_start_locks[session_case_id] = lock
+            return lock
 
     def put(self, session_case_id: str, package: CasePackage) -> CasePackage:
         with self._lock:
@@ -171,6 +207,39 @@ class CasePackageStore:
     def get_narrative(self, session_case_id: str) -> Optional[str]:
         pkg = self.get(session_case_id)
         return pkg.narrative if pkg else None
+
+    def put_opening(
+        self, session_case_id: str, opening: CaseOpeningSnapshot
+    ) -> CaseOpeningSnapshot:
+        with self._lock:
+            self._openings[session_case_id] = opening
+            return opening
+
+    def get_opening(self, session_case_id: str) -> Optional[CaseOpeningSnapshot]:
+        with self._lock:
+            return self._openings.get(session_case_id)
+
+    def put_settings(
+        self,
+        session_case_id: str,
+        *,
+        patient_style: Optional[str] = None,
+        allow_plausible_findings: Optional[bool] = None,
+    ) -> PatientSessionSettings:
+        from microtutor.prompts.patient_prompts import normalize_patient_style
+
+        with self._lock:
+            current = self._settings.get(session_case_id) or PatientSessionSettings()
+            if patient_style is not None:
+                current.patient_style = normalize_patient_style(patient_style)
+            if allow_plausible_findings is not None:
+                current.allow_plausible_findings = bool(allow_plausible_findings)
+            self._settings[session_case_id] = current
+            return current
+
+    def get_settings(self, session_case_id: str) -> PatientSessionSettings:
+        with self._lock:
+            return self._settings.get(session_case_id) or PatientSessionSettings()
 
 
 _store: Optional[CasePackageStore] = None

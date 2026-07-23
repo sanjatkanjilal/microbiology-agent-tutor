@@ -94,6 +94,30 @@ const PHASES = [
   { id: "feedback", label: "Review", icon: "✅" },
 ];
 
+const PATIENT_STYLES = [
+  { id: "random", label: "Random" },
+  { id: "neutral", label: "Neutral" },
+  { id: "chatty", label: "Chatty" },
+  { id: "quick", label: "Quick" },
+  { id: "well_informed", label: "Well informed" },
+  { id: "shy", label: "Shy" },
+  { id: "depressed", label: "Depressed" },
+  { id: "anxious", label: "Anxious" },
+  { id: "avoidant_of_doctors", label: "Avoidant" },
+];
+
+function resolvePatientStyle(selection) {
+  if (selection === "random") {
+    const pool = PATIENT_STYLES.filter(s => s.id !== "random");
+    return pool[Math.floor(Math.random() * pool.length)].id;
+  }
+  return selection || "neutral";
+}
+
+function patientStyleLabel(styleId) {
+  return PATIENT_STYLES.find(s => s.id === styleId)?.label || styleId;
+}
+
 const HOW_IT_WORKS_CONTENT = [
   "docent.ID teaches clinical infectious diseases through active case-based learning.",
   "Rather than presenting information to read, it puts you inside a case. You interview a patient, gather findings, reason through a differential diagnosis, and justify your management plan — guided throughout by Socratic questioning that never gives away the answer.",
@@ -652,6 +676,8 @@ function SetupScreen({ onStart }) {
   const [organism, setOrganism] = useState("");
   const [selectedModules, setSelectedModules] = useState([]);
   const [isRandom, setIsRandom] = useState(false);
+  const [styleSelection, setStyleSelection] = useState("neutral");
+  const [allowPlausibleFindings, setAllowPlausibleFindings] = useState(false);
 
   const toggleModule = (id) => {
     setSelectedModules(prev => prev.includes(id) ? prev.filter(m => m !== id) : [...prev, id]);
@@ -665,6 +691,7 @@ function SetupScreen({ onStart }) {
 
   const canStart = organism && selectedModules.length > 0;
   const orgLabel = ORGANISMS.find(o => o.value === organism)?.label || organism;
+  const resolvedPreviewStyle = styleSelection === "random" ? "?" : patientStyleLabel(styleSelection);
 
   return (
     <div style={{
@@ -728,8 +755,59 @@ function SetupScreen({ onStart }) {
               })}
             </div>
 
+            <div style={{ marginTop: 24 }}>
+              <p style={{ fontSize: 13, fontWeight: 500, color: "var(--text-secondary)", marginBottom: 8, letterSpacing: "0.03em" }}>
+                Patient style {styleSelection === "random" ? "(random at start)" : `— ${resolvedPreviewStyle}`}
+              </p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                {PATIENT_STYLES.map(st => {
+                  const active = styleSelection === st.id;
+                  return (
+                    <button
+                      key={st.id}
+                      type="button"
+                      onClick={() => setStyleSelection(st.id)}
+                      style={{
+                        padding: "6px 12px",
+                        borderRadius: 999,
+                        border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                        background: active ? "var(--bg-accent)" : "var(--surface-1)",
+                        color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                        fontSize: 12,
+                        cursor: "pointer",
+                        fontFamily: "var(--font-sans)",
+                      }}
+                    >
+                      {st.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <label style={{
+              display: "flex", alignItems: "flex-start", gap: 10, marginTop: 18,
+              fontSize: 13, color: "var(--text-secondary)", cursor: "pointer", fontFamily: "var(--font-sans)",
+            }}>
+              <input
+                type="checkbox"
+                checked={allowPlausibleFindings}
+                onChange={e => setAllowPlausibleFindings(e.target.checked)}
+                style={{ marginTop: 2 }}
+              />
+              <span>
+                <strong style={{ color: "var(--text-primary)" }}>Provide plausible Ix if missing from case</strong>
+                <br />
+                Off by default: unavailable tests return “not available”. When on, findings consistent with the case may be provided if not in the case data.
+              </span>
+            </label>
+
             <button
-              onClick={() => canStart && onStart(organism, selectedModules, isRandom)}
+              onClick={() => canStart && onStart(organism, selectedModules, isRandom, {
+                styleSelection,
+                patientStyle: resolvePatientStyle(styleSelection),
+                allowPlausibleFindings,
+              })}
               disabled={!canStart}
               style={{
                 marginTop: 20, width: "100%", padding: "11px",
@@ -762,16 +840,25 @@ function MessageBubble({ msg, onFeedback }) {
   const [feedbackGiven, setFeedbackGiven] = useState(null);
   if (msg.role === "system") return null;
 
+  const speaker = msg.speaker || (isUser ? "user" : "tutor");
+  const avatar = isUser ? "👤" : (speaker === "patient" ? "🧑" : "👨‍⚕️");
+  const speakerLabel = isUser ? null : (speaker === "patient" ? "Patient" : "Docent");
+
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-end" : "flex-start", marginBottom: 16 }}>
+      {!isUser && speakerLabel && (
+        <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 4, marginLeft: 36, fontFamily: "var(--font-sans)" }}>
+          {speakerLabel}
+        </div>
+      )}
       <div style={{ display: "flex", alignItems: "flex-start", gap: 8, maxWidth: "85%", flexDirection: isUser ? "row-reverse" : "row" }}>
         <div style={{
           width: 28, height: 28, borderRadius: "50%",
-          background: isUser ? "var(--bg-accent)" : "var(--surface-0)",
+          background: isUser ? "var(--bg-accent)" : (speaker === "patient" ? "var(--surface-2)" : "var(--surface-0)"),
           border: "1px solid var(--border)", display: "flex", alignItems: "center",
           justifyContent: "center", fontSize: 13, flexShrink: 0, marginTop: 2,
         }}>
-          {isUser ? "👤" : "👨‍⚕️"}
+          {avatar}
         </div>
         <div style={{
           background: isUser ? "var(--bg-accent)" : "var(--surface-1)",
@@ -1431,7 +1518,15 @@ function ModuleProgressBar({ modules, activeModule, onSwitchModule, progress }) 
 
 // ─── Chat Screen ──────────────────────────────────────────────────────────────
 
-function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
+function ChatScreen({
+  organism,
+  modules,
+  isRandom,
+  libraryCaseId,
+  initialPatientStyle,
+  initialAllowPlausibleFindings,
+  onEndCase,
+}) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -1445,11 +1540,13 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
   const [caseContext, setCaseContext] = useState(null);
   const [revealedInfo, setRevealedInfo] = useState({});
   const [progress, setProgress] = useState({});
-  // EMR data persists across module switches; filled by backend structured extraction
   const [emrData, setEmrData] = useState({});
   const [emrBusy, setEmrBusy] = useState(false);
   const [emrRefreshing, setEmrRefreshing] = useState(false);
   const [resolvedOrganism, setResolvedOrganism] = useState(organism || "");
+  const [patientStyle, setPatientStyle] = useState(initialPatientStyle || "neutral");
+  const [allowPlausibleFindings, setAllowPlausibleFindings] = useState(!!initialAllowPlausibleFindings);
+  const [showStylePicker, setShowStylePicker] = useState(false);
   const hasHistoryModule = modules.includes("history_taking");
 
   const historyRef = useRef([]);
@@ -1485,27 +1582,52 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
   }, [caseActive, caseId, emrBusy]);
 
   useEffect(() => {
+    // React StrictMode remounts in dev and re-runs this effect. Cancel stale
+    // responses so a slower second start_case cannot overwrite the UI with a
+    // different randomized library case / greeting.
+    let cancelled = false;
+    const controller = new AbortController();
+
     (async () => {
       try {
         const payload = {
           case_id: caseId,
           model_name: null,
           enable_guidelines: false,
+          patient_style: patientStyle,
+          allow_plausible_findings: allowPlausibleFindings,
         };
         if (libraryCaseId) payload.library_case_id = libraryCaseId;
         if (organism) payload.organism = organism;
         const res = await fetch(`${API_BASE}/start_case`, {
-          method: "POST", headers: { "Content-Type": "application/json" },
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
+          signal: controller.signal,
         });
         if (!res.ok) throw new Error(`Server error ${res.status}`);
         const data = await res.json();
+        if (cancelled) return;
+
         if (data.organism) setResolvedOrganism(data.organism);
-        const msg = { role: "assistant", content: data.initial_message };
-        historyRef.current = [msg];
-        setMessages([msg]);
-        // Prefer backend clinical one-liner; never use welcome boilerplate as CC
-        const presentation = extractPresentation(data);
+        if (data.patient_style) setPatientStyle(data.patient_style);
+        if (typeof data.allow_plausible_findings === "boolean") {
+          setAllowPlausibleFindings(data.allow_plausible_findings);
+        }
+
+        const opening = (data.opening_messages && data.opening_messages.length > 0)
+          ? data.opening_messages.map(m => ({
+            role: "assistant",
+            speaker: m.speaker,
+            content: m.content,
+          }))
+          : [{ role: "assistant", speaker: "tutor", content: data.initial_message }];
+
+        historyRef.current = opening;
+        setMessages(opening);
+
+        const patientMsg = opening.find(m => m.speaker === "patient");
+        const presentation = (data.presentation || patientMsg?.content || extractPresentation(data) || "").trim();
         if (presentation) setChiefComplaint(presentation);
         setEmrData(prev => ({
           ...prev,
@@ -1513,16 +1635,23 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
         }));
         if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
         setEmrBusy(true);
-        // Extract structured context from history
         if (data.history) extractCaseContext(data);
         setCaseActive(true);
       } catch (err) {
+        if (cancelled || err?.name === "AbortError") return;
         setError(`Could not connect to server: ${err.message}`);
       } finally {
-        setStarting(false);
-        setTimeout(() => inputRef.current?.focus(), 100);
+        if (!cancelled) {
+          setStarting(false);
+          setTimeout(() => inputRef.current?.focus(), 100);
+        }
       }
     })();
+
+    return () => {
+      cancelled = true;
+      controller.abort();
+    };
   }, []);
 
   const sendMessage = useCallback(async () => {
@@ -1542,12 +1671,23 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
     try {
       const res = await fetch(`${API_BASE}/chat`, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text, history: historyRef.current, organism_key: resolvedOrganism || organism, case_id: caseId, model_name: null, feedback_enabled: true, current_phase: currentPhase }),
+        body: JSON.stringify({
+          message: text,
+          history: historyRef.current,
+          organism_key: resolvedOrganism || organism,
+          case_id: caseId,
+          model_name: null,
+          feedback_enabled: true,
+          current_phase: currentPhase,
+          patient_style: patientStyle,
+          allow_plausible_findings: allowPlausibleFindings,
+        }),
       });
       if (!res.ok) throw new Error(`Server error ${res.status}`);
 
       const contentType = res.headers.get("content-type") || "";
       let responseText = "";
+      let toolsUsed = [];
 
       if (contentType.includes("text/event-stream")) {
         const reader = res.body.getReader();
@@ -1564,6 +1704,7 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
                 if (p.revealed_info) setRevealedInfo(prev => ({ ...prev, ...p.revealed_info }));
                 if (p.emr_data) setEmrData(prev => applyEmrData(prev, p.emr_data));
                 if (typeof p.emr_busy === "boolean") setEmrBusy(p.emr_busy);
+                if (Array.isArray(p.tools_used)) toolsUsed = p.tools_used;
               } catch {}
             }
           }
@@ -1571,6 +1712,7 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
       } else {
         const data = await res.json();
         responseText = data.response || data.content || data.message || JSON.stringify(data);
+        toolsUsed = data.tools_used || data.metadata?.tools_used || [];
         if (data.metadata?.current_phase) setCurrentPhase(data.metadata.current_phase);
         if (data.metadata?.revealed_info) {
           setRevealedInfo(prev => ({ ...prev, ...data.metadata.revealed_info }));
@@ -1578,22 +1720,20 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
         if (data.emr_data) {
           setEmrData(prev => applyEmrData(prev, data.emr_data));
         } else if (Array.isArray(data.emr_notes) && data.emr_notes.length) {
-          // Snapshot may arrive as raw notes; poll will normalize shortly
           setEmrBusy(true);
         }
         if (typeof data.emr_busy === "boolean") setEmrBusy(data.emr_busy);
         else setEmrBusy(true);
-        // Increment progress for active module
         setProgress(prev => ({
           ...prev,
           [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
         }));
       }
 
-      // Check if relevant images should be unlocked based on the inquiry
       unlockRelevantFigures(text, responseText, caseContext, setCaseContext);
 
-      const aMsg = { role: "assistant", content: responseText };
+      const replySpeaker = toolsUsed.includes("patient") ? "patient" : "tutor";
+      const aMsg = { role: "assistant", speaker: replySpeaker, content: responseText };
       historyRef.current = [...historyRef.current, aMsg];
       setMessages(prev => prev.map(m => m.id === streamingId ? aMsg : m));
     } catch (err) {
@@ -1602,7 +1742,7 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
     } finally {
       setLoading(false);
     }
-  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule]);
+  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule, patientStyle, allowPlausibleFindings]);
 
   const handleFeedback = useCallback(async (msg, rating) => {
     try {
@@ -1686,6 +1826,42 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
               )}
             </>
           )}
+          <button
+            type="button"
+            onClick={() => setShowStylePicker(true)}
+            title="Change patient style"
+            style={{
+              padding: "3px 10px",
+              borderRadius: 999,
+              border: "1px solid var(--border-strong)",
+              background: "var(--surface-0)",
+              color: "var(--text-secondary)",
+              cursor: "pointer",
+              fontSize: 11,
+              fontFamily: "var(--font-sans)",
+            }}
+          >
+            Patient: {patientStyleLabel(patientStyle)}
+          </button>
+          <label
+            title="Provide plausible investigations if missing from case data"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 5,
+              fontSize: 11,
+              color: "var(--text-muted)",
+              cursor: "pointer",
+              fontFamily: "var(--font-sans)",
+            }}
+          >
+            <input
+              type="checkbox"
+              checked={allowPlausibleFindings}
+              onChange={e => setAllowPlausibleFindings(e.target.checked)}
+            />
+            Provide plausible Ix if missing from case
+          </label>
         </div>
 
         {/* New case button — prominent */}
@@ -1799,6 +1975,38 @@ function ChatScreen({ organism, modules, isRandom, libraryCaseId, onEndCase }) {
           />
         </div>
       </div>
+
+      {showStylePicker && (
+        <Modal title="Patient style" onClose={() => setShowStylePicker(false)}>
+          <p style={{ fontSize: 13, color: "var(--text-secondary)", margin: "0 0 12px", fontFamily: "var(--font-sans)" }}>
+            Affects how the patient speaks in history (1st person). Exam and test results stay neutral clinical style.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {PATIENT_STYLES.filter(s => s.id !== "random").map(st => {
+              const active = patientStyle === st.id;
+              return (
+                <button
+                  key={st.id}
+                  type="button"
+                  onClick={() => { setPatientStyle(st.id); setShowStylePicker(false); }}
+                  style={{
+                    padding: "8px 14px",
+                    borderRadius: 999,
+                    border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                    background: active ? "var(--bg-accent)" : "var(--surface-1)",
+                    color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                    fontSize: 13,
+                    cursor: "pointer",
+                    fontFamily: "var(--font-sans)",
+                  }}
+                >
+                  {st.label}
+                </button>
+              );
+            })}
+          </div>
+        </Modal>
+      )}
     </div>
   );
 
@@ -2762,6 +2970,8 @@ export default function DocentID() {
 
   const [caseIsRandom, setCaseIsRandom] = useState(false);
   const [libraryCaseId, setLibraryCaseId] = useState(null);
+  const [casePatientStyle, setCasePatientStyle] = useState("neutral");
+  const [caseAllowPlausibleFindings, setCaseAllowPlausibleFindings] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
   const authToken = user?.token || "";
 
@@ -2821,13 +3031,17 @@ export default function DocentID() {
     setCaseModules([]);
     setCaseIsRandom(false);
     setLibraryCaseId(null);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
     setModal(null);
   };
-  const handleStartCase = (organism, modules, isRandom) => {
+  const handleStartCase = (organism, modules, isRandom, options = {}) => {
     setCaseOrganism(organism);
     setCaseModules(modules);
     setCaseIsRandom(!!isRandom);
     setLibraryCaseId(null);
+    setCasePatientStyle(options.patientStyle || resolvePatientStyle(options.styleSelection || "neutral"));
+    setCaseAllowPlausibleFindings(!!options.allowPlausibleFindings);
     setScreen("chat");
   };
   const handleStartFromLibrary = ({ libraryCaseId: libId, organism, modules }) => {
@@ -2835,6 +3049,8 @@ export default function DocentID() {
     setCaseModules(modules?.length ? modules : ["history_taking"]);
     setCaseIsRandom(false);
     setLibraryCaseId(libId);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
     setScreen("chat");
   };
   const handleEndCase = () => {
@@ -2842,6 +3058,8 @@ export default function DocentID() {
     setCaseModules([]);
     setCaseIsRandom(false);
     setLibraryCaseId(null);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
     setScreen("setup");
   };
 
@@ -2906,6 +3124,8 @@ export default function DocentID() {
             modules={caseModules}
             isRandom={caseIsRandom}
             libraryCaseId={libraryCaseId}
+            initialPatientStyle={casePatientStyle}
+            initialAllowPlausibleFindings={caseAllowPlausibleFindings}
             onEndCase={handleEndCase}
           />
         )}

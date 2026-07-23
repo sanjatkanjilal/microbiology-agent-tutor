@@ -24,6 +24,15 @@ from microtutor.prompts.tutor_prompt import (
 # Agent prompts
 from microtutor.prompts.patient_prompts import (
     get_patient_system_prompt,
+    format_patient_system_prompt,
+    get_patient_greeting_user_prompt,
+    get_docent_intro_template,
+    DOCENT_INTRO_TEMPLATE,
+    PATIENT_STYLES,
+    DEFAULT_PATIENT_STYLE,
+    normalize_patient_style,
+    get_patient_style_instructions,
+    get_ix_policy_instructions,
 )
 
 from microtutor.prompts.socratic_prompts import (
@@ -56,6 +65,15 @@ __all__ = [
     "get_first_pt_sentence_generation_user_prompt",
     # Patient prompts
     "get_patient_system_prompt",
+    "format_patient_system_prompt",
+    "get_patient_greeting_user_prompt",
+    "get_docent_intro_template",
+    "DOCENT_INTRO_TEMPLATE",
+    "PATIENT_STYLES",
+    "DEFAULT_PATIENT_STYLE",
+    "normalize_patient_style",
+    "get_patient_style_instructions",
+    "get_ix_policy_instructions",
     # Socratic prompts
     "get_socratic_system_prompt",
     # Hint prompts

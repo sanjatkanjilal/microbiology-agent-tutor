@@ -10,6 +10,13 @@ from datetime import datetime
 from .requests import Message
 
 
+class OpeningMessage(BaseModel):
+    """One message in the case opening sequence."""
+
+    speaker: str = Field(..., description="tutor or patient")
+    content: str = Field(..., description="Message text")
+
+
 class StartCaseResponse(BaseModel):
     """Response when starting a new case.
     
@@ -54,22 +61,38 @@ class StartCaseResponse(BaseModel):
     )
     presentation: Optional[str] = Field(
         default=None,
-        description="Clinical one-liner (chief complaint seed), without tutor boilerplate",
+        description="Patient first-person greeting (chief complaint seed)",
+    )
+    opening_messages: Optional[List[OpeningMessage]] = Field(
+        default_factory=list,
+        description="Ordered tutor intro then patient greeting",
+    )
+    patient_style: Optional[str] = Field(
+        default="neutral",
+        description="Active patient communication style for this session",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=False,
+        description="Whether plausible ix invention is enabled",
     )
     
     model_config = ConfigDict(
         json_schema_extra={
             "example": {
-                "initial_message": "Welcome! Let me present a 45-year-old patient...",
+                "initial_message": "Welcome to today's case...",
+                "opening_messages": [
+                    {"speaker": "tutor", "content": "Welcome to today's case..."},
+                    {"speaker": "patient", "content": "Hi Doctor, I'm Sarah..."},
+                ],
                 "history": [
-                    {
-                        "role": "assistant",
-                        "content": "Welcome! Let me present a 45-year-old patient..."
-                    }
+                    {"role": "assistant", "content": "Welcome to today's case...", "speaker": "tutor"},
+                    {"role": "assistant", "content": "Hi Doctor, I'm Sarah...", "speaker": "patient"},
                 ],
                 "case_id": "case_2024_abc123",
                 "organism": "staphylococcus aureus",
-                "presentation": "A 45-year-old man presents with fever and back pain."
+                "presentation": "Hi Doctor, I'm Sarah...",
+                "patient_style": "neutral",
+                "allow_plausible_findings": False,
             }
         }
     )

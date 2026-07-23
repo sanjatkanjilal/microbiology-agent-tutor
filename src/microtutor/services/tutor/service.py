@@ -10,9 +10,9 @@ from microtutor.schemas.domain.domain import TutorContext, TutorResponse, TutorS
 from microtutor.core.logging.logging_config import log_agent_context
 from microtutor.tools import get_tool_engine
 from microtutor.core.config.config_helper import config as global_config  # read-only
-from microtutor.prompts.tutor_prompt import (
-    get_first_pt_sentence_generation_system_prompt,
-    get_first_pt_sentence_generation_user_prompt
+from microtutor.prompts.patient_prompts import (
+    get_docent_intro_template,
+    get_patient_greeting_user_prompt,
 )
 from microtutor.services.case import get_case
 from microtutor.core.llm.llm_client import LLMClient
@@ -20,7 +20,6 @@ from microtutor.services.guideline.cache import get_guidelines_cache
 from microtutor.utils.conversation_utils import (
     filter_system_messages,
     prepare_llm_messages,
-    get_cached_first_pt_sentence,
     has_cached_case
 )
 from microtutor.utils.phase_utils import (
@@ -94,44 +93,32 @@ class TutorService:
     # ---------- Public API ----------
 
 
-    def _generate_first_pt_sentence_via_llm(self, case_description: str, model: str) -> str:
-        """Generate first patient sentence via LLM in the format of ambiguous_with_ages.json.
-        
-        The generated sentence should be a brief, ambiguous initial presentation
-        similar to the cached examples (e.g., "45-year-old man reports fatigue and expanding skin rash.").
-        
-        Args:
-            case_description: Full case description
-            model: Model name to use
-            
-        Returns:
-            Generated first patient sentence
-        """
-        system_prompt = get_first_pt_sentence_generation_system_prompt()
-        user_prompt = get_first_pt_sentence_generation_user_prompt(case_description)
-
+    def _generate_patient_greeting_via_llm(self, case_description: str, model: str) -> str:
+        """Generate first-person patient opening greeting (simplified-style)."""
+        user_prompt = get_patient_greeting_user_prompt(case_description)
         messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
+            {
+                "role": "system",
+                "content": "You write realistic patient opening lines for medical education cases.",
+            },
+            {"role": "user", "content": user_prompt},
         ]
-        
+
         response = self.llm_client.generate(
             messages=messages,
             model=model,
             tools=None,
             retries=4,
-            fallback_model=self.cfg.fallback_model
+            fallback_model=self.cfg.fallback_model,
         )
-        
+
         if not response:
-            return "A patient presents with concerning symptoms."
-        
-        sentence = response if isinstance(response, str) else response.get("content", "")
-        # Clean up any extra formatting
-        sentence = sentence.strip().strip('"').strip("'")
-        
-        logger.info(f"Generated first patient sentence via LLM: {sentence[:50]}...")
-        return sentence
+            return "Hi Doctor — I've been feeling really unwell and I'm worried."
+
+        greeting = response if isinstance(response, str) else response.get("content", "")
+        greeting = greeting.strip().strip('"').strip("'")
+        logger.info("Generated patient greeting via LLM: %s...", greeting[:60])
+        return greeting
 
 
     async def start_case(
@@ -143,84 +130,56 @@ class TutorService:
         case_description: Optional[str] = None,
         case_source: Optional[str] = None,
     ) -> TutorResponse:
-        """Start a new case for the given organism.
-        
-        Flow:
-        a) If case_description is provided (bound case package), use it
-        b) Else load/generate via get_case(organism)
-        c) Cached first_pt_sentence when using organism cache; else LLM-generate from narrative
-        
-        Args:
-            organism: The microorganism name
-            case_id: Unique case identifier
-            model_name: Optional LLM model to use
-            case_description: Optional pre-bound narrative (same source as figures)
-            case_source: Optional label for metadata (case_library | organism_cache | …)
-            
-        Returns:
-            TutorResponse with initial welcome message
-        """
+        """Start a new case: fixed docent intro + LLM patient first-person greeting."""
         t0 = datetime.now()
         model = model_name or self.cfg.model_name
 
-        # Check if organism has cached case (get in-memory cache if available)
-        from microtutor.services.case import CaseGeneratorRAGAgent
-        case_generator = CaseGeneratorRAGAgent()
-        organism_has_cached_case = has_cached_case(
-            organism,
-            self._cached_cases_dir,
-            case_generator_cache=case_generator.case_cache
-        )
-        
-        # Prefer bound package narrative so text and figures stay aligned
         if case_description and case_description.strip():
             case_desc = case_description.strip()
             resolved_source = case_source or "bound_package"
         else:
             case_desc = get_case(organism)
+            from microtutor.services.case import CaseGeneratorRAGAgent
+            case_generator = CaseGeneratorRAGAgent()
+            organism_has_cached_case = has_cached_case(
+                organism,
+                self._cached_cases_dir,
+                case_generator_cache=case_generator.case_cache,
+            )
             resolved_source = "cached" if organism_has_cached_case else "generated"
+
         if not case_desc:
             raise ValueError(f"Could not load or generate case for organism: {organism}")
 
-        # First patient sentence: only reuse organism cache when not on a library package
-        first_pt_sentence = None
-        if resolved_source != "case_library":
-            first_pt_sentence = get_cached_first_pt_sentence(organism, self._first_pt_sentence_path)
-        
-        if not first_pt_sentence:
-            logger.info("Generating first patient sentence via LLM")
-            first_pt_sentence = self._generate_first_pt_sentence_via_llm(case_desc, model)
+        docent_intro = get_docent_intro_template()
+        patient_greeting = self._generate_patient_greeting_via_llm(case_desc, model)
 
-        # Format welcome message
-        response_text = (
-            "Welcome to today's case.\n\n"
-            f"{first_pt_sentence}\n\n"
-            "Begin by asking a more detailed history, requesting specific physical exam findings, "
-            "and ordering initial studies. Then we will move onto differential diagnosis, "
-            "management and feedback."
-        )
+        opening_messages = [
+            {"speaker": "tutor", "content": docent_intro},
+            {"speaker": "patient", "content": patient_greeting},
+        ]
 
-        # Reset guidelines cache for this session if enabled
         if self.enable_guidelines_prefetch and self.guidelines_cache:
-            # We don't need to clear the whole cache, just ensure we're starting fresh
-            # The client should clear its local state, but we can log it here
-            logger.info(f"Starting new case {case_id} - guidelines prefetch enabled: {enable_guidelines}")
+            logger.info(
+                f"Starting new case {case_id} - guidelines prefetch enabled: {enable_guidelines}"
+            )
 
-        # Return immediately (guidelines load in background)
         dt_ms = (datetime.now() - t0).total_seconds() * 1000
         return TutorResponse(
-            content=response_text,
+            content=docent_intro,
             tools_used=[],
             processing_time_ms=dt_ms,
             metadata={
-                "case_id": case_id, 
-                "organism": organism, 
-                "state": TutorState.INFORMATION_GATHERING.value, 
+                "case_id": case_id,
+                "organism": organism,
+                "state": TutorState.INFORMATION_GATHERING.value,
                 "model": model,
-                "guidelines_prefetching": self.enable_guidelines_prefetch and self.guidelines_cache is not None,
+                "guidelines_prefetching": self.enable_guidelines_prefetch
+                and self.guidelines_cache is not None,
                 "case_source": resolved_source,
-                # Clinical one-liner only — not the welcome boilerplate
-                "presentation": first_pt_sentence,
+                "presentation": patient_greeting,
+                "opening_messages": opening_messages,
+                "patient_greeting": patient_greeting,
             },
         )
 
@@ -653,6 +612,12 @@ class TutorService:
                 tool_args["model"] = context.model_name or global_config.API_MODEL_NAME or "gpt-5"
                 tool_args["case_id"] = context.case_id or ""
                 tool_args["organism"] = context.organism or ""
+                if tool_name == "patient":
+                    meta = context.session_metadata or {}
+                    tool_args["patient_style"] = meta.get("patient_style", "neutral")
+                    tool_args["allow_plausible_findings"] = bool(
+                        meta.get("allow_plausible_findings", False)
+                    )
             elif tool_name == "hint":
                 # Hint tool does NOT get the full case - only conversation history
                 # This prevents leaking undiscovered case information

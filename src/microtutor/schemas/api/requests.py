@@ -78,6 +78,14 @@ class StartCaseRequest(BaseModel):
         default=False,
         description="Whether to enable clinical guidelines for this case"
     )
+    patient_style: Optional[str] = Field(
+        default="neutral",
+        description="Patient communication style (1st-person history voice)",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=False,
+        description="When true, invent plausible ix findings if not in case data",
+    )
     
     @field_validator('organism')
     @classmethod
@@ -167,6 +175,14 @@ class ChatRequest(BaseModel):
     current_phase: Optional[str] = Field(
         default=None,
         description="Frontend-reported current phase (e.g. 'information_gathering', 'differential_diagnosis', 'tests_management', 'feedback')"
+    )
+    patient_style: Optional[str] = Field(
+        default=None,
+        description="Patient communication style; updates session when provided",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=None,
+        description="Ix policy toggle; updates session when provided",
     )
     
     @field_validator('message')
