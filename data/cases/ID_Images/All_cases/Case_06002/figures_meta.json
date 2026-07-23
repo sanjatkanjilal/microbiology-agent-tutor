@@ -1,0 +1,164 @@
+{
+  "Case_06002/figure1.jpg": {
+    "case_id": "Case_06002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06002/figure1.jpg",
+    "source_caption": "Chest radiograph",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing diffuse opacities and medical devices.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing diffuse bilateral pulmonary opacities, which may represent consolidation or edema. Multiple medical devices are visible, including ECG leads and a central venous catheter. The image appears de-identified and is consistent with a hospitalized patient, possibly in critical care. The radiograph is of standard quality with no obvious external artifacts.",
+      "visible_findings": [
+        "diffuse bilateral pulmonary opacities",
+        "central venous catheter",
+        "ECG leads",
+        "no visible pneumothorax",
+        "no obvious fractures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "medical devices",
+        "critical care",
+        "hospitalized patient"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary opacities",
+        "hospitalized patient"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:33+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 244,
+      "total_tokens": 830
+    }
+  },
+  "Case_06002/figure3.jpg": {
+    "case_id": "Case_06002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06002/figure3.jpg",
+    "source_caption": "Gram stain of culture growth from a sputum specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing numerous gram-positive bacilli from a sputum culture.",
+      "detailed_description": "This image shows a Gram stain of a culture growth from a sputum specimen. The field is dominated by numerous elongated, rod-shaped bacteria that stain pink, consistent with gram-positive bacilli. The organisms are arranged in clusters and scattered throughout the field. The background is relatively clear, suggesting a pure or predominant growth of this organism.",
+      "visible_findings": [
+        "numerous pink-staining rod-shaped bacteria",
+        "gram-positive bacilli morphology",
+        "scattered and clustered arrangement"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum culture",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "bacteria morphology"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "bacterial morphology",
+        "sputum culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:34+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 224,
+      "total_tokens": 817
+    }
+  },
+  "Case_06002/figure2.jpg": {
+    "case_id": "Case_06002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06002/figure2.jpg",
+    "source_caption": "Gram stain of sputum sample.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "sputum",
+      "short_caption": "Gram stain of sputum sample showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of a sputum sample. Numerous gram-positive cocci, appearing as purple clusters, are visible against a pinkish background. The background also contains amorphous material and debris, consistent with sputum. The clustering pattern of the cocci suggests a possible staphylococcal species. No clear gram-negative organisms are evident in this field.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "pinkish background with amorphous material",
+        "no visible gram-negative organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "gram-positive cocci",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "microbiology of respiratory infection",
+        "staphylococcal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:37+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 238,
+      "total_tokens": 827
+    }
+  },
+  "Case_06002/figure4.jpg": {
+    "case_id": "Case_06002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06002/figure4.jpg",
+    "source_caption": "Detail of Figure 3.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in a chain-like arrangement.",
+      "detailed_description": "This is a gram stain image showing numerous slender, rod-shaped bacteria arranged in chains and scattered across the field. The bacteria stain pink, indicating they are gram-positive. The background is clear, and the organisms are distributed in clusters and isolated forms. The image suggests a bacterial morphology consistent with gram-positive bacilli.",
+      "visible_findings": [
+        "pink-staining rod-shaped bacteria",
+        "chain-like arrangement of bacilli",
+        "clusters and scattered individual bacteria"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:37+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 208,
+      "total_tokens": 796
+    }
+  }
+}

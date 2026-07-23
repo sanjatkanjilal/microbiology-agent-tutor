@@ -1,0 +1,206 @@
+{
+  "Case_12003/figure1.jpg": {
+    "case_id": "Case_12003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12003/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Erythema and swelling of the lower leg, suggestive of cellulitis.",
+      "detailed_description": "This image shows the lower legs of a patient, with the right leg prominently displaying diffuse erythema, swelling, and a shiny appearance. The redness extends from the ankle to the mid-calf region. The left leg appears unaffected in comparison. The findings are consistent with an inflammatory or infectious process, such as cellulitis.",
+      "visible_findings": [
+        "diffuse erythema of the right lower leg",
+        "swelling and shiny skin appearance",
+        "clear demarcation of redness extending to mid-calf",
+        "left leg appears normal"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "erythema",
+        "swelling",
+        "cellulitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg erythema",
+        "cellulitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:28+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  },
+  "Case_12003/figure2.jpg": {
+    "case_id": "Case_12003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12003/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Erythema and swelling of the lower leg.",
+      "detailed_description": "This image shows the lower leg of a patient with visible erythema and mild swelling. The skin appears shiny, with a reddish discoloration extending along the anterior aspect of the leg. There are no visible breaks in the skin or ulcerations. The findings suggest a possible inflammatory or infectious process, such as cellulitis.",
+      "visible_findings": [
+        "erythema of the lower leg",
+        "mild swelling",
+        "shiny skin appearance",
+        "no visible skin breaks or ulcerations"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "erythema",
+        "swelling",
+        "cellulitis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg redness",
+        "infectious leg swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:28+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  },
+  "Case_12003/figure4.jpg": {
+    "case_id": "Case_12003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12003/figure4.jpg",
+    "source_caption": "Growth on a Thayer-Martin subculture plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on a Thayer-Martin agar plate.",
+      "detailed_description": "This image shows a Thayer-Martin agar plate with visible bacterial growth. The colonies appear small, round, and translucent to slightly opaque, distributed along the streak lines. The agar has a reddish-brown color, characteristic of the medium, which is selective for Neisseria species. The growth pattern suggests successful isolation of an organism, likely from a clinical specimen.",
+      "visible_findings": [
+        "reddish-brown Thayer-Martin agar",
+        "small, round, translucent to slightly opaque colonies",
+        "growth along streak lines"
+      ],
+      "keywords": [
+        "culture plate",
+        "thayer-martin agar",
+        "bacterial growth",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "thayer-martin agar",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:35+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 232,
+      "total_tokens": 825
+    }
+  },
+  "Case_12003/figure3.jpg": {
+    "case_id": "Case_12003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12003/figure3.jpg",
+    "source_caption": "Anal culture on JEMBEC agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "anal",
+      "short_caption": "Bacterial colonies on JEMBEC agar plate from an anal culture.",
+      "detailed_description": "This image shows a JEMBEC agar plate with multiple bacterial colonies of varying sizes and morphologies. The colonies are distributed across the plate, with some appearing smooth and others more irregular. The agar is a reddish-brown color, consistent with the medium used for culturing specific organisms. The central well suggests the use of a CO2-generating system, typical for JEMBEC plates.",
+      "visible_findings": [
+        "reddish-brown agar plate",
+        "multiple bacterial colonies of varying sizes",
+        "central well for CO2 generation"
+      ],
+      "keywords": [
+        "culture plate",
+        "jemBEC",
+        "anal culture",
+        "bacterial colonies",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "jemBEC plate",
+        "anal culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:35+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 227,
+      "total_tokens": 818
+    }
+  },
+  "Case_12003/figure5.jpg": {
+    "case_id": "Case_12003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12003/figure5.jpg",
+    "source_caption": "Gram stain of organism, under oil at 100x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters, under oil immersion at 100x magnification.",
+      "detailed_description": "This image shows a Gram stain viewed under oil immersion at 100x magnification. The organisms appear as gram-positive cocci, characterized by their purple coloration and arrangement in clusters. The background is clear, with no visible host cells or debris, suggesting a pure bacterial sample.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "oil immersion"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:36+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 206,
+      "total_tokens": 802
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Case_02016/figure1.jpg": {
+    "case_id": "Case_02016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02016/figure1.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI showing multiple ring-enhancing lesions.",
+      "detailed_description": "This axial T1-weighted MRI with contrast demonstrates multiple ring-enhancing lesions scattered throughout the brain parenchyma. The lesions vary in size and are associated with surrounding edema. The findings are suggestive of an infectious or inflammatory process, such as cerebral abscesses or neurocysticercosis. The image includes a scale bar for reference.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "surrounding edema",
+        "contrast-enhanced imaging",
+        "lesions of varying sizes"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "contrast",
+        "infection",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain lesions",
+        "ring-enhancing lesions on mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:05+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_02016/figure2.jpg": {
+    "case_id": "Case_02016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02016/figure2.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial head MRI showing abnormal enhancement in the posterior fossa.",
+      "detailed_description": "This axial MRI scan of the head demonstrates abnormal enhancement in the posterior fossa region, particularly involving the cerebellum. The image shows clear anatomical structures, including the orbits and sinuses anteriorly, with the cerebellum and brainstem posteriorly. The enhancement suggests a possible infectious or inflammatory process. The scan includes a scale marker for reference.",
+      "visible_findings": [
+        "abnormal enhancement in the posterior fossa",
+        "clear visualization of orbits and sinuses",
+        "cerebellum and brainstem visible"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "posterior fossa",
+        "cerebellum",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "posterior fossa lesion",
+        "cerebellar enhancement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:06+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 234,
+      "total_tokens": 820
+    }
+  },
+  "Case_02016/figure4.jpg": {
+    "case_id": "Case_02016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02016/figure4.jpg",
+    "source_caption": "AFB stain of scrotal tissue.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "scrotal tissue",
+      "short_caption": "AFB stain of scrotal tissue showing a single acid-fast bacillus.",
+      "detailed_description": "This image shows a microscopic view of scrotal tissue stained with an acid-fast bacillus (AFB) stain. A single, slender, bright pink bacillus is visible against a pale blue background, consistent with the staining pattern of mycobacteria. The surrounding tissue appears lightly stained, with no other prominent organisms visible. The image highlights the diagnostic utility of AFB staining in identifying acid-fast organisms.",
+      "visible_findings": [
+        "single bright pink bacillus",
+        "pale blue background",
+        "no other prominent organisms visible"
+      ],
+      "keywords": [
+        "afb stain",
+        "scrotal tissue",
+        "acid-fast bacillus",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "afb stain",
+        "acid-fast bacillus",
+        "scrotal tissue biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:11+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 241,
+      "total_tokens": 832
+    }
+  },
+  "Case_02016/figure3.jpg": {
+    "case_id": "Case_02016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02016/figure3.jpg",
+    "source_caption": "Figure 3. Pathology of scrotal tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "scrotal tissue",
+      "short_caption": "Histopathology of scrotal tissue showing inflammatory infiltrates and granuloma formation.",
+      "detailed_description": "This histopathological image shows scrotal tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates a dense inflammatory infiltrate composed of lymphocytes and histiocytes, with evidence of granuloma formation. The granuloma is characterized by a central area of necrosis surrounded by epithelioid macrophages and multinucleated giant cells. The background shows scattered inflammatory cells and stromal tissue.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "granuloma formation",
+        "central necrosis",
+        "epithelioid macrophages",
+        "multinucleated giant cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "scrotal tissue",
+        "granuloma",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of scrotum",
+        "granuloma in scrotal tissue",
+        "H&E stain of scrotal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:12+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 272,
+      "total_tokens": 866
+    }
+  }
+}

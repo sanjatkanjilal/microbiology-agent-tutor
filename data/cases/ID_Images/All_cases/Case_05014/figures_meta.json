@@ -1,0 +1,126 @@
+{
+  "Case_05014/figure1.jpg": {
+    "case_id": "Case_05014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05014/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields with no visible consolidations, masses, or effusions. The heart size appears within normal limits, and the mediastinal contours are unremarkable. The bony structures, including the ribs, clavicles, and spine, appear intact without obvious abnormalities. The diaphragm is well-defined, and there is no evidence of free air under the diaphragm.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal heart size",
+        "intact bony structures",
+        "well-defined diaphragm",
+        "no visible consolidations or effusions"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:21+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_05014/figure2.jpg": {
+    "case_id": "Case_05014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05014/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing a cavitary lesion in the left upper lobe.",
+      "detailed_description": "This axial CT scan of the chest demonstrates a cavitary lesion in the left upper lobe of the lung. The cavity appears well-defined with a thickened wall. Surrounding lung parenchyma shows no obvious consolidation or ground-glass opacities. The mediastinum and heart are visible in the midline, and no significant lymphadenopathy is noted.",
+      "visible_findings": [
+        "cavitary lesion in the left upper lobe",
+        "thickened cavity wall",
+        "no significant surrounding consolidation",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:21+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_05014/figure3.jpg": {
+    "case_id": "Case_05014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05014/figure3.jpg",
+    "source_caption": "CT scan of the upper abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "upper abdomen",
+      "short_caption": "CT scan of the upper abdomen showing a large hepatic lesion.",
+      "detailed_description": "This axial CT image of the upper abdomen demonstrates a large, well-defined lesion in the liver, predominantly in the right lobe. The lesion appears hypodense compared to the surrounding liver parenchyma, with possible internal septations or fluid components. Adjacent structures, including the stomach and spleen, are partially visible. No obvious calcifications or gas are noted within the lesion. The scan is non-contrast or in a phase without significant enhancement.",
+      "visible_findings": [
+        "large hypodense lesion in the liver",
+        "possible internal septations or fluid components",
+        "adjacent structures partially visible"
+      ],
+      "keywords": [
+        "ct",
+        "upper abdomen",
+        "liver",
+        "hepatic lesion",
+        "hypodense",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct scan of the abdomen",
+        "hepatic lesion",
+        "liver abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 250,
+      "total_tokens": 839
+    }
+  }
+}

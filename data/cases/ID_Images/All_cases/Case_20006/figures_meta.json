@@ -1,0 +1,215 @@
+{
+  "Case_20006/figure1.jpg": {
+    "case_id": "Case_20006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20006/figure1.jpg",
+    "source_caption": "Chest X-ray",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing bilateral pulmonary findings.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. The lungs exhibit bilateral opacities, particularly in the mid and lower zones, which may represent consolidation or infiltrates. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion. The bony structures, including the ribs and clavicles, are intact. The image is de-identified and includes a watermark indicating its source.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "normal cardiac silhouette",
+        "intact bony structures",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "pulmonary opacities",
+        "radiograph",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary findings",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:22+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_20006/figure2.jpg": {
+    "case_id": "Case_20006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20006/figure2.jpg",
+    "source_caption": "Figure 2A. MRI brain with contrast. A vertically oriented ring enhancing collection in the left dorsal medulla extending into the upper cervical cord to the level of the dens tip representing a midbrain abscess (Arrow) is seen in post contrast T1-weighted axial (2A) and sagittal (2B) images.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and upper cervical spinal cord",
+      "short_caption": "MRI brain with contrast showing a ring-enhancing lesion in the left dorsal medulla.",
+      "detailed_description": "This is a post-contrast T1-weighted axial MRI image of the brain. A vertically oriented ring-enhancing lesion is visible in the left dorsal medulla, extending into the upper cervical spinal cord. The lesion is consistent with an abscess, as indicated by the arrow. The surrounding brain parenchyma appears relatively normal, with no significant mass effect or edema noted in this view.",
+      "visible_findings": [
+        "ring-enhancing lesion in the left dorsal medulla",
+        "extension into the upper cervical spinal cord",
+        "arrow pointing to the lesion",
+        "contrast enhancement visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "contrast",
+        "ring-enhancing lesion",
+        "abscess",
+        "medulla",
+        "spinal cord"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "ring-enhancing lesion",
+        "brain abscess",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:22+00:00",
+    "usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 262,
+      "total_tokens": 911
+    }
+  },
+  "Case_20006/figure3.jpg": {
+    "case_id": "Case_20006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20006/figure3.jpg",
+    "source_caption": "There was interval worsening and patchy new areas of enhancement in the pons and medulla in addition to the previously known tubular peripheral ring enhancing lesion which was primarily involving the left side of the dorsal part of the medulla and upper cervical spinal cord.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brainstem and upper cervical spinal cord",
+      "short_caption": "MRI showing ring-enhancing lesion in the dorsal medulla and upper cervical spinal cord.",
+      "detailed_description": "This sagittal T1-weighted MRI with contrast demonstrates a tubular, peripheral ring-enhancing lesion primarily involving the left dorsal medulla and extending into the upper cervical spinal cord. There is additional patchy enhancement in the pons and medulla, suggesting interval progression. The lesion is well-demarcated and highlights the involvement of critical brainstem structures.",
+      "visible_findings": [
+        "ring-enhancing lesion in the dorsal medulla",
+        "extension into the upper cervical spinal cord",
+        "patchy enhancement in the pons and medulla",
+        "contrast-enhanced sagittal view"
+      ],
+      "keywords": [
+        "mri",
+        "brainstem",
+        "medulla",
+        "ring-enhancing lesion",
+        "contrast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brainstem lesion",
+        "ring-enhancing lesion",
+        "MRI of medulla",
+        "contrast-enhanced MRI"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:23+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 258,
+      "total_tokens": 890
+    }
+  },
+  "Case_20006/figure4.jpg": {
+    "case_id": "Case_20006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20006/figure4.jpg",
+    "source_caption": "MRI brain/C-spine. Decreasing amount of FLAIR hyperintense signal and edema involving the dorsal brainstem and left cerebellum.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and cervical spine",
+      "short_caption": "Axial MRI showing FLAIR hyperintensity in the dorsal brainstem and left cerebellum.",
+      "detailed_description": "This axial MRI image demonstrates a FLAIR sequence with hyperintense signal in the dorsal brainstem and left cerebellum, consistent with edema or inflammation. The hyperintensity appears to be localized and is marked with red arrows for emphasis. The surrounding brain structures appear relatively normal, with no significant mass effect or midline shift visible.",
+      "visible_findings": [
+        "FLAIR hyperintensity in the dorsal brainstem",
+        "FLAIR hyperintensity in the left cerebellum",
+        "no significant mass effect",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "cervical spine",
+        "flair hyperintensity",
+        "edema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "flair hyperintensity",
+        "brainstem edema",
+        "cerebellar lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:30+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 257,
+      "total_tokens": 869
+    }
+  },
+  "Case_20006/figure5.jpg": {
+    "case_id": "Case_20006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20006/figure5.jpg",
+    "source_caption": "MRI brain/C-spine. Decreasing amount of FLAIR hyperintense signal and edema involving the dorsal brainstem and left cerebellum.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and cerebellum",
+      "short_caption": "Axial MRI showing brainstem and cerebellum with no obvious FLAIR hyperintensity or edema.",
+      "detailed_description": "This axial MRI image of the brain demonstrates the brainstem and cerebellum. The dorsal brainstem and left cerebellum appear normal, with no visible FLAIR hyperintense signal or edema. The image is de-identified and appears to be a T1-weighted sequence based on the tissue contrast.",
+      "visible_findings": [
+        "normal brainstem anatomy",
+        "normal cerebellar anatomy",
+        "no visible hyperintense signal",
+        "no visible edema"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "cerebellum",
+        "brainstem",
+        "t1-weighted",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "brainstem imaging",
+        "cerebellum mri"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:32+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 238,
+      "total_tokens": 850
+    }
+  }
+}

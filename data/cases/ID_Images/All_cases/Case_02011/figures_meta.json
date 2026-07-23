@@ -1,0 +1,210 @@
+{
+  "Case_02011/figure4.jpg": {
+    "case_id": "Case_02011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02011/figure4.jpg",
+    "source_caption": "H and E stain of lung tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "H&E stain of lung tissue showing inflammatory infiltrates and cellular changes.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates a dense inflammatory infiltrate composed of numerous mononuclear cells and polymorphonuclear leukocytes. There are also areas of cellular debris and possible necrosis. The architecture of the lung appears disrupted, consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "mononuclear cells",
+        "polymorphonuclear leukocytes",
+        "cellular debris",
+        "disrupted lung architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "H&E stain",
+        "inflammation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lung histopathology",
+        "infectious lung pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:39+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 235,
+      "total_tokens": 825
+    }
+  },
+  "Case_02011/figure1.jpg": {
+    "case_id": "Case_02011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02011/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing pulmonary findings.",
+      "detailed_description": "This axial chest CT image demonstrates the lungs and mediastinum. The right lung appears relatively clear, while the left lung shows areas of increased opacity, particularly in the lower lobe, suggestive of consolidation or infiltrates. The mediastinum is midline, and no significant pleural effusion is visible. The image is in lung window settings, optimizing visualization of pulmonary structures.",
+      "visible_findings": [
+        "increased opacity in the left lower lobe",
+        "clear right lung fields",
+        "midline mediastinum",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "opacity",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "pulmonary findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:41+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  },
+  "Case_02011/figure2.jpg": {
+    "case_id": "Case_02011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02011/figure2.jpg",
+    "source_caption": "Head MRI scan with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Head MRI with gadolinium showing multiple ring-enhancing lesions.",
+      "detailed_description": "This image shows two coronal slices from a gadolinium-enhanced MRI of the head. Multiple ring-enhancing lesions are visible throughout the brain parenchyma, with a predilection for both hemispheres. The lesions are of varying sizes and exhibit central hypointensity surrounded by a hyperintense rim, consistent with ring enhancement. These findings suggest a differential diagnosis that includes infectious, neoplastic, or inflammatory etiologies.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "bilateral distribution in brain parenchyma",
+        "central hypointensity with hyperintense rim"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "ring-enhancing lesions",
+        "gadolinium",
+        "brain",
+        "infection",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "ring-enhancing lesions",
+        "brain imaging with gadolinium"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:42+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 251,
+      "total_tokens": 841
+    }
+  },
+  "Case_02011/figure3.jpg": {
+    "case_id": "Case_02011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02011/figure3.jpg",
+    "source_caption": "H and E stain of brain tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "H&E stain of brain tissue showing inflammation and fungal elements.",
+      "detailed_description": "This histopathology image shows brain tissue stained with hematoxylin and eosin (H&E). There is evidence of inflammation, with numerous inflammatory cells, including neutrophils and mononuclear cells, infiltrating the tissue. A round fungal element with a thick wall is visible, consistent with a fungal infection. The background shows disrupted brain parenchyma with areas of necrosis.",
+      "visible_findings": [
+        "inflammatory cell infiltrate",
+        "round fungal element with thick wall",
+        "necrotic brain parenchyma",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "H&E stain",
+        "fungal infection",
+        "inflammation",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "brain histology",
+        "fungal infection in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:43+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 243,
+      "total_tokens": 833
+    }
+  },
+  "Case_02011/figure5.jpg": {
+    "case_id": "Case_02011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02011/figure5.jpg",
+    "source_caption": "Fluorescent stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent stain showing round structures consistent with microorganisms.",
+      "detailed_description": "This image shows a fluorescent stain with numerous bright green, round structures against a dark background. The structures are uniform in size and distribution, suggesting a population of microorganisms. A scale bar indicating 10 µm is present, providing a sense of size. The fluorescent staining technique highlights the organisms, likely targeting specific components such as cell walls or nucleic acids.",
+      "visible_findings": [
+        "bright green round structures",
+        "dark background",
+        "uniform size and distribution of structures",
+        "scale bar indicating 10 µm"
+      ],
+      "keywords": [
+        "fluorescent stain",
+        "microorganisms",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fluorescent stain",
+        "microscopy of microorganisms",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:44+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 224,
+      "total_tokens": 811
+    }
+  }
+}

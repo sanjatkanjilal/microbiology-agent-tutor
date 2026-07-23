@@ -1,0 +1,250 @@
+{
+  "Case_17009/figure3.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure3.jpg",
+    "source_caption": "CT scan of chest (axial view) showing diffuse alveolar and interstitial opacities with ground-glass opacities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of chest showing diffuse ground-glass opacities and interstitial thickening.",
+      "detailed_description": "This axial CT image of the chest demonstrates diffuse bilateral ground-glass opacities with interstitial thickening. The findings are most prominent in the lower lung zones. The mediastinum appears unremarkable, and there is no evidence of significant pleural effusion. These findings are suggestive of a diffuse pulmonary process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "diffuse bilateral ground-glass opacities",
+        "interstitial thickening",
+        "lower lung zone predominance",
+        "no significant pleural effusion",
+        "unremarkable mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "interstitial thickening",
+        "pulmonary infection",
+        "diffuse lung disease"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "ground-glass opacities",
+        "diffuse lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:39+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 259,
+      "total_tokens": 868
+    }
+  },
+  "Case_17009/figure1.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure1.jpg",
+    "source_caption": "Admission portable chest radiograph with widespread bilateral bronchogenic opacities.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Portable chest radiograph showing bilateral bronchogenic opacities.",
+      "detailed_description": "This is a portable chest radiograph demonstrating widespread bilateral opacities with a bronchogenic distribution. The opacities are diffuse and involve both lung fields, suggesting a possible infectious or inflammatory process. Medical devices, including ECG leads and a central venous catheter, are visible. The heart size appears within normal limits, and there is no obvious pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "bilateral bronchogenic opacities",
+        "diffuse lung involvement",
+        "presence of medical devices (ECG leads, central venous catheter)",
+        "normal heart size",
+        "no pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "bilateral opacities",
+        "bronchogenic",
+        "portable x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary opacities",
+        "diffuse lung findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:42+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 264,
+      "total_tokens": 860
+    }
+  },
+  "Case_17009/figure2.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure2.jpg",
+    "source_caption": "Admission abdominal radiograph showing extensive colonic gaseous distension primarily in the sigmoid colon.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal radiograph showing extensive colonic gaseous distension, primarily in the sigmoid colon.",
+      "detailed_description": "This is an abdominal radiograph in the frontal view. There is significant gaseous distension of the colon, most prominently in the sigmoid region. The bowel loops appear dilated, with no clear evidence of perforation or free air under the diaphragm. Medical devices, including a nasogastric tube and other lines, are visible. The image is labeled with a left-side marker ('L').",
+      "visible_findings": [
+        "extensive colonic gaseous distension",
+        "prominent sigmoid colon dilation",
+        "presence of medical devices (e.g., nasogastric tube)",
+        "left-side marker ('L')"
+      ],
+      "keywords": [
+        "radiograph",
+        "abdomen",
+        "colonic distension",
+        "sigmoid colon",
+        "gaseous distension"
+      ],
+      "reveal_triggers": [
+        "abdominal x-ray",
+        "colonic distension",
+        "sigmoid colon dilation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:44+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 263,
+      "total_tokens": 863
+    }
+  },
+  "Case_17009/figure4.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure4.jpg",
+    "source_caption": "CT scan of chest (coronal view) showing diffuse alveolar and interstitial opacities with ground-glass opacities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest (coronal view) showing diffuse ground-glass opacities and interstitial thickening.",
+      "detailed_description": "This coronal CT image of the chest demonstrates bilateral diffuse ground-glass opacities and interstitial thickening, predominantly in the lower lung zones. The opacities are patchy and involve both alveolar and interstitial spaces, consistent with a diffuse pulmonary process. The mediastinal structures and spine are visible in the midline, with no significant displacement or mass effect.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "interstitial thickening",
+        "diffuse lung involvement",
+        "normal mediastinal alignment"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "interstitial thickening",
+        "lung disease"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "ground-glass opacities",
+        "diffuse lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:45+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 248,
+      "total_tokens": 857
+    }
+  },
+  "Case_17009/figure5.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure5.jpg",
+    "source_caption": "Stool ova and parasites showing Strongyloides",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool sample",
+      "short_caption": "Microscopic image of a Strongyloides stercoralis larva in a stool sample.",
+      "detailed_description": "This is a microscopic image of a stool sample showing a larva consistent with Strongyloides stercoralis. The organism has a slender, elongated body with a curved shape and visible internal structures. The background shows debris and other particulate matter typical of stool samples. The image appears to be taken under light microscopy with no specific staining technique evident.",
+      "visible_findings": [
+        "slender, elongated larva",
+        "curved body shape",
+        "visible internal structures",
+        "background of stool debris"
+      ],
+      "keywords": [
+        "light microscopy",
+        "stool sample",
+        "strongyloides",
+        "parasite",
+        "larva"
+      ],
+      "reveal_triggers": [
+        "stool ova and parasites",
+        "strongyloides microscopy",
+        "intestinal parasite"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:45+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 233,
+      "total_tokens": 825
+    }
+  },
+  "Case_17009/figure6.jpg": {
+    "case_id": "Case_17009",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17009/figure6.jpg",
+    "source_caption": "BAL showing Strongyloides",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bronchoalveolar lavage",
+      "short_caption": "Bronchoalveolar lavage showing a larval form consistent with Strongyloides species.",
+      "detailed_description": "This image shows a microscopic view of a bronchoalveolar lavage (BAL) specimen. A prominent, elongated larval form with a smooth, translucent body and tapering ends is visible, consistent with a nematode such as Strongyloides stercoralis. The background contains scattered cellular debris and other particulate matter. The image appears to be unstained or lightly stained, emphasizing the morphology of the larva.",
+      "visible_findings": [
+        "elongated larval form with smooth body",
+        "tapering ends of the larva",
+        "scattered cellular debris in the background"
+      ],
+      "keywords": [
+        "microscopy",
+        "bronchoalveolar lavage",
+        "strongyloides",
+        "larva",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "strongyloides in BAL",
+        "parasitic infection microscopy",
+        "bronchoalveolar lavage microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:45+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 260,
+      "total_tokens": 849
+    }
+  }
+}

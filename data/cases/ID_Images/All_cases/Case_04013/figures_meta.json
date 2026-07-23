@@ -1,0 +1,86 @@
+{
+  "Case_04013/figure1.jpg": {
+    "case_id": "Case_04013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04013/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing bowel loops and surrounding structures.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates multiple loops of bowel with varying densities. There is evidence of gas within the bowel lumen, and the surrounding soft tissues appear unremarkable. The vertebral body and paraspinal musculature are visible posteriorly. No clear signs of free air or fluid collections are apparent in this image.",
+      "visible_findings": [
+        "axial view of the abdomen",
+        "bowel loops with gas-filled lumen",
+        "vertebral body and paraspinal musculature posteriorly",
+        "no obvious free air or fluid collections"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel loops",
+        "axial view",
+        "gas pattern"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel imaging",
+        "axial abdomen scan"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:25+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 233,
+      "total_tokens": 821
+    }
+  },
+  "Case_04013/figure2.jpg": {
+    "case_id": "Case_04013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04013/figure2.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing liver and adjacent structures.",
+      "detailed_description": "This is an axial CT scan of the abdomen. The liver occupies the right side of the image, with a heterogeneous appearance suggestive of possible pathology. The gallbladder is visible, and the stomach is seen on the left side. The kidneys are partially visualized posteriorly. The scan appears to be contrast-enhanced, as evidenced by the bright enhancement of vascular structures and organs.",
+      "visible_findings": [
+        "heterogeneous liver appearance",
+        "contrast-enhanced vascular structures",
+        "gallbladder visible",
+        "stomach on the left side",
+        "partial visualization of kidneys"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "contrast",
+        "gallbladder",
+        "kidneys"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver imaging",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:28+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Case_05007/figure1.jpg": {
+    "case_id": "Case_05007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05007/figure1.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing abnormal signal in the right frontal lobe.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain. There is an abnormal hypointense lesion in the right frontal lobe, with surrounding edema visible as a hypointense area. The ventricles appear midline, and no significant mass effect or midline shift is evident. The image is de-identified and suitable for educational purposes.",
+      "visible_findings": [
+        "hypointense lesion in the right frontal lobe",
+        "surrounding hypointense edema",
+        "midline ventricles without shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "frontal lobe",
+        "lesion",
+        "edema",
+        "t1-weighted"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "frontal lobe lesion",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:28+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_05007/figure2.jpg": {
+    "case_id": "Case_05007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05007/figure2.jpg",
+    "source_caption": "MRI scan of the brain with contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing abnormal findings.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the brain. There is evidence of hyperintense lesions in the white matter, particularly in the periventricular regions. The lesions are asymmetrical and suggestive of a pathological process, possibly demyelination or infection. The ventricles appear slightly prominent, and there is no obvious midline shift.",
+      "visible_findings": [
+        "hyperintense lesions in white matter",
+        "asymmetrical distribution of lesions",
+        "prominent ventricles",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "hyperintense lesions",
+        "white matter",
+        "infection",
+        "demyelination"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "white matter lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:31+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_05007/figure3.jpg": {
+    "case_id": "Case_05007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05007/figure3.jpg",
+    "source_caption": "MRI scan of the brain with contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Coronal MRI of the brain with contrast showing abnormal enhancement.",
+      "detailed_description": "This is a coronal MRI image of the brain obtained with contrast. The image demonstrates abnormal enhancement in the left hemisphere, suggestive of a focal lesion. The ventricles appear slightly asymmetrical, and there is evidence of mass effect with possible midline shift. The contrast highlights areas of disrupted blood-brain barrier, which could indicate infection, inflammation, or neoplasm.",
+      "visible_findings": [
+        "abnormal contrast enhancement in the left hemisphere",
+        "possible midline shift",
+        "asymmetry of the ventricles",
+        "evidence of mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "contrast",
+        "lesion",
+        "infection",
+        "inflammation",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "contrast-enhanced mri",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:31+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_05007/figure4.jpg": {
+    "case_id": "Case_05007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05007/figure4.jpg",
+    "source_caption": "Gram stain of an aspirate from a subdural collection.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "subdural collection",
+      "short_caption": "Gram stain showing mixed bacterial morphology from a subdural collection aspirate.",
+      "detailed_description": "This Gram stain image shows numerous bacterial forms, including gram-positive cocci in clusters and gram-negative bacilli. The background appears to have cellular debris, consistent with an aspirate from an infected site. The mixed morphology suggests a polymicrobial infection, which is common in subdural empyemas. The staining technique highlights the differential uptake of crystal violet and safranin by bacterial cell walls.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "gram-negative bacilli",
+        "background cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "subdural collection",
+        "bacteria",
+        "polymicrobial infection",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of subdural aspirate",
+        "bacterial morphology",
+        "subdural empyema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:35+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 240,
+      "total_tokens": 835
+    }
+  },
+  "Case_05007/figure5.jpg": {
+    "case_id": "Case_05007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05007/figure5.jpg",
+    "source_caption": "Detail of Figure 4.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive and gram-negative bacilli.",
+      "detailed_description": "This image shows a gram stain with a mix of gram-positive (purple) and gram-negative (pink) bacilli. The organisms are scattered throughout the field, with no clear clustering or specific arrangement. The background is clear, suggesting a clean preparation. The image is likely from a microbiological specimen, such as a clinical sample or culture.",
+      "visible_findings": [
+        "gram-positive bacilli (purple)",
+        "gram-negative bacilli (pink)",
+        "scattered distribution of organisms",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "bacilli",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:39+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 218,
+      "total_tokens": 806
+    }
+  }
+}

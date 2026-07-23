@@ -1,0 +1,210 @@
+{
+  "Case_16004/figure1.jpg": {
+    "case_id": "Case_16004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16004/figure1.jpg",
+    "source_caption": "Physical findings, on re-admission.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Discoloration and cyanosis of the fingers on both hands.",
+      "detailed_description": "This image shows both hands of a patient with marked discoloration of the fingers, appearing darkened and cyanotic. The discoloration is most prominent on the distal phalanges. The patient is wearing a hospital gown, and an intravenous line is visible in the right hand, suggesting a clinical setting. The findings may indicate peripheral ischemia or severe hypoxemia.",
+      "visible_findings": [
+        "dark discoloration of fingers",
+        "cyanosis of distal phalanges",
+        "intravenous line in right hand",
+        "hospital gown and clinical setting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "cyanosis",
+        "discoloration",
+        "ischemia",
+        "peripheral findings"
+      ],
+      "reveal_triggers": [
+        "hand discoloration",
+        "cyanosis",
+        "physical exam findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:02+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 234,
+      "total_tokens": 824
+    }
+  },
+  "Case_16004/figure2.jpg": {
+    "case_id": "Case_16004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16004/figure2.jpg",
+    "source_caption": "Physical findings, on re-admission.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand and fingers",
+      "short_caption": "Discoloration and necrosis of fingers, suggestive of ischemia or severe infection.",
+      "detailed_description": "The image shows a hand with significant discoloration of the fingers, particularly darkened areas at the tips, suggestive of necrosis. The skin appears dry and mottled, with a bluish-black hue on the distal phalanges. The surrounding tissue shows mild swelling, and there is no visible active bleeding or exudate. A gloved hand is partially visible, indicating a clinical setting.",
+      "visible_findings": [
+        "dark discoloration of fingertips",
+        "necrosis of distal phalanges",
+        "mild swelling of fingers",
+        "bluish-black hue on affected areas"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "fingers",
+        "necrosis",
+        "discoloration",
+        "ischemia",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "hand necrosis",
+        "infected fingers",
+        "ischemic hand",
+        "skin discoloration"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:03+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 256,
+      "total_tokens": 846
+    }
+  },
+  "Case_16004/figure3.jpg": {
+    "case_id": "Case_16004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16004/figure3.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing multiple hyperintense lesions in the white matter.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain shows multiple hyperintense lesions in the white matter, predominantly in the frontal lobes. The lesions are bilateral and appear well-defined, suggesting a demyelinating or infectious process. The surrounding brain parenchyma appears normal, with no significant mass effect or midline shift. The image orientation and labeling indicate standard MRI conventions.",
+      "visible_findings": [
+        "multiple hyperintense lesions in the white matter",
+        "bilateral distribution, predominantly in the frontal lobes",
+        "no significant mass effect or midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "white matter lesions",
+        "hyperintense",
+        "infectious diseases",
+        "demyelination"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "white matter lesions",
+        "hyperintense lesions on mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 247,
+      "total_tokens": 835
+    }
+  },
+  "Case_16004/figure4.jpg": {
+    "case_id": "Case_16004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16004/figure4.jpg",
+    "source_caption": "Physical findings, on follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Bilateral hand findings with black discoloration and desquamation.",
+      "detailed_description": "This clinical photograph shows both hands with significant black discoloration of the distal fingers, suggestive of necrosis. There is also peeling and desquamation of the skin on the palms and fingers. The findings are symmetric and involve multiple digits. The background includes clothing, indicating a clinical setting.",
+      "visible_findings": [
+        "black discoloration of distal fingers",
+        "desquamation of skin on palms and fingers",
+        "bilateral involvement"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "necrosis",
+        "desquamation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "hand necrosis",
+        "skin findings",
+        "infectious disease follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:10+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 208,
+      "total_tokens": 797
+    }
+  },
+  "Case_16004/figure5.jpg": {
+    "case_id": "Case_16004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16004/figure5.jpg",
+    "source_caption": "Physical findings, on follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Bilateral hand necrosis with black discoloration and tissue loss.",
+      "detailed_description": "This image shows both hands of a patient with extensive black discoloration of the fingers, consistent with necrosis. The necrotic changes are more pronounced on the distal phalanges, with some areas showing tissue loss and exposure of underlying structures. The skin appears dry and desiccated, with a sharp demarcation between affected and unaffected areas. The changes are symmetrical, involving both hands.",
+      "visible_findings": [
+        "black discoloration of fingers",
+        "necrosis with tissue loss",
+        "sharp demarcation between necrotic and viable tissue",
+        "symmetrical involvement of both hands"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "necrosis",
+        "tissue loss",
+        "black discoloration"
+      ],
+      "reveal_triggers": [
+        "hand necrosis",
+        "black discoloration of fingers",
+        "infectious disease hand findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:11+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 244,
+      "total_tokens": 833
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "Case_14002/figure2.jpg": {
+    "case_id": "Case_14002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14002/figure2.jpg",
+    "source_caption": "Fecal product.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "intestinal parasite (ex vivo)",
+      "short_caption": "Segmented tapeworm specimen, likely Taenia species, in a petri dish.",
+      "detailed_description": "This image shows a segmented, ribbon-like organism consistent with a tapeworm, displayed in a petri dish. The proglottids (segments) are clearly visible, with some containing darkened areas suggestive of reproductive structures. The specimen is pale and translucent, typical of cestodes. The setting suggests it was removed from a host, likely as part of a diagnostic or therapeutic procedure.",
+      "visible_findings": [
+        "segmented, ribbon-like organism",
+        "darkened areas within segments",
+        "pale, translucent appearance",
+        "petri dish presentation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tapeworm",
+        "cestode",
+        "intestinal parasite",
+        "proglottids",
+        "petri dish"
+      ],
+      "reveal_triggers": [
+        "intestinal parasite",
+        "tapeworm specimen",
+        "fecal examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:11+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 250,
+      "total_tokens": 837
+    }
+  },
+  "Case_14002/figure3.jpg": {
+    "case_id": "Case_14002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14002/figure3.jpg",
+    "source_caption": "Examination of the stool, 20x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool sample",
+      "short_caption": "Microscopic examination of stool showing oval eggs, 20x magnification.",
+      "detailed_description": "This image shows numerous oval-shaped eggs with a smooth outer shell, viewed under a microscope at 20x magnification. The eggs are uniform in size and shape, with a translucent appearance. The background is bright, suggesting a light microscopy technique. These findings are consistent with parasitic eggs, likely from a helminth infection.",
+      "visible_findings": [
+        "oval-shaped eggs",
+        "smooth outer shell",
+        "uniform size and shape",
+        "translucent appearance"
+      ],
+      "keywords": [
+        "microscopy",
+        "stool",
+        "eggs",
+        "parasitology",
+        "helminth",
+        "light microscopy"
+      ],
+      "reveal_triggers": [
+        "stool exam",
+        "parasitic eggs",
+        "microscopy of stool",
+        "helminth infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:12+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 231,
+      "total_tokens": 824
+    }
+  },
+  "Case_14002/figure1.jpg": {
+    "case_id": "Case_14002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14002/figure1.jpg",
+    "source_caption": "Fecal product.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Segment of a tapeworm in a petri dish.",
+      "detailed_description": "The image shows a segmented, ribbon-like structure consistent with a tapeworm specimen placed in a clear petri dish. The segments (proglottids) are visible, with some appearing more prominent. The specimen is white to off-white in color and appears to have been recently collected. The background is a dark surface, providing contrast to the specimen.",
+      "visible_findings": [
+        "segmented, ribbon-like structure",
+        "white to off-white coloration",
+        "visible proglottids",
+        "specimen placed in a petri dish"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tapeworm",
+        "helminth",
+        "parasite",
+        "proglottids",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fecal examination",
+        "tapeworm",
+        "intestinal parasite",
+        "helminth specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:12+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 241,
+      "total_tokens": 828
+    }
+  }
+}

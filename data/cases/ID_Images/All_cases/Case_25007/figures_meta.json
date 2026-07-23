@@ -1,0 +1,235 @@
+{
+  "Case_25007/figure1.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure1.jpg",
+    "source_caption": "Skin lesion after 9 months",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:08:46+00:00"
+  },
+  "Case_25007/figure3.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure3.jpg",
+    "source_caption": "Skin lesion after 4.5 years",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:08:46+00:00"
+  },
+  "Case_25007/figure2.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure2.jpg",
+    "source_caption": "Skin lesion after 3 years",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Chronic ulcerated lesion on the finger.",
+      "detailed_description": "This image shows a chronic, irregularly shaped ulcerated lesion on the dorsal aspect of a finger. The lesion has raised, erythematous borders and a central area of granulation tissue with some crusting. The surrounding skin appears mildly erythematous but otherwise intact. The lesion's chronicity is suggested by its well-defined borders and granulation tissue.",
+      "visible_findings": [
+        "irregularly shaped ulceration",
+        "raised erythematous borders",
+        "central granulation tissue",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "ulcer",
+        "chronic lesion",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "chronic ulcer",
+        "finger lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:52+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 223,
+      "total_tokens": 812
+    }
+  },
+  "Case_25007/figure5.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure5.jpg",
+    "source_caption": "Skin lesion after 1 month of treatment",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand, specifically finger and web space",
+      "short_caption": "Erythematous and crusted skin lesion on the finger after 1 month of treatment.",
+      "detailed_description": "The image shows a close-up view of a finger and adjacent web space with erythematous, scaly, and crusted lesions. The affected area appears inflamed, with some regions of desquamation and crusting. The surrounding skin shows mild erythema, and there is no visible purulence or ulceration. The lesions suggest a chronic or subacute inflammatory process, possibly infectious or dermatologic in nature.",
+      "visible_findings": [
+        "erythematous plaques",
+        "crusting and scaling",
+        "desquamation",
+        "localized inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "finger",
+        "skin lesion",
+        "erythema",
+        "crusting",
+        "scaling"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand rash",
+        "dermatologic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:53+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 251,
+      "total_tokens": 842
+    }
+  },
+  "Case_25007/figure6.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure6.jpg",
+    "source_caption": "Skin lesion after 1.5 months of treatment",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand, dorsal aspect",
+      "short_caption": "Healing skin lesion on the dorsal hand after 1.5 months of treatment.",
+      "detailed_description": "The image shows the dorsal aspect of a hand with a healing lesion located on the proximal phalanx of the middle finger. The lesion appears shallow, with a central area of granulation tissue surrounded by erythema and scaling. The surrounding skin shows signs of dryness and mild desquamation. The lesion's appearance suggests partial resolution, consistent with ongoing treatment.",
+      "visible_findings": [
+        "shallow lesion with granulation tissue",
+        "erythematous border",
+        "scaling and dryness of surrounding skin",
+        "location on dorsal hand, middle finger"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesion",
+        "healing",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand infection",
+        "healing wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:53+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 235,
+      "total_tokens": 828
+    }
+  },
+  "Case_25007/figure4.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure4.jpg",
+    "source_caption": "Skin lesion after 2 weeks of treatment",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand, dorsal aspect",
+      "short_caption": "Erythematous and crusted skin lesion on the right hand after 2 weeks of treatment.",
+      "detailed_description": "This image shows the dorsal aspect of the right hand, focusing on the second and third digits. There is a prominent erythematous lesion with areas of crusting, scaling, and partial healing. The lesion appears irregularly shaped and involves both the proximal and middle phalanges. Surrounding skin shows mild erythema and scaling, suggesting ongoing inflammation. The nail of the second digit appears intact.",
+      "visible_findings": [
+        "erythematous lesion",
+        "crusting and scaling",
+        "irregular lesion borders",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesion",
+        "erythema",
+        "crusting",
+        "treatment response"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand infection",
+        "treatment response"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:09:00+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 248,
+      "total_tokens": 839
+    }
+  },
+  "Case_25007/figure7.jpg": {
+    "case_id": "Case_25007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25007/figure7.jpg",
+    "source_caption": "Skin lesion after 3 months of treatment",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand, specifically the dorsal aspect of the fingers",
+      "short_caption": "Skin lesion on the finger after 3 months of treatment.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of the fingers, with visible erythema, scaling, and mild desquamation. There is a small, healing excoriation or ulceration near the base of one finger. The skin appears dry and thickened in some areas, suggesting chronicity. The image suggests partial resolution of a prior dermatologic condition, possibly related to an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythema on the dorsal fingers",
+        "scaling and desquamation",
+        "small healing excoriation or ulceration",
+        "dry and thickened skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesion",
+        "erythema",
+        "scaling",
+        "chronic skin changes"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand examination",
+        "chronic skin changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:09:01+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 251,
+      "total_tokens": 842
+    }
+  }
+}

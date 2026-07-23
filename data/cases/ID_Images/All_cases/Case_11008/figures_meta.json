@@ -1,0 +1,126 @@
+{
+  "Case_11008/figure2.jpg": {
+    "case_id": "Case_11008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11008/figure2.jpg",
+    "source_caption": "Bone marrow biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy showing cellular and fat components.",
+      "detailed_description": "This histopathology image shows a bone marrow biopsy with a mix of hematopoietic cells and adipocytes. The hematopoietic cells are densely packed in certain areas, while the adipocytes appear as large, clear, round spaces. The staining technique highlights cellular details and the contrast between the cellular and fatty components. No overt signs of infection or malignancy are immediately apparent in this image.",
+      "visible_findings": [
+        "adipocytes appearing as large, clear spaces",
+        "densely packed hematopoietic cells",
+        "contrast between cellular and fatty components"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "biopsy",
+        "adipocytes",
+        "hematopoietic cells"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "histopathology of bone marrow",
+        "adipocytes in bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:58+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_11008/figure1.jpg": {
+    "case_id": "Case_11008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11008/figure1.jpg",
+    "source_caption": "Bone marrow biopsy, hematoxylin and eosin stain (100x magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy, hematoxylin and eosin stain at 100x magnification.",
+      "detailed_description": "This histopathology image shows a bone marrow biopsy stained with hematoxylin and eosin at 100x magnification. The field includes adipocytes (white spaces), hematopoietic cells, and a granuloma-like structure with a central area surrounded by inflammatory cells. The cellularity appears mixed, with both myeloid and erythroid precursors visible. The granuloma-like structure may suggest an infectious or inflammatory process.",
+      "visible_findings": [
+        "adipocytes (white spaces)",
+        "granuloma-like structure",
+        "mixed hematopoietic cellularity",
+        "inflammatory cells surrounding granuloma"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "hematoxylin and eosin",
+        "granuloma",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "H&E stain",
+        "granuloma in bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:00+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 267,
+      "total_tokens": 867
+    }
+  },
+  "Case_11008/figure3.jpg": {
+    "case_id": "Case_11008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11008/figure3.jpg",
+    "source_caption": "Bone marrow biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy showing granulomas and cellular infiltrates.",
+      "detailed_description": "This histopathology image shows a bone marrow biopsy stained with hematoxylin and eosin (H&E). The image reveals granuloma formation with a central area of necrosis surrounded by inflammatory cells, including lymphocytes and macrophages. Adipocytes and hematopoietic cells are visible in the background. The findings suggest an infectious or inflammatory process affecting the bone marrow.",
+      "visible_findings": [
+        "granuloma formation",
+        "central necrosis",
+        "inflammatory cell infiltrates",
+        "adipocytes in the background",
+        "hematopoietic cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "granuloma",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "granuloma in bone marrow",
+        "H&E stain of bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 244,
+      "total_tokens": 830
+    }
+  }
+}

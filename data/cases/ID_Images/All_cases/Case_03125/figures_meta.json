@@ -1,0 +1,45 @@
+{
+  "Case_03125/figure1.jpg": {
+    "case_id": "Case_03125",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03125/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing budding yeast forms with pseudohyphae.",
+      "detailed_description": "This image shows a gram stain under light microscopy, revealing round to oval yeast cells with budding forms and pseudohyphae. The yeast cells are gram-positive, appearing purple against the lighter background. The pseudohyphae are elongated structures connecting some of the yeast cells, indicative of fungal morphology. The image suggests a fungal organism, likely Candida species, based on the morphology.",
+      "visible_findings": [
+        "round to oval yeast cells",
+        "budding forms",
+        "pseudohyphae",
+        "gram-positive staining (purple)"
+      ],
+      "keywords": [
+        "gram stain",
+        "yeast",
+        "fungus",
+        "pseudohyphae",
+        "budding",
+        "candida",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of yeast",
+        "fungal infection",
+        "candida morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  }
+}

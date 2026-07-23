@@ -1,0 +1,140 @@
+{
+  "Case_19011/figure2.jpg": {
+    "case_id": "Case_19011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19011/figure2.jpg",
+    "source_caption": "Photograph of the patient’s facial lesion after eschar debridement.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:04:51+00:00"
+  },
+  "Case_19011/figure1.jpg": {
+    "case_id": "Case_19011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19011/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of the patient’s facial lesion upon presentation to the oncology clinic",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesion with extensive necrosis and crusting.",
+      "detailed_description": "This image shows a large, necrotic lesion involving the left cheek and extending to the perioral region. The lesion is characterized by black eschar, crusting, and surrounding erythema. The tissue damage appears extensive, with irregular borders and significant involvement of the skin. The patient’s eyes are obscured for privacy, and the lesion is visibly severe, suggesting a possible infectious or neoplastic etiology.",
+      "visible_findings": [
+        "large necrotic lesion on the left cheek",
+        "black eschar and crusting",
+        "surrounding erythema",
+        "irregular lesion borders"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "necrotic lesion",
+        "eschar",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "facial lesion",
+        "skin necrosis",
+        "infectious disease skin exam"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:54+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 244,
+      "total_tokens": 844
+    }
+  },
+  "Case_19011/figure4.jpg": {
+    "case_id": "Case_19011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19011/figure4.jpg",
+    "source_caption": "Figure 4: Photograph of the patient’s facial lesion six weeks after completion of therapy",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesion six weeks post-therapy, showing healing with residual scarring and erythema.",
+      "detailed_description": "This composite image shows four views of the patient's face, highlighting a large lesion primarily involving the left cheek and extending to the chin. The lesion appears to be healing, with areas of erythema, scarring, and crusting visible. The surrounding skin shows mild discoloration and irregular texture. The images suggest improvement following therapy, though residual damage remains. The patient is seated in a clinical setting, and the photographs are de-identified with black bars over the eyes.",
+      "visible_findings": [
+        "healing lesion on left cheek and chin",
+        "erythema and scarring",
+        "crusting and irregular skin texture",
+        "discoloration of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "facial lesion",
+        "erythema",
+        "scarring",
+        "infectious disease",
+        "post-therapy"
+      ],
+      "reveal_triggers": [
+        "facial lesion",
+        "skin infection",
+        "post-treatment healing",
+        "infectious disease case study"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:57+00:00",
+    "usage": {
+      "prompt_tokens": 739,
+      "completion_tokens": 277,
+      "total_tokens": 1016
+    }
+  },
+  "Case_19011/figure3.jpg": {
+    "case_id": "Case_19011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19011/figure3.jpg",
+    "source_caption": "Skin, H&E stain, 40X (Courtesy of Diana Basemera)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin histopathology, H&E stain, 40X magnification.",
+      "detailed_description": "This histopathology image shows skin tissue stained with hematoxylin and eosin (H&E) at 40X magnification. The epidermis is visible on the right, with keratinocytes arranged in layers. The dermis contains inflammatory infiltrates, including numerous mononuclear cells and scattered neutrophils. There is evidence of tissue remodeling and possible edema. The staining highlights cellular and extracellular components distinctly.",
+      "visible_findings": [
+        "epidermal keratinocyte layers",
+        "dermal inflammatory infiltrates",
+        "mononuclear cells and neutrophils",
+        "tissue remodeling and edema"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "40X magnification"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:00+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 250,
+      "total_tokens": 849
+    }
+  }
+}

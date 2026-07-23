@@ -1,0 +1,127 @@
+{
+  "Case_07007/figure1.jpg": {
+    "case_id": "Case_07007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07007/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing abnormal bowel wall thickening.",
+      "detailed_description": "This axial CT scan of the abdomen reveals significant bowel wall thickening, particularly in the loops of the small intestine. There is also evidence of mesenteric fat stranding, suggestive of inflammation. The vertebral body is visible centrally, providing anatomic orientation. No intravenous contrast is evident, as the bowel and vascular structures lack enhancement.",
+      "visible_findings": [
+        "bowel wall thickening",
+        "mesenteric fat stranding",
+        "vertebral body visible centrally",
+        "lack of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel wall thickening",
+        "mesenteric fat stranding",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel inflammation",
+        "mesenteric stranding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 230,
+      "total_tokens": 818
+    }
+  },
+  "Case_07007/figure3.jpg": {
+    "case_id": "Case_07007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07007/figure3.jpg",
+    "source_caption": "Iodine stain of a stool specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Iodine stain of a stool specimen showing helminth ova and larvae.",
+      "detailed_description": "This image shows an iodine-stained stool specimen under light microscopy. Multiple curved, elongated structures consistent with helminth larvae are visible, along with rounded structures resembling helminth ova. The background contains debris and other particulate matter. The staining highlights the internal structures of the organisms, aiding in their identification.",
+      "visible_findings": [
+        "curved, elongated helminth larvae",
+        "rounded helminth ova",
+        "stained internal structures",
+        "background debris"
+      ],
+      "keywords": [
+        "iodine stain",
+        "stool specimen",
+        "helminth",
+        "ova",
+        "larvae",
+        "parasitology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "iodine stain",
+        "stool microscopy",
+        "helminth identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:37+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 231,
+      "total_tokens": 822
+    }
+  },
+  "Case_07007/figure2.jpg": {
+    "case_id": "Case_07007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07007/figure2.jpg",
+    "source_caption": "Gram stain of a sputum specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum specimen)",
+      "short_caption": "Gram stain showing spiral-shaped bacteria in a sputum specimen.",
+      "detailed_description": "This Gram stain image shows spiral-shaped bacteria, consistent with spirochetes, against a background of scattered cellular debris and smaller bacterial forms. The spirochetes appear as elongated, coiled structures with a dark purple stain, indicative of their Gram-negative nature. The image suggests a respiratory specimen, likely sputum, as the source.",
+      "visible_findings": [
+        "spiral-shaped bacteria (spirochetes)",
+        "dark purple staining of spirochetes",
+        "background of cellular debris and smaller bacterial forms"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "spirochetes",
+        "bacteria",
+        "infectious diseases",
+        "respiratory specimen"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "spirochetes",
+        "respiratory infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:38+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 244,
+      "total_tokens": 834
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "Case_15007/figure2.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure2.jpg",
+    "source_caption": "CT of the chest, ten days later, after stopping antiretroviral therapy.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing progression of bilateral pulmonary infiltrates after stopping antiretroviral therapy.",
+      "detailed_description": "This image shows two axial CT slices of the chest, demonstrating bilateral pulmonary findings. The left panel shows patchy ground-glass opacities and consolidations predominantly in the upper lobes. The right panel, taken later, shows progression with more extensive bilateral consolidations and ground-glass opacities, involving both upper and lower lobes. The findings suggest worsening pulmonary pathology, potentially due to an infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "bilateral consolidations",
+        "progression of findings over time",
+        "upper and lower lobe involvement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "ground-glass opacities",
+        "consolidation",
+        "progression"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary infiltrates",
+        "HIV-related lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:27+00:00",
+    "usage": {
+      "prompt_tokens": 738,
+      "completion_tokens": 259,
+      "total_tokens": 997
+    }
+  },
+  "Case_15007/figure1.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure1.jpg",
+    "source_caption": "Initial CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This image shows two axial CT slices of the chest, presented side by side. Both images demonstrate extensive bilateral lung abnormalities. The left panel reveals patchy, dense consolidations predominantly in the lower lobes, with areas of ground-glass opacities. The right panel appears to be a lung window setting, highlighting diffuse ground-glass opacities and consolidations with a more pronounced involvement of both lungs. These findings are consistent with a severe infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral lung consolidations",
+        "ground-glass opacities",
+        "diffuse involvement of both lungs",
+        "predominantly lower lobe abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "pulmonary consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:28+00:00",
+    "usage": {
+      "prompt_tokens": 727,
+      "completion_tokens": 256,
+      "total_tokens": 983
+    }
+  },
+  "Case_15007/figure5.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure5.jpg",
+    "source_caption": "Biopsy of lymph node (hematoxylin and eosin stain, 40x magnification), with abnormal spindle cell and vascular proliferation of bland ovoid cells.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "Histopathology of lymph node showing spindle cell and vascular proliferation (H&E stain, 40x magnification).",
+      "detailed_description": "This hematoxylin and eosin-stained section of a lymph node at 40x magnification demonstrates abnormal spindle cell proliferation with bland ovoid nuclei. There is prominent vascular proliferation, with some vessels appearing irregularly shaped. The background shows a mix of inflammatory cells, including lymphocytes. No overt cytologic atypia or necrosis is visible in this field.",
+      "visible_findings": [
+        "spindle cell proliferation",
+        "bland ovoid nuclei",
+        "vascular proliferation",
+        "inflammatory cell infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "spindle cells",
+        "vascular proliferation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lymph node biopsy",
+        "H&E stain",
+        "spindle cell histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:29+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 244,
+      "total_tokens": 860
+    }
+  },
+  "Case_15007/figure4.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure4.jpg",
+    "source_caption": "Bronchoscopic examination of the tracheobronchial tree.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "tracheobronchial tree",
+      "short_caption": "Bronchoscopic images of the tracheobronchial tree showing mucosal erythema and irregularities.",
+      "detailed_description": "This image shows three bronchoscopic views of the tracheobronchial tree. The mucosa appears erythematous and inflamed, with irregularities and possible ulcerations visible in some areas. The lumen is patent, but the mucosal changes suggest an inflammatory or infectious process. The images are well-lit, with clear visualization of the airway walls.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "irregular mucosal surface",
+        "patent airway lumen",
+        "possible ulcerations"
+      ],
+      "keywords": [
+        "endoscopy",
+        "tracheobronchial tree",
+        "bronchoscopy",
+        "inflammation",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "tracheobronchial tree",
+        "airway inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:29+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 250,
+      "total_tokens": 846
+    }
+  },
+  "Case_15007/figure3.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure3.jpg",
+    "source_caption": "CT of the chest, on admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT of the chest showing bilateral lung abnormalities.",
+      "detailed_description": "This image shows axial CT scans of the chest in lung window settings. The left panel demonstrates extensive bilateral consolidation with areas of ground-glass opacities, predominantly in the lower lobes. The right panel appears to show a similar scan with a different windowing or phase, emphasizing the diffuse nature of the opacities and consolidations. The findings suggest a severe infectious or inflammatory process involving both lungs.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "ground-glass opacities",
+        "diffuse involvement of both lungs",
+        "predominance in lower lobes"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "bilateral lung findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:29+00:00",
+    "usage": {
+      "prompt_tokens": 729,
+      "completion_tokens": 243,
+      "total_tokens": 972
+    }
+  },
+  "Case_15007/figure6.jpg": {
+    "case_id": "Case_15007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15007/figure6.jpg",
+    "source_caption": "Biopsy of the lymph node, with staining for HHV-8.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Lymph node biopsy with immunohistochemical staining for HHV-8.",
+      "detailed_description": "This image shows a lymph node biopsy stained with immunohistochemistry for HHV-8. Numerous brown-stained cells are scattered throughout the field, indicating positive staining for HHV-8. The background tissue appears pale blue, consistent with counterstaining. The distribution of stained cells suggests the presence of HHV-8-infected cells, which may be associated with conditions such as Kaposi sarcoma or other HHV-8-related diseases.",
+      "visible_findings": [
+        "brown-stained cells indicating HHV-8 positivity",
+        "pale blue background from counterstaining",
+        "scattered distribution of positive cells"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "hhv-8",
+        "lymph node",
+        "infectious diseases",
+        "staining"
+      ],
+      "reveal_triggers": [
+        "hhv-8 stain",
+        "lymph node biopsy",
+        "kaposi sarcoma"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:33+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 260,
+      "total_tokens": 857
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "Case_03029/figure1.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure1.jpg",
+    "source_caption": "Left knee.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left knee",
+      "short_caption": "Clinical image of the left knee showing multiple skin lesions and scarring.",
+      "detailed_description": "This clinical photograph shows the left knee of a patient with multiple skin lesions. There are areas of scarring and ulceration, with one lesion marked by an arrow. The surrounding skin appears erythematous, and there is evidence of prior trauma or infection. The image suggests a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "multiple skin lesions on the left knee",
+        "scarring and ulceration",
+        "erythema around the lesions",
+        "arrow marking a specific lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "left knee",
+        "skin lesions",
+        "ulceration",
+        "infection",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infected knee",
+        "knee lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:10+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 224,
+      "total_tokens": 809
+    }
+  },
+  "Case_03029/figure2.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure2.jpg",
+    "source_caption": "Radiograph of knee.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "knee",
+      "short_caption": "Radiograph of the knee showing joint abnormalities.",
+      "detailed_description": "This image shows an anteroposterior and lateral radiograph of the knee. There is evidence of joint space narrowing, particularly in the medial compartment, and possible subchondral sclerosis. The bony structures appear irregular, suggesting degenerative or infectious changes. No obvious fractures are visible. The soft tissue outlines are faint but appear unremarkable.",
+      "visible_findings": [
+        "joint space narrowing",
+        "possible subchondral sclerosis",
+        "irregular bony structures",
+        "no visible fractures"
+      ],
+      "keywords": [
+        "radiograph",
+        "knee",
+        "joint abnormalities",
+        "degenerative changes",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "knee x-ray",
+        "radiograph of knee",
+        "joint infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:10+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 221,
+      "total_tokens": 808
+    }
+  },
+  "Case_03029/figure5.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure5.jpg",
+    "source_caption": "Stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing a cluster of organisms with surrounding inflammatory cells.",
+      "detailed_description": "This histopathology image shows a dense cluster of organisms stained in bright magenta, surrounded by a background of inflammatory cells. The organisms appear to be aggregated, and the surrounding tissue exhibits cellular infiltrates consistent with an inflammatory response. The stain used highlights the organisms distinctly against the background, suggesting a special stain such as PAS or GMS.",
+      "visible_findings": [
+        "dense magenta-stained cluster of organisms",
+        "surrounding inflammatory cell infiltrates",
+        "contrast between organisms and background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "biopsy",
+        "infectious organisms",
+        "inflammation",
+        "special stain"
+      ],
+      "reveal_triggers": [
+        "biopsy stain",
+        "histopathology of infection",
+        "fungal stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:13+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 224,
+      "total_tokens": 811
+    }
+  },
+  "Case_03029/figure3.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure3.jpg",
+    "source_caption": "CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "knee joint",
+      "short_caption": "CT scan of the knee showing joint effusion and possible bone involvement.",
+      "detailed_description": "This image shows axial CT slices of the knee joint at multiple levels. There is evidence of joint effusion, visible as a hypodense area surrounding the joint space. The cortical bone appears irregular in some slices, suggesting possible bone involvement, such as osteomyelitis or erosion. The soft tissue surrounding the joint appears swollen, which may indicate inflammation or infection.",
+      "visible_findings": [
+        "joint effusion visible as hypodense areas",
+        "irregular cortical bone in some slices",
+        "soft tissue swelling around the joint"
+      ],
+      "keywords": [
+        "ct",
+        "knee",
+        "joint effusion",
+        "bone erosion",
+        "infection",
+        "osteomyelitis"
+      ],
+      "reveal_triggers": [
+        "knee CT",
+        "joint infection",
+        "bone involvement on CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:14+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 232,
+      "total_tokens": 817
+    }
+  },
+  "Case_03029/figure4.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure4.jpg",
+    "source_caption": "Stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gastrointestinal mucosa",
+      "short_caption": "Histopathology of gastrointestinal biopsy showing a parasitic structure within the mucosa.",
+      "detailed_description": "This histopathological image shows a section of gastrointestinal mucosa stained with hematoxylin and eosin (H&E). The mucosal architecture is visible, with crypts and epithelial lining. A prominent round parasitic structure is embedded within the mucosa, surrounded by inflammatory cells. The parasite appears to have a thick wall and internal structures, consistent with a helminth or protozoan cyst.",
+      "visible_findings": [
+        "gastrointestinal mucosa with crypts and epithelial lining",
+        "round parasitic structure within the mucosa",
+        "thick-walled parasite with internal structures",
+        "surrounding inflammatory infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "gastrointestinal",
+        "parasite",
+        "biopsy",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "biopsy stain",
+        "gastrointestinal parasite",
+        "histopathology of mucosa"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:14+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 262,
+      "total_tokens": 849
+    }
+  },
+  "Case_03029/figure6.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure6.jpg",
+    "source_caption": "Radiograph of left leg.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "left leg",
+      "short_caption": "Radiograph of the left leg with external fixation.",
+      "detailed_description": "This is a lateral radiograph of the left leg showing the distal femur and proximal tibia. An external fixation device is visible, with multiple screws and rods stabilizing the bone. The bone appears intact without obvious fractures or dislocations, but the fixation suggests prior trauma or surgical intervention. The soft tissues are not well visualized in this modality.",
+      "visible_findings": [
+        "external fixation device with screws and rods",
+        "lateral view of distal femur and proximal tibia",
+        "no obvious fractures or dislocations"
+      ],
+      "keywords": [
+        "radiograph",
+        "left leg",
+        "external fixation",
+        "orthopedic hardware",
+        "trauma"
+      ],
+      "reveal_triggers": [
+        "radiograph of leg",
+        "external fixation",
+        "orthopedic x-ray"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:33+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  },
+  "Case_03029/figure7.jpg": {
+    "case_id": "Case_03029",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03029/figure7.jpg",
+    "source_caption": "Follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity",
+      "short_caption": "Post-surgical follow-up of an external fixation device on the lower extremity.",
+      "detailed_description": "This image shows a clinical photograph of a lower extremity with an external fixation device in place. A linear surgical scar is visible along the midline of the limb, suggesting prior surgical intervention. The surrounding skin appears intact without overt signs of infection, erythema, or drainage. The external fixation hardware is secured to the limb, with no visible complications such as hardware loosening or misalignment.",
+      "visible_findings": [
+        "external fixation device",
+        "linear surgical scar",
+        "intact surrounding skin",
+        "no visible erythema or drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremity",
+        "external fixation",
+        "surgical scar",
+        "orthopedic hardware"
+      ],
+      "reveal_triggers": [
+        "external fixation",
+        "post-surgical follow-up",
+        "orthopedic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:33+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 238,
+      "total_tokens": 823
+    }
+  }
+}

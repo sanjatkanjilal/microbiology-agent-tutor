@@ -1,0 +1,289 @@
+{
+  "Case_03003/figure1.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the trunk",
+      "short_caption": "Erythematous skin lesion with central clearing and scaling.",
+      "detailed_description": "This clinical photograph shows a patch of erythematous skin with a well-demarcated border and central clearing. The lesion appears scaly, and there are multiple smaller erythematous papules surrounding the main lesion. The texture of the surrounding skin is slightly irregular, and the lesion is located on the trunk.",
+      "visible_findings": [
+        "erythematous patch",
+        "central clearing",
+        "scaling",
+        "surrounding smaller papules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "scaling",
+        "central clearing",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythematous patch",
+        "scaling skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_03003/figure2.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Multiple erythematous maculopapular lesions on the skin.",
+      "detailed_description": "This clinical photograph shows a section of skin with multiple small, erythematous maculopapular lesions scattered across the surface. The lesions are discrete, with no apparent coalescence, and are distributed over a slightly textured skin surface. The image is well-lit, and the lesions are clearly visible against the surrounding skin.",
+      "visible_findings": [
+        "multiple erythematous maculopapular lesions",
+        "discrete distribution",
+        "no apparent coalescence"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "maculopapular rash",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_03003/figure3.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure3.jpg",
+    "source_caption": "Wright-Giemsa stain of BAL specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bronchoalveolar lavage specimen",
+      "short_caption": "Wright-Giemsa stain of BAL specimen showing intracellular and extracellular organisms.",
+      "detailed_description": "This image shows a Wright-Giemsa stain of a bronchoalveolar lavage (BAL) specimen. The field contains numerous purple-stained cells, including some with intracellular organisms. Extracellular organisms are also visible, appearing as round to oval structures with a darker central region. The background is relatively clear, allowing for good visualization of the cellular and microbial elements.",
+      "visible_findings": [
+        "purple-stained cells",
+        "intracellular organisms",
+        "extracellular round to oval organisms",
+        "clear background"
+      ],
+      "keywords": [
+        "wright-giemsa stain",
+        "bal specimen",
+        "intracellular organisms",
+        "extracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wright-giemsa stain",
+        "bal cytology",
+        "lung infection microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:44+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 242,
+      "total_tokens": 833
+    }
+  },
+  "Case_03003/figure4.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure4.jpg",
+    "source_caption": "GMS stain of BAL specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung (bronchoalveolar lavage)",
+      "short_caption": "GMS stain of BAL specimen showing fungal elements.",
+      "detailed_description": "This is a GMS (Gomori methenamine silver) stain of a bronchoalveolar lavage (BAL) specimen. The image shows round to oval fungal elements with thick, darkly-stained walls, consistent with yeast forms. The background is lightly stained, allowing clear visualization of the fungal structures. The staining highlights the fungal cell walls, which appear black against a green background.",
+      "visible_findings": [
+        "round to oval fungal elements",
+        "thick, darkly-stained fungal cell walls",
+        "green background with contrast to fungal structures"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal elements",
+        "bronchoalveolar lavage",
+        "lung",
+        "infectious diseases",
+        "yeast"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "bronchoalveolar lavage specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 246,
+      "total_tokens": 835
+    }
+  },
+  "Case_03003/figure7.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure7.jpg",
+    "source_caption": "GMS stain of skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "GMS stain of skin biopsy showing fungal elements.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of a skin biopsy. The background tissue is stained green, while fungal elements, including round yeast forms and branching hyphae, are stained black. The fungal elements are distributed throughout the tissue, suggesting a fungal infection. The GMS stain is commonly used to highlight fungal organisms in tissue samples.",
+      "visible_findings": [
+        "green-stained background tissue",
+        "black-stained fungal elements",
+        "round yeast forms",
+        "branching hyphae"
+      ],
+      "keywords": [
+        "gms stain",
+        "skin biopsy",
+        "fungal infection",
+        "histopathology",
+        "yeast",
+        "hyphae"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "skin biopsy histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:51+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 232,
+      "total_tokens": 821
+    }
+  },
+  "Case_03003/figure6.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure6.jpg",
+    "source_caption": "H and E stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing inflammatory infiltrate and tissue damage.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin tissue. The image reveals an inflammatory infiltrate composed of numerous purple-staining nuclei, likely lymphocytes and other immune cells, within a background of pink-staining extracellular matrix and cytoplasm. There are areas of tissue damage, including vacuolization and possible necrosis. The distribution of cells and tissue architecture suggests an infectious or inflammatory process.",
+      "visible_findings": [
+        "purple-staining nuclei indicating inflammatory cells",
+        "pink-staining extracellular matrix and cytoplasm",
+        "vacuolization and tissue damage",
+        "possible necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "infection",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 256,
+      "total_tokens": 846
+    }
+  },
+  "Case_03003/figure5.jpg": {
+    "case_id": "Case_03003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03003/figure5.jpg",
+    "source_caption": "H and E stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H and E stain of skin biopsy showing inflammatory infiltrate.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H and E) stain of a skin biopsy. The tissue demonstrates an inflammatory infiltrate with prominent pink-staining collagen bundles and scattered purple-staining nuclei, indicative of cellular infiltration. The pattern suggests a dermal process, possibly involving infection or inflammation. No clear organisms are visible in this image.",
+      "visible_findings": [
+        "pink-staining collagen bundles",
+        "scattered purple-staining nuclei",
+        "inflammatory infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "h and e stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "h and e stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:53+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 223,
+      "total_tokens": 813
+    }
+  }
+}

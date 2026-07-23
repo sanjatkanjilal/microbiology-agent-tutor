@@ -1,0 +1,128 @@
+{
+  "Case_07019/figure1.jpg": {
+    "case_id": "Case_07019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07019/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "buttock",
+      "short_caption": "Two ulcerative lesions with erythematous bases on the buttock.",
+      "detailed_description": "This clinical photograph shows two prominent ulcerative lesions on the buttock. The lesions are raised, with erythematous and irregular bases, and appear to have central necrosis or exudate. Surrounding skin shows hyperpigmentation and mild induration. The lesions are closely spaced and suggestive of a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "two ulcerative lesions",
+        "erythematous bases",
+        "central necrosis or exudate",
+        "surrounding hyperpigmentation",
+        "mild induration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "buttock",
+        "ulcerative lesions",
+        "erythema",
+        "necrosis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious buttock lesions",
+        "ulcerative skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:57+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  },
+  "Case_07019/figure2.jpg": {
+    "case_id": "Case_07019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07019/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing branching gram-positive bacilli.",
+      "detailed_description": "This is a gram stain image showing numerous branching, filamentous gram-positive bacilli. The organisms are arranged in clusters and chains, with some areas showing more dense aggregation. The scale bar indicates a magnification of 10 µm, suggesting a microscopic view. This morphology is consistent with certain filamentous bacteria, such as Actinomyces or Nocardia species.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "gram-positive staining",
+        "clustered and chain-like arrangements",
+        "scale bar indicating 10 µm"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "branching",
+        "filamentous",
+        "gram-positive",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  },
+  "Case_07019/figure3.jpg": {
+    "case_id": "Case_07019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07019/figure3.jpg",
+    "source_caption": "Modified acid-fast stain of swab of lesion.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Modified acid-fast stain showing filamentous branching organisms.",
+      "detailed_description": "This image shows a modified acid-fast stain of a sample, likely from a lesion swab. The field contains numerous filamentous, branching organisms that stain red against a pale background, consistent with acid-fast positive bacteria. The scale bar indicates a magnification where 10 micrometers is represented, suggesting a microscopic view.",
+      "visible_findings": [
+        "filamentous branching organisms",
+        "red staining of organisms",
+        "pale background",
+        "scale bar indicating 10 micrometers"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "filamentous bacteria",
+        "branching organisms",
+        "infectious diseases",
+        "lesion swab"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "branching bacteria",
+        "lesion swab microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:03+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 225,
+      "total_tokens": 817
+    }
+  }
+}

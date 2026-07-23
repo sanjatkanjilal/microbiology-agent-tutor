@@ -1,0 +1,123 @@
+{
+  "Case_04024/figure1.jpg": {
+    "case_id": "Case_04024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04024/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing multiple fluid and gas-filled loops of bowel.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates multiple dilated loops of bowel with fluid and gas, suggestive of bowel obstruction or ileus. There is evidence of a thickened bowel wall in some segments, and the presence of free air or fluid is not clearly visible. The surrounding abdominal structures appear unremarkable. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "dilated loops of bowel",
+        "fluid and gas within bowel loops",
+        "thickened bowel wall in some segments"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel obstruction",
+        "dilated bowel",
+        "fluid",
+        "gas"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel obstruction",
+        "ileus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:11+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 235,
+      "total_tokens": 823
+    }
+  },
+  "Case_04024/figure2.jpg": {
+    "case_id": "Case_04024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04024/figure2.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT scan of the pelvis showing a large central pelvic mass.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates a large, well-defined, centrally located pelvic mass. The mass appears to be hypodense relative to surrounding soft tissues. Adjacent structures, including the pelvic bones and soft tissues, are visible. There is no clear evidence of contrast enhancement in this image, suggesting it may be a non-contrast study.",
+      "visible_findings": [
+        "large central pelvic mass",
+        "hypodense appearance of the mass",
+        "adjacent pelvic bones and soft tissues visible"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "pelvic mass",
+        "axial view",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "pelvic mass",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:12+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  },
+  "Case_04024/figure3.jpg": {
+    "case_id": "Case_04024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04024/figure3.jpg",
+    "source_caption": "Figure 3. Mycobacterium tuberculosis from renal aspirate, acid-fast stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "renal aspirate",
+      "short_caption": "Acid-fast bacilli in renal aspirate, consistent with Mycobacterium species.",
+      "detailed_description": "This image shows a cluster of red, rod-shaped bacilli against a pale background, stained using an acid-fast technique. The red coloration indicates the presence of acid-fast organisms, consistent with Mycobacterium species. The bacilli are arranged in a slightly clumped formation, characteristic of Mycobacterium tuberculosis. The background appears lightly stained, with no other prominent structures visible.",
+      "visible_findings": [
+        "red, rod-shaped bacilli",
+        "acid-fast staining pattern",
+        "clumped arrangement of bacilli"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "renal aspirate",
+        "mycobacterium",
+        "tuberculosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "renal aspirate",
+        "mycobacterium tuberculosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:27+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 237,
+      "total_tokens": 837
+    }
+  }
+}

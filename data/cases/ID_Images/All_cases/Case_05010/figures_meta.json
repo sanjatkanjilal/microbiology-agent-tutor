@@ -1,0 +1,171 @@
+{
+  "Case_05010/figure1.jpg": {
+    "case_id": "Case_05010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05010/figure1.jpg",
+    "source_caption": "Chest CT scan three weeks before current admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing a cavitary lesion in the right upper lobe.",
+      "detailed_description": "This axial chest CT image demonstrates a cavitary lesion in the right upper lobe of the lung with surrounding consolidation. The lesion appears well-defined, and there is no clear evidence of pleural effusion or mediastinal lymphadenopathy. The lung parenchyma on the left appears relatively unremarkable. The image is presented in a lung window setting.",
+      "visible_findings": [
+        "cavitary lesion in the right upper lobe",
+        "surrounding consolidation",
+        "no pleural effusion",
+        "no mediastinal lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:46+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 240,
+      "total_tokens": 831
+    }
+  },
+  "Case_05010/figure2.jpg": {
+    "case_id": "Case_05010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05010/figure2.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing abnormal opacities in the right lower lung field.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. There is an area of increased opacity in the right lower lung field, suggestive of consolidation. The heart and mediastinal contours appear within normal limits. The left lung field appears clear. The diaphragm and costophrenic angles are visible, with the right hemidiaphragm slightly elevated. No obvious bony abnormalities are noted.",
+      "visible_findings": [
+        "increased opacity in the right lower lung field",
+        "normal heart and mediastinal contours",
+        "clear left lung field",
+        "slightly elevated right hemidiaphragm",
+        "visible diaphragm and costophrenic angles"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pneumonia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:47+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 261,
+      "total_tokens": 847
+    }
+  },
+  "Case_05010/figure3.jpg": {
+    "case_id": "Case_05010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05010/figure3.jpg",
+    "source_caption": "Chest radiograph, lateral view.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity, including the spine, ribs, and lung fields. The heart and diaphragm are visible, with no obvious signs of gross abnormalities such as fractures, masses, or significant consolidation. The image provides a clear view of the posterior costophrenic angle and the retrosternal airspace.",
+      "visible_findings": [
+        "clear lung fields",
+        "visible spine and ribs",
+        "normal heart silhouette",
+        "no obvious consolidation or masses"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lungs",
+        "spine",
+        "ribs"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "thoracic imaging",
+        "lung radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 225,
+      "total_tokens": 814
+    }
+  },
+  "Case_05010/figure4.jpg": {
+    "case_id": "Case_05010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05010/figure4.jpg",
+    "source_caption": "Chest CT scan, post hemoptysis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a large cavitary lesion in the right lung, with thickened walls and surrounding parenchymal abnormalities. The left lung appears relatively normal. The mediastinum is midline, and no significant pleural effusion is visible. The findings are consistent with a cavitary pulmonary process, which could be infectious, neoplastic, or inflammatory in origin.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "thickened cavity walls",
+        "surrounding parenchymal abnormalities",
+        "normal left lung",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "hemoptysis"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "post hemoptysis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:51+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 246,
+      "total_tokens": 838
+    }
+  }
+}

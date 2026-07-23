@@ -1,0 +1,170 @@
+{
+  "Case_04031/figure2.jpg": {
+    "case_id": "Case_04031",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04031/figure2.jpg",
+    "source_caption": "Gram stain from an aerobic bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching filamentous bacteria and cocci.",
+      "detailed_description": "This Gram stain image shows thin, branching filamentous structures consistent with filamentous bacteria, as well as clusters of Gram-positive cocci. The background is relatively clear, suggesting a sample from a liquid medium such as an aerobic culture bottle. The filamentous bacteria appear Gram-positive, as they retain the purple stain.",
+      "visible_findings": [
+        "branching filamentous bacteria",
+        "Gram-positive cocci in clusters",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "filamentous bacteria",
+        "Gram-positive cocci",
+        "aerobic culture",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "aerobic culture bottle",
+        "filamentous bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:47+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 225,
+      "total_tokens": 814
+    }
+  },
+  "Case_04031/figure1.jpg": {
+    "case_id": "Case_04031",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04031/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Erythematous and swollen forearm with signs of inflammation.",
+      "detailed_description": "This clinical photograph shows the forearm of a patient with a large, erythematous, and swollen area. The affected region appears shiny, with some areas of excoriation and possible early desquamation. The redness is diffuse, with poorly demarcated borders, suggesting an inflammatory or infectious process. The surrounding skin shows no clear vesicles or pustules, but there is evidence of localized warmth and tenderness based on the appearance.",
+      "visible_findings": [
+        "diffuse erythema",
+        "swelling",
+        "shiny skin surface",
+        "poorly demarcated borders",
+        "excoriation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "erythema",
+        "swelling",
+        "inflammation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin infection",
+        "forearm erythema",
+        "cellulitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:50+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 251,
+      "total_tokens": 819
+    }
+  },
+  "Case_04031/figure3.jpg": {
+    "case_id": "Case_04031",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04031/figure3.jpg",
+    "source_caption": "Physical findings (Day 3).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity",
+      "short_caption": "Erythematous and edematous lesion with central ecchymosis on the lower extremity.",
+      "detailed_description": "The image shows a lower extremity with a large, erythematous, and edematous area. There is a central area of ecchymosis (dark discoloration) and surrounding redness. The lesion appears inflamed, with irregular borders and some areas of superficial skin breakdown. The findings are consistent with an acute inflammatory or infectious process, such as cellulitis or necrotizing soft tissue infection.",
+      "visible_findings": [
+        "erythema",
+        "edema",
+        "central ecchymosis",
+        "irregular lesion borders",
+        "superficial skin breakdown"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremity",
+        "erythema",
+        "edema",
+        "infection",
+        "cellulitis",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infected leg",
+        "erythema and swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:53+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 259,
+      "total_tokens": 848
+    }
+  },
+  "Case_04031/figure4.jpg": {
+    "case_id": "Case_04031",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04031/figure4.jpg",
+    "source_caption": "Physical findings (Day 7).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Erythematous lesion with central necrosis on the forearm.",
+      "detailed_description": "This image shows a forearm with a localized erythematous area surrounding a central necrotic lesion. The lesion appears ulcerated with dark eschar formation at the center. The surrounding skin is inflamed, with redness extending outward. The findings suggest a localized infectious or inflammatory process, potentially consistent with a necrotizing skin infection or cutaneous anthrax.",
+      "visible_findings": [
+        "central necrotic lesion with eschar",
+        "surrounding erythema",
+        "localized inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "necrosis",
+        "erythema",
+        "skin lesion",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "necrotic lesion",
+        "infected wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:54+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 226,
+      "total_tokens": 815
+    }
+  }
+}

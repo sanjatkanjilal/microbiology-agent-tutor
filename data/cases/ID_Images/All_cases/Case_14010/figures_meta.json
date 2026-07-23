@@ -1,0 +1,206 @@
+{
+  "Case_14010/figure1.jpg": {
+    "case_id": "Case_14010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14010/figure1.jpg",
+    "source_caption": "Rectal mass before biopsy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "rectum",
+      "short_caption": "Endoscopic view of a rectal mass with irregular surface before biopsy.",
+      "detailed_description": "This endoscopic image shows the rectal lumen with a prominent mass. The mass has an irregular, nodular surface with areas of erythema and possible ulceration. Surrounding mucosa appears relatively normal. The image is taken prior to biopsy, and the mass occupies a significant portion of the lumen.",
+      "visible_findings": [
+        "irregular, nodular mass in the rectum",
+        "areas of erythema and possible ulceration",
+        "surrounding mucosa appears normal"
+      ],
+      "keywords": [
+        "endoscopy",
+        "rectum",
+        "rectal mass",
+        "irregular surface",
+        "pre-biopsy"
+      ],
+      "reveal_triggers": [
+        "rectal mass",
+        "endoscopic view of rectum",
+        "pre-biopsy rectal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:43+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 228,
+      "total_tokens": 816
+    }
+  },
+  "Case_14010/figure2.jpg": {
+    "case_id": "Case_14010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14010/figure2.jpg",
+    "source_caption": "Rectal mass after biopsy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "rectum",
+      "short_caption": "Endoscopic view of rectal mucosa with nodular lesions post-biopsy.",
+      "detailed_description": "This endoscopic image shows the rectal mucosa with multiple raised, nodular lesions. The mucosa appears erythematous and inflamed, with some areas of irregularity and possible biopsy sites. The nodules are prominent and distributed across the visible mucosal surface. There is evidence of mild bleeding, likely related to recent biopsy procedures.",
+      "visible_findings": [
+        "multiple raised nodular lesions",
+        "erythematous and inflamed mucosa",
+        "irregular mucosal surface",
+        "evidence of mild bleeding"
+      ],
+      "keywords": [
+        "endoscopy",
+        "rectum",
+        "rectal mucosa",
+        "nodular lesions",
+        "biopsy",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "rectal mass",
+        "rectal endoscopy",
+        "rectal biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_14010/figure5.jpg": {
+    "case_id": "Case_14010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14010/figure5.jpg",
+    "source_caption": "Biopsy results, GMS staining.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing a fungal organism with a thick capsule.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of a tissue biopsy. A single fungal organism is visible, characterized by a thick, darkly stained capsule and a lighter interior. The background tissue is stained light blue-green, providing contrast to the organism. The morphology is consistent with a yeast form, possibly Cryptococcus species, given the prominent capsule.",
+      "visible_findings": [
+        "fungal organism with a thick capsule",
+        "dark staining of the capsule with GMS",
+        "light blue-green background tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal organism",
+        "biopsy",
+        "capsule",
+        "cryptococcus",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal biopsy",
+        "capsulated yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:50+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 231,
+      "total_tokens": 821
+    }
+  },
+  "Case_14010/figure3.jpg": {
+    "case_id": "Case_14010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14010/figure3.jpg",
+    "source_caption": "MRI of the abdomen.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "MRI of the abdomen showing a cystic lesion with surrounding bowel loops.",
+      "detailed_description": "This is a coronal MRI image of the abdomen. A large, well-defined cystic lesion is visible in the lower abdomen, labeled 'A'. Surrounding bowel loops are noted, with some appearing distended, labeled 'B'. The lesion appears to have a homogenous fluid signal, consistent with a cystic structure. No obvious signs of solid components or septations are visible. The image is de-identified and suitable for educational purposes.",
+      "visible_findings": [
+        "large cystic lesion in the lower abdomen",
+        "surrounding bowel loops, some distended",
+        "homogenous fluid signal within the lesion"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "cystic lesion",
+        "bowel loops",
+        "fluid signal"
+      ],
+      "reveal_triggers": [
+        "mri of the abdomen",
+        "abdominal cyst",
+        "cystic lesion on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:51+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 252,
+      "total_tokens": 839
+    }
+  },
+  "Case_14010/figure4.jpg": {
+    "case_id": "Case_14010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14010/figure4.jpg",
+    "source_caption": "Biopsy results, HE staining.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Histopathology showing parasitic structure in tissue, H&E stain.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a cross-section of tissue containing a large, elongated parasitic structure with a thick, eosinophilic outer layer and internal structures. Surrounding the parasite are numerous inflammatory cells, predominantly lymphocytes and eosinophils, indicating a host immune response. The parasite appears to be embedded within the tissue, suggesting an active infection.",
+      "visible_findings": [
+        "large, elongated parasitic structure",
+        "thick eosinophilic outer layer of the parasite",
+        "internal structures within the parasite",
+        "surrounding inflammatory cells, including lymphocytes and eosinophils"
+      ],
+      "keywords": [
+        "histopathology",
+        "biopsy",
+        "parasitic infection",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "biopsy",
+        "H&E stain",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:57+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 265,
+      "total_tokens": 854
+    }
+  }
+}

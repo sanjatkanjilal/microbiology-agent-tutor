@@ -1,0 +1,43 @@
+{
+  "Case_03123/figure1.jpg": {
+    "case_id": "Case_03123",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03123/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forehead and scalp",
+      "short_caption": "Violaceous plaques on the forehead and scalp.",
+      "detailed_description": "This clinical photograph shows multiple violaceous plaques on the forehead and scalp. The lesions are irregularly shaped and slightly raised, with a purplish hue. There is no visible ulceration or crusting. The surrounding skin appears normal, and the lesions are localized to the upper face and scalp region.",
+      "visible_findings": [
+        "violaceous plaques",
+        "irregularly shaped lesions",
+        "localized to forehead and scalp",
+        "no visible ulceration or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forehead",
+        "scalp",
+        "violaceous plaques",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "violaceous plaques",
+        "forehead lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:48+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 212,
+      "total_tokens": 780
+    }
+  }
+}

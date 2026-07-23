@@ -1,0 +1,44 @@
+{
+  "Case_03087/figure1.jpg": {
+    "case_id": "Case_03087",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03087/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and abdomen",
+      "short_caption": "Vesicular rash with dermatomal distribution on the chest and abdomen.",
+      "detailed_description": "This clinical photograph shows a vesicular rash localized to the right side of the chest and abdomen, following a dermatomal distribution. The lesions appear grouped, with some crusting and erythema. The pattern is unilateral and does not cross the midline, consistent with a dermatomal process.",
+      "visible_findings": [
+        "vesicular rash",
+        "unilateral distribution",
+        "dermatomal pattern",
+        "crusting and erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "abdomen",
+        "vesicular rash",
+        "dermatomal distribution",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "vesicular rash",
+        "dermatomal rash",
+        "skin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:56+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  }
+}

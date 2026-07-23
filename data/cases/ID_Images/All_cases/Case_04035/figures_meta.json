@@ -1,0 +1,45 @@
+{
+  "Case_04035/figure1.jpg": {
+    "case_id": "Case_04035",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04035/figure1.jpg",
+    "source_caption": "Crusted scabies in an African patient with human immunodeficiency virus (HIV) infection and acquired immunodeficiency syndrome (AIDS).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "axilla and upper torso",
+      "short_caption": "Crusted scabies with hyperkeratotic plaques in the axilla and upper torso.",
+      "detailed_description": "This clinical photograph shows the axilla and adjacent upper torso of a patient with extensive hyperkeratotic, crusted plaques. The lesions are thickened, scaly, and appear to involve the skin diffusely, consistent with crusted scabies. The surrounding skin shows erythema and scaling, suggesting widespread involvement. The image is well-lit and provides a clear view of the affected area.",
+      "visible_findings": [
+        "hyperkeratotic plaques",
+        "crusting",
+        "erythema",
+        "scaling",
+        "diffuse involvement of axilla and upper torso"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "crusted scabies",
+        "hyperkeratosis",
+        "axilla",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "crusted scabies",
+        "HIV-associated skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:08+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 255,
+      "total_tokens": 866
+    }
+  }
+}

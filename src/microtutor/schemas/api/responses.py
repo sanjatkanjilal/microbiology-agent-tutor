@@ -13,7 +13,7 @@ from .requests import Message
 class OpeningMessage(BaseModel):
     """One message in the case opening sequence."""
 
-    speaker: str = Field(..., description="tutor or patient")
+    speaker: str = Field(..., description="tutor, patient, family, or nurse")
     content: str = Field(..., description="Message text")
 
 
@@ -139,6 +139,14 @@ class ChatResponse(BaseModel):
     emr_busy: Optional[bool] = Field(
         default=False,
         description="True if background EMR extraction is still running"
+    )
+    revealed_figures: Optional[List[int]] = Field(
+        default_factory=list,
+        description="Figure numbers the patient/tutor agent requested to display this turn",
+    )
+    speaker: Optional[str] = Field(
+        default=None,
+        description="Who spoke this turn: patient, family, nurse, or tutor (Docent)",
     )
     
     model_config = ConfigDict(

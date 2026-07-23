@@ -1,0 +1,213 @@
+{
+  "Case_23003/figure1.jpg": {
+    "case_id": "Case_23003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23003/figure1.jpg",
+    "source_caption": "Figure 1a. CT scan of chest without contrast",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT without contrast showing bilateral lung findings.",
+      "detailed_description": "This axial CT image of the chest, taken without contrast, shows both lungs. There are multiple small, round, nodular opacities distributed throughout both lung fields, consistent with a miliary pattern. The mediastinum appears unremarkable, and there is no visible pleural effusion. The image is de-identified and includes a watermark indicating its source.",
+      "visible_findings": [
+        "bilateral small, round nodular opacities",
+        "miliary pattern in lung fields",
+        "no visible pleural effusion",
+        "unremarkable mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "miliary pattern",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "miliary pattern"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:04+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 237,
+      "total_tokens": 831
+    }
+  },
+  "Case_23003/figure2.jpg": {
+    "case_id": "Case_23003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23003/figure2.jpg",
+    "source_caption": "Figure 1b: CT scan of chest without contrast",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest without contrast showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT scan of the chest, performed without contrast, demonstrates bilateral lung abnormalities. There are multiple nodular opacities and areas of ground-glass attenuation scattered throughout both lungs. The trachea and main bronchi are patent, and no significant pleural effusion is visible. The findings suggest a diffuse pulmonary process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "bilateral nodular opacities",
+        "ground-glass attenuation",
+        "patent trachea and bronchi",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "ground-glass",
+        "pulmonary findings",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung nodules",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:04+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 242,
+      "total_tokens": 836
+    }
+  },
+  "Case_23003/figure3.jpg": {
+    "case_id": "Case_23003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23003/figure3.jpg",
+    "source_caption": "Figure 1c: CT scan of chest without contrast",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT without contrast showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image, performed without contrast, demonstrates significant abnormalities in both lungs. The left lung shows areas of ground-glass opacities and consolidation, while the right lung exhibits similar findings but to a lesser extent. The mediastinum and heart appear unremarkable. The findings suggest a diffuse infectious or inflammatory process.",
+      "visible_findings": [
+        "ground-glass opacities in the left lung",
+        "consolidation in the left lung",
+        "milder abnormalities in the right lung",
+        "normal-appearing mediastinum and heart"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:07+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 242,
+      "total_tokens": 836
+    }
+  },
+  "Case_23003/figure4.jpg": {
+    "case_id": "Case_23003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23003/figure4.jpg",
+    "source_caption": "MRI scan of the brain with and without contrast",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing multiple ring-enhancing lesions.",
+      "detailed_description": "This image shows axial MRI slices of the brain, both with and without contrast. Multiple ring-enhancing lesions are visible, predominantly in the cerebral hemispheres and cerebellum. These lesions exhibit surrounding edema, as evidenced by hyperintense signals on T2-weighted or FLAIR sequences. The findings are suggestive of infectious or neoplastic processes, such as abscesses or metastases.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "surrounding edema",
+        "lesions in cerebral hemispheres and cerebellum"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "contrast",
+        "edema",
+        "infection",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:10+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 237,
+      "total_tokens": 829
+    }
+  },
+  "Case_23003/figure5.jpg": {
+    "case_id": "Case_23003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23003/figure5.jpg",
+    "source_caption": "MRI scan of the brain with and without contrast",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing inflammation and parasitic cysts.",
+      "detailed_description": "This image shows two histopathology slides of brain tissue stained with hematoxylin and eosin (H&E). The left panel displays diffuse inflammation with scattered inflammatory cells and disrupted tissue architecture. The right panel highlights a parasitic cyst surrounded by inflammatory cells, suggesting a parasitic infection. The cyst appears to contain a dense cluster of organisms or parasitic structures.",
+      "visible_findings": [
+        "inflammatory cell infiltration",
+        "disrupted brain tissue architecture",
+        "parasitic cyst with dense internal structures",
+        "surrounding inflammatory response"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "parasitic infection",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain histology",
+        "parasitic infection in brain",
+        "H&E stain of brain tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:10+00:00",
+    "usage": {
+      "prompt_tokens": 731,
+      "completion_tokens": 240,
+      "total_tokens": 971
+    }
+  }
+}

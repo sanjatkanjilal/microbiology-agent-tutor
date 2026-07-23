@@ -1,0 +1,88 @@
+{
+  "Case_02027/figure2.jpg": {
+    "case_id": "Case_02027",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02027/figure2.jpg",
+    "source_caption": "CT scan of the head.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT scan of the head showing sinus and orbital involvement.",
+      "detailed_description": "This axial CT scan of the head shows the orbits, paranasal sinuses, and surrounding structures. There is evidence of opacification in the right ethmoid sinus and possible extension into the adjacent orbit, suggesting sinusitis with potential orbital involvement. The left side appears relatively unremarkable. The scan is in soft tissue window settings, highlighting the contrast between soft tissues and air-filled spaces.",
+      "visible_findings": [
+        "opacification of the right ethmoid sinus",
+        "possible extension into the right orbit",
+        "relatively normal appearance of the left side",
+        "soft tissue window settings"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "sinus",
+        "orbit",
+        "infection",
+        "soft tissue window"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "sinus infection",
+        "orbital involvement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  },
+  "Case_02027/figure1.jpg": {
+    "case_id": "Case_02027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02027/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and periorbital region",
+      "short_caption": "Periorbital swelling and erythema with crusting and discharge.",
+      "detailed_description": "This clinical photograph shows significant bilateral periorbital swelling and erythema, with crusting and purulent discharge along the eyelid margins. The nasal bridge appears swollen, and there is evidence of possible trauma or irritation around the nose. The image suggests an acute inflammatory or infectious process involving the periorbital tissues.",
+      "visible_findings": [
+        "bilateral periorbital swelling",
+        "erythema of the eyelids",
+        "crusting along eyelid margins",
+        "purulent discharge",
+        "nasal bridge swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "periorbital swelling",
+        "erythema",
+        "infection",
+        "discharge"
+      ],
+      "reveal_triggers": [
+        "periorbital swelling",
+        "facial infection",
+        "eyelid erythema",
+        "discharge from eyes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:54+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 253,
+      "total_tokens": 821
+    }
+  }
+}

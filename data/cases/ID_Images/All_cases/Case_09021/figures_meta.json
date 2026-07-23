@@ -1,0 +1,127 @@
+{
+  "Case_09021/figure2.jpg": {
+    "case_id": "Case_09021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09021/figure2.jpg",
+    "source_caption": "MRI of the spine, T1-weighted, after gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "T1-weighted MRI of the spine with gadolinium showing an abnormal enhancement.",
+      "detailed_description": "This is a sagittal T1-weighted MRI of the spine taken after gadolinium contrast administration. The image shows abnormal enhancement at a vertebral level, indicated by an arrow, suggesting a possible infectious or inflammatory process. The vertebral bodies and intervertebral discs are visible, with the enhancement localized to a specific region. The surrounding soft tissues and spinal canal are also visible.",
+      "visible_findings": [
+        "sagittal view of the spine",
+        "abnormal enhancement at a vertebral level",
+        "vertebral bodies and intervertebral discs visible",
+        "contrast-enhanced region suggesting pathology"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "t1-weighted",
+        "gadolinium",
+        "contrast enhancement",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "t1-weighted mri",
+        "gadolinium-enhanced spine imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:24+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 263,
+      "total_tokens": 860
+    }
+  },
+  "Case_09021/figure3.jpg": {
+    "case_id": "Case_09021",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09021/figure3.jpg",
+    "source_caption": "MRI of the spine, T2-weighted.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "MRI of the spine, T2-weighted, showing abnormal signal in the spinal cord.",
+      "detailed_description": "This is a sagittal T2-weighted MRI of the spine. The vertebral bodies and intervertebral discs are visible, with cerebrospinal fluid appearing hyperintense. An abnormal hyperintense signal is noted within the spinal cord, indicated by an arrow, suggesting a possible lesion or inflammation. The surrounding soft tissues and spinal canal are also visualized.",
+      "visible_findings": [
+        "sagittal view of the spine",
+        "hyperintense signal in the spinal cord",
+        "vertebral bodies and intervertebral discs visible",
+        "cerebrospinal fluid appears hyperintense"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "t2-weighted",
+        "spinal cord lesion",
+        "hyperintense signal"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "t2-weighted mri",
+        "spinal cord lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:24+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 257,
+      "total_tokens": 849
+    }
+  },
+  "Case_09021/figure1.jpg": {
+    "case_id": "Case_09021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09021/figure1.jpg",
+    "source_caption": "MRI of spine, before gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the spine showing abnormality at the indicated level.",
+      "detailed_description": "This is a sagittal T1-weighted MRI of the thoracolumbar spine, taken before gadolinium contrast administration. The image shows a hypointense lesion at the indicated vertebral level (arrow 'A'), suggesting a possible abnormality such as an infection, neoplasm, or degenerative change. The surrounding vertebrae and intervertebral discs appear relatively normal in signal intensity. The spinal cord and adjacent soft tissues are also visible.",
+      "visible_findings": [
+        "sagittal view of the spine",
+        "hypointense lesion at the indicated vertebral level",
+        "normal signal intensity in surrounding vertebrae and discs",
+        "spinal cord visible"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "sagittal",
+        "lesion",
+        "pre-contrast"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "pre-contrast mri",
+        "spinal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:26+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 264,
+      "total_tokens": 855
+    }
+  }
+}

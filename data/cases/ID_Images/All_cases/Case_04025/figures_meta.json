@@ -1,0 +1,45 @@
+{
+  "Case_04025/figure1.jpg": {
+    "case_id": "Case_04025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04025/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "feet",
+      "short_caption": "Ulcerative lesions with crusting and erythema on both feet.",
+      "detailed_description": "This clinical photograph shows both feet with multiple ulcerative lesions. The lesions are irregularly shaped, with dark crusting and surrounding erythema. They are distributed on the dorsal aspects of the feet and toes. The lesions appear to be in various stages of healing, with some showing more prominent crusting and others with erythematous bases.",
+      "visible_findings": [
+        "multiple ulcerative lesions",
+        "dark crusting",
+        "surrounding erythema",
+        "irregular lesion shapes",
+        "bilateral involvement of feet"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "feet",
+        "ulcerative lesions",
+        "crusting",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesions on feet",
+        "infectious skin ulcers",
+        "foot exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:24+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  }
+}

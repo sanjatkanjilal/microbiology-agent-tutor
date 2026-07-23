@@ -1,0 +1,124 @@
+{
+  "Case_04054/figure1.jpg": {
+    "case_id": "Case_04054",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04054/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand (palm)",
+      "short_caption": "Erythematous papules on the palm of a hand.",
+      "detailed_description": "This clinical photograph shows the palm of a hand with multiple small, erythematous papules distributed across the surface. The lesions are discrete, round, and appear slightly raised. The surrounding skin appears otherwise normal, with no significant swelling or discoloration. The image suggests a localized dermatologic or infectious process.",
+      "visible_findings": [
+        "erythematous papules",
+        "discrete, round lesions",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "palm",
+        "papules",
+        "erythema",
+        "rash"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on hand",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:37+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 212,
+      "total_tokens": 780
+    }
+  },
+  "Case_04054/figure2.jpg": {
+    "case_id": "Case_04054",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04054/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Erythematous maculopapular lesions on the palms of both hands.",
+      "detailed_description": "This image shows the palms of both hands of a pediatric patient. Multiple small, erythematous maculopapular lesions are visible, distributed across the palms and fingers. The lesions are discrete and do not appear to coalesce. The background skin tone appears normal, with no visible swelling or desquamation.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "distribution on palms and fingers",
+        "no visible swelling or desquamation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "rash",
+        "maculopapular",
+        "infectious diseases",
+        "pediatric"
+      ],
+      "reveal_triggers": [
+        "rash on hands",
+        "pediatric skin lesions",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  },
+  "Case_04054/figure3.jpg": {
+    "case_id": "Case_04054",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04054/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "posterior heels",
+      "short_caption": "Erythematous nodules on the posterior heels.",
+      "detailed_description": "This clinical photograph shows the posterior aspect of both heels in a pediatric patient. There are erythematous, raised nodules located centrally on the posterior heels. The surrounding skin appears otherwise unremarkable, with no visible ulceration, scaling, or discharge. The lesions are symmetric and localized to pressure points.",
+      "visible_findings": [
+        "erythematous nodules on posterior heels",
+        "symmetry of lesions",
+        "absence of ulceration or discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "heels",
+        "erythematous nodules",
+        "skin lesions",
+        "pressure points"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "heel nodules",
+        "erythematous lesions on feet"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  }
+}

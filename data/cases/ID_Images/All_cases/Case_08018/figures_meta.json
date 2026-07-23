@@ -1,0 +1,209 @@
+{
+  "Case_08018/figure1.jpg": {
+    "case_id": "Case_08018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08018/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Portable chest radiograph showing bilateral lung findings.",
+      "detailed_description": "This is a portable chest radiograph taken in a sitting position. The image shows bilateral lung fields with diffuse opacities, particularly in the lower zones, which may indicate consolidation or effusion. The heart appears enlarged, and there is obscuration of the diaphragmatic contours, suggesting possible pleural effusion. The mediastinum is midline, and no obvious pneumothorax is visible.",
+      "visible_findings": [
+        "bilateral diffuse opacities in lung fields",
+        "enlarged cardiac silhouette",
+        "obscured diaphragmatic contours",
+        "no visible pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "opacities",
+        "pleural effusion",
+        "consolidation",
+        "portable x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung findings",
+        "portable radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:36+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 250,
+      "total_tokens": 836
+    }
+  },
+  "Case_08018/figure2.jpg": {
+    "case_id": "Case_08018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08018/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung fields with areas of ground-glass opacities and consolidation, particularly in the lower lobes. The heart and mediastinal structures are centrally located, and there is no obvious pleural effusion. The findings suggest an infectious or inflammatory process in the lungs.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidation in lower lobes",
+        "no pleural effusion",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:37+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 227,
+      "total_tokens": 814
+    }
+  },
+  "Case_08018/figure3.jpg": {
+    "case_id": "Case_08018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08018/figure3.jpg",
+    "source_caption": "Wet mount of tracheal aspirate sputum specimen (also see Video 1).",
+    "description": {
+      "modality": "wet mount",
+      "anatomical_site": "tracheal aspirate",
+      "short_caption": "Wet mount of tracheal aspirate showing coiled larvae amidst cellular debris.",
+      "detailed_description": "This wet mount image shows a microscopic view of a tracheal aspirate specimen. The central focus is on coiled larvae, likely parasitic, surrounded by numerous round cells and debris. The background appears granular, consistent with cellular material and mucus. The image suggests the presence of a parasitic infection, with the larvae being a key diagnostic finding.",
+      "visible_findings": [
+        "coiled larvae in the center",
+        "round cells scattered throughout",
+        "granular background with cellular debris"
+      ],
+      "keywords": [
+        "wet mount",
+        "tracheal aspirate",
+        "larvae",
+        "parasitic infection",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "wet mount of sputum",
+        "tracheal aspirate microscopy",
+        "parasitic larvae in respiratory specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:46+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 237,
+      "total_tokens": 837
+    }
+  },
+  "Case_08018/figure4.jpg": {
+    "case_id": "Case_08018",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08018/figure4.jpg",
+    "source_caption": "Wet mount of tracheal aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tracheal aspirate",
+      "short_caption": "Wet mount of tracheal aspirate showing motile helminths.",
+      "detailed_description": "This wet mount image of a tracheal aspirate reveals several elongated, coiled structures consistent with motile helminths. The background contains cellular debris and particulate matter. The helminths are prominent and appear to have a smooth, translucent surface. The image likely represents a parasitic infection involving the respiratory tract.",
+      "visible_findings": [
+        "coiled, elongated helminths",
+        "cellular debris in the background",
+        "smooth, translucent surface of helminths"
+      ],
+      "keywords": [
+        "wet mount",
+        "tracheal aspirate",
+        "helminths",
+        "parasitic infection",
+        "respiratory tract"
+      ],
+      "reveal_triggers": [
+        "wet mount",
+        "tracheal aspirate",
+        "parasitic infection",
+        "helminths"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:46+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 236,
+      "total_tokens": 827
+    }
+  },
+  "Case_08018/figure5.jpg": {
+    "case_id": "Case_08018",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08018/figure5.jpg",
+    "source_caption": "Culture of sputum specimen, with serpiginous tracts.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "respiratory tract (sputum specimen)",
+      "short_caption": "Culture plate showing growth with serpiginous tracts from a sputum specimen.",
+      "detailed_description": "This image shows a culture plate with a red agar medium, likely blood agar. Multiple white, fuzzy colonies are visible, with serpiginous (snake-like) tracts radiating outward from some colonies. Two antibiotic discs labeled 'P' and 'A' are present, suggesting susceptibility testing. The colonies and tracts are consistent with fungal or filamentous bacterial growth, potentially indicative of an infectious process.",
+      "visible_findings": [
+        "red agar medium",
+        "white, fuzzy colonies",
+        "serpiginous tracts radiating from colonies",
+        "antibiotic discs labeled 'P' and 'A'"
+      ],
+      "keywords": [
+        "culture plate",
+        "sputum",
+        "serpiginous tracts",
+        "colonies",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "sputum culture",
+        "serpiginous tracts",
+        "fungal infection",
+        "culture plate findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:50+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 268,
+      "total_tokens": 863
+    }
+  }
+}

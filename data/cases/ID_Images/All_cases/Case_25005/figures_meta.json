@@ -1,0 +1,250 @@
+{
+  "Case_25005/figure2.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure2.jpg",
+    "source_caption": "Right wrist histopathology with GMS (Grocott’s methanamine silver) stain",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "right wrist",
+      "short_caption": "Histopathology of right wrist tissue with GMS stain showing fungal elements.",
+      "detailed_description": "This histopathology image, stained with Grocott’s methenamine silver (GMS), highlights fungal elements as darkly stained structures against a green background. The fungal elements appear as branching hyphae, consistent with a fungal infection. The tissue architecture shows areas of inflammation and possible necrosis. The staining technique is specific for fungal organisms, aiding in their identification.",
+      "visible_findings": [
+        "darkly stained branching fungal hyphae",
+        "green background typical of GMS stain",
+        "inflammatory changes in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "gms stain",
+        "fungal infection",
+        "right wrist",
+        "tissue biopsy"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal histopathology",
+        "right wrist biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:42+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 235,
+      "total_tokens": 837
+    }
+  },
+  "Case_25005/figure1.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure1.jpg",
+    "source_caption": "Right wrist histopathology with PAS (Periodic Acid-Schiff) stain, 400x",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "right wrist",
+      "short_caption": "Histopathology of right wrist tissue with PAS stain, 400x magnification.",
+      "detailed_description": "This histopathology image shows tissue from the right wrist stained with PAS (Periodic Acid-Schiff) stain at 400x magnification. The stain highlights fungal elements, which appear as purple, branching, and septate structures within the tissue. The surrounding tissue demonstrates inflammatory changes with cellular infiltration. The PAS stain is used to identify polysaccharides in fungal cell walls, aiding in the diagnosis of fungal infections.",
+      "visible_findings": [
+        "purple-stained fungal elements",
+        "branching and septate structures",
+        "inflammatory cellular infiltration"
+      ],
+      "keywords": [
+        "histopathology",
+        "PAS stain",
+        "fungal infection",
+        "right wrist",
+        "400x magnification"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "fungal histopathology",
+        "right wrist biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:44+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 238,
+      "total_tokens": 839
+    }
+  },
+  "Case_25005/figure6.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure6.jpg",
+    "source_caption": "Findings in the right upper extremity at 4 months after diagnosis",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right upper extremity",
+      "short_caption": "Right forearm with a healing lesion and surrounding skin changes.",
+      "detailed_description": "This clinical photograph shows the right forearm of a patient. A prominent, raised lesion with a central crust or scab is visible, surrounded by erythema and mild skin discoloration. The surrounding skin appears thin and atrophic, with some areas of hyperpigmentation. The lesion appears to be in a healing phase, possibly related to a prior infectious or inflammatory process.",
+      "visible_findings": [
+        "raised lesion with central crust",
+        "erythema around the lesion",
+        "skin discoloration and atrophy",
+        "hyperpigmentation in surrounding areas"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "skin lesion",
+        "erythema",
+        "healing lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion on arm",
+        "infectious disease skin findings",
+        "right forearm lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:45+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 239,
+      "total_tokens": 835
+    }
+  },
+  "Case_25005/figure5.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure5.jpg",
+    "source_caption": "A summary of the treatment course",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Timeline of antifungal treatments and fungal culture results over time.",
+      "detailed_description": "This is a timeline chart showing the duration of various antifungal treatments and the timing of positive fungal culture results from a bone specimen. The x-axis represents days after diagnosis, while the y-axis lists the antifungal agents (Posaconazole, Olorofim, Micafungin, Voriconazole) and the culture results. Colored bars indicate the duration of each treatment: Posaconazole (orange), Olorofim (purple, ongoing), Micafungin (red), and Voriconazole (green). Blue bars represent periods when the bone specimen culture was positive for fungal growth. The chart suggests a prolonged treatment course with overlapping therapies and persistent fungal culture positivity early in the timeline.",
+      "visible_findings": [
+        "Timeline of antifungal treatments (Posaconazole, Olorofim, Micafungin, Voriconazole).",
+        "Ongoing treatment with Olorofim (purple bar extending beyond 175 days).",
+        "Bone specimen positive fungal culture indicated by blue bars.",
+        "Sequential and overlapping antifungal therapies."
+      ],
+      "keywords": [
+        "timeline",
+        "antifungal treatment",
+        "fungal culture",
+        "bone infection",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "treatment timeline",
+        "antifungal therapy",
+        "fungal infection management"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:47+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 331,
+      "total_tokens": 920
+    }
+  },
+  "Case_25005/figure3.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure3.jpg",
+    "source_caption": "MRI of the right wrist (T1-weighted) at 1 month after diagnosis",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right wrist",
+      "short_caption": "T1-weighted MRI of the right wrist showing abnormal findings.",
+      "detailed_description": "This T1-weighted MRI of the right wrist shows the carpal bones and surrounding soft tissues. There is evidence of abnormal signal intensity in the carpal region, suggestive of possible osteomyelitis or septic arthritis. The image demonstrates soft tissue swelling and potential bone involvement, with areas of hypointensity in the carpal bones. The alignment of the wrist appears preserved.",
+      "visible_findings": [
+        "abnormal signal intensity in carpal bones",
+        "soft tissue swelling",
+        "hypointense areas in bone suggestive of pathology",
+        "preserved wrist alignment"
+      ],
+      "keywords": [
+        "mri",
+        "right wrist",
+        "t1-weighted",
+        "carpal bones",
+        "osteomyelitis",
+        "septic arthritis",
+        "soft tissue swelling"
+      ],
+      "reveal_triggers": [
+        "mri of wrist",
+        "right wrist imaging",
+        "t1-weighted wrist mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:47+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 254,
+      "total_tokens": 854
+    }
+  },
+  "Case_25005/figure4.jpg": {
+    "case_id": "Case_25005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25005/figure4.jpg",
+    "source_caption": "Findings in the right upper extremity at 2 months after diagnosis",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right upper extremity",
+      "short_caption": "Healing wound with sutures and dressing on the right upper extremity.",
+      "detailed_description": "This image shows a close-up view of the right upper extremity, focusing on a healing wound. The wound is partially covered by a gauze dressing, with sutures visible at the site. Surrounding skin appears erythematous, with some areas of discoloration and mild swelling. The wound edges appear to be approximated, suggesting post-surgical or post-traumatic repair. The background includes indistinct objects, but the focus remains on the wound.",
+      "visible_findings": [
+        "healing wound with sutures",
+        "gauze dressing partially covering the wound",
+        "erythematous surrounding skin",
+        "mild swelling",
+        "discoloration around the wound"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right upper extremity",
+        "wound",
+        "sutures",
+        "healing",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin wound",
+        "sutures",
+        "infected extremity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:49+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 264,
+      "total_tokens": 860
+    }
+  }
+}

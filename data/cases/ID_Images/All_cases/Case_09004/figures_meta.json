@@ -1,0 +1,206 @@
+{
+  "Case_09004/figure4.jpg": {
+    "case_id": "Case_09004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09004/figure4.jpg",
+    "source_caption": "Tube test for Campylobacter.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Tube test showing purple reaction for Campylobacter identification.",
+      "detailed_description": "This image shows three test tubes in a rack, each containing a small amount of purple-colored material at the bottom. The tubes are labeled with different symbols, and the reaction appears to be part of a biochemical test for bacterial identification. The purple color suggests a positive reaction, potentially indicative of Campylobacter species. The setup is clean and organized, typical of a microbiology laboratory.",
+      "visible_findings": [
+        "three test tubes in a rack",
+        "purple material at the bottom of each tube",
+        "symbols marked on the tubes"
+      ],
+      "keywords": [
+        "culture plate",
+        "biochemical test",
+        "campylobacter",
+        "microbiology",
+        "tube test"
+      ],
+      "reveal_triggers": [
+        "tube test",
+        "campylobacter identification",
+        "biochemical reaction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:00+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 224,
+      "total_tokens": 813
+    }
+  },
+  "Case_09004/figure1.jpg": {
+    "case_id": "Case_09004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09004/figure1.jpg",
+    "source_caption": "Gram stain of stool specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Gram stain of stool specimen showing Gram-positive rods.",
+      "detailed_description": "This image shows a Gram stain of a stool specimen. Numerous Gram-positive rods are visible, appearing as pink to red elongated structures. The background contains amorphous material and debris, consistent with a stool sample. The rods are arranged in clusters and scattered throughout the field. The staining technique highlights bacterial morphology, aiding in identification.",
+      "visible_findings": [
+        "Gram-positive rods",
+        "pink to red elongated structures",
+        "amorphous background material",
+        "clusters and scattered arrangement of bacteria"
+      ],
+      "keywords": [
+        "gram stain",
+        "stool",
+        "bacteria",
+        "gram-positive rods",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of stool",
+        "bacterial morphology in stool",
+        "infectious diarrhea"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:00+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 221,
+      "total_tokens": 809
+    }
+  },
+  "Case_09004/figure2.jpg": {
+    "case_id": "Case_09004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09004/figure2.jpg",
+    "source_caption": "Growth of stool pathogen at 42°F, low oxygen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Growth of a stool pathogen on a blood agar plate.",
+      "detailed_description": "This image shows a blood agar plate with visible bacterial growth. The colonies are small, round, and appear to be slightly raised. The growth pattern suggests streaking for isolation, with denser growth at the top and isolated colonies toward the bottom. The red color of the agar indicates the use of blood agar, which supports the growth of many bacterial species, including pathogens. The image aligns with the description of growth under specific conditions, such as low oxygen and cooler temperatures.",
+      "visible_findings": [
+        "blood agar plate",
+        "small, round bacterial colonies",
+        "streaking for isolation",
+        "isolated colonies at the bottom"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "stool pathogen",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "stool culture",
+        "blood agar plate",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:01+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 246,
+      "total_tokens": 840
+    }
+  },
+  "Case_09004/figure5.jpg": {
+    "case_id": "Case_09004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09004/figure5.jpg",
+    "source_caption": "Cryptosporidium oocytes by direct immunofluorescence.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Cryptosporidium oocysts visualized by direct immunofluorescence.",
+      "detailed_description": "This image shows multiple round, bright green fluorescent structures against a dark background, consistent with Cryptosporidium oocysts stained using direct immunofluorescence. The oocysts are evenly distributed and exhibit a uniform size and shape. The background appears reddish-brown, likely due to counterstaining or autofluorescence. The technique highlights the oocysts specifically, aiding in their identification.",
+      "visible_findings": [
+        "bright green, round structures (oocysts)",
+        "dark background",
+        "reddish-brown background fluorescence"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "cryptosporidium",
+        "oocysts",
+        "parasitology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "immunofluorescence",
+        "cryptosporidium oocysts",
+        "parasitology stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:01+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 249,
+      "total_tokens": 845
+    }
+  },
+  "Case_09004/figure3.jpg": {
+    "case_id": "Case_09004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09004/figure3.jpg",
+    "source_caption": "Gram stain of stool subculture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "stool subculture",
+      "short_caption": "Gram stain of stool subculture showing mixed bacterial morphologies.",
+      "detailed_description": "This image shows a Gram stain of a stool subculture. The field contains a mix of bacterial morphologies, including Gram-positive cocci and Gram-negative bacilli. The background appears lightly stained, and the bacteria are dispersed throughout the field. The image suggests a polymicrobial environment, consistent with stool flora or an infectious process.",
+      "visible_findings": [
+        "Gram-positive cocci",
+        "Gram-negative bacilli",
+        "polymicrobial distribution",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "stool",
+        "subculture",
+        "bacteria",
+        "polymicrobial",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of stool",
+        "stool culture",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:07+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 223,
+      "total_tokens": 812
+    }
+  }
+}

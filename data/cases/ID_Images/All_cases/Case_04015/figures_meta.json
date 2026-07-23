@@ -1,0 +1,421 @@
+{
+  "Case_04015/figure10.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure10.jpg",
+    "source_caption": "AFB staining of a lung abscess.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "AFB stain showing acid-fast bacilli in lung tissue.",
+      "detailed_description": "This image shows a histological section of lung tissue stained with an acid-fast bacillus (AFB) stain. Numerous red, rod-shaped acid-fast bacilli are visible, clustered within a background of blue-stained tissue. The staining highlights the presence of mycobacteria, which are characteristic of infections such as tuberculosis. The tissue appears to have inflammatory changes consistent with an abscess.",
+      "visible_findings": [
+        "red, rod-shaped acid-fast bacilli",
+        "blue-stained background tissue",
+        "clustered bacilli in inflammatory tissue"
+      ],
+      "keywords": [
+        "afb stain",
+        "lung",
+        "acid-fast bacilli",
+        "tuberculosis",
+        "lung abscess",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "afb stain",
+        "lung abscess",
+        "acid-fast bacilli in lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:26+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 238,
+      "total_tokens": 829
+    }
+  },
+  "Case_04015/figure1.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure1.jpg",
+    "source_caption": "Physical findings on the thigh.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous lesion with central eschar on the thigh.",
+      "detailed_description": "This clinical photograph shows a portion of the thigh with a prominent erythematous lesion featuring a central necrotic eschar. Surrounding the lesion is an area of erythema with a slightly raised border. Additional smaller erythematous papules are visible nearby. The skin appears otherwise intact, and the image is well-lit to highlight the lesion's features.",
+      "visible_findings": [
+        "central necrotic eschar",
+        "surrounding erythema",
+        "smaller erythematous papules nearby",
+        "intact skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "erythema",
+        "eschar",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "thigh lesion",
+        "eschar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:27+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_04015/figure2.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure2.jpg",
+    "source_caption": "Physical findings on the thigh.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous lesion with central scaling on the thigh.",
+      "detailed_description": "This clinical photograph shows a circular erythematous lesion on the skin of the thigh. The lesion has a well-defined border with central scaling and mild surrounding redness. The appearance is consistent with an inflammatory or infectious dermatosis. A portion of a white cloth or gauze is visible in the lower right corner, suggesting a clinical setting.",
+      "visible_findings": [
+        "circular erythematous lesion",
+        "central scaling",
+        "well-defined border",
+        "mild surrounding redness"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "erythematous lesion",
+        "scaling",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "thigh lesion",
+        "erythematous rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:32+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  },
+  "Case_04015/figure3.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure3.jpg",
+    "source_caption": "Physical findings on the ankle.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "ankle",
+      "short_caption": "Ulceration with central necrosis on the ankle.",
+      "detailed_description": "The image shows a close-up of the ankle with a circular ulceration. The lesion has a central area of yellow necrotic material surrounded by an erythematous border. The surrounding skin appears mildly inflamed. The lesion is well-demarcated, and the surrounding tissue shows no overt signs of extensive swelling or drainage.",
+      "visible_findings": [
+        "circular ulceration",
+        "central necrosis with yellow material",
+        "erythematous border",
+        "mild surrounding skin inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "ankle",
+        "ulceration",
+        "necrosis",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "ankle lesion",
+        "infected ulcer"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 224,
+      "total_tokens": 812
+    }
+  },
+  "Case_04015/figure7.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure7.jpg",
+    "source_caption": "Abscesses in the left and right lungs.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lungs",
+      "short_caption": "Gross pathology of left and right lungs showing abscesses.",
+      "detailed_description": "This image shows gross pathological specimens of the left and right lungs. The left lung displays a single large abscess cavity near the lower lobe, while the right lung exhibits multiple abscesses of varying sizes, some with central cavitation and yellowish necrotic material. The surrounding lung parenchyma appears fibrotic and discolored, consistent with chronic infection or inflammation. A ruler is included for scale.",
+      "visible_findings": [
+        "single large abscess in the left lung",
+        "multiple abscesses in the right lung",
+        "central cavitation with necrotic material",
+        "discolored and fibrotic lung parenchyma",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lungs",
+        "abscess",
+        "gross pathology",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lung abscess",
+        "gross pathology of lungs",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:37+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 258,
+      "total_tokens": 850
+    }
+  },
+  "Case_04015/figure5.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure5.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of the chest showing a large pleural effusion and lung consolidation.",
+      "detailed_description": "This axial CT image of the chest demonstrates a large pleural effusion on the left side, with associated compression of the adjacent lung parenchyma. The left lung also shows areas of consolidation, suggesting infection or inflammation. The right lung appears aerated and relatively normal. No contrast enhancement is evident in this image.",
+      "visible_findings": [
+        "large left-sided pleural effusion",
+        "compression of left lung parenchyma",
+        "consolidation in the left lung",
+        "normal aeration of the right lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "lung consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pleural effusion",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:39+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 229,
+      "total_tokens": 817
+    }
+  },
+  "Case_04015/figure4.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on lower extremity",
+      "short_caption": "Skin lesion with erythema, central ulceration, and purulent exudate.",
+      "detailed_description": "This clinical photograph shows a skin lesion on the lower extremity. The lesion is characterized by a central ulceration with yellowish purulent exudate, surrounded by an area of erythema. The surrounding skin appears mildly inflamed. A dressing is partially visible in the lower portion of the image, suggesting ongoing wound care.",
+      "visible_findings": [
+        "central ulceration",
+        "yellow purulent exudate",
+        "surrounding erythema",
+        "adjacent intact skin",
+        "partially visible dressing"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "erythema",
+        "purulent exudate",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected ulcer",
+        "wound with exudate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:39+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  },
+  "Case_04015/figure6.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure6.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing a large cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a large cavitary lesion in the right lung, with surrounding consolidation and possible air-fluid levels. The left lung appears relatively spared, with no obvious cavitation or consolidation. The mediastinal structures are midline, and there is no visible pleural effusion. The findings are suggestive of a necrotizing infectious process or abscess formation.",
+      "visible_findings": [
+        "large cavitary lesion in the right lung",
+        "surrounding consolidation",
+        "possible air-fluid levels",
+        "relatively normal left lung",
+        "midline mediastinal structures",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "infection",
+        "abscess",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "cavitary lesion",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:41+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 256,
+      "total_tokens": 844
+    }
+  },
+  "Case_04015/figure8.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure8.jpg",
+    "source_caption": "Lung pathology with abscesses.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of lung tissue showing abscesses and necrosis.",
+      "detailed_description": "This histopathology image shows lung tissue with areas of necrosis and abscess formation. The abscesses are characterized by central regions of cellular debris and necrotic material, surrounded by inflammatory infiltrates. The surrounding lung parenchyma appears disrupted, with evidence of tissue destruction and inflammatory changes. The image is stained with hematoxylin and eosin (H&E), highlighting the cellular and structural details.",
+      "visible_findings": [
+        "necrotic areas in lung tissue",
+        "abscess formation with central debris",
+        "inflammatory infiltrates surrounding abscesses",
+        "disrupted lung parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "abscess",
+        "necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung abscess histology",
+        "lung necrosis",
+        "H&E stain of lung tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:42+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  },
+  "Case_04015/figure9.jpg": {
+    "case_id": "Case_04015",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04015/figure9.jpg",
+    "source_caption": "Acid-fast stain of a lung abscess.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung",
+      "short_caption": "Acid-fast stain showing organisms in a lung abscess.",
+      "detailed_description": "This image shows an acid-fast stain of a lung abscess. Numerous round to oval cells are visible, likely representing host inflammatory cells. Among them, slender, red, rod-shaped organisms are seen, consistent with acid-fast bacilli. The background is lightly stained blue, highlighting the contrast between the organisms and surrounding tissue. This staining technique is commonly used to identify mycobacteria.",
+      "visible_findings": [
+        "red, rod-shaped organisms consistent with acid-fast bacilli",
+        "blue-stained background",
+        "round to oval cells, likely inflammatory cells"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "lung",
+        "abscess",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "lung abscess",
+        "mycobacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:44+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 233,
+      "total_tokens": 824
+    }
+  }
+}

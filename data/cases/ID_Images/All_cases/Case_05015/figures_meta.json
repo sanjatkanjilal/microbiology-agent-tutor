@@ -1,0 +1,45 @@
+{
+  "Case_05015/figure1.jpg": {
+    "case_id": "Case_05015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05015/figure1.jpg",
+    "source_caption": "Figure 1. CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing a large heterogeneous lesion in the right liver lobe.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, heterogeneous lesion in the right lobe of the liver. The lesion appears hypodense relative to the surrounding liver parenchyma, with irregular borders. The spleen and other visible abdominal structures appear unremarkable. The scan is performed without clear evidence of contrast enhancement, though the lesion's characteristics suggest a possible infectious or neoplastic process.",
+      "visible_findings": [
+        "large heterogeneous lesion in the right liver lobe",
+        "hypodense lesion relative to liver parenchyma",
+        "irregular lesion borders",
+        "normal appearance of spleen and other visible structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "lesion",
+        "hypodense",
+        "heterogeneous",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "infectious liver process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:28+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 260,
+      "total_tokens": 852
+    }
+  }
+}

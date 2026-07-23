@@ -1,0 +1,125 @@
+{
+  "Case_04011/figure2.jpg": {
+    "case_id": "Case_04011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04011/figure2.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing intracellular ring forms.",
+      "detailed_description": "This is a peripheral blood smear stained with Giemsa or a similar stain. The image shows multiple red blood cells, some of which contain intracellular ring forms consistent with parasitic infection, such as Plasmodium species. The ring forms are visible as small, circular or oval structures with a central clearing and a thin, dark-staining rim. The background appears clear, and no significant leukocytes or platelets are prominently visible.",
+      "visible_findings": [
+        "red blood cells with intracellular ring forms",
+        "clear background",
+        "absence of prominent leukocytes or platelets"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "ring forms",
+        "plasmodium",
+        "malaria",
+        "giemsa stain",
+        "blood",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:57+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  },
+  "Case_04011/figure3.jpg": {
+    "case_id": "Case_04011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04011/figure3.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing tear-drop cells and abnormal erythrocyte morphology.",
+      "detailed_description": "This is a peripheral blood smear stained with a standard hematologic stain (e.g., Wright-Giemsa). The image shows multiple erythrocytes, some of which exhibit abnormal shapes, including tear-drop cells and irregularly shaped red blood cells. A single purple-stained leukocyte is visible in the lower right quadrant. The background is clear, and the cells are well-delineated.",
+      "visible_findings": [
+        "tear-drop shaped erythrocytes",
+        "irregularly shaped red blood cells",
+        "single purple-stained leukocyte",
+        "clear background with well-delineated cells"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "hematology",
+        "tear-drop cells",
+        "erythrocyte morphology",
+        "Wright-Giemsa stain"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "tear-drop cells",
+        "abnormal erythrocytes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:59+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 259,
+      "total_tokens": 845
+    }
+  },
+  "Case_04011/figure1.jpg": {
+    "case_id": "Case_04011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04011/figure1.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing intracellular inclusions.",
+      "detailed_description": "This is a peripheral blood smear stained with a Giemsa or Wright stain. Several red blood cells are visible, some of which contain intracellular inclusions that appear as small, purple-stained structures. These inclusions are suggestive of parasitic infection, such as Plasmodium species or Babesia. The red blood cells exhibit normal morphology otherwise, with central pallor visible in some cells.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "intracellular purple-stained inclusions",
+        "normal red blood cell morphology"
+      ],
+      "keywords": [
+        "blood smear",
+        "giemsa stain",
+        "wright stain",
+        "intracellular inclusions",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "giemsa stain",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:03+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 235,
+      "total_tokens": 821
+    }
+  }
+}

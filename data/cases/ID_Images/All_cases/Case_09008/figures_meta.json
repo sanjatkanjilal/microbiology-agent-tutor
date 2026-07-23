@@ -1,0 +1,331 @@
+{
+  "Case_09008/figure1.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure1.jpg",
+    "source_caption": "Chest radiograph, on initial presentation.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. There are diffuse bilateral pulmonary opacities, predominantly in the lower lung zones, which may represent consolidation or interstitial involvement. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion. The trachea is midline, and bony structures appear intact.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "predominantly lower lung zone involvement",
+        "normal cardiac silhouette",
+        "midline trachea",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:30+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 239,
+      "total_tokens": 829
+    }
+  },
+  "Case_09008/figure3.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure3.jpg",
+    "source_caption": "Splenic ultrasound.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "spleen",
+      "short_caption": "Splenic ultrasound showing heterogeneous echotexture.",
+      "detailed_description": "This is an ultrasound image of the spleen. The organ appears to have a heterogeneous echotexture, with areas of varying echogenicity. The image suggests possible pathology such as infarction, abscess, or other infiltrative processes. The surrounding structures are not clearly visualized in this image.",
+      "visible_findings": [
+        "heterogeneous echotexture",
+        "areas of varying echogenicity",
+        "poor visualization of surrounding structures"
+      ],
+      "keywords": [
+        "ultrasound",
+        "spleen",
+        "heterogeneous echotexture",
+        "infectious diseases",
+        "splenic pathology"
+      ],
+      "reveal_triggers": [
+        "splenic ultrasound",
+        "ultrasound of spleen",
+        "infectious diseases imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:30+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 220,
+      "total_tokens": 806
+    }
+  },
+  "Case_09008/figure2.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure2.jpg",
+    "source_caption": "Chest radiograph, 4 weeks after initiation of ART.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities, 4 weeks after initiation of ART.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating bilateral pulmonary opacities, predominantly in the lower lung zones. The heart size appears within normal limits, and there is no obvious pleural effusion. The opacities may represent infectious or inflammatory processes, potentially related to immune reconstitution inflammatory syndrome (IRIS) following ART initiation. The bony structures and soft tissues are unremarkable.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "predominantly lower lung zone involvement",
+        "normal heart size",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "immune reconstitution",
+        "ART",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "ART complications"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:30+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 247,
+      "total_tokens": 841
+    }
+  },
+  "Case_09008/figure4.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure4.jpg",
+    "source_caption": "H and E stain of hepatic tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "hepatic tissue",
+      "short_caption": "H&E stain of hepatic tissue showing granuloma formation.",
+      "detailed_description": "This histopathology image shows hepatic tissue stained with hematoxylin and eosin (H&E). A well-formed granuloma is visible, characterized by a central collection of inflammatory cells, including epithelioid macrophages and lymphocytes. The surrounding hepatic parenchyma appears disrupted. The granuloma suggests a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granuloma formation",
+        "epithelioid macrophages",
+        "lymphocytic infiltrate",
+        "disrupted hepatic parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "hepatic tissue",
+        "granuloma",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "hepatic granuloma",
+        "liver histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:31+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_09008/figure6.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure6.jpg",
+    "source_caption": "Acid-fast (Ziehl-Neelson) stain of marrow, with cluster of possible acid-fast bacilli.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Acid-fast (Ziehl-Neelson) stain of bone marrow showing clusters of acid-fast bacilli.",
+      "detailed_description": "This image shows a microscopic view of a bone marrow sample stained with the Ziehl-Neelson technique. The stain highlights clusters of slender, rod-shaped organisms that are acid-fast bacilli, appearing as bright pink or red structures against a blue background. The arrow points to a prominent cluster of these bacilli. The surrounding field shows a mix of cellular and extracellular material typical of bone marrow.",
+      "visible_findings": [
+        "clusters of slender, rod-shaped acid-fast bacilli",
+        "pink/red organisms against a blue background",
+        "heterogeneous cellular and extracellular material"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "ziehl-neelson",
+        "bone marrow",
+        "infectious diseases",
+        "acid-fast bacilli"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "ziehl-neelson stain",
+        "bone marrow infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:38+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 251,
+      "total_tokens": 855
+    }
+  },
+  "Case_09008/figure5.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure5.jpg",
+    "source_caption": "H and E stain of bone marrow.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "H&E stain of bone marrow showing granulomas and cellular infiltration.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of bone marrow. The field contains granulomas, characterized by clusters of epithelioid histiocytes and multinucleated giant cells, surrounded by lymphocytes and plasma cells. There is evidence of cellular infiltration and disruption of normal marrow architecture. The pink eosinophilic areas represent extracellular matrix and necrotic material, while the dark purple nuclei indicate dense cellularity.",
+      "visible_findings": [
+        "granulomas with epithelioid histiocytes",
+        "multinucleated giant cells",
+        "lymphocytic and plasma cell infiltration",
+        "disrupted marrow architecture",
+        "eosinophilic extracellular matrix"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "H&E stain",
+        "granuloma",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "bone marrow biopsy",
+        "granuloma in bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:43+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 274,
+      "total_tokens": 864
+    }
+  },
+  "Case_09008/figure7.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure7.jpg",
+    "source_caption": "Follow-up after 2 months of ART.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing left-sided pleural effusion after 2 months of ART.",
+      "detailed_description": "This is a frontal chest radiograph displaying a significant left-sided pleural effusion, evidenced by the homogenous opacity occupying the lower left hemithorax and obscuring the left costophrenic angle. The mediastinum appears shifted slightly to the right, suggesting mass effect from the effusion. The right lung field appears clear, and there is no visible pneumothorax. The bony structures and soft tissues are unremarkable.",
+      "visible_findings": [
+        "left-sided pleural effusion",
+        "homogenous opacity in the left lower hemithorax",
+        "obliteration of the left costophrenic angle",
+        "mediastinal shift to the right"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pleural effusion",
+        "thorax",
+        "ART follow-up",
+        "mediastinal shift"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "ART follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:43+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 274,
+      "total_tokens": 865
+    }
+  },
+  "Case_09008/figure8.jpg": {
+    "case_id": "Case_09008",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09008/figure8.jpg",
+    "source_caption": "Follow-up after 7 months of ART.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph after 7 months of ART showing improved lung findings.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields, the heart, and the bony thorax. The lung fields appear relatively clear with no obvious consolidations, cavitations, or masses. The cardiac silhouette is within normal limits, and the mediastinum is not widened. The bony structures, including the ribs and clavicles, appear intact. There are no visible pleural effusions or pneumothorax. The findings suggest improvement or resolution of any prior pulmonary abnormalities, consistent with follow-up after antiretroviral therapy (ART).",
+      "visible_findings": [
+        "clear lung fields",
+        "normal cardiac silhouette",
+        "no pleural effusion",
+        "no pneumothorax",
+        "intact bony thorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung fields",
+        "antiretroviral therapy",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung imaging",
+        "ART follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:43+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 280,
+      "total_tokens": 871
+    }
+  }
+}

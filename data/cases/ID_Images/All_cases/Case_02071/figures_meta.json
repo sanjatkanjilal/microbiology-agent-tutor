@@ -1,0 +1,83 @@
+{
+  "Case_02071/figure1.jpg": {
+    "case_id": "Case_02071",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02071/figure1.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing red blood cells with central pallor.",
+      "detailed_description": "This is a peripheral blood smear under light microscopy. The image shows numerous red blood cells, many of which exhibit central pallor, consistent with their biconcave shape. There are no visible white blood cells or platelets in this field. The smear appears to be stained with a standard hematologic stain, such as Wright-Giemsa.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "central pallor in red blood cells",
+        "absence of visible white blood cells or platelets in this field"
+      ],
+      "keywords": [
+        "blood smear",
+        "red blood cells",
+        "central pallor",
+        "hematology",
+        "light microscopy"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "peripheral blood microscopy",
+        "red blood cell morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:30+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 225,
+      "total_tokens": 810
+    }
+  },
+  "Case_02071/figure2.jpg": {
+    "case_id": "Case_02071",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02071/figure2.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear showing intraerythrocytic parasite consistent with Plasmodium species.",
+      "detailed_description": "This image is a stained blood smear under light microscopy, showing numerous red blood cells. One cell contains a visible intraerythrocytic parasite, likely a Plasmodium species, characterized by a purple-stained structure within the cell. The smear provides evidence of parasitic infection, such as malaria. The background is clear, with no significant debris or artifacts.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "intraerythrocytic parasite in one cell",
+        "purple-stained structure within a red blood cell"
+      ],
+      "keywords": [
+        "blood smear",
+        "plasmodium",
+        "malaria",
+        "parasite",
+        "light microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "malaria diagnosis",
+        "plasmodium microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:32+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 240,
+      "total_tokens": 825
+    }
+  }
+}

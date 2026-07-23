@@ -1,0 +1,169 @@
+{
+  "Case_14006/figure3.jpg": {
+    "case_id": "Case_14006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14006/figure3.jpg",
+    "source_caption": "Transmission electron micrograph of a microsporidian spore from renal biopsy.",
+    "description": {
+      "modality": "transmission electron micrograph",
+      "anatomical_site": "renal tissue",
+      "short_caption": "Transmission electron micrograph of a microsporidian spore in renal biopsy tissue.",
+      "detailed_description": "This transmission electron micrograph shows a microsporidian spore within renal tissue. The spore is oval-shaped, with a dense central core surrounded by a thick, layered wall. The internal structure includes coiled polar tubules, characteristic of microsporidia. Surrounding the spore are cellular components of renal tissue, with visible organelles and membranes. The image is highly magnified, allowing detailed visualization of the spore's morphology.",
+      "visible_findings": [
+        "oval-shaped microsporidian spore",
+        "dense central core",
+        "thick, layered spore wall",
+        "coiled polar tubules inside the spore",
+        "renal tissue with cellular components visible"
+      ],
+      "keywords": [
+        "transmission electron micrograph",
+        "renal biopsy",
+        "microsporidia",
+        "spore",
+        "polar tubules",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "electron microscopy of renal biopsy",
+        "microsporidia spore",
+        "renal tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:22+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 277,
+      "total_tokens": 874
+    }
+  },
+  "Case_14006/figure2.jpg": {
+    "case_id": "Case_14006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14006/figure2.jpg",
+    "source_caption": "Renal biopsy specimen (HE stain) with spores within renal tubule (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "renal tubule",
+      "short_caption": "Renal biopsy (HE stain) showing spores within renal tubules (arrows).",
+      "detailed_description": "This histopathology image shows a renal biopsy stained with hematoxylin and eosin (HE). The renal tubules are visible, surrounded by interstitial tissue with inflammatory cell infiltrates. Within the lumen of the renal tubules, spores are present and highlighted by arrows. The spores appear as small, round structures with dense staining, consistent with fungal or parasitic organisms. The surrounding tissue shows evidence of inflammation.",
+      "visible_findings": [
+        "renal tubules with luminal spores",
+        "dense inflammatory infiltrates in interstitial tissue",
+        "arrows highlighting spores"
+      ],
+      "keywords": [
+        "histopathology",
+        "renal tubule",
+        "spores",
+        "HE stain",
+        "biopsy",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "renal biopsy",
+        "HE stain",
+        "spores in renal tubules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:23+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 247,
+      "total_tokens": 847
+    }
+  },
+  "Case_14006/figure1.jpg": {
+    "case_id": "Case_14006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14006/figure1.jpg",
+    "source_caption": "Figure 1. Renal biopsy specimen (HE stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "renal tissue",
+      "short_caption": "Renal biopsy specimen showing inflammatory infiltrates (HE stain).",
+      "detailed_description": "This histopathology image depicts renal tissue stained with hematoxylin and eosin (HE). The field shows prominent inflammatory cell infiltrates, including numerous lymphocytes and neutrophils, surrounding renal tubules. Some tubules appear dilated, with evidence of epithelial damage. The staining highlights cellular and structural details, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "renal tubules with epithelial damage",
+        "dilated tubules",
+        "hematoxylin and eosin staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "renal biopsy",
+        "inflammation",
+        "HE stain",
+        "kidney"
+      ],
+      "reveal_triggers": [
+        "renal biopsy",
+        "HE stain",
+        "kidney histology",
+        "inflammatory infiltrates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:23+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 236,
+      "total_tokens": 830
+    }
+  },
+  "Case_14006/figure4.jpg": {
+    "case_id": "Case_14006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14006/figure4.jpg",
+    "source_caption": "Transmission electron micrograph of a microsporidian spore showing the polar filament (arrow).",
+    "description": {
+      "modality": "transmission electron micrograph",
+      "anatomical_site": "null",
+      "short_caption": "Transmission electron micrograph of a microsporidian spore showing the polar filament (arrow).",
+      "detailed_description": "This transmission electron micrograph depicts a microsporidian spore, characterized by its oval shape and dense internal structures. The polar filament, a defining feature of microsporidia, is visible and indicated by an arrow. Surrounding the spore is a clear boundary, likely representing the spore wall. The image provides high-resolution detail of the spore's internal organization, aiding in identification of this parasitic organism.",
+      "visible_findings": [
+        "oval-shaped microsporidian spore",
+        "polar filament indicated by an arrow",
+        "dense internal structures within the spore",
+        "clear spore wall boundary"
+      ],
+      "keywords": [
+        "electron micrograph",
+        "microsporidia",
+        "spore",
+        "polar filament",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "electron microscopy of microsporidia",
+        "polar filament",
+        "microsporidian spore"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:28+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 257,
+      "total_tokens": 857
+    }
+  }
+}

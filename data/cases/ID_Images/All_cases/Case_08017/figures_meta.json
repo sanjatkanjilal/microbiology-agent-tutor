@@ -1,0 +1,212 @@
+{
+  "Case_08017/figure2.jpg": {
+    "case_id": "Case_08017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08017/figure2.jpg",
+    "source_caption": "MRI of the spine, T-1 weighted, transverse view.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "MRI of the spine, T1-weighted transverse view showing a lesion with abnormal signal intensity.",
+      "detailed_description": "This is a T1-weighted transverse MRI image of the spine. The image shows a focal lesion with abnormal signal intensity in the spinal canal, indicated by an arrow. The lesion appears to impinge on the spinal cord, suggesting a possible infectious or inflammatory process. Surrounding soft tissue structures and vertebrae are visible, with no obvious fractures or gross deformities.",
+      "visible_findings": [
+        "focal lesion in the spinal canal",
+        "abnormal signal intensity",
+        "spinal cord impingement",
+        "normal surrounding vertebral structures"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "t1-weighted",
+        "lesion",
+        "spinal cord",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "t1-weighted mri",
+        "spinal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:33+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 245,
+      "total_tokens": 840
+    }
+  },
+  "Case_08017/figure3.jpg": {
+    "case_id": "Case_08017",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08017/figure3.jpg",
+    "source_caption": "Figure 3. Biopsy of the spinal cord lesion.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "spinal cord lesion",
+      "short_caption": "Histopathology of spinal cord lesion showing fungal elements.",
+      "detailed_description": "This histopathology image shows a biopsy of a spinal cord lesion stained with hematoxylin and eosin (H&E). The image reveals fungal elements, including round to oval yeast-like structures, some with budding morphology. There is an inflammatory infiltrate with numerous immune cells surrounding the fungal elements, suggesting an infectious etiology. The background tissue appears disrupted, consistent with tissue damage.",
+      "visible_findings": [
+        "round to oval yeast-like fungal elements",
+        "budding morphology in some fungal elements",
+        "inflammatory infiltrate with immune cells",
+        "disrupted background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "spinal cord",
+        "fungal infection",
+        "biopsy",
+        "yeast",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "spinal cord biopsy",
+        "fungal infection histology",
+        "H&E stain of lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:35+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 250,
+      "total_tokens": 844
+    }
+  },
+  "Case_08017/figure5.jpg": {
+    "case_id": "Case_08017",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08017/figure5.jpg",
+    "source_caption": "Muscle biopsy with necrotic tissue surrounding tachyzoites.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "muscle",
+      "short_caption": "Histopathology of muscle biopsy showing necrotic tissue with tachyzoites.",
+      "detailed_description": "This histopathology image shows skeletal muscle tissue with areas of necrosis and inflammatory infiltrates. Numerous small, crescent-shaped structures consistent with tachyzoites are visible within the necrotic areas, suggesting parasitic infection. The tissue is stained with hematoxylin and eosin (H&E), highlighting the cellular and extracellular details.",
+      "visible_findings": [
+        "necrotic muscle fibers",
+        "crescent-shaped tachyzoites",
+        "inflammatory infiltrates",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "muscle",
+        "tachyzoites",
+        "necrosis",
+        "H&E stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "muscle biopsy",
+        "tachyzoites",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:36+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 241,
+      "total_tokens": 836
+    }
+  },
+  "Case_08017/figure1.jpg": {
+    "case_id": "Case_08017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08017/figure1.jpg",
+    "source_caption": "MRI of the lumbosacral spine, T-1 weighted.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lumbosacral spine",
+      "short_caption": "MRI of the lumbosacral spine, T1-weighted, showing an abnormal signal with enhancement.",
+      "detailed_description": "This is a sagittal T1-weighted MRI of the lumbosacral spine. An abnormal signal is visible in the anterior epidural space, with enhancement suggesting an inflammatory or infectious process. The vertebral bodies and intervertebral discs appear intact, but there is evidence of soft tissue involvement. The arrow points to the area of abnormality, likely indicating the region of clinical concern.",
+      "visible_findings": [
+        "sagittal view of the lumbosacral spine",
+        "abnormal signal in the anterior epidural space",
+        "enhancement suggesting inflammation or infection",
+        "intact vertebral bodies and intervertebral discs"
+      ],
+      "keywords": [
+        "mri",
+        "lumbosacral spine",
+        "t1-weighted",
+        "infection",
+        "inflammation",
+        "epidural space"
+      ],
+      "reveal_triggers": [
+        "mri of spine",
+        "lumbosacral infection",
+        "epidural abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:37+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 280,
+      "total_tokens": 877
+    }
+  },
+  "Case_08017/figure4.jpg": {
+    "case_id": "Case_08017",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08017/figure4.jpg",
+    "source_caption": "H and E stain of the muscle biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "muscle",
+      "short_caption": "H&E stain of muscle biopsy showing inflammation and possible parasitic structures.",
+      "detailed_description": "This histopathology image shows a muscle biopsy stained with hematoxylin and eosin (H&E). The muscle fibers appear pink with peripheral nuclei, and there is evidence of inflammatory infiltrates, seen as clusters of dark purple-stained cells. Additionally, there are structures within the muscle fibers that may represent parasitic organisms, suggestive of an infectious myositis. The rectangular box highlights an area of interest for closer examination.",
+      "visible_findings": [
+        "pink-stained muscle fibers with peripheral nuclei",
+        "clusters of dark purple inflammatory cells",
+        "possible parasitic structures within muscle fibers",
+        "rectangular box marking an area of interest"
+      ],
+      "keywords": [
+        "histopathology",
+        "muscle",
+        "h&e stain",
+        "inflammation",
+        "parasitic infection",
+        "myositis"
+      ],
+      "reveal_triggers": [
+        "muscle biopsy",
+        "h&e stain",
+        "infectious myositis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:38+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 263,
+      "total_tokens": 854
+    }
+  }
+}

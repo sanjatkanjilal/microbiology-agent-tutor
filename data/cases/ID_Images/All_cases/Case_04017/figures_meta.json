@@ -1,0 +1,137 @@
+{
+  "Case_04017/figure2.jpg": {
+    "case_id": "Case_04017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04017/figure2.jpg",
+    "source_caption": "Physical finding of neck.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:33:41+00:00"
+  },
+  "Case_04017/figure3.jpg": {
+    "case_id": "Case_04017",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04017/figure3.jpg",
+    "source_caption": "H and E stain of neck biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "neck",
+      "short_caption": "H&E stain of neck biopsy showing inflammation and tissue architecture.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of tissue from a neck biopsy. The epidermis is visible at the top, with underlying dermis and subcutaneous tissue. There is evidence of inflammation, with areas of dense cellular infiltrate, particularly in the lower dermis and subcutaneous regions. The tissue architecture is preserved, but there are focal areas of disruption and possible necrosis. The staining highlights cellular and structural details, with nuclei appearing dark blue and cytoplasm in varying shades of pink.",
+      "visible_findings": [
+        "epidermis at the top of the section",
+        "dense inflammatory infiltrate in the dermis and subcutaneous tissue",
+        "preserved overall tissue architecture",
+        "focal areas of disruption and possible necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "H&E stain",
+        "neck biopsy",
+        "inflammation",
+        "tissue architecture"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "neck biopsy",
+        "histopathology of neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 283,
+      "total_tokens": 873
+    }
+  },
+  "Case_04017/figure4.jpg": {
+    "case_id": "Case_04017",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04017/figure4.jpg",
+    "source_caption": "Gram stain of neck biopsy.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "neck tissue",
+      "short_caption": "Gram stain of neck biopsy showing clusters of gram-positive organisms.",
+      "detailed_description": "This image shows a Gram stain of a neck biopsy specimen. Numerous small, dark purple-staining gram-positive cocci are visible, arranged in clusters. The background consists of pale-staining tissue structures, with some pink-staining areas suggestive of gram-negative components or debris. The clustering of gram-positive cocci is a notable feature, potentially indicative of a bacterial infection.",
+      "visible_findings": [
+        "clusters of gram-positive cocci",
+        "pale-staining tissue structures",
+        "pink-staining areas suggestive of gram-negative components or debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "neck biopsy",
+        "gram-positive cocci",
+        "infectious disease",
+        "bacterial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "neck biopsy",
+        "bacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 230,
+      "total_tokens": 818
+    }
+  },
+  "Case_04017/figure1.jpg": {
+    "case_id": "Case_04017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04017/figure1.jpg",
+    "source_caption": "Physical finding on arm.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm",
+      "short_caption": "Erythematous lesion with central necrosis on the arm.",
+      "detailed_description": "This clinical photograph shows a localized skin lesion on the arm. The lesion is erythematous with a central area of dark discoloration, suggestive of necrosis. Surrounding the lesion, there is mild redness extending into the adjacent skin. The lesion appears to be raised and is likely inflammatory in nature.",
+      "visible_findings": [
+        "erythematous skin lesion",
+        "central necrosis or dark discoloration",
+        "localized inflammation",
+        "surrounding mild erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "skin lesion",
+        "erythema",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "arm lesion",
+        "infectious skin finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:52+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 221,
+      "total_tokens": 808
+    }
+  }
+}

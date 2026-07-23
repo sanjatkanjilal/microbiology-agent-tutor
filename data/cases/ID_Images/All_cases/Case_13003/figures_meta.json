@@ -1,0 +1,334 @@
+{
+  "Case_13003/figure2.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure2.jpg",
+    "source_caption": "MRI of the brain, sagittal T1 view.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain, sagittal T1-weighted view.",
+      "detailed_description": "This image is a sagittal T1-weighted MRI of the brain, showing detailed anatomy of the midline structures. The corpus callosum, brainstem, cerebellum, and ventricular system are clearly visible. The image demonstrates normal anatomical relationships without apparent lesions or abnormalities. The soft tissues of the face and neck are also partially visualized.",
+      "visible_findings": [
+        "sagittal view of midline brain structures",
+        "well-defined corpus callosum and brainstem",
+        "ventricular system visible",
+        "no obvious lesions or abnormalities"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "sagittal",
+        "t1-weighted",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "sagittal view",
+        "t1-weighted imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:41+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 240,
+      "total_tokens": 833
+    }
+  },
+  "Case_13003/figure4.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure4.jpg",
+    "source_caption": "MRI of the brain, coronal view, reformatted.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain, coronal view showing anatomical structures.",
+      "detailed_description": "This is a coronal MRI image of the brain, showing detailed anatomy including the ventricles, midline structures, and surrounding tissues. The image appears to be reformatted, with clear visualization of the ventricular system and adjacent brain parenchyma. No obvious pathological findings such as masses, edema, or hemorrhage are visible in this image.",
+      "visible_findings": [
+        "coronal view of the brain",
+        "ventricular system visible",
+        "midline structures intact",
+        "no apparent masses or abnormalities"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "coronal view",
+        "neuroimaging",
+        "ventricles"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "neuroimaging",
+        "coronal brain scan"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:41+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 225,
+      "total_tokens": 819
+    }
+  },
+  "Case_13003/figure1.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure1.jpg",
+    "source_caption": "CT of the brain, sagittal view, without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "CT of the brain, sagittal view, without contrast.",
+      "detailed_description": "This is a sagittal CT image of the brain without contrast. The image shows the midline structures, including the ventricles and surrounding brain parenchyma. There is no visible enhancement, consistent with a non-contrast study. The image appears de-identified and is suitable for educational purposes.",
+      "visible_findings": [
+        "midline sagittal view of the brain",
+        "ventricular system visible",
+        "no evidence of contrast enhancement",
+        "normal brain parenchyma without obvious abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "sagittal",
+        "non-contrast",
+        "ventricles"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "sagittal brain imaging",
+        "non-contrast ct of brain"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:42+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 225,
+      "total_tokens": 819
+    }
+  },
+  "Case_13003/figure3.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure3.jpg",
+    "source_caption": "MRI of the brain, axial fluid attenuated inversion recovery (FLAIR) view.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, axial FLAIR view showing periventricular hyperintensities.",
+      "detailed_description": "This axial FLAIR MRI image of the brain demonstrates hyperintense signals around the lateral ventricles, consistent with periventricular abnormalities. The ventricles appear symmetrically enlarged, and there is no evidence of midline shift. The FLAIR sequence suppresses cerebrospinal fluid signal, enhancing visualization of pathological changes.",
+      "visible_findings": [
+        "hyperintense signals around the lateral ventricles",
+        "symmetrically enlarged ventricles",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "periventricular hyperintensity",
+        "ventricular enlargement"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair imaging",
+        "periventricular lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:42+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 228,
+      "total_tokens": 827
+    }
+  },
+  "Case_13003/figure8.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure8.jpg",
+    "source_caption": "H and E stain of T. solium with suckers and hooklets.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain of Taenia solium scolex showing suckers and hooklets.",
+      "detailed_description": "This histopathology image shows a cross-section of the scolex of Taenia solium, stained with hematoxylin and eosin (H&E). The image highlights the characteristic features of the parasite, including the prominent suckers and hooklets used for attachment to the host's intestinal wall. The pink and purple staining provides contrast to visualize the structural details of the organism. The hooklets are centrally located, surrounded by the suckers on either side.",
+      "visible_findings": [
+        "scolex of Taenia solium",
+        "prominent suckers",
+        "hooklets in the central region",
+        "H&E staining with pink and purple hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "taenia solium",
+        "scolex",
+        "hooklets",
+        "suckers",
+        "H&E stain",
+        "parasite"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "taenia solium",
+        "scolex with hooklets",
+        "parasite histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:47+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 280,
+      "total_tokens": 878
+    }
+  },
+  "Case_13003/figure7.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure7.jpg",
+    "source_caption": "H and E stain of resected cystic mass showing suckers and hooklets.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cystic mass",
+      "short_caption": "H&E stain of a cystic mass showing parasitic structures including suckers and hooklets.",
+      "detailed_description": "This histopathology image shows a cystic structure stained with hematoxylin and eosin (H&E). Within the cyst, parasitic structures are visible, including suckers and hooklets, characteristic of a cestode (tapeworm) larva. The surrounding tissue appears compressed, likely due to the expanding cyst. The staining highlights the detailed morphology of the parasite and its surrounding cyst wall.",
+      "visible_findings": [
+        "cystic structure with defined wall",
+        "parasitic suckers",
+        "parasitic hooklets",
+        "compressed surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "cystic mass",
+        "parasite",
+        "suckers",
+        "hooklets",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "parasitic cyst",
+        "suckers and hooklets",
+        "histopathology of parasite"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:48+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 264,
+      "total_tokens": 864
+    }
+  },
+  "Case_13003/figure5.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure5.jpg",
+    "source_caption": "Gross pathology of resected intraventricular cystic lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "intraventricular region (resected specimen)",
+      "short_caption": "Gross pathology of a resected intraventricular cystic lesion.",
+      "detailed_description": "This image shows a gross pathological specimen of a resected lesion. The lesion appears cystic and lobulated, with a smooth, glistening surface and areas of mild hemorrhage. It is photographed against a black background with a metric ruler for scale, indicating a size of approximately 2.5 cm in its largest dimension. The specimen is consistent with a cystic lesion, potentially of infectious or neoplastic origin.",
+      "visible_findings": [
+        "lobulated cystic lesion",
+        "smooth, glistening surface",
+        "areas of mild hemorrhage",
+        "size approximately 2.5 cm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "gross pathology",
+        "cystic lesion",
+        "intraventricular",
+        "resected specimen"
+      ],
+      "reveal_triggers": [
+        "gross pathology",
+        "intraventricular cyst",
+        "resected lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:49+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 260,
+      "total_tokens": 856
+    }
+  },
+  "Case_13003/figure6.jpg": {
+    "case_id": "Case_13003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13003/figure6.jpg",
+    "source_caption": "H and E stain of resected cystic mass.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cystic mass",
+      "short_caption": "Histopathology of a resected cystic mass with fungal elements visible.",
+      "detailed_description": "This histopathology image shows a section of a cystic mass stained with hematoxylin and eosin (H&E). The tissue reveals a cystic structure lined by a thin epithelial layer with underlying fibrous stroma. Numerous fungal elements, including septate hyphae, are visible, stained in blue and red, suggesting a fungal infection. The fungal structures appear to invade the cyst wall, consistent with an infectious etiology.",
+      "visible_findings": [
+        "cystic structure with thin epithelial lining",
+        "underlying fibrous stroma",
+        "septate fungal hyphae stained blue and red",
+        "fungal invasion of cyst wall"
+      ],
+      "keywords": [
+        "histopathology",
+        "cystic mass",
+        "fungal infection",
+        "H&E stain",
+        "septate hyphae"
+      ],
+      "reveal_triggers": [
+        "histopathology of cyst",
+        "fungal infection",
+        "H&E stain of mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:52+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 270,
+      "total_tokens": 864
+    }
+  }
+}

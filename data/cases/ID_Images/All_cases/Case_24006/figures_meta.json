@@ -1,0 +1,127 @@
+{
+  "Case_24006/figure3.jpg": {
+    "case_id": "Case_24006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24006/figure3.jpg",
+    "source_caption": "Figure 2: Fluid obtained after drain placement with Interventional Radiology demonstrating red-brown fluid with typical \"anchovy paste\" appearance.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Red-brown fluid with 'anchovy paste' appearance in a collection tube.",
+      "detailed_description": "This image shows a collection tube containing red-brown fluid with a thick, homogeneous consistency, resembling the 'anchovy paste' appearance often associated with amoebic liver abscess drainage. The tube is held by a gloved hand, and the background includes medical supplies and containers, indicating a clinical setting.",
+      "visible_findings": [
+        "red-brown fluid in a collection tube",
+        "thick, homogeneous consistency resembling 'anchovy paste'",
+        "gloved hand holding the tube",
+        "clinical background with medical supplies"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "fluid collection",
+        "anchovy paste",
+        "amoebic liver abscess",
+        "drainage"
+      ],
+      "reveal_triggers": [
+        "anchovy paste appearance",
+        "fluid drainage",
+        "amoebic abscess",
+        "liver abscess fluid"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:00+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 241,
+      "total_tokens": 851
+    }
+  },
+  "Case_24006/figure2.jpg": {
+    "case_id": "Case_24006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24006/figure2.jpg",
+    "source_caption": "Figure 1b: Coronal images of Computed Tomography of the abdomen with contrast demonstrating an 8.2 cm abscess in the right lobe of the liver.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT of the abdomen showing a large abscess in the right lobe of the liver.",
+      "detailed_description": "This coronal CT image of the abdomen, obtained with contrast, demonstrates a well-defined hypodense lesion in the right lobe of the liver, consistent with an abscess. The lesion measures approximately 8.2 cm in diameter and shows peripheral enhancement, suggesting an inflammatory process. Surrounding liver parenchyma appears unremarkable. Adjacent abdominal structures are visible but do not show significant abnormalities.",
+      "visible_findings": [
+        "large hypodense lesion in the right lobe of the liver",
+        "peripheral enhancement of the lesion",
+        "surrounding liver parenchyma appears normal"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "abscess",
+        "contrast",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "liver abscess",
+        "abdominal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:01+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 251,
+      "total_tokens": 869
+    }
+  },
+  "Case_24006/figure1.jpg": {
+    "case_id": "Case_24006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24006/figure1.jpg",
+    "source_caption": "Figure 1a: Axial image of Computed Tomography of the abdomen with contrast demonstrating an 8.2 cm abscess in the right lobe of the liver.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen with contrast showing a large abscess in the right liver lobe.",
+      "detailed_description": "This axial contrast-enhanced CT image of the abdomen demonstrates a well-defined, hypodense lesion in the right lobe of the liver, consistent with an abscess. The lesion measures approximately 8.2 cm in diameter and shows peripheral enhancement, suggesting an inflammatory or infectious process. Surrounding liver parenchyma appears unremarkable, and no obvious biliary dilation is noted. Adjacent structures, including the stomach and intestines, appear normal.",
+      "visible_findings": [
+        "hypodense lesion in the right liver lobe",
+        "peripheral enhancement of the lesion",
+        "no biliary dilation",
+        "normal appearance of adjacent structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "abscess",
+        "contrast",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "liver abscess",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:01+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 262,
+      "total_tokens": 880
+    }
+  }
+}

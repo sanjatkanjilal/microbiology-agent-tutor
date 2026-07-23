@@ -1,0 +1,290 @@
+{
+  "Case_17014/figure2.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure2.jpg",
+    "source_caption": "Figure 2a. Frozen tissue from corneal biopsy stained with GMS demonstrated broad long, sparsely septated hyaline hyphae at 40X augmentation.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cornea",
+      "short_caption": "GMS-stained corneal biopsy showing broad, sparsely septated hyaline hyphae.",
+      "detailed_description": "This histopathology image shows a corneal biopsy stained with Gomori methenamine silver (GMS). The tissue is greenish-blue with black-stained fungal elements. Broad, sparsely septated hyaline hyphae are visible, consistent with fungal invasion. The magnification appears to be approximately 40X, as noted in the case text.",
+      "visible_findings": [
+        "greenish-blue stained tissue",
+        "black-stained fungal hyphae",
+        "broad, sparsely septated hyphae",
+        "GMS stain technique"
+      ],
+      "keywords": [
+        "histopathology",
+        "cornea",
+        "GMS stain",
+        "fungal hyphae",
+        "infectious keratitis"
+      ],
+      "reveal_triggers": [
+        "corneal biopsy",
+        "fungal keratitis",
+        "GMS stain of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:07+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 264,
+      "total_tokens": 880
+    }
+  },
+  "Case_17014/figure1.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure1.jpg",
+    "source_caption": "Appearance at presentation showing diffuse dense corneal infiltration with severe scleral injection and a large hypopyon.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye",
+      "short_caption": "Diffuse corneal infiltration with scleral injection and a large hypopyon.",
+      "detailed_description": "This clinical photograph shows a close-up view of the eye with diffuse dense corneal infiltration, characterized by an opaque appearance of the cornea. There is marked scleral injection, evident as redness of the sclera. A large hypopyon, a collection of pus in the anterior chamber, is visible as a yellowish-white fluid level inferiorly. The image highlights severe inflammation and infection of the anterior segment of the eye.",
+      "visible_findings": [
+        "diffuse dense corneal infiltration",
+        "severe scleral injection",
+        "large hypopyon in the anterior chamber"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal infiltration",
+        "scleral injection",
+        "hypopyon",
+        "anterior segment inflammation"
+      ],
+      "reveal_triggers": [
+        "eye infection",
+        "hypopyon",
+        "corneal infiltration",
+        "scleral injection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:07+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 250,
+      "total_tokens": 853
+    }
+  },
+  "Case_17014/figure3.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure3.jpg",
+    "source_caption": "Plate cultures on potato dextrose agar (PDA). The surface of the slowly growing colonies were white to colorless with an irregular radiating pattern.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal elements with branching and septation.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained with lactophenol cotton blue. The fungal structures exhibit branching hyphae with septation, characteristic of certain molds. The background is a bright teal color, enhancing the contrast of the dark-stained fungal elements. The irregular radiating pattern of the hyphae is consistent with fungal morphology.",
+      "visible_findings": [
+        "branching hyphae",
+        "septation in fungal elements",
+        "teal background with dark-stained structures"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal stain",
+        "microscopy",
+        "hyphae",
+        "septation"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "microscopy of mold",
+        "lactophenol cotton blue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:09+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 243,
+      "total_tokens": 856
+    }
+  },
+  "Case_17014/figure7.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure7.jpg",
+    "source_caption": "Appearance of right eye 4-months after penetrating keratoplasty. Conjunctival surface has covered the cornea but notably absent is the severe diffuse scleritis seen at presentation.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right eye",
+      "short_caption": "Right eye appearance 4 months post-penetrating keratoplasty with improved scleritis.",
+      "detailed_description": "This clinical photograph shows the right eye 4 months after penetrating keratoplasty. The corneal surface is covered by conjunctival tissue, and the sclera appears less inflamed compared to the acute presentation. There is residual vascular injection and mild haze over the cornea, but the severe diffuse scleritis seen previously is notably absent. The image highlights the improvement in inflammation following treatment.",
+      "visible_findings": [
+        "conjunctival tissue covering the cornea",
+        "reduced scleral inflammation",
+        "vascular injection",
+        "mild corneal haze"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "keratoplasty",
+        "scleritis",
+        "cornea",
+        "postoperative"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "keratoplasty follow-up",
+        "scleritis improvement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:13+00:00",
+    "usage": {
+      "prompt_tokens": 620,
+      "completion_tokens": 245,
+      "total_tokens": 865
+    }
+  },
+  "Case_17014/figure4.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure4.jpg",
+    "source_caption": "Plate cultures on potato dextrose agar (PDA). The surface of the slowly growing colonies were white to colorless with an irregular radiating pattern.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colonies on potato dextrose agar with white, radiating, irregular growth patterns.",
+      "detailed_description": "This image shows a culture plate containing fungal colonies grown on potato dextrose agar (PDA). The colonies are white to colorless and exhibit a characteristic irregular radiating pattern. The growth appears slow and is distributed across the plate in distinct, separate colonies. The surface texture is filamentous, consistent with fungal morphology.",
+      "visible_findings": [
+        "white to colorless fungal colonies",
+        "irregular radiating growth pattern",
+        "filamentous surface texture",
+        "distinct, separate colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colonies",
+        "potato dextrose agar",
+        "radiating pattern",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "PDA plate",
+        "potato dextrose agar",
+        "fungal colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:19+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 238,
+      "total_tokens": 851
+    }
+  },
+  "Case_17014/figure6.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure6.jpg",
+    "source_caption": "Figure 4b. Lactophenol cotton blue stain preparation of the PDA plate culture revealed a zoospore at 400X augmentation.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae and a zoospore at 400X magnification.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain preparation under 400X magnification. The fungal structures include branching hyphae and a single zoospore, which appears as a rounded, blue-stained structure. The hyphae are thin, filamentous, and stained blue, consistent with fungal morphology. The background is clear, enhancing the visibility of the fungal elements.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "blue-stained zoospore",
+        "clear background"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal hyphae",
+        "zoospore",
+        "stain",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "lactophenol cotton blue stain",
+        "fungal microscopy",
+        "zoospore identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:19+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 243,
+      "total_tokens": 853
+    }
+  },
+  "Case_17014/figure5.jpg": {
+    "case_id": "Case_17014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17014/figure5.jpg",
+    "source_caption": "Figure 4a. Lactophenol cotton blue stain preparation of the PDA plate culture revealed long broad sparsely septated hyphae arranged at right angles projecting off of the main cell body at 200X augmentation",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing broad, sparsely septated hyphae with right-angle branching.",
+      "detailed_description": "This image shows a microscopic view of fungal hyphae stained with lactophenol cotton blue. The hyphae are broad, sparsely septated, and exhibit right-angle branching. The stain highlights the structural details of the fungal elements, which are arranged in a network-like pattern. The magnification appears to be approximately 200X, as noted in the case text.",
+      "visible_findings": [
+        "broad hyphae",
+        "sparse septations",
+        "right-angle branching",
+        "lactophenol cotton blue stain"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal hyphae",
+        "stain",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "microscopic fungal morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:20+00:00",
+    "usage": {
+      "prompt_tokens": 626,
+      "completion_tokens": 247,
+      "total_tokens": 873
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "Case_01005/figure2.jpg": {
+    "case_id": "Case_01005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01005/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:18:52+00:00"
+  },
+  "Case_01005/figure3.jpg": {
+    "case_id": "Case_01005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01005/figure3.jpg",
+    "source_caption": "Foot radiograph.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Foot radiograph showing a lytic lesion in the metatarsal bone.",
+      "detailed_description": "This is a radiograph of the foot, focusing on the metatarsal region. A lytic lesion is visible in one of the metatarsal bones, marked with a red circle. The lesion appears well-demarcated with cortical thinning, suggesting a possible infectious or neoplastic process. The surrounding bone structure appears otherwise intact.",
+      "visible_findings": [
+        "lytic lesion in the metatarsal bone",
+        "red circle marking the lesion",
+        "cortical thinning around the lesion"
+      ],
+      "keywords": [
+        "radiograph",
+        "foot",
+        "lytic lesion",
+        "metatarsal",
+        "infection",
+        "bone"
+      ],
+      "reveal_triggers": [
+        "foot x-ray",
+        "bone infection",
+        "osteomyelitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:59+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_01005/figure1.jpg": {
+    "case_id": "Case_01005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01005/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Erythematous papules and plaques on the dorsum of the hand.",
+      "detailed_description": "This clinical photograph shows the dorsum of an adult hand with multiple erythematous papules and plaques. Some lesions appear scaly, and there is evidence of excoriation or crusting on a few. The surrounding skin shows mild erythema but no overt swelling. The lesions are distributed irregularly across the hand, with no clear pattern of symmetry.",
+      "visible_findings": [
+        "erythematous papules",
+        "plaques with scaling",
+        "crusting or excoriation",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesions",
+        "erythematous papules",
+        "plaques",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesions",
+        "erythematous papules on hand"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:04+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 248,
+      "total_tokens": 816
+    }
+  },
+  "Case_01005/figure4.jpg": {
+    "case_id": "Case_01005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01005/figure4.jpg",
+    "source_caption": "Lower leg radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Radiograph of the lower leg showing a circled focal lesion.",
+      "detailed_description": "This is a radiograph of the lower leg, showing a focal, well-demarcated lesion in the mid-diaphysis of the tibia. The lesion appears radiolucent and is circled in red for emphasis. The surrounding bone appears intact without obvious periosteal reaction or cortical disruption. The image is de-identified and appears to be part of an infectious-diseases case library.",
+      "visible_findings": [
+        "focal radiolucent lesion in tibial diaphysis",
+        "no periosteal reaction",
+        "no cortical disruption",
+        "red circle marking the lesion"
+      ],
+      "keywords": [
+        "radiograph",
+        "lower leg",
+        "tibia",
+        "bone lesion",
+        "infection",
+        "radiolucent"
+      ],
+      "reveal_triggers": [
+        "lower leg radiograph",
+        "bone lesion",
+        "tibial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:07+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 264,
+      "total_tokens": 851
+    }
+  }
+}

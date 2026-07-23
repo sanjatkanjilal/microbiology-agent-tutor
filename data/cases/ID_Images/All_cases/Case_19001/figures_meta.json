@@ -1,0 +1,124 @@
+{
+  "Case_19001/figure1.jpg": {
+    "case_id": "Case_19001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19001/figure1.jpg",
+    "source_caption": "Ziehl-Neelsen stain of the 30°C broth culture after 14 days of incubation. Acid fast bacilli with cord formation are seen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Ziehl-Neelsen stain showing acid-fast bacilli with cord formation.",
+      "detailed_description": "This image shows a Ziehl-Neelsen stain of a culture specimen. Numerous pink, slender, rod-shaped acid-fast bacilli are visible, arranged in a characteristic cord-like formation against a pale background. The staining highlights the mycolic acid-rich cell walls of the organisms, which retain the red dye despite decolorization. This pattern is typical of certain mycobacterial species.",
+      "visible_findings": [
+        "pink, rod-shaped acid-fast bacilli",
+        "cord-like arrangement of bacilli",
+        "pale background with no other structures visible"
+      ],
+      "keywords": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "cord formation",
+        "mycobacteria",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "ziehl-neelsen stain",
+        "acid-fast bacteria",
+        "cord formation",
+        "mycobacterial culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:53+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 244,
+      "total_tokens": 855
+    }
+  },
+  "Case_19001/figure2.jpg": {
+    "case_id": "Case_19001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19001/figure2.jpg",
+    "source_caption": "Middlebrook 7H11 agar growing rough, white colonies Figure 3. Middlebrook 7H11 agar growing rough, white colonies",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Middlebrook 7H11 agar showing rough, white colonies.",
+      "detailed_description": "This image shows a Middlebrook 7H11 agar plate with rough, white colonies growing on its surface. The colonies are irregularly distributed and have a textured appearance. The plate is being held by a gloved hand, and the background appears to be a laboratory setting. The colonies are consistent with the growth of certain mycobacterial species.",
+      "visible_findings": [
+        "Middlebrook 7H11 agar plate",
+        "rough, white colonies",
+        "irregular colony distribution",
+        "gloved hand holding the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "Middlebrook 7H11",
+        "mycobacteria",
+        "rough colonies",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "Middlebrook agar",
+        "mycobacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:53+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 232,
+      "total_tokens": 843
+    }
+  },
+  "Case_19001/figure3.jpg": {
+    "case_id": "Case_19001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19001/figure3.jpg",
+    "source_caption": "Middlebrook 7H11 agar growing rough, white colonies",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Middlebrook 7H11 agar showing rough, white colonies.",
+      "detailed_description": "This image depicts a culture plate containing Middlebrook 7H11 agar, commonly used for the isolation of mycobacteria. The agar surface shows multiple rough, white colonies distributed across the plate. The colonies appear irregular in shape and texture, consistent with the growth pattern of certain mycobacterial species. The plate is sealed with tape, indicating containment precautions.",
+      "visible_findings": [
+        "rough, white colonies on agar surface",
+        "irregular colony morphology",
+        "sealed culture plate with tape"
+      ],
+      "keywords": [
+        "culture plate",
+        "Middlebrook 7H11 agar",
+        "mycobacteria",
+        "colonies",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "Middlebrook agar",
+        "mycobacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:54+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 227,
+      "total_tokens": 822
+    }
+  }
+}

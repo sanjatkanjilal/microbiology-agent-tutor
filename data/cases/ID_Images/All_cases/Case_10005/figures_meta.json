@@ -1,0 +1,127 @@
+{
+  "Case_10005/figure2.jpg": {
+    "case_id": "Case_10005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10005/figure2.jpg",
+    "source_caption": "Peripheral blood, thin smear, with Giemsa staining.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear with Giemsa staining showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a Giemsa-stained peripheral blood thin smear. Numerous red blood cells are visible, with some containing intraerythrocytic ring forms, suggestive of a parasitic infection such as malaria. The ring forms are characterized by a central vacuole and a thin cytoplasmic rim. The background is clear, and there are no significant artifacts.",
+      "visible_findings": [
+        "red blood cells with normal morphology",
+        "intraerythrocytic ring forms",
+        "clear background"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "peripheral blood",
+        "ring forms",
+        "malaria",
+        "thin smear",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "thin blood smear",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:19+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 237,
+      "total_tokens": 831
+    }
+  },
+  "Case_10005/figure1.jpg": {
+    "case_id": "Case_10005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10005/figure1.jpg",
+    "source_caption": "Peripheral blood, thick smear, with Giemsa staining.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Thick smear of peripheral blood stained with Giemsa, showing parasitic forms.",
+      "detailed_description": "This image shows a thick smear of peripheral blood stained with Giemsa. The smear reveals multiple small, purple-stained parasitic forms scattered throughout the field. A larger, darker-stained structure is also visible, likely representing a more developed parasitic form or artifact. The background is pale, with no visible red blood cell outlines due to the thick smear preparation. This technique is commonly used to detect blood parasites such as Plasmodium species.",
+      "visible_findings": [
+        "purple-stained parasitic forms",
+        "larger, darker-stained structure",
+        "absence of red blood cell outlines"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "thick smear",
+        "peripheral blood",
+        "parasites",
+        "plasmodium",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "thick blood smear",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:22+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 257,
+      "total_tokens": 851
+    }
+  },
+  "Case_10005/figure3.jpg": {
+    "case_id": "Case_10005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10005/figure3.jpg",
+    "source_caption": "Detail of Figure 2, thin smear, Giemsa stain, with trophozoite ring forms (arrows).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Giemsa-stained thin smear showing trophozoite ring forms of Plasmodium species.",
+      "detailed_description": "This is a Giemsa-stained thin blood smear showing multiple erythrocytes, some of which contain trophozoite ring forms of Plasmodium species. The ring forms are characterized by a thin, circular cytoplasmic ring with a central vacuole and a small chromatin dot. Arrows point to specific ring forms, including one erythrocyte with multiple rings. The background shows a clear field with uniformly stained red blood cells and occasional platelets.",
+      "visible_findings": [
+        "trophozoite ring forms within erythrocytes",
+        "multiple ring forms in a single erythrocyte",
+        "uniformly stained red blood cells",
+        "occasional platelets"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "thin smear",
+        "plasmodium",
+        "ring forms",
+        "blood smear",
+        "trophozoite"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "thin smear",
+        "malaria diagnosis",
+        "ring forms in blood smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:32+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 289,
+      "total_tokens": 896
+    }
+  }
+}

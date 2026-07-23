@@ -1,0 +1,250 @@
+{
+  "Case_01011/figure2.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure2.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing intra-abdominal abnormalities.",
+      "detailed_description": "This is an axial abdominal CT scan without contrast. The image reveals multiple hypodense lesions in the liver, suggestive of abscesses or other focal lesions. The surrounding liver parenchyma appears heterogeneous. Adjacent structures, including the stomach and spleen, are partially visible. No obvious free air or fluid collections are noted in this slice.",
+      "visible_findings": [
+        "multiple hypodense lesions in the liver",
+        "heterogeneous liver parenchyma",
+        "adjacent abdominal structures partially visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesions",
+        "infection",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesions",
+        "infectious liver pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:28+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 224,
+      "total_tokens": 811
+    }
+  },
+  "Case_01011/figure1.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal examination with marked liver and spleen borders.",
+      "detailed_description": "This clinical photograph shows the anterior abdomen of a patient, with markings drawn to indicate the approximate borders of the liver and spleen. The patient is lying supine, and the abdomen is exposed with the umbilicus visible in the center. The markings suggest hepatosplenomegaly, as the liver and spleen appear to extend beyond their normal anatomical boundaries.",
+      "visible_findings": [
+        "anterior abdomen exposed",
+        "markings indicating liver and spleen borders",
+        "possible hepatosplenomegaly suggested by extended markings"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "hepatosplenomegaly",
+        "liver",
+        "spleen",
+        "physical exam"
+      ],
+      "reveal_triggers": [
+        "abdominal exam",
+        "hepatosplenomegaly",
+        "liver and spleen borders"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  },
+  "Case_01011/figure3.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure3.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing intra-abdominal structures.",
+      "detailed_description": "This axial CT image of the abdomen shows cross-sectional anatomy, including the vertebral column, kidneys, bowel loops, and surrounding soft tissues. The image appears to be non-contrast as no hyperdense contrast material is visible in the vascular structures or organs. There is no obvious evidence of abnormal masses, fluid collections, or other pathological findings in this image.",
+      "visible_findings": [
+        "vertebral column in axial view",
+        "bilateral kidneys visible",
+        "bowel loops present",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "axial view",
+        "non-contrast",
+        "anatomy"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "cross-sectional abdomen",
+        "CT scan of abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:29+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 223,
+      "total_tokens": 810
+    }
+  },
+  "Case_01011/figure4.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure4.jpg",
+    "source_caption": "Endoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Endoscopic view of the colon showing mucosal abnormalities.",
+      "detailed_description": "This endoscopic image shows the interior of the colon with visible mucosal abnormalities. There are multiple raised, nodular lesions with an erythematous appearance, suggestive of inflammation or possible infectious or neoplastic processes. The mucosa appears irregular, with areas of hyperemia and possible exudate. No obvious perforation or ulceration is seen in this view.",
+      "visible_findings": [
+        "raised nodular lesions",
+        "erythematous mucosa",
+        "irregular mucosal surface",
+        "possible exudate"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "mucosal lesions",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "endoscopy",
+        "colonoscopy",
+        "mucosal abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:33+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 225,
+      "total_tokens": 810
+    }
+  },
+  "Case_01011/figure6.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure6.jpg",
+    "source_caption": "Core biopsy of the liver.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of a liver core biopsy showing inflammatory infiltrates.",
+      "detailed_description": "This is a histopathological image of a liver core biopsy stained with hematoxylin and eosin (H&E). The tissue shows a dense inflammatory infiltrate composed of numerous mononuclear cells, with scattered larger cells that may represent macrophages or other immune cells. The background liver parenchyma appears disrupted, with some areas of fibrosis or architectural distortion. No clear evidence of normal hepatocyte arrangement is visible in this section.",
+      "visible_findings": [
+        "dense mononuclear inflammatory infiltrate",
+        "scattered larger immune cells",
+        "disrupted liver parenchyma",
+        "possible fibrosis or architectural distortion"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "biopsy",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "inflammatory liver disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 252,
+      "total_tokens": 840
+    }
+  },
+  "Case_01011/figure5.jpg": {
+    "case_id": "Case_01011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01011/figure5.jpg",
+    "source_caption": "Biopsy of ileocecal mass.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "ileocecal region",
+      "short_caption": "Histopathology of ileocecal mass showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a section of tissue from the ileocecal region stained with hematoxylin and eosin (H&E). The image reveals granulomatous inflammation characterized by clusters of epithelioid histiocytes and scattered multinucleated giant cells. There is also evidence of lymphocytic infiltration and distortion of the normal glandular architecture. These findings are consistent with a granulomatous process, which may suggest an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "lymphocytic infiltration",
+        "distorted glandular architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "ileocecal region",
+        "granuloma",
+        "inflammation",
+        "biopsy",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "biopsy of ileocecal mass",
+        "granulomatous inflammation",
+        "H&E stain of ileocecal tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:37+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 284,
+      "total_tokens": 874
+    }
+  }
+}

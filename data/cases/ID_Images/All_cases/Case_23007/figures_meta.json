@@ -1,0 +1,418 @@
+{
+  "Case_23007/figure2.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure2.jpg",
+    "source_caption": "Figure 2: Computed tomography scan of chest with contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT with contrast showing bilateral pulmonary findings.",
+      "detailed_description": "This axial computed tomography (CT) scan of the chest with contrast demonstrates bilateral lung fields. There are multiple nodular and cavitary lesions visible in both lungs, particularly in the upper lobes. The mediastinal structures, including the heart and major vessels, appear normal. The contrast enhancement highlights vascular structures and provides clear delineation of the pulmonary findings.",
+      "visible_findings": [
+        "bilateral pulmonary nodules",
+        "cavitary lesions in the lungs",
+        "contrast-enhanced vascular structures",
+        "normal mediastinal anatomy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "cavitary lesions",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "cavitary lesions",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:26+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 236,
+      "total_tokens": 831
+    }
+  },
+  "Case_23007/figure1.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure1.jpg",
+    "source_caption": "Figure 1: Chest radiography posterior-anterior and lateral.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiographs (PA and lateral) showing bilateral pulmonary opacities and medical devices in situ.",
+      "detailed_description": "This image includes posterior-anterior (PA) and lateral chest radiographs. The PA view shows bilateral pulmonary opacities, more pronounced in the lower lung zones, suggestive of consolidation or infiltrates. The lateral view corroborates these findings with dense opacities in the retrocardiac region. Medical devices, including a central venous catheter and an endotracheal tube, are visible. The heart appears mildly enlarged, and there is no obvious pneumothorax or pleural effusion.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "medical devices (central venous catheter, endotracheal tube)",
+        "mild cardiomegaly",
+        "no visible pneumothorax",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "medical devices",
+        "PA view",
+        "lateral view"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "medical devices in chest radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:29+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 299,
+      "total_tokens": 894
+    }
+  },
+  "Case_23007/figure10.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure10.jpg",
+    "source_caption": "Figure 9: MRI brain after 6 months of treatment.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI of the brain after 6 months of treatment.",
+      "detailed_description": "This axial T1-weighted MRI image of the brain shows symmetrical ventricular structures and cortical sulci. There are no obvious focal lesions, masses, or areas of abnormal enhancement visible. The image appears to represent a follow-up scan, potentially assessing treatment response or disease progression.",
+      "visible_findings": [
+        "symmetrical ventricular structures",
+        "normal cortical sulci",
+        "no focal lesions or masses",
+        "no abnormal enhancement"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1-weighted",
+        "follow-up",
+        "treatment response"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "t1-weighted brain mri",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:30+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 212,
+      "total_tokens": 807
+    }
+  },
+  "Case_23007/figure4.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure4.jpg",
+    "source_caption": "Figure 4: MRI right tibia/fibula",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right tibia and fibula",
+      "short_caption": "MRI of the right tibia and fibula showing abnormal signal intensity.",
+      "detailed_description": "This is a coronal MRI image of the right tibia and fibula. The image demonstrates abnormal signal intensity in the soft tissues adjacent to the tibia, suggestive of inflammation or infection. The cortical bone appears intact, and there is no obvious fracture or deformity. The arrow points to the area of interest, which may represent a focus of pathology such as osteomyelitis or soft tissue abscess.",
+      "visible_findings": [
+        "abnormal signal intensity in soft tissues adjacent to the tibia",
+        "intact cortical bone",
+        "no obvious fracture or deformity",
+        "arrow indicating area of interest"
+      ],
+      "keywords": [
+        "mri",
+        "right tibia",
+        "right fibula",
+        "soft tissue",
+        "infection",
+        "osteomyelitis"
+      ],
+      "reveal_triggers": [
+        "mri of tibia",
+        "right leg infection",
+        "bone and soft tissue pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:31+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 259,
+      "total_tokens": 853
+    }
+  },
+  "Case_23007/figure6.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure6.jpg",
+    "source_caption": "Figure 6: Kinyoun stain of right calf abscess fluid - demonstrates weakly acid-fast rods.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "right calf abscess fluid",
+      "short_caption": "Kinyoun stain showing weakly acid-fast rods in abscess fluid.",
+      "detailed_description": "This image is a Kinyoun stain of abscess fluid from the right calf. It demonstrates weakly acid-fast rods, which appear as slender, slightly curved, pink-staining organisms against a blue background. The surrounding material includes amorphous debris and inflammatory cells, consistent with purulent fluid. The weak acid-fast staining suggests the presence of organisms such as Nocardia or other partially acid-fast bacteria.",
+      "visible_findings": [
+        "slender, weakly acid-fast rods",
+        "pink-staining organisms",
+        "blue background with inflammatory debris"
+      ],
+      "keywords": [
+        "kinyoun stain",
+        "acid-fast rods",
+        "abscess fluid",
+        "infectious diseases",
+        "nocardia"
+      ],
+      "reveal_triggers": [
+        "kinyoun stain",
+        "acid-fast bacteria",
+        "abscess fluid microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:31+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 242,
+      "total_tokens": 846
+    }
+  },
+  "Case_23007/figure3.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure3.jpg",
+    "source_caption": "Figure 3: MRI brain with and without contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain with and without contrast showing abnormal enhancement in the left frontal lobe.",
+      "detailed_description": "This image shows two MRI views of the brain: an axial view on the left and a coronal view on the right. The axial view demonstrates an area of abnormal hyperintensity in the left frontal lobe, suggestive of inflammation or infection. The coronal view shows corresponding enhancement in the same region, indicating contrast uptake. These findings could be consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "hyperintensity in the left frontal lobe on axial view",
+        "contrast enhancement in the left frontal lobe on coronal view",
+        "symmetry of other brain structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "contrast",
+        "frontal lobe",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "contrast-enhanced mri",
+        "brain infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:31+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  },
+  "Case_23007/figure5.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure5.jpg",
+    "source_caption": "Figure 5: Gram stain of right calf abscess fluid - beaded branching gram positive rods.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "right calf abscess fluid",
+      "short_caption": "Gram stain showing beaded branching gram-positive rods in abscess fluid.",
+      "detailed_description": "This gram stain image shows beaded, branching gram-positive rods against a pink background, consistent with bacterial morphology. The branching pattern and beaded appearance are characteristic of certain gram-positive organisms, such as Actinomyces or Nocardia species. The background suggests the sample is from an abscess fluid, as indicated by the cellular debris and staining pattern.",
+      "visible_findings": [
+        "beaded branching gram-positive rods",
+        "pink background with cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "abscess fluid",
+        "branching rods",
+        "gram-positive bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of abscess",
+        "branching gram-positive rods",
+        "infectious diseases microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:32+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 223,
+      "total_tokens": 825
+    }
+  },
+  "Case_23007/figure8.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure8.jpg",
+    "source_caption": "Figure 8A: Computed tomography scan of chest after 1 month of treatment",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT after 1 month of treatment showing bilateral lung findings.",
+      "detailed_description": "This axial CT scan of the chest shows the lung parenchyma and mediastinal structures. There are bilateral patchy areas of ground-glass opacities and consolidation, more prominent in the right lung. The airways appear patent, and no significant pleural effusion is visible. The findings are consistent with ongoing or resolving infectious or inflammatory lung disease.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "patchy consolidation, more prominent in the right lung",
+        "patent airways",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities",
+        "treatment response imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:33+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 254,
+      "total_tokens": 854
+    }
+  },
+  "Case_23007/figure7.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure7.jpg",
+    "source_caption": "Figure 7: Buffered charcoal yeast extract (BCYE) agar plate of right calf abscess fluid.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "right calf abscess fluid",
+      "short_caption": "Buffered charcoal yeast extract (BCYE) agar plate showing growth from right calf abscess fluid.",
+      "detailed_description": "This image shows a Buffered Charcoal Yeast Extract (BCYE) agar plate with visible bacterial colonies. The colonies are small, round, and white, distributed across the dark agar surface. The plate appears to be incubated under standard conditions, and the growth pattern suggests the presence of a fastidious organism. The BCYE medium is commonly used for culturing Legionella species and other fastidious organisms.",
+      "visible_findings": [
+        "dark agar surface characteristic of BCYE medium",
+        "small, round, white bacterial colonies",
+        "even distribution of colonies across the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "bcye agar",
+        "bacterial colonies",
+        "infectious diseases",
+        "legionella",
+        "abscess fluid"
+      ],
+      "reveal_triggers": [
+        "bcye agar",
+        "culture of abscess fluid",
+        "legionella culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:37+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 255,
+      "total_tokens": 858
+    }
+  },
+  "Case_23007/figure9.jpg": {
+    "case_id": "Case_23007",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23007/figure9.jpg",
+    "source_caption": "Figure 8B: Computed tomography scan of chest after 6 months of treatment",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT after 6 months of treatment showing lung parenchyma and airways.",
+      "detailed_description": "This axial CT scan of the chest demonstrates the lung parenchyma and airways. The image shows bilateral lung fields with no obvious consolidation, cavitation, or significant pleural effusion. The airways appear patent, and there is no clear evidence of mediastinal lymphadenopathy. The scan appears to be post-treatment, likely assessing resolution or progression of a prior condition.",
+      "visible_findings": [
+        "bilateral lung fields visible",
+        "no obvious consolidation or cavitation",
+        "patent airways",
+        "no significant pleural effusion",
+        "no clear mediastinal lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "airways",
+        "treatment response"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung imaging",
+        "treatment follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:43+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 248,
+      "total_tokens": 848
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "Case_19010/figure4.jpg": {
+    "case_id": "Case_19010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19010/figure4.jpg",
+    "source_caption": "Figure 4: Follow up MRI brain without contrast at 14 days. (A) Sagittal FLAIR images showing scattered areas of hyperintensity in corpus callosum, deep white matter, subcortical white matter and cortex. (B) Diffusion-weighted imaging showing high-signal areas in both cerebral hemispheres and cortex. There was no definite corresponding apparent diffusion coefficient changes.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Follow-up brain MRI showing hyperintensities in corpus callosum, white matter, and cortex.",
+      "detailed_description": "This image consists of two panels from a follow-up brain MRI at 14 days. Panel A is a sagittal FLAIR image showing scattered hyperintensities in the corpus callosum, deep white matter, subcortical white matter, and cortex, highlighted by arrows. Panel B is a diffusion-weighted imaging (DWI) sequence showing high-signal areas in both cerebral hemispheres and cortex, also marked with arrows. No corresponding apparent diffusion coefficient (ADC) changes are noted, suggesting restricted diffusion is not present.",
+      "visible_findings": [
+        "hyperintensities in corpus callosum on FLAIR",
+        "hyperintensities in deep white matter and subcortical white matter on FLAIR",
+        "high-signal areas in both cerebral hemispheres on DWI",
+        "no apparent diffusion coefficient changes"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "dwi",
+        "hyperintensity",
+        "corpus callosum",
+        "white matter",
+        "cortex"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair imaging",
+        "dwi imaging",
+        "hyperintensity in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:49+00:00",
+    "usage": {
+      "prompt_tokens": 664,
+      "completion_tokens": 319,
+      "total_tokens": 983
+    }
+  },
+  "Case_19010/figure3.jpg": {
+    "case_id": "Case_19010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19010/figure3.jpg",
+    "source_caption": "Figure 3: MRI brain without contrast on day 3. (A) Sagittal FLAIR images showing area of hyperintensity in the tectum and midline pre-aqueductal region of the midbrain. Associated stenosis of the aqueduct with obstructive hydrocephalus. (B) Diffusion-weighted imaging showing high-signal areas in a small area of the medial superior left cerebral hemisphere. There was no definite corresponding appar",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain showing midbrain hyperintensity and obstructive hydrocephalus, with diffusion-restricted lesion in the left hemisphere.",
+      "detailed_description": "This figure consists of two MRI images of the brain. Panel A is a sagittal FLAIR image showing a hyperintense area in the tectum and midline pre-aqueductal region of the midbrain, with associated aqueductal stenosis and evidence of obstructive hydrocephalus. Panel B is a diffusion-weighted image (DWI) showing a small, high-signal area in the medial superior left cerebral hemisphere, suggestive of restricted diffusion. No corresponding apparent abnormality is noted in the adjacent regions.",
+      "visible_findings": [
+        "Hyperintensity in the tectum and pre-aqueductal region on FLAIR.",
+        "Aqueductal stenosis with obstructive hydrocephalus.",
+        "High-signal area on DWI in the medial superior left cerebral hemisphere."
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "midbrain",
+        "tectum",
+        "hydrocephalus",
+        "diffusion restriction",
+        "flair",
+        "dwi"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "midbrain lesion",
+        "hydrocephalus",
+        "diffusion restriction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:50+00:00",
+    "usage": {
+      "prompt_tokens": 676,
+      "completion_tokens": 316,
+      "total_tokens": 992
+    }
+  },
+  "Case_19010/figure2.jpg": {
+    "case_id": "Case_19010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19010/figure2.jpg",
+    "source_caption": "Figure 2: Computed Tomography of the chest without contrast demonstrating a 1.1 cm solid noncalcified nodule in the left lower lobe posteriorly.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest without contrast showing a 1.1 cm solid noncalcified nodule in the left lower lobe posteriorly.",
+      "detailed_description": "This axial CT image of the chest, obtained without contrast, demonstrates a well-defined, 1.1 cm solid noncalcified nodule in the left lower lobe posteriorly. The nodule is highlighted with an arrow for clarity. Surrounding lung parenchyma appears otherwise unremarkable, and no significant pleural or mediastinal abnormalities are visible.",
+      "visible_findings": [
+        "1.1 cm solid noncalcified nodule in the left lower lobe posteriorly",
+        "normal surrounding lung parenchyma",
+        "no significant pleural or mediastinal abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung nodule",
+        "noncalcified",
+        "left lower lobe"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung nodule",
+        "noncalcified nodule"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:53+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 256,
+      "total_tokens": 873
+    }
+  },
+  "Case_19010/figure1.jpg": {
+    "case_id": "Case_19010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19010/figure1.jpg",
+    "source_caption": "Figure 1A and B: Computed tomography of the head without contrast demonstrating obstructive hydrocephalus with tectum and midbrain edema",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Non-contrast CT of the head showing obstructive hydrocephalus with midbrain and tectal edema.",
+      "detailed_description": "This image consists of two non-contrast CT scans of the head. Panel A is an axial view, and Panel B is a coronal view. Both images demonstrate enlarged lateral ventricles consistent with obstructive hydrocephalus. There is evidence of edema in the midbrain and tectum, as indicated by hypodense regions. The arrows point to areas of interest, highlighting the obstructed cerebrospinal fluid pathways and associated swelling.",
+      "visible_findings": [
+        "enlarged lateral ventricles",
+        "midbrain edema",
+        "tectal edema",
+        "hypodense regions in the midbrain",
+        "arrows indicating areas of interest"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "hydrocephalus",
+        "midbrain",
+        "tectum",
+        "edema",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "obstructive hydrocephalus",
+        "midbrain edema",
+        "tectal plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:56+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 276,
+      "total_tokens": 888
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "Case_11007/figure1.jpg": {
+    "case_id": "Case_11007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11007/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Portable supine chest radiograph showing pulmonary opacities.",
+      "detailed_description": "This is a portable supine chest radiograph. The image shows bilateral pulmonary opacities, more pronounced in the lower lung fields, suggestive of consolidation or infiltrates. The heart size appears within normal limits, and no obvious pleural effusion is visible. Medical devices, such as ECG leads, are present in the field of view.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "more pronounced opacities in lower lung fields",
+        "normal heart size",
+        "presence of medical devices (e.g., ECG leads)"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "consolidation",
+        "portable x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "portable radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:55+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_11007/figure2.jpg": {
+    "case_id": "Case_11007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11007/figure2.jpg",
+    "source_caption": "Bone marrow biopsy specimen, hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy specimen, hematoxylin and eosin stain.",
+      "detailed_description": "This image shows a histopathologic section of bone marrow stained with hematoxylin and eosin. The field demonstrates a mix of cellular elements, including large cells with prominent nuclei and vacuolated cytoplasm, as well as smaller, darker-staining nuclei. The background appears fibrotic with scattered cellular components. The staining highlights the nuclear and cytoplasmic details, aiding in the identification of cellular morphology.",
+      "visible_findings": [
+        "large cells with prominent nuclei",
+        "vacuolated cytoplasm",
+        "smaller, darker-staining nuclei",
+        "fibrotic background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "hematoxylin and eosin",
+        "cellular morphology",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "H&E stain",
+        "histopathology of bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:55+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 250,
+      "total_tokens": 846
+    }
+  },
+  "Case_11007/figure3.jpg": {
+    "case_id": "Case_11007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11007/figure3.jpg",
+    "source_caption": "Bone marrow biopsy specimen, CD25 stain showing histiocytes and macrophages.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy with CD25 immunohistochemical stain highlighting histiocytes and macrophages.",
+      "detailed_description": "This histopathology image shows a bone marrow biopsy specimen stained with CD25 immunohistochemical stain. The brown staining highlights histiocytes and macrophages, which are distributed among other cells in the marrow. The background shows a mix of cellular and extracellular components, with some nuclei counterstained in blue. The staining pattern is specific for cells expressing CD25, aiding in the identification of immune cell populations.",
+      "visible_findings": [
+        "brown immunohistochemical staining indicating CD25 expression",
+        "presence of histiocytes and macrophages",
+        "blue counterstained nuclei",
+        "heterogeneous cellular background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "CD25 stain",
+        "histiocytes",
+        "macrophages",
+        "immunohistochemistry"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "CD25 stain",
+        "histiocytes",
+        "macrophages"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:56+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 266,
+      "total_tokens": 864
+    }
+  }
+}

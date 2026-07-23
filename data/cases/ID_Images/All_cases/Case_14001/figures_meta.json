@@ -1,0 +1,164 @@
+{
+  "Case_14001/figure1.jpg": {
+    "case_id": "Case_14001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14001/figure1.jpg",
+    "source_caption": "Gram stain of the growth in a blood culture bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive bacilli and background debris.",
+      "detailed_description": "This Gram stain image shows numerous gram-positive bacilli, appearing as purple rod-shaped organisms against a background of pink-stained debris. The organisms are scattered throughout the field, with some appearing in pairs or short chains. The background contains amorphous material, likely cellular debris or proteinaceous material from the blood culture medium.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "purple rod-shaped organisms",
+        "background debris and amorphous material"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "gram-positive rods",
+        "bacteremia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:01+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 213,
+      "total_tokens": 806
+    }
+  },
+  "Case_14001/figure3.jpg": {
+    "case_id": "Case_14001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14001/figure3.jpg",
+    "source_caption": "Gram stain of the colony at 24 hours.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli.",
+      "detailed_description": "This image shows a Gram stain of bacterial colonies, revealing numerous purple-stained, rod-shaped organisms consistent with gram-positive bacilli. The background is clear with no visible host cells or debris, suggesting a pure culture. The rods are evenly distributed and vary slightly in length, with some appearing in pairs or short chains.",
+      "visible_findings": [
+        "purple-stained rods",
+        "gram-positive bacilli",
+        "clear background",
+        "no visible host cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:02+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 204,
+      "total_tokens": 796
+    }
+  },
+  "Case_14001/figure2.jpg": {
+    "case_id": "Case_14001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14001/figure2.jpg",
+    "source_caption": "Colony morphology on Brucella horse blood plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Colony morphology on Brucella horse blood agar plate.",
+      "detailed_description": "This image shows a red Brucella horse blood agar plate with multiple small, round, and white colonies distributed across the surface. The colonies appear discrete and well-separated, suggesting a pure culture. The red background indicates the use of blood agar as the medium, which is commonly used for the growth of fastidious organisms. The plate is being held in a gloved hand, with visible streak marks indicating the inoculation technique.",
+      "visible_findings": [
+        "red agar plate",
+        "small, round, white colonies",
+        "streak marks on the agar surface",
+        "discrete colony distribution"
+      ],
+      "keywords": [
+        "culture plate",
+        "brucella agar",
+        "colony morphology",
+        "blood agar",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "brucella agar",
+        "colony morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:02+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 239,
+      "total_tokens": 831
+    }
+  },
+  "Case_14001/figure4.jpg": {
+    "case_id": "Case_14001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14001/figure4.jpg",
+    "source_caption": "Gram stain of the colony at 48 hours.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain with numerous purple-staining cocci arranged predominantly in clusters, consistent with gram-positive cocci. The background is clear, and the organisms are evenly distributed across the field. The morphology suggests a bacterial colony, potentially from a culture plate, as indicated by the uniformity of the organisms.",
+      "visible_findings": [
+        "purple-staining cocci",
+        "clustered arrangement",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:02+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 200,
+      "total_tokens": 792
+    }
+  }
+}

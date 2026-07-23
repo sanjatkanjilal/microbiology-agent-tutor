@@ -1,0 +1,84 @@
+{
+  "Case_02038/figure1.jpg": {
+    "case_id": "Case_02038",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02038/figure1.jpg",
+    "source_caption": "Mucicarmine stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Mucicarmine stain highlighting fungal structures with pink-red staining.",
+      "detailed_description": "This image shows a mucicarmine stain of a specimen, highlighting fungal elements. The fungal structures appear as pink to red-stained areas, consistent with mucopolysaccharide-containing capsules. The background tissue is lightly stained, allowing clear visualization of the fungal elements. This staining technique is often used to identify encapsulated fungi, such as Cryptococcus species.",
+      "visible_findings": [
+        "pink-red staining of fungal structures",
+        "lightly stained background tissue",
+        "morphology consistent with encapsulated fungi"
+      ],
+      "keywords": [
+        "mucicarmine stain",
+        "fungal structures",
+        "encapsulated fungi",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "mucicarmine stain",
+        "fungal histopathology",
+        "capsule visualization"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:39+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 236,
+      "total_tokens": 825
+    }
+  },
+  "Case_02038/figure2.jpg": {
+    "case_id": "Case_02038",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02038/figure2.jpg",
+    "source_caption": "Hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Hematoxylin and eosin stain showing numerous yeast forms with surrounding inflammation.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows numerous round to oval yeast forms scattered throughout the tissue. The yeast forms appear as darkly stained structures, some of which may exhibit budding. The background shows a mixed inflammatory infiltrate, suggesting an infectious process. The image is at medium magnification.",
+      "visible_findings": [
+        "numerous round to oval yeast forms",
+        "budding yeast forms",
+        "mixed inflammatory infiltrate",
+        "hematoxylin and eosin stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "hematoxylin and eosin",
+        "yeast",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "H&E stain",
+        "fungal infection",
+        "yeast forms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:41+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 241,
+      "total_tokens": 833
+    }
+  }
+}

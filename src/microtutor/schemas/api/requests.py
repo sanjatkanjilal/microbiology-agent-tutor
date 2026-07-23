@@ -184,6 +184,14 @@ class ChatRequest(BaseModel):
         default=None,
         description="Ix policy toggle; updates session when provided",
     )
+    active_module: Optional[str] = Field(
+        default=None,
+        description="Frontend module id (e.g. history_taking, differential_diagnosis)",
+    )
+    route_to: Optional[str] = Field(
+        default=None,
+        description="Explicit route: 'tutor' for Ask Docent coach; omit for module agent",
+    )
     
     @field_validator('message')
     @classmethod

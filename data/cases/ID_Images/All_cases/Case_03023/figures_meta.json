@@ -1,0 +1,165 @@
+{
+  "Case_03023/figure1.jpg": {
+    "case_id": "Case_03023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03023/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image displays both lungs with significant abnormalities. The lung parenchyma exhibits diffuse areas of increased opacity, consistent with consolidation or ground-glass opacities. There is evidence of bilateral involvement, with the abnormalities appearing more prominent in the lower lobes. The image is de-identified and presented in a circular format, typical of older CT imaging systems.",
+      "visible_findings": [
+        "bilateral lung opacities",
+        "diffuse consolidation or ground-glass appearance",
+        "lower lobe predominance"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "opacity",
+        "infection",
+        "ground-glass",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection imaging",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:20+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  },
+  "Case_03023/figure3.jpg": {
+    "case_id": "Case_03023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03023/figure3.jpg",
+    "source_caption": "GMS stain of transbronchial biopsy (100x).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of transbronchial biopsy showing fungal elements (100x magnification).",
+      "detailed_description": "This image shows a transbronchial biopsy stained with Gomori methenamine silver (GMS) at 100x magnification. The background consists of lung tissue with pale green staining, typical of GMS. Dark, round to oval fungal elements are visible, consistent with yeast forms. These fungal structures are highlighted in black against the green-stained tissue, aiding in identification.",
+      "visible_findings": [
+        "lung tissue stained green with GMS",
+        "dark oval fungal elements consistent with yeast forms",
+        "contrast between fungal structures and tissue background"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung biopsy",
+        "fungal infection",
+        "yeast forms",
+        "transbronchial biopsy"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal stain",
+        "lung biopsy",
+        "yeast identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:25+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 246,
+      "total_tokens": 841
+    }
+  },
+  "Case_03023/figure4.jpg": {
+    "case_id": "Case_03023",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03023/figure4.jpg",
+    "source_caption": "GMS stain of transbronchial biopsy (100x).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of transbronchial biopsy showing fungal elements (100x magnification).",
+      "detailed_description": "This image shows a transbronchial biopsy stained with Gomori methenamine silver (GMS) at 100x magnification. The tissue exhibits fungal elements, including a prominent round structure consistent with a fungal spore. The background consists of lung parenchyma with light green staining, typical of GMS highlighting fungal cell walls. The dark staining of the fungal elements contrasts sharply with the surrounding tissue.",
+      "visible_findings": [
+        "dark-stained fungal spore visible centrally",
+        "light green-stained lung parenchyma",
+        "contrast between fungal elements and surrounding tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung biopsy",
+        "fungal infection",
+        "transbronchial biopsy",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection in lung",
+        "transbronchial biopsy histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:26+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 270,
+      "total_tokens": 865
+    }
+  },
+  "Case_03023/figure2.jpg": {
+    "case_id": "Case_03023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03023/figure2.jpg",
+    "source_caption": "Hematoxylin and eosin stain of transbronchial biopsy (20x).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Hematoxylin and eosin stain of transbronchial biopsy showing lung parenchyma with inflammation.",
+      "detailed_description": "This histopathology image shows lung parenchyma stained with hematoxylin and eosin at 20x magnification. The tissue demonstrates areas of inflammation with cellular infiltrates, including lymphocytes and possibly other inflammatory cells, within the interstitial spaces. There are also alveolar spaces visible, some of which appear collapsed or partially filled. The overall architecture suggests an inflammatory process, potentially consistent with an infectious or interstitial lung condition.",
+      "visible_findings": [
+        "inflammatory cellular infiltrates in interstitial spaces",
+        "alveolar spaces, some collapsed or partially filled",
+        "lung parenchyma architecture visible"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "hematoxylin and eosin",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "H&E stain",
+        "transbronchial biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:35+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 262,
+      "total_tokens": 863
+    }
+  }
+}

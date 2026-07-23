@@ -1,0 +1,126 @@
+{
+  "Case_03036/figure1.jpg": {
+    "case_id": "Case_03036",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03036/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous maculopapular rash on the back.",
+      "detailed_description": "This clinical photograph shows the back of a patient with multiple erythematous maculopapular lesions distributed across the upper and mid-back. The lesions vary in size and shape, with some appearing as faintly raised patches and others as more defined macules. No vesicles, pustules, or ulcerations are visible. The surrounding skin appears normal, and there is no evident excoriation or crusting.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "distribution across the upper and mid-back",
+        "absence of vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "maculopapular",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 246,
+      "total_tokens": 814
+    }
+  },
+  "Case_03036/figure2.jpg": {
+    "case_id": "Case_03036",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03036/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the torso",
+      "short_caption": "Erythematous patch with central clearing on the torso.",
+      "detailed_description": "This clinical photograph shows a section of skin on the torso with an erythematous patch that has a central clearing, giving it a ring-like appearance. The lesion is surrounded by normal skin, and there are additional smaller erythematous papules visible nearby. The image is well-lit and focuses on the lesion, which is suggestive of a dermatologic condition.",
+      "visible_findings": [
+        "erythematous patch with central clearing",
+        "ring-like appearance",
+        "smaller erythematous papules nearby",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythematous patch",
+        "central clearing",
+        "dermatology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythematous rash",
+        "ring-like lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  },
+  "Case_03036/figure3.jpg": {
+    "case_id": "Case_03036",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03036/figure3.jpg",
+    "source_caption": "Figure 3. Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing a left lower lobe opacity.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. There is a focal opacity in the left lower lobe, suggestive of consolidation, which could indicate infection such as pneumonia. The heart and mediastinal contours appear within normal limits. The lung fields are otherwise clear, and there is no visible pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "left lower lobe opacity",
+        "normal heart and mediastinal contours",
+        "clear lung fields otherwise",
+        "no pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pneumonia",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumonia",
+        "lung opacity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:02+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 239,
+      "total_tokens": 829
+    }
+  }
+}

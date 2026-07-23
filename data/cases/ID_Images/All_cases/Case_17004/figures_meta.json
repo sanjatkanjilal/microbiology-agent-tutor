@@ -1,0 +1,165 @@
+{
+  "Case_17004/figure1.jpg": {
+    "case_id": "Case_17004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17004/figure1.jpg",
+    "source_caption": "Figure 1: Giemsa-stained thin smear (10x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Giemsa-stained thin smear showing a focus of stained material.",
+      "detailed_description": "This image shows a Giemsa-stained thin smear at low magnification (10x). The field is dominated by a pink background with scattered purple-stained elements. A central focus of darker purple staining is visible, which may represent a cluster of cells or organisms. The smear appears to be evenly spread, and the staining highlights cellular or microbial structures.",
+      "visible_findings": [
+        "pink background typical of a Giemsa stain",
+        "scattered purple-stained elements",
+        "central focus of darker purple staining"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "thin smear",
+        "blood smear",
+        "infectious diseases",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "thin smear",
+        "blood smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:06+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 227,
+      "total_tokens": 824
+    }
+  },
+  "Case_17004/figure2.jpg": {
+    "case_id": "Case_17004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17004/figure2.jpg",
+    "source_caption": "Figure 2: Giemsa-stained thin smear, head (100x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Giemsa-stained thin smear showing red blood cells and a stained parasite structure.",
+      "detailed_description": "This is a Giemsa-stained thin blood smear viewed under high magnification (100x). The image shows numerous red blood cells, which appear as pink, biconcave discs. A prominent purple-stained structure, likely a parasitic organism, is visible in the field. The staining highlights the morphology of the parasite, aiding in its identification. The label 'head' suggests a specific focus on this part of the organism.",
+      "visible_findings": [
+        "pink-stained red blood cells",
+        "purple-stained parasitic structure",
+        "high magnification view"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "blood smear",
+        "parasite",
+        "red blood cells",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "thin blood smear",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:08+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 245,
+      "total_tokens": 844
+    }
+  },
+  "Case_17004/figure3.jpg": {
+    "case_id": "Case_17004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17004/figure3.jpg",
+    "source_caption": "Figure 2: Giemsa-stained thin smear, tail (100x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Giemsa-stained thin smear showing a parasitic organism with a prominent tail.",
+      "detailed_description": "This Giemsa-stained thin smear shows numerous red blood cells with a prominent parasitic organism visible in the field. The organism has a long, curved body with a distinct tail, stained dark blue. The red blood cells are evenly distributed and appear pink. The magnification is high, likely 100x, as indicated in the caption.",
+      "visible_findings": [
+        "parasitic organism with a curved body and tail",
+        "pink-stained red blood cells",
+        "dark blue staining of the parasite"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "blood smear",
+        "parasite",
+        "tail",
+        "infectious disease",
+        "thin smear"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "blood smear",
+        "parasitic organism",
+        "thin smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:08+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 237,
+      "total_tokens": 836
+    }
+  },
+  "Case_17004/figure4.jpg": {
+    "case_id": "Case_17004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17004/figure4.jpg",
+    "source_caption": "Figure 3: Peripheral smear using Knott’s technique (100x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral smear showing a microfilaria using Knott’s technique (100x).",
+      "detailed_description": "This image shows a stained peripheral blood smear prepared using Knott’s concentration technique. A long, slender organism consistent with a microfilaria is visible, with clear labeling of the head and tail regions. The background consists of faintly stained blood cells. The magnification is 100x, and the staining highlights the organism's morphology.",
+      "visible_findings": [
+        "slender, elongated organism (microfilaria)",
+        "labeled head and tail regions",
+        "background of faintly stained blood cells"
+      ],
+      "keywords": [
+        "peripheral smear",
+        "knott's technique",
+        "microfilaria",
+        "blood",
+        "stain",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "knott's technique",
+        "blood smear",
+        "microfilaria identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:11+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 253,
+      "total_tokens": 850
+    }
+  }
+}

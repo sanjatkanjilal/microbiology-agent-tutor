@@ -1,0 +1,249 @@
+{
+  "Case_08013/figure1.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary findings.",
+      "detailed_description": "This is a frontal chest radiograph showing both lungs, heart, and mediastinum. There are bilateral patchy opacities visible in the lung fields, more prominent in the lower zones. The heart size appears within normal limits, and there is no obvious pleural effusion. The findings suggest a possible infectious or inflammatory process affecting the lungs.",
+      "visible_findings": [
+        "bilateral patchy opacities in lung fields",
+        "normal heart size",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 220,
+      "total_tokens": 806
+    }
+  },
+  "Case_08013/figure2.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral pulmonary abnormalities. There are multiple small, nodular opacities scattered throughout both lungs, with a predilection for the upper and middle zones. The mediastinum appears central, and no significant pleural effusion is visible. The findings suggest a diffuse pulmonary process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "bilateral small nodular opacities",
+        "upper and middle lung zone involvement",
+        "no significant pleural effusion",
+        "central mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "pulmonary findings",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:06+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 230,
+      "total_tokens": 818
+    }
+  },
+  "Case_08013/figure3.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure3.jpg",
+    "source_caption": "Wright stain of blood.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Wright stain of blood showing intracellular parasites.",
+      "detailed_description": "This image shows a Wright-stained peripheral blood smear. Red blood cells are visible as pink, round structures, with some appearing distorted or crenated. A single white blood cell is present, containing multiple intracellular, round to oval, purple-stained structures consistent with intracellular parasites. The staining highlights the cytoplasmic and nuclear details of the cells and parasites.",
+      "visible_findings": [
+        "pink-stained red blood cells",
+        "distorted or crenated red blood cells",
+        "white blood cell with intracellular purple-stained parasites"
+      ],
+      "keywords": [
+        "wright stain",
+        "blood smear",
+        "intracellular parasites",
+        "infectious diseases",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "blood smear",
+        "intracellular parasites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 223,
+      "total_tokens": 810
+    }
+  },
+  "Case_08013/figure4.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure4.jpg",
+    "source_caption": "Growth of blood isolate showing filamentous mold stage.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing filamentous mold with hyphae and spore structures.",
+      "detailed_description": "This image shows a microscopic view of a filamentous mold stained with lactophenol cotton blue. The mold exhibits branching septate hyphae and round spore structures (conidia) at the tips of conidiophores. The blue staining highlights the fungal structures against a lighter background, aiding in visualization. This morphology is consistent with a fungal organism in its mold stage.",
+      "visible_findings": [
+        "branching septate hyphae",
+        "round spore structures (conidia)",
+        "blue staining with lactophenol cotton blue",
+        "conidiophores with terminal conidia"
+      ],
+      "keywords": [
+        "stain",
+        "microscopy",
+        "fungus",
+        "mold",
+        "hyphae",
+        "conidia",
+        "lactophenol cotton blue"
+      ],
+      "reveal_triggers": [
+        "fungal microscopy",
+        "lactophenol cotton blue stain",
+        "mold stage"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:08+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 261,
+      "total_tokens": 853
+    }
+  },
+  "Case_08013/figure5.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure5.jpg",
+    "source_caption": "Growth from blood culture.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Blood culture plate showing fungal growth.",
+      "detailed_description": "This image depicts a blood agar culture plate with multiple colonies of fungal growth. The colonies appear white to off-white, with a fluffy or cottony texture, consistent with mold morphology. The background of the plate is reddish, typical of blood agar. The growth pattern suggests a filamentous fungus, possibly a contaminant or pathogen isolated from a blood culture.",
+      "visible_findings": [
+        "white, fluffy colonies",
+        "reddish blood agar background",
+        "multiple colonies with irregular distribution"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "blood culture",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "blood culture",
+        "fungal culture",
+        "growth on agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:10+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 208,
+      "total_tokens": 795
+    }
+  },
+  "Case_08013/figure6.jpg": {
+    "case_id": "Case_08013",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08013/figure6.jpg",
+    "source_caption": "GMS stain of liver biopsy, magnified x 40.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "liver",
+      "short_caption": "GMS stain of liver biopsy showing fungal elements.",
+      "detailed_description": "This is a GMS (Gomori methenamine silver) stain of a liver biopsy at high magnification (approximately x40). The image reveals numerous black, filamentous fungal hyphae and yeast-like structures against a green background, characteristic of fungal infection. The fungal elements are well-delineated, with branching and septation visible in some areas. The surrounding tissue appears disorganized, consistent with infection or tissue invasion.",
+      "visible_findings": [
+        "black filamentous fungal hyphae",
+        "yeast-like structures",
+        "branching and septation of hyphae",
+        "green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "liver",
+        "fungal infection",
+        "biopsy",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection in liver",
+        "liver biopsy histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:13+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 252,
+      "total_tokens": 847
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Case_03072/figure2.jpg": {
+    "case_id": "Case_03072",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03072/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen and hands",
+      "short_caption": "Distended abdomen with visible skin changes and outstretched hands.",
+      "detailed_description": "This clinical photograph shows a distended abdomen with subtle skin changes, including faint discoloration and possible striae. The hands are outstretched, displaying no obvious lesions or abnormalities. The image suggests a systemic condition potentially involving abdominal distension, and the skin findings may hint at underlying pathology.",
+      "visible_findings": [
+        "distended abdomen",
+        "faint skin discoloration",
+        "possible striae",
+        "outstretched hands without visible lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "hands",
+        "distension",
+        "skin changes"
+      ],
+      "reveal_triggers": [
+        "abdominal distension",
+        "skin exam",
+        "systemic disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:31+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 211,
+      "total_tokens": 779
+    }
+  },
+  "Case_03072/figure1.jpg": {
+    "case_id": "Case_03072",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03072/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Diffuse hyperpigmented macules on the palm and fingers.",
+      "detailed_description": "This clinical photograph shows the palmar surface of a hand with numerous small, hyperpigmented macules distributed diffusely across the palm and fingers. The lesions are uniform in size and appear to be non-raised. The background skin tone appears intact without signs of erythema or scaling. The image is well-lit, and the hand is positioned palm-up against a light blue background.",
+      "visible_findings": [
+        "diffuse hyperpigmented macules",
+        "uniform lesion size",
+        "absence of erythema or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "hyperpigmented macules",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hyperpigmented macules",
+        "hand lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:33+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 226,
+      "total_tokens": 794
+    }
+  }
+}

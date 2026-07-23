@@ -1,0 +1,245 @@
+{
+  "Case_08002/figure1.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure1.jpg",
+    "source_caption": "CT of right shoulder.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "right shoulder",
+      "short_caption": "CT of the right shoulder showing prosthesis and surrounding abnormalities.",
+      "detailed_description": "This CT image of the right shoulder demonstrates a prosthetic humeral component in place. There is evidence of peri-prosthetic lucency, suggesting possible loosening or infection. Surrounding soft tissue changes are visible, which may indicate inflammation or infection. The image is presented in a coronal plane with good contrast resolution.",
+      "visible_findings": [
+        "prosthetic humeral component",
+        "peri-prosthetic lucency",
+        "soft tissue changes around the prosthesis"
+      ],
+      "keywords": [
+        "ct",
+        "right shoulder",
+        "prosthesis",
+        "infection",
+        "peri-prosthetic lucency"
+      ],
+      "reveal_triggers": [
+        "shoulder CT",
+        "prosthetic joint infection",
+        "right shoulder imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:28+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 214,
+      "total_tokens": 801
+    }
+  },
+  "Case_08002/figure2.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure2.jpg",
+    "source_caption": "CT of right shoulder.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "right shoulder",
+      "short_caption": "CT of the right shoulder showing soft tissue swelling and possible abscess formation.",
+      "detailed_description": "This CT image of the right shoulder demonstrates a coronal view with notable soft tissue swelling and hypodense areas suggestive of fluid collection, consistent with abscess formation. The humeral head and surrounding structures are visible, with arrows pointing to areas of abnormality. There is no obvious bony destruction, but the findings suggest an infectious or inflammatory process.",
+      "visible_findings": [
+        "soft tissue swelling around the shoulder",
+        "hypodense areas consistent with fluid collection",
+        "arrows marking regions of abnormality",
+        "no clear evidence of bony destruction"
+      ],
+      "keywords": [
+        "ct",
+        "right shoulder",
+        "soft tissue swelling",
+        "abscess",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "shoulder CT",
+        "right shoulder infection",
+        "abscess on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:34+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_08002/figure3.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure3.jpg",
+    "source_caption": "Gram stain of aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing intracellular Gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain of an aspirate. Numerous neutrophils are visible, characterized by their multilobed nuclei. Within some of these neutrophils, small Gram-negative diplococci are evident, appearing as paired red-staining cocci. The background is lightly stained, with no significant extracellular organisms visible.",
+      "visible_findings": [
+        "neutrophils with multilobed nuclei",
+        "intracellular Gram-negative diplococci",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "infectious diseases",
+        "neutrophils",
+        "intracellular bacteria",
+        "diplococci"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "intracellular diplococci",
+        "neutrophils with bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:36+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  },
+  "Case_08002/figure4.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure4.jpg",
+    "source_caption": "Gram stain of aspirate with organisms (arrows).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "unspecified aspirate",
+      "short_caption": "Gram stain of aspirate showing organisms (arrows).",
+      "detailed_description": "This image shows a Gram stain of an aspirate specimen. Numerous neutrophils are visible, characterized by their multi-lobed nuclei and pink cytoplasm. In the center of the field, there are small, round, Gram-positive cocci arranged in clusters, indicated by arrows. The background appears lightly stained, consistent with extracellular material.",
+      "visible_findings": [
+        "Gram-positive cocci in clusters (stained purple)",
+        "Numerous neutrophils with multi-lobed nuclei",
+        "Lightly stained extracellular background"
+      ],
+      "keywords": [
+        "gram stain",
+        "aspirate",
+        "gram-positive cocci",
+        "neutrophils",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "bacterial infection",
+        "infectious diseases microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:37+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 233,
+      "total_tokens": 826
+    }
+  },
+  "Case_08002/figure5.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure5.jpg",
+    "source_caption": "Culture plate of aspirate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Blood agar plate showing bacterial colonies.",
+      "detailed_description": "The image shows a blood agar plate with bacterial colonies growing in streaked patterns. The colonies are small, round, and appear to be white or light-colored against the red background of the agar. The streaking pattern suggests an attempt to isolate individual colonies. The blood agar medium is commonly used to culture and identify bacterial pathogens.",
+      "visible_findings": [
+        "blood agar plate",
+        "bacterial colonies",
+        "streaking pattern for isolation",
+        "red agar background"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "isolation"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:41+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 206,
+      "total_tokens": 794
+    }
+  },
+  "Case_08002/figure6.jpg": {
+    "case_id": "Case_08002",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08002/figure6.jpg",
+    "source_caption": "Gram stain of culture growth.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of bacterial culture growth. Numerous gram-positive cocci are visible, arranged predominantly in clusters. The organisms are stained purple, consistent with their gram-positive nature, against a clear background. The clustering pattern suggests a morphology typical of staphylococci.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "staphylococci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:42+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 193,
+      "total_tokens": 781
+    }
+  }
+}

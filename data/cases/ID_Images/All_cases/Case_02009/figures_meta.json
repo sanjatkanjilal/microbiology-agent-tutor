@@ -1,0 +1,250 @@
+{
+  "Case_02009/figure2.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure2.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing intra-abdominal findings.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates the liver, kidneys, and surrounding structures. There is a hypodense lesion in the liver, suggestive of a possible abscess or cyst. The kidneys appear normal in size and shape, with no obvious hydronephrosis. The bowel loops are visible, and no gross obstruction is noted. The scan appears to be without contrast, as vascular structures are not prominently enhanced.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "normal-sized kidneys",
+        "no obvious bowel obstruction",
+        "absence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesion",
+        "hypodense",
+        "kidneys"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "liver lesion",
+        "hypodense liver finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 236,
+      "total_tokens": 823
+    }
+  },
+  "Case_02009/figure1.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing intra-abdominal structures.",
+      "detailed_description": "This is an axial view of an abdominal CT scan. The liver is visible in the upper left quadrant, with a hypodense lesion suggestive of a possible abscess or cyst. The kidneys are seen bilaterally, with normal corticomedullary differentiation. The aorta and inferior vena cava are centrally located, and no obvious aneurysm or thrombosis is noted. Surrounding soft tissues appear unremarkable, and there is no clear evidence of free air or fluid in the peritoneal cavity.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "normal-appearing kidneys with corticomedullary differentiation",
+        "aorta and inferior vena cava visible centrally",
+        "no free air or fluid in the peritoneal cavity"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesion",
+        "kidneys",
+        "hypodense lesion",
+        "intra-abdominal structures"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "intra-abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:19+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 281,
+      "total_tokens": 868
+    }
+  },
+  "Case_02009/figure4.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure4.jpg",
+    "source_caption": "Histopathology stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "intestinal mucosa",
+      "short_caption": "Histopathology of intestinal biopsy showing crypt architecture and inflammatory infiltrate.",
+      "detailed_description": "This histopathology image shows a section of intestinal mucosa stained with hematoxylin and eosin (H&E). The architecture of the crypts is visible, with a dense inflammatory infiltrate in the lamina propria. The infiltrate appears to consist of numerous lymphocytes and plasma cells. The epithelial lining of the crypts is intact, and there is no evidence of ulceration or necrosis in this section.",
+      "visible_findings": [
+        "crypt architecture of intestinal mucosa",
+        "dense inflammatory infiltrate in lamina propria",
+        "lymphocytes and plasma cells present",
+        "intact epithelial lining"
+      ],
+      "keywords": [
+        "histopathology",
+        "intestinal mucosa",
+        "inflammation",
+        "H&E stain",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "intestinal biopsy",
+        "histopathology of gut",
+        "H&E stain of intestine"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 253,
+      "total_tokens": 842
+    }
+  },
+  "Case_02009/figure3.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure3.jpg",
+    "source_caption": "Colonoscopy images.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing inflamed mucosa with ulcerations and exudates.",
+      "detailed_description": "This image shows four colonoscopy views of the colonic mucosa. The mucosa appears erythematous and inflamed, with multiple areas of ulceration and fibrinous exudates. The lesions are irregularly distributed and suggestive of active colonic inflammation, possibly due to an infectious or inflammatory process. No obvious perforation or mass is visible.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "ulcerations",
+        "fibrinous exudates",
+        "irregular distribution of lesions"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "colonoscopy",
+        "ulceration",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "colon inflammation",
+        "ulcerative colitis",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:26+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 243,
+      "total_tokens": 829
+    }
+  },
+  "Case_02009/figure6.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure6.jpg",
+    "source_caption": "Immunoperoxidase stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "gastrointestinal mucosa",
+      "short_caption": "Immunoperoxidase stain highlighting organisms in gastrointestinal biopsy.",
+      "detailed_description": "This image shows a section of gastrointestinal mucosa stained with an immunoperoxidase technique. The mucosal architecture is preserved, with crypts and villi visible. Dark brown staining highlights the presence of organisms, likely concentrated near the surface epithelium and within the mucus layer. The background tissue is counterstained in a light blue color, providing contrast to the immunoperoxidase-positive areas.",
+      "visible_findings": [
+        "dark brown staining indicating organisms",
+        "light blue counterstain highlighting tissue architecture",
+        "crypts and villi of gastrointestinal mucosa visible"
+      ],
+      "keywords": [
+        "immunoperoxidase stain",
+        "gastrointestinal biopsy",
+        "infectious organisms",
+        "histopathology",
+        "mucosa"
+      ],
+      "reveal_triggers": [
+        "immunoperoxidase stain",
+        "gastrointestinal biopsy",
+        "infectious organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:27+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 250,
+      "total_tokens": 840
+    }
+  },
+  "Case_02009/figure5.jpg": {
+    "case_id": "Case_02009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02009/figure5.jpg",
+    "source_caption": "Hematoxylin and eosin stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Hematoxylin and eosin stain showing epithelial cells with nuclear enlargement and inclusions.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of epithelial cells. The cells exhibit nuclear enlargement and prominent intranuclear inclusions, which are characteristic of certain viral infections. The cytoplasm appears pink (eosinophilic), while the nuclei are stained purple to blue (hematoxylin). The arrangement of the cells suggests a biopsy sample from an epithelial surface.",
+      "visible_findings": [
+        "nuclear enlargement",
+        "intranuclear inclusions",
+        "eosinophilic cytoplasm",
+        "purple-blue stained nuclei"
+      ],
+      "keywords": [
+        "histopathology",
+        "hematoxylin and eosin",
+        "biopsy",
+        "epithelial cells",
+        "nuclear inclusions"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "histopathology of biopsy",
+        "viral inclusions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:29+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 253,
+      "total_tokens": 847
+    }
+  }
+}

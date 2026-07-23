@@ -1,0 +1,251 @@
+{
+  "Case_07010/figure4.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure4.jpg",
+    "source_caption": "H and E stain of resected sigmoid colon.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "sigmoid colon",
+      "short_caption": "H&E stain of sigmoid colon showing inflammatory infiltrates and granuloma formation.",
+      "detailed_description": "This histopathology image shows a section of the sigmoid colon stained with hematoxylin and eosin (H&E). The tissue demonstrates prominent inflammatory infiltrates, including numerous lymphocytes and plasma cells, as well as a granuloma with a central multinucleated giant cell. The background includes fibrous tissue and scattered inflammatory cells, consistent with chronic inflammation. The findings suggest a granulomatous process, potentially related to an infectious or autoimmune etiology.",
+      "visible_findings": [
+        "granuloma with central multinucleated giant cell",
+        "lymphocytic and plasma cell infiltrates",
+        "fibrous tissue in the background",
+        "chronic inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "sigmoid colon",
+        "H&E stain",
+        "granuloma",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "colon biopsy",
+        "granuloma in colon"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:57+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 262,
+      "total_tokens": 855
+    }
+  },
+  "Case_07010/figure6.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure6.jpg",
+    "source_caption": "Immunohistochemical staining of colon specimen for CMV.",
+    "description": {
+      "modality": "immunohistochemistry",
+      "anatomical_site": "colon",
+      "short_caption": "Immunohistochemical staining of colon tissue showing CMV inclusions.",
+      "detailed_description": "This image shows a high-magnification view of colon tissue stained using immunohistochemistry. Large, dark brown inclusions are visible within some cells, consistent with cytomegalovirus (CMV) infection. The background tissue is counterstained in a lighter hue, highlighting the nuclei and cytoplasm of surrounding cells. The staining pattern is specific for CMV antigens, aiding in the identification of infected cells.",
+      "visible_findings": [
+        "dark brown inclusions in cells",
+        "lighter counterstained background tissue",
+        "nuclear and cytoplasmic detail visible"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "colon",
+        "cmv",
+        "viral inclusions",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "immunohistochemistry of colon",
+        "cmv in colon tissue",
+        "viral inclusions in histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:58+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 257,
+      "total_tokens": 851
+    }
+  },
+  "Case_07010/figure1.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary findings.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. There are bilateral pulmonary opacities, more prominent in the lower lung zones, suggestive of consolidation or infiltrates. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion. The bony structures, including the ribs and spine, are intact. Medical devices, such as ECG leads, are visible on the skin surface.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "intact bony structures",
+        "ECG leads on skin surface"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "infiltrates",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary findings",
+        "lung infiltrates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 252,
+      "total_tokens": 840
+    }
+  },
+  "Case_07010/figure5.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure5.jpg",
+    "source_caption": "H and E stain of colon, showing giant cell (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "colon",
+      "short_caption": "H&E stain of colon showing a giant cell (arrows).",
+      "detailed_description": "This is a high-magnification histopathology image of colon tissue stained with hematoxylin and eosin (H&E). The image highlights a multinucleated giant cell, marked by arrows, surrounded by a background of inflammatory cells, including lymphocytes and histiocytes. The tissue architecture shows evidence of inflammation, with cellular infiltration and possible disruption of normal structure. The pink eosinophilic cytoplasm and purple nuclear staining are characteristic of the H&E technique.",
+      "visible_findings": [
+        "multinucleated giant cell marked by arrows",
+        "inflammatory cell infiltrate including lymphocytes and histiocytes",
+        "pink eosinophilic cytoplasm and purple nuclear staining",
+        "disrupted tissue architecture indicative of inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "colon",
+        "giant cell",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "colon histology",
+        "giant cell in colon"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:00+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 273,
+      "total_tokens": 869
+    }
+  },
+  "Case_07010/figure2.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure2.jpg",
+    "source_caption": "Radiograph of the abdomen, with free air beneath the diaphragms.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "abdomen and diaphragm",
+      "short_caption": "Radiograph showing free air beneath the diaphragms, indicative of pneumoperitoneum.",
+      "detailed_description": "This is an upright chest radiograph showing the abdomen and lower thorax. There is clear evidence of free air beneath both hemidiaphragms, more prominently on the right side, which is a hallmark of pneumoperitoneum. The air appears as crescent-shaped radiolucent areas directly under the diaphragms. The bony structures, including the spine and ribs, are visible, and the bowel gas pattern is partially obscured.",
+      "visible_findings": [
+        "free air beneath the diaphragms",
+        "crescent-shaped radiolucent areas under both hemidiaphragms",
+        "spinal column and ribs visible",
+        "partially obscured bowel gas pattern"
+      ],
+      "keywords": [
+        "radiograph",
+        "abdomen",
+        "diaphragm",
+        "free air",
+        "pneumoperitoneum",
+        "upright chest x-ray"
+      ],
+      "reveal_triggers": [
+        "free air under diaphragm",
+        "abdominal x-ray",
+        "pneumoperitoneum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:05+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 288,
+      "total_tokens": 885
+    }
+  },
+  "Case_07010/figure3.jpg": {
+    "case_id": "Case_07010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07010/figure3.jpg",
+    "source_caption": "H and E stain of resected sigmoid colon.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "sigmoid colon",
+      "short_caption": "H&E stain of sigmoid colon showing mucosal and submucosal architecture.",
+      "detailed_description": "This histopathology image shows a section of the sigmoid colon stained with hematoxylin and eosin (H&E). The mucosal layer displays crypt architecture, with goblet cells visible. The submucosa appears expanded with inflammatory infiltrates and possible edema. The muscularis propria is partially visible at the lower edge. The staining highlights cellular and structural details, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "crypt architecture in the mucosa",
+        "goblet cells in the epithelium",
+        "submucosal expansion with inflammatory infiltrates",
+        "H&E staining with pink cytoplasm and purple nuclei"
+      ],
+      "keywords": [
+        "histopathology",
+        "sigmoid colon",
+        "H&E stain",
+        "mucosa",
+        "submucosa",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "colon histology",
+        "sigmoid colon pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:10+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 267,
+      "total_tokens": 860
+    }
+  }
+}

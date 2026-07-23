@@ -1,0 +1,369 @@
+{
+  "Case_10011/figure2.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure2.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. There are bilateral pulmonary opacities, more pronounced in the lower lung fields, suggestive of a possible infectious or inflammatory process. The cardiac silhouette appears within normal limits, and no obvious pleural effusion is visible. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:11+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 231,
+      "total_tokens": 817
+    }
+  },
+  "Case_10011/figure4.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure4.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing a cavitary lesion in the right lung.",
+      "detailed_description": "This axial CT image of the chest demonstrates a cavitary lesion in the right lung. The lesion appears to have thickened walls and is surrounded by areas of consolidation. The mediastinum and heart are visible in the midline, and there is no obvious pleural effusion. The image is likely obtained without contrast, as no vascular enhancement is evident.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "thickened cavity walls",
+        "surrounding consolidation",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:12+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 229,
+      "total_tokens": 816
+    }
+  },
+  "Case_10011/figure6.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure6.jpg",
+    "source_caption": "Hematoxylin-Eosin stain of pericardial fluid, cell-block.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "pericardial fluid",
+      "short_caption": "Hematoxylin-Eosin stain of pericardial fluid showing inflammatory cells.",
+      "detailed_description": "This image shows a Hematoxylin-Eosin stained preparation of pericardial fluid. Multiple cells are visible, including clusters of darkly stained nuclei suggestive of inflammatory cells. The background appears relatively clear, with scattered cellular elements. The staining highlights nuclear and cytoplasmic details, aiding in the identification of cellular components.",
+      "visible_findings": [
+        "clusters of darkly stained nuclei",
+        "scattered single cells",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "hematoxylin-eosin",
+        "pericardial fluid",
+        "inflammatory cells",
+        "cell block"
+      ],
+      "reveal_triggers": [
+        "hematoxylin-eosin stain",
+        "pericardial fluid cytology",
+        "cell block histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:13+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 240,
+      "total_tokens": 840
+    }
+  },
+  "Case_10011/figure5.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure5.jpg",
+    "source_caption": "Papanicolaou stain of pericardial fluid.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "pericardial fluid",
+      "short_caption": "Papanicolaou stain of pericardial fluid showing cellular elements.",
+      "detailed_description": "This image shows a Papanicolaou-stained smear of pericardial fluid. The smear contains numerous cells with varying sizes and shapes. The nuclei are prominent and stained dark purple, while the cytoplasm appears lighter with a bluish hue. The arrangement and morphology of the cells suggest a diagnostic evaluation for possible infection, malignancy, or other pathological processes.",
+      "visible_findings": [
+        "dark purple-stained nuclei",
+        "light bluish cytoplasm",
+        "variation in cell size and shape",
+        "clustered cellular arrangement"
+      ],
+      "keywords": [
+        "papanicolaou stain",
+        "pericardial fluid",
+        "cytology",
+        "infectious diseases",
+        "cell morphology"
+      ],
+      "reveal_triggers": [
+        "papanicolaou stain",
+        "pericardial fluid cytology",
+        "infectious cytology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:13+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 251,
+      "total_tokens": 846
+    }
+  },
+  "Case_10011/figure3.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure3.jpg",
+    "source_caption": "Echocardiogram.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiogram showing pericardial effusion.",
+      "detailed_description": "This is an echocardiographic image in a four-chamber view. The heart chambers are visible, with a hypoechoic (dark) area surrounding the heart, consistent with a pericardial effusion. The effusion is labeled with arrows, and the image includes an ECG tracing at the bottom for timing reference. The pericardial effusion appears to be moderate in size.",
+      "visible_findings": [
+        "hypoechoic area surrounding the heart indicating pericardial effusion",
+        "four-chamber view of the heart",
+        "ECG tracing at the bottom"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiogram",
+        "heart",
+        "pericardial effusion",
+        "cardiac imaging"
+      ],
+      "reveal_triggers": [
+        "echocardiogram",
+        "pericardial effusion",
+        "cardiac ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:13+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 251,
+      "total_tokens": 838
+    }
+  },
+  "Case_10011/figure7.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure7.jpg",
+    "source_caption": "Immunohistochemical stain for Human Herpesvirus-8.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Immunohistochemical stain highlighting Human Herpesvirus-8 (HHV-8) positive cells.",
+      "detailed_description": "This image shows an immunohistochemical stain for Human Herpesvirus-8 (HHV-8). The brown-stained cells indicate HHV-8 positivity, while the blue counterstain highlights the nuclei of other cells. The distribution of positive cells appears scattered across the field. The staining technique is specific for identifying HHV-8-infected cells in tissue or cytological samples.",
+      "visible_findings": [
+        "brown-stained cells indicating HHV-8 positivity",
+        "blue counterstained nuclei of other cells",
+        "scattered distribution of positive cells"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "hhv-8",
+        "infectious diseases",
+        "stain",
+        "pathology"
+      ],
+      "reveal_triggers": [
+        "immunohistochemical stain",
+        "hhv-8",
+        "herpesvirus",
+        "infectious pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:14+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 257,
+      "total_tokens": 852
+    }
+  },
+  "Case_10011/figure1.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure1.jpg",
+    "source_caption": "Electrocardiogram on admission.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "Electrocardiogram showing rhythm and electrical activity of the heart.",
+      "detailed_description": "This is a standard 12-lead electrocardiogram (ECG) tracing. The image displays multiple leads (e.g., I, II, III, aVR, aVL, aVF, V1-V6) capturing the electrical activity of the heart. The tracing shows regular intervals and waveforms, including P waves, QRS complexes, and T waves. Specific abnormalities, if present, would require further analysis of the waveform morphology, intervals, and axis.",
+      "visible_findings": [
+        "12-lead ECG tracing",
+        "P waves, QRS complexes, and T waves visible",
+        "Standard lead labeling (I, II, III, aVR, aVL, aVF, V1-V6)"
+      ],
+      "keywords": [
+        "ecg",
+        "electrocardiogram",
+        "heart",
+        "cardiac rhythm",
+        "12-lead tracing"
+      ],
+      "reveal_triggers": [
+        "ecg",
+        "electrocardiogram",
+        "cardiac electrical activity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:15+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 273,
+      "total_tokens": 862
+    }
+  },
+  "Case_10011/figure8.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure8.jpg",
+    "source_caption": "In situ hybridization for Epstein Barr virus RNA.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "In situ hybridization for Epstein-Barr virus RNA showing positive staining cells.",
+      "detailed_description": "This image shows a microscopic field with multiple cells stained using in situ hybridization for Epstein-Barr virus (EBV) RNA. The positive cells exhibit dark purple staining, indicating the presence of EBV RNA. The background is lightly stained, and the contrast highlights the positive cells. This technique is used to detect EBV in tissue samples.",
+      "visible_findings": [
+        "dark purple-stained cells indicating EBV RNA presence",
+        "lightly stained background for contrast",
+        "scattered distribution of positive cells"
+      ],
+      "keywords": [
+        "in situ hybridization",
+        "ebv",
+        "epstein-barr virus",
+        "rna detection",
+        "infectious diseases",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "in situ hybridization",
+        "ebv detection",
+        "epstein-barr virus stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:20+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 236,
+      "total_tokens": 828
+    }
+  },
+  "Case_10011/figure9.jpg": {
+    "case_id": "Case_10011",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10011/figure9.jpg",
+    "source_caption": "Follow-up CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary nodules.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary nodules, some of which are peripherally located. The lung parenchyma appears otherwise unremarkable, with no evidence of significant consolidation or pleural effusion. The mediastinum and heart are centrally located and appear normal in this slice. No obvious lymphadenopathy is visible.",
+      "visible_findings": [
+        "bilateral pulmonary nodules",
+        "normal lung parenchyma aside from nodules",
+        "no pleural effusion",
+        "normal mediastinum and heart in this slice"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary nodules",
+        "lungs",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary nodules",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 230,
+      "total_tokens": 819
+    }
+  }
+}

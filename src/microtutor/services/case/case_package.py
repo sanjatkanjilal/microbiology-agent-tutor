@@ -27,6 +27,8 @@ class CasePackage:
     library_case_id: Optional[str] = None
     figures: list[str] = field(default_factory=list)
     title: Optional[str] = None
+    # Compact vision/text captions for LLM figure reveal (see figure_catalog.py)
+    figure_catalog: list[dict[str, Any]] = field(default_factory=list)
 
     @property
     def has_figures(self) -> bool:
@@ -75,19 +77,29 @@ def _package_from_library_case(
             f"Library case {library_case.get('id')!r} has no usable history/exam text"
         )
 
+    figures = list(library_case.get("figures") or [])
+    from microtutor.services.case.figure_catalog import build_figure_catalog
+
+    catalog = build_figure_catalog(
+        library_case.get("id"),
+        figures,
+        narrative=narrative,
+    )
     pkg = CasePackage(
         organism=org,
         narrative=narrative,
         source="case_library",
         library_case_id=library_case.get("id"),
-        figures=list(library_case.get("figures") or []),
+        figures=figures,
         title=library_case.get("title"),
+        figure_catalog=catalog,
     )
     logger.info(
-        "Bound case package organism=%r library_id=%s figures=%d",
+        "Bound case package organism=%r library_id=%s figures=%d catalog=%d",
         org,
         pkg.library_case_id,
         len(pkg.figures),
+        len(pkg.figure_catalog),
     )
     return pkg
 

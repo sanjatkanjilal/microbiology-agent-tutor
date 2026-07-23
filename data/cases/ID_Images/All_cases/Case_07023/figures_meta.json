@@ -1,0 +1,244 @@
+{
+  "Case_07023/figure2.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure2.jpg",
+    "source_caption": "CT scan of abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing a fluid and gas-filled structure.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a fluid and gas-filled structure in the upper abdomen, likely representing an abscess or infected collection. The surrounding tissues appear relatively normal, and there is no obvious evidence of free intraperitoneal air. The scan is performed without visible contrast enhancement.",
+      "visible_findings": [
+        "fluid and gas-filled structure in the upper abdomen",
+        "no free intraperitoneal air",
+        "surrounding tissues appear normal"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "abscess",
+        "fluid collection",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "infectious abscess",
+        "fluid and gas collection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:30+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 214,
+      "total_tokens": 801
+    }
+  },
+  "Case_07023/figure3.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure3.jpg",
+    "source_caption": "CT scan of pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT scan of the pelvis showing bilateral findings.",
+      "detailed_description": "This axial CT scan of the pelvis demonstrates bilateral soft tissue structures with areas of hyperdensity, likely representing foreign bodies or calcifications. The surrounding soft tissue appears unremarkable without clear evidence of significant inflammation or abscess formation. The scan is de-identified and shows no patient-identifying information.",
+      "visible_findings": [
+        "bilateral hyperdense structures in the pelvis",
+        "soft tissue structures appear intact",
+        "no clear evidence of abscess or inflammation"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "axial",
+        "hyperdensity",
+        "foreign body",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "axial pelvis scan",
+        "foreign body in pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:30+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 213,
+      "total_tokens": 800
+    }
+  },
+  "Case_07023/figure1.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure1.jpg",
+    "source_caption": "CT scan of chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing abnormalities in the mediastinum and surrounding structures.",
+      "detailed_description": "This axial CT scan of the chest shows the mediastinum and surrounding structures. There appears to be an abnormality in the anterior mediastinum, with possible soft tissue density or mass effect. The bony structures, including the ribs and sternum, are intact. The lung fields are partially visible and appear unremarkable in this slice. No contrast enhancement is evident, suggesting a non-contrast study.",
+      "visible_findings": [
+        "abnormality in the anterior mediastinum",
+        "intact bony structures",
+        "partially visible lung fields"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinum",
+        "soft tissue abnormality",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "mediastinal mass",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:31+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 240,
+      "total_tokens": 827
+    }
+  },
+  "Case_07023/figure4.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure4.jpg",
+    "source_caption": "Hematoxylin and eosin stain of lymph node.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "Hematoxylin and eosin stain of a lymph node showing follicular architecture.",
+      "detailed_description": "This histopathology image shows a lymph node stained with hematoxylin and eosin. The tissue demonstrates preserved follicular architecture with distinct lymphoid follicles. The interfollicular areas appear less densely cellular. No overt signs of necrosis, granulomas, or abnormal infiltrates are visible at this magnification. The staining highlights the cellular and stromal components of the lymph node.",
+      "visible_findings": [
+        "lymphoid follicles with preserved architecture",
+        "interfollicular areas with less cellular density",
+        "no visible necrosis or granulomas"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "hematoxylin and eosin",
+        "follicular architecture",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lymph node biopsy",
+        "H&E stain",
+        "histopathology of lymph node"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:32+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 253,
+      "total_tokens": 848
+    }
+  },
+  "Case_07023/figure5.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure5.jpg",
+    "source_caption": "Immunohistochemical stain of lymph node.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Immunohistochemical stain of lymph node showing follicular architecture.",
+      "detailed_description": "This image shows an immunohistochemical stain of a lymph node. The lymphoid tissue displays distinct follicular architecture with circular areas of staining, likely representing germinal centers. The brown staining highlights specific cellular or protein markers within the follicles, while the background is counterstained in a lighter hue. The staining pattern suggests a targeted marker, possibly related to immune or infectious processes.",
+      "visible_findings": [
+        "distinct circular follicular structures",
+        "brown immunohistochemical staining within follicles",
+        "lighter counterstained background"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "lymph node",
+        "follicles",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lymph node stain",
+        "immunohistochemistry",
+        "follicular architecture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:36+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 237,
+      "total_tokens": 828
+    }
+  },
+  "Case_07023/figure6.jpg": {
+    "case_id": "Case_07023",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07023/figure6.jpg",
+    "source_caption": "H and E stain of lymph node biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "H&E stain of lymph node biopsy showing follicular architecture and reactive changes.",
+      "detailed_description": "This is a histopathology image of a lymph node biopsy stained with hematoxylin and eosin (H&E). The image shows preserved follicular architecture with distinct germinal centers (labeled A and C) and interfollicular areas. A blood vessel (labeled B) is visible in the interfollicular region. The staining highlights cellular details, including lymphocytes and stromal elements, with no overt evidence of necrosis or malignancy in this field.",
+      "visible_findings": [
+        "follicular architecture with germinal centers",
+        "interfollicular areas",
+        "blood vessel in interfollicular region",
+        "H&E staining with cellular detail"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "H&E stain",
+        "follicular architecture",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "histopathology of lymph node"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:39+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 271,
+      "total_tokens": 862
+    }
+  }
+}

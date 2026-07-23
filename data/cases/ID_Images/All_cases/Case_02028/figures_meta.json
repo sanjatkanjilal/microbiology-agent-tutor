@@ -1,0 +1,96 @@
+{
+  "Case_02028/figure1.jpg": {
+    "case_id": "Case_02028",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02028/figure1.jpg",
+    "source_caption": "Intra-operative findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:21:39+00:00"
+  },
+  "Case_02028/figure2.jpg": {
+    "case_id": "Case_02028",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02028/figure2.jpg",
+    "source_caption": "Stain of surgical specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Histologic section showing segmented parasitic structures.",
+      "detailed_description": "This image shows a stained histologic section of a surgical specimen, featuring elongated, segmented structures consistent with a parasitic organism. The segments are arranged in a linear fashion, with clear delineation between them. The stain highlights the internal and external morphology of the parasite, with some areas showing pinkish coloration. The background appears relatively clear, suggesting a focus on the parasite itself.",
+      "visible_findings": [
+        "elongated segmented structures",
+        "linear arrangement of segments",
+        "pinkish staining of the parasite",
+        "clear background"
+      ],
+      "keywords": [
+        "stain",
+        "parasite",
+        "segmented structure",
+        "histology",
+        "surgical specimen"
+      ],
+      "reveal_triggers": [
+        "stain of surgical specimen",
+        "histology of parasite",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  },
+  "Case_02028/figure3.jpg": {
+    "case_id": "Case_02028",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02028/figure3.jpg",
+    "source_caption": "Stain of surgical specimen.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing protozoan trophozoites in tissue.",
+      "detailed_description": "This histopathology image shows tissue stained with hematoxylin and eosin (H&E). Visible are protozoan trophozoites with characteristic nuclei and cytoplasmic features. The organisms are embedded within the tissue, suggesting an invasive infection. The surrounding tissue appears disrupted, consistent with inflammation or tissue damage.",
+      "visible_findings": [
+        "protozoan trophozoites with nuclei",
+        "cytoplasmic structures of organisms",
+        "disrupted surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "protozoan",
+        "trophozoite",
+        "tissue",
+        "infection",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "tissue infection",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  }
+}

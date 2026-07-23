@@ -1,0 +1,290 @@
+{
+  "Case_12011/figure1.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure1.jpg",
+    "source_caption": "Funduscopic examination.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eyes (fundus)",
+      "short_caption": "Funduscopic images of the right and left eyes showing optic disc swelling.",
+      "detailed_description": "This image shows funduscopic views of the right and left eyes. The right eye displays a clear optic disc with well-defined margins, while the left eye shows optic disc swelling with blurred margins and hyperemia. Prominent blood vessels are visible in both images, with the left eye showing more vascular congestion. These findings are consistent with unilateral optic disc edema.",
+      "visible_findings": [
+        "clear optic disc with sharp margins in the right eye",
+        "optic disc swelling with blurred margins in the left eye",
+        "hyperemia in the left optic disc",
+        "prominent blood vessels in both eyes",
+        "vascular congestion in the left eye"
+      ],
+      "keywords": [
+        "fundus",
+        "optic disc",
+        "swelling",
+        "clinical photograph",
+        "eye exam"
+      ],
+      "reveal_triggers": [
+        "funduscopic exam",
+        "optic disc swelling",
+        "eye infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:18+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 252,
+      "total_tokens": 839
+    }
+  },
+  "Case_12011/figure2.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure2.jpg",
+    "source_caption": "Humphrey visual field test.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "visual field",
+      "short_caption": "Humphrey visual field test showing visual field defects in both eyes.",
+      "detailed_description": "This image displays the results of a Humphrey visual field test for both the right and left eyes. The right eye shows a dense central scotoma, while the left eye demonstrates a similar pattern of central visual field loss. The test grid is divided into quadrants with varying levels of shading, indicating areas of visual field sensitivity and deficits. The defects are more pronounced centrally, suggesting potential pathology affecting the optic nerves or central visual pathways.",
+      "visible_findings": [
+        "dense central scotoma in the right eye",
+        "central visual field loss in the left eye",
+        "grid pattern with varying shading indicating sensitivity",
+        "bilateral involvement with central defects"
+      ],
+      "keywords": [
+        "humphrey visual field test",
+        "visual field",
+        "scotoma",
+        "central vision loss",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "visual field test",
+        "Humphrey test",
+        "scotoma",
+        "optic nerve pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:19+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 264,
+      "total_tokens": 852
+    }
+  },
+  "Case_12011/figure4.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure4.jpg",
+    "source_caption": "MRI of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and orbits",
+      "short_caption": "Axial T2-weighted MRI of the brain and orbits.",
+      "detailed_description": "This is an axial T2-weighted MRI image showing the brain and orbits. The globes of the eyes are prominently visible, with hyperintense signal in the vitreous. The surrounding orbital structures and intracranial anatomy are well visualized. No obvious abnormalities such as mass lesions, edema, or significant asymmetry are apparent in this image.",
+      "visible_findings": [
+        "hyperintense signal in the vitreous of the eyes",
+        "symmetrical appearance of the orbits",
+        "normal intracranial anatomy without visible abnormalities"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "orbits",
+        "axial",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "mri of the brain",
+        "axial brain mri",
+        "t2-weighted mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:22+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  },
+  "Case_12011/figure6.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure6.jpg",
+    "source_caption": "Nerve fiber layer thickness map, 4 week follow-up.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "optic nerve/retina",
+      "short_caption": "Nerve fiber layer thickness maps at initial exam and 4-week follow-up.",
+      "detailed_description": "This image shows two retinal nerve fiber layer (RNFL) thickness maps, one labeled 'Initial exam' and the other '4 wk follow-up.' Both graphs display RNFL thickness in micrometers (y-axis) plotted against clock-hour positions around the optic nerve head (x-axis). The green band represents normal thickness, while the red areas indicate thinning. The follow-up map shows a reduction in RNFL thickness compared to the initial exam, particularly in specific sectors.",
+      "visible_findings": [
+        "RNFL thickness maps for both eyes (OD and OS).",
+        "Green band indicating normal RNFL thickness range.",
+        "Red areas indicating RNFL thinning.",
+        "Comparison between initial and follow-up exams shows progressive thinning."
+      ],
+      "keywords": [
+        "rnfl thickness",
+        "optic nerve",
+        "retina",
+        "follow-up",
+        "nerve fiber layer",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "nerve fiber layer map",
+        "RNFL thickness",
+        "optic nerve follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:24+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 280,
+      "total_tokens": 875
+    }
+  },
+  "Case_12011/figure3.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure3.jpg",
+    "source_caption": "Nerve fiber layer thickness map.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "retinal nerve fiber layer",
+      "short_caption": "Graph showing retinal nerve fiber layer (RNFL) thickness map.",
+      "detailed_description": "This image is a graphical representation of the retinal nerve fiber layer (RNFL) thickness. The x-axis represents the angular position around the optic disc (temporal, superior, nasal, inferior, temporal), while the y-axis indicates thickness in micrometers. Two lines, corresponding to the right eye (OD) and left eye (OS), are plotted against a background of color-coded normative data ranges (green for normal, yellow for borderline, and red for abnormal). The dashed line represents one eye, and the solid line represents the other. Arrows point to specific regions of interest where deviations from the normative range may be present.",
+      "visible_findings": [
+        "Color-coded normative data ranges (green, yellow, red).",
+        "Solid and dashed lines representing RNFL thickness for OD and OS.",
+        "Arrows highlighting regions of interest with potential deviations."
+      ],
+      "keywords": [
+        "rnfl thickness",
+        "retina",
+        "graph",
+        "optic disc",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "nerve fiber layer thickness map",
+        "rnfl graph",
+        "retinal thickness analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:24+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 298,
+      "total_tokens": 887
+    }
+  },
+  "Case_12011/figure5.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure5.jpg",
+    "source_caption": "Humphrey visual field test, 4 week follow-up.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "eyes",
+      "short_caption": "Humphrey visual field test showing changes in visual fields over 4 weeks.",
+      "detailed_description": "This image displays four panels of Humphrey visual field test results, comparing the initial exam (top row) to the 4-week follow-up (bottom row) for both the right and left eyes. The right eye shows a scotoma in the central visual field, which appears to have reduced in size at follow-up. The left eye demonstrates a similar scotoma, with slight improvement over time. The grayscale shading represents areas of visual field loss, with darker regions indicating more severe deficits.",
+      "visible_findings": [
+        "central scotoma in the right eye on initial exam",
+        "central scotoma in the left eye on initial exam",
+        "reduction in scotoma size in both eyes at 4-week follow-up",
+        "grayscale shading indicating visual field deficits"
+      ],
+      "keywords": [
+        "humphrey visual field",
+        "eyes",
+        "scotoma",
+        "visual field loss",
+        "follow-up"
+      ],
+      "reveal_triggers": [
+        "visual field test",
+        "scotoma",
+        "eye exam",
+        "follow-up visual field"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:24+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 288,
+      "total_tokens": 882
+    }
+  },
+  "Case_12011/figure7.jpg": {
+    "case_id": "Case_12011",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12011/figure7.jpg",
+    "source_caption": "Diagnostic Criteria for Lyme Optic Neuritis.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "optic nerve",
+      "short_caption": "Diagnostic criteria for Lyme optic neuritis.",
+      "detailed_description": "This image is a text-based chart outlining the diagnostic criteria for Lyme optic neuritis. It categorizes evidence into four levels: definitive proof (Category I), strong evidence (Category II), possible connection (Category III), and causal linkage unlikely (Category IV). The chart includes specific findings such as optic neuritis, positive Lyme serology, and exclusion of multiple sclerosis. It also lists clinical and laboratory findings required for each category, referencing culture, serology, and clinical signs.",
+      "visible_findings": [
+        "Text chart with diagnostic categories for Lyme optic neuritis.",
+        "Mentions of optic neuritis and positive Lyme serology.",
+        "Criteria include culture, serology, and exclusion of other conditions."
+      ],
+      "keywords": [
+        "lyme disease",
+        "optic neuritis",
+        "diagnostic criteria",
+        "infectious diseases",
+        "clinical chart"
+      ],
+      "reveal_triggers": [
+        "lyme disease",
+        "optic neuritis",
+        "diagnostic criteria for Lyme"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:30+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 259,
+      "total_tokens": 851
+    }
+  }
+}

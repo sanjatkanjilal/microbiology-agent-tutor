@@ -1,0 +1,127 @@
+{
+  "Case_04034/figure3.jpg": {
+    "case_id": "Case_04034",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04034/figure3.jpg",
+    "source_caption": "CT scan of the neck with contrast, axial view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT scan of the neck with contrast showing a central hypodense lesion.",
+      "detailed_description": "This axial CT scan of the neck with contrast demonstrates a central hypodense lesion, likely representing an abscess or fluid collection, located anterior to the cervical spine. Surrounding soft tissue swelling and asymmetry are visible, suggesting inflammation or infection. The contrast enhancement highlights adjacent vascular structures and soft tissues. The image is oriented with the right side labeled 'R' and the left side labeled 'L'.",
+      "visible_findings": [
+        "central hypodense lesion",
+        "soft tissue swelling",
+        "contrast-enhanced vascular structures",
+        "asymmetry in soft tissues"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "contrast",
+        "abscess",
+        "infection",
+        "soft tissue swelling"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "abscess on ct",
+        "infectious neck lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:58+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 238,
+      "total_tokens": 831
+    }
+  },
+  "Case_04034/figure1.jpg": {
+    "case_id": "Case_04034",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04034/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. The lung fields are visible bilaterally, with no obvious consolidation, masses, or pleural effusion. The cardiac silhouette appears normal in size, and the mediastinum is midline. The bony structures, including the ribs, clavicles, and spine, are intact without visible abnormalities. There is no evidence of pneumothorax or significant pathology in this image.",
+      "visible_findings": [
+        "bilateral lung fields appear clear",
+        "normal cardiac silhouette",
+        "midline mediastinum",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "mediastinum",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "radiograph of lungs"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:01+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 248,
+      "total_tokens": 834
+    }
+  },
+  "Case_04034/figure2.jpg": {
+    "case_id": "Case_04034",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04034/figure2.jpg",
+    "source_caption": "CT scan of the neck with contrast, sagittal view",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "CT scan of the neck with contrast, coronal view.",
+      "detailed_description": "This is a coronal view from a contrast-enhanced CT scan of the neck. The image shows soft tissue structures, including the airway, vascular structures, and cervical spine. There appears to be asymmetry in the soft tissues, with possible swelling or mass effect on the right side of the neck. The contrast highlights vascular structures and enhances soft tissue differentiation.",
+      "visible_findings": [
+        "coronal view of the neck",
+        "contrast-enhanced vascular structures",
+        "soft tissue asymmetry on the right side",
+        "airway and cervical spine visible"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "contrast",
+        "coronal view",
+        "soft tissue",
+        "vascular structures"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "contrast ct of neck",
+        "coronal neck ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:05+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 230,
+      "total_tokens": 824
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "source": "Macleod's Clinical Diagnosis, 2nd edition (licensed extract)",
+  "fliphtml5_url": "https://online.fliphtml5.com/oxxta/xwwo/",
+  "book_to_flip_offset": 11,
+  "chapters": [
+    {
+      "id": "ch1_diagnosis",
+      "section": 1,
+      "number": 1,
+      "title": "What's in a diagnosis?",
+      "book_start": 3,
+      "aliases": ["differential diagnosis", "final diagnosis", "diagnostic reasoning", "principles"]
+    },
+    {
+      "id": "ch2_assessing",
+      "section": 1,
+      "number": 2,
+      "title": "Assessing patients: a practical guide",
+      "book_start": 7,
+      "aliases": ["history taking", "clinical examination", "abcde", "practical assessment", "how to assess"]
+    },
+    {
+      "id": "ch3_diagnostic_process",
+      "section": 1,
+      "number": 3,
+      "title": "The diagnostic process",
+      "book_start": 17,
+      "aliases": ["diagnostic process", "pattern recognition", "overview of assessment", "step-by-step", "tailored diagnostic guides"]
+    },
+    {
+      "id": "ch4_abdominal_pain",
+      "section": 2,
+      "number": 4,
+      "title": "Abdominal pain",
+      "book_start": 24,
+      "aliases": ["abdominal pain", "abdomen", "peritonitis", "epigastric", "acute abdomen"]
+    },
+    {
+      "id": "ch5_breast_lump",
+      "section": 2,
+      "number": 5,
+      "title": "Breast lump",
+      "book_start": 46,
+      "aliases": ["breast lump", "breast mass"]
+    },
+    {
+      "id": "ch6_chest_pain",
+      "section": 2,
+      "number": 6,
+      "title": "Chest pain",
+      "book_start": 50,
+      "aliases": ["chest pain", "angina", "pleuritic", "cardiac pain"]
+    },
+    {
+      "id": "ch7_coma",
+      "section": 2,
+      "number": 7,
+      "title": "Coma and altered consciousness",
+      "book_start": 72,
+      "aliases": ["coma", "altered consciousness", "unresponsive", "reduced gcs", "unconscious"]
+    },
+    {
+      "id": "ch8_confusion",
+      "section": 2,
+      "number": 8,
+      "title": "Confusion: delirium and dementia",
+      "book_start": 78,
+      "aliases": ["confusion", "delirium", "dementia", "altered mental status", "disoriented"]
+    },
+    {
+      "id": "ch9_diarrhoea",
+      "section": 2,
+      "number": 9,
+      "title": "Diarrhoea",
+      "book_start": 90,
+      "aliases": ["diarrhoea", "diarrhea", "loose stools"]
+    },
+    {
+      "id": "ch10_dizziness",
+      "section": 2,
+      "number": 10,
+      "title": "Dizziness",
+      "book_start": 96,
+      "aliases": ["dizziness", "vertigo", "lightheaded"]
+    },
+    {
+      "id": "ch11_dysphagia",
+      "section": 2,
+      "number": 11,
+      "title": "Dysphagia",
+      "book_start": 108,
+      "aliases": ["dysphagia", "swallowing difficulty", "odynophagia"]
+    },
+    {
+      "id": "ch12_dyspnoea",
+      "section": 2,
+      "number": 12,
+      "title": "Dyspnoea",
+      "book_start": 112,
+      "aliases": ["dyspnoea", "dyspnea", "shortness of breath", "breathlessness", "sob", "hypoxia", "respiratory distress"]
+    },
+    {
+      "id": "ch13_fatigue",
+      "section": 2,
+      "number": 13,
+      "title": "Fatigue",
+      "book_start": 130,
+      "aliases": ["fatigue", "tiredness", "lethargy"]
+    },
+    {
+      "id": "ch14_fever",
+      "section": 2,
+      "number": 14,
+      "title": "Fever",
+      "book_start": 138,
+      "aliases": ["fever", "pyrexia", "febrile", "temperature", "chills", "rigors"]
+    },
+    {
+      "id": "ch15_gi_bleed",
+      "section": 2,
+      "number": 15,
+      "title": "Gastrointestinal haemorrhage: haematemesis and rectal bleeding",
+      "book_start": 150,
+      "aliases": ["haematemesis", "hematemesis", "rectal bleeding", "gi bleed", "melena", "melaena"]
+    },
+    {
+      "id": "ch16_haematuria",
+      "section": 2,
+      "number": 16,
+      "title": "Haematuria",
+      "book_start": 158,
+      "aliases": ["haematuria", "hematuria", "blood in urine"]
+    },
+    {
+      "id": "ch17_haemoptysis",
+      "section": 2,
+      "number": 17,
+      "title": "Haemoptysis",
+      "book_start": 162,
+      "aliases": ["haemoptysis", "hemoptysis", "coughing blood"]
+    },
+    {
+      "id": "ch18_headache",
+      "section": 2,
+      "number": 18,
+      "title": "Headache",
+      "book_start": 166,
+      "aliases": ["headache", "migraine", "meningism"]
+    },
+    {
+      "id": "ch19_jaundice",
+      "section": 2,
+      "number": 19,
+      "title": "Jaundice",
+      "book_start": 174,
+      "aliases": ["jaundice", "icterus", "yellow"]
+    },
+    {
+      "id": "ch20_joint",
+      "section": 2,
+      "number": 20,
+      "title": "Joint swelling",
+      "book_start": 184,
+      "aliases": ["joint swelling", "arthritis", "arthralgia", "swollen joint"]
+    },
+    {
+      "id": "ch21_leg_swelling",
+      "section": 2,
+      "number": 21,
+      "title": "Leg swelling",
+      "book_start": 190,
+      "aliases": ["leg swelling", "edema", "oedema", "ankle swelling"]
+    },
+    {
+      "id": "ch22_limb_weakness",
+      "section": 2,
+      "number": 22,
+      "title": "Limb weakness",
+      "book_start": 196,
+      "aliases": ["limb weakness", "weakness", "paralysis", "hemiparesis"]
+    },
+    {
+      "id": "ch23_back_pain",
+      "section": 2,
+      "number": 23,
+      "title": "Low back pain",
+      "book_start": 208,
+      "aliases": ["back pain", "low back pain", "lumbago"]
+    },
+    {
+      "id": "ch24_mobility",
+      "section": 2,
+      "number": 24,
+      "title": "Mobility problems: falls and immobility",
+      "book_start": 214,
+      "aliases": ["falls", "immobility", "mobility", "fall"]
+    },
+    {
+      "id": "ch25_nausea",
+      "section": 2,
+      "number": 25,
+      "title": "Nausea and vomiting",
+      "book_start": 222,
+      "aliases": ["nausea", "vomiting", "emesis"]
+    },
+    {
+      "id": "ch26_palpitation",
+      "section": 2,
+      "number": 26,
+      "title": "Palpitation",
+      "book_start": 232,
+      "aliases": ["palpitation", "palpitations", "tachycardia", "heart racing"]
+    },
+    {
+      "id": "ch27_rash",
+      "section": 2,
+      "number": 27,
+      "title": "Rash: acute generalized skin eruption",
+      "book_start": 240,
+      "aliases": ["rash", "skin eruption", "exanthem", "cutaneous"]
+    },
+    {
+      "id": "ch28_red_eye",
+      "section": 2,
+      "number": 28,
+      "title": "Red eye",
+      "book_start": 250,
+      "aliases": ["red eye", "conjunctivitis", "eye redness"]
+    },
+    {
+      "id": "ch29_scrotal",
+      "section": 2,
+      "number": 29,
+      "title": "Scrotal swelling",
+      "book_start": 258,
+      "aliases": ["scrotal swelling", "testicular"]
+    },
+    {
+      "id": "ch30_shock",
+      "section": 2,
+      "number": 30,
+      "title": "Shock",
+      "book_start": 264,
+      "aliases": ["shock", "hypotension", "septic shock", "hypovolaemia"]
+    },
+    {
+      "id": "ch31_syncope",
+      "section": 2,
+      "number": 31,
+      "title": "Transient loss of consciousness: syncope and seizures",
+      "book_start": 270,
+      "aliases": ["syncope", "seizure", "blackout", "faint", "loss of consciousness", "collapse"]
+    },
+    {
+      "id": "ch32_incontinence",
+      "section": 2,
+      "number": 32,
+      "title": "Urinary incontinence",
+      "book_start": 282,
+      "aliases": ["incontinence", "urinary incontinence"]
+    },
+    {
+      "id": "ch33_vaginal_bleeding",
+      "section": 2,
+      "number": 33,
+      "title": "Vaginal bleeding",
+      "book_start": 288,
+      "aliases": ["vaginal bleeding", "pv bleeding"]
+    },
+    {
+      "id": "ch34_weight_loss",
+      "section": 2,
+      "number": 34,
+      "title": "Weight loss",
+      "book_start": 294,
+      "aliases": ["weight loss", "cachexia", "anorexia"]
+    }
+  ]
+}

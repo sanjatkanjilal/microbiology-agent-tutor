@@ -1,0 +1,493 @@
+{
+  "Case_16006/figure1.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure1.jpg",
+    "source_caption": "Lesion on the left elbow.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left elbow",
+      "short_caption": "Erythematous, scaly lesion on the left elbow.",
+      "detailed_description": "This clinical photograph shows a close-up view of the left elbow with an erythematous, scaly lesion. The lesion appears well-demarcated with a rough texture and prominent scaling. The surrounding skin shows some wrinkling and mild hyperpigmentation. No overt signs of ulceration, discharge, or crusting are visible.",
+      "visible_findings": [
+        "erythema",
+        "scaling",
+        "well-demarcated lesion",
+        "wrinkled surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "elbow",
+        "skin lesion",
+        "erythema",
+        "scaling"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "elbow lesion",
+        "scaly rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:13+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 217,
+      "total_tokens": 806
+    }
+  },
+  "Case_16006/figure12.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure12.jpg",
+    "figure_number": 12,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure12.jpg",
+    "source_caption": "Slit skin direct smears of earlobes, Ziehl-Neelsen stain, with at least 1 bacillus in 10 microscopic fields (Bacterial Index: 2+)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "earlobe skin smear",
+      "short_caption": "Ziehl-Neelsen stain showing acid-fast bacilli in slit skin smear of earlobe.",
+      "detailed_description": "This image shows a microscopic view of a slit skin smear stained with Ziehl-Neelsen stain, highlighting acid-fast bacilli. A single bacillus is visible in the field, appearing as a bright pink rod against a pale background. The smear is consistent with a bacterial index of 2+, indicating the presence of at least one bacillus per 10 fields. The technique is commonly used for diagnosing mycobacterial infections, such as leprosy.",
+      "visible_findings": [
+        "acid-fast bacillus visible as a bright pink rod",
+        "pale background with minimal cellular debris",
+        "Ziehl-Neelsen staining technique"
+      ],
+      "keywords": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "skin smear",
+        "earlobe",
+        "infectious diseases",
+        "mycobacteria"
+      ],
+      "reveal_triggers": [
+        "skin smear microscopy",
+        "ziehl-neelsen stain",
+        "acid-fast bacilli detection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:14+00:00",
+    "usage": {
+      "prompt_tokens": 621,
+      "completion_tokens": 286,
+      "total_tokens": 907
+    }
+  },
+  "Case_16006/figure10.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure10.jpg",
+    "source_caption": "Skin biopsy with Fite-Faraco stain showing acid-fast bacilli.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Fite-Faraco stain showing acid-fast bacilli in a skin biopsy.",
+      "detailed_description": "This image shows a skin biopsy stained with the Fite-Faraco technique, which highlights acid-fast bacilli as bright pink to red rod-shaped organisms against a pale blue background. The bacilli are scattered within the tissue, consistent with an infectious process. The stain is specific for mycobacteria, aiding in the diagnosis of diseases such as leprosy.",
+      "visible_findings": [
+        "acid-fast bacilli appearing as pink to red rods",
+        "pale blue background staining of tissue",
+        "scattered distribution of bacilli within the tissue"
+      ],
+      "keywords": [
+        "fite-faraco stain",
+        "skin biopsy",
+        "acid-fast bacilli",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "fite-faraco stain",
+        "acid-fast organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:14+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 243,
+      "total_tokens": 840
+    }
+  },
+  "Case_16006/figure11.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure11.jpg",
+    "figure_number": 11,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure11.jpg",
+    "source_caption": "Positive Immunohistochemical staining for S100 protein.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Positive immunohistochemical staining for S100 protein.",
+      "detailed_description": "This image shows a histological section stained with immunohistochemistry for S100 protein. The brown staining indicates areas of positive S100 protein expression, which is localized to specific cells within the tissue. The background is counterstained in blue, highlighting nuclei and providing contrast to the positive staining. The image demonstrates a cluster of cells with strong S100 positivity, suggesting the presence of S100-expressing cells, such as melanocytes or dendritic cells.",
+      "visible_findings": [
+        "brown staining indicating S100 protein positivity",
+        "blue counterstaining highlighting nuclei",
+        "cluster of cells with strong S100 expression"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "S100 protein",
+        "histology",
+        "staining",
+        "positive staining"
+      ],
+      "reveal_triggers": [
+        "S100 staining",
+        "immunohistochemistry",
+        "histology slide"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:15+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 247,
+      "total_tokens": 840
+    }
+  },
+  "Case_16006/figure2.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure2.jpg",
+    "source_caption": "Lesion on the left knee.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left knee",
+      "short_caption": "Erythematous lesion on the left knee.",
+      "detailed_description": "The image shows a localized erythematous patch on the skin of the left knee. The lesion appears slightly raised and is surrounded by normal skin with visible hair growth. No signs of ulceration, scaling, or discharge are evident in this photograph. The lighting and focus emphasize the lesion's reddish discoloration.",
+      "visible_findings": [
+        "localized erythematous patch",
+        "slightly raised lesion",
+        "surrounding normal skin with hair growth"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "knee",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "knee lesion",
+        "erythematous patch"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 210,
+      "total_tokens": 799
+    }
+  },
+  "Case_16006/figure3.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure3.jpg",
+    "source_caption": "Lesion on the left leg.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left leg",
+      "short_caption": "Erythematous lesion on the left leg with scaling and irregular borders.",
+      "detailed_description": "This clinical photograph shows a patch of erythema on the left leg. The lesion has irregular, well-demarcated borders and is associated with mild scaling. The surrounding skin appears normal, and the lesion is located on a hairy area of the leg. The lighting highlights the texture and redness of the lesion.",
+      "visible_findings": [
+        "erythematous patch",
+        "irregular borders",
+        "scaling",
+        "hair-bearing skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "scaling",
+        "leg lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythematous patch",
+        "left leg rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:18+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 213,
+      "total_tokens": 802
+    }
+  },
+  "Case_16006/figure6.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure6.jpg",
+    "source_caption": "Skin biopsy, hematoxylin and eosin stain, with multifocal granulomatous infiltrate (4x).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with granulomatous infiltrate, hematoxylin and eosin stain (4x).",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin at low magnification (4x). The epidermis appears intact, with a normal keratinized layer. The dermis contains multifocal granulomatous inflammation, characterized by clusters of epithelioid histiocytes and scattered lymphocytes. No necrosis or organisms are visible at this magnification.",
+      "visible_findings": [
+        "intact epidermis with keratinized layer",
+        "granulomatous inflammation in the dermis",
+        "clusters of epithelioid histiocytes",
+        "scattered lymphocytes",
+        "no visible necrosis or organisms"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "granuloma",
+        "hematoxylin and eosin",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "granulomatous inflammation",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:19+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 271,
+      "total_tokens": 877
+    }
+  },
+  "Case_16006/figure4.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure4.jpg",
+    "source_caption": "Lesion on the right knee.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right knee",
+      "short_caption": "Hyperpigmented lesion on the right knee.",
+      "detailed_description": "This clinical photograph shows a well-demarcated, hyperpigmented, slightly raised lesion on the right knee. The lesion appears to have a smooth surface with no visible ulceration or scaling. Surrounding skin is normal in appearance, with no signs of erythema or swelling. The image is taken at close range, focusing on the lesion.",
+      "visible_findings": [
+        "well-demarcated lesion",
+        "hyperpigmentation",
+        "slightly raised surface",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "knee",
+        "skin lesion",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "knee lesion",
+        "hyperpigmented lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:22+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 211,
+      "total_tokens": 800
+    }
+  },
+  "Case_16006/figure5.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure5.jpg",
+    "source_caption": "Lesion on the right leg.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right leg",
+      "short_caption": "Erythematous lesion on the right leg.",
+      "detailed_description": "This image shows a well-demarcated, erythematous, slightly raised lesion on the right leg. The lesion appears to have a shiny surface with no visible ulceration or exudate. Surrounding skin is covered with hair, and there is no apparent involvement of deeper structures. The lesion's appearance suggests inflammation or infection.",
+      "visible_findings": [
+        "erythematous lesion",
+        "shiny surface",
+        "well-demarcated borders",
+        "hair-covered surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right leg",
+        "erythema",
+        "lesion",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "right leg lesion",
+        "erythematous patch"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:22+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 218,
+      "total_tokens": 807
+    }
+  },
+  "Case_16006/figure7.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure7.jpg",
+    "source_caption": "Skin biopsy with H and E stain showing epithelioid histiocytes, giant multinucleated cells and interstitial edema (40x).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing epithelioid histiocytes, multinucleated giant cells, and interstitial edema.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin tissue at 40x magnification. The tissue contains clusters of epithelioid histiocytes and multinucleated giant cells, indicative of granulomatous inflammation. There is also evidence of interstitial edema, with pale spaces between cells. The nuclei of the histiocytes are elongated and vesicular, and the giant cells exhibit multiple nuclei arranged peripherally or centrally.",
+      "visible_findings": [
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "interstitial edema",
+        "granulomatous inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "granuloma",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:27+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 270,
+      "total_tokens": 881
+    }
+  },
+  "Case_16006/figure9.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure9.jpg",
+    "source_caption": "Skin biopsy with Ziehl - Neelsen stain and acid-fast bacilli.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Ziehl-Neelsen stain showing acid-fast bacilli in a skin biopsy.",
+      "detailed_description": "This image shows a Ziehl-Neelsen stain of a skin biopsy. The background tissue is stained blue, while several slender, rod-shaped structures are stained bright pink, consistent with acid-fast bacilli. The staining highlights the presence of mycobacteria within the tissue, which are characteristic of certain infections such as leprosy or tuberculosis.",
+      "visible_findings": [
+        "blue-stained background tissue",
+        "bright pink, rod-shaped acid-fast bacilli",
+        "Ziehl-Neelsen staining pattern"
+      ],
+      "keywords": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "skin biopsy",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "skin biopsy",
+        "mycobacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:28+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 237,
+      "total_tokens": 834
+    }
+  },
+  "Case_16006/figure8.jpg": {
+    "case_id": "Case_16006",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16006/figure8.jpg",
+    "source_caption": "Skin biopsy with H and E stain showing epithelioid histiocytes, giant multinucleated cells and interstitial edema (40x, oil).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain showing epithelioid histiocytes, multinucleated giant cells, and interstitial edema (40x magnification).",
+      "detailed_description": "This histopathological image, stained with hematoxylin and eosin (H&E), shows a collection of epithelioid histiocytes and multinucleated giant cells, characteristic of granulomatous inflammation. The surrounding tissue exhibits interstitial edema and a loose arrangement of collagen fibers. The magnification is approximately 40x, with oil immersion enhancing cellular detail. The findings suggest a granulomatous process, potentially infectious or non-infectious in etiology.",
+      "visible_findings": [
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "interstitial edema",
+        "loose collagen fibers"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "granuloma",
+        "H&E stain",
+        "giant cells",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "granulomatous inflammation",
+        "multinucleated giant cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:29+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 282,
+      "total_tokens": 895
+    }
+  }
+}

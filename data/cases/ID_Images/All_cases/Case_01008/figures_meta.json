@@ -1,0 +1,202 @@
+{
+  "Case_01008/figure2.jpg": {
+    "case_id": "Case_01008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01008/figure2.jpg",
+    "source_caption": "Gram stain of sputum.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "sputum",
+      "short_caption": "Gram stain of sputum showing inflammatory cells and gram-positive cocci.",
+      "detailed_description": "This image shows a Gram stain of sputum. Multiple inflammatory cells, likely neutrophils, are visible, characterized by their multilobed nuclei. Among these cells, gram-positive cocci are present, appearing as small, round, darkly stained structures. The background is lightly stained, consistent with sputum material. The image suggests an infectious process, likely bacterial in origin.",
+      "visible_findings": [
+        "inflammatory cells with multilobed nuclei",
+        "gram-positive cocci",
+        "lightly stained background consistent with sputum"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "inflammatory cells",
+        "gram-positive cocci",
+        "bacterial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "bacterial infection",
+        "respiratory infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:15+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 235,
+      "total_tokens": 823
+    }
+  },
+  "Case_01008/figure4.jpg": {
+    "case_id": "Case_01008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01008/figure4.jpg",
+    "source_caption": "GMS stain of synovial fluid.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "synovial fluid",
+      "short_caption": "GMS stain of synovial fluid showing fungal elements.",
+      "detailed_description": "This is a microscopic image of synovial fluid stained with Gomori methenamine silver (GMS). The stain highlights round to oval fungal elements, appearing as darkly stained structures against a lighter background. The fungal cells are of varying sizes and exhibit a characteristic morphology consistent with yeast forms. The image suggests the presence of a fungal infection in the synovial fluid.",
+      "visible_findings": [
+        "darkly stained round to oval fungal elements",
+        "varying sizes of fungal cells",
+        "GMS stain highlighting fungal structures"
+      ],
+      "keywords": [
+        "gms stain",
+        "synovial fluid",
+        "fungal infection",
+        "yeast forms",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal elements in synovial fluid",
+        "synovial fluid microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:16+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 239,
+      "total_tokens": 830
+    }
+  },
+  "Case_01008/figure5.jpg": {
+    "case_id": "Case_01008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01008/figure5.jpg",
+    "source_caption": "Synovial fluid culture preparation.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "synovial fluid",
+      "short_caption": "Microscopic view of synovial fluid showing fungal elements.",
+      "detailed_description": "This image shows a microscopic view of synovial fluid, prepared with a stain to highlight fungal elements. Multiple round to oval structures with thick walls are visible, consistent with fungal yeast forms. Some structures appear to have budding, indicative of fungal replication. The background contains amorphous debris and smaller particles, likely cellular remnants or proteinaceous material.",
+      "visible_findings": [
+        "round to oval structures with thick walls",
+        "budding yeast forms",
+        "amorphous background debris"
+      ],
+      "keywords": [
+        "microscopy",
+        "synovial fluid",
+        "fungal elements",
+        "yeast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "synovial fluid microscopy",
+        "fungal infection",
+        "joint infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 222,
+      "total_tokens": 811
+    }
+  },
+  "Case_01008/figure1.jpg": {
+    "case_id": "Case_01008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01008/figure1.jpg",
+    "source_caption": "Figure 1. Chest radiograph at presentation.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing diffuse bilateral interstitial opacities.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating diffuse bilateral interstitial opacities throughout both lung fields. The heart size appears normal, and there is no obvious pleural effusion. The findings are suggestive of a diffuse pulmonary process, such as interstitial pneumonia or pulmonary edema. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "diffuse bilateral interstitial opacities",
+        "normal heart size",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "interstitial opacities",
+        "lungs",
+        "pulmonary process"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "interstitial lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:17+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 220,
+      "total_tokens": 812
+    }
+  },
+  "Case_01008/figure3.jpg": {
+    "case_id": "Case_01008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01008/figure3.jpg",
+    "source_caption": "Gram stain of synovial fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "synovial fluid",
+      "short_caption": "Gram stain of synovial fluid showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of synovial fluid. Prominent gram-positive cocci in clusters are visible, stained dark purple, consistent with a bacterial morphology suggestive of staphylococcal species. The background contains cellular debris and lighter staining material, likely representing inflammatory cells and proteinaceous fluid.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "background of cellular debris",
+        "inflammatory cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "synovial fluid",
+        "gram-positive cocci",
+        "infection",
+        "staphylococcus"
+      ],
+      "reveal_triggers": [
+        "gram stain of synovial fluid",
+        "joint infection",
+        "synovial fluid analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:19+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 218,
+      "total_tokens": 808
+    }
+  }
+}

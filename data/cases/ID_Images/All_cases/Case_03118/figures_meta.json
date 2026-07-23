@@ -1,0 +1,14 @@
+{
+  "Case_03118/figure1.jpg": {
+    "case_id": "Case_03118",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03118/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:31:26+00:00"
+  }
+}

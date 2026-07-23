@@ -1,0 +1,125 @@
+{
+  "Case_09016/figure1.jpg": {
+    "case_id": "Case_09016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09016/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating bilateral pulmonary infiltrates, more prominent in the lower lung zones. The lung fields appear hazy with patchy opacities, suggesting an infectious or inflammatory process. Medical devices, including a central venous catheter and ECG leads, are visible. The cardiac silhouette is within normal limits, and no obvious pleural effusion is noted.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "hazy lung fields with patchy opacities",
+        "central venous catheter in place",
+        "ECG leads visible",
+        "normal cardiac silhouette"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "infection",
+        "medical devices"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:51+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_09016/figure2.jpg": {
+    "case_id": "Case_09016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09016/figure2.jpg",
+    "source_caption": "Peripheral blood smear, 10x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing a single purple-stained cell among red blood cells.",
+      "detailed_description": "This is a peripheral blood smear stained with a hematologic stain (likely Wright-Giemsa). The image shows numerous red blood cells (RBCs) with a single, centrally located purple-stained cell, which appears to be a white blood cell (likely a lymphocyte or monocyte). The RBCs are uniform in size and shape, with no obvious abnormalities. The magnification is approximately 10x, as indicated in the case text.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "single purple-stained white blood cell",
+        "uniform RBC morphology"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "hematology",
+        "white blood cell",
+        "red blood cells",
+        "Wright-Giemsa stain"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "hematology slide",
+        "blood cell morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:53+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 248,
+      "total_tokens": 840
+    }
+  },
+  "Case_09016/figure3.jpg": {
+    "case_id": "Case_09016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09016/figure3.jpg",
+    "source_caption": "Peripheral blood smear, 40x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing intracellular and extracellular purple-staining inclusions.",
+      "detailed_description": "This is a peripheral blood smear viewed under 40x magnification. The image shows numerous red blood cells (RBCs) with a central pale area, consistent with normal morphology. A prominent purple-staining inclusion is visible, likely representing a parasitic organism, within one of the RBCs. Additional extracellular purple-staining material is also present, suggesting possible lysis of infected cells. The smear appears stained with a Giemsa or Wright stain, commonly used for blood parasite identification.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "intracellular purple-staining inclusion",
+        "extracellular purple-staining material"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "red blood cells",
+        "parasite",
+        "giemsa stain",
+        "wright stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "peripheral blood",
+        "parasite in blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:53+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 261,
+      "total_tokens": 853
+    }
+  }
+}

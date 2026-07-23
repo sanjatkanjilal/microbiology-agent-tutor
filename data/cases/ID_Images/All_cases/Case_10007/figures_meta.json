@@ -1,0 +1,288 @@
+{
+  "Case_10007/figure2.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure2.jpg",
+    "source_caption": "Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing branching filamentous bacteria from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. The field contains numerous branching, filamentous structures consistent with filamentous bacteria. The organisms appear Gram-positive, as indicated by their reddish-purple staining. The background is relatively clear, with no visible host cells or debris, suggesting a pure culture.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "Gram-positive staining",
+        "clear background with no visible host cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "filamentous bacteria",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "filamentous bacteria",
+        "infectious diseases microbiology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:34+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 213,
+      "total_tokens": 801
+    }
+  },
+  "Case_10007/figure3.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure3.jpg",
+    "source_caption": "Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive rods and cocci from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. Numerous gram-positive rods and cocci are visible, stained pinkish-red, indicating a Gram-positive reaction. The rods appear in short chains or singly, while the cocci are clustered. The background is clear, consistent with a de-identified laboratory preparation.",
+      "visible_findings": [
+        "gram-positive rods",
+        "gram-positive cocci",
+        "pinkish-red staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive rods",
+        "gram-positive cocci",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "gram-positive bacteria",
+        "blood culture microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:39+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 217,
+      "total_tokens": 805
+    }
+  },
+  "Case_10007/figure4.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure4.jpg",
+    "source_caption": "Subculture on MacConkey agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on MacConkey agar.",
+      "detailed_description": "This image shows a culture plate with bacterial growth on MacConkey agar, a selective and differential medium. The plate displays areas of bacterial colonies, some of which appear to have a pink hue, indicating lactose fermentation. The medium itself is a pale reddish color, characteristic of MacConkey agar. A black bar obscures identifying text on the plate.",
+      "visible_findings": [
+        "bacterial colonies on agar",
+        "pink coloration indicating lactose fermentation",
+        "reddish agar medium",
+        "black bar obscuring text"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "bacterial colonies",
+        "lactose fermentation",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "bacterial culture",
+        "lactose fermentation"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:39+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 224,
+      "total_tokens": 814
+    }
+  },
+  "Case_10007/figure1.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing thoracic structures and potential abnormalities.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. The lungs are visible bilaterally, with no overt consolidation or effusion apparent. The cardiac silhouette appears within normal limits, and the diaphragm is well-defined. The bony structures, including the ribs, clavicles, and spine, are visible. There is no clear evidence of pneumothorax or gross pathology, but further clinical correlation is recommended.",
+      "visible_findings": [
+        "bilateral lung fields visible",
+        "cardiac silhouette within normal limits",
+        "diaphragm well-defined",
+        "no overt consolidation or effusion",
+        "bony structures intact"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "cardiac silhouette",
+        "diaphragm",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "radiograph of lungs"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:41+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 258,
+      "total_tokens": 844
+    }
+  },
+  "Case_10007/figure5.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure5.jpg",
+    "source_caption": "Subculture on blood agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial colonies on blood agar plate.",
+      "detailed_description": "This image shows a blood agar plate with visible bacterial colonies. The colonies are distributed along streak lines, suggesting an isolation streaking technique was used. The blood agar medium appears red, indicating it is intact and not hemolyzed in most areas. Some colonies may show subtle hemolysis, but this is not prominent in the image.",
+      "visible_findings": [
+        "red blood agar plate",
+        "bacterial colonies along streak lines",
+        "intact agar with minimal hemolysis"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "isolation streak"
+      ],
+      "reveal_triggers": [
+        "blood agar",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:46+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 210,
+      "total_tokens": 798
+    }
+  },
+  "Case_10007/figure7.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure7.jpg",
+    "source_caption": "Chlorazol black staining of stool specimen, with Blastocystis hominis.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Chlorazol black staining of stool specimen showing Blastocystis hominis cysts.",
+      "detailed_description": "This image shows a stool specimen stained with Chlorazol black, highlighting multiple round to oval cystic structures consistent with Blastocystis hominis. The cysts are darkly stained with a clear central area, and their size and morphology are characteristic of this organism. The background contains amorphous debris and other non-specific elements.",
+      "visible_findings": [
+        "round to oval cystic structures",
+        "dark staining with clear central areas",
+        "amorphous background debris"
+      ],
+      "keywords": [
+        "chlorazol black stain",
+        "stool specimen",
+        "blastocystis hominis",
+        "parasitology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chlorazol black stain",
+        "stool microscopy",
+        "blastocystis hominis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:49+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 233,
+      "total_tokens": 831
+    }
+  },
+  "Case_10007/figure6.jpg": {
+    "case_id": "Case_10007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10007/figure6.jpg",
+    "source_caption": "Chlorazol black staining of stool specimen, with Dientamoeba fragilis trophozoites.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Chlorazol black staining of stool showing Dientamoeba fragilis trophozoites.",
+      "detailed_description": "This image shows a stool specimen stained with Chlorazol black. The trophozoites of Dientamoeba fragilis are visible, appearing as rounded or slightly irregular structures with faint internal details. The background consists of other debris and cellular material, which is less prominently stained. The labeling in the image highlights the trophozoites for identification.",
+      "visible_findings": [
+        "rounded or irregular trophozoites",
+        "faint internal details within trophozoites",
+        "background debris and cellular material",
+        "Chlorazol black stain"
+      ],
+      "keywords": [
+        "chlorazol black stain",
+        "stool specimen",
+        "dientamoeba fragilis",
+        "trophozoites",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "stool exam",
+        "chlorazol black stain",
+        "dientamoeba fragilis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:50+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 251,
+      "total_tokens": 853
+    }
+  }
+}

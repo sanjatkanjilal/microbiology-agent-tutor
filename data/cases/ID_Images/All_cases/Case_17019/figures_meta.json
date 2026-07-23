@@ -1,0 +1,130 @@
+{
+  "Case_17019/figure3.jpg": {
+    "case_id": "Case_17019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17019/figure3.jpg",
+    "source_caption": "Figure 3: 40x H&E stain of breast tissue with dense neutrophilic infiltrate surrounding the cystic area",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "breast tissue",
+      "short_caption": "H&E stain of breast tissue showing dense neutrophilic infiltrate surrounding a cystic area.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows breast tissue at 40x magnification. There is a dense infiltrate of neutrophils surrounding a cystic area, consistent with an inflammatory process. The epithelial lining appears disrupted, and the surrounding stroma shows evidence of acute inflammation. The image highlights the cellular details and inflammatory response.",
+      "visible_findings": [
+        "dense neutrophilic infiltrate",
+        "cystic area",
+        "disrupted epithelial lining",
+        "acute inflammation in stroma"
+      ],
+      "keywords": [
+        "histopathology",
+        "breast tissue",
+        "H&E stain",
+        "neutrophilic infiltrate",
+        "cystic area",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "breast histology",
+        "neutrophilic infiltrate",
+        "cystic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:44+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 262,
+      "total_tokens": 870
+    }
+  },
+  "Case_17019/figure1.jpg": {
+    "case_id": "Case_17019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17019/figure1.jpg",
+    "source_caption": "Ultrasound image of left breast mass",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "left breast",
+      "short_caption": "Ultrasound image of a left breast mass.",
+      "detailed_description": "This ultrasound image shows a hypoechoic, irregularly shaped mass in the left breast, located at the 9 o'clock position. The lesion measures approximately 3-4 cm in length and exhibits posterior acoustic shadowing, which may suggest a solid lesion. The surrounding breast tissue appears heterogeneous. The orientation and labeling confirm the left breast as the site of interest.",
+      "visible_findings": [
+        "hypoechoic mass",
+        "irregular shape",
+        "posterior acoustic shadowing",
+        "heterogeneous surrounding tissue",
+        "labeled as left breast, 9 o'clock position"
+      ],
+      "keywords": [
+        "ultrasound",
+        "breast",
+        "mass",
+        "hypoechoic",
+        "posterior shadowing",
+        "left breast"
+      ],
+      "reveal_triggers": [
+        "breast ultrasound",
+        "left breast mass",
+        "ultrasound of breast lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:48+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_17019/figure2.jpg": {
+    "case_id": "Case_17019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17019/figure2.jpg",
+    "source_caption": "Breast biopsy, H&E stain (4x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "breast",
+      "short_caption": "Breast biopsy, H&E stain at low magnification showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) at low magnification (4x), shows a central area of necrosis surrounded by granulomatous inflammation. The necrotic center appears pale and amorphous, while the surrounding tissue demonstrates a rim of inflammatory cells, including epithelioid histiocytes and possible multinucleated giant cells. The architecture suggests a granulomatous process, potentially infectious or non-infectious in etiology.",
+      "visible_findings": [
+        "central necrotic area",
+        "surrounding granulomatous inflammation",
+        "epithelioid histiocytes",
+        "possible multinucleated giant cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "breast",
+        "H&E stain",
+        "granuloma",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "breast biopsy",
+        "H&E stain",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:50+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 274,
+      "total_tokens": 866
+    }
+  }
+}

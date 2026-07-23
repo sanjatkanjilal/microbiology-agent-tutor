@@ -1,0 +1,212 @@
+{
+  "Case_03041/figure3.jpg": {
+    "case_id": "Case_03041",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03041/figure3.jpg",
+    "source_caption": "Thigh findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous, scaly plaque with central clearing on the thigh.",
+      "detailed_description": "This clinical photograph shows a large, annular lesion on the thigh. The lesion has a raised, erythematous border with scaling and central clearing, consistent with a ring-like appearance. The surrounding skin appears normal. The findings are suggestive of a dermatophyte infection, such as tinea corporis.",
+      "visible_findings": [
+        "annular lesion",
+        "raised erythematous border",
+        "scaling",
+        "central clearing",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "dermatophyte",
+        "tinea corporis",
+        "skin lesion",
+        "annular plaque"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "thigh lesion",
+        "ringworm",
+        "tinea corporis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:31+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  },
+  "Case_03041/figure2.jpg": {
+    "case_id": "Case_03041",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03041/figure2.jpg",
+    "source_caption": "Left thigh findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left thigh",
+      "short_caption": "Ulcerative lesion with surrounding erythema on the left thigh.",
+      "detailed_description": "The image shows a clinical photograph of the left thigh. A central ulcerative lesion with a necrotic base and surrounding erythema is visible. Below the main lesion, there are smaller, erythematous papules arranged in a linear distribution, suggestive of lymphatic spread. The surrounding skin appears hyperpigmented, and there is no visible discharge from the lesions.",
+      "visible_findings": [
+        "central ulcerative lesion with necrotic base",
+        "surrounding erythema",
+        "linear arrangement of smaller erythematous papules",
+        "hyperpigmented surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "ulcer",
+        "erythema",
+        "lymphatic spread",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "ulcer on thigh",
+        "infectious lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:34+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 249,
+      "total_tokens": 835
+    }
+  },
+  "Case_03041/figure1.jpg": {
+    "case_id": "Case_03041",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03041/figure1.jpg",
+    "source_caption": "Facial findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesions with nodules and scarring.",
+      "detailed_description": "This clinical photograph shows the central face, including the nose and adjacent areas. There are multiple nodular lesions, some with overlying crusting, and areas of scarring. The lesions appear erythematous and are distributed across the nasal bridge, cheeks, and perioral region. The image is de-identified with black bars obscuring the eyes.",
+      "visible_findings": [
+        "nodular lesions on the face",
+        "crusting over some lesions",
+        "scarring in affected areas",
+        "erythema around lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "nodules",
+        "scarring",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "facial lesions",
+        "skin nodules",
+        "infectious skin findings"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:34+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 229,
+      "total_tokens": 814
+    }
+  },
+  "Case_03041/figure4.jpg": {
+    "case_id": "Case_03041",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03041/figure4.jpg",
+    "source_caption": "Findings on palm.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palm and forearm",
+      "short_caption": "Multiple dark maculopapular lesions on the palm and forearm.",
+      "detailed_description": "This clinical photograph shows the palm of a hand and part of the forearm. Multiple dark, maculopapular lesions are visible, distributed across the palm and extending onto the forearm. The lesions vary slightly in size and are scattered irregularly. The background skin appears otherwise normal, with no visible erythema or scaling.",
+      "visible_findings": [
+        "multiple dark maculopapular lesions",
+        "lesions on the palm and forearm",
+        "normal background skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palm",
+        "forearm",
+        "maculopapular lesions",
+        "skin findings"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on palm",
+        "maculopapular lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:40+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 228,
+      "total_tokens": 814
+    }
+  },
+  "Case_03041/figure5.jpg": {
+    "case_id": "Case_03041",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03041/figure5.jpg",
+    "source_caption": "Findings on soles.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "soles of feet",
+      "short_caption": "Hyperpigmented macules on the soles of both feet.",
+      "detailed_description": "This image shows the soles of both feet with multiple irregularly shaped hyperpigmented macules distributed across the plantar surfaces. The lesions vary in size and are more prominent on the medial and lateral aspects of the soles. The skin appears otherwise intact without visible ulceration or scaling. The background skin tone is uniform aside from the lesions.",
+      "visible_findings": [
+        "multiple hyperpigmented macules",
+        "irregular shapes and variable sizes",
+        "distribution across both soles",
+        "no visible ulceration or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "feet",
+        "soles",
+        "hyperpigmentation",
+        "macules",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lesions on soles",
+        "hyperpigmented macules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:41+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  }
+}

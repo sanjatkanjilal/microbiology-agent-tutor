@@ -118,6 +118,35 @@ function patientStyleLabel(styleId) {
   return PATIENT_STYLES.find(s => s.id === styleId)?.label || styleId;
 }
 
+function moduleSendLabel(activeModule) {
+  switch (activeModule) {
+    case "history_taking": return "Send to case";
+    case "differential_diagnosis": return "Send to DDx";
+    case "management": return "Send to mgmt";
+    case "pathophys_epi": return "Send to pathophys";
+    default: return "Send to module";
+  }
+}
+
+function resolveSpeakerLabel(speaker) {
+  switch (speaker) {
+    case "patient": return "Patient";
+    case "family": return "Family";
+    case "nurse": return "Nurse";
+    case "tutor": return "Docent";
+    default: return "Docent";
+  }
+}
+
+function resolveSpeakerAvatar(speaker) {
+  switch (speaker) {
+    case "patient": return "🧑";
+    case "family": return "👪";
+    case "nurse": return "🩺";
+    default: return "👨‍⚕️";
+  }
+}
+
 const HOW_IT_WORKS_CONTENT = [
   "docent.ID teaches clinical infectious diseases through active case-based learning.",
   "Rather than presenting information to read, it puts you inside a case. You interview a patient, gather findings, reason through a differential diagnosis, and justify your management plan — guided throughout by Socratic questioning that never gives away the answer.",
@@ -840,9 +869,11 @@ function MessageBubble({ msg, onFeedback }) {
   const [feedbackGiven, setFeedbackGiven] = useState(null);
   if (msg.role === "system") return null;
 
-  const speaker = msg.speaker || (isUser ? "user" : "tutor");
-  const avatar = isUser ? "👤" : (speaker === "patient" ? "🧑" : "👨‍⚕️");
-  const speakerLabel = isUser ? null : (speaker === "patient" ? "Patient" : "Docent");
+  const isStreamingWait = Boolean(msg.streaming) && !msg.content;
+  const speaker = isUser ? "user" : (msg.speaker || (msg.streaming ? null : "tutor"));
+  const avatar = isUser ? "👤" : (speaker ? resolveSpeakerAvatar(speaker) : null);
+  const speakerLabel = isUser || !speaker ? null : resolveSpeakerLabel(speaker);
+  const caseSide = speaker === "patient" || speaker === "family" || speaker === "nurse";
 
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-end" : "flex-start", marginBottom: 16 }}>
@@ -852,23 +883,26 @@ function MessageBubble({ msg, onFeedback }) {
         </div>
       )}
       <div style={{ display: "flex", alignItems: "flex-start", gap: 8, maxWidth: "85%", flexDirection: isUser ? "row-reverse" : "row" }}>
-        <div style={{
-          width: 28, height: 28, borderRadius: "50%",
-          background: isUser ? "var(--bg-accent)" : (speaker === "patient" ? "var(--surface-2)" : "var(--surface-0)"),
-          border: "1px solid var(--border)", display: "flex", alignItems: "center",
-          justifyContent: "center", fontSize: 13, flexShrink: 0, marginTop: 2,
-        }}>
-          {avatar}
-        </div>
+        {!isStreamingWait && (
+          <div style={{
+            width: 28, height: 28, borderRadius: "50%",
+            background: isUser ? "var(--bg-accent)" : (caseSide ? "var(--surface-2)" : "var(--surface-0)"),
+            border: "1px solid var(--border)", display: "flex", alignItems: "center",
+            justifyContent: "center", fontSize: 13, flexShrink: 0, marginTop: 2,
+          }}>
+            {avatar}
+          </div>
+        )}
         <div style={{
           background: isUser ? "var(--bg-accent)" : "var(--surface-1)",
           border: `1px solid ${isUser ? "var(--border-accent)" : "var(--border)"}`,
           borderRadius: isUser ? "16px 4px 16px 16px" : "4px 16px 16px 16px",
           padding: "10px 14px", fontSize: 14, lineHeight: 1.6,
           color: "var(--text-primary)", fontFamily: "var(--font-sans)",
+          marginLeft: isStreamingWait ? 36 : 0,
         }}>
           {msg.streaming ? (
-            <span>{msg.content}<span style={{ display: "inline-block", width: 6, height: 14, background: "var(--text-secondary)", marginLeft: 2, borderRadius: 1, animation: "blink 1s infinite" }} /></span>
+            <span>{msg.content || ""}<span style={{ display: "inline-block", width: 6, height: 14, background: "var(--text-secondary)", marginLeft: 2, borderRadius: 1, animation: "blink 1s infinite" }} /></span>
           ) : (
             <span dangerouslySetInnerHTML={{ __html: formatMessage(msg.content) }} />
           )}
@@ -1026,9 +1060,9 @@ function renderImagesSection(caseContext) {
             📷 Case Library Figures ({revealedFigures.length} of {availableFigures.length} Revealed)
           </div>
           {revealedFigures.length === 0 ? (
-            <span>Ask specific questions or order relevant tests regarding physical examination findings, radiology/imaging, or biopsy/pathology stains to reveal the case images right here!</span>
+            <span>Order imaging, request to examine a finding, or refer to a specific figure (e.g. “Figure 1”) to reveal case images. History questions alone (e.g. “any rashes?”) will not unlock figures.</span>
           ) : (
-            <span>Figures relevant to your clinical inquiry are displayed below. Ask about other studies or findings to reveal more!</span>
+            <span>Figures relevant to your clinical orders/exam requests are below. Order other studies or name a figure to reveal more.</span>
           )}
         </div>
       )}
@@ -1547,6 +1581,7 @@ function ChatScreen({
   const [patientStyle, setPatientStyle] = useState(initialPatientStyle || "neutral");
   const [allowPlausibleFindings, setAllowPlausibleFindings] = useState(!!initialAllowPlausibleFindings);
   const [showStylePicker, setShowStylePicker] = useState(false);
+  const [sendTarget, setSendTarget] = useState("module");
   const hasHistoryModule = modules.includes("history_taking");
 
   const historyRef = useRef([]);
@@ -1618,16 +1653,21 @@ function ChatScreen({
         const opening = (data.opening_messages && data.opening_messages.length > 0)
           ? data.opening_messages.map(m => ({
             role: "assistant",
-            speaker: m.speaker,
-            content: m.content,
+            speaker: m.speaker || "tutor",
+            content: stripAgentMarkers(m.content || ""),
           }))
-          : [{ role: "assistant", speaker: "tutor", content: data.initial_message }];
+          : [{ role: "assistant", speaker: "tutor", content: stripAgentMarkers(data.initial_message || "") }];
 
         historyRef.current = opening;
         setMessages(opening);
 
-        const patientMsg = opening.find(m => m.speaker === "patient");
-        const presentation = (data.presentation || patientMsg?.content || extractPresentation(data) || "").trim();
+        const caseSpeakerMsg = opening.find(m => m.speaker && m.speaker !== "tutor");
+        const presentation = (
+          stripAgentMarkers(data.presentation || "")
+          || caseSpeakerMsg?.content
+          || extractPresentation(data)
+          || ""
+        ).trim();
         if (presentation) setChiefComplaint(presentation);
         setEmrData(prev => ({
           ...prev,
@@ -1657,6 +1697,7 @@ function ChatScreen({
   const sendMessage = useCallback(async () => {
     const text = input.trim();
     if (!text || loading || !caseActive) return;
+    const routeToDocent = sendTarget === "docent";
     setInput("");
     setError(null);
 
@@ -1681,6 +1722,8 @@ function ChatScreen({
           current_phase: currentPhase,
           patient_style: patientStyle,
           allow_plausible_findings: allowPlausibleFindings,
+          active_module: activeModule,
+          route_to: routeToDocent ? "tutor" : null,
         }),
       });
       if (!res.ok) throw new Error(`Server error ${res.status}`);
@@ -1688,6 +1731,7 @@ function ChatScreen({
       const contentType = res.headers.get("content-type") || "";
       let responseText = "";
       let toolsUsed = [];
+      let replySpeaker = routeToDocent ? "tutor" : "patient";
 
       if (contentType.includes("text/event-stream")) {
         const reader = res.body.getReader();
@@ -1705,6 +1749,10 @@ function ChatScreen({
                 if (p.emr_data) setEmrData(prev => applyEmrData(prev, p.emr_data));
                 if (typeof p.emr_busy === "boolean") setEmrBusy(p.emr_busy);
                 if (Array.isArray(p.tools_used)) toolsUsed = p.tools_used;
+                if (Array.isArray(p.revealed_figures) && p.revealed_figures.length) {
+                  applyRevealedFigureNumbers(p.revealed_figures, setCaseContext);
+                }
+                if (p.speaker) replySpeaker = p.speaker;
               } catch {}
             }
           }
@@ -1724,25 +1772,35 @@ function ChatScreen({
         }
         if (typeof data.emr_busy === "boolean") setEmrBusy(data.emr_busy);
         else setEmrBusy(true);
+        const revealedNums = data.revealed_figures || data.metadata?.revealed_figures;
+        if (Array.isArray(revealedNums) && revealedNums.length) {
+          applyRevealedFigureNumbers(revealedNums, setCaseContext);
+        }
+        if (data.speaker || data.metadata?.speaker) {
+          replySpeaker = data.speaker || data.metadata.speaker;
+        } else if (toolsUsed.includes("patient")) {
+          replySpeaker = "patient";
+        } else if (routeToDocent) {
+          replySpeaker = "tutor";
+        }
         setProgress(prev => ({
           ...prev,
           [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
         }));
       }
 
-      unlockRelevantFigures(text, responseText, caseContext, setCaseContext);
-
-      const replySpeaker = toolsUsed.includes("patient") ? "patient" : "tutor";
-      const aMsg = { role: "assistant", speaker: replySpeaker, content: responseText };
+      const cleanReply = stripAgentMarkers(responseText);
+      const aMsg = { role: "assistant", speaker: replySpeaker, content: cleanReply };
       historyRef.current = [...historyRef.current, aMsg];
       setMessages(prev => prev.map(m => m.id === streamingId ? aMsg : m));
+      if (routeToDocent) setSendTarget("module");
     } catch (err) {
       setMessages(prev => prev.filter(m => m.id !== streamingId));
       setError(`Message failed: ${err.message}`);
     } finally {
       setLoading(false);
     }
-  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule, patientStyle, allowPlausibleFindings]);
+  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule, patientStyle, allowPlausibleFindings, sendTarget]);
 
   const handleFeedback = useCallback(async (msg, rating) => {
     try {
@@ -1879,7 +1937,7 @@ function ChatScreen({
       <ModuleProgressBar
         modules={modules}
         activeModule={activeModule}
-        onSwitchModule={setActiveModule}
+        onSwitchModule={(mod) => { setActiveModule(mod); setSendTarget("module"); }}
         progress={progress}
       />
 
@@ -1936,11 +1994,40 @@ function ChatScreen({
           )}
 
           {/* Input bar */}
-          <div style={{ padding: "10px 12px", borderTop: "1px solid var(--border)", background: "var(--surface-1)", display: "flex", gap: 6, alignItems: "flex-end", flexShrink: 0 }}>
+          <div style={{ padding: "10px 12px", borderTop: "1px solid var(--border)", background: "var(--surface-1)", flexShrink: 0 }}>
+            <div style={{ display: "flex", gap: 6, marginBottom: 8, flexWrap: "wrap" }}>
+              {[
+                { id: "module", label: moduleSendLabel(activeModule) },
+                { id: "docent", label: "Ask Docent" },
+              ].map(opt => {
+                const active = sendTarget === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    type="button"
+                    onClick={() => setSendTarget(opt.id)}
+                    disabled={!caseActive || loading}
+                    style={{
+                      padding: "5px 10px",
+                      borderRadius: 999,
+                      border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                      background: active ? "var(--bg-accent)" : "var(--surface-0)",
+                      color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                      fontSize: 12,
+                      cursor: caseActive && !loading ? "pointer" : "default",
+                      fontFamily: "var(--font-sans)",
+                    }}
+                  >
+                    {opt.label}
+                  </button>
+                );
+              })}
+            </div>
+            <div style={{ display: "flex", gap: 6, alignItems: "flex-end" }}>
             <textarea ref={inputRef} value={input}
               onChange={e => { setInput(e.target.value); e.target.style.height = "auto"; e.target.style.height = Math.min(e.target.scrollHeight, 120) + "px"; }}
               onKeyDown={handleKeyDown}
-              placeholder={caseActive ? "Message the tutor…" : "Waiting for case to start…"}
+              placeholder={caseActive ? (sendTarget === "docent" ? "Ask Docent for coaching…" : "Message the case…") : "Waiting for case to start…"}
               disabled={!caseActive || loading} rows={1}
               style={{
                 flex: 1, padding: "8px 10px", borderRadius: "var(--radius)",
@@ -1956,7 +2043,8 @@ function ChatScreen({
               color: input.trim() && !loading && caseActive ? "var(--on-accent)" : "var(--text-disabled)",
               cursor: input.trim() && !loading && caseActive ? "pointer" : "default",
               fontSize: 13, fontWeight: 500, fontFamily: "var(--font-sans)", flexShrink: 0,
-            }}>Send</button>
+            }}>{sendTarget === "docent" ? "Ask" : "Send"}</button>
+            </div>
           </div>
         </div>
 
@@ -2051,56 +2139,40 @@ function ChatScreen({
   }
 }
 
-function unlockRelevantFigures(userText, assistantText, caseContext, setCaseContext) {
-  if (!caseContext || !caseContext.availableFigures || caseContext.availableFigures.length === 0) return;
-  const u = (userText || "").toLowerCase();
-  const a = (assistantText || "").toLowerCase();
-  const combined = u + " " + a;
-  
-  const toReveal = new Set();
-  const available = caseContext.availableFigures;
+/** Unlock case figures from backend LLM reveal (validated figure numbers). */
+function applyRevealedFigureNumbers(figureNumbers, setCaseContext) {
+  if (!Array.isArray(figureNumbers) || figureNumbers.length === 0) return;
+  setCaseContext(prev => {
+    if (!prev?.availableFigures?.length) return prev;
+    const available = prev.availableFigures;
+    const currentRevealed = prev.revealedFigures || [];
+    const toAdd = [];
+    for (const raw of figureNumbers) {
+      const n = Number(raw);
+      if (!Number.isFinite(n)) continue;
+      const url = available.find(u => u.toLowerCase().includes(`figure${n}.`));
+      if (url && !currentRevealed.includes(url) && !toAdd.includes(url)) toAdd.push(url);
+    }
+    if (toAdd.length === 0) return prev;
+    return { ...prev, revealedFigures: [...currentRevealed, ...toAdd] };
+  });
+}
 
-  // 1. Explicit mention of Figure X in tutor response or user question
-  const figMatches = [...combined.matchAll(/(?:figure|fig)\.?\s*(\d+)/gi)];
-  for (const m of figMatches) {
-    const num = m[1];
-    const target = available.find(url => url.toLowerCase().includes(`figure${num}.`));
-    if (target) toReveal.add(target);
-  }
+/** Defensive strip if agent markers leak into displayed chat text. */
+function stripAgentMarkers(text) {
+  if (!text) return text;
+  return String(text)
+    .replace(/\[\[\s*speaker\s*:\s*(patient|family|nurse|tutor)\s*\]\]/gi, "")
+    .replace(/\[\[\s*display_figure\s*:\s*\d+\s*\]\]/gi, "")
+    .replace(/\bdisplay_figure\s*\(\s*\d+\s*\)/gi, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
 
-  // 2. Physical exam topics
-  if (combined.match(/(?:skin|rash|lesion|face|mouth|extremit|physical exam|on exam|inspect|palpat|auscultat|lymph node|ulcer|plaque)/i)) {
-    const target = available.find(url => url.toLowerCase().includes("figure1."));
-    if (target) toReveal.add(target);
-  }
-
-  // 3. Radiology / imaging topics
-  if (combined.match(/(?:x-?ray|radiograph|ct scan|mri|ultrasound|imaging|infiltrate|consolidation|cavity|opacity|pleural|chest study)/i)) {
-    const target = available.find(url => url.toLowerCase().includes("figure2.") || url.toLowerCase().includes("xray") || url.toLowerCase().includes("rad"));
-    if (target) toReveal.add(target);
-  }
-
-  // 4. Pathology / biopsy / stain topics
-  if (combined.match(/(?:biopsy|silver stain|mucicarmine|gram stain|acid-fast|histolog|patholog|microscop|yeast|hyphae|spherule|encapsulated|stain|tissue)/i)) {
-    available.forEach(url => {
-      if (url.toLowerCase().includes("figure3.") || url.toLowerCase().includes("figure4.") || url.toLowerCase().includes("figure5.")) {
-        toReveal.add(url);
-      }
-    });
-  }
-
-  if (toReveal.size > 0) {
-    setCaseContext(prev => {
-      if (!prev) return prev;
-      const currentRevealed = prev.revealedFigures || [];
-      const newRevealed = Array.from(toReveal).filter(url => !currentRevealed.includes(url));
-      if (newRevealed.length === 0) return prev;
-      return {
-        ...prev,
-        revealedFigures: [...currentRevealed, ...newRevealed],
-      };
-    });
-  }
+/** @deprecated use stripAgentMarkers */
+function stripDisplayFigureMarkers(text) {
+  return stripAgentMarkers(text);
 }
 
 function AboutImageSlot({

@@ -1,0 +1,166 @@
+{
+  "Case_12008/figure1.jpg": {
+    "case_id": "Case_12008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12008/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Skin lesions on the forearm, including a sutured wound and an erythematous pustule.",
+      "detailed_description": "This image shows a forearm with two distinct lesions. One lesion is a sutured wound with surrounding erythema, suggesting recent trauma or surgical intervention. The second lesion is a raised, erythematous pustule with a central area of necrosis or crusting, indicative of a possible infectious process. The surrounding skin appears mildly erythematous but otherwise intact.",
+      "visible_findings": [
+        "sutured wound with surrounding erythema",
+        "raised pustule with central necrosis or crusting",
+        "mild erythema of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "skin lesion",
+        "pustule",
+        "sutured wound",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "forearm lesion",
+        "infected wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  },
+  "Case_12008/figure2.jpg": {
+    "case_id": "Case_12008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12008/figure2.jpg",
+    "source_caption": "Skin biopsy, DPAS stain, with arrow showing organisms.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with DPAS stain showing fungal organisms (arrow).",
+      "detailed_description": "This is a high-magnification histopathology image of a skin biopsy stained with DPAS (diastase-periodic acid-Schiff). The tissue demonstrates an inflammatory infiltrate with numerous darkly stained fungal organisms visible, highlighted by the DPAS stain. The arrow points to a cluster of these organisms, which appear as round to oval structures with a magenta hue. The background shows connective tissue and inflammatory cells.",
+      "visible_findings": [
+        "darkly stained fungal organisms (magenta)",
+        "arrow pointing to a cluster of organisms",
+        "inflammatory infiltrate in the tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "DPAS stain",
+        "fungal organisms",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "DPAS stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:07+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 240,
+      "total_tokens": 834
+    }
+  },
+  "Case_12008/figure3.jpg": {
+    "case_id": "Case_12008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12008/figure3.jpg",
+    "source_caption": "Skin biopsy, H&E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain showing inflammatory infiltrate and multinucleated giant cells.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The tissue demonstrates a dense inflammatory infiltrate composed of numerous lymphocytes, histiocytes, and multinucleated giant cells. There is also evidence of dermal fibrosis and some areas of necrosis. The multinucleated giant cells suggest a granulomatous inflammatory process, which may be seen in infectious or non-infectious conditions.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "multinucleated giant cells",
+        "lymphocytes and histiocytes",
+        "dermal fibrosis",
+        "areas of necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "giant cells",
+        "granuloma"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:08+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 263,
+      "total_tokens": 852
+    }
+  },
+  "Case_12008/figure4.jpg": {
+    "case_id": "Case_12008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12008/figure4.jpg",
+    "source_caption": "Whale lung, GMS stain, with arrow showing organisms.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of lung tissue showing fungal organisms.",
+      "detailed_description": "This is a histopathological image of lung tissue stained with Gomori methenamine silver (GMS) stain. The tissue shows numerous round to oval fungal organisms, which are stained black against a green background. The red arrow highlights a cluster of these organisms. The GMS stain is commonly used to identify fungal elements in tissue sections.",
+      "visible_findings": [
+        "round to oval fungal organisms stained black",
+        "green background typical of GMS stain",
+        "red arrow pointing to fungal cluster"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung",
+        "fungal organisms",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "lung histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:09+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 220,
+      "total_tokens": 814
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "Case_01007/figure1.jpg": {
+    "case_id": "Case_01007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01007/figure1.jpg",
+    "source_caption": "Thick blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Thick blood smear showing spirochete morphology.",
+      "detailed_description": "This image shows a thick blood smear stained to highlight the presence of a spirochete, indicated by the arrow. The spirochete appears as a thin, wavy, spiral-shaped organism against a background of blood cells. The smear preparation is typical for detecting blood-borne parasites or bacteria with unique morphologies.",
+      "visible_findings": [
+        "spiral-shaped organism (spirochete)",
+        "arrow pointing to the organism",
+        "background of blood cells"
+      ],
+      "keywords": [
+        "thick blood smear",
+        "spirochete",
+        "blood",
+        "infectious diseases",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "thick blood smear",
+        "spirochete in blood",
+        "bloodborne infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:06+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 219,
+      "total_tokens": 805
+    }
+  },
+  "Case_01007/figure2.jpg": {
+    "case_id": "Case_01007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01007/figure2.jpg",
+    "source_caption": "Thin blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Thin blood smear showing spiral-shaped organisms among red blood cells.",
+      "detailed_description": "This is a thin blood smear stained to highlight cellular and microbial structures. The image shows multiple red blood cells with a uniform appearance, and a spiral-shaped organism (spirochete) is visible among them. The background is clear, and the stain enhances the contrast between the red blood cells and the organism. The spirochete is slender and elongated with a helical shape, characteristic of certain bacterial species.",
+      "visible_findings": [
+        "spiral-shaped organism (spirochete)",
+        "red blood cells with uniform morphology",
+        "clear background with no other visible cellular debris"
+      ],
+      "keywords": [
+        "thin blood smear",
+        "spirochete",
+        "red blood cells",
+        "infectious diseases",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "thin blood smear",
+        "spirochete in blood",
+        "blood smear microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:12+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 243,
+      "total_tokens": 829
+    }
+  }
+}

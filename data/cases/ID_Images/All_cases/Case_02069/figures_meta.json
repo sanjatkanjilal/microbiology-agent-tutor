@@ -1,0 +1,84 @@
+{
+  "Case_02069/figure1.jpg": {
+    "case_id": "Case_02069",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02069/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Ulcerated lesion with central eschar on the skin.",
+      "detailed_description": "This clinical photograph shows a single ulcerated lesion on the skin with a central black eschar surrounded by erythema. The lesion is well-demarcated, with mild perifocal redness and no visible discharge. The surrounding skin appears intact, with a few smaller erythematous papules nearby. The image is de-identified and focuses on the lesion itself.",
+      "visible_findings": [
+        "ulcerated lesion with central black eschar",
+        "surrounding erythema",
+        "well-demarcated borders",
+        "adjacent smaller erythematous papules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "eschar",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "cutaneous lesion",
+        "eschar"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:24+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  },
+  "Case_02069/figure2.jpg": {
+    "case_id": "Case_02069",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02069/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Two erythematous papules on the forearm, suggestive of insect bites.",
+      "detailed_description": "This clinical photograph shows the forearm with two distinct, erythematous papules. The lesions are round, slightly raised, and appear to have a central punctum, consistent with insect bites. The surrounding skin appears normal without significant erythema or swelling. The image is well-lit, and the lesions are clearly visible against the lighter skin tone of the forearm.",
+      "visible_findings": [
+        "two erythematous papules",
+        "central puncta on each lesion",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "papules",
+        "insect bites",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "forearm lesions",
+        "insect bites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 227,
+      "total_tokens": 795
+    }
+  }
+}

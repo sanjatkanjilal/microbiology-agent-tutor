@@ -1,0 +1,165 @@
+{
+  "Case_04030/figure1.jpg": {
+    "case_id": "Case_04030",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04030/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left wrist and hand",
+      "short_caption": "Clinical photograph showing erythema and swelling over the left wrist.",
+      "detailed_description": "This image shows the dorsal aspect of a left hand and wrist resting on a perforated white surface. There is visible erythema and mild swelling over the wrist area, with no apparent ulceration or discharge. The surrounding skin appears intact, and there are no obvious signs of trauma or scarring in the affected region.",
+      "visible_findings": [
+        "erythema over the left wrist",
+        "mild swelling",
+        "intact skin without ulceration or discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "wrist",
+        "erythema",
+        "swelling",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "wrist swelling",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  },
+  "Case_04030/figure2.jpg": {
+    "case_id": "Case_04030",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04030/figure2.jpg",
+    "source_caption": "Surgical pathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granuloma formation with surrounding inflammation.",
+      "detailed_description": "This histopathology image shows a well-formed granuloma, characterized by a central area of epithelioid histiocytes surrounded by a rim of lymphocytes and fibrosis. The granuloma is embedded within a background of inflamed tissue. The staining appears to be hematoxylin and eosin (H&E), highlighting cellular and tissue architecture. No visible organisms are identified in this image.",
+      "visible_findings": [
+        "well-formed granuloma",
+        "central epithelioid histiocytes",
+        "surrounding lymphocytic rim",
+        "fibrosis in the periphery",
+        "background inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "inflammation",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "granuloma histology",
+        "H&E stain of tissue",
+        "infectious pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:40+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 251,
+      "total_tokens": 836
+    }
+  },
+  "Case_04030/figure3.jpg": {
+    "case_id": "Case_04030",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04030/figure3.jpg",
+    "source_caption": "Surgical pathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing fungal elements within tissue.",
+      "detailed_description": "This histopathology image shows a tissue section stained with hematoxylin and eosin (H&E). Numerous fungal elements, appearing as round to oval structures with a pinkish hue, are visible within the tissue matrix. The surrounding tissue shows inflammatory infiltrates and some degree of necrosis. The fungal elements are suggestive of an invasive fungal infection.",
+      "visible_findings": [
+        "fungal elements within tissue",
+        "inflammatory infiltrates",
+        "necrotic tissue areas"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "tissue",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "H&E stain",
+        "tissue fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:40+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 218,
+      "total_tokens": 803
+    }
+  },
+  "Case_04030/figure4.jpg": {
+    "case_id": "Case_04030",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04030/figure4.jpg",
+    "source_caption": "Surgical pathology with septated endosporulating organisms.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing septated endosporulating organisms.",
+      "detailed_description": "This histopathology image demonstrates a tissue section stained with hematoxylin and eosin (H&E). Visible are numerous fungal organisms with septated hyphae and endospores. The organisms are distributed within an inflammatory background, suggesting an infectious process. The staining highlights the fungal structures and surrounding tissue reaction.",
+      "visible_findings": [
+        "septated fungal hyphae",
+        "endospores within fungal structures",
+        "inflammatory cellular infiltrate",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "septated hyphae",
+        "endospores",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of fungal infection",
+        "septated hyphae",
+        "endospores in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:41+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 234,
+      "total_tokens": 827
+    }
+  }
+}

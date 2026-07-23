@@ -1,0 +1,42 @@
+{
+  "Case_03111/figure1.jpg": {
+    "case_id": "Case_03111",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03111/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Grouped vesicular lesions on the cheek.",
+      "detailed_description": "This clinical photograph shows multiple grouped vesicular lesions on the cheek of an individual. The lesions are erythematous and appear to be in clusters, with some vesicles showing clear fluid. The surrounding skin shows mild erythema but no significant swelling or crusting. The distribution suggests a localized dermatomal pattern.",
+      "visible_findings": [
+        "grouped vesicular lesions",
+        "erythematous base",
+        "localized distribution on the cheek"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "vesicles",
+        "erythema",
+        "dermatomal distribution"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesicular rash",
+        "facial lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 205,
+      "total_tokens": 773
+    }
+  }
+}

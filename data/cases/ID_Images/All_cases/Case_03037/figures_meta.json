@@ -1,0 +1,166 @@
+{
+  "Case_03037/figure1.jpg": {
+    "case_id": "Case_03037",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03037/figure1.jpg",
+    "source_caption": "Brain MRI scan showing occipital lesion.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Brain MRI showing a hyperintense occipital lesion.",
+      "detailed_description": "This axial T2-weighted FLAIR MRI image of the brain demonstrates a hyperintense lesion in the right occipital lobe. The lesion appears irregular and is surrounded by areas of hyperintensity, suggesting possible edema or inflammation. The ventricles and midline structures appear preserved, with no evidence of significant mass effect or midline shift.",
+      "visible_findings": [
+        "hyperintense lesion in the right occipital lobe",
+        "surrounding hyperintensity suggesting edema",
+        "no significant midline shift",
+        "preserved ventricular structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "occipital lesion",
+        "hyperintensity",
+        "edema",
+        "flair"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "occipital lesion",
+        "flair imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:10+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 238,
+      "total_tokens": 829
+    }
+  },
+  "Case_03037/figure4.jpg": {
+    "case_id": "Case_03037",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03037/figure4.jpg",
+    "source_caption": "Brain biopsy immunostain for JC viral antigens.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain",
+      "short_caption": "Brain biopsy immunostain highlighting JC viral antigens.",
+      "detailed_description": "This image shows a brain biopsy section stained with an immunohistochemical technique to detect JC viral antigens. Several cells with dark brown nuclear staining (indicated by arrows) are visible, indicating the presence of JC virus-infected cells. The background tissue is counterstained in a lighter blue, highlighting the cellular architecture. The staining pattern is consistent with JC virus infection, often associated with progressive multifocal leukoencephalopathy (PML).",
+      "visible_findings": [
+        "dark brown nuclear staining in several cells",
+        "lighter blue counterstain for background tissue",
+        "arrows indicating JC virus-infected cells"
+      ],
+      "keywords": [
+        "immunostain",
+        "brain",
+        "jc virus",
+        "pml",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "jc virus immunostain",
+        "pml histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:13+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 252,
+      "total_tokens": 845
+    }
+  },
+  "Case_03037/figure3.jpg": {
+    "case_id": "Case_03037",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03037/figure3.jpg",
+    "source_caption": "Brain biopsy with oligodendrocytic inclusions.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain tissue showing oligodendrocytic inclusions.",
+      "detailed_description": "This histopathological image shows brain tissue stained with hematoxylin and eosin (H&E). The arrow points to a prominent oligodendrocytic inclusion, which appears as a dense, eosinophilic structure within the cytoplasm of an oligodendrocyte. Surrounding cells exhibit varying degrees of nuclear and cytoplasmic staining. The inclusions are characteristic of certain viral infections or neurodegenerative conditions.",
+      "visible_findings": [
+        "oligodendrocytic inclusion marked by an arrow",
+        "eosinophilic cytoplasmic structure",
+        "surrounding cells with normal and abnormal staining patterns"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "oligodendrocyte",
+        "inclusion",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "oligodendrocytic inclusions",
+        "histopathology of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:13+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 264,
+      "total_tokens": 857
+    }
+  },
+  "Case_03037/figure2.jpg": {
+    "case_id": "Case_03037",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03037/figure2.jpg",
+    "source_caption": "Brain biopsy with myelin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Brain biopsy with myelin stain showing demyelination and inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows a section of brain tissue stained with a myelin-specific stain. The image highlights a focal area of demyelination, evidenced by a pale region with reduced staining intensity. Surrounding this area, there are numerous inflammatory cells, likely lymphocytes, as indicated by small, darkly stained nuclei. The arrow points to a specific area of interest, possibly emphasizing the demyelinated region or inflammatory infiltrates.",
+      "visible_findings": [
+        "focal area of reduced myelin staining",
+        "numerous small, darkly stained inflammatory cells",
+        "arrow indicating a region of interest"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "myelin stain",
+        "demyelination",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "myelin stain",
+        "histopathology of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 247,
+      "total_tokens": 836
+    }
+  }
+}

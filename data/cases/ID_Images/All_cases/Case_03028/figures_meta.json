@@ -1,0 +1,171 @@
+{
+  "Case_03028/figure1.jpg": {
+    "case_id": "Case_03028",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03028/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face (cheek)",
+      "short_caption": "Erythematous, vesicular, and crusted lesions on the cheek.",
+      "detailed_description": "This clinical photograph shows a close-up view of the cheek with erythematous patches, vesicles, and crusted lesions. The lesions are irregularly distributed and appear inflamed, with some areas showing superficial erosion. The surrounding skin appears mildly erythematous. The findings suggest an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous patches",
+        "vesicles",
+        "crusted lesions",
+        "superficial erosion",
+        "inflamed surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "cheek",
+        "erythema",
+        "vesicles",
+        "crusting",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:55+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 235,
+      "total_tokens": 803
+    }
+  },
+  "Case_03028/figure3.jpg": {
+    "case_id": "Case_03028",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03028/figure3.jpg",
+    "source_caption": "Punch biopsy of cheek.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cheek",
+      "short_caption": "Histopathology of a cheek punch biopsy showing inflammatory infiltrate.",
+      "detailed_description": "This histopathology image shows a section of tissue stained with hematoxylin and eosin (H&E). The image reveals a dense inflammatory infiltrate composed predominantly of lymphocytes, with scattered plasma cells and histiocytes. The surrounding tissue shows evidence of edema and mild architectural disruption. No clear granulomas or organisms are visible at this magnification.",
+      "visible_findings": [
+        "dense lymphocytic infiltrate",
+        "scattered plasma cells and histiocytes",
+        "edema in surrounding tissue",
+        "mild architectural disruption"
+      ],
+      "keywords": [
+        "histopathology",
+        "cheek",
+        "inflammatory infiltrate",
+        "H&E stain",
+        "punch biopsy"
+      ],
+      "reveal_triggers": [
+        "histopathology of cheek",
+        "punch biopsy",
+        "H&E stain of inflammatory lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:05+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  },
+  "Case_03028/figure2.jpg": {
+    "case_id": "Case_03028",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03028/figure2.jpg",
+    "source_caption": "Figure 2: Hematoxylin and eosin stain of facial punch biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin (facial punch biopsy)",
+      "short_caption": "Hematoxylin and eosin stain of a facial punch biopsy showing dermal inflammation.",
+      "detailed_description": "This hematoxylin and eosin-stained section of a facial punch biopsy shows the epidermis and dermis. The epidermis appears intact, while the dermis exhibits dense inflammatory infiltrates, predominantly perivascular. There is no clear evidence of granulomas or necrosis in this image. Hair follicles and adnexal structures are visible, with no overt signs of destruction.",
+      "visible_findings": [
+        "intact epidermis",
+        "dense dermal inflammatory infiltrates",
+        "perivascular inflammation",
+        "visible hair follicles and adnexal structures"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "facial biopsy",
+        "hematoxylin and eosin",
+        "dermal inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "facial punch biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:05+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 251,
+      "total_tokens": 851
+    }
+  },
+  "Case_03028/figure4.jpg": {
+    "case_id": "Case_03028",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03028/figure4.jpg",
+    "source_caption": "Giemsa stain of punch biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin (punch biopsy)",
+      "short_caption": "Giemsa stain of a punch biopsy showing inflammatory cells and possible intracellular organisms.",
+      "detailed_description": "This Giemsa-stained image of a punch biopsy reveals numerous inflammatory cells, including lymphocytes and histiocytes, with some cells containing intracellular organisms. The background shows a mix of extracellular matrix and scattered cellular debris. The staining highlights nuclear and cytoplasmic details, with organisms appearing as small, dark-staining structures within some cells.",
+      "visible_findings": [
+        "numerous inflammatory cells",
+        "intracellular organisms in some cells",
+        "Giemsa stain highlighting nuclear and cytoplasmic details",
+        "extracellular matrix and cellular debris"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "punch biopsy",
+        "skin",
+        "intracellular organisms",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "punch biopsy",
+        "skin biopsy",
+        "intracellular organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:10+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  }
+}

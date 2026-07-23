@@ -1,0 +1,292 @@
+{
+  "Case_16008/figure4.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure4.jpg",
+    "source_caption": "Skin biopsy (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy showing inflammatory infiltrate (H and E stain).",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H and E). The dermis contains a dense inflammatory infiltrate composed predominantly of lymphocytes, with some plasma cells and histiocytes. The surrounding dermal collagen appears pink and eosinophilic, with no significant necrosis or granuloma formation visible. The epidermis is not included in this section.",
+      "visible_findings": [
+        "dense inflammatory infiltrate in dermis",
+        "predominantly lymphocytes",
+        "pink eosinophilic dermal collagen",
+        "no granulomas or necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H and E stain",
+        "inflammatory infiltrate",
+        "dermis"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H and E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:34+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_16008/figure1.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure1.jpg",
+    "source_caption": "Skin rash.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper arm",
+      "short_caption": "Erythematous skin lesions with central necrosis on the upper arm.",
+      "detailed_description": "This clinical photograph shows the upper arm with multiple erythematous lesions of varying sizes. One lesion has a central area of necrosis or ulceration, while others appear as smaller red macules or papules. The surrounding skin is unremarkable, with no visible swelling or significant discoloration beyond the lesions.",
+      "visible_findings": [
+        "erythematous macules and papules",
+        "central necrosis or ulceration in one lesion",
+        "no surrounding swelling or significant discoloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "erythema",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "necrotic skin lesion",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:34+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 228,
+      "total_tokens": 813
+    }
+  },
+  "Case_16008/figure5.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure5.jpg",
+    "source_caption": "Skin biopsy (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain showing epidermal and dermal inflammation.",
+      "detailed_description": "This histopathology image shows a skin biopsy stained with hematoxylin and eosin (H&E). The epidermis appears disrupted, with evidence of inflammatory infiltrates extending into the dermis. The dermis shows dense inflammatory cell clusters, likely composed of lymphocytes and other immune cells. There is also evidence of edema and possible vascular involvement. The staining highlights cellular and structural details, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "disrupted epidermis",
+        "dense inflammatory infiltrates in dermis",
+        "edema in dermal tissue",
+        "vascular involvement"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:35+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  },
+  "Case_16008/figure6.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure6.jpg",
+    "source_caption": "Skin biopsy (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy showing epidermal and dermal changes (H and E stain).",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H and E). The epidermis appears hyperplastic with acanthosis, and there is a dense inflammatory infiltrate in the dermis. The infiltrate is composed of mixed inflammatory cells, including lymphocytes and possibly neutrophils. The overlying stratum corneum appears intact, and there is no evidence of ulceration. The image highlights both epidermal and dermal involvement, consistent with an inflammatory or infectious process.",
+      "visible_findings": [
+        "hyperplastic epidermis with acanthosis",
+        "dense dermal inflammatory infiltrate",
+        "mixed inflammatory cells in the dermis",
+        "intact stratum corneum"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "h and e stain",
+        "inflammation",
+        "epidermis",
+        "dermis"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "h and e stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:36+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 281,
+      "total_tokens": 871
+    }
+  },
+  "Case_16008/figure2.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure2.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields with no visible consolidations, masses, or effusions. The heart size appears within normal limits, and the mediastinal contours are unremarkable. The bony structures, including the ribs and clavicles, appear intact. There is no evidence of pneumothorax or other acute abnormalities.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal heart size",
+        "intact bony structures",
+        "no visible consolidations or effusions",
+        "unremarkable mediastinal contours"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:38+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 239,
+      "total_tokens": 825
+    }
+  },
+  "Case_16008/figure3.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure3.jpg",
+    "source_caption": "Skin biopsy (H and E stain, low power).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain at low power.",
+      "detailed_description": "This image shows a low-power view of a skin biopsy stained with hematoxylin and eosin (H&E). The epidermis and dermis are visible, with areas of inflammation and architectural disruption. The pink eosinophilic staining highlights connective tissue, while the purple hematoxylin staining emphasizes nuclei. The overall pattern suggests a pathological process, possibly infectious or inflammatory in nature.",
+      "visible_findings": [
+        "low-power view of skin layers",
+        "eosinophilic connective tissue",
+        "purple nuclear staining",
+        "inflammation and architectural disruption"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "h&e stain",
+        "biopsy",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "h&e stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:40+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 231,
+      "total_tokens": 824
+    }
+  },
+  "Case_16008/figure7.jpg": {
+    "case_id": "Case_16008",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16008/figure7.jpg",
+    "source_caption": "Physical findings after two days of therapy.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of upper arm",
+      "short_caption": "Skin lesion with central eschar and surrounding erythema on the upper arm.",
+      "detailed_description": "The image shows a close-up of the skin on the upper arm. A central black eschar is visible, surrounded by a zone of erythema. The lesion appears well-demarcated, with no visible purulent drainage or ulceration beyond the eschar. Several smaller erythematous macules are visible in the surrounding skin. The findings are consistent with a necrotic lesion, possibly due to an infectious or inflammatory process.",
+      "visible_findings": [
+        "central black eschar",
+        "surrounding erythema",
+        "smaller erythematous macules nearby",
+        "no visible purulent drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "eschar",
+        "erythema",
+        "necrotic lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "infectious skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:42+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 257,
+      "total_tokens": 847
+    }
+  }
+}

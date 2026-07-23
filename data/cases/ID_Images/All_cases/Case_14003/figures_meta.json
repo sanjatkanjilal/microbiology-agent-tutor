@@ -1,0 +1,248 @@
+{
+  "Case_14003/figure5.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure5.jpg",
+    "source_caption": "Colony growth after 3 days, from urine specimen subculture on blood agar TSA.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "urinary tract (inferred from urine specimen)",
+      "short_caption": "Colony growth on blood agar after 3 days of incubation.",
+      "detailed_description": "The image shows a blood agar plate with visible colony growth after 3 days of incubation. The colonies appear to be medium-sized, with a smooth and slightly raised morphology. The plate is being held by a gloved hand, and an inset magnified view highlights the texture and edges of the colonies. The background is blurred, focusing attention on the culture plate.",
+      "visible_findings": [
+        "blood agar plate",
+        "colony growth with smooth, raised morphology",
+        "gloved hand holding the plate",
+        "inset magnified view of colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "colony morphology",
+        "urine specimen",
+        "bacterial growth"
+      ],
+      "reveal_triggers": [
+        "urine culture",
+        "blood agar plate",
+        "bacterial colony growth"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:08+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 241,
+      "total_tokens": 840
+    }
+  },
+  "Case_14003/figure4.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure4.jpg",
+    "source_caption": "Colony growth on chocolate agar after 3 days, from blood culture specimen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Colony growth on chocolate agar after 3 days of incubation.",
+      "detailed_description": "This image shows a chocolate agar plate held by gloved hands. The plate demonstrates visible bacterial colony growth, with streaking patterns indicative of inoculation technique. The colonies appear smooth and are distributed along the streak lines. Chocolate agar is a nutrient-rich medium often used for cultivating fastidious organisms, such as Haemophilus and Neisseria species.",
+      "visible_findings": [
+        "chocolate agar plate",
+        "bacterial colony growth",
+        "streaking pattern",
+        "smooth colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "chocolate agar",
+        "bacterial colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chocolate agar",
+        "bacterial culture",
+        "blood culture growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:15+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 219,
+      "total_tokens": 816
+    }
+  },
+  "Case_14003/figure2.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure2.jpg",
+    "source_caption": "CT of the abdomen and pelvis, with arrow showing hydroureteronephrosis of the right kidney.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "CT showing hydroureteronephrosis of the right kidney with an arrow indicating the affected region.",
+      "detailed_description": "This is a coronal CT image of the abdomen and pelvis. The right kidney demonstrates significant dilation of the renal pelvis and ureter, consistent with hydroureteronephrosis. An arrow is present, pointing to the dilated structures. The left kidney appears normal in comparison. The image is likely obtained with contrast, as vascular structures are well-enhanced.",
+      "visible_findings": [
+        "dilated renal pelvis and ureter on the right side",
+        "arrow pointing to the affected area",
+        "normal appearance of the left kidney",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "kidney",
+        "hydroureteronephrosis",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "hydronephrosis",
+        "kidney dilation",
+        "ureter obstruction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:15+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 255,
+      "total_tokens": 858
+    }
+  },
+  "Case_14003/figure1.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure1.jpg",
+    "source_caption": "CT of the pelvis, showing layering hyperdensity in the bladder.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "CT of the pelvis showing layering hyperdensity in the bladder.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates a well-defined hyperdense material layering dependently within the bladder, consistent with sediment or blood clots. The bladder wall appears intact without obvious thickening or irregularity. Surrounding pelvic structures, including bony landmarks and soft tissues, appear unremarkable. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "layering hyperdensity in the bladder",
+        "intact bladder wall",
+        "normal surrounding pelvic structures"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "bladder",
+        "hyperdensity",
+        "layering",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "ct of pelvis",
+        "bladder sediment",
+        "pelvic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:15+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 223,
+      "total_tokens": 818
+    }
+  },
+  "Case_14003/figure3.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure3.jpg",
+    "source_caption": "Gram stain of growth in anaerobic blood culture bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci and branching filamentous structures.",
+      "detailed_description": "This image shows a Gram stain with purple-staining gram-positive cocci in clusters and branching filamentous structures against a pink background. The branching morphology suggests the presence of filamentous bacteria, possibly Actinomyces or Nocardia species. The cocci are arranged in clusters, consistent with staphylococcal morphology. The image likely represents growth from an anaerobic blood culture bottle.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "branching filamentous structures",
+        "purple and pink staining indicative of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "branching filaments",
+        "anaerobic culture"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "anaerobic bacteria",
+        "filamentous bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:16+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 237,
+      "total_tokens": 830
+    }
+  },
+  "Case_14003/figure6.jpg": {
+    "case_id": "Case_14003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14003/figure6.jpg",
+    "source_caption": "Gram stain of growth from colony.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of bacterial growth from a colony. The organisms appear as gram-positive cocci, arranged predominantly in clusters. The background is clear, suggesting a clean preparation. The purple staining indicates the presence of a thick peptidoglycan layer characteristic of gram-positive bacteria.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "stain of colony growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:18+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 195,
+      "total_tokens": 784
+    }
+  }
+}

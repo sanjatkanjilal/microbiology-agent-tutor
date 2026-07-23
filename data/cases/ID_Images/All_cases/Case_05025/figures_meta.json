@@ -1,0 +1,43 @@
+{
+  "Case_05025/figure1.jpg": {
+    "case_id": "Case_05025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05025/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver tissue showing clusters of organisms with a 'ground-glass' appearance.",
+      "detailed_description": "This histopathology image shows liver tissue stained with hematoxylin and eosin (H&E). Numerous clusters of round to oval structures are visible, consistent with fungal or parasitic organisms. The background liver parenchyma appears disrupted, with evidence of inflammation and cellular damage. The organisms exhibit a 'ground-glass' appearance, suggesting a possible infectious etiology.",
+      "visible_findings": [
+        "clusters of round to oval organisms",
+        "ground-glass appearance of organisms",
+        "disrupted liver parenchyma",
+        "inflammatory infiltrates"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "infectious organisms",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "infectious liver disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 245,
+      "total_tokens": 813
+    }
+  }
+}

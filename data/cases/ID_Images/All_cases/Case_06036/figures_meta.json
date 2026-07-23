@@ -1,0 +1,84 @@
+{
+  "Case_06036/figure2.jpg": {
+    "case_id": "Case_06036",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06036/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive rods in a chain-like arrangement.",
+      "detailed_description": "This image shows a Gram stain of a specimen with gram-positive rods arranged in a chain-like formation. The rods are darkly stained, consistent with the Gram-positive nature, and are surrounded by a background of lighter-stained material. There are also amorphous reddish areas in the background, which may represent cellular debris or other material.",
+      "visible_findings": [
+        "gram-positive rods in chain-like arrangement",
+        "reddish amorphous background material",
+        "clear contrast between rods and background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive rods",
+        "chain arrangement",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "chain arrangement of rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:10+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  },
+  "Case_06036/figure1.jpg": {
+    "case_id": "Case_06036",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06036/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the lower limb",
+      "short_caption": "Skin lesions with varying stages of ulceration and discoloration on the lower limb.",
+      "detailed_description": "This clinical photograph shows the skin of a lower limb with multiple lesions. The lesions vary in appearance, including areas of erythema, hyperpigmentation, and ulceration. Some lesions appear crusted or necrotic, with a dark red to brown coloration, while others are more superficial with lighter discoloration. The surrounding skin appears pale and unremarkable. The distribution and morphology suggest a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "multiple skin lesions",
+        "areas of erythema and hyperpigmentation",
+        "ulcerated and crusted lesions",
+        "necrotic-appearing areas"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "lesions",
+        "ulceration",
+        "infection",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin lesions",
+        "ulcerated skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 256,
+      "total_tokens": 824
+    }
+  }
+}

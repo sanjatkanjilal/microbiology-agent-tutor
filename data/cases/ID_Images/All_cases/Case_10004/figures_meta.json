@@ -1,0 +1,340 @@
+{
+  "Case_10004/figure1.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields, the heart, and mediastinal structures. The lung fields appear clear without obvious consolidation, mass, or pleural effusion. The cardiac silhouette is within normal limits, and the diaphragm is well-defined bilaterally. Bony structures, including the ribs and spine, are visible and appear intact. The trachea is midline.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal cardiac silhouette",
+        "midline trachea",
+        "intact bony structures",
+        "well-defined diaphragms"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "heart",
+        "normal chest x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "lungs imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:03+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 243,
+      "total_tokens": 829
+    }
+  },
+  "Case_10004/figure2.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure2.jpg",
+    "source_caption": "CT scan of the chest, lung view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Coronal CT scan of the chest showing lung fields and mediastinum.",
+      "detailed_description": "This is a coronal CT scan of the chest, lung window view. The lung fields are visualized with clear delineation of pulmonary structures. There is an area of increased density in the left lower lung field, suggestive of consolidation or mass. The mediastinum appears midline, and no obvious pleural effusion is noted. The bony structures, including the ribs and spine, are also visible.",
+      "visible_findings": [
+        "coronal CT view of the chest",
+        "increased density in the left lower lung field",
+        "clear delineation of lung fields",
+        "midline mediastinum",
+        "no obvious pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "consolidation",
+        "mediastinum",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung window",
+        "pulmonary consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:13+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 258,
+      "total_tokens": 849
+    }
+  },
+  "Case_10004/figure3.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure3.jpg",
+    "source_caption": "CT scan of the chest, abdominal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest and upper abdomen",
+      "short_caption": "Coronal CT scan of the chest and upper abdomen.",
+      "detailed_description": "This is a coronal CT scan showing the chest and upper abdominal regions. The image highlights the thoracic cavity, including the lungs, mediastinum, and portions of the upper abdominal organs. The bony structures of the spine and ribs are visible. There is no clear evidence of gross abnormalities such as masses, fluid collections, or fractures in this view, but further analysis may be required.",
+      "visible_findings": [
+        "coronal view of thorax and upper abdomen",
+        "spinal column and ribs visible",
+        "lungs appear aerated",
+        "mediastinum and diaphragm visible"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "abdomen",
+        "coronal view",
+        "thorax",
+        "lungs",
+        "spine"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "coronal CT of thorax",
+        "CT scan of chest and abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:13+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 251,
+      "total_tokens": 842
+    }
+  },
+  "Case_10004/figure4.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure4.jpg",
+    "source_caption": "Gram stain of cyst aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cyst aspirate",
+      "short_caption": "Gram stain of cyst aspirate showing mixed bacterial morphology.",
+      "detailed_description": "This image shows a Gram stain of a cyst aspirate. The field contains numerous polymorphonuclear leukocytes (PMNs) and mixed bacterial forms, including Gram-positive cocci and Gram-negative bacilli. The background appears proteinaceous, consistent with an inflammatory exudate. The staining highlights the bacterial morphology and cellular components.",
+      "visible_findings": [
+        "polymorphonuclear leukocytes (PMNs)",
+        "Gram-positive cocci",
+        "Gram-negative bacilli",
+        "proteinaceous background"
+      ],
+      "keywords": [
+        "gram stain",
+        "cyst aspirate",
+        "bacteria",
+        "inflammation",
+        "polymorphonuclear leukocytes"
+      ],
+      "reveal_triggers": [
+        "gram stain of cyst aspirate",
+        "bacterial infection",
+        "inflammatory exudate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 233,
+      "total_tokens": 822
+    }
+  },
+  "Case_10004/figure5.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure5.jpg",
+    "source_caption": "Gram stain of cyst aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cyst aspirate",
+      "short_caption": "Gram stain of cyst aspirate showing filamentous branching structures.",
+      "detailed_description": "This image shows a Gram stain of a cyst aspirate. The field contains filamentous, branching structures that are suggestive of bacterial or fungal organisms. The background appears to have cellular debris and inflammatory cells, consistent with an infectious process. The branching structures are stained purple, indicating Gram-positive organisms.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "purple-stained (Gram-positive) organisms",
+        "cellular debris",
+        "inflammatory cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "cyst aspirate",
+        "filamentous bacteria",
+        "branching structures",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of cyst aspirate",
+        "branching filamentous organisms",
+        "infectious process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 224,
+      "total_tokens": 813
+    }
+  },
+  "Case_10004/figure7.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure7.jpg",
+    "source_caption": "Biopsy of tissue, Steiner stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Histopathology of tissue biopsy with Steiner stain showing dark-staining organisms.",
+      "detailed_description": "This image shows a histopathological section of tissue stained with Steiner stain, which highlights microorganisms in dark brown to black against a lighter background. The central area contains dense, dark-staining structures consistent with clusters of microorganisms. Surrounding tissue appears lighter and shows cellular and extracellular matrix structures. The Steiner stain is commonly used to identify spirochetes and other microorganisms in tissue samples.",
+      "visible_findings": [
+        "dark-staining organisms in the central area",
+        "lighter surrounding tissue with cellular structures",
+        "contrast between stained organisms and background"
+      ],
+      "keywords": [
+        "histopathology",
+        "biopsy",
+        "steiner stain",
+        "microorganisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "biopsy",
+        "steiner stain",
+        "histopathology of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:19+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 236,
+      "total_tokens": 826
+    }
+  },
+  "Case_10004/figure6.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure6.jpg",
+    "source_caption": "Biopsy of tissue, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue biopsy (unspecified site)",
+      "short_caption": "Histopathology of tissue biopsy with H&E stain showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a tissue section stained with hematoxylin and eosin (H&E). The central area contains necrotic material surrounded by a rim of epithelioid histiocytes and scattered multinucleated giant cells, consistent with granulomatous inflammation. Numerous inflammatory cells, including lymphocytes, are visible in the surrounding tissue. The findings suggest a granulomatous process, potentially infectious or non-infectious in etiology.",
+      "visible_findings": [
+        "central necrosis",
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "lymphocytic infiltrate",
+        "granulomatous inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "H&E stain",
+        "necrosis",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "biopsy",
+        "H&E stain",
+        "granulomatous inflammation",
+        "tissue histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:20+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 281,
+      "total_tokens": 873
+    }
+  },
+  "Case_10004/figure8.jpg": {
+    "case_id": "Case_10004",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10004/figure8.jpg",
+    "source_caption": "Biopsy of excised tissue, Brown-Hopps (gram) stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Brown-Hopps (gram) stain showing filamentous bacteria in tissue biopsy.",
+      "detailed_description": "This is a high-magnification image of a tissue biopsy stained with the Brown-Hopps (gram) stain. The image reveals numerous filamentous, branching bacteria that stain gram-positive (dark purple) against a yellowish background. The surrounding tissue matrix and scattered inflammatory cells are visible. The findings are suggestive of an infection with filamentous bacteria, such as Actinomyces or Nocardia.",
+      "visible_findings": [
+        "branching filamentous bacteria",
+        "gram-positive staining (dark purple)",
+        "yellowish tissue background",
+        "scattered inflammatory cells"
+      ],
+      "keywords": [
+        "brown-hopps stain",
+        "gram stain",
+        "filamentous bacteria",
+        "tissue biopsy",
+        "infectious diseases",
+        "actinomyces",
+        "nocardia"
+      ],
+      "reveal_triggers": [
+        "brown-hopps stain",
+        "gram stain of tissue",
+        "filamentous bacteria",
+        "biopsy of infected tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:25+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 280,
+      "total_tokens": 877
+    }
+  }
+}

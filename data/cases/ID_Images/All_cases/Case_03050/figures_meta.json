@@ -1,0 +1,125 @@
+{
+  "Case_03050/figure1.jpg": {
+    "case_id": "Case_03050",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03050/figure1.jpg",
+    "source_caption": "Tissue biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node or soft tissue",
+      "short_caption": "Histopathology image showing granulomatous inflammation with caseation necrosis.",
+      "detailed_description": "This histopathology image shows a central area of caseation necrosis surrounded by granulomatous inflammation. The granulomas are composed of epithelioid macrophages and lymphocytes. Scattered multinucleated giant cells are also visible. The surrounding tissue contains adipocytes and fibrous stroma. The staining appears to be hematoxylin and eosin (H&E).",
+      "visible_findings": [
+        "central caseation necrosis",
+        "granulomatous inflammation",
+        "epithelioid macrophages",
+        "multinucleated giant cells",
+        "adipocytes in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "caseation necrosis",
+        "tissue biopsy",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "tissue biopsy",
+        "granuloma",
+        "caseation necrosis",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:12+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 262,
+      "total_tokens": 847
+    }
+  },
+  "Case_03050/figure2.jpg": {
+    "case_id": "Case_03050",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03050/figure2.jpg",
+    "source_caption": "Acid fast stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing scattered red-stained bacilli against a blue background.",
+      "detailed_description": "This image shows an acid-fast stain, with scattered red-stained bacilli visible against a blue background. The red staining indicates the presence of acid-fast organisms, consistent with mycobacteria. The background consists of blue-stained host cells and extracellular material. The staining technique highlights the waxy cell walls of acid-fast bacteria, which retain the red dye despite decolorization with acid alcohol.",
+      "visible_findings": [
+        "scattered red-stained bacilli",
+        "blue-stained background",
+        "contrast between red organisms and blue host material"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "mycobacteria",
+        "infectious diseases",
+        "microbiology",
+        "staining technique"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "mycobacteria stain",
+        "Ziehl-Neelsen stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:13+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  },
+  "Case_03050/figure3.jpg": {
+    "case_id": "Case_03050",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03050/figure3.jpg",
+    "source_caption": "Detail of Figure 2.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing a single red bacillus among blue-stained background cells.",
+      "detailed_description": "This image shows an acid-fast stain with a single red, rod-shaped bacillus visible against a blue-stained background of other cells or debris. The red staining indicates the presence of an acid-fast organism, such as Mycobacterium species. The background is lightly stained, with no other acid-fast organisms apparent in this field.",
+      "visible_findings": [
+        "red, rod-shaped bacillus",
+        "blue-stained background cells",
+        "acid-fast staining pattern"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "bacillus",
+        "mycobacterium",
+        "infectious disease",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "mycobacterium",
+        "stain of sputum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:15+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "Case_08020/figure1.jpg": {
+    "case_id": "Case_08020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08020/figure1.jpg",
+    "source_caption": "Radiograph of the left hip.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "left hip",
+      "short_caption": "Radiograph of the left hip showing joint space narrowing and bony changes.",
+      "detailed_description": "This is a plain radiograph of the left hip. The image demonstrates narrowing of the joint space, particularly at the femoral head and acetabulum. There are also subtle bony irregularities and possible sclerosis, suggesting degenerative or infectious changes. No obvious fractures or dislocations are visible.",
+      "visible_findings": [
+        "joint space narrowing",
+        "bony irregularities",
+        "possible sclerosis",
+        "no visible fractures or dislocations"
+      ],
+      "keywords": [
+        "radiograph",
+        "left hip",
+        "joint space narrowing",
+        "bony changes",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "hip x-ray",
+        "radiograph of left hip",
+        "joint infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:03+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 216,
+      "total_tokens": 805
+    }
+  },
+  "Case_08020/figure2.jpg": {
+    "case_id": "Case_08020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08020/figure2.jpg",
+    "source_caption": "MRI of the left hip.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "left hip",
+      "short_caption": "MRI of the left hip showing joint effusion and soft tissue changes.",
+      "detailed_description": "This is a sagittal MRI image of the left hip. The image demonstrates a joint effusion with increased fluid signal within the hip joint. There is evidence of soft tissue swelling around the joint, and possible irregularity of the femoral head contour. The surrounding musculature and soft tissues appear altered, suggesting inflammation or infection.",
+      "visible_findings": [
+        "joint effusion in the left hip",
+        "soft tissue swelling around the joint",
+        "irregularity of the femoral head contour",
+        "altered signal in surrounding soft tissues"
+      ],
+      "keywords": [
+        "mri",
+        "left hip",
+        "joint effusion",
+        "soft tissue swelling",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri of hip",
+        "left hip imaging",
+        "joint effusion on mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_08020/figure4.jpg": {
+    "case_id": "Case_08020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08020/figure4.jpg",
+    "source_caption": "Biopsy of lesion (GMS stain).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing fungal elements in tissue biopsy.",
+      "detailed_description": "This image shows a tissue biopsy stained with Gomori methenamine silver (GMS) stain. Numerous round to oval darkly stained fungal elements are visible against a pale background, consistent with fungal organisms. The staining highlights the fungal cell walls, making them appear black. The surrounding tissue matrix is lightly stained, providing contrast to the fungal elements.",
+      "visible_findings": [
+        "darkly stained round to oval fungal elements",
+        "pale background tissue matrix",
+        "GMS stain highlighting fungal cell walls"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal elements",
+        "biopsy",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:14+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 222,
+      "total_tokens": 813
+    }
+  },
+  "Case_08020/figure3.jpg": {
+    "case_id": "Case_08020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08020/figure3.jpg",
+    "source_caption": "Biopsy of lesion (H and E stain)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lesion (unspecified site)",
+      "short_caption": "Histopathology of lesion showing intracellular organisms on H&E stain.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of tissue. Numerous intracellular organisms are visible within macrophages, indicated by arrows. The organisms appear as small, round to oval structures with a clear halo, consistent with yeast forms. The surrounding tissue shows an inflammatory infiltrate with a mix of mononuclear cells.",
+      "visible_findings": [
+        "intracellular yeast-like organisms",
+        "macrophages containing organisms",
+        "inflammatory infiltrate with mononuclear cells",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "h and e stain",
+        "intracellular organisms",
+        "yeast forms",
+        "infectious lesion"
+      ],
+      "reveal_triggers": [
+        "biopsy of lesion",
+        "h and e stain",
+        "intracellular organisms on histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:16+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 262,
+      "total_tokens": 854
+    }
+  },
+  "Case_08020/figure5.jpg": {
+    "case_id": "Case_08020",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08020/figure5.jpg",
+    "source_caption": "Biopsy of lesion (GMS stain), higher magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing fungal elements at higher magnification.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of a biopsy specimen at higher magnification. Multiple round, darkly stained fungal elements are visible, consistent with yeast forms. The background tissue is lightly stained, with some cellular structures visible. The fungal elements are prominent and appear to vary slightly in size.",
+      "visible_findings": [
+        "darkly stained round fungal elements",
+        "variation in fungal element size",
+        "lightly stained background tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal elements",
+        "biopsy",
+        "infectious disease",
+        "yeast forms"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:18+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 216,
+      "total_tokens": 811
+    }
+  }
+}

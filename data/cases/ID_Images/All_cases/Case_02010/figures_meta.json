@@ -1,0 +1,210 @@
+{
+  "Case_02010/figure4.jpg": {
+    "case_id": "Case_02010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02010/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Swollen foot with erythema, suggestive of inflammation or infection.",
+      "detailed_description": "This clinical photograph shows a foot with notable swelling and diffuse erythema, particularly over the dorsum. The skin appears taut, and there is no visible ulceration or drainage. The findings are consistent with an inflammatory or infectious process, such as cellulitis. The image is well-lit and focuses on the affected area, providing clear visualization of the changes.",
+      "visible_findings": [
+        "swelling of the foot",
+        "diffuse erythema",
+        "taut skin",
+        "no visible ulceration or drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "swelling",
+        "erythema",
+        "inflammation",
+        "infection",
+        "cellulitis"
+      ],
+      "reveal_triggers": [
+        "foot swelling",
+        "redness of foot",
+        "skin infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:26+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_02010/figure1.jpg": {
+    "case_id": "Case_02010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02010/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palm of the hand",
+      "short_caption": "Erythematous discoloration of the palm, suggestive of a systemic or localized condition.",
+      "detailed_description": "The image shows the palm of a hand with diffuse erythema, particularly prominent in the central and distal areas. The skin appears smooth without visible scaling, ulceration, or vesicles. The fingers and thumb are extended, and the erythema does not appear to involve the dorsal aspect of the hand. The lighting is even, and the image is clear, allowing for detailed examination of the skin changes.",
+      "visible_findings": [
+        "diffuse erythema of the palm",
+        "no visible scaling or ulceration",
+        "smooth skin texture"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palm",
+        "erythema",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythematous palm",
+        "hand rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:27+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  },
+  "Case_02010/figure3.jpg": {
+    "case_id": "Case_02010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02010/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Swollen hand with erythema and skin changes.",
+      "detailed_description": "This image shows a dorsal view of a hand with significant swelling, erythema, and a shiny appearance of the skin. The skin appears taut, with some areas of scaling or dryness visible. No visible wounds, ulcerations, or purulent drainage are present. The findings suggest an inflammatory or infectious process involving the soft tissues of the hand.",
+      "visible_findings": [
+        "swelling of the hand",
+        "erythema",
+        "shiny and taut skin",
+        "scaling or dryness"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "swelling",
+        "erythema",
+        "skin changes",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "hand swelling",
+        "skin erythema",
+        "infectious hand conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:30+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  },
+  "Case_02010/figure2.jpg": {
+    "case_id": "Case_02010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02010/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "sole of the foot",
+      "short_caption": "Erythematous rash with linear markings on the sole of the foot.",
+      "detailed_description": "This clinical photograph shows the sole of a foot with a diffuse erythematous rash. There are linear, slightly raised markings visible, suggestive of a serpiginous pattern. The surrounding skin appears intact without ulceration or desquamation. The image is well-lit, and the findings are clearly visible.",
+      "visible_findings": [
+        "erythematous rash",
+        "linear, serpiginous markings",
+        "intact surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "rash",
+        "erythema",
+        "serpiginous",
+        "cutaneous findings"
+      ],
+      "reveal_triggers": [
+        "foot rash",
+        "cutaneous infection",
+        "erythematous rash on foot"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 220,
+      "total_tokens": 788
+    }
+  },
+  "Case_02010/figure5.jpg": {
+    "case_id": "Case_02010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02010/figure5.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremities, knees",
+      "short_caption": "Erythematous and scaly lesions on both knees.",
+      "detailed_description": "This clinical photograph shows the anterior aspect of both knees. The skin exhibits erythema, scaling, and thickened plaques, particularly over the patellar regions. The lesions appear symmetrical and are associated with mild hyperpigmentation. No visible ulceration or discharge is noted. The surrounding skin shows mild discoloration but no overt signs of infection.",
+      "visible_findings": [
+        "erythematous plaques",
+        "scaling of the skin",
+        "thickened skin over knees",
+        "symmetrical distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "knees",
+        "skin lesions",
+        "erythema",
+        "scaling"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "knee rash",
+        "erythematous plaques"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 226,
+      "total_tokens": 794
+    }
+  }
+}

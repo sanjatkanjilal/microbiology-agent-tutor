@@ -1,0 +1,124 @@
+{
+  "Case_03065/figure2.jpg": {
+    "case_id": "Case_03065",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03065/figure2.jpg",
+    "source_caption": "Pathology of aspiration specimen.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "unspecified tissue",
+      "short_caption": "Histopathology of an aspiration specimen showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a section of tissue with granulomatous inflammation. The granulomas are composed of clusters of epithelioid macrophages surrounded by lymphocytes. There are also areas of necrosis visible as pale, acellular regions. The stain used appears to be hematoxylin and eosin (H&E), highlighting cellular and structural details.",
+      "visible_findings": [
+        "granulomas with epithelioid macrophages",
+        "lymphocytic infiltration",
+        "necrotic areas",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "inflammation",
+        "necrosis",
+        "aspiration specimen",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of aspiration specimen",
+        "granulomatous inflammation",
+        "H&E stain of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:08+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 246,
+      "total_tokens": 834
+    }
+  },
+  "Case_03065/figure1.jpg": {
+    "case_id": "Case_03065",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03065/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Swelling in the lateral neck region.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the neck, with a visible swelling or mass located just below the angle of the jaw. The overlying skin appears intact and without discoloration. The swelling is well-defined and slightly raised. The image provides no additional context regarding tenderness, warmth, or other associated findings.",
+      "visible_findings": [
+        "swelling in the lateral neck",
+        "intact overlying skin",
+        "well-defined mass below the jaw"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "swelling",
+        "mass",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "neck swelling",
+        "lateral neck mass",
+        "clinical photo of neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 204,
+      "total_tokens": 772
+    }
+  },
+  "Case_03065/figure3.jpg": {
+    "case_id": "Case_03065",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03065/figure3.jpg",
+    "source_caption": "Pathology of aspiration specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Cytological examination of an aspiration specimen with visible inflammatory cells and microorganisms.",
+      "detailed_description": "This is a stained microscopic image of an aspiration specimen. The field shows numerous inflammatory cells, including neutrophils, with a background of amorphous material. Several round to oval structures, consistent with microorganisms, are visible and stained dark purple. The staining technique appears to highlight cellular and microbial components, suggesting a possible infectious process.",
+      "visible_findings": [
+        "numerous inflammatory cells, including neutrophils",
+        "round to oval dark purple-stained structures suggestive of microorganisms",
+        "amorphous background material"
+      ],
+      "keywords": [
+        "stain",
+        "aspiration specimen",
+        "inflammatory cells",
+        "microorganisms",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "aspiration specimen",
+        "stained cytology",
+        "infectious process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:14+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 227,
+      "total_tokens": 815
+    }
+  }
+}

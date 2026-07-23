@@ -1,0 +1,170 @@
+{
+  "Case_02018/figure1.jpg": {
+    "case_id": "Case_02018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02018/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and ear",
+      "short_caption": "Multiple erythematous plaques and nodules on the face and ear.",
+      "detailed_description": "This clinical photograph shows the right side of a patient's face, including the ear. There are multiple erythematous, raised plaques and nodules, some with a shiny surface. The lesions are distributed on the ear, cheek, and jawline. The surrounding skin appears unremarkable. The findings suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous plaques",
+        "raised nodules",
+        "shiny surface on lesions",
+        "distribution on ear and cheek"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "ear",
+        "erythematous plaques",
+        "nodules",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesions on face",
+        "erythematous nodules",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:14+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_02018/figure2.jpg": {
+    "case_id": "Case_02018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02018/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "elbow",
+      "short_caption": "Erythematous, scaly plaque with central ulceration on the elbow.",
+      "detailed_description": "The image shows an erythematous, well-demarcated plaque on the elbow with overlying scaling and areas of central ulceration. The lesion appears raised and inflamed, with irregular borders. There are smaller adjacent areas of skin breakdown or erosion. The surrounding skin shows mild erythema but is otherwise intact.",
+      "visible_findings": [
+        "erythematous plaque",
+        "scaling",
+        "central ulceration",
+        "irregular borders",
+        "adjacent skin erosion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "elbow",
+        "erythematous plaque",
+        "ulceration",
+        "scaling",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infectious skin disease",
+        "elbow rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:14+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  },
+  "Case_02018/figure3.jpg": {
+    "case_id": "Case_02018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02018/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Erythematous swelling on the dorsum of the hand with a central area of fluctuant appearance.",
+      "detailed_description": "This image shows the dorsum of a hand with a prominent erythematous swelling. The lesion appears tense and raised, with a central area suggestive of fluctuation, possibly indicating an abscess. Surrounding skin shows mild erythema, and there is no visible ulceration or drainage. The findings are consistent with a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous swelling on the dorsum of the hand",
+        "central fluctuant area",
+        "surrounding mild erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "erythema",
+        "swelling",
+        "abscess",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "hand swelling",
+        "skin infection",
+        "abscess on hand"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:17+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_02018/figure4.jpg": {
+    "case_id": "Case_02018",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02018/figure4.jpg",
+    "source_caption": "Kinyoun stain of skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Kinyoun stain of a skin biopsy showing acid-fast organisms.",
+      "detailed_description": "This image shows a Kinyoun stain of a skin biopsy, highlighting numerous blue-stained host cells with scattered red-stained, rod-shaped acid-fast organisms. The organisms are consistent with mycobacteria, which retain the red stain due to their lipid-rich cell walls. The background is pale, and the staining technique emphasizes the contrast between the organisms and surrounding tissue.",
+      "visible_findings": [
+        "blue-stained host cells",
+        "red-stained, rod-shaped acid-fast organisms",
+        "scattered distribution of organisms",
+        "pale background"
+      ],
+      "keywords": [
+        "kinyoun stain",
+        "skin biopsy",
+        "acid-fast organisms",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "kinyoun stain",
+        "skin biopsy",
+        "acid-fast bacteria",
+        "mycobacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:18+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  }
+}

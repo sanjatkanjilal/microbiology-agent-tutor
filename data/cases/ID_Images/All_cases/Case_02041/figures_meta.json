@@ -1,0 +1,84 @@
+{
+  "Case_02041/figure1.jpg": {
+    "case_id": "Case_02041",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02041/figure1.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing a ring-enhancing lesion.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain demonstrates a well-defined, hyperintense ring-enhancing lesion in the right basal ganglia region. Surrounding vasogenic edema is evident, with mass effect causing midline shift. The lesion's appearance is suggestive of an infectious or neoplastic process, such as an abscess or metastasis. The image is de-identified and suitable for educational purposes.",
+      "visible_findings": [
+        "ring-enhancing lesion in right basal ganglia",
+        "surrounding vasogenic edema",
+        "midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "t2-weighted",
+        "infection",
+        "abscess",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "t2-weighted mri of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:49+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 250,
+      "total_tokens": 836
+    }
+  },
+  "Case_02041/figure2.jpg": {
+    "case_id": "Case_02041",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02041/figure2.jpg",
+    "source_caption": "Gram stain of brain biopsy.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Gram stain of brain biopsy showing gram-positive cocci.",
+      "detailed_description": "This image shows a Gram stain of brain biopsy tissue under a microscope. The field contains numerous gram-positive cocci, which appear as small, round, pink to red structures. The background consists of cellular debris and tissue matrix. The staining highlights the bacterial morphology, suggesting an infectious etiology involving gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "pink to red staining of bacteria",
+        "background of tissue debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "brain biopsy",
+        "gram-positive cocci",
+        "infectious diseases",
+        "bacterial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of brain tissue",
+        "brain biopsy infection",
+        "gram-positive cocci in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:53+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 214,
+      "total_tokens": 802
+    }
+  }
+}

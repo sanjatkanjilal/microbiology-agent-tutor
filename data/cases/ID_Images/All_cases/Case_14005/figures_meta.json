@@ -1,0 +1,136 @@
+{
+  "Case_14005/figure3.jpg": {
+    "case_id": "Case_14005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14005/figure3.jpg",
+    "source_caption": "Intraoperative image of the left wrist.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:57:18+00:00"
+  },
+  "Case_14005/figure2.jpg": {
+    "case_id": "Case_14005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14005/figure2.jpg",
+    "source_caption": "MRI of the left forearm (sagittal T2-weighted view).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "left forearm",
+      "short_caption": "MRI of the left forearm (sagittal T2-weighted view).",
+      "detailed_description": "This is a sagittal T2-weighted MRI of the left forearm. The image shows hyperintense signal areas within the bone marrow, suggestive of edema or infiltration. The surrounding soft tissues appear relatively preserved, with no obvious fluid collections or masses. The cortical bone and joint spaces are visible, and there is no clear evidence of fracture or dislocation.",
+      "visible_findings": [
+        "hyperintense signal in bone marrow",
+        "preserved soft tissue structures",
+        "no obvious fluid collections",
+        "no evidence of fracture or dislocation"
+      ],
+      "keywords": [
+        "mri",
+        "forearm",
+        "t2-weighted",
+        "bone marrow",
+        "edema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "mri of forearm",
+        "t2-weighted mri",
+        "bone marrow signal"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:26+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 245,
+      "total_tokens": 844
+    }
+  },
+  "Case_14005/figure1.jpg": {
+    "case_id": "Case_14005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14005/figure1.jpg",
+    "source_caption": "MRI of left wrist (axial T2-weighted view) with low-signal masses.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "left wrist",
+      "short_caption": "Axial T2-weighted MRI of left wrist showing low-signal masses.",
+      "detailed_description": "This axial T2-weighted MRI of the left wrist demonstrates multiple low-signal intensity masses within the soft tissue. The surrounding structures, including tendons and bones, appear intact. The low-signal areas suggest dense material, possibly fibrous tissue or calcifications. The image provides good contrast between the masses and surrounding tissues, aiding in their identification.",
+      "visible_findings": [
+        "low-signal intensity masses in soft tissue",
+        "intact surrounding tendons and bones",
+        "clear delineation of structures on T2-weighted imaging"
+      ],
+      "keywords": [
+        "mri",
+        "left wrist",
+        "t2-weighted",
+        "low-signal masses",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "mri of wrist",
+        "t2-weighted mri",
+        "soft tissue masses"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:27+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 237,
+      "total_tokens": 838
+    }
+  },
+  "Case_14005/figure4.jpg": {
+    "case_id": "Case_14005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14005/figure4.jpg",
+    "source_caption": "Tissue removed during surgical debridement.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Tissue removed during surgical debridement, showing grape-like clusters.",
+      "detailed_description": "This image shows a collection of small, pink, grape-like nodules on a blue background. The nodules are irregularly shaped and appear uniform in color and texture. A ruler is visible in the lower right corner, providing a size reference, with the nodules measuring approximately 1-3 cm in diameter. The appearance is consistent with tissue removed during surgical debridement, potentially representing granulomatous or infectious material.",
+      "visible_findings": [
+        "grape-like clusters of pink nodules",
+        "uniform texture and color",
+        "size reference provided by ruler"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "surgical debridement",
+        "tissue",
+        "nodules",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "surgical debridement",
+        "infectious tissue",
+        "granulomatous tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:28+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Case_03086/figure1.jpg": {
+    "case_id": "Case_03086",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03086/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Hyperkeratotic and verrucous lesions on the foot.",
+      "detailed_description": "This clinical photograph shows a foot with extensive hyperkeratotic, verrucous, and nodular lesions. The lesions are darkly pigmented, with areas of yellowish crusting and scaling. The skin appears thickened and irregular, with a rough texture. The distribution suggests chronic pathology, possibly infectious or neoplastic in origin.",
+      "visible_findings": [
+        "hyperkeratotic lesions",
+        "verrucous nodules",
+        "yellowish crusting",
+        "thickened and irregular skin texture",
+        "dark pigmentation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "hyperkeratosis",
+        "verrucous lesions",
+        "infectious diseases",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot lesions",
+        "verrucous hyperkeratosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:30:52+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 239,
+      "total_tokens": 663
+    }
+  }
+}

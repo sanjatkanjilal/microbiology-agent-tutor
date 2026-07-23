@@ -1,0 +1,259 @@
+{
+  "Case_12006/figure2.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure2.jpg",
+    "source_caption": "CT of the chest. Arrows indicate chest tube placement.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT of the chest showing bilateral chest tubes and extensive lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral chest tubes, indicated by arrows, positioned in the pleural spaces. The lung parenchyma shows extensive abnormalities, including areas of consolidation, cavitation, and possible air-fluid levels, suggestive of severe infectious or inflammatory processes. The mediastinum appears midline, and no significant pleural effusion is evident. The image is in a lung window setting, optimizing visualization of pulmonary structures.",
+      "visible_findings": [
+        "bilateral chest tubes in pleural spaces",
+        "extensive lung parenchymal abnormalities",
+        "areas of cavitation and consolidation",
+        "possible air-fluid levels",
+        "lung window setting"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "chest tubes",
+        "cavitation",
+        "consolidation",
+        "infection",
+        "lung window"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "chest tubes",
+        "lung infection",
+        "cavitation on ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:43+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 270,
+      "total_tokens": 864
+    }
+  },
+  "Case_12006/figure1.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities and medical devices.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. Bilateral pulmonary opacities are visible, more pronounced in the lower lung zones, suggesting possible consolidation or infiltrates. Several medical devices, including ECG leads, are present on the chest wall. The cardiac silhouette appears within normal limits, and there is no visible pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "medical devices (ECG leads)",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "medical devices",
+        "infiltrates",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "respiratory infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 252,
+      "total_tokens": 840
+    }
+  },
+  "Case_12006/figure4.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure4.jpg",
+    "source_caption": "H and E stain of lung tissue, 200x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "H&E stain of lung tissue showing inflammation and cellular infiltrates.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E) at 200x magnification. The tissue demonstrates prominent inflammatory infiltrates composed of numerous lymphocytes and plasma cells, along with some multinucleated giant cells. Alveolar spaces appear disrupted, with evidence of cellular debris and congestion. The findings suggest an infectious or inflammatory process within the lung parenchyma.",
+      "visible_findings": [
+        "inflammatory infiltrates with lymphocytes and plasma cells",
+        "multinucleated giant cells",
+        "disrupted alveolar spaces",
+        "cellular debris and congestion"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "H&E stain",
+        "inflammation",
+        "infection",
+        "multinucleated giant cells"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lung histopathology",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:45+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 255,
+      "total_tokens": 851
+    }
+  },
+  "Case_12006/figure3.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure3.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung abnormalities. There are multiple cavitary lesions visible in both lungs, with surrounding areas of ground-glass opacities. The mediastinum and heart are centrally located, and no significant pleural effusion is noted. The findings are suggestive of an infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral cavitary lesions in the lungs",
+        "ground-glass opacities surrounding the cavities",
+        "no significant pleural effusion",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "cavitary lesions",
+        "ground-glass opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "cavitary lesions on ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:46+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  },
+  "Case_12006/figure6.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure6.jpg",
+    "source_caption": "CMV immunoperoxidase stain of lung tissue, 400x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "CMV immunoperoxidase stain of lung tissue showing viral inclusions, 400x magnification.",
+      "detailed_description": "This image shows lung tissue stained with an immunoperoxidase technique to highlight cytomegalovirus (CMV) antigens. At 400x magnification, large, dark brown-stained inclusions are visible within some cells, consistent with CMV infection. The background tissue is counterstained in a lighter blue, allowing clear visualization of the infected cells amidst the surrounding lung parenchyma.",
+      "visible_findings": [
+        "dark brown-stained inclusions within cells",
+        "lighter blue counterstained background tissue",
+        "cellular architecture of lung tissue"
+      ],
+      "keywords": [
+        "immunoperoxidase stain",
+        "lung tissue",
+        "cmv",
+        "viral inclusions",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "cmv stain",
+        "lung biopsy",
+        "immunoperoxidase stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:47+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 251,
+      "total_tokens": 850
+    }
+  },
+  "Case_12006/figure5.jpg": {
+    "case_id": "Case_12006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12006/figure5.jpg",
+    "source_caption": "H and E stain of lung tissue, 400x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "H&E stain of lung tissue showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E) at high magnification (approximately 400x). The tissue exhibits granulomatous inflammation characterized by clusters of epithelioid histiocytes and multinucleated giant cells. Surrounding the granuloma are numerous lymphocytes and scattered plasma cells. The presence of multinucleated giant cells suggests a chronic inflammatory process, potentially related to an infectious or non-infectious etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "lymphocytic infiltration",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "H&E stain",
+        "giant cells",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "H&E stain",
+        "granulomatous inflammation",
+        "histopathology of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:50+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 282,
+      "total_tokens": 878
+    }
+  }
+}

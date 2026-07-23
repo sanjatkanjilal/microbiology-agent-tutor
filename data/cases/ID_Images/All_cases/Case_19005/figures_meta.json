@@ -1,0 +1,213 @@
+{
+  "Case_19005/figure1.jpg": {
+    "case_id": "Case_19005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19005/figure1.jpg",
+    "source_caption": "Figure 1: CXR on presentation showing clear lung fields",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing clear lung fields.",
+      "detailed_description": "This is a frontal chest radiograph (posteroanterior view) showing clear lung fields without any visible consolidations, masses, or effusions. The heart and mediastinal contours appear normal, and there is no evidence of pneumothorax or other acute abnormalities. The bony structures, including ribs and clavicles, are intact and unremarkable.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal heart and mediastinal contours",
+        "no visible consolidations or effusions",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "clear lung fields",
+        "normal chest x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal lung fields",
+        "CXR"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:04+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 226,
+      "total_tokens": 821
+    }
+  },
+  "Case_19005/figure2.jpg": {
+    "case_id": "Case_19005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19005/figure2.jpg",
+    "source_caption": "Figure 2: CXR on hospital day 3 showing diffuse pulmonary opacities",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing diffuse bilateral pulmonary opacities.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing diffuse bilateral pulmonary opacities. The opacities are patchy and involve both lung fields, consistent with a process such as pulmonary edema, infection, or acute respiratory distress syndrome (ARDS). Medical devices, including ECG leads and a central venous catheter, are visible. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion.",
+      "visible_findings": [
+        "diffuse bilateral pulmonary opacities",
+        "presence of ECG leads",
+        "central venous catheter in place",
+        "normal cardiac silhouette",
+        "no obvious pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "lungs",
+        "infection",
+        "ARDS",
+        "pulmonary edema"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary opacities",
+        "hospital day 3"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:05+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 259,
+      "total_tokens": 859
+    }
+  },
+  "Case_19005/figure3.jpg": {
+    "case_id": "Case_19005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19005/figure3.jpg",
+    "source_caption": "Figure 3: H&E stain of small bowel a) showing larvae within the mucosa (40x) and b) within the muscularis propria (200x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "small bowel",
+      "short_caption": "H&E stain showing larvae in small bowel mucosa and muscularis propria.",
+      "detailed_description": "This image consists of two panels labeled A and B, both showing hematoxylin and eosin (H&E) stained sections of small bowel tissue. Panel A, at lower magnification (40x), reveals larvae within the mucosa amidst inflammatory infiltrates. Panel B, at higher magnification (200x), shows larvae more clearly within the muscularis propria, surrounded by inflammatory cells. The larvae are elongated with visible internal structures, consistent with parasitic infection.",
+      "visible_findings": [
+        "larvae within mucosa in panel A",
+        "larvae within muscularis propria in panel B",
+        "inflammatory infiltrates surrounding larvae",
+        "H&E stain with pink and purple hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "small bowel",
+        "H&E stain",
+        "larvae",
+        "parasitic infection",
+        "mucosa",
+        "muscularis propria"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "small bowel histology",
+        "parasitic larvae",
+        "intestinal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:07+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 283,
+      "total_tokens": 899
+    }
+  },
+  "Case_19005/figure4.jpg": {
+    "case_id": "Case_19005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19005/figure4.jpg",
+    "source_caption": "Figure 4: H&E stain of cardiac muscle showing Strongyloides involvement (200x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cardiac muscle",
+      "short_caption": "H&E stain of cardiac muscle showing parasitic involvement, consistent with Strongyloides (200x).",
+      "detailed_description": "This histopathology image shows cardiac muscle tissue stained with hematoxylin and eosin (H&E) at 200x magnification. The tissue displays elongated, eosinophilic muscle fibers with nuclei arranged in a linear fashion. Interspersed within the tissue are parasitic structures, consistent with Strongyloides larvae, characterized by their elongated shape and basophilic staining. There is evidence of a mild inflammatory infiltrate surrounding the parasitic structures.",
+      "visible_findings": [
+        "elongated eosinophilic cardiac muscle fibers",
+        "linear arrangement of nuclei",
+        "parasitic structures consistent with Strongyloides larvae",
+        "mild inflammatory infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "cardiac muscle",
+        "H&E stain",
+        "Strongyloides",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "cardiac muscle histology",
+        "Strongyloides infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:16+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 278,
+      "total_tokens": 880
+    }
+  },
+  "Case_19005/figure5.jpg": {
+    "case_id": "Case_19005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19005/figure5.jpg",
+    "source_caption": "Figure 5: H&E stain of hilar lymph node a) showing ATLL and larvae (40x) and b) “floret cells” and larvae (200x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "hilar lymph node",
+      "short_caption": "H&E stain of hilar lymph node showing atypical lymphocytes and larvae.",
+      "detailed_description": "This image contains two panels (A and B) of H&E-stained sections of a hilar lymph node. Panel A, at lower magnification (40x), shows a disrupted lymph node architecture with areas of dense lymphocytic infiltration and scattered eosinophilic structures consistent with larvae. Panel B, at higher magnification (200x), highlights atypical lymphocytes with 'floret-like' nuclei and more clearly visible larvae. The findings are suggestive of adult T-cell leukemia/lymphoma (ATLL) with associated parasitic infection.",
+      "visible_findings": [
+        "disrupted lymph node architecture",
+        "dense lymphocytic infiltration",
+        "eosinophilic structures resembling larvae",
+        "atypical lymphocytes with 'floret-like' nuclei"
+      ],
+      "keywords": [
+        "histopathology",
+        "hilar lymph node",
+        "H&E stain",
+        "ATLL",
+        "larvae",
+        "floret cells"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "ATLL",
+        "histopathology of larvae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:16+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 295,
+      "total_tokens": 913
+    }
+  }
+}

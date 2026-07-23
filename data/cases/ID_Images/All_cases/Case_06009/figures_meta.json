@@ -1,0 +1,45 @@
+{
+  "Case_06009/figure1.jpg": {
+    "case_id": "Case_06009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06009/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the torso",
+      "short_caption": "Erythematous targetoid rash with central clearing on the torso.",
+      "detailed_description": "This clinical photograph shows a well-demarcated, erythematous, circular rash with a target-like appearance and central clearing. The lesion is located on the skin of the torso. The characteristic 'bullseye' pattern is suggestive of erythema migrans, often associated with Lyme disease. The surrounding skin appears normal without additional lesions or inflammation.",
+      "visible_findings": [
+        "erythematous circular rash",
+        "target-like appearance",
+        "central clearing",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "erythema migrans",
+        "target lesion",
+        "Lyme disease"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "target lesion",
+        "erythema migrans",
+        "Lyme disease rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:28+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  }
+}

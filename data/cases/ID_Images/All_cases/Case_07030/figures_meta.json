@@ -1,0 +1,43 @@
+{
+  "Case_07030/figure1.jpg": {
+    "case_id": "Case_07030",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07030/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-negative diplococci and neutrophils.",
+      "detailed_description": "This image shows a Gram stain with numerous gram-negative diplococci, appearing as paired, kidney-shaped organisms. These are interspersed among polymorphonuclear neutrophils, which are visible as larger cells with multilobed nuclei. The background is lightly stained, and the organisms are prominently stained red, consistent with gram-negative bacteria. This appearance is suggestive of an infectious process involving these organisms.",
+      "visible_findings": [
+        "gram-negative diplococci",
+        "polymorphonuclear neutrophils",
+        "red-stained bacteria",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "diplococci",
+        "neutrophils",
+        "infectious diseases",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "gram-negative diplococci",
+        "bacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 243,
+      "total_tokens": 811
+    }
+  }
+}

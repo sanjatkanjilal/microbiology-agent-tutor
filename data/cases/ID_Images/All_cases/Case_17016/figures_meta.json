@@ -1,0 +1,212 @@
+{
+  "Case_17016/figure1.jpg": {
+    "case_id": "Case_17016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17016/figure1.jpg",
+    "source_caption": "Photograph of the right forefoot.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right forefoot",
+      "short_caption": "Clinical photograph of the right forefoot showing skin changes and a small ulcer.",
+      "detailed_description": "This image shows the dorsal aspect of the right forefoot. The skin appears dry and scaly with hyperpigmentation and thickening, suggestive of chronic changes. A small ulceration is visible on the dorsum near the base of the second toe, with surrounding erythema. The toes show mild deformity, and the nails appear thickened, possibly indicating onychomycosis or other chronic nail changes.",
+      "visible_findings": [
+        "dry, scaly skin",
+        "hyperpigmentation",
+        "small ulceration near the base of the second toe",
+        "mild toe deformity",
+        "thickened nails"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "ulcer",
+        "skin changes",
+        "onychomycosis",
+        "forefoot"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot ulcer",
+        "forefoot photograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 254,
+      "total_tokens": 843
+    }
+  },
+  "Case_17016/figure2.jpg": {
+    "case_id": "Case_17016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17016/figure2.jpg",
+    "source_caption": "Plain XR film of the right foot. Arrows indicate: diffuse soft tissue swelling of the 5th toe and lateral foot; cortical irregularity of the lateral aspect of the 5th metatarsal shaft and head",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "right foot",
+      "short_caption": "X-ray of the right foot showing soft tissue swelling and cortical irregularity of the 5th metatarsal.",
+      "detailed_description": "This plain radiograph of the right foot shows diffuse soft tissue swelling around the 5th toe and lateral foot. Cortical irregularity is visible along the lateral aspect of the 5th metatarsal shaft and head. These findings are highlighted with arrows in the image. The overall composition suggests potential infection or trauma in the affected area.",
+      "visible_findings": [
+        "diffuse soft tissue swelling of the 5th toe and lateral foot",
+        "cortical irregularity of the lateral aspect of the 5th metatarsal shaft and head",
+        "arrows indicating key abnormalities"
+      ],
+      "keywords": [
+        "x-ray",
+        "right foot",
+        "soft tissue swelling",
+        "cortical irregularity",
+        "5th metatarsal",
+        "trauma",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "foot x-ray",
+        "right foot swelling",
+        "5th metatarsal abnormality"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:26+00:00",
+    "usage": {
+      "prompt_tokens": 628,
+      "completion_tokens": 273,
+      "total_tokens": 901
+    }
+  },
+  "Case_17016/figure5.jpg": {
+    "case_id": "Case_17016",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17016/figure5.jpg",
+    "source_caption": "Histopathology of soft tissue biopsy from right foot. Giemsa stain (40x). Arrows indicate: granular mycelial growth of pigmented hyphae fungi with a granulo-histiocytic inflammatory response",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "soft tissue of right foot",
+      "short_caption": "Giemsa stain of soft tissue biopsy showing pigmented hyphae fungi with inflammatory response.",
+      "detailed_description": "This histopathology image, stained with Giemsa at 40x magnification, shows pigmented fungal hyphae within a soft tissue biopsy. The fungal elements appear as granular, pigmented structures, indicated by arrows, surrounded by a granulo-histiocytic inflammatory response. The background tissue demonstrates inflammatory infiltrates and necrosis, consistent with a fungal infection.",
+      "visible_findings": [
+        "granular pigmented fungal hyphae",
+        "granulo-histiocytic inflammatory response",
+        "necrotic and inflamed surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "giemsa stain",
+        "fungal infection",
+        "soft tissue",
+        "pigmented hyphae",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "fungal histopathology",
+        "soft tissue biopsy",
+        "pigmented hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:31+00:00",
+    "usage": {
+      "prompt_tokens": 628,
+      "completion_tokens": 261,
+      "total_tokens": 889
+    }
+  },
+  "Case_17016/figure3.jpg": {
+    "case_id": "Case_17016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17016/figure3.jpg",
+    "source_caption": "Figure 3: MRI of the right foot - T1 sagittal (post-contrast). Arrows indicate: infiltrative soft tissue mass centered within 5th toe; patchy marrow edema in the metatarsal shaft suggestive of osteomyelitis",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right foot",
+      "short_caption": "MRI of the right foot (T1 post-contrast) showing soft tissue mass and marrow edema.",
+      "detailed_description": "This is a sagittal T1-weighted post-contrast MRI of the right foot. A soft tissue mass is visible, centered within the 5th toe, with infiltrative characteristics. Additionally, there is patchy marrow edema in the metatarsal shaft, which is suggestive of osteomyelitis. The image is annotated with arrows pointing to these findings for clarity.",
+      "visible_findings": [
+        "infiltrative soft tissue mass in the 5th toe",
+        "patchy marrow edema in the metatarsal shaft",
+        "contrast enhancement highlighting abnormalities"
+      ],
+      "keywords": [
+        "mri",
+        "right foot",
+        "t1 post-contrast",
+        "soft tissue mass",
+        "osteomyelitis",
+        "marrow edema"
+      ],
+      "reveal_triggers": [
+        "mri of foot",
+        "osteomyelitis imaging",
+        "soft tissue mass in toe"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:35+00:00",
+    "usage": {
+      "prompt_tokens": 636,
+      "completion_tokens": 258,
+      "total_tokens": 894
+    }
+  },
+  "Case_17016/figure4.jpg": {
+    "case_id": "Case_17016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17016/figure4.jpg",
+    "source_caption": "MRI of the right foot – T1 short axis (post- contrast). Arrow indicates: infiltrative soft tissue mass centered within 5th toe, traversing multiple compartments",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right foot",
+      "short_caption": "MRI of the right foot showing an infiltrative soft tissue mass in the 5th toe.",
+      "detailed_description": "This is a T1-weighted post-contrast MRI image in the short axis of the right foot. A red arrow highlights an infiltrative soft tissue mass centered within the 5th toe. The lesion appears hyperintense relative to surrounding tissues and spans multiple compartments of the toe. The mass demonstrates irregular borders and may suggest aggressive or infiltrative pathology.",
+      "visible_findings": [
+        "hyperintense soft tissue mass in the 5th toe",
+        "irregular lesion borders",
+        "lesion traversing multiple compartments",
+        "post-contrast enhancement"
+      ],
+      "keywords": [
+        "mri",
+        "right foot",
+        "soft tissue mass",
+        "5th toe",
+        "post-contrast",
+        "infiltrative lesion"
+      ],
+      "reveal_triggers": [
+        "mri of foot",
+        "soft tissue mass in toe",
+        "post-contrast mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:35+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 251,
+      "total_tokens": 868
+    }
+  }
+}

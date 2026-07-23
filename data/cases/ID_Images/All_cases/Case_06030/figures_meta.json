@@ -1,0 +1,43 @@
+{
+  "Case_06030/figure1.jpg": {
+    "case_id": "Case_06030",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06030/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "toes",
+      "short_caption": "Erythematous papules on the toes, one with a central vesicle.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of the toes. There are multiple erythematous papules, one of which has a central vesicle. The lesions are well-circumscribed and appear inflamed. The surrounding skin is unremarkable, and no signs of ulceration or crusting are visible.",
+      "visible_findings": [
+        "erythematous papules",
+        "central vesicle on one lesion",
+        "well-circumscribed lesions",
+        "no ulceration or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "toes",
+        "erythematous papules",
+        "vesicle",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "toe lesions",
+        "vesicular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:03+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  }
+}

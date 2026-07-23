@@ -1,0 +1,250 @@
+{
+  "Case_03032/figure1.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower legs and feet",
+      "short_caption": "Erythematous maculopapular rash on the lower legs and feet.",
+      "detailed_description": "This clinical photograph shows the lower legs and feet of a patient with a diffuse erythematous maculopapular rash. The lesions are small, pink to red, and distributed across the dorsal aspects of the feet and lower legs. The rash appears non-confluent and is more prominent on the lateral aspects. The background skin tone is otherwise unremarkable. The image is well-lit and taken from a frontal perspective.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "non-confluent distribution",
+        "involvement of dorsal feet and lower legs"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "maculopapular",
+        "lower legs",
+        "feet",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on legs",
+        "maculopapular rash",
+        "skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:33+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 256,
+      "total_tokens": 824
+    }
+  },
+  "Case_03032/figure3.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "sole of the foot",
+      "short_caption": "Rash with erythematous macules and papules on the sole of the foot.",
+      "detailed_description": "This clinical photograph shows the sole of a foot with numerous small erythematous macules and papules distributed across the central and medial aspects. The lesions are discrete and non-confluent, with no visible vesicles, pustules, or ulceration. The surrounding skin appears otherwise normal. The image is well-lit and focuses on the plantar surface.",
+      "visible_findings": [
+        "erythematous macules",
+        "erythematous papules",
+        "discrete distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "rash",
+        "erythematous macules",
+        "erythematous papules",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on foot",
+        "erythematous lesions",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  },
+  "Case_03032/figure2.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythematous maculopapular rash on the dorsal aspect of the foot.",
+      "detailed_description": "This image shows the dorsal aspect of a foot with a diffuse erythematous maculopapular rash. The lesions are small, discrete, and scattered across the skin surface. The background skin appears otherwise normal, with no visible signs of swelling or ulceration. The photograph is well-lit, and the rash is clearly visible against the lighter skin tone.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "discrete, scattered lesions",
+        "no visible swelling or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "rash",
+        "maculopapular",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "foot rash",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_03032/figure5.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure5.jpg",
+    "source_caption": "MRI scan of feet.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "feet",
+      "short_caption": "MRI scan of both feet showing soft tissue and bone structures.",
+      "detailed_description": "This is an MRI scan of both feet, displayed in a coronal view. The image shows detailed visualization of soft tissues, bones, and joints. There appear to be areas of altered signal intensity in the soft tissues and possibly within the bones, which may suggest infection, inflammation, or other pathology. The scan is de-identified and includes a scale for reference.",
+      "visible_findings": [
+        "bilateral feet in coronal view",
+        "soft tissue and bone structures visible",
+        "areas of altered signal intensity in soft tissues",
+        "possible involvement of bone structures"
+      ],
+      "keywords": [
+        "mri",
+        "feet",
+        "soft tissue",
+        "bone",
+        "infection",
+        "coronal view"
+      ],
+      "reveal_triggers": [
+        "mri of feet",
+        "foot infection imaging",
+        "coronal mri of feet"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:45+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 236,
+      "total_tokens": 823
+    }
+  },
+  "Case_03032/figure4.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythematous maculopapular rash on the plantar surface of the foot.",
+      "detailed_description": "This clinical photograph shows the plantar surface of a foot with numerous erythematous maculopapular lesions. The lesions are distributed diffusely across the sole, with some areas appearing more confluent. The skin surrounding the lesions appears otherwise intact, with no visible ulceration or scaling. The findings suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "diffuse distribution on the sole",
+        "no visible ulceration or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "rash",
+        "maculopapular",
+        "erythematous",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on foot",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:46+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  },
+  "Case_03032/figure6.jpg": {
+    "case_id": "Case_03032",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03032/figure6.jpg",
+    "source_caption": "MRI scan of the left foot.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "left foot",
+      "short_caption": "MRI of the left foot showing soft tissue and bony abnormalities.",
+      "detailed_description": "This is a sagittal MRI image of the left foot. The image shows soft tissue and bony structures, with notable abnormalities in the midfoot region. There appears to be increased signal intensity in the soft tissues and possible involvement of the adjacent bones, suggesting inflammation or infection. The image is de-identified and includes technical parameters such as slice thickness and magnification.",
+      "visible_findings": [
+        "sagittal view of the left foot",
+        "increased signal intensity in soft tissues",
+        "possible bony involvement in the midfoot region",
+        "normal anatomical landmarks of the foot visible"
+      ],
+      "keywords": [
+        "mri",
+        "left foot",
+        "infection",
+        "soft tissue",
+        "bone",
+        "sagittal view"
+      ],
+      "reveal_triggers": [
+        "mri of foot",
+        "left foot infection",
+        "soft tissue abnormalities"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 244,
+      "total_tokens": 833
+    }
+  }
+}

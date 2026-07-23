@@ -1,0 +1,45 @@
+{
+  "Case_03058/figure1.jpg": {
+    "case_id": "Case_03058",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03058/figure1.jpg",
+    "source_caption": "Physical findings on hard palate.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hard palate",
+      "short_caption": "Ulcerative lesion with necrotic tissue on the hard palate.",
+      "detailed_description": "This clinical photograph shows the upper oral cavity, focusing on the hard palate. There is a large ulcerative lesion with areas of yellowish necrotic tissue and surrounding erythema. The lesion appears to extend posteriorly and laterally, with irregular borders. Adjacent gingival tissues show swelling and inflammation. Teeth are visible, with some dental plaque noted.",
+      "visible_findings": [
+        "ulcerative lesion on hard palate",
+        "yellow necrotic tissue",
+        "surrounding erythema",
+        "gingival swelling and inflammation",
+        "dental plaque"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hard palate",
+        "oral ulcer",
+        "necrosis",
+        "erythema",
+        "gingival inflammation"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "hard palate lesion",
+        "necrotic tissue in mouth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:41+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 244,
+      "total_tokens": 832
+    }
+  }
+}

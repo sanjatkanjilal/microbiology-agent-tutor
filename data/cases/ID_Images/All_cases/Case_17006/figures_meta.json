@@ -1,0 +1,134 @@
+{
+  "Case_17006/figure1.jpg": {
+    "case_id": "Case_17006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17006/figure1.jpg",
+    "source_caption": "Abdominal CT with contrast showed multiple hypovascular liver lesions (arrow), some with rim enhancement and central hypodensity, the largest in the left hepatic lobe measured 23 x 10 mm. The scan also demonstrated multiple small splenic lesions and amorphous upper abdominal lymphadenopathy with the largest node measuring 16 mm.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT with contrast showing hypovascular liver lesions and splenic abnormalities.",
+      "detailed_description": "This is a contrast-enhanced axial abdominal CT image. Multiple hypovascular lesions are visible in the liver, with some demonstrating rim enhancement and central hypodensity. The largest lesion is located in the left hepatic lobe. Additionally, there are small splenic lesions and amorphous lymphadenopathy in the upper abdomen, with the largest lymph node measuring approximately 16 mm. The kidneys and other abdominal structures are also visible.",
+      "visible_findings": [
+        "multiple hypovascular liver lesions",
+        "rim enhancement and central hypodensity in some liver lesions",
+        "largest liver lesion in the left hepatic lobe",
+        "small splenic lesions",
+        "amorphous upper abdominal lymphadenopathy",
+        "contrast-enhanced abdominal structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesions",
+        "splenic lesions",
+        "lymphadenopathy",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesions",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:24+00:00",
+    "usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 277,
+      "total_tokens": 926
+    }
+  },
+  "Case_17006/figure3.jpg": {
+    "case_id": "Case_17006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17006/figure3.jpg",
+    "source_caption": "Skin biopsy (H&E, 40x) showing a suppurative granuloma consisting of collections of epithelioid histiocytes with a collection of neutrophils in the center (arrow) and a lymphoplasmacytic inflammatory infiltrate at the periphery.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E-stained skin biopsy showing a suppurative granuloma with central neutrophils and peripheral lymphoplasmacytic infiltrate.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E)-stained section of skin at 40x magnification. A suppurative granuloma is visible, characterized by a central collection of neutrophils surrounded by epithelioid histiocytes. At the periphery, there is a lymphoplasmacytic inflammatory infiltrate. The arrow highlights the central neutrophilic component of the granuloma.",
+      "visible_findings": [
+        "suppurative granuloma",
+        "central neutrophilic collection",
+        "epithelioid histiocytes",
+        "lymphoplasmacytic infiltrate at the periphery",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "granuloma",
+        "H&E stain",
+        "neutrophils",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "granuloma histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:26+00:00",
+    "usage": {
+      "prompt_tokens": 637,
+      "completion_tokens": 280,
+      "total_tokens": 917
+    }
+  },
+  "Case_17006/figure2.jpg": {
+    "case_id": "Case_17006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17006/figure2.jpg",
+    "source_caption": "Liver biopsy (H&E, 40x) showing mixed inflammatory infiltrate composed of lymphocytes, neutrophils, eosinophils and poorly aggregated histiocytes. Multinucleate giant cells were not identified. A few portal areas demonstrate edematous expansion and marked, dense mixed inflammation.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Liver biopsy (H&E, 40x) showing mixed inflammatory infiltrate with lymphocytes, neutrophils, and eosinophils.",
+      "detailed_description": "This histopathology image shows a liver biopsy stained with hematoxylin and eosin (H&E) at 40x magnification. The tissue demonstrates a dense, mixed inflammatory infiltrate composed of lymphocytes, neutrophils, and eosinophils. The portal areas appear edematous, with expansion and marked inflammation. Poorly aggregated histiocytes are visible, but multinucleate giant cells are not identified. The overall pattern suggests significant inflammatory activity.",
+      "visible_findings": [
+        "dense mixed inflammatory infiltrate",
+        "lymphocytes, neutrophils, and eosinophils",
+        "edematous portal areas",
+        "poorly aggregated histiocytes",
+        "absence of multinucleate giant cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "H&E stain",
+        "inflammation",
+        "biopsy",
+        "lymphocytes",
+        "neutrophils",
+        "eosinophils"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "H&E stain",
+        "inflammatory infiltrate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:29+00:00",
+    "usage": {
+      "prompt_tokens": 643,
+      "completion_tokens": 306,
+      "total_tokens": 949
+    }
+  }
+}

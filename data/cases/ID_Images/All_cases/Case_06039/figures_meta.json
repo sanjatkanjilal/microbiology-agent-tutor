@@ -1,0 +1,43 @@
+{
+  "Case_06039/figure1.jpg": {
+    "case_id": "Case_06039",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06039/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Large tense bulla on erythematous skin.",
+      "detailed_description": "This clinical photograph shows a large, tense, fluid-filled bulla on the skin, surrounded by erythematous and slightly hyperpigmented areas. The bulla appears translucent with a yellowish hue, and there are smaller lesions nearby. The surrounding skin shows mild discoloration, suggesting inflammation or previous lesions.",
+      "visible_findings": [
+        "large tense bulla",
+        "yellowish fluid content",
+        "erythematous surrounding skin",
+        "smaller adjacent lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "bulla",
+        "erythema",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "bulla",
+        "blistering skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 212,
+      "total_tokens": 780
+    }
+  }
+}

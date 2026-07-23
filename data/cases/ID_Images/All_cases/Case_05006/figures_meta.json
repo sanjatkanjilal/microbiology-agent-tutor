@@ -1,0 +1,168 @@
+{
+  "Case_05006/figure1.jpg": {
+    "case_id": "Case_05006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05006/figure1.jpg",
+    "source_caption": "Plantar surface of foot.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "plantar surface of foot",
+      "short_caption": "Plantar surface of foot with nodular lesions and discoloration.",
+      "detailed_description": "This clinical photograph shows the plantar surface of the foot with multiple raised, nodular lesions of varying sizes. The lesions appear shiny and hyperpigmented, with some showing central ulceration or crusting. The surrounding skin is darkly pigmented and appears slightly thickened. The orientation of the image is labeled with 'toes' and 'heel' for reference.",
+      "visible_findings": [
+        "multiple raised nodular lesions",
+        "shiny and hyperpigmented skin",
+        "central ulceration or crusting in some lesions",
+        "thickened surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "nodular lesions",
+        "plantar surface",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot lesions",
+        "plantar surface nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_05006/figure2.jpg": {
+    "case_id": "Case_05006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05006/figure2.jpg",
+    "source_caption": "MRI scan of the distal lower extremity.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "distal lower extremity",
+      "short_caption": "Axial MRI of the distal lower extremity showing soft tissue and muscular structures.",
+      "detailed_description": "This axial MRI image of the distal lower extremity demonstrates soft tissue and muscular structures. The image shows clear delineation of muscle compartments, subcutaneous fat, and bone. There is no obvious evidence of fluid collections, abscesses, or significant edema. The image is labeled with 'R' indicating the right side, and the contrast between tissues is well-defined.",
+      "visible_findings": [
+        "axial view of distal lower extremity",
+        "muscle compartments visible",
+        "subcutaneous fat and bone structures",
+        "no obvious fluid collections or abscesses"
+      ],
+      "keywords": [
+        "mri",
+        "distal lower extremity",
+        "soft tissue",
+        "muscle",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "mri of leg",
+        "distal lower extremity imaging",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:25+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 246,
+      "total_tokens": 837
+    }
+  },
+  "Case_05006/figure3.jpg": {
+    "case_id": "Case_05006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05006/figure3.jpg",
+    "source_caption": "MRI scan of the distal lower extremity.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "distal lower extremity",
+      "short_caption": "MRI of the distal lower extremity showing soft tissue and muscular structures.",
+      "detailed_description": "This axial MRI image of the distal lower extremity demonstrates soft tissue and muscular structures. The image shows clear differentiation of muscle groups, subcutaneous fat, and bone. Two prominent circular structures, likely cross-sections of bones, are visible centrally. There is no obvious evidence of abscess, edema, or abnormal signal intensity in the soft tissues. The image appears to be a T2-weighted sequence, as fluid-filled structures are hyperintense.",
+      "visible_findings": [
+        "axial view of distal lower extremity",
+        "clear differentiation of muscle groups and subcutaneous fat",
+        "two prominent circular structures representing bones",
+        "no obvious abscess or edema"
+      ],
+      "keywords": [
+        "mri",
+        "lower extremity",
+        "soft tissue",
+        "muscle",
+        "bone",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "mri of leg",
+        "distal lower extremity imaging",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:27+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 265,
+      "total_tokens": 856
+    }
+  },
+  "Case_05006/figure4.jpg": {
+    "case_id": "Case_05006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05006/figure4.jpg",
+    "source_caption": "Physical findings after therapy.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity, dorsal foot",
+      "short_caption": "Post-therapy skin findings on the dorsal foot.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a foot with multiple hyperpigmented macules and patches, some with irregular borders. There are areas of scaling and mild desquamation, as well as a few hypopigmented scars. The skin appears dry, and there are no visible signs of active inflammation or ulceration. The orientation is labeled with 'toes' and 'heel' for clarity.",
+      "visible_findings": [
+        "hyperpigmented macules and patches",
+        "irregular borders",
+        "scaling and desquamation",
+        "hypopigmented scars",
+        "dry skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "skin lesions",
+        "hyperpigmentation",
+        "post-therapy findings"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot lesions",
+        "post-treatment skin changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:29+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 243,
+      "total_tokens": 830
+    }
+  }
+}

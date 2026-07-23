@@ -1,0 +1,45 @@
+{
+  "Case_03124/figure1.jpg": {
+    "case_id": "Case_03124",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03124/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Erythema and swelling of the lower leg, suggestive of cellulitis.",
+      "detailed_description": "This image shows a lower leg with marked erythema, swelling, and a shiny appearance of the skin. The redness is diffuse and extends over a large area, with no clear demarcation. The skin appears tense, suggesting underlying edema. There are no visible breaks in the skin or purulent drainage in this view.",
+      "visible_findings": [
+        "diffuse erythema",
+        "swelling",
+        "shiny skin surface",
+        "tense appearance of skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "erythema",
+        "swelling",
+        "cellulitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg swelling",
+        "erythema of the leg",
+        "cellulitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:49+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "Case_11009/figure1.jpg": {
+    "case_id": "Case_11009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11009/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:53:49+00:00"
+  },
+  "Case_11009/figure2.jpg": {
+    "case_id": "Case_11009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11009/figure2.jpg",
+    "source_caption": "Physical findings, with reticulate erythema on the palms.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palms of both hands",
+      "short_caption": "Reticulate erythema visible on the palms of both hands.",
+      "detailed_description": "This clinical photograph shows the palms of both hands resting on a white surface. There is a prominent reticulate erythema pattern visible across the palms, characterized by a net-like reddish discoloration. The erythema appears diffuse and symmetric, with no obvious ulceration, scaling, or vesicles. A ruler is included at the top of the image for scale, and the image is de-identified.",
+      "visible_findings": [
+        "reticulate erythema on both palms",
+        "symmetric distribution",
+        "no visible ulceration or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palms",
+        "reticulate erythema",
+        "skin findings",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "palmar erythema",
+        "reticulate rash"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:00+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 242,
+      "total_tokens": 838
+    }
+  },
+  "Case_11009/figure3.jpg": {
+    "case_id": "Case_11009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11009/figure3.jpg",
+    "source_caption": "Skin biopsy, hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with hematoxylin and eosin stain showing dermal inflammation.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin. The epidermis appears intact, while the dermis demonstrates significant inflammatory infiltrates, predominantly in the mid to deep dermis. There is evidence of tissue disruption and possible edema. The staining highlights cellular and structural details, aiding in the identification of inflammatory changes.",
+      "visible_findings": [
+        "intact epidermis",
+        "inflammatory infiltrates in the dermis",
+        "tissue disruption",
+        "possible dermal edema"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "hematoxylin and eosin",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:02+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 233,
+      "total_tokens": 827
+    }
+  },
+  "Case_11009/figure4.jpg": {
+    "case_id": "Case_11009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11009/figure4.jpg",
+    "source_caption": "Skin biopsy, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain showing fungal elements.",
+      "detailed_description": "This histopathology image shows a high-magnification view of a skin biopsy stained with hematoxylin and eosin (H&E). Multiple fungal elements, including round yeast-like structures and pseudohyphae, are visible within the tissue. The fungal elements are highlighted by black and white arrows, and they are surrounded by inflammatory cells and disrupted tissue architecture. The staining highlights the cellular and extracellular components, aiding in the identification of the fungal morphology.",
+      "visible_findings": [
+        "round yeast-like structures",
+        "pseudohyphae",
+        "inflammatory cell infiltrate",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "fungal infection",
+        "yeast",
+        "pseudohyphae"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:07+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 250,
+      "total_tokens": 840
+    }
+  }
+}

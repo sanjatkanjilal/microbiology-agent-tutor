@@ -1,0 +1,177 @@
+{
+  "Case_17018/figure2.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure2.jpg",
+    "source_caption": "Sub-centimeter papillomatous lesions seen over the scrotum",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:33+00:00"
+  },
+  "Case_17018/figure1.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure1.jpg",
+    "source_caption": "12 x 18 cm buttock mass covering the perianal area",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:33+00:00"
+  },
+  "Case_17018/figure4.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure4.jpg",
+    "source_caption": "Post-operative photograph of anal area",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:34+00:00"
+  },
+  "Case_17018/figure7.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure7.jpg",
+    "source_caption": "Photograph of anal area two months after surgery",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:36+00:00"
+  },
+  "Case_17018/figure6.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure6.jpg",
+    "source_caption": "H&E stains of anal tissue (high power).The surface epithelium shows koilocytosis (HPV related cellular changes), as demonstrated by the wrinkled hyperchromatic nuclei (arrow), perinuclear halos (box) and multinucleated cells (circle)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "anal tissue",
+      "short_caption": "H&E stain of anal tissue showing HPV-related changes, including koilocytosis with perinuclear halos and hyperchromatic nuclei.",
+      "detailed_description": "This high-power histopathology image of anal tissue stained with hematoxylin and eosin (H&E) demonstrates hallmark features of HPV-related cellular changes. The surface epithelium shows koilocytosis, characterized by wrinkled, hyperchromatic nuclei (indicated by the arrow), perinuclear halos (highlighted by boxes), and multinucleated cells (circled). These findings are consistent with HPV infection and its associated cytopathic effects.",
+      "visible_findings": [
+        "koilocytosis with wrinkled, hyperchromatic nuclei",
+        "perinuclear halos",
+        "multinucleated cells",
+        "surface epithelium involvement"
+      ],
+      "keywords": [
+        "histopathology",
+        "anal tissue",
+        "H&E stain",
+        "HPV",
+        "koilocytosis",
+        "perinuclear halos",
+        "multinucleated cells"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "HPV histology",
+        "anal tissue pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:49+00:00",
+    "usage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 289,
+      "total_tokens": 928
+    }
+  },
+  "Case_17018/figure5.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure5.jpg",
+    "source_caption": "H&E stain of anal tissue (low power) revealed a lesion with a sharply-defined base (arrow). There were no signs of invasion into the underlying connective tissue, differentiating it from a carcinoma.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "anal tissue",
+      "short_caption": "H&E stain of anal tissue showing a sharply-defined lesion with no invasion into connective tissue.",
+      "detailed_description": "This histopathology image shows a low-power view of anal tissue stained with hematoxylin and eosin (H&E). A sharply-defined lesion is visible, marked by an arrow, with a clear base separating it from the underlying connective tissue. The surrounding tissue appears intact, with no evidence of invasion into deeper layers, which helps differentiate this lesion from a carcinoma. The image highlights the epithelial and subepithelial structures in detail.",
+      "visible_findings": [
+        "sharply-defined lesion with clear base",
+        "no invasion into connective tissue",
+        "intact surrounding tissue",
+        "epithelial and subepithelial structures visible"
+      ],
+      "keywords": [
+        "histopathology",
+        "anal tissue",
+        "H&E stain",
+        "lesion",
+        "non-invasive",
+        "low power"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "anal tissue histopathology",
+        "low-power lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:50+00:00",
+    "usage": {
+      "prompt_tokens": 622,
+      "completion_tokens": 263,
+      "total_tokens": 885
+    }
+  },
+  "Case_17018/figure3.jpg": {
+    "case_id": "Case_17018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17018/figure3.jpg",
+    "source_caption": "Abdominopelvic CT scan with intravenous (IV) and rectal contrast. Large 9 x 12 x 13cm hyperdense mass seen arising from the anal region extending exteriorly, causing near-total luminal obstruction. Lymphadenopathy noted. Urinary collecting systems were normal.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdominopelvic region",
+      "short_caption": "Abdominopelvic CT with IV and rectal contrast showing a large hyperdense anal mass.",
+      "detailed_description": "This axial CT image of the abdominopelvic region, obtained with intravenous and rectal contrast, shows a large hyperdense mass arising from the anal region. The mass measures approximately 9 x 12 x 13 cm and extends exteriorly, causing near-total luminal obstruction. Surrounding lymphadenopathy is also noted. The urinary collecting systems appear normal in this image.",
+      "visible_findings": [
+        "large hyperdense anal mass",
+        "near-total luminal obstruction",
+        "lymphadenopathy",
+        "normal urinary collecting systems"
+      ],
+      "keywords": [
+        "ct",
+        "abdominopelvic",
+        "anal mass",
+        "hyperdense",
+        "lymphadenopathy",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "abdominopelvic CT",
+        "anal mass",
+        "rectal contrast CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:51+00:00",
+    "usage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 249,
+      "total_tokens": 891
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Case_15009/figure2.jpg": {
+    "case_id": "Case_15009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15009/figure2.jpg",
+    "source_caption": "Biopsy of nasal tissue, Warthin Starry stain, 400x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "nasal tissue",
+      "short_caption": "Warthin-Starry stain of nasal tissue biopsy showing dark-staining organisms.",
+      "detailed_description": "This histopathology image shows a biopsy of nasal tissue stained with the Warthin-Starry technique at 400x magnification. The tissue contains numerous dark-staining, rod-shaped organisms consistent with bacterial presence, scattered among inflammatory cells and tissue structures. The background is golden-brown, characteristic of the stain, which highlights the organisms against the tissue matrix. The findings suggest an infectious etiology.",
+      "visible_findings": [
+        "dark-staining rod-shaped organisms",
+        "golden-brown background from Warthin-Starry stain",
+        "inflammatory cells in the tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "nasal tissue",
+        "warthin-starry stain",
+        "bacteria",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "warthin-starry stain",
+        "nasal biopsy",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:41+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 250,
+      "total_tokens": 851
+    }
+  },
+  "Case_15009/figure1.jpg": {
+    "case_id": "Case_15009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15009/figure1.jpg",
+    "source_caption": "Biopsy of nasal mass, H and E stain, 400x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "nasal mass",
+      "short_caption": "H&E-stained biopsy of nasal mass at 400x magnification.",
+      "detailed_description": "This histopathology image shows a high-power view (400x magnification) of a nasal mass stained with hematoxylin and eosin (H&E). The tissue demonstrates a dense infiltrate of mononuclear cells with prominent nuclear pleomorphism. Scattered clear spaces suggest vacuolated cytoplasm or artifact. The background stroma appears loose, with occasional eosinophilic material. No definitive organisms are visible in this field.",
+      "visible_findings": [
+        "dense mononuclear cell infiltrate",
+        "nuclear pleomorphism",
+        "scattered clear spaces",
+        "loose stroma with eosinophilic material"
+      ],
+      "keywords": [
+        "histopathology",
+        "nasal mass",
+        "H&E stain",
+        "biopsy",
+        "mononuclear infiltrate"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "nasal biopsy",
+        "histopathology of nasal mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:42+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 262,
+      "total_tokens": 861
+    }
+  }
+}

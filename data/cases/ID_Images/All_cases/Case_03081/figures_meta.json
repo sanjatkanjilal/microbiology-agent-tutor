@@ -1,0 +1,45 @@
+{
+  "Case_03081/figure1.jpg": {
+    "case_id": "Case_03081",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03081/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, neck, and chest",
+      "short_caption": "Multiple hypopigmented scaly patches on the face, neck, and chest.",
+      "detailed_description": "This clinical photograph shows multiple hypopigmented, scaly patches distributed across the face, neck, and chest. The lesions vary in size and shape, with irregular borders and a fine scale. The distribution appears symmetric, and the lesions are more prominent on the chest. The skin texture suggests a superficial fungal or inflammatory process.",
+      "visible_findings": [
+        "hypopigmented patches",
+        "scaly texture",
+        "irregular borders",
+        "distribution on face, neck, and chest"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "hypopigmented patches",
+        "scaling",
+        "dermatology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hypopigmented lesions",
+        "scaly patches",
+        "chest rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:49+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  }
+}

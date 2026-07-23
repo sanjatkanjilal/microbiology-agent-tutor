@@ -1,0 +1,168 @@
+{
+  "Case_03026/figure1.jpg": {
+    "case_id": "Case_03026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03026/figure1.jpg",
+    "source_caption": "Pelvic MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis",
+      "short_caption": "Pelvic MRI scan showing coronal view of the pelvis.",
+      "detailed_description": "This is a coronal MRI image of the pelvis. The bony structures, including the pelvis and sacrum, are clearly visible. Soft tissue structures within the pelvic cavity are also discernible, though no obvious abnormalities are apparent in this image. The image appears to be a T1-weighted sequence based on the contrast between fat and other tissues.",
+      "visible_findings": [
+        "bony structures of the pelvis and sacrum",
+        "soft tissue structures within the pelvic cavity",
+        "no obvious abnormalities visible"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "coronal view",
+        "soft tissue",
+        "bony structures"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "coronal mri of pelvis",
+        "pelvic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:46+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 225,
+      "total_tokens": 812
+    }
+  },
+  "Case_03026/figure2.jpg": {
+    "case_id": "Case_03026",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03026/figure2.jpg",
+    "source_caption": "Pelvic MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial pelvic MRI showing bilateral pelvic masses.",
+      "detailed_description": "This axial pelvic MRI image reveals bilateral pelvic masses that are hyperintense relative to surrounding tissues. The masses are located adjacent to the pelvic organs, with clear demarcation from the surrounding structures. The image is de-identified and shows no personal identifiers. The scan provides a detailed view of the pelvic anatomy, including the bony pelvis and soft tissues.",
+      "visible_findings": [
+        "bilateral pelvic masses",
+        "hyperintense signal of the masses",
+        "clear demarcation of masses from surrounding tissues",
+        "visualization of pelvic bones and soft tissues"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "pelvic masses",
+        "axial view",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "axial pelvic scan",
+        "pelvic masses"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:49+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  },
+  "Case_03026/figure3.jpg": {
+    "case_id": "Case_03026",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03026/figure3.jpg",
+    "source_caption": "Culture of joint aspiration.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "joint fluid",
+      "short_caption": "Lactophenol cotton blue stain of joint aspirate showing fungal hyphae and spores.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of a joint aspirate. The field contains branching, septate fungal hyphae and numerous round spores, consistent with a fungal organism. The stain highlights the fungal structures in blue against a pale background. This is indicative of a fungal infection in the joint, such as septic arthritis caused by a fungal pathogen.",
+      "visible_findings": [
+        "branching, septate fungal hyphae",
+        "numerous round fungal spores",
+        "blue staining of fungal structures"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal infection",
+        "joint fluid",
+        "septic arthritis",
+        "stain",
+        "hyphae",
+        "spores"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "joint aspirate",
+        "lactophenol cotton blue",
+        "septic arthritis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:53+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 251,
+      "total_tokens": 838
+    }
+  },
+  "Case_03026/figure4.jpg": {
+    "case_id": "Case_03026",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03026/figure4.jpg",
+    "source_caption": "Culture of joint aspiration.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "joint fluid",
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae and spores from joint aspiration.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of joint fluid aspirate. The fungal elements are clearly visible, with septate hyphae and numerous round spores. The hyphae are branching, and the spores are distributed along the hyphal structures. The staining highlights the fungal morphology, aiding in the identification of fungal infection in the joint.",
+      "visible_findings": [
+        "septate hyphae",
+        "branching fungal structures",
+        "round spores",
+        "lactophenol cotton blue stain"
+      ],
+      "keywords": [
+        "stain",
+        "fungal infection",
+        "joint fluid",
+        "hyphae",
+        "spores",
+        "lactophenol cotton blue"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "joint aspiration",
+        "lactophenol cotton blue stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:56+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 240,
+      "total_tokens": 827
+    }
+  }
+}

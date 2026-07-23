@@ -1,0 +1,168 @@
+{
+  "Case_08011/figure1.jpg": {
+    "case_id": "Case_08011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08011/figure1.jpg",
+    "source_caption": "Figure 1. Biopsy of the epiglottis, PAS stain, high magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "epiglottis",
+      "short_caption": "PAS-stained biopsy of the epiglottis showing fungal elements.",
+      "detailed_description": "This high-magnification histopathology image shows a biopsy of the epiglottis stained with periodic acid-Schiff (PAS). The image reveals numerous fungal elements, including yeast forms and pseudohyphae, which are stained magenta against a pink and purple background. The cellular architecture is disrupted, with inflammatory cells and necrotic debris visible. The PAS stain highlights the polysaccharide-rich fungal cell walls.",
+      "visible_findings": [
+        "magenta-stained fungal elements (yeast and pseudohyphae)",
+        "disrupted tissue architecture",
+        "inflammatory cells",
+        "necrotic debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "epiglottis",
+        "PAS stain",
+        "fungal infection",
+        "yeast",
+        "pseudohyphae"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "fungal biopsy",
+        "epiglottis histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:55+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 261,
+      "total_tokens": 863
+    }
+  },
+  "Case_08011/figure4.jpg": {
+    "case_id": "Case_08011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08011/figure4.jpg",
+    "source_caption": "Gram stain of culture growth.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in chains.",
+      "detailed_description": "This image shows a Gram stain of bacterial culture growth. Numerous gram-positive bacilli are visible, arranged in chains and scattered across the field. The organisms are stained purple, consistent with their gram-positive nature, against a clear background. The morphology and arrangement suggest a specific bacterial species, but further identification would require additional testing.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "chain arrangement",
+        "purple staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial culture",
+        "microbiology lab"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:57+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 207,
+      "total_tokens": 795
+    }
+  },
+  "Case_08011/figure2.jpg": {
+    "case_id": "Case_08011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08011/figure2.jpg",
+    "source_caption": "Bacilli on biopsy specimen (see arrow), PAS stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "unspecified tissue biopsy",
+      "short_caption": "PAS stain showing bacilli on tissue biopsy (arrow).",
+      "detailed_description": "This histopathology image shows a tissue section stained with periodic acid-Schiff (PAS) stain. The stain highlights intracellular and extracellular structures, with a focus on bacilli indicated by the arrow. The bacilli appear as rod-shaped organisms with a magenta hue against a lighter background. The surrounding tissue shows cellular and extracellular matrix components, with some areas of amorphous material.",
+      "visible_findings": [
+        "rod-shaped bacilli stained magenta",
+        "PAS stain highlighting organisms and tissue structures",
+        "arrow indicating specific bacilli",
+        "background of cellular and extracellular tissue components"
+      ],
+      "keywords": [
+        "histopathology",
+        "PAS stain",
+        "bacilli",
+        "biopsy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "histopathology of biopsy",
+        "bacilli on tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:01+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 242,
+      "total_tokens": 836
+    }
+  },
+  "Case_08011/figure3.jpg": {
+    "case_id": "Case_08011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08011/figure3.jpg",
+    "source_caption": "Growth from biopsy specimen on sheep blood agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on sheep blood agar from a biopsy specimen.",
+      "detailed_description": "This image shows a culture plate with sheep blood agar displaying bacterial growth. The colonies are white, opaque, and exhibit a spreading pattern. The agar appears red, consistent with the blood agar medium. No hemolysis is visibly apparent around the colonies, suggesting non-hemolytic bacteria. The streaking pattern indicates isolation of colonies for identification.",
+      "visible_findings": [
+        "white, opaque bacterial colonies",
+        "spreading growth pattern",
+        "red background of sheep blood agar",
+        "no visible hemolysis"
+      ],
+      "keywords": [
+        "culture plate",
+        "sheep blood agar",
+        "bacterial colonies",
+        "biopsy specimen",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "bacterial culture",
+        "sheep blood agar",
+        "biopsy specimen culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:01+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 226,
+      "total_tokens": 817
+    }
+  }
+}

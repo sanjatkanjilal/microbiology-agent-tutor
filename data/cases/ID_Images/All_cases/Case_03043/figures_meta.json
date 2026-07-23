@@ -1,0 +1,125 @@
+{
+  "Case_03043/figure2.jpg": {
+    "case_id": "Case_03043",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03043/figure2.jpg",
+    "source_caption": "Skin lesions on back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Multiple ulcerated skin lesions on the back.",
+      "detailed_description": "This clinical photograph shows the back of a patient with numerous skin lesions. The lesions are distributed across the upper and mid-back and appear as well-demarcated, round to oval ulcers with raised, erythematous borders. Some lesions have central crusting or scabbing. The surrounding skin appears otherwise normal, with no significant erythema or swelling.",
+      "visible_findings": [
+        "multiple ulcerated lesions",
+        "raised erythematous borders",
+        "central crusting or scabbing",
+        "distribution across the back"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesions",
+        "ulcers",
+        "back",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "back ulcers",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:46+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 219,
+      "total_tokens": 806
+    }
+  },
+  "Case_03043/figure1.jpg": {
+    "case_id": "Case_03043",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03043/figure1.jpg",
+    "source_caption": "Facial lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Multiple crusted facial lesions with surrounding erythema.",
+      "detailed_description": "This clinical photograph shows multiple ulcerative lesions with yellowish crusts distributed across the face, including the nose, cheeks, and perioral region. The lesions are surrounded by areas of erythema and appear to vary in size. The overall appearance suggests an infectious or inflammatory etiology. The image is well-focused and provides a clear view of the skin findings.",
+      "visible_findings": [
+        "multiple ulcerative lesions",
+        "yellowish crusts",
+        "surrounding erythema",
+        "facial distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "skin lesions",
+        "crusted lesions",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "facial lesions",
+        "skin infection",
+        "ulcerative skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:51+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 223,
+      "total_tokens": 808
+    }
+  },
+  "Case_03043/figure3.jpg": {
+    "case_id": "Case_03043",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03043/figure3.jpg",
+    "source_caption": "Figure 3. Appearance after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial skin with multiple nodular lesions after treatment.",
+      "detailed_description": "This clinical photograph shows the central face, including the nose, upper lip, and surrounding areas. Multiple raised, nodular lesions of varying sizes are visible, distributed symmetrically across the skin. The lesions appear to be residual or healing, with no overt signs of active inflammation or ulceration. The skin texture is irregular, and the lesions are hyperpigmented compared to the surrounding skin.",
+      "visible_findings": [
+        "multiple nodular lesions",
+        "hyperpigmentation",
+        "irregular skin texture",
+        "symmetrical distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "nodular lesions",
+        "skin",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial nodules",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:57+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 224,
+      "total_tokens": 814
+    }
+  }
+}

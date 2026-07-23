@@ -1,0 +1,206 @@
+{
+  "Case_09017/figure1.jpg": {
+    "case_id": "Case_09017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09017/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiogram showing a hypoechoic pericardial effusion.",
+      "detailed_description": "This is a transthoracic echocardiogram showing a large hypoechoic region surrounding the heart, consistent with a pericardial effusion. The heart chambers are visible, and the effusion appears to compress the cardiac structures, suggesting possible tamponade physiology. The image includes an ECG trace at the bottom, indicating simultaneous cardiac monitoring.",
+      "visible_findings": [
+        "hypoechoic fluid collection around the heart",
+        "compression of cardiac structures",
+        "ECG trace at the bottom of the image"
+      ],
+      "keywords": [
+        "ultrasound",
+        "heart",
+        "pericardial effusion",
+        "echocardiogram",
+        "tamponade"
+      ],
+      "reveal_triggers": [
+        "echocardiogram",
+        "ultrasound of heart",
+        "pericardial effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:57+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_09017/figure2.jpg": {
+    "case_id": "Case_09017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09017/figure2.jpg",
+    "source_caption": "Gram stain of blood culture growth.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters from blood culture growth.",
+      "detailed_description": "This image shows a Gram stain of blood culture growth with numerous gram-positive cocci appearing as pink to reddish spherical organisms arranged predominantly in clusters. The background is clear, and the organisms are evenly distributed across the field. The staining technique highlights the morphology and arrangement of the bacteria, consistent with gram-positive cocci.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "pink to reddish staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:59+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 217,
+      "total_tokens": 806
+    }
+  },
+  "Case_09017/figure3.jpg": {
+    "case_id": "Case_09017",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09017/figure3.jpg",
+    "source_caption": "Gross pathology of the valve.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "cardiac valve",
+      "short_caption": "Gross pathology of an excised cardiac valve with vegetations.",
+      "detailed_description": "This image shows an excised cardiac valve with irregular, friable, yellowish-tan vegetations on its surface. The vegetations appear bulky and are likely indicative of infectious endocarditis. The valve tissue itself is partially translucent, with a glossy appearance. A ruler is included for scale, showing the specimen to be approximately 4 cm in its largest dimension.",
+      "visible_findings": [
+        "excised cardiac valve",
+        "friable yellowish-tan vegetations",
+        "irregular surface",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "cardiac valve",
+        "gross pathology",
+        "vegetations",
+        "infectious endocarditis"
+      ],
+      "reveal_triggers": [
+        "gross pathology of valve",
+        "infective endocarditis specimen",
+        "cardiac valve vegetations"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_09017/figure5.jpg": {
+    "case_id": "Case_09017",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09017/figure5.jpg",
+    "source_caption": "Histopathology of the surgical specimen.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology of a surgical specimen showing gram-positive cocci in clusters.",
+      "detailed_description": "This histopathology image shows a high-power view of tissue stained with hematoxylin and eosin (H&E). Numerous gram-positive cocci in clusters are visible, consistent with bacterial colonization or infection. The background tissue appears disrupted, suggesting inflammation or necrosis. The organisms are distributed throughout the field, and their morphology is suggestive of staphylococcal species.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "disrupted tissue architecture",
+        "inflammatory or necrotic background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bacteria",
+        "gram-positive cocci",
+        "infection",
+        "staphylococcus",
+        "tissue"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "surgical specimen",
+        "bacterial infection",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:00+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 240,
+      "total_tokens": 830
+    }
+  },
+  "Case_09017/figure4.jpg": {
+    "case_id": "Case_09017",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09017/figure4.jpg",
+    "source_caption": "Histopathology of the surgical specimen.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology of a surgical specimen showing tissue architecture and staining patterns.",
+      "detailed_description": "This histopathology image shows a section of tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates varying shades of pink and purple, indicating cellular and extracellular components. The architecture suggests a layered structure, with some areas showing denser staining. No specific organisms or pathologic features are clearly identifiable at this magnification.",
+      "visible_findings": [
+        "layered tissue architecture",
+        "pink and purple staining typical of H&E",
+        "no obvious organisms or necrosis visible"
+      ],
+      "keywords": [
+        "histopathology",
+        "surgical specimen",
+        "H&E stain",
+        "tissue architecture"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "H&E stain",
+        "surgical specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:01+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 220,
+      "total_tokens": 810
+    }
+  }
+}

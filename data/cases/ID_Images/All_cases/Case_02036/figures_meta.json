@@ -1,0 +1,108 @@
+{
+  "Case_02036/figure1.jpg": {
+    "case_id": "Case_02036",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02036/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:22:21+00:00"
+  },
+  "Case_02036/figure2.jpg": {
+    "case_id": "Case_02036",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02036/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:22:22+00:00"
+  },
+  "Case_02036/figure4.jpg": {
+    "case_id": "Case_02036",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02036/figure4.jpg",
+    "source_caption": "Immunofluorescent stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Immunofluorescent stain showing deposition along the dermoepidermal junction.",
+      "detailed_description": "This image shows an immunofluorescent stain of skin tissue, highlighting a bright green fluorescence pattern along the dermoepidermal junction. The fluorescence is linear and continuous, suggesting deposition of immune complexes or antibodies. The epidermis is visible above the junction, with the dermis below. The staining technique emphasizes specific antigen-antibody interactions.",
+      "visible_findings": [
+        "linear green fluorescence at the dermoepidermal junction",
+        "epidermis above and dermis below the junction",
+        "uniform staining pattern"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "skin",
+        "dermoepidermal junction",
+        "stain",
+        "linear pattern"
+      ],
+      "reveal_triggers": [
+        "immunofluorescence",
+        "skin biopsy",
+        "dermoepidermal junction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:38+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 246,
+      "total_tokens": 835
+    }
+  },
+  "Case_02036/figure3.jpg": {
+    "case_id": "Case_02036",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02036/figure3.jpg",
+    "source_caption": "Biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin showing epidermal necrosis and subepidermal blister formation.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis exhibits necrosis and detachment from the underlying dermis, forming a subepidermal blister. The dermis shows inflammatory infiltrates, with evidence of edema and possible fibrin deposition. The findings are consistent with a blistering skin disorder, potentially of infectious or autoimmune etiology.",
+      "visible_findings": [
+        "epidermal necrosis",
+        "subepidermal blister formation",
+        "dermal inflammatory infiltrates",
+        "edema in the dermis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "blister",
+        "epidermal necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of blister",
+        "H&E stain of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:39+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 260,
+      "total_tokens": 846
+    }
+  }
+}

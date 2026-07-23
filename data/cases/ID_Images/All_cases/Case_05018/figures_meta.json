@@ -1,0 +1,45 @@
+{
+  "Case_05018/figure1.jpg": {
+    "case_id": "Case_05018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05018/figure1.jpg",
+    "source_caption": "CT scan of chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral lung fields with multiple small nodular opacities and areas of ground-glass attenuation. The mediastinum and central airways appear unremarkable. The findings suggest a diffuse pulmonary process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "bilateral small nodular opacities",
+        "ground-glass attenuation",
+        "unremarkable mediastinum",
+        "clear central airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "ground-glass",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary findings",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:32+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 214,
+      "total_tokens": 801
+    }
+  }
+}

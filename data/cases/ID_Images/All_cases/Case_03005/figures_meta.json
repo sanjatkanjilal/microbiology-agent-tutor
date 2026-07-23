@@ -1,0 +1,169 @@
+{
+  "Case_03005/figure1.jpg": {
+    "case_id": "Case_03005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03005/figure1.jpg",
+    "source_caption": "Chest CT scan without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT without contrast showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT scan without contrast demonstrates extensive bilateral lung abnormalities. There are areas of consolidation and ground-glass opacities predominantly in the lower lobes. The findings suggest a diffuse infectious or inflammatory process. The mediastinum appears unremarkable, and no pleural effusion is evident.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "ground-glass opacities",
+        "predominantly lower lobe involvement",
+        "no pleural effusion",
+        "unremarkable mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 234,
+      "total_tokens": 822
+    }
+  },
+  "Case_03005/figure2.jpg": {
+    "case_id": "Case_03005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03005/figure2.jpg",
+    "source_caption": "Pleural fluid cytology.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "pleural fluid",
+      "short_caption": "Pleural fluid cytology showing clusters of cells with nuclear atypia.",
+      "detailed_description": "This image shows a cytological preparation of pleural fluid stained with a cytological stain (likely Papanicolaou or similar). Clusters of cells with prominent nuclear atypia are visible, including irregular nuclear contours and hyperchromasia. The background appears relatively clean, with minimal debris. The findings suggest a malignant process, such as metastatic carcinoma.",
+      "visible_findings": [
+        "clusters of cells with nuclear atypia",
+        "irregular nuclear contours",
+        "hyperchromatic nuclei",
+        "clean background with minimal debris"
+      ],
+      "keywords": [
+        "cytology",
+        "pleural fluid",
+        "malignancy",
+        "nuclear atypia",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "pleural fluid cytology",
+        "cytology of pleural effusion",
+        "stained cytology slide"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:00+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_03005/figure3.jpg": {
+    "case_id": "Case_03005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03005/figure3.jpg",
+    "source_caption": "Gomori methenamine silver stain of bone marrow.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Gomori methenamine silver stain of bone marrow showing fungal elements.",
+      "detailed_description": "This Gomori methenamine silver (GMS) stain highlights fungal elements in a bone marrow sample. The fungal organisms appear as dark black or brown structures against a green background of cellular material. The morphology of the fungal elements is consistent with small, oval to round yeast forms, some of which appear clustered. The stain enhances the contrast, making the fungal organisms easily identifiable.",
+      "visible_findings": [
+        "dark fungal elements stained black or brown",
+        "green-stained cellular background",
+        "oval to round yeast-like forms",
+        "some clustering of fungal elements"
+      ],
+      "keywords": [
+        "gomori methenamine silver",
+        "bone marrow",
+        "fungal elements",
+        "yeast forms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gomori methenamine silver stain",
+        "bone marrow infection",
+        "fungal elements in bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:01+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 248,
+      "total_tokens": 841
+    }
+  },
+  "Case_03005/figure4.jpg": {
+    "case_id": "Case_03005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03005/figure4.jpg",
+    "source_caption": "Bone marrow biopsy with histiocytes and intra-cytoplasmic organelles.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow biopsy showing histiocytes with intra-cytoplasmic inclusions.",
+      "detailed_description": "This histopathology image shows a bone marrow smear with a prominent histiocyte in the center. The histiocyte contains multiple intra-cytoplasmic inclusions, which are purple-stained and granular in appearance. Surrounding the histiocyte are numerous red blood cells and occasional other hematopoietic cells. The staining technique appears to be a Giemsa or Wright stain, highlighting cellular details and cytoplasmic inclusions.",
+      "visible_findings": [
+        "histiocyte with intra-cytoplasmic inclusions",
+        "purple-stained granular inclusions",
+        "numerous red blood cells",
+        "hematopoietic cells in the background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "histiocyte",
+        "cytoplasmic inclusions",
+        "giemsa stain"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "histiocyte inclusions",
+        "cytoplasmic organelles"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:01+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 269,
+      "total_tokens": 867
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "Case_05020/figure1.jpg": {
+    "case_id": "Case_05020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05020/figure1.jpg",
+    "source_caption": "Physical findings: Groin.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:37:26+00:00"
+  },
+  "Case_05020/figure4.jpg": {
+    "case_id": "Case_05020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05020/figure4.jpg",
+    "source_caption": "Buttocks.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:37:31+00:00"
+  },
+  "Case_05020/figure2.jpg": {
+    "case_id": "Case_05020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05020/figure2.jpg",
+    "source_caption": "Scrotum.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "scrotum",
+      "short_caption": "Clinical photograph of the scrotum showing erythematous and thickened skin.",
+      "detailed_description": "This image shows the scrotum with visible thickening of the skin, erythema, and irregular texture. There are small, scattered erythematous papules and areas of hyperpigmentation. The skin appears wrinkled and mildly inflamed, with no visible ulceration or discharge. The findings suggest a dermatologic or infectious process.",
+      "visible_findings": [
+        "thickened scrotal skin",
+        "erythema",
+        "scattered erythematous papules",
+        "wrinkled texture",
+        "areas of hyperpigmentation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "scrotum",
+        "erythema",
+        "skin thickening",
+        "dermatology",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "scrotal skin exam",
+        "infectious scrotal lesions",
+        "erythematous scrotum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:41+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  },
+  "Case_05020/figure3.jpg": {
+    "case_id": "Case_05020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05020/figure3.jpg",
+    "source_caption": "Inguinal lymph node.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "inguinal region",
+      "short_caption": "Clinical photograph of the inguinal region showing localized swelling.",
+      "detailed_description": "This clinical photograph depicts the inguinal region with a visible, localized swelling beneath the skin. The overlying skin appears slightly taut and may have a subtle bluish hue, suggesting underlying inflammation or fluid collection. No overt signs of ulceration, erythema, or drainage are visible in this image.",
+      "visible_findings": [
+        "localized swelling in the inguinal region",
+        "taut overlying skin",
+        "subtle bluish hue"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "inguinal region",
+        "lymph node",
+        "swelling",
+        "localized inflammation"
+      ],
+      "reveal_triggers": [
+        "inguinal lymph node",
+        "inguinal swelling",
+        "groin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:42+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 213,
+      "total_tokens": 801
+    }
+  }
+}

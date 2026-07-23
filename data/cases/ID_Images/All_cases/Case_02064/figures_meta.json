@@ -1,0 +1,44 @@
+{
+  "Case_02064/figure1.jpg": {
+    "case_id": "Case_02064",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02064/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and hand",
+      "short_caption": "Erythematous vesiculopustular lesions on the face and hand.",
+      "detailed_description": "This clinical photograph shows multiple erythematous vesiculopustular lesions on the skin of the face and hand. The lesions are distributed on the cheek, lips, and palm, with some appearing to have central crusting or ulceration. The surrounding skin shows mild erythema. The lesions are consistent with a vesiculopustular eruption, potentially infectious or inflammatory in origin.",
+      "visible_findings": [
+        "erythematous vesiculopustular lesions",
+        "central crusting or ulceration",
+        "distribution on face and hand",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "hand",
+        "vesiculopustular lesions",
+        "erythema",
+        "infectious rash"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesiculopustular rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:17+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 255,
+      "total_tokens": 823
+    }
+  }
+}

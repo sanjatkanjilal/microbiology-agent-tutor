@@ -1,0 +1,171 @@
+{
+  "Case_03007/figure3.jpg": {
+    "case_id": "Case_03007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03007/figure3.jpg",
+    "source_caption": "Figure 3. Gram stain (100x magnification).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in chains at 100x magnification.",
+      "detailed_description": "This gram stain image, viewed at 100x magnification, shows gram-positive cocci arranged in chains. The organisms are stained purple, indicating their gram-positive nature, while the background is lightly stained. Blue arrows highlight the bacterial chains. The image suggests a bacterial infection, potentially streptococcal species based on morphology.",
+      "visible_findings": [
+        "gram-positive cocci in chains",
+        "purple-stained bacteria",
+        "blue arrows indicating bacterial chains",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "cocci",
+        "chains",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of bacteria",
+        "microbiology slide",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:04+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 240,
+      "total_tokens": 834
+    }
+  },
+  "Case_03007/figure1.jpg": {
+    "case_id": "Case_03007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03007/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing dense consolidation in the right lung.",
+      "detailed_description": "This is a frontal chest radiograph showing significant opacification in the right lung field, consistent with dense consolidation. The left lung appears relatively clear. There is evidence of medical devices, including a central venous catheter and an endotracheal tube, suggesting the patient is critically ill. The heart shadow is visible, and there is no obvious pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "dense consolidation in the right lung",
+        "presence of a central venous catheter",
+        "presence of an endotracheal tube",
+        "clear left lung field",
+        "no visible pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung consolidation",
+        "right lung",
+        "critical care",
+        "medical devices"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pneumonia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 255,
+      "total_tokens": 823
+    }
+  },
+  "Case_03007/figure2.jpg": {
+    "case_id": "Case_03007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03007/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing a large fluid collection with air-fluid levels.",
+      "detailed_description": "This axial CT scan of the chest demonstrates a large fluid collection in the left hemithorax with an air-fluid level, suggestive of an empyema or abscess. The mediastinum appears shifted to the right, indicating mass effect. The lung parenchyma on the right side appears compressed. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "large fluid collection in the left hemithorax",
+        "air-fluid level within the collection",
+        "mediastinal shift to the right",
+        "compressed right lung parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "fluid collection",
+        "air-fluid level",
+        "empyema",
+        "abscess",
+        "mediastinal shift"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "fluid in chest",
+        "air-fluid level on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:06+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 258,
+      "total_tokens": 846
+    }
+  },
+  "Case_03007/figure4.jpg": {
+    "case_id": "Case_03007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03007/figure4.jpg",
+    "source_caption": "Bronchoalveolar lavage cytology, Papanicolaou stain (40x magnification).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bronchoalveolar lavage",
+      "short_caption": "Bronchoalveolar lavage cytology, Papanicolaou stain at 40x magnification.",
+      "detailed_description": "This image shows a cytological preparation of bronchoalveolar lavage fluid stained with Papanicolaou stain at 40x magnification. Various cell types are visible, including reactive bronchial cells, normal bronchial cells, and bronchial cells with marked reactive nuclear enlargement. Some reactive bronchial cells are accompanied by admixed neutrophils, indicating possible inflammation or infection. The stain highlights nuclear and cytoplasmic details, aiding in the identification of cellular changes.",
+      "visible_findings": [
+        "reactive bronchial cells",
+        "normal bronchial cells",
+        "bronchial cells with reactive nuclear enlargement",
+        "reactive bronchial cells with admixed neutrophils"
+      ],
+      "keywords": [
+        "bronchoalveolar lavage",
+        "cytology",
+        "papanicolaou stain",
+        "reactive cells",
+        "40x magnification",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "bronchoalveolar lavage cytology",
+        "papanicolaou stain",
+        "lung infection cytology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:08+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 305,
+      "total_tokens": 907
+    }
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "Case_09009/figure11.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure11.jpg",
+    "figure_number": 11,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure11.jpg",
+    "source_caption": "Lactophenol cotton blue stain of culture growth.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae and spore structures.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of fungal culture growth. The stain highlights branching septate hyphae and round spore-like structures, which are characteristic of certain fungal species. The blue coloration is due to the stain binding to fungal cell walls, providing contrast against the background. The structures are well-defined and typical of fungal morphology under light microscopy.",
+      "visible_findings": [
+        "branching septate hyphae",
+        "round spore-like structures",
+        "blue stain highlighting fungal elements"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal culture",
+        "hyphae",
+        "spores",
+        "microscopy",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "fungal microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:43+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 236,
+      "total_tokens": 828
+    }
+  },
+  "Case_09009/figure6.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure6.jpg",
+    "source_caption": "Right upper lung.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:48:44+00:00"
+  },
+  "Case_09009/figure1.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. There are bilateral pulmonary infiltrates, more pronounced in the right lung, with areas of increased opacity suggestive of consolidation or infection. The cardiac silhouette appears normal in size, and the bony structures, including the ribs and clavicles, are intact. No obvious pleural effusion or pneumothorax is visible.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "increased opacity in the right lung",
+        "normal cardiac silhouette",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:47+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 234,
+      "total_tokens": 820
+    }
+  },
+  "Case_09009/figure2.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung fields with areas of abnormal opacification. The right lung shows a large region of consolidation with air bronchograms, suggestive of infection or inflammation. The left lung appears to have smaller, patchy opacities. The mediastinum and heart are centrally located, and no significant pleural effusion is visible. The scan is presented in a soft tissue window.",
+      "visible_findings": [
+        "bilateral lung opacities",
+        "right lung consolidation with air bronchograms",
+        "patchy opacities in the left lung",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "infection",
+        "air bronchograms"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "pneumonia imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:48+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 248,
+      "total_tokens": 836
+    }
+  },
+  "Case_09009/figure10.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure10.jpg",
+    "source_caption": "H and E stain, 40x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain at 40x magnification showing fungal elements and necrotic tissue.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) at 40x magnification, shows pink-stained necrotic tissue with scattered dark brown to black fungal elements. The fungal structures appear as irregularly shaped, branching hyphae. The background is composed of amorphous necrotic debris, and there is no clear evidence of intact cellular architecture.",
+      "visible_findings": [
+        "pink-stained necrotic tissue",
+        "dark brown to black fungal elements",
+        "branching hyphae",
+        "amorphous necrotic debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "fungal infection",
+        "necrosis",
+        "hyphae"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "fungal histopathology",
+        "necrotic tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:48+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 252,
+      "total_tokens": 845
+    }
+  },
+  "Case_09009/figure3.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure3.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Coronal CT scan of the chest showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This coronal CT scan of the chest reveals bilateral pulmonary findings. There are areas of patchy opacities in both lungs, suggestive of possible consolidation or infiltrates. The mediastinum appears central, and no obvious pleural effusion is visible. The scan is de-identified and does not include contrast enhancement.",
+      "visible_findings": [
+        "bilateral patchy pulmonary opacities",
+        "central mediastinum",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "pulmonary opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary infiltrates",
+        "lung abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 214,
+      "total_tokens": 802
+    }
+  },
+  "Case_09009/figure4.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "CT-guided drainage of a pelvic abscess.",
+      "detailed_description": "This axial CT image of the pelvis shows a hypodense fluid collection consistent with an abscess. A percutaneous drainage catheter is visible, positioned within the collection. Surrounding soft tissue structures are visible, with no obvious bony destruction. The image demonstrates the use of CT guidance for abscess drainage.",
+      "visible_findings": [
+        "hypodense fluid collection in the pelvis",
+        "percutaneous drainage catheter in place",
+        "surrounding soft tissue structures intact",
+        "no obvious bony destruction"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "abscess",
+        "drainage",
+        "percutaneous",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "pelvic abscess",
+        "ct-guided drainage",
+        "infectious diseases imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  },
+  "Case_09009/figure5.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure5.jpg",
+    "source_caption": "Cytology of aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Cytology of aspirate showing branching filamentous structures.",
+      "detailed_description": "This image shows a stained cytology specimen from an aspirate. The field contains branching, filamentous structures that are stained pink to red, consistent with a modified acid-fast or Gram stain. The background is relatively clear, with minimal cellular debris. The morphology suggests filamentous bacteria, possibly Actinomyces or Nocardia species.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "pink to red staining",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "cytology",
+        "aspirate",
+        "branching filaments",
+        "bacteria",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "cytology of aspirate",
+        "branching bacteria",
+        "filamentous organisms on stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:54+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_09009/figure7.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure7.jpg",
+    "source_caption": "Wet prep, with calcofluor white stain, under fluorescent microscope.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Calcofluor white stain under fluorescent microscopy showing fungal hyphae.",
+      "detailed_description": "This image shows a fluorescent microscopy view of a calcofluor white-stained sample. The bright green fluorescence highlights branching fungal hyphae, which are filamentous structures characteristic of certain fungi. The background is dark, enhancing the contrast of the fluorescent structures. The stain binds to chitin and cellulose in fungal cell walls, making it a specific tool for identifying fungal elements.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "bright green fluorescence",
+        "dark background for contrast"
+      ],
+      "keywords": [
+        "fluorescent microscopy",
+        "calcofluor white stain",
+        "fungal hyphae",
+        "wet prep",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "calcofluor white stain",
+        "fungal microscopy",
+        "fluorescent stain of fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:54+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 235,
+      "total_tokens": 832
+    }
+  },
+  "Case_09009/figure8.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure8.jpg",
+    "source_caption": "GMS stain, 40x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of lung tissue showing fungal elements, 40x magnification.",
+      "detailed_description": "This is a photomicrograph of lung tissue stained with Gomori methenamine silver (GMS) at 40x magnification. The image highlights branching fungal hyphae, which appear black against a green background of tissue. The hyphae are septate and show acute-angle branching, consistent with a fungal infection. The GMS stain is commonly used to identify fungal organisms in histopathological samples.",
+      "visible_findings": [
+        "black branching fungal hyphae",
+        "green-stained tissue background",
+        "septate hyphae with acute-angle branching"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung tissue",
+        "fungal infection",
+        "histopathology",
+        "fungal hyphae"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection histology",
+        "lung biopsy fungal stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:57+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 247,
+      "total_tokens": 839
+    }
+  },
+  "Case_09009/figure9.jpg": {
+    "case_id": "Case_09009",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09009/figure9.jpg",
+    "source_caption": "H and E stain, 10x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain at 10x magnification showing tissue necrosis and inflammatory infiltrates.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) at 10x magnification, shows areas of tissue necrosis characterized by eosinophilic debris and loss of normal architecture. Surrounding the necrotic regions, there is evidence of inflammatory infiltrates, including dense clusters of cells consistent with neutrophils. The upper portion of the image appears more cellular, while the lower portion shows more extensive necrosis.",
+      "visible_findings": [
+        "tissue necrosis",
+        "eosinophilic debris",
+        "inflammatory infiltrates",
+        "neutrophilic clusters",
+        "loss of normal tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "necrosis",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "histopathology of infection",
+        "necrosis and inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:05+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 263,
+      "total_tokens": 856
+    }
+  }
+}

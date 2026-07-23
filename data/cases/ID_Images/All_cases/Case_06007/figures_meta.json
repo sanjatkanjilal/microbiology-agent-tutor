@@ -1,0 +1,329 @@
+{
+  "Case_06007/figure1.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure1.jpg",
+    "source_caption": "Echocardiography of aortic valve.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart (aortic valve)",
+      "short_caption": "Echocardiography showing the aortic valve.",
+      "detailed_description": "This is a transthoracic echocardiographic image in a parasternal long-axis view. The aortic valve is visible in the center of the image, with adjacent cardiac structures such as the left ventricle and left atrium also identifiable. The grayscale image demonstrates the typical echogenicity of cardiac tissues, with no obvious vegetations or abnormalities of the valve leaflets visible in this still frame.",
+      "visible_findings": [
+        "aortic valve in parasternal long-axis view",
+        "normal echogenicity of cardiac tissues",
+        "no visible vegetations or leaflet abnormalities"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiography",
+        "aortic valve",
+        "heart",
+        "parasternal long-axis"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "aortic valve ultrasound",
+        "heart ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:08+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 243,
+      "total_tokens": 834
+    }
+  },
+  "Case_06007/figure2.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure2.jpg",
+    "source_caption": "Doppler flow study across aortic valve.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Color Doppler ultrasound showing flow across the aortic valve.",
+      "detailed_description": "This image is a color Doppler ultrasound focused on the aortic valve. It demonstrates turbulent flow patterns, with red and blue color signals indicating blood flow direction and velocity. The presence of mixed colors suggests abnormal flow, potentially indicative of valvular dysfunction such as stenosis or regurgitation. The image includes a velocity scale on the right and anatomical orientation markers at the bottom.",
+      "visible_findings": [
+        "color Doppler signals (red and blue) across the aortic valve",
+        "turbulent flow pattern",
+        "velocity scale on the right",
+        "anatomical orientation markers at the bottom"
+      ],
+      "keywords": [
+        "ultrasound",
+        "doppler",
+        "aortic valve",
+        "valvular dysfunction",
+        "turbulent flow"
+      ],
+      "reveal_triggers": [
+        "doppler study",
+        "aortic valve ultrasound",
+        "valvular dysfunction imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:10+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 252,
+      "total_tokens": 843
+    }
+  },
+  "Case_06007/figure3.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure3.jpg",
+    "source_caption": "Echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiographic image showing cardiac structures.",
+      "detailed_description": "This is an echocardiographic image in a parasternal long-axis view. The heart chambers and valves are visible, with the left ventricle and left atrium prominently displayed. The image shows typical grayscale echocardiographic features, with no obvious large vegetations or abnormalities visible at this resolution. The echocardiographic depth scale and orientation markers are present.",
+      "visible_findings": [
+        "grayscale echocardiographic image",
+        "heart chambers visible",
+        "parasternal long-axis view",
+        "no obvious large vegetations or abnormalities"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiography",
+        "heart",
+        "parasternal long-axis",
+        "cardiac imaging"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "heart ultrasound",
+        "cardiac imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:12+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 232,
+      "total_tokens": 819
+    }
+  },
+  "Case_06007/figure4.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure4.jpg",
+    "source_caption": "Aortic valve lesion by echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Echocardiographic image showing aortic valve lesion.",
+      "detailed_description": "This is an echocardiographic image in a parasternal long-axis view. The aortic valve is visible, and there is evidence of an irregular lesion on the valve leaflets, indicated by arrows. The lesion appears echogenic and may represent vegetation or thickening, suggestive of possible infective endocarditis or other pathology. The surrounding cardiac structures, including the left ventricle and left atrium, are partially visualized.",
+      "visible_findings": [
+        "aortic valve lesion",
+        "irregular echogenic material on valve leaflets",
+        "arrows indicating the lesion",
+        "parasternal long-axis view"
+      ],
+      "keywords": [
+        "ultrasound",
+        "aortic valve",
+        "echocardiography",
+        "lesion",
+        "infective endocarditis"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "aortic valve lesion",
+        "infective endocarditis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:15+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 257,
+      "total_tokens": 849
+    }
+  },
+  "Case_06007/figure5.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure5.jpg",
+    "source_caption": "Aortic valve lesion by echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Color Doppler echocardiography showing aortic valve lesion with turbulent flow.",
+      "detailed_description": "This is a color Doppler echocardiographic image of the aortic valve. The image demonstrates turbulent flow (mosaic pattern of red, blue, and green) across the valve, indicative of abnormal flow dynamics. The arrows point to the area of interest, likely representing a lesion or vegetation on the valve. The surrounding structures are consistent with the cardiac anatomy, and the Doppler scale is visible on the right.",
+      "visible_findings": [
+        "turbulent flow across the aortic valve",
+        "mosaic color pattern indicating abnormal flow",
+        "arrows highlighting the lesion area"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiography",
+        "aortic valve",
+        "color Doppler",
+        "valve lesion",
+        "turbulent flow"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "aortic valve lesion",
+        "color Doppler"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:21+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 256,
+      "total_tokens": 848
+    }
+  },
+  "Case_06007/figure8.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure8.jpg",
+    "source_caption": "Valve pathology (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "heart valve",
+      "short_caption": "Histopathology of heart valve showing pathology with H&E stain.",
+      "detailed_description": "This histopathological image shows a section of a heart valve stained with hematoxylin and eosin (H&E). The tissue demonstrates areas of fibrin deposition, inflammatory cell infiltrates, and possible bacterial colonies, consistent with infectious endocarditis. The purple-stained regions suggest dense cellular or microbial content, while the pink areas represent connective tissue. The image highlights the structural damage and inflammatory response in the valve.",
+      "visible_findings": [
+        "fibrin deposition",
+        "inflammatory cell infiltrates",
+        "possible bacterial colonies",
+        "structural damage to valve tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "heart valve",
+        "H&E stain",
+        "infectious endocarditis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "valve pathology",
+        "infectious endocarditis histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:22+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 246,
+      "total_tokens": 836
+    }
+  },
+  "Case_06007/figure6.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure6.jpg",
+    "source_caption": "Aortic valve lesion by echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Echocardiographic image showing a lesion on the aortic valve.",
+      "detailed_description": "This is an echocardiographic image in a parasternal long-axis view. The aortic valve is visible, and there is a hyperechoic lesion (indicated by arrows) attached to the valve, suggestive of a vegetation or other abnormality. The surrounding cardiac structures appear normal, and the grayscale imaging provides clear delineation of the lesion.",
+      "visible_findings": [
+        "hyperechoic lesion on the aortic valve",
+        "arrows indicating the lesion",
+        "normal surrounding cardiac structures"
+      ],
+      "keywords": [
+        "ultrasound",
+        "aortic valve",
+        "vegetation",
+        "echocardiography",
+        "cardiac imaging"
+      ],
+      "reveal_triggers": [
+        "aortic valve lesion",
+        "echocardiography",
+        "ultrasound of heart"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:22+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 235,
+      "total_tokens": 827
+    }
+  },
+  "Case_06007/figure7.jpg": {
+    "case_id": "Case_06007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06007/figure7.jpg",
+    "source_caption": "Valve pathology (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "heart valve",
+      "short_caption": "Histopathology of heart valve showing inflammatory changes and possible vegetations.",
+      "detailed_description": "This hematoxylin and eosin (H&E) stained section shows a fragment of heart valve tissue with areas of inflammation and structural disruption. There are regions of basophilic (blue-purple) material suggestive of bacterial colonies, surrounded by inflammatory infiltrates. The tissue architecture appears disrupted, consistent with valve pathology, possibly due to infective endocarditis.",
+      "visible_findings": [
+        "fragmented heart valve tissue",
+        "basophilic material suggestive of bacterial colonies",
+        "inflammatory infiltrates",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "heart valve",
+        "h and e stain",
+        "infective endocarditis",
+        "inflammation",
+        "bacterial colonies"
+      ],
+      "reveal_triggers": [
+        "valve pathology",
+        "h and e stain",
+        "infective endocarditis histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:24+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  }
+}

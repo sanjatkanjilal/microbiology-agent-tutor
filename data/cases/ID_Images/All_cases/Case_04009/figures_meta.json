@@ -1,0 +1,166 @@
+{
+  "Case_04009/figure1.jpg": {
+    "case_id": "Case_04009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04009/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing multiple hypodense lesions in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates multiple hypodense lesions scattered throughout the liver parenchyma, suggestive of abscesses or metastatic disease. The spleen appears normal in density and size. The image is taken with contrast, as evidenced by the enhancement of vascular structures and organs. No obvious abnormalities are noted in the surrounding abdominal structures.",
+      "visible_findings": [
+        "multiple hypodense lesions in the liver",
+        "normal spleen size and density",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesions",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesions",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  },
+  "Case_04009/figure3.jpg": {
+    "case_id": "Case_04009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04009/figure3.jpg",
+    "source_caption": "Gram stain of the liver aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "liver aspirate",
+      "short_caption": "Gram stain of liver aspirate showing mixed bacterial morphology.",
+      "detailed_description": "This image shows a Gram stain of a liver aspirate. The background appears pinkish, consistent with the staining technique. Multiple bacterial morphologies are visible, including cocci and rod-shaped organisms. The cocci are clustered, while the rods are scattered. The image suggests a polymicrobial infection. There are no visible host cells or other structures that dominate the field.",
+      "visible_findings": [
+        "pink-stained background typical of Gram stain",
+        "clusters of cocci",
+        "scattered rod-shaped bacteria",
+        "polymicrobial appearance"
+      ],
+      "keywords": [
+        "gram stain",
+        "liver aspirate",
+        "bacteria",
+        "cocci",
+        "rods",
+        "polymicrobial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of liver aspirate",
+        "bacterial infection",
+        "liver abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:50+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 240,
+      "total_tokens": 830
+    }
+  },
+  "Case_04009/figure2.jpg": {
+    "case_id": "Case_04009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04009/figure2.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing multiple abnormalities.",
+      "detailed_description": "This axial CT scan of the abdomen reveals multiple findings. There is a large, well-defined, hypodense lesion in the left side of the abdomen, likely representing an abscess or cystic structure. The surrounding bowel loops appear displaced. Other smaller hypodense areas are visible, potentially representing additional fluid collections or cystic lesions. The scan is non-contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "large hypodense lesion in the left abdomen",
+        "displaced bowel loops",
+        "smaller hypodense areas suggesting fluid collections or cysts"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "hypodense lesion",
+        "fluid collection",
+        "abscess",
+        "cyst"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "fluid collection in abdomen",
+        "abscess on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_04009/figure4.jpg": {
+    "case_id": "Case_04009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04009/figure4.jpg",
+    "source_caption": "Gram stain of the blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing long, thin, gram-positive bacilli from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. Numerous long, thin, gram-positive bacilli are visible, arranged in tangled clusters and chains. The organisms are stained pinkish-red, consistent with the Gram stain technique. The background is clear, with no visible host cells or debris, suggesting a pure culture.",
+      "visible_findings": [
+        "long, thin, gram-positive bacilli",
+        "tangled clusters and chains",
+        "pinkish-red staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive bacilli",
+        "bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "bacteria in blood",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:55+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 226,
+      "total_tokens": 815
+    }
+  }
+}

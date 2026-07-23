@@ -1,0 +1,207 @@
+{
+  "Case_07015/figure2.jpg": {
+    "case_id": "Case_07015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07015/figure2.jpg",
+    "source_caption": "MRI of the brain, T2 FLAIR.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T2 FLAIR showing hyperintensities in the periventricular white matter.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain shows hyperintense lesions in the periventricular white matter, bilaterally. The lesions are well-demarcated and appear to follow the distribution of the ventricular system. The surrounding brain parenchyma appears otherwise normal, with no evidence of mass effect or midline shift. T2 FLAIR imaging suppresses cerebrospinal fluid signal, enhancing the visibility of white matter lesions.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "bilateral distribution",
+        "no mass effect or midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "periventricular hyperintensities",
+        "white matter lesions"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "t2 flair",
+        "white matter lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:32+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 258,
+      "total_tokens": 851
+    }
+  },
+  "Case_07015/figure1.jpg": {
+    "case_id": "Case_07015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07015/figure1.jpg",
+    "source_caption": "MRI of the brain, T1 post-gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T1 post-gadolinium, showing a ring-enhancing lesion.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain taken after gadolinium contrast administration. A single, well-defined ring-enhancing lesion is visible in the right frontal lobe, with surrounding hypointensity suggestive of edema. The lesion's appearance is consistent with a focal process, such as an abscess or neoplasm. The ventricles and midline structures appear midline and are not significantly displaced.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right frontal lobe",
+        "surrounding hypointensity consistent with edema",
+        "no significant midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1 post-gadolinium",
+        "ring-enhancing lesion",
+        "edema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1 post-gadolinium",
+        "ring-enhancing lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:36+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 256,
+      "total_tokens": 850
+    }
+  },
+  "Case_07015/figure3.jpg": {
+    "case_id": "Case_07015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07015/figure3.jpg",
+    "source_caption": "MRI of the brain, T2 FLAIR.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2 FLAIR MRI of the brain showing hyperintense lesions.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain shows multiple hyperintense lesions in the periventricular and subcortical white matter. The lesions are asymmetrical and may suggest demyelination or inflammation. The ventricles appear normal in size, and there is no evidence of mass effect or midline shift.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "hyperintense lesions in subcortical white matter",
+        "normal ventricular size",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "hyperintense lesions",
+        "white matter",
+        "demyelination"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 flair",
+        "white matter lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:38+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 240,
+      "total_tokens": 833
+    }
+  },
+  "Case_07015/figure5.jpg": {
+    "case_id": "Case_07015",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07015/figure5.jpg",
+    "source_caption": "Gram stain of culture of aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching filamentous bacteria.",
+      "detailed_description": "This image shows a Gram stain of a culture aspirate. The stain reveals thin, branching, filamentous structures that are Gram-positive (purple). The background is lightly stained, with some scattered debris. The morphology is suggestive of filamentous bacteria, which could represent organisms such as Actinomyces or Nocardia. The image is de-identified and used for educational purposes.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "Gram-positive (purple) staining",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous bacteria",
+        "infectious diseases",
+        "culture"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "branching bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:40+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_07015/figure4.jpg": {
+    "case_id": "Case_07015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07015/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT image shows the thorax at the level of the upper lungs. There are bilateral pulmonary findings, including patchy areas of ground-glass opacities and nodular densities, particularly in the right lung. The mediastinum appears midline, and no significant pleural effusion is evident. The image is in grayscale, typical of non-contrast CT imaging.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "nodular densities in the right lung",
+        "midline mediastinum",
+        "absence of pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "ground-glass opacities",
+        "nodules",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "pulmonary findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:40+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  }
+}

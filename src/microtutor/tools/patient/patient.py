@@ -124,11 +124,13 @@ class PatientTool(AgenticTool):
             
             patient_style = kwargs.get("patient_style")
             allow_plausible = bool(kwargs.get("allow_plausible_findings", False))
+            figure_catalog = kwargs.get("figure_catalog") or []
 
             system_prompt = format_patient_system_prompt(
                 case,
                 patient_style=patient_style,
                 allow_plausible_findings=allow_plausible,
+                figure_catalog=figure_catalog,
             )
             
             # Use conversation_history which already includes feedback at the end
@@ -199,6 +201,7 @@ class PatientTool(AgenticTool):
             case_id=arguments.get('case_id', 'unknown'),
             patient_style=arguments.get('patient_style'),
             allow_plausible_findings=arguments.get('allow_plausible_findings', False),
+            figure_catalog=arguments.get('figure_catalog') or [],
         )
         
         # Check for audio data

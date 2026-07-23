@@ -1,0 +1,81 @@
+{
+  "Case_04057/figure2.jpg": {
+    "case_id": "Case_04057",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04057/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Darkfield microscopy showing spiral-shaped organisms.",
+      "detailed_description": "This image is captured using darkfield microscopy, highlighting spiral-shaped organisms consistent with spirochetes. The organisms appear as thin, coiled structures against a dark background. The image also shows scattered circular artifacts, possibly air bubbles or debris, which are not part of the organisms. The technique is commonly used to visualize motile spirochetes in clinical specimens.",
+      "visible_findings": [
+        "spiral-shaped organisms",
+        "dark background",
+        "circular artifacts resembling air bubbles or debris"
+      ],
+      "keywords": [
+        "darkfield microscopy",
+        "spirochetes",
+        "infectious diseases",
+        "spiral bacteria",
+        "clinical microbiology"
+      ],
+      "reveal_triggers": [
+        "darkfield microscopy",
+        "spirochetes",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  },
+  "Case_04057/figure1.jpg": {
+    "case_id": "Case_04057",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04057/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "microscopy",
+      "anatomical_site": "null",
+      "short_caption": "Microscopic view showing unstained or poorly stained material with scattered structures.",
+      "detailed_description": "This is a microscopic image showing an unstained or poorly stained field. The field appears to contain scattered, small, refractile structures against a generally amorphous background. The lack of clear staining or contrast makes it difficult to identify specific organisms or structures. The image appears to be taken under low magnification.",
+      "visible_findings": [
+        "unstained or poorly stained field",
+        "scattered refractile structures",
+        "amorphous background"
+      ],
+      "keywords": [
+        "microscopy",
+        "unstained",
+        "low magnification",
+        "refractile structures"
+      ],
+      "reveal_triggers": [
+        "microscopy",
+        "unstained field",
+        "low magnification microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:55+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 209,
+      "total_tokens": 777
+    }
+  }
+}

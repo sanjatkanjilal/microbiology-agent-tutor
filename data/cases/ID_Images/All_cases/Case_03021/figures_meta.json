@@ -1,0 +1,381 @@
+{
+  "Case_03021/figure5.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure5.jpg",
+    "source_caption": "Stain of brain biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Special stain of brain biopsy showing fungal elements.",
+      "detailed_description": "This is a high-magnification image of brain tissue stained with a special fungal stain, likely Gomori methenamine silver (GMS) or a similar stain. The tissue shows elongated, branching, and septate fungal hyphae, which are stained darkly against a lighter background. The hyphae appear to invade the brain parenchyma, suggesting fungal infection. The image is well-focused, highlighting the morphology of the fungal elements.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate fungal elements",
+        "stained brain parenchyma"
+      ],
+      "keywords": [
+        "stain",
+        "brain",
+        "fungal infection",
+        "hyphae",
+        "GMS stain",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "fungal stain",
+        "GMS stain",
+        "histopathology of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 248,
+      "total_tokens": 836
+    }
+  },
+  "Case_03021/figure4.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure4.jpg",
+    "source_caption": "Results of needle biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology of needle biopsy showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This histopathology image shows a needle biopsy specimen stained with hematoxylin and eosin (H&E). The tissue exhibits granulomatous inflammation characterized by clusters of epithelioid macrophages and multinucleated giant cells. There are scattered lymphocytes and areas of necrosis. The presence of multinucleated giant cells suggests a chronic inflammatory process, potentially infectious or autoimmune in origin.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid macrophages",
+        "scattered lymphocytes",
+        "necrotic areas"
+      ],
+      "keywords": [
+        "histopathology",
+        "needle biopsy",
+        "granuloma",
+        "giant cells",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "needle biopsy",
+        "histopathology of inflammation",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:06+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 258,
+      "total_tokens": 845
+    }
+  },
+  "Case_03021/figure1.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure1.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Brain MRI showing a large lesion with surrounding edema and midline shift.",
+      "detailed_description": "This axial brain MRI shows a large, irregular lesion in the left hemisphere with heterogeneous signal intensity, likely representing necrosis or abscess formation. There is significant surrounding vasogenic edema, causing a midline shift to the right. The lesion appears to involve both cortical and subcortical regions, with possible mass effect on adjacent structures. The imaging findings suggest an infectious or neoplastic process.",
+      "visible_findings": [
+        "large irregular lesion in the left hemisphere",
+        "heterogeneous signal intensity",
+        "surrounding vasogenic edema",
+        "midline shift to the right",
+        "mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "lesion",
+        "edema",
+        "midline shift",
+        "infection",
+        "abscess",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "infectious brain lesion",
+        "abscess on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:12+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  },
+  "Case_03021/figure2.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure2.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI showing a large ring-enhancing lesion with surrounding edema.",
+      "detailed_description": "This axial T1-weighted post-contrast MRI image of the brain demonstrates a large, irregular, ring-enhancing lesion in the right hemisphere. The lesion is surrounded by significant vasogenic edema, causing midline shift to the left. The central area of the lesion appears hypointense, consistent with necrosis or liquefaction. The findings are suggestive of an infectious or neoplastic process, such as a brain abscess or high-grade glioma.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right hemisphere",
+        "surrounding vasogenic edema",
+        "midline shift to the left",
+        "central hypointensity within the lesion"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "edema",
+        "midline shift",
+        "infection",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:13+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 266,
+      "total_tokens": 852
+    }
+  },
+  "Case_03021/figure9.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure9.jpg",
+    "source_caption": "MRI scan at 12 months.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI showing ventriculomegaly and periventricular hyperintensities.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain demonstrates marked enlargement of the lateral ventricles (ventriculomegaly) and prominent periventricular hyperintensities, suggestive of white matter changes. The findings may indicate chronic hydrocephalus or periventricular edema, potentially secondary to an infectious or inflammatory process. The image is de-identified and includes a scale marker for reference.",
+      "visible_findings": [
+        "ventriculomegaly",
+        "periventricular hyperintensities",
+        "white matter changes",
+        "scale marker visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ventriculomegaly",
+        "hyperintensities",
+        "hydrocephalus",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ventriculomegaly",
+        "hydrocephalus imaging"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  },
+  "Case_03021/figure3.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure3.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Brain MRI showing multiple ring-enhancing lesions.",
+      "detailed_description": "This is a coronal T1-weighted MRI with contrast of the brain. It demonstrates multiple ring-enhancing lesions predominantly in the left hemisphere. These lesions are irregular in shape and surrounded by areas of edema, as evidenced by hypointense regions. The findings are suggestive of an infectious or inflammatory process, such as abscesses or neurocysticercosis.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "predominantly left hemisphere involvement",
+        "surrounding edema",
+        "contrast enhancement"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "contrast",
+        "infection",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:18+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  },
+  "Case_03021/figure7.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure7.jpg",
+    "source_caption": "Lumbar spine radiograph.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "Lateral lumbar spine radiograph showing vertebral abnormalities.",
+      "detailed_description": "This lateral radiograph of the lumbar spine demonstrates irregularities in the vertebral bodies, including loss of disc space and possible bony destruction. The image suggests potential infectious or degenerative processes affecting the lumbar vertebrae. The alignment appears disrupted, and there may be evidence of sclerosis or lytic changes. The findings are consistent with conditions such as osteomyelitis or discitis.",
+      "visible_findings": [
+        "loss of disc space",
+        "irregular vertebral endplates",
+        "possible bony destruction",
+        "disrupted alignment"
+      ],
+      "keywords": [
+        "radiograph",
+        "lumbar spine",
+        "vertebral abnormalities",
+        "osteomyelitis",
+        "discitis"
+      ],
+      "reveal_triggers": [
+        "lumbar spine x-ray",
+        "vertebral infection",
+        "spinal radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 234,
+      "total_tokens": 822
+    }
+  },
+  "Case_03021/figure8.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure8.jpg",
+    "source_caption": "MRI scan at 12 months.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI showing brain abnormalities at 12 months.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain shows prominent abnormalities, including hyperintense lesions in the periventricular white matter and basal ganglia. There is evidence of ventricular enlargement and cortical atrophy, suggesting chronic or progressive pathology. The image demonstrates clear contrast between the lesions and surrounding tissue, aiding in the visualization of structural changes.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "basal ganglia involvement",
+        "ventricular enlargement",
+        "cortical atrophy"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "lesions",
+        "ventricular enlargement",
+        "cortical atrophy"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "neurological imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:24+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 242,
+      "total_tokens": 831
+    }
+  },
+  "Case_03021/figure6.jpg": {
+    "case_id": "Case_03021",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03021/figure6.jpg",
+    "source_caption": "Detail of Figure 5.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast bacillus highlighted in a stained preparation.",
+      "detailed_description": "This image shows a microscopic field stained with a technique highlighting acid-fast organisms, likely Ziehl-Neelsen or Kinyoun stain. A single, slender, pink rod-shaped structure is visible against a blue background, consistent with an acid-fast bacillus. The surrounding blue material appears to be cellular debris or tissue. The contrast between the pink bacillus and the blue background is characteristic of this staining method.",
+      "visible_findings": [
+        "pink rod-shaped structure (acid-fast bacillus)",
+        "blue background suggestive of cellular material or debris"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "microscopy",
+        "infectious diseases",
+        "bacteria",
+        "acid-fast bacillus"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "Ziehl-Neelsen stain",
+        "mycobacteria microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:25+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 231,
+      "total_tokens": 819
+    }
+  }
+}

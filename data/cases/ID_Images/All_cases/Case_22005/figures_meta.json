@@ -1,0 +1,139 @@
+{
+  "Case_22005/figure1.png": {
+    "case_id": "Case_22005",
+    "filename": "figure1.png",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22005/figure1.png",
+    "source_caption": "Fig 1. Initial abdominal CT. A large heterogeneously enhancing centrally cystic irregular 7.1 x 6.4 x 6.4 cm soft tissue mass is seen in the rectouterine space, just right of midline. Extensive peritoneal nodularity and omental caking, with large ill-defined soft tissue mass is seen all around the liver, especially in the porta hepatis. Retroperitoneal and bilateral anterior cardiophrenic lymphade",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Abdominal CT showing a large cystic mass and extensive peritoneal involvement.",
+      "detailed_description": "This contrast-enhanced abdominal CT shows a large, heterogeneously enhancing, centrally cystic, irregular soft tissue mass measuring approximately 7.1 x 6.4 x 6.4 cm in the rectouterine space, slightly right of midline. There is extensive peritoneal nodularity and omental caking, with additional ill-defined soft tissue masses surrounding the liver, particularly in the porta hepatis. Retroperitoneal and bilateral anterior cardiophrenic lymphadenopathy are also visible.",
+      "visible_findings": [
+        "large cystic and irregular mass in rectouterine space",
+        "extensive peritoneal nodularity",
+        "omental caking",
+        "soft tissue masses around the liver",
+        "retroperitoneal lymphadenopathy",
+        "bilateral anterior cardiophrenic lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "cystic mass",
+        "peritoneal nodularity",
+        "omental caking",
+        "lymphadenopathy"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "cystic mass",
+        "peritoneal involvement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:37+00:00",
+    "usage": {
+      "prompt_tokens": 680,
+      "completion_tokens": 310,
+      "total_tokens": 990
+    }
+  },
+  "Case_22005/figure3.png": {
+    "case_id": "Case_22005",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22005/figure3.png",
+    "source_caption": "Fig 3. CT chest, abdomen, and pelvis after treatment. Interval decrease in the size of cavitary right upper lobe nodule and the extent of the bilateral upper lobe predominant centrilobular nodules, multiple hypoattenuating hepatic lesions, and soft tissue mass surrounding the falciform ligament, porta hepatis, and right perihepatic space.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest, abdomen, and pelvis",
+      "short_caption": "CT showing interval decrease in cavitary lung nodule, centrilobular nodules, hepatic lesions, and soft tissue mass.",
+      "detailed_description": "This composite CT image includes coronal and axial views of the chest, abdomen, and pelvis. In the chest, there is a cavitary nodule in the right upper lobe with reduced size compared to prior imaging. Bilateral upper lobe predominant centrilobular nodules are also smaller. The abdomen shows multiple hypoattenuating hepatic lesions and a soft tissue mass surrounding the falciform ligament, porta hepatis, and right perihepatic space, all of which appear to have decreased in size. The images are post-treatment and demonstrate interval improvement.",
+      "visible_findings": [
+        "cavitary nodule in the right upper lobe",
+        "bilateral upper lobe centrilobular nodules",
+        "multiple hypoattenuating hepatic lesions",
+        "soft tissue mass near falciform ligament and porta hepatis"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "abdomen",
+        "pelvis",
+        "cavitary nodule",
+        "centrilobular nodules",
+        "hepatic lesions",
+        "soft tissue mass"
+      ],
+      "reveal_triggers": [
+        "ct chest abdomen pelvis",
+        "cavitary lung nodule",
+        "hepatic lesions",
+        "soft tissue mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:40+00:00",
+    "usage": {
+      "prompt_tokens": 657,
+      "completion_tokens": 333,
+      "total_tokens": 990
+    }
+  },
+  "Case_22005/figure2.png": {
+    "case_id": "Case_22005",
+    "filename": "figure2.png",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22005/figure2.png",
+    "source_caption": "Fig 2. Initial chest CT. Patchy bilateral upper lobe centrilobular nodules, concerning for active endobronchial tuberculosis or, less likely, atypical mycobacterial infection or endobronchial bacterial pneumonia. Small right pleural effusion and small pericardial effusion. Indeterminate anterior mediastinal lymphadenopathy, peritoneal nodularity, hypodense hepatic lesions.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral upper lobe centrilobular nodules, small pleural and pericardial effusions, and mediastinal lymphadenopathy.",
+      "detailed_description": "This image is a chest CT scan with axial and coronal views. It demonstrates patchy centrilobular nodules predominantly in the bilateral upper lobes, suggestive of an active infectious or inflammatory process. A small right pleural effusion and a small pericardial effusion are visible. There is also indeterminate anterior mediastinal lymphadenopathy. The liver shows hypodense lesions, and there is evidence of peritoneal nodularity, which may suggest systemic involvement.",
+      "visible_findings": [
+        "bilateral upper lobe centrilobular nodules",
+        "small right pleural effusion",
+        "small pericardial effusion",
+        "anterior mediastinal lymphadenopathy",
+        "hypodense hepatic lesions",
+        "peritoneal nodularity"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "pleural effusion",
+        "pericardial effusion",
+        "lymphadenopathy",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "pleural effusion",
+        "mediastinal lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:51+00:00",
+    "usage": {
+      "prompt_tokens": 670,
+      "completion_tokens": 326,
+      "total_tokens": 996
+    }
+  }
+}

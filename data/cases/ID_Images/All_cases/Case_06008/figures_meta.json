@@ -1,0 +1,163 @@
+{
+  "Case_06008/figure1.jpg": {
+    "case_id": "Case_06008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06008/figure1.jpg",
+    "source_caption": "Gram stain of ascitic fluid (primary cytospin).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "ascitic fluid",
+      "short_caption": "Gram stain of ascitic fluid showing gram-negative bacilli and inflammatory cells.",
+      "detailed_description": "This image shows a Gram stain of ascitic fluid prepared via cytospin technique. Numerous gram-negative bacilli are visible, appearing as pink, rod-shaped organisms. There are also large, round inflammatory cells (likely neutrophils) present, indicating an inflammatory response. The background is relatively clear, consistent with a cytospin preparation.",
+      "visible_findings": [
+        "pink, rod-shaped gram-negative bacilli",
+        "large, round inflammatory cells (likely neutrophils)",
+        "clear background typical of cytospin preparation"
+      ],
+      "keywords": [
+        "gram stain",
+        "ascitic fluid",
+        "gram-negative bacilli",
+        "inflammatory cells",
+        "cytospin"
+      ],
+      "reveal_triggers": [
+        "gram stain of ascitic fluid",
+        "cytospin preparation",
+        "infectious peritonitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:21+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 241,
+      "total_tokens": 835
+    }
+  },
+  "Case_06008/figure2.jpg": {
+    "case_id": "Case_06008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06008/figure2.jpg",
+    "source_caption": "Gram stain of culture of aspirate, from blood bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive bacilli from a culture aspirate.",
+      "detailed_description": "This image shows a Gram stain of a culture aspirate, likely from a blood culture bottle. Numerous gram-positive bacilli are visible, appearing as pink to red rod-shaped organisms against a lighter background. The organisms are scattered throughout the field, with some clustering noted. No other cell types, such as white blood cells, are prominently visible in this field.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "pink to red rod-shaped organisms",
+        "scattered and clustered distribution"
+      ],
+      "keywords": [
+        "gram stain",
+        "culture",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "blood culture"
+      ],
+      "reveal_triggers": [
+        "gram stain of culture",
+        "blood culture gram stain",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:22+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 221,
+      "total_tokens": 815
+    }
+  },
+  "Case_06008/figure4.jpg": {
+    "case_id": "Case_06008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06008/figure4.jpg",
+    "source_caption": "Gram stain of growth from blood agar plate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in chains.",
+      "detailed_description": "This image shows a Gram stain with numerous gram-positive cocci arranged in chains. The organisms are stained purple, consistent with their gram-positive nature, and are distributed across the field in a chain-like pattern. The background is clear, suggesting this is a pure culture, likely obtained from a growth on a blood agar plate. The morphology is characteristic of streptococcal species.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "chain arrangement",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "chains",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "streptococci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:26+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 211,
+      "total_tokens": 802
+    }
+  },
+  "Case_06008/figure3.jpg": {
+    "case_id": "Case_06008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06008/figure3.jpg",
+    "source_caption": "Gram stain of culture of aspirate, from blood bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing Gram-positive rods and cocci from a culture aspirate.",
+      "detailed_description": "This image shows a Gram stain of a culture aspirate. Multiple Gram-positive rods and cocci are visible, appearing as pink to red structures against a lighter background. The rods are arranged singly and in chains, while the cocci are seen in clusters. The staining technique highlights the morphology and Gram reaction of the organisms.",
+      "visible_findings": [
+        "Gram-positive rods in chains",
+        "Gram-positive cocci in clusters",
+        "Pink to red staining of organisms",
+        "Light background typical of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "culture",
+        "gram-positive rods",
+        "gram-positive cocci",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "culture aspirate",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:31+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 223,
+      "total_tokens": 817
+    }
+  }
+}

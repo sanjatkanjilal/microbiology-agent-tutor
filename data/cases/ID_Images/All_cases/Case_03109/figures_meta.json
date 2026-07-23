@@ -1,0 +1,42 @@
+{
+  "Case_03109/figure1.jpg": {
+    "case_id": "Case_03109",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03109/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "tongue",
+      "short_caption": "White plaque-like lesions on the lateral tongue.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the tongue with irregular, white, plaque-like lesions. The plaques appear adherent and are surrounded by erythematous mucosa. The adjacent oral mucosa appears moist and pink, with no visible ulceration or bleeding. The findings are suggestive of an infectious or inflammatory process.",
+      "visible_findings": [
+        "white plaque-like lesions",
+        "erythematous surrounding mucosa",
+        "lateral aspect of the tongue"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tongue",
+        "oral lesion",
+        "white plaque",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "tongue lesion",
+        "white plaques in mouth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:24+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 208,
+      "total_tokens": 776
+    }
+  }
+}

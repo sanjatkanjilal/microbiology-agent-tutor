@@ -1,0 +1,213 @@
+{
+  "Case_09010/figure2.jpg": {
+    "case_id": "Case_09010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09010/figure2.jpg",
+    "source_caption": "CT of the head, coronal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Coronal CT of the head showing sinus and orbital regions.",
+      "detailed_description": "This coronal CT image of the head demonstrates the paranasal sinuses, orbits, and surrounding structures. The image shows symmetrical bony structures and soft tissues, with no obvious fractures or gross abnormalities visible. The sinuses appear aerated, and the orbital contents are intact. The scan is non-contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "coronal view of the head",
+        "paranasal sinuses appear aerated",
+        "orbits and surrounding structures intact",
+        "no visible fractures or gross abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "coronal view",
+        "sinuses",
+        "orbits",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "coronal ct of head",
+        "sinus imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:02+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 232,
+      "total_tokens": 823
+    }
+  },
+  "Case_09010/figure1.jpg": {
+    "case_id": "Case_09010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09010/figure1.jpg",
+    "source_caption": "CT of the head, axial view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT of the head showing sinus involvement.",
+      "detailed_description": "This axial CT image of the head demonstrates significant soft tissue swelling and opacification of the maxillary sinuses bilaterally. There is evidence of mucosal thickening and possible fluid levels within the sinuses, suggestive of sinusitis. The nasal cavity also appears narrowed, and there is asymmetry in the surrounding soft tissues. No obvious bony destruction is visible in this slice.",
+      "visible_findings": [
+        "bilateral maxillary sinus opacification",
+        "mucosal thickening",
+        "possible fluid levels in sinuses",
+        "soft tissue swelling",
+        "narrowed nasal cavity"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "sinus",
+        "infection",
+        "axial view",
+        "sinusitis"
+      ],
+      "reveal_triggers": [
+        "head CT",
+        "sinus infection",
+        "axial CT of head"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:04+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  },
+  "Case_09010/figure3.jpg": {
+    "case_id": "Case_09010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09010/figure3.jpg",
+    "source_caption": "MRI of the face (T2 axial).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "face",
+      "short_caption": "Axial T2-weighted MRI of the face.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the face. The image demonstrates high signal intensity in the nasal cavity and paranasal sinuses, consistent with fluid or inflammation. The surrounding soft tissues and bony structures appear intact without obvious mass lesions. The cerebellum and brainstem are partially visible inferiorly, with normal signal intensity.",
+      "visible_findings": [
+        "high signal intensity in nasal cavity and paranasal sinuses",
+        "intact surrounding soft tissues and bony structures",
+        "normal cerebellum and brainstem signal intensity"
+      ],
+      "keywords": [
+        "mri",
+        "face",
+        "t2-weighted",
+        "sinus",
+        "inflammation",
+        "axial"
+      ],
+      "reveal_triggers": [
+        "mri of the face",
+        "t2 axial mri",
+        "sinus inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:06+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 236,
+      "total_tokens": 827
+    }
+  },
+  "Case_09010/figure4.jpg": {
+    "case_id": "Case_09010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09010/figure4.jpg",
+    "source_caption": "MRI of the face (T1 post gadolinium, fat-saturated).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "face",
+      "short_caption": "MRI of the face (T1 post gadolinium, fat-saturated).",
+      "detailed_description": "This axial T1-weighted MRI image with gadolinium contrast and fat saturation shows the facial structures, including the sinuses, orbits, and soft tissues. The image demonstrates symmetrical enhancement patterns without obvious focal lesions or asymmetry. The cerebellum and posterior fossa structures are also visible in the lower portion of the image.",
+      "visible_findings": [
+        "axial view of the face",
+        "T1 post-gadolinium enhancement",
+        "fat-saturated technique",
+        "symmetrical soft tissue structures",
+        "no obvious focal lesions"
+      ],
+      "keywords": [
+        "mri",
+        "face",
+        "t1",
+        "gadolinium",
+        "fat-saturated",
+        "axial",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "mri of the face",
+        "t1 post gadolinium",
+        "fat-saturated mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:10+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 248,
+      "total_tokens": 846
+    }
+  },
+  "Case_09010/figure5.jpg": {
+    "case_id": "Case_09010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09010/figure5.jpg",
+    "source_caption": "Cytological exam of aspirate (Papanicolaou stain, x 250).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Cytological exam of aspirate with Papanicolaou stain at 250x magnification.",
+      "detailed_description": "This image shows a cytological preparation stained with Papanicolaou stain at 250x magnification. The central area contains a dense aggregation of cells with a reddish-pink cytoplasm and darkly stained nuclei. Surrounding the central cluster are scattered cells and debris. The staining highlights cellular details, aiding in the evaluation of morphology and potential infectious or neoplastic processes.",
+      "visible_findings": [
+        "dense central cellular aggregation",
+        "reddish-pink cytoplasm",
+        "darkly stained nuclei",
+        "scattered peripheral cells and debris"
+      ],
+      "keywords": [
+        "papanicolaou stain",
+        "cytology",
+        "aspirate",
+        "infectious diseases",
+        "cell morphology"
+      ],
+      "reveal_triggers": [
+        "cytology",
+        "papanicolaou stain",
+        "aspirate exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:13+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 247,
+      "total_tokens": 847
+    }
+  }
+}

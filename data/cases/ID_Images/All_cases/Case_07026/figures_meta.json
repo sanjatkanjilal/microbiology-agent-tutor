@@ -1,0 +1,125 @@
+{
+  "Case_07026/figure1.jpg": {
+    "case_id": "Case_07026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07026/figure1.jpg",
+    "source_caption": "CT scan of the neck.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT scan of the neck showing soft tissue structures.",
+      "detailed_description": "This axial CT scan of the neck demonstrates soft tissue structures, including the airway, vascular structures, and cervical spine. The image is taken without contrast, as indicated by the uniform grayscale appearance of the tissues. No obvious abscesses, masses, or significant asymmetry are visible in this slice. The cervical vertebrae and surrounding musculature are well visualized.",
+      "visible_findings": [
+        "axial view of the neck",
+        "airway visible in the midline",
+        "cervical vertebrae in posterior aspect",
+        "soft tissue structures appear symmetric"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "axial",
+        "soft tissue",
+        "cervical spine"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "axial neck scan",
+        "soft tissue neck imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 232,
+      "total_tokens": 820
+    }
+  },
+  "Case_07026/figure3.jpg": {
+    "case_id": "Case_07026",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07026/figure3.jpg",
+    "source_caption": "Biopsy with cresentic shaped nuclei.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology image showing crescent-shaped nuclei and scattered red-staining structures.",
+      "detailed_description": "This histopathology image shows a dense field of cells with prominent crescent-shaped nuclei. The background is stained purple, consistent with hematoxylin and eosin (H&E) staining. Scattered among the cells are small, bright red-staining structures, which may represent intracellular or extracellular elements. The image is labeled with arrows pointing to specific features, likely for educational emphasis.",
+      "visible_findings": [
+        "crescent-shaped nuclei",
+        "dense cellular field",
+        "scattered red-staining structures",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "crescent nuclei",
+        "H&E stain",
+        "infectious diseases",
+        "red-staining structures"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "crescent-shaped nuclei",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:54+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 237,
+      "total_tokens": 828
+    }
+  },
+  "Case_07026/figure2.jpg": {
+    "case_id": "Case_07026",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07026/figure2.jpg",
+    "source_caption": "Biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing dense inflammatory infiltrate with mixed cell types.",
+      "detailed_description": "This histopathology image shows a dense inflammatory infiltrate composed of mixed cell types, including lymphocytes, plasma cells, and possibly macrophages. The tissue appears disorganized, with areas of cellular crowding and prominent nuclei. The staining technique is likely hematoxylin and eosin (H&E), as indicated by the purple and pink hues. No clear granulomas or necrosis are visible in this field.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "mixed cell types (lymphocytes, plasma cells, macrophages)",
+        "prominent nuclei",
+        "H&E staining pattern"
+      ],
+      "keywords": [
+        "histopathology",
+        "inflammation",
+        "biopsy",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "biopsy results",
+        "histopathology of infection",
+        "inflammatory infiltrate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 247,
+      "total_tokens": 833
+    }
+  }
+}

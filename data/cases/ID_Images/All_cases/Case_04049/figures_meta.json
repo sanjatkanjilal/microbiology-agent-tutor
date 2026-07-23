@@ -1,0 +1,46 @@
+{
+  "Case_04049/figure1.jpg": {
+    "case_id": "Case_04049",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04049/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "scalp",
+      "short_caption": "Scalp with scaly, crusted, and hyperpigmented patches.",
+      "detailed_description": "This clinical photograph shows the scalp with multiple irregular, scaly, and crusted patches. The affected areas appear hyperpigmented with some areas of alopecia. The lesions are distributed unevenly and have a rough texture. The surrounding skin appears slightly erythematous. The findings suggest a dermatologic condition, possibly infectious or inflammatory in origin.",
+      "visible_findings": [
+        "scaly patches",
+        "crusting",
+        "hyperpigmentation",
+        "alopecia",
+        "erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "scalp",
+        "scaly patches",
+        "crusting",
+        "hyperpigmentation",
+        "alopecia",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "scalp lesions",
+        "scaly patches",
+        "infectious dermatology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:28+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  }
+}

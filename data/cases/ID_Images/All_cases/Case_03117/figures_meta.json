@@ -1,0 +1,44 @@
+{
+  "Case_03117/figure1.jpg": {
+    "case_id": "Case_03117",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03117/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Erythematous papules and pustules on the face.",
+      "detailed_description": "This clinical photograph shows the left side of a patient's face with multiple erythematous papules and pustules distributed across the cheek and extending towards the ear. The lesions appear inflamed, with some areas of confluence. The background skin shows mild erythema. No visible scaling or crusting is noted.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "background erythema",
+        "distribution on cheek and near ear"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "papules",
+        "pustules",
+        "erythema",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial rash",
+        "papules and pustules on face"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 224,
+      "total_tokens": 792
+    }
+  }
+}

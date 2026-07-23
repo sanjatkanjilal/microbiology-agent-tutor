@@ -1,0 +1,179 @@
+{
+  "Case_20001/figure1.jpg": {
+    "case_id": "Case_20001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20001/figure1.jpg",
+    "source_caption": "Face, appearance at presentation with diffuse papulonodular lesions",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:04:52+00:00"
+  },
+  "Case_20001/figure2.jpg": {
+    "case_id": "Case_20001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20001/figure2.jpg",
+    "source_caption": "Chest, appearance at presentation with diffuse papulonodular lesions",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest",
+      "short_caption": "Diffuse papulonodular lesions on the chest at presentation.",
+      "detailed_description": "The image shows the chest of a patient with numerous dark papulonodular lesions distributed diffusely across the skin. The lesions vary in size and appear raised. The patient is lying down, with monitoring leads and medical equipment visible, suggesting a hospital setting. The skin lesions are prominent and consistent with a systemic dermatologic or infectious process.",
+      "visible_findings": [
+        "diffuse papulonodular lesions on the chest",
+        "lesions of varying size and raised appearance",
+        "monitoring leads and medical equipment present"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "papulonodular lesions",
+        "skin lesions",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "papulonodular lesions",
+        "chest skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T16:04:58+00:00",
+    "usage": {
+      "prompt_tokens": 452,
+      "completion_tokens": 233,
+      "total_tokens": 685
+    }
+  },
+  "Case_20001/figure3.jpg": {
+    "case_id": "Case_20001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20001/figure3.jpg",
+    "source_caption": "Legs, appearance at presentation with diffuse papulonodular lesions",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "legs",
+      "short_caption": "Diffuse papulonodular lesions on both legs at presentation.",
+      "detailed_description": "This clinical photograph shows both legs of a patient with numerous papulonodular lesions distributed diffusely across the skin. The lesions vary in size and appear darkly pigmented or crusted in some areas. The surrounding skin shows no overt erythema or swelling. The patient is partially covered with a white sheet, and the lesions are most prominent on the anterior and lateral aspects of the legs.",
+      "visible_findings": [
+        "diffuse papulonodular lesions",
+        "dark pigmentation or crusting on lesions",
+        "no overt erythema or swelling of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "legs",
+        "papulonodular lesions",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "papulonodular lesions",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:58+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 242,
+      "total_tokens": 838
+    }
+  },
+  "Case_20001/figure5.jpg": {
+    "case_id": "Case_20001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20001/figure5.jpg",
+    "source_caption": "Histoplasmosis, GMS stain 40x: Highlighting many oval-shaped uniform fungal yeasts, morphologically consistent with Histoplasma.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing numerous oval fungal yeasts, consistent with Histoplasma.",
+      "detailed_description": "This image is a GMS (Gomori methenamine silver) stain at 40x magnification. It highlights numerous oval-shaped, uniform fungal yeasts, which are darkly stained black against a green background. The organisms are morphologically consistent with Histoplasma species. The stain enhances the visibility of fungal cell walls, aiding in the identification of fungal pathogens.",
+      "visible_findings": [
+        "oval-shaped fungal yeasts",
+        "darkly stained black organisms",
+        "green background from GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "histoplasma",
+        "fungal infection",
+        "yeasts",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "histoplasmosis",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:59+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 235,
+      "total_tokens": 846
+    }
+  },
+  "Case_20001/figure4.jpg": {
+    "case_id": "Case_20001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20001/figure4.jpg",
+    "source_caption": "Histoplasmosis, H&E stain 40x: Numerous intracytoplasmic yeast forms are present inside histiocytes",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Histoplasmosis, H&E stain 40x: Numerous intracytoplasmic yeast forms inside histiocytes.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section at 40x magnification. Numerous small, round to oval yeast forms are visible within the cytoplasm of histiocytes. The yeast forms are uniform in size and are surrounded by a clear halo, consistent with a fungal infection. The background shows inflammatory cells, including lymphocytes and macrophages, indicative of a granulomatous response.",
+      "visible_findings": [
+        "intracytoplasmic yeast forms",
+        "histiocytes with clear halos around yeast",
+        "inflammatory cell infiltrate",
+        "granulomatous inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "yeast forms",
+        "histiocytes",
+        "granulomatous inflammation",
+        "fungal infection",
+        "histoplasmosis"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "histoplasmosis",
+        "fungal infection histology",
+        "yeast in histiocytes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:59+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 306,
+      "total_tokens": 914
+    }
+  }
+}

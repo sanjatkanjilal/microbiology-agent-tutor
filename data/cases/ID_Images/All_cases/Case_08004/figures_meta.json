@@ -1,0 +1,371 @@
+{
+  "Case_08004/figure1.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure1.jpg",
+    "source_caption": "CT scan with angiogram.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT angiogram showing an abdominal aortic aneurysm.",
+      "detailed_description": "This axial CT angiogram of the abdomen demonstrates a dilated segment of the abdominal aorta consistent with an aneurysm. The aneurysm is clearly labeled and appears to have a significant diameter increase compared to the normal aorta. The surrounding abdominal structures are visible, and the image is in grayscale with contrast enhancement highlighting the vascular structures.",
+      "visible_findings": [
+        "dilated abdominal aorta",
+        "contrast-enhanced vascular structures",
+        "aneurysm labeled with arrow",
+        "normal surrounding abdominal anatomy"
+      ],
+      "keywords": [
+        "ct",
+        "angiogram",
+        "abdomen",
+        "aorta",
+        "aneurysm",
+        "vascular",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "aortic aneurysm",
+        "ct angiogram"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  },
+  "Case_08004/figure2.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure2.jpg",
+    "source_caption": "CT angiogram.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and thorax",
+      "short_caption": "CT angiogram showing vascular abnormality in the abdominal aorta.",
+      "detailed_description": "This coronal CT angiogram shows the thorax and abdomen with contrast enhancement. A focal abnormality is visible in the abdominal aorta, highlighted by an arrow. The abnormality appears to involve the vessel wall, suggesting a possible aneurysm, dissection, or infectious process. Surrounding structures, including the liver, kidneys, and bowel, are partially visualized.",
+      "visible_findings": [
+        "contrast-enhanced abdominal aorta",
+        "focal abnormality in the abdominal aorta",
+        "arrow pointing to the vascular lesion",
+        "surrounding soft tissue and organ structures"
+      ],
+      "keywords": [
+        "ct",
+        "angiogram",
+        "abdominal aorta",
+        "vascular lesion",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "ct angiogram",
+        "vascular abnormality",
+        "aortic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:54+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_08004/figure3.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure3.jpg",
+    "source_caption": "Gram stain of specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing clusters of gram-positive cocci.",
+      "detailed_description": "This image shows a Gram stain of a specimen with clusters of gram-positive cocci, appearing as dark purple or violet spherical organisms. The background contains lighter staining material, likely representing cellular debris or extracellular matrix. The arrangement of the cocci suggests possible staphylococcal morphology. No clear host cells, such as neutrophils, are visible in this field.",
+      "visible_findings": [
+        "clusters of gram-positive cocci",
+        "purple/violet staining organisms",
+        "background of lighter staining material"
+      ],
+      "keywords": [
+        "gram stain",
+        "infectious diseases",
+        "bacteria",
+        "gram-positive cocci",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "staphylococci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:56+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 219,
+      "total_tokens": 806
+    }
+  },
+  "Case_08004/figure4.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure4.jpg",
+    "source_caption": "H and E stain of aneurysm.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "blood vessel wall",
+      "short_caption": "H&E stain showing aneurysmal vessel wall changes.",
+      "detailed_description": "This histopathology image shows a section of a blood vessel wall stained with hematoxylin and eosin (H&E). The vessel wall appears disrupted with thinning and loss of normal architecture, consistent with aneurysmal changes. There is evidence of inflammatory infiltrates and possible necrosis in some areas. The lumen is irregularly shaped, and surrounding tissue shows structural compromise.",
+      "visible_findings": [
+        "disrupted vessel wall architecture",
+        "thinning of vessel wall",
+        "inflammatory infiltrates",
+        "irregularly shaped lumen",
+        "possible necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "aneurysm",
+        "blood vessel",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain of aneurysm",
+        "histopathology of blood vessel",
+        "vascular pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:57+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  },
+  "Case_08004/figure6.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure6.jpg",
+    "source_caption": "Culture growth on blood agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on blood agar plate.",
+      "detailed_description": "The image shows a blood agar plate with visible bacterial colonies. The colonies are small, round, and white, distributed along streak lines, suggesting streak plate inoculation. The blood agar medium is red, indicating intact red blood cells, with no apparent hemolysis around the colonies. A gloved hand is holding the plate, and the background is neutral.",
+      "visible_findings": [
+        "blood agar plate",
+        "small, round, white bacterial colonies",
+        "no visible hemolysis",
+        "streak plate inoculation pattern"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "streak plate"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 219,
+      "total_tokens": 807
+    }
+  },
+  "Case_08004/figure7.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure7.jpg",
+    "source_caption": "Culture growth on MacConkey agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on MacConkey agar showing lactose fermentation.",
+      "detailed_description": "This image shows a MacConkey agar plate with bacterial growth. The colonies appear pink, indicating lactose fermentation. The plate is held by a gloved hand, and the background is neutral. The distribution of colonies suggests streaking for isolation. MacConkey agar is selective for Gram-negative bacteria and differentiates lactose fermenters from non-fermenters.",
+      "visible_findings": [
+        "pink bacterial colonies indicating lactose fermentation",
+        "streaking pattern for isolation",
+        "MacConkey agar plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "lactose fermentation",
+        "bacterial growth",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "bacterial culture",
+        "lactose fermentation"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:00+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 222,
+      "total_tokens": 812
+    }
+  },
+  "Case_08004/figure5.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure5.jpg",
+    "source_caption": "H and E stain of wall of vessel, under higher power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "vessel wall",
+      "short_caption": "H&E stain of a vessel wall showing inflammation and structural changes.",
+      "detailed_description": "This histopathology image shows a cross-section of a vessel wall stained with hematoxylin and eosin (H&E). The vessel wall demonstrates prominent inflammatory infiltrates, with disruption of the normal architecture. There is evidence of fibrinoid necrosis and thickening of the wall. Surrounding adipose tissue is visible in the upper portion of the image, while the lower portion shows the vessel lumen. The staining highlights cellular and extracellular components, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "inflammatory infiltrates in vessel wall",
+        "fibrinoid necrosis",
+        "thickened vessel wall",
+        "surrounding adipose tissue",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "vessel wall",
+        "H&E stain",
+        "inflammation",
+        "fibrinoid necrosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "vessel wall histology",
+        "inflammation in vessel"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:02+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 274,
+      "total_tokens": 869
+    }
+  },
+  "Case_08004/figure8.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure8.jpg",
+    "source_caption": "Gram stain from culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli from a culture.",
+      "detailed_description": "This image shows a Gram stain of a culture specimen. Numerous gram-positive bacilli are visible, appearing as pink to red rod-shaped organisms against a light background. The organisms are scattered throughout the field, with no clear clustering or specific arrangement. The staining technique highlights the morphology of the bacteria, consistent with gram-positive rods.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "pink to red rod-shaped organisms",
+        "scattered distribution"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial culture",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:02+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 203,
+      "total_tokens": 790
+    }
+  },
+  "Case_08004/figure9.jpg": {
+    "case_id": "Case_08004",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08004/figure9.jpg",
+    "source_caption": "Steiner stain of resected tissue.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Steiner stain showing dark-staining organisms in resected tissue.",
+      "detailed_description": "This image shows a Steiner stain of resected tissue. The stain highlights numerous small, dark-staining, rod-shaped or filamentous structures consistent with microorganisms, scattered throughout a pale yellow-brown background of tissue matrix. The organisms are concentrated in clusters in some areas, while other regions appear less populated. The Steiner stain is commonly used to identify certain bacteria, including spirochetes and other pathogens, in tissue samples.",
+      "visible_findings": [
+        "dark-staining rod-shaped or filamentous structures",
+        "clusters of organisms",
+        "yellow-brown tissue background"
+      ],
+      "keywords": [
+        "steiner stain",
+        "tissue",
+        "bacteria",
+        "infectious disease",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "steiner stain",
+        "histopathology of tissue",
+        "infectious organisms in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:04+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 244,
+      "total_tokens": 834
+    }
+  }
+}

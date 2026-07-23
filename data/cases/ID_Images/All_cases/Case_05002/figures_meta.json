@@ -1,0 +1,125 @@
+{
+  "Case_05002/figure1.jpg": {
+    "case_id": "Case_05002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05002/figure1.jpg",
+    "source_caption": "View in Alaska.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Beached marine mammal with a ship in the background.",
+      "detailed_description": "The image shows a beached marine mammal, likely a whale, lying on a rocky shoreline. The animal appears to be deceased, and its tail is prominently visible. In the background, a large ship is visible on the water, suggesting a coastal or marine environment. The setting appears to be outdoors with natural lighting.",
+      "visible_findings": [
+        "beached marine mammal",
+        "rocky shoreline",
+        "ship in the background",
+        "natural outdoor setting"
+      ],
+      "keywords": [
+        "marine mammal",
+        "beached animal",
+        "coastal environment",
+        "ship",
+        "outdoor scene"
+      ],
+      "reveal_triggers": [
+        "marine biology",
+        "beached whale",
+        "coastal environment"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:04+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 212,
+      "total_tokens": 798
+    }
+  },
+  "Case_05002/figure2.jpg": {
+    "case_id": "Case_05002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05002/figure2.jpg",
+    "source_caption": "View in Alaska.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Outdoor scene in Alaska with individuals in cold-weather gear.",
+      "detailed_description": "The image depicts a group of individuals dressed in heavy cold-weather clothing, standing on a snow-covered surface near a body of water. The setting appears to be an outdoor environment in a cold region, likely Alaska, as suggested by the caption. The individuals are gathered around what seems to be a large object, possibly a boat or equipment, partially covered in snow. The background shows a clear sky and open water.",
+      "visible_findings": [
+        "group of individuals in cold-weather clothing",
+        "snow-covered ground",
+        "large object, possibly a boat or equipment",
+        "open water and clear sky in the background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "outdoor scene",
+        "cold weather",
+        "Alaska",
+        "snow",
+        "group activity"
+      ],
+      "reveal_triggers": [
+        "outdoor scene",
+        "Alaska",
+        "cold-weather activity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:06+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_05002/figure3.jpg": {
+    "case_id": "Case_05002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05002/figure3.jpg",
+    "source_caption": "Maktaaq (thick whale skin and blubber).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Maktaaq (whale skin and blubber) being prepared for consumption.",
+      "detailed_description": "The image shows a close-up of individuals cutting thick pieces of maktaaq, which consists of whale skin and blubber. The pieces are pale pink with darker areas, and a knife is being used to slice through the material. The setting appears to be outdoors, with the preparation taking place on a flat surface. The image highlights traditional food preparation practices.",
+      "visible_findings": [
+        "thick slices of pale pink and white material with darker outer layer",
+        "knife actively cutting through the material",
+        "outdoor setting with individuals participating in preparation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "food preparation",
+        "whale blubber",
+        "maktaaq",
+        "traditional practices"
+      ],
+      "reveal_triggers": [
+        "maktaaq",
+        "whale blubber",
+        "traditional food preparation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:10+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 234,
+      "total_tokens": 828
+    }
+  }
+}

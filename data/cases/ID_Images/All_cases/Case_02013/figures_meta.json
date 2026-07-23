@@ -1,0 +1,169 @@
+{
+  "Case_02013/figure1.jpg": {
+    "case_id": "Case_02013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02013/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing a cavitary lesion in the right upper lung.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating a cavitary lesion in the right upper lung field, as indicated by an arrow. The lesion appears as a radiolucent area with a surrounding zone of increased opacity. The mediastinum and cardiac silhouette are within normal limits. There are no visible pleural effusions. Electrodes and a line are visible, likely related to monitoring or medical devices.",
+      "visible_findings": [
+        "cavitary lesion in the right upper lung",
+        "surrounding increased opacity",
+        "normal mediastinum and cardiac silhouette",
+        "no pleural effusion",
+        "monitoring electrodes and line present"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung",
+        "cavitary lesion",
+        "infection",
+        "thorax"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung cavitation",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:45+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  },
+  "Case_02013/figure2.jpg": {
+    "case_id": "Case_02013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02013/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral cavitary lesions in the lungs.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral cavitary lesions in the upper lobes of the lungs. The cavities are surrounded by areas of ground-glass opacities and nodular infiltrates. The findings are suggestive of a necrotizing infectious process. The scan is performed without contrast, as evidenced by the uniform density of the mediastinal structures.",
+      "visible_findings": [
+        "bilateral cavitary lesions",
+        "ground-glass opacities",
+        "nodular infiltrates",
+        "upper lobe predominance"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "cavitary lesions",
+        "infection",
+        "ground-glass opacities"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "cavitary lung lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:50+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 231,
+      "total_tokens": 817
+    }
+  },
+  "Case_02013/figure3.jpg": {
+    "case_id": "Case_02013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02013/figure3.jpg",
+    "source_caption": "Stain of lung aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Stained lung aspirate showing branching fungal hyphae.",
+      "detailed_description": "This image shows a stained preparation of lung aspirate. The stain highlights numerous branching fungal hyphae, which are septate and exhibit acute-angle branching. The background consists of amorphous material, likely necrotic tissue or cellular debris. The staining technique appears to be a fungal-specific stain, such as Gomori methenamine silver (GMS) or periodic acid-Schiff (PAS), which enhances fungal structures.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "acute-angle branching",
+        "septate hyphae",
+        "amorphous background material"
+      ],
+      "keywords": [
+        "stain",
+        "lung",
+        "fungal infection",
+        "hyphae",
+        "branching",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "stain of lung aspirate",
+        "fungal hyphae",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:55+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 247,
+      "total_tokens": 836
+    }
+  },
+  "Case_02013/figure4.jpg": {
+    "case_id": "Case_02013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02013/figure4.jpg",
+    "source_caption": "Stain of culture growth from lung aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung aspirate",
+      "short_caption": "Lactophenol cotton blue stain showing fungal structures from lung aspirate culture.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of fungal elements obtained from a lung aspirate culture. The fungal structures exhibit characteristic spiked or spiny spherical shapes, consistent with conidia or sporangia of a fungal organism. The blue staining highlights the morphology of the fungal elements against a pale background, aiding in identification. The image is magnified to show detailed fungal structures.",
+      "visible_findings": [
+        "spiked or spiny spherical fungal structures",
+        "blue staining of fungal elements",
+        "clear background for contrast"
+      ],
+      "keywords": [
+        "stain",
+        "fungus",
+        "lung aspirate",
+        "lactophenol cotton blue",
+        "infectious disease",
+        "culture"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lung aspirate culture",
+        "lactophenol cotton blue stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:56+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 243,
+      "total_tokens": 835
+    }
+  }
+}

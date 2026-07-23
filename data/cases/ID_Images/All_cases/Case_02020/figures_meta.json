@@ -1,0 +1,86 @@
+{
+  "Case_02020/figure1.jpg": {
+    "case_id": "Case_02020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02020/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT scan showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial chest CT scan demonstrates bilateral pulmonary abnormalities, including patchy areas of ground-glass opacities and nodular consolidations. The abnormalities are distributed in both lungs, with some involvement of the periphery. The mediastinum and central airways appear unremarkable. The scan is presented in a lung window setting, enhancing the visibility of parenchymal changes.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "nodular consolidations",
+        "peripheral lung involvement",
+        "unremarkable mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "nodules",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:22+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 233,
+      "total_tokens": 819
+    }
+  },
+  "Case_02020/figure2.jpg": {
+    "case_id": "Case_02020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02020/figure2.jpg",
+    "source_caption": "Pathology of resected lung nodule.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of a resected lung nodule showing central necrosis and fibrotic encapsulation.",
+      "detailed_description": "This histopathology image shows a cross-section of a lung nodule with a central area of necrosis surrounded by a fibrotic capsule. The necrotic center appears eosinophilic and amorphous, while the surrounding tissue demonstrates a fibrotic reaction with cellular infiltrates. The periphery of the image shows adjacent lung parenchyma. The staining technique appears to be hematoxylin and eosin (H&E).",
+      "visible_findings": [
+        "central necrosis",
+        "fibrotic encapsulation",
+        "adjacent lung parenchyma",
+        "eosinophilic necrotic center"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "nodule",
+        "necrosis",
+        "fibrosis",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung nodule pathology",
+        "histopathology of lung",
+        "necrotic lung lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:30+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 267,
+      "total_tokens": 859
+    }
+  }
+}

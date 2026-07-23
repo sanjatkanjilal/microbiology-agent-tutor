@@ -1,0 +1,333 @@
+{
+  "Case_09003/figure7.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure7.jpg",
+    "source_caption": "Growth from anaerobic bottle on blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Growth on blood agar plate from anaerobic culture.",
+      "detailed_description": "The image shows a blood agar plate with visible bacterial growth. The colonies appear as small, round, and slightly raised formations, with some areas showing hemolysis (clearing of the red agar). The plate is being held by a gloved hand, suggesting sterile handling. The growth is consistent with an organism cultured under anaerobic conditions.",
+      "visible_findings": [
+        "bacterial colonies on blood agar",
+        "evidence of hemolysis",
+        "red background of blood agar",
+        "gloved hand holding the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "anaerobic culture",
+        "hemolysis"
+      ],
+      "reveal_triggers": [
+        "blood agar culture",
+        "anaerobic bacterial growth",
+        "hemolysis on blood agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:46+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 229,
+      "total_tokens": 821
+    }
+  },
+  "Case_09003/figure4.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure4.jpg",
+    "source_caption": "CT with tubular abnormality (see arrows).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT showing tubular abnormality in the pelvis (arrows).",
+      "detailed_description": "This axial CT image of the pelvis demonstrates a tubular structure in the left pelvic region, highlighted by arrows. The structure appears abnormal, with possible dilation or thickening. Surrounding bowel loops and pelvic bones are visible, with no obvious free air or fluid collections. The image is in soft tissue window settings.",
+      "visible_findings": [
+        "tubular abnormality in the left pelvis",
+        "arrows pointing to the abnormal structure",
+        "normal appearance of pelvic bones",
+        "no obvious free air or fluid collections"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "tubular abnormality",
+        "infectious disease",
+        "soft tissue window"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "tubular abnormality on imaging",
+        "infectious disease imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:48+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 233,
+      "total_tokens": 824
+    }
+  },
+  "Case_09003/figure5.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure5.jpg",
+    "source_caption": "CT (coronal view) with tubular abnormality (arrows).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Coronal CT showing tubular abnormality in the abdomen (arrows).",
+      "detailed_description": "This coronal CT image of the abdomen and pelvis demonstrates a tubular structure with abnormal morphology, highlighted by arrows. The structure appears dilated and irregular, potentially suggestive of an infectious or obstructive process. Surrounding structures, including the bowel loops and adjacent organs, are visible. The image is de-identified and does not include patient information.",
+      "visible_findings": [
+        "tubular abnormality in the abdomen",
+        "dilated structure with irregular morphology",
+        "adjacent bowel loops and organs visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "tubular abnormality",
+        "infection",
+        "obstruction"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "tubular abnormality",
+        "infectious disease imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:48+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 233,
+      "total_tokens": 829
+    }
+  },
+  "Case_09003/figure1.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure1.jpg",
+    "source_caption": "Abdominal radiograph.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal radiograph showing gas patterns and bowel loops.",
+      "detailed_description": "This is an abdominal radiograph in an anteroposterior (AP) view. The image shows the abdominal cavity with visible gas patterns and bowel loops. There is no clear evidence of free air under the diaphragm or other acute abnormalities. The bony structures, including the pelvis and lower ribs, are visible. The soft tissue outlines are also discernible.",
+      "visible_findings": [
+        "gas patterns in bowel loops",
+        "bony structures of the pelvis and lower ribs",
+        "soft tissue outlines"
+      ],
+      "keywords": [
+        "radiograph",
+        "abdomen",
+        "gas patterns",
+        "bowel loops",
+        "AP view"
+      ],
+      "reveal_triggers": [
+        "abdominal x-ray",
+        "AP abdominal radiograph",
+        "gas patterns in abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:49+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 222,
+      "total_tokens": 809
+    }
+  },
+  "Case_09003/figure8.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure8.jpg",
+    "source_caption": "Gram stain of Eikenella, isolated from anaerobic bottle.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing thin, gram-negative rods.",
+      "detailed_description": "This image shows a Gram stain with numerous thin, pink-staining (gram-negative) rods scattered across the field. The rods are uniform in size and shape, with some clustering visible. The background is clear, and there are no other cell types or debris evident. The staining technique highlights the gram-negative nature of the bacteria.",
+      "visible_findings": [
+        "thin, pink-staining rods",
+        "gram-negative morphology",
+        "scattered and clustered arrangement"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-negative rods",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-negative rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:49+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 205,
+      "total_tokens": 800
+    }
+  },
+  "Case_09003/figure6.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure6.jpg",
+    "source_caption": "Detail of Figure 3, right lower quadrant magnified.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "right lower quadrant",
+      "short_caption": "CT scan showing magnified detail of the right lower quadrant.",
+      "detailed_description": "This is a coronal CT image of the abdomen with a magnified inset focusing on the right lower quadrant. The image shows irregular soft tissue densities and adjacent bowel loops with some areas of gas. There is no clear evidence of free fluid or abscess formation, but the findings suggest possible inflammation or infection in the region. The magnified view highlights the area of interest for closer examination.",
+      "visible_findings": [
+        "coronal CT view of the abdomen",
+        "magnified inset of the right lower quadrant",
+        "irregular soft tissue densities",
+        "adjacent bowel loops with gas"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "right lower quadrant",
+        "inflammation",
+        "infection",
+        "magnified view"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "right lower quadrant ct",
+        "abdominal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:49+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 241,
+      "total_tokens": 835
+    }
+  },
+  "Case_09003/figure2.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure2.jpg",
+    "source_caption": "CT of the abdomen and pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "CT of the abdomen and pelvis showing bowel loops and surrounding structures.",
+      "detailed_description": "This axial CT image of the abdomen and pelvis shows multiple loops of bowel with varying densities. The bony pelvis is visible, including the iliac bones. There is no obvious free air or fluid collection, and the soft tissue structures appear within normal limits. The image is de-identified and does not include contrast enhancement.",
+      "visible_findings": [
+        "axial view of the abdomen and pelvis",
+        "loops of bowel with normal appearance",
+        "bony pelvis including iliac bones",
+        "no obvious free air or fluid collection"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "bowel",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "pelvic ct",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:52+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 226,
+      "total_tokens": 815
+    }
+  },
+  "Case_09003/figure3.jpg": {
+    "case_id": "Case_09003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09003/figure3.jpg",
+    "source_caption": "CT scan of the abdomen and pelvis (coronal view).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Coronal CT scan of the abdomen and pelvis showing abnormal gas and fluid collections.",
+      "detailed_description": "This coronal CT image of the abdomen and pelvis demonstrates abnormal findings, including prominent gas-filled loops of bowel and fluid collections. There is evidence of distension and possible bowel wall thickening. The image also shows a large, well-defined hyperdense area in the upper abdomen, suggestive of a fluid or abscess collection. Surrounding structures appear displaced, and there may be signs of inflammation or infection.",
+      "visible_findings": [
+        "gas-filled bowel loops",
+        "fluid collections",
+        "possible bowel wall thickening",
+        "large hyperdense area in the upper abdomen",
+        "displacement of surrounding structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "infection",
+        "fluid collection",
+        "gas",
+        "bowel"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "abdominal infection",
+        "pelvic abscess",
+        "coronal ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:54+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 256,
+      "total_tokens": 850
+    }
+  }
+}

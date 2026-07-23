@@ -1,0 +1,83 @@
+{
+  "Case_06013/figure1.jpg": {
+    "case_id": "Case_06013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06013/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forehead",
+      "short_caption": "Skin lesion with central eschar on the forehead.",
+      "detailed_description": "This clinical photograph shows a close-up view of the forehead. A single, well-defined lesion with a central dark eschar is visible. The surrounding skin appears slightly erythematous but otherwise unremarkable. The lesion is located above the left eyebrow. The image is well-lit, and the lesion is the focal point of the photograph.",
+      "visible_findings": [
+        "single lesion on the forehead",
+        "central dark eschar",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forehead",
+        "skin lesion",
+        "eschar",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "forehead lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:34+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 210,
+      "total_tokens": 778
+    }
+  },
+  "Case_06013/figure2.jpg": {
+    "case_id": "Case_06013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06013/figure2.jpg",
+    "source_caption": "Figure 2. Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear showing intracellular parasites within red blood cells.",
+      "detailed_description": "This is a high-magnification image of a stained blood smear. Multiple red blood cells are visible, with some containing intracellular ring-shaped and trophozoite forms of parasites, consistent with Plasmodium species. Two white blood cells are also visible, showing typical nuclear morphology. The staining technique highlights the parasites and cellular components distinctly.",
+      "visible_findings": [
+        "red blood cells with intracellular ring forms",
+        "trophozoite forms of parasites",
+        "two white blood cells with segmented nuclei",
+        "stained background for contrast"
+      ],
+      "keywords": [
+        "blood smear",
+        "plasmodium",
+        "malaria",
+        "intracellular parasites",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "malaria diagnosis",
+        "plasmodium on smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:39+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 229,
+      "total_tokens": 818
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Case_03090/figure1.jpg": {
+    "case_id": "Case_03090",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03090/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "oral cavity",
+      "short_caption": "Oral cavity with ulcerative lesions on the tonsillar pillars.",
+      "detailed_description": "This clinical photograph shows the oral cavity of a patient with the mouth held open using two wooden tongue depressors. Prominent ulcerative lesions with erythematous bases are visible on the tonsillar pillars. The surrounding mucosa appears inflamed. The lesions are well-demarcated and irregular in shape.",
+      "visible_findings": [
+        "ulcerative lesions on tonsillar pillars",
+        "erythematous bases of ulcers",
+        "inflamed surrounding mucosa"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "oral cavity",
+        "tonsillar ulcers",
+        "infectious diseases",
+        "ulcerative lesions"
+      ],
+      "reveal_triggers": [
+        "oral ulcers",
+        "tonsillar lesions",
+        "infectious oral findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:04+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  }
+}

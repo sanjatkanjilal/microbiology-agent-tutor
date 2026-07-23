@@ -1,0 +1,168 @@
+{
+  "Case_06011/figure1.jpg": {
+    "case_id": "Case_06011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06011/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields, the heart, and mediastinal structures. The lung fields appear symmetric with no obvious consolidation, cavitation, or pleural effusion. The cardiac silhouette is within normal limits, and there are no apparent abnormalities in the bony thorax. The image includes visible medical devices, such as ECG leads, but no central lines or other invasive devices are present.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "no bony abnormalities",
+        "ECG leads visible"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "heart",
+        "normal findings",
+        "medical devices"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung imaging",
+        "radiograph of chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:27+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 245,
+      "total_tokens": 833
+    }
+  },
+  "Case_06011/figure3.jpg": {
+    "case_id": "Case_06011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06011/figure3.jpg",
+    "source_caption": "Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive branching filamentous bacteria.",
+      "detailed_description": "This image shows a Gram stain of a blood culture. Numerous gram-positive branching filamentous bacteria are visible, appearing as thin, elongated structures with branching patterns. The background is relatively clear, suggesting a clean preparation. The morphology is consistent with organisms such as Nocardia or Actinomyces, though definitive identification would require further testing.",
+      "visible_findings": [
+        "gram-positive bacteria",
+        "branching filamentous morphology",
+        "clean background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive",
+        "branching bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "branching gram-positive bacteria",
+        "nocardia morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:27+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 211,
+      "total_tokens": 799
+    }
+  },
+  "Case_06011/figure2.jpg": {
+    "case_id": "Case_06011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06011/figure2.jpg",
+    "source_caption": "Chest x-ray, hospital day 2.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing consolidation in the right lower lung field.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. There is a dense consolidation in the right lower lung field, consistent with a possible infectious or inflammatory process. The cardiac silhouette and mediastinal structures appear within normal limits. No obvious pleural effusion or pneumothorax is visible. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "dense consolidation in the right lower lung field",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "lung consolidation",
+        "infection",
+        "radiograph"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumonia",
+        "lung consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:28+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 238,
+      "total_tokens": 829
+    }
+  },
+  "Case_06011/figure4.jpg": {
+    "case_id": "Case_06011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06011/figure4.jpg",
+    "source_caption": "CT scan of neck.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT scan of the neck showing soft tissue swelling and fluid collection.",
+      "detailed_description": "This axial CT scan of the neck demonstrates a prominent soft tissue swelling on the right side, with evidence of a hypodense fluid collection suggestive of an abscess. Surrounding tissue shows signs of edema. The airway appears patent, and there is no obvious bony involvement. The scan likely includes contrast, as vascular structures are well delineated.",
+      "visible_findings": [
+        "soft tissue swelling on the right side of the neck",
+        "hypodense fluid collection suggestive of an abscess",
+        "surrounding tissue edema",
+        "patent airway",
+        "well-delineated vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "soft tissue swelling",
+        "abscess",
+        "fluid collection",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "soft tissue infection",
+        "abscess in neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:34+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 244,
+      "total_tokens": 831
+    }
+  }
+}

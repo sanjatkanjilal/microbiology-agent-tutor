@@ -1,0 +1,128 @@
+{
+  "Case_03119/figure2.jpg": {
+    "case_id": "Case_03119",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03119/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Diffuse papulopustular rash on the back.",
+      "detailed_description": "This clinical photograph shows the back of an individual with numerous erythematous papules and pustules scattered diffusely across the skin. The lesions vary in size and are distributed without a clear pattern. There is no visible ulceration or crusting. The findings suggest an inflammatory or infectious dermatologic process.",
+      "visible_findings": [
+        "diffuse erythematous papules",
+        "pustules of varying sizes",
+        "distribution across the back"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "papules",
+        "pustules",
+        "dermatology",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "papulopustular lesions",
+        "back rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 217,
+      "total_tokens": 785
+    }
+  },
+  "Case_03119/figure1.jpg": {
+    "case_id": "Case_03119",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03119/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and upper abdomen",
+      "short_caption": "Erythematous papules and pustules on the chest and upper abdomen.",
+      "detailed_description": "This clinical photograph shows the anterior chest and upper abdomen of an adult. Multiple erythematous papules and pustules are scattered across the skin, with some lesions appearing to have central crusting. The distribution is diffuse but concentrated on the central chest. The findings suggest an inflammatory or infectious dermatosis.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "central crusting in some lesions",
+        "diffuse distribution on chest and upper abdomen"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "skin lesions",
+        "papules",
+        "pustules",
+        "infectious dermatosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on chest",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:39+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_03119/figure3.jpg": {
+    "case_id": "Case_03119",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03119/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "plantar surface of the foot",
+      "short_caption": "Small ulcer with central eschar on the plantar foot.",
+      "detailed_description": "This clinical photograph shows the plantar surface of a foot with a small, round ulceration. The lesion has a central black eschar surrounded by a rim of erythema. The surrounding skin appears intact, with no overt signs of extensive swelling or drainage. The lesion is well-demarcated and isolated.",
+      "visible_findings": [
+        "small round ulceration",
+        "central black eschar",
+        "rim of erythema",
+        "intact surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "ulcer",
+        "eschar",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "foot ulcer",
+        "skin lesion",
+        "infectious eschar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  }
+}

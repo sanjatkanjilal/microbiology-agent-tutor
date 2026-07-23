@@ -1,0 +1,166 @@
+{
+  "Case_03010/figure1.jpg": {
+    "case_id": "Case_03010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03010/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower back",
+      "short_caption": "Erythematous papules and plaques with crusting on the lower back.",
+      "detailed_description": "This clinical photograph shows the lower back of a patient with numerous erythematous papules and plaques, some of which have central crusting. The lesions are scattered and vary in size, with no clear pattern of distribution. The surrounding skin appears otherwise normal. The findings are suggestive of a dermatologic or infectious process.",
+      "visible_findings": [
+        "erythematous papules",
+        "plaques with crusting",
+        "scattered distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower back",
+        "papules",
+        "plaques",
+        "crusting",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:24+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 224,
+      "total_tokens": 792
+    }
+  },
+  "Case_03010/figure2.jpg": {
+    "case_id": "Case_03010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03010/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower back and buttocks",
+      "short_caption": "Multiple hyperpigmented macules and papules on the lower back and buttocks.",
+      "detailed_description": "This clinical photograph shows the lower back and buttocks of a patient with numerous hyperpigmented macules and papules. The lesions are scattered and vary in size, with some appearing slightly raised. The distribution is diffuse, and the lesions do not appear to be clustered. The skin surrounding the lesions appears otherwise normal without significant erythema or scaling.",
+      "visible_findings": [
+        "multiple hyperpigmented macules",
+        "scattered papules",
+        "diffuse distribution on lower back and buttocks"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "macules",
+        "papules",
+        "hyperpigmentation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "hyperpigmented lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:25+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_03010/figure3.jpg": {
+    "case_id": "Case_03010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03010/figure3.jpg",
+    "source_caption": "PAS stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "PAS stain of skin biopsy showing fungal elements in the stratum corneum.",
+      "detailed_description": "This histopathology image shows a section of skin stained with periodic acid-Schiff (PAS). The epidermis and stratum corneum are visible, with fungal elements highlighted in magenta within the stratum corneum. The dermis appears unremarkable. The PAS stain is used to identify polysaccharides in fungal cell walls, making fungal elements stand out distinctly.",
+      "visible_findings": [
+        "fungal elements stained magenta in the stratum corneum",
+        "normal epidermal and dermal architecture",
+        "PAS stain highlighting polysaccharides"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "PAS stain",
+        "fungal infection",
+        "stratum corneum"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "skin biopsy",
+        "fungal elements"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_03010/figure4.jpg": {
+    "case_id": "Case_03010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03010/figure4.jpg",
+    "source_caption": "GMS stain of skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "GMS stain of a skin biopsy showing fungal elements.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of a skin biopsy. The epidermis and underlying dermis are visible, with fungal elements stained black against a green background. The fungal structures appear elongated and filamentous, consistent with hyphae. The stain highlights the fungal organisms, aiding in their identification within the tissue.",
+      "visible_findings": [
+        "black-stained fungal elements (hyphae)",
+        "green background typical of GMS stain",
+        "skin layers visible, including epidermis and dermis"
+      ],
+      "keywords": [
+        "gms stain",
+        "skin biopsy",
+        "fungal elements",
+        "hyphae",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "skin biopsy histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 235,
+      "total_tokens": 824
+    }
+  }
+}

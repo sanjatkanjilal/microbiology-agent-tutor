@@ -1,0 +1,44 @@
+{
+  "Case_03078/figure1.jpg": {
+    "case_id": "Case_03078",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03078/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso and upper extremities",
+      "short_caption": "Diffuse skin lesions on the torso and arms.",
+      "detailed_description": "This clinical photograph shows the anterior torso and upper extremities of an adult male with numerous, discrete, raised lesions. The lesions appear to be papular to pustular, some with central umbilication or crusting. The distribution is widespread, involving the chest, abdomen, and arms. The skin between the lesions appears normal.",
+      "visible_findings": [
+        "numerous raised lesions",
+        "papular to pustular morphology",
+        "central umbilication or crusting in some lesions",
+        "diffuse distribution on torso and arms"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "papules",
+        "pustules",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "diffuse rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  }
+}

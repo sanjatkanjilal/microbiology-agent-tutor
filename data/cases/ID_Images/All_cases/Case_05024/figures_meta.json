@@ -1,0 +1,149 @@
+{
+  "Case_05024/figure4.jpg": {
+    "case_id": "Case_05024",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05024/figure4.jpg",
+    "source_caption": "Laparotomy findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:37:46+00:00"
+  },
+  "Case_05024/figure5.jpg": {
+    "case_id": "Case_05024",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05024/figure5.jpg",
+    "source_caption": "Laparotomy findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:37:48+00:00"
+  },
+  "Case_05024/figure1.jpg": {
+    "case_id": "Case_05024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05024/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing multiple fluid-filled structures.",
+      "detailed_description": "This axial abdominal CT scan reveals multiple fluid-filled structures, likely representing dilated bowel loops. The image shows contrast-enhanced structures, with clear visualization of the vertebral column and surrounding soft tissues. The distribution and appearance suggest possible bowel obstruction or other intra-abdominal pathology. No obvious free air is visible to suggest perforation.",
+      "visible_findings": [
+        "dilated bowel loops",
+        "contrast-enhanced structures",
+        "vertebral column visible",
+        "no obvious free air"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel",
+        "dilated loops",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel obstruction",
+        "contrast-enhanced abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:53+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 214,
+      "total_tokens": 801
+    }
+  },
+  "Case_05024/figure3.jpg": {
+    "case_id": "Case_05024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05024/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing a large left-sided pleural effusion with compressive atelectasis.",
+      "detailed_description": "This axial chest CT image demonstrates a large left-sided pleural effusion, appearing as a homogenous fluid density occupying most of the left hemithorax. There is associated compressive atelectasis of the adjacent lung parenchyma, which appears collapsed and displaced medially. The mediastinum is shifted toward the right side, suggesting significant mass effect. The right lung appears aerated and free of obvious abnormalities.",
+      "visible_findings": [
+        "large left-sided pleural effusion",
+        "compressive atelectasis of left lung",
+        "mediastinal shift to the right",
+        "aerated right lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "atelectasis",
+        "mediastinal shift"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pleural effusion",
+        "lung collapse"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:58+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 254,
+      "total_tokens": 840
+    }
+  },
+  "Case_05024/figure2.jpg": {
+    "case_id": "Case_05024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05024/figure2.jpg",
+    "source_caption": "Pelvic CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Pelvic CT scan showing abnormal bowel distension.",
+      "detailed_description": "This axial pelvic CT scan demonstrates significant distension of bowel loops, with a highlighted region (circled in pink) suggesting an area of concern. The bowel loops appear dilated, and there is evidence of gas within the lumen. The bony pelvis is visible centrally, and soft tissue structures are seen surrounding the bowel. No obvious free air or fluid is noted in this image.",
+      "visible_findings": [
+        "dilated bowel loops",
+        "highlighted region in pink",
+        "gas within bowel lumen",
+        "bony pelvis centrally visible"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "bowel distension",
+        "abdominal imaging",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "bowel distension",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:59+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 229,
+      "total_tokens": 816
+    }
+  }
+}

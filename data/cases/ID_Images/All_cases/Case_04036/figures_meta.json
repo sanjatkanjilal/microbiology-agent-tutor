@@ -1,0 +1,45 @@
+{
+  "Case_04036/figure1.jpg": {
+    "case_id": "Case_04036",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04036/figure1.jpg",
+    "source_caption": "Cryptococcosis in an African patient with human immunodeficiency virus (HIV) infection and acquired immunodeficiency syndrome (AIDS).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesions consistent with cryptococcosis in an immunocompromised patient.",
+      "detailed_description": "This clinical photograph shows the lower face of a patient with multiple, discrete, dome-shaped papules and nodules, some of which appear umbilicated. The lesions are distributed across the cheeks, chin, and perioral region. The skin appears otherwise intact, with no visible ulceration or crusting. The findings are consistent with cutaneous manifestations of cryptococcosis, often seen in immunocompromised individuals.",
+      "visible_findings": [
+        "multiple dome-shaped papules and nodules",
+        "umbilicated lesions",
+        "distribution across cheeks, chin, and perioral region"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "cutaneous cryptococcosis",
+        "HIV",
+        "AIDS",
+        "skin lesions",
+        "immunocompromised"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial lesions",
+        "cryptococcosis",
+        "HIV-associated skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:09+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 263,
+      "total_tokens": 875
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "Case_02052/figure1.jpg": {
+    "case_id": "Case_02052",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02052/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:23:16+00:00"
+  },
+  "Case_02052/figure2.jpg": {
+    "case_id": "Case_02052",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02052/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:23:17+00:00"
+  },
+  "Case_02052/figure4.jpg": {
+    "case_id": "Case_02052",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02052/figure4.jpg",
+    "source_caption": "Joint discharge under polarizing light.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "joint fluid",
+      "short_caption": "Polarized light microscopy of joint fluid showing birefringent crystals.",
+      "detailed_description": "This image shows a sample of joint fluid under polarized light microscopy. Numerous needle-shaped crystals are visible, exhibiting birefringence with alternating bright orange and blue colors. The appearance is consistent with monosodium urate crystals, commonly seen in gout. The background is uniformly illuminated, enhancing the contrast of the birefringent crystals.",
+      "visible_findings": [
+        "needle-shaped crystals",
+        "birefringence with orange and blue colors",
+        "uniformly illuminated background"
+      ],
+      "keywords": [
+        "polarized light",
+        "joint fluid",
+        "crystals",
+        "birefringence",
+        "gout"
+      ],
+      "reveal_triggers": [
+        "polarized light microscopy",
+        "joint fluid analysis",
+        "crystals in joint fluid"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 222,
+      "total_tokens": 811
+    }
+  },
+  "Case_02052/figure3.jpg": {
+    "case_id": "Case_02052",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02052/figure3.jpg",
+    "source_caption": "Gram stain of discharge.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci and background material.",
+      "detailed_description": "This is a microscopic image of a Gram stain. The field shows gram-positive cocci, appearing as small, dark blue or purple spherical structures. These are scattered throughout a background of pink-stained material, which may represent cellular debris or extracellular material. The image is consistent with a discharge sample, as suggested by the background composition.",
+      "visible_findings": [
+        "gram-positive cocci (dark blue/purple spheres)",
+        "pink-stained background material",
+        "scattered distribution of organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "discharge",
+        "gram-positive cocci",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of discharge",
+        "microscopic examination of infection",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:36+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 221,
+      "total_tokens": 808
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "Case_21004/figure1.jpg": {
+    "case_id": "Case_21004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21004/figure1.jpg",
+    "source_caption": "Non-contrast CT of the chest showing large pericardial effusion.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Non-contrast CT of the chest showing a large pericardial effusion.",
+      "detailed_description": "This axial non-contrast CT image of the chest demonstrates a large pericardial effusion, visible as a crescent-shaped, low-attenuation fluid collection surrounding the heart. The effusion is compressing the cardiac silhouette, which appears slightly displaced. No contrast enhancement is present, and surrounding thoracic structures, including the vertebrae and ribs, are visible.",
+      "visible_findings": [
+        "large crescent-shaped pericardial effusion",
+        "compression of the cardiac silhouette",
+        "absence of contrast enhancement",
+        "normal visualization of thoracic bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pericardial effusion",
+        "fluid collection",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pericardial effusion",
+        "fluid around heart"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:55+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 246,
+      "total_tokens": 844
+    }
+  },
+  "Case_21004/figure3.jpg": {
+    "case_id": "Case_21004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21004/figure3.jpg",
+    "source_caption": "Non-contrast CT of the neck that demonstrates bilateral enlarged lymph nodes. The mid-cervical nodal mass deep to the sternocleidomastoid muscle on the left side measures 4.3 x 2.2 cm in axial plane.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Non-contrast axial CT of the neck showing bilateral enlarged lymph nodes.",
+      "detailed_description": "This is an axial non-contrast CT image of the neck. Bilateral enlarged lymph nodes are visible, with a prominent nodal mass deep to the left sternocleidomastoid muscle. The mass on the left side measures approximately 4.3 x 2.2 cm in the axial plane. The surrounding soft tissues appear unremarkable, and no significant midline shift or other abnormalities are evident.",
+      "visible_findings": [
+        "bilateral enlarged lymph nodes",
+        "left-sided nodal mass deep to the sternocleidomastoid muscle",
+        "no significant midline shift",
+        "unremarkable surrounding soft tissues"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "lymph nodes",
+        "enlarged nodes",
+        "sternocleidomastoid",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "enlarged lymph nodes",
+        "non-contrast ct of neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:05+00:00",
+    "usage": {
+      "prompt_tokens": 633,
+      "completion_tokens": 261,
+      "total_tokens": 894
+    }
+  },
+  "Case_21004/figure4.jpg": {
+    "case_id": "Case_21004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21004/figure4.jpg",
+    "source_caption": "GMS special stain, 600x, demonstrates scattered yeast forms in the pericardium.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "pericardium",
+      "short_caption": "GMS stain at 600x showing scattered yeast forms in the pericardium.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of pericardial tissue at 600x magnification. The tissue is stained green, with scattered black, round to oval yeast forms visible throughout the field. The yeast forms are consistent with fungal elements, and their distribution appears irregular. The background tissue structure is partially preserved, with some areas of cellular and extracellular matrix detail.",
+      "visible_findings": [
+        "green-stained tissue background",
+        "black, round to oval yeast forms",
+        "scattered distribution of fungal elements"
+      ],
+      "keywords": [
+        "gms stain",
+        "pericardium",
+        "yeast",
+        "fungal infection",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "pericardial histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:05+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 245,
+      "total_tokens": 847
+    }
+  },
+  "Case_21004/figure2.jpg": {
+    "case_id": "Case_21004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21004/figure2.jpg",
+    "source_caption": "Non-contrast CT of the chest showing left upper lobe cavitary lung lesion, 4.3 cm in diameter.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Non-contrast CT of the chest showing a left upper lobe cavitary lung lesion.",
+      "detailed_description": "This axial non-contrast CT image of the chest demonstrates a cavitary lesion in the left upper lobe, measuring approximately 4.3 cm in diameter. The lesion has thickened walls and is surrounded by areas of heterogeneous lung parenchyma. There are additional findings of bilateral patchy ground-glass opacities and consolidation, more prominent in the lower lobes. No significant pleural effusion is visible. The mediastinal structures appear midline.",
+      "visible_findings": [
+        "left upper lobe cavitary lesion with thickened walls",
+        "bilateral patchy ground-glass opacities",
+        "areas of consolidation, more prominent in lower lobes",
+        "no significant pleural effusion",
+        "mediastinal structures appear midline"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavitation",
+        "infectious lung lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:06+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 294,
+      "total_tokens": 901
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "Case_03031/figure1.jpg": {
+    "case_id": "Case_03031",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03031/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:27:26+00:00"
+  },
+  "Case_03031/figure2.jpg": {
+    "case_id": "Case_03031",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03031/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg and foot",
+      "short_caption": "Extensive ulcerations on the lower leg and foot with exposed dermis.",
+      "detailed_description": "This clinical photograph shows the lower leg and foot of a patient with multiple large, irregularly shaped ulcerations. The ulcers have well-demarcated borders and expose the underlying dermis, which appears red and moist. Surrounding skin is hyperpigmented, with some areas showing mild swelling. The foot is partially submerged in water, suggesting a possible wound care or soaking procedure. The ulcers are located on the anterior lower leg and dorsum of the foot.",
+      "visible_findings": [
+        "large, irregular ulcerations",
+        "exposed red dermis",
+        "hyperpigmented surrounding skin",
+        "mild swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "foot",
+        "ulcerations",
+        "infectious diseases",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin ulcer",
+        "infected wound",
+        "leg and foot lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 252,
+      "total_tokens": 820
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Case_03055/figure1.jpg": {
+    "case_id": "Case_03055",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03055/figure1.jpg",
+    "source_caption": "Left hand with fourth finger pustule.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hand, fourth finger",
+      "short_caption": "Pustule on the fourth finger of the left hand.",
+      "detailed_description": "The image shows the palmar aspect of a left hand with a small pustule located on the fourth finger near the proximal interphalangeal joint. The pustule appears as a raised, round lesion with a whitish center, consistent with localized inflammation or infection. The surrounding skin shows no significant erythema or swelling. The background is a green medical drape, suggesting a clinical setting.",
+      "visible_findings": [
+        "pustule on fourth finger",
+        "whitish center of lesion",
+        "no significant surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "pustule",
+        "finger lesion",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesion",
+        "pustule on finger"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:28+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 229,
+      "total_tokens": 819
+    }
+  }
+}

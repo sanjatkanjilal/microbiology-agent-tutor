@@ -1,0 +1,86 @@
+{
+  "Case_05009/figure2.jpg": {
+    "case_id": "Case_05009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05009/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This histopathology image shows a dense collection of inflammatory cells, including epithelioid histiocytes and multinucleated giant cells, consistent with granulomatous inflammation. The tissue is stained with hematoxylin and eosin (H&E), highlighting cellular details. The presence of multinucleated giant cells suggests a chronic inflammatory process, potentially infectious or non-infectious in etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "giant cells",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "histopathology of granuloma",
+        "H&E stain",
+        "chronic inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 245,
+      "total_tokens": 833
+    }
+  },
+  "Case_05009/figure1.jpg": {
+    "case_id": "Case_05009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05009/figure1.jpg",
+    "source_caption": "Biopsy of the colon.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "colon",
+      "short_caption": "Histopathology of a colon biopsy showing inflammation and architectural distortion.",
+      "detailed_description": "This histopathology image shows a section of the colon with significant inflammatory infiltrate in the lamina propria, crypt distortion, and crypt abscesses. The mucosa appears disrupted, with areas of ulceration and loss of normal architecture. The staining technique is hematoxylin and eosin (H&E), highlighting cellular and structural details. The findings are consistent with active colonic inflammation, possibly due to an infectious or inflammatory condition.",
+      "visible_findings": [
+        "crypt abscesses",
+        "inflammatory infiltrate in lamina propria",
+        "crypt distortion",
+        "mucosal ulceration",
+        "loss of normal architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "colon",
+        "inflammation",
+        "crypt abscess",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "colon biopsy",
+        "histopathology of colon",
+        "inflammatory bowel disease",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 258,
+      "total_tokens": 846
+    }
+  }
+}

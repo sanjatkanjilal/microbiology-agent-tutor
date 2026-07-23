@@ -1,0 +1,128 @@
+{
+  "Case_03018/figure1.jpg": {
+    "case_id": "Case_03018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03018/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest",
+      "short_caption": "Erythematous papules and vesicles on the chest.",
+      "detailed_description": "This clinical photograph shows the anterior chest of a patient with multiple erythematous papules and vesicles scattered across the skin. The lesions vary in size and appear to be at different stages of development. The surrounding skin is unremarkable, with no significant erythema or swelling noted. The image is well-lit, and the lesions are clearly visible.",
+      "visible_findings": [
+        "erythematous papules",
+        "vesicles",
+        "scattered distribution",
+        "no significant surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "papules",
+        "vesicles",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on chest",
+        "vesicular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:54+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  },
+  "Case_03018/figure3.jpg": {
+    "case_id": "Case_03018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03018/figure3.jpg",
+    "source_caption": "Twenty-four hour follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous papules and macules on the back, with a marked circular area for follow-up.",
+      "detailed_description": "This clinical photograph shows the back of a patient with numerous erythematous papules and macules scattered across the skin. A circular area has been marked with a pen, likely for monitoring or follow-up purposes. The lesions appear to be distributed diffusely, with no apparent clustering or confluence. The image suggests a dermatologic or infectious process affecting the skin.",
+      "visible_findings": [
+        "diffuse erythematous papules and macules",
+        "marked circular area on the back",
+        "no visible signs of ulceration or discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "back",
+        "papules",
+        "macules",
+        "rash",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "follow-up skin lesion"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:56+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 244,
+      "total_tokens": 832
+    }
+  },
+  "Case_03018/figure2.jpg": {
+    "case_id": "Case_03018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03018/figure2.jpg",
+    "source_caption": "Vaccine site on right deltoid.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right deltoid",
+      "short_caption": "Inflammatory reaction at vaccine site on right deltoid.",
+      "detailed_description": "The image shows the right deltoid region of an adult patient. A central dark lesion with necrotic appearance is visible, surrounded by erythema and mild swelling. The lesion appears to be localized, with no visible drainage or extensive tissue involvement. The surrounding skin shows scattered erythematous macules, possibly unrelated to the central lesion. The image suggests an inflammatory or necrotic reaction at the vaccine site.",
+      "visible_findings": [
+        "central dark necrotic lesion",
+        "surrounding erythema",
+        "mild swelling",
+        "scattered erythematous macules on nearby skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right deltoid",
+        "vaccine site",
+        "necrotic lesion",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "vaccine site reaction",
+        "skin exam",
+        "necrotic lesion on arm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:56+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 260,
+      "total_tokens": 850
+    }
+  }
+}

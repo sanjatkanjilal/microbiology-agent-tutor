@@ -1,0 +1,109 @@
+{
+  "Case_10013/figure1.jpg": {
+    "case_id": "Case_10013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10013/figure1.jpg",
+    "source_caption": "Physical findings on back, buttocks and leg.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:52:28+00:00"
+  },
+  "Case_10013/figure4.jpg": {
+    "case_id": "Case_10013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10013/figure4.jpg",
+    "source_caption": "Physical findings on the foot.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:52:29+00:00"
+  },
+  "Case_10013/figure3.jpg": {
+    "case_id": "Case_10013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10013/figure3.jpg",
+    "source_caption": "Physical findings on the scalp.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "scalp",
+      "short_caption": "Scalp with diffuse purpuric discoloration.",
+      "detailed_description": "This clinical photograph shows the scalp of an individual with diffuse purpuric discoloration. The affected area appears to involve the central and posterior scalp, with irregularly distributed dark red to purple patches. The surrounding skin shows no overt signs of swelling or ulceration. Sparse hair is visible, and no other lesions are apparent in this image.",
+      "visible_findings": [
+        "diffuse purpuric discoloration",
+        "irregularly distributed dark red to purple patches",
+        "sparse hair on the scalp",
+        "no visible swelling or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "scalp",
+        "purpura",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "scalp exam",
+        "purpuric rash",
+        "skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:40+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 228,
+      "total_tokens": 816
+    }
+  },
+  "Case_10013/figure2.jpg": {
+    "case_id": "Case_10013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10013/figure2.jpg",
+    "source_caption": "Physical findings on the nose.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "nose",
+      "short_caption": "Dusky discoloration and purpura on the nose.",
+      "detailed_description": "This clinical photograph shows the nose of a patient with dusky, violaceous discoloration and areas of purpura. The lesions are irregularly distributed, with some darker areas suggestive of necrosis. The surrounding skin appears mottled, and there is no visible ulceration or active bleeding. The findings are consistent with vascular compromise or a vasculitic process.",
+      "visible_findings": [
+        "dusky discoloration of the nose",
+        "purpura",
+        "irregular distribution of lesions",
+        "mottled surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "nose",
+        "purpura",
+        "discoloration",
+        "necrosis",
+        "vascular compromise"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "nose discoloration",
+        "purpura on nose"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:40+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 231,
+      "total_tokens": 819
+    }
+  }
+}

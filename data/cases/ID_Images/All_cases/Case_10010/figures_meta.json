@@ -1,0 +1,191 @@
+{
+  "Case_10010/figure1.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure1.jpg",
+    "source_caption": "Physical findings on left thumb.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:51:51+00:00"
+  },
+  "Case_10010/figure3.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure3.jpg",
+    "source_caption": "Skin biopsy, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy showing intracellular inclusions, H and E stain.",
+      "detailed_description": "This histopathology image shows a high-power view of skin tissue stained with hematoxylin and eosin (H and E). The image reveals prominent intracellular inclusions within keratinocytes, surrounded by a pink cytoplasmic background and purple-stained nuclei. The inclusions appear eosinophilic and are suggestive of viral cytopathic effects. The overall tissue architecture is consistent with a skin biopsy.",
+      "visible_findings": [
+        "intracellular inclusions in keratinocytes",
+        "eosinophilic inclusions",
+        "purple-stained nuclei",
+        "pink cytoplasmic background"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "h and e stain",
+        "intracellular inclusions",
+        "viral cytopathic effect"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "h and e stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:58+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_10010/figure4.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure4.jpg",
+    "source_caption": "Culture of skin biopsy tissue in Schneider’s medium.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Microscopic view of cultured skin biopsy tissue in Schneider’s medium.",
+      "detailed_description": "This image shows a microscopic view of cultured material from a skin biopsy, prepared in Schneider’s medium. The field reveals several elongated, slender structures resembling flagellated protozoa, consistent with a parasitic organism. The background appears blue, suggesting the use of a wet mount or similar preparation technique. The organisms are scattered throughout the field, with some showing clear flagella-like extensions.",
+      "visible_findings": [
+        "slender, elongated structures resembling flagellated protozoa",
+        "blue background suggesting wet mount preparation",
+        "scattered organisms with flagella-like extensions"
+      ],
+      "keywords": [
+        "microscopy",
+        "culture",
+        "skin biopsy",
+        "schneider's medium",
+        "flagellated protozoa",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "culture of skin biopsy",
+        "schneider's medium",
+        "microscopic view of protozoa"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:59+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 249,
+      "total_tokens": 841
+    }
+  },
+  "Case_10010/figure5.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure5.jpg",
+    "source_caption": "Follow-up, one week after treatment.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:51:59+00:00"
+  },
+  "Case_10010/figure2.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure2.jpg",
+    "source_caption": "Nasal examination.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "nasal cavity",
+      "short_caption": "Endoscopic view of the nasal cavity showing nasal septum and turbinates.",
+      "detailed_description": "This is an endoscopic image of the nasal cavity. The nasal septum is visible on the left side of the image, while the middle and inferior turbinates are labeled on the right. The mucosa appears moist and pink, with no obvious signs of inflammation, swelling, or discharge. The image provides a clear view of the anatomical structures within the nasal cavity.",
+      "visible_findings": [
+        "nasal septum visible on the left",
+        "middle turbinate labeled on the right",
+        "inferior turbinate labeled on the right",
+        "moist and pink mucosa"
+      ],
+      "keywords": [
+        "endoscopy",
+        "nasal cavity",
+        "nasal septum",
+        "turbinates",
+        "anatomy"
+      ],
+      "reveal_triggers": [
+        "nasal examination",
+        "endoscopic view of nasal cavity",
+        "nasal anatomy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 249,
+      "total_tokens": 835
+    }
+  },
+  "Case_10010/figure6.jpg": {
+    "case_id": "Case_10010",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10010/figure6.jpg",
+    "source_caption": "Follow-up at 3 months.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Erythematous lesion with scaling and crusting on the finger at 3-month follow-up.",
+      "detailed_description": "This clinical photograph shows a finger with an erythematous, scaly lesion that has areas of crusting and mild swelling. The lesion appears localized to the dorsal aspect of the finger. A ruler is included in the image for size reference, suggesting a standardized clinical evaluation. The surrounding skin shows mild erythema, but no overt signs of purulence or ulceration are visible.",
+      "visible_findings": [
+        "erythematous lesion",
+        "scaling and crusting",
+        "localized swelling",
+        "ruler for size reference"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "erythema",
+        "scaling",
+        "crusting",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "finger infection",
+        "follow-up skin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:11+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  }
+}

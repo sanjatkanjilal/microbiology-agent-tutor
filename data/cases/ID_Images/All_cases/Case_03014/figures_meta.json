@@ -1,0 +1,206 @@
+{
+  "Case_03014/figure2.jpg": {
+    "case_id": "Case_03014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03014/figure2.jpg",
+    "source_caption": "Radiograph of hip.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "hip",
+      "short_caption": "Radiograph of the hip showing abnormality in the femur and surrounding soft tissue.",
+      "detailed_description": "This is a radiograph of the hip region, including the proximal femur. The image shows irregularities in the femoral head and neck, with possible lytic lesions or cortical disruption. There is increased opacity in the surrounding soft tissue, which may represent swelling or infection. The radiograph is taken in an anteroposterior view, with clear visualization of the hip joint and proximal femur.",
+      "visible_findings": [
+        "irregular femoral head and neck",
+        "possible lytic lesions or cortical disruption",
+        "increased opacity in surrounding soft tissue"
+      ],
+      "keywords": [
+        "radiograph",
+        "hip",
+        "femur",
+        "infection",
+        "bone lesion"
+      ],
+      "reveal_triggers": [
+        "hip x-ray",
+        "radiograph of femur",
+        "bone infection imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:39+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  },
+  "Case_03014/figure4.jpg": {
+    "case_id": "Case_03014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03014/figure4.jpg",
+    "source_caption": "Brown and Hopps tissue stain, with oil. (100x magnification)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue sample",
+      "short_caption": "Brown and Hopps stain showing gram-positive bacilli in tissue (100x magnification).",
+      "detailed_description": "This image is a Brown and Hopps tissue stain viewed under oil immersion at 100x magnification. It reveals numerous gram-positive bacilli, which appear as elongated, purple-stained structures distributed across the tissue. The background tissue is lightly stained, providing contrast to the bacterial elements. The staining technique highlights bacterial morphology and gram-positive characteristics.",
+      "visible_findings": [
+        "purple-stained gram-positive bacilli",
+        "elongated bacterial morphology",
+        "lightly stained background tissue"
+      ],
+      "keywords": [
+        "brown and hopps stain",
+        "gram-positive bacilli",
+        "tissue sample",
+        "infectious diseases",
+        "bacterial morphology"
+      ],
+      "reveal_triggers": [
+        "brown and hopps stain",
+        "gram-positive bacteria in tissue",
+        "oil immersion microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:42+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 234,
+      "total_tokens": 832
+    }
+  },
+  "Case_03014/figure3.jpg": {
+    "case_id": "Case_03014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03014/figure3.jpg",
+    "source_caption": "Brown and Hopps tissue gram stain, without oil. (40x magnification)",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "tissue",
+      "short_caption": "Brown and Hopps tissue gram stain showing gram-positive bacilli (40x magnification).",
+      "detailed_description": "This image is a Brown and Hopps tissue gram stain at 40x magnification, without oil immersion. It reveals numerous gram-positive bacilli, which appear as purple rod-shaped structures distributed throughout the tissue. The background is pale, with minimal staining of the surrounding tissue matrix. No oil immersion is used, as indicated by the caption and visual clarity.",
+      "visible_findings": [
+        "purple rod-shaped gram-positive bacilli",
+        "pale background tissue matrix",
+        "even distribution of bacterial elements"
+      ],
+      "keywords": [
+        "gram stain",
+        "brown and hopps",
+        "tissue",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "40x magnification"
+      ],
+      "reveal_triggers": [
+        "gram stain of tissue",
+        "brown and hopps stain",
+        "gram-positive rods in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:43+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 256,
+      "total_tokens": 855
+    }
+  },
+  "Case_03014/figure1.jpg": {
+    "case_id": "Case_03014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03014/figure1.jpg",
+    "source_caption": "Radiograph of the arm.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "upper arm and shoulder",
+      "short_caption": "Radiograph of the upper arm showing a pathological fracture.",
+      "detailed_description": "This is a radiograph of the upper arm and shoulder, showing a mid-shaft humeral fracture with cortical disruption and displacement. The surrounding soft tissues appear unremarkable. The ribs and part of the thoracic cavity are visible in the background, but no abnormalities are noted in these structures. The image orientation suggests an anteroposterior view.",
+      "visible_findings": [
+        "mid-shaft humeral fracture",
+        "cortical disruption",
+        "displacement of the fracture fragments",
+        "normal-appearing surrounding soft tissues",
+        "visible ribs and thoracic cavity in the background"
+      ],
+      "keywords": [
+        "radiograph",
+        "upper arm",
+        "humerus",
+        "fracture",
+        "pathological fracture",
+        "shoulder"
+      ],
+      "reveal_triggers": [
+        "arm x-ray",
+        "humeral fracture",
+        "radiograph of upper arm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 251,
+      "total_tokens": 839
+    }
+  },
+  "Case_03014/figure5.jpg": {
+    "case_id": "Case_03014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03014/figure5.jpg",
+    "source_caption": ") One set of blood cultures taken before antibiotic therapy grew anaerobic gram-positive rods, later identified as Clostridium septicum.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing anaerobic gram-positive rods in a blood culture.",
+      "detailed_description": "This image is a gram stain of a blood culture specimen. It shows numerous slender, elongated gram-positive rods, some of which appear in chains. The background contains pink-stained material, likely representing host cells or debris. The rods are consistent with anaerobic bacteria, such as Clostridium species.",
+      "visible_findings": [
+        "slender gram-positive rods",
+        "rods arranged in chains",
+        "pink-stained background material"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive rods",
+        "clostridium",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "anaerobic gram-positive rods",
+        "clostridium septicum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:47+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 216,
+      "total_tokens": 824
+    }
+  }
+}

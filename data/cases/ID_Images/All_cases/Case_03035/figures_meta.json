@@ -1,0 +1,87 @@
+{
+  "Case_03035/figure2.jpg": {
+    "case_id": "Case_03035",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03035/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Erythematous and purpuric lesions on the hands, with necrosis of the left middle finger.",
+      "detailed_description": "This image shows both hands of a patient with prominent erythematous and purpuric lesions distributed across the palms and fingers. The lesions are irregularly shaped and vary in size. The left middle finger exhibits a dark, necrotic area suggestive of ischemia or infarction. The background includes a hospital bed and gown, indicating a clinical setting.",
+      "visible_findings": [
+        "erythematous lesions on palms and fingers",
+        "purpuric discoloration",
+        "necrosis of the left middle finger",
+        "irregular lesion shapes"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "erythema",
+        "purpura",
+        "necrosis",
+        "infectious diseases",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesions",
+        "necrotic finger"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  },
+  "Case_03035/figure1.jpg": {
+    "case_id": "Case_03035",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03035/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand, index finger",
+      "short_caption": "Ischemic necrosis of the distal right index finger.",
+      "detailed_description": "This clinical photograph shows the right hand with a focus on the index finger. The distal portion of the finger appears darkened and necrotic, consistent with ischemic changes. Surrounding tissue is erythematous and swollen, suggesting inflammation or vascular compromise. The rest of the hand appears less affected, though mild swelling is visible. The background includes a medical setting with a white cloth, indicating a clinical context.",
+      "visible_findings": [
+        "necrotic tissue on distal index finger",
+        "erythema and swelling of the finger",
+        "dark discoloration consistent with ischemia"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "finger",
+        "necrosis",
+        "ischemia",
+        "erythema",
+        "swelling"
+      ],
+      "reveal_triggers": [
+        "finger necrosis",
+        "hand ischemia",
+        "infectious diseases hand"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 247,
+      "total_tokens": 815
+    }
+  }
+}

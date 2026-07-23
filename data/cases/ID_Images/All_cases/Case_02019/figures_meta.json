@@ -1,0 +1,85 @@
+{
+  "Case_02019/figure2.jpg": {
+    "case_id": "Case_02019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02019/figure2.jpg",
+    "source_caption": "Liver biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver biopsy showing granulomas and hepatocyte changes.",
+      "detailed_description": "This histopathology image shows a liver biopsy stained with hematoxylin and eosin (H&E). The tissue demonstrates granulomas with central areas of inflammation surrounded by lymphocytes. There is evidence of hepatocyte injury, including vacuolization and disruption of normal architecture. The presence of granulomas suggests a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granulomas with central inflammation",
+        "lymphocytic infiltration",
+        "hepatocyte vacuolization",
+        "disrupted liver architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "granulomas",
+        "hepatocyte injury",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "granulomas in liver",
+        "histopathology of liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:22+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 236,
+      "total_tokens": 821
+    }
+  },
+  "Case_02019/figure1.jpg": {
+    "case_id": "Case_02019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02019/figure1.jpg",
+    "source_caption": "Liver biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver biopsy showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows liver tissue with granulomatous inflammation. The granulomas are characterized by clusters of inflammatory cells, including epithelioid macrophages and lymphocytes, surrounding areas of necrosis. The tissue is stained with hematoxylin and eosin (H&E), highlighting cellular and structural details. The presence of granulomas suggests an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "clusters of epithelioid macrophages",
+        "lymphocytic infiltration",
+        "necrotic areas",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "granuloma",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "granulomatous inflammation",
+        "H&E stain of liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:27+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 246,
+      "total_tokens": 831
+    }
+  }
+}

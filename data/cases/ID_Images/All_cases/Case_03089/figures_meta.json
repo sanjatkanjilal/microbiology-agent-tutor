@@ -1,0 +1,44 @@
+{
+  "Case_03089/figure1.jpg": {
+    "case_id": "Case_03089",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03089/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "bilateral forearms and upper chest",
+      "short_caption": "Ulcerative skin lesions on the forearms and chest.",
+      "detailed_description": "This image shows multiple ulcerative skin lesions with irregular borders and erythematous bases on the bilateral forearms and upper chest. The lesions vary in size and appear to be at different stages of healing. The surrounding skin shows hyperpigmentation and scarring, suggesting chronicity. The arms are crossed over the chest, and the lesions are prominent on the extensor surfaces.",
+      "visible_findings": [
+        "multiple ulcerative skin lesions",
+        "erythematous bases",
+        "irregular lesion borders",
+        "hyperpigmentation and scarring of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesions",
+        "ulcers",
+        "forearms",
+        "chest",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "ulcerative lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  }
+}

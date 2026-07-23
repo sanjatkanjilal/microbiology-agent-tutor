@@ -1,0 +1,181 @@
+{
+  "Case_06014/figure1.jpg": {
+    "case_id": "Case_06014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06014/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:39:31+00:00"
+  },
+  "Case_06014/figure5.jpg": {
+    "case_id": "Case_06014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06014/figure5.jpg",
+    "source_caption": "Culture growth with lacto-phenol-cotton blue stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fungal elements stained with lacto-phenol-cotton blue.",
+      "detailed_description": "This image shows fungal hyphae and conidia stained with lacto-phenol-cotton blue, a stain commonly used to visualize fungal structures. The hyphae appear as elongated, branching structures, and the conidia are visible as rounded or oval structures along the hyphae. The blue coloration highlights the fungal elements against a pale background, aiding in their identification.",
+      "visible_findings": [
+        "branching hyphae",
+        "oval and rounded conidia",
+        "blue staining of fungal elements",
+        "pale background"
+      ],
+      "keywords": [
+        "lacto-phenol-cotton blue",
+        "fungal elements",
+        "hyphae",
+        "conidia",
+        "stain",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lacto-phenol-cotton blue",
+        "microscopy of fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:39+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 248,
+      "total_tokens": 844
+    }
+  },
+  "Case_06014/figure4.jpg": {
+    "case_id": "Case_06014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06014/figure4.jpg",
+    "source_caption": "Cultures of biopsy specimen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal cultures showing growth on solid and liquid media.",
+      "detailed_description": "The image shows three culture containers, including one slant tube and two liquid culture tubes, with visible fungal growth. The growth appears as white, cottony colonies typical of mold. The containers are labeled but have been redacted for de-identification. The setup suggests fungal culture from a clinical specimen, likely from a biopsy.",
+      "visible_findings": [
+        "white, cottony fungal growth",
+        "three culture containers",
+        "redacted labels on containers"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "biopsy specimen",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "biopsy specimen culture",
+        "microbiology lab"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:42+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 210,
+      "total_tokens": 798
+    }
+  },
+  "Case_06014/figure2.jpg": {
+    "case_id": "Case_06014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06014/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin, axillary region",
+      "short_caption": "Ulcerated lesion with surrounding erythema and induration in the axillary region.",
+      "detailed_description": "This clinical photograph shows an ulcerated lesion in the axillary region with irregular borders. The base of the ulcer appears red and granulating, with some areas of necrosis. Surrounding the lesion, there is significant erythema, induration, and a violaceous hue, suggesting inflammation or infection. There are also small crusted areas and possible drainage at the periphery.",
+      "visible_findings": [
+        "ulcerated lesion with irregular borders",
+        "red granulating base with necrosis",
+        "surrounding erythema and induration",
+        "violaceous discoloration around the lesion",
+        "small crusted areas at the periphery"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "axilla",
+        "erythema",
+        "infection",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected ulcer",
+        "axillary skin infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:39:45+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 266,
+      "total_tokens": 690
+    }
+  },
+  "Case_06014/figure3.jpg": {
+    "case_id": "Case_06014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06014/figure3.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "unspecified tissue",
+      "short_caption": "Histopathology showing fungal elements with surrounding inflammation.",
+      "detailed_description": "This histopathology image, stained with H&E, shows a round fungal structure with a thick wall and central clearing, suggestive of a spherule. It is surrounded by inflammatory cells, including neutrophils and possibly macrophages. The background tissue appears disorganized, with evidence of cellular debris and inflammation. The fungal morphology is consistent with a pathogenic fungus, potentially a dimorphic species.",
+      "visible_findings": [
+        "round fungal structure with thick wall",
+        "central clearing in fungal element",
+        "surrounding inflammatory cells",
+        "disorganized tissue background"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "h and e stain",
+        "inflammation",
+        "spherule"
+      ],
+      "reveal_triggers": [
+        "h and e stain",
+        "fungal histopathology",
+        "biopsy of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:48+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 241,
+      "total_tokens": 830
+    }
+  }
+}

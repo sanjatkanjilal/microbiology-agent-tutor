@@ -1,0 +1,84 @@
+{
+  "Case_13005/figure1.jpg": {
+    "case_id": "Case_13005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13005/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Close-up image of a bed bug.",
+      "detailed_description": "This is a close-up photograph of an adult bed bug, showing its oval, reddish-brown body and segmented legs. The insect is positioned against a light-colored background, making its features, including the head and antennae, clearly visible. The image highlights the characteristic flattened body shape of the bed bug, which is a common ectoparasite associated with human dwellings.",
+      "visible_findings": [
+        "oval, reddish-brown body",
+        "segmented legs",
+        "antennae visible",
+        "flattened body shape"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "bed bug",
+        "ectoparasite",
+        "insect",
+        "infestation"
+      ],
+      "reveal_triggers": [
+        "bed bug",
+        "ectoparasite",
+        "insect infestation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:54+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 220,
+      "total_tokens": 788
+    }
+  },
+  "Case_13005/figure2.jpg": {
+    "case_id": "Case_13005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13005/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Close-up image of an adult bed bug on a white surface.",
+      "detailed_description": "This is a close-up photograph of an adult bed bug (Cimex species) on a white background. The insect has a reddish-brown, oval-shaped body with visible segmentation and six legs. Its body appears dorsoventrally flattened, a characteristic feature of bed bugs. The image is slightly out of focus but clearly depicts the general morphology of the insect.",
+      "visible_findings": [
+        "reddish-brown oval body",
+        "six legs",
+        "dorsoventrally flattened body",
+        "segmented appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "bed bug",
+        "insect",
+        "parasite",
+        "infestation"
+      ],
+      "reveal_triggers": [
+        "bed bug",
+        "insect infestation",
+        "parasite identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  }
+}

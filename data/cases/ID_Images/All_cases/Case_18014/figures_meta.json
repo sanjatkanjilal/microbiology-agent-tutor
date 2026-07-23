@@ -1,0 +1,213 @@
+{
+  "Case_18014/figure3.jpg": {
+    "case_id": "Case_18014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18014/figure3.jpg",
+    "source_caption": "Figure 3: Cloud-shaped lesions expanding outward with central clearing on torso",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso",
+      "short_caption": "Annular erythematous lesions with central clearing on the torso.",
+      "detailed_description": "This clinical photograph shows multiple annular, erythematous lesions on the torso. The lesions have well-defined, raised borders and central clearing, giving them a ring-like appearance. The distribution is irregular, and the lesions vary in size. The skin between the lesions appears unaffected. The findings are consistent with a dermatologic condition, possibly tinea corporis or another annular rash.",
+      "visible_findings": [
+        "annular erythematous lesions",
+        "central clearing",
+        "raised borders",
+        "irregular distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "torso",
+        "annular lesions",
+        "erythema",
+        "central clearing",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "annular rash",
+        "tinea corporis",
+        "ringworm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:37+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 235,
+      "total_tokens": 832
+    }
+  },
+  "Case_18014/figure5.jpg": {
+    "case_id": "Case_18014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18014/figure5.jpg",
+    "source_caption": "Localized swelling and erythema of left middle finger from previous splinter",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left middle finger",
+      "short_caption": "Localized swelling and erythema of the left middle finger.",
+      "detailed_description": "This clinical photograph shows the palmar aspect of a left hand with localized swelling and erythema involving the middle finger. The erythema is most prominent near the distal phalanx, and there is mild swelling. The surrounding skin appears intact without obvious ulceration or drainage. The findings are consistent with localized inflammation, possibly from a prior injury such as a splinter.",
+      "visible_findings": [
+        "localized erythema on the left middle finger",
+        "mild swelling of the distal phalanx",
+        "intact surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "erythema",
+        "swelling",
+        "localized inflammation"
+      ],
+      "reveal_triggers": [
+        "finger swelling",
+        "localized erythema",
+        "hand injury"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:41+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 227,
+      "total_tokens": 825
+    }
+  },
+  "Case_18014/figure2.jpg": {
+    "case_id": "Case_18014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18014/figure2.jpg",
+    "source_caption": "Rhomboid and target shaped lesions on the torso",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso",
+      "short_caption": "Erythematous annular lesions with central clearing on the torso.",
+      "detailed_description": "This clinical photograph shows multiple erythematous annular lesions with central clearing distributed across the torso. The lesions vary in size and have well-demarcated borders. The pattern is consistent with a target-like or ring-shaped appearance. The skin surrounding the lesions appears otherwise normal without significant erythema or scaling.",
+      "visible_findings": [
+        "multiple annular lesions",
+        "erythematous borders",
+        "central clearing",
+        "well-demarcated edges"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "torso",
+        "erythematous lesions",
+        "annular lesions",
+        "target lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "annular lesions",
+        "target lesions on torso"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:41+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 223,
+      "total_tokens": 816
+    }
+  },
+  "Case_18014/figure4.jpg": {
+    "case_id": "Case_18014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18014/figure4.jpg",
+    "source_caption": "Rhomboid and bubble-shaped lesions on legs",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "legs",
+      "short_caption": "Rhomboid and ring-shaped erythematous lesions with ecchymosis on the legs.",
+      "detailed_description": "This image shows both legs of a patient with multiple erythematous, ring-shaped, and rhomboid lesions. The lesions are dark red to purple, some with central clearing, and are distributed on the anterior and lateral aspects of the legs. There is associated ecchymosis and discoloration, particularly on the left leg. The lesions appear well-demarcated, and some have a targetoid appearance. The background skin shows no significant erythema or swelling.",
+      "visible_findings": [
+        "rhomboid-shaped erythematous lesions",
+        "ring-shaped lesions with central clearing",
+        "ecchymosis and discoloration",
+        "bilateral involvement of the legs"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "legs",
+        "erythematous lesions",
+        "rhomboid lesions",
+        "ring-shaped lesions",
+        "ecchymosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lesions on legs",
+        "rhomboid lesions",
+        "ring-shaped lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:42+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 284,
+      "total_tokens": 876
+    }
+  },
+  "Case_18014/figure1.jpg": {
+    "case_id": "Case_18014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18014/figure1.jpg",
+    "source_caption": "Early erythematous annular plaques on arms and back",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back and upper arm",
+      "short_caption": "Erythematous annular plaques on the back and upper arm.",
+      "detailed_description": "This image shows multiple erythematous annular plaques distributed on the back and upper arm. The lesions are well-demarcated, with some showing central clearing and peripheral erythema. The plaques vary in size and are scattered across the visible skin. The skin surrounding the lesions appears otherwise normal.",
+      "visible_findings": [
+        "multiple erythematous annular plaques",
+        "central clearing in some lesions",
+        "peripheral erythema",
+        "scattered distribution on back and upper arm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "arm",
+        "erythematous plaques",
+        "annular lesions",
+        "skin infection",
+        "rash"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "annular plaques"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:43+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 232,
+      "total_tokens": 827
+    }
+  }
+}

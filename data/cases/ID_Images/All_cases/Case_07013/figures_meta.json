@@ -1,0 +1,208 @@
+{
+  "Case_07013/figure1.jpg": {
+    "case_id": "Case_07013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07013/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT of the brain showing bilateral hypodense lesions in the basal ganglia.",
+      "detailed_description": "This axial non-contrast CT image of the brain demonstrates bilateral hypodense lesions in the basal ganglia region. The lesions are symmetric and appear darker than the surrounding brain parenchyma, consistent with areas of edema or infarction. The ventricles are mildly prominent, but no significant midline shift is noted. The findings may suggest a metabolic, toxic, or infectious process affecting the basal ganglia.",
+      "visible_findings": [
+        "bilateral hypodense lesions in the basal ganglia",
+        "symmetric appearance of lesions",
+        "mildly prominent ventricles",
+        "no significant midline shift"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "basal ganglia",
+        "hypodense lesions",
+        "infection",
+        "toxicity",
+        "metabolic disorder"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "basal ganglia lesions",
+        "hypodense brain lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 259,
+      "total_tokens": 827
+    }
+  },
+  "Case_07013/figure2.jpg": {
+    "case_id": "Case_07013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07013/figure2.jpg",
+    "source_caption": "Brain tissue at autopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing vasculitis and inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows brain tissue with a prominent blood vessel surrounded by inflammatory infiltrates. The vessel lumen contains red blood cells, and the surrounding tissue demonstrates significant cellular infiltration, consistent with vasculitis. The staining highlights cellular and vascular structures, suggesting an infectious or inflammatory process.",
+      "visible_findings": [
+        "blood vessel with red blood cells in the lumen",
+        "inflammatory infiltrates surrounding the vessel",
+        "disruption of normal brain parenchyma",
+        "features consistent with vasculitis"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "vasculitis",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain histology",
+        "vasculitis in brain",
+        "inflammatory infiltrates in brain tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:16+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 233,
+      "total_tokens": 821
+    }
+  },
+  "Case_07013/figure4.jpg": {
+    "case_id": "Case_07013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07013/figure4.jpg",
+    "source_caption": "Brain tissue with arrows showing amebic cysts.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing amebic cysts with arrows indicating key structures.",
+      "detailed_description": "This histopathology image shows brain tissue stained to highlight cellular and structural details. Multiple round structures consistent with amebic cysts are visible, marked by arrows. Surrounding tissue demonstrates inflammatory changes, including scattered nuclei and cellular debris. The stain provides contrast to differentiate the cysts from surrounding tissue, and red-stained areas may represent blood vessels or hemorrhage.",
+      "visible_findings": [
+        "round structures consistent with amebic cysts",
+        "arrows pointing to key cystic structures",
+        "inflammatory changes in surrounding tissue",
+        "red-stained areas suggestive of blood vessels or hemorrhage"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain tissue",
+        "amebic cysts",
+        "inflammation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "brain histopathology",
+        "amebic infection",
+        "cystic structures in brain tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:19+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 257,
+      "total_tokens": 850
+    }
+  },
+  "Case_07013/figure5.jpg": {
+    "case_id": "Case_07013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07013/figure5.jpg",
+    "source_caption": "GMS stain showing amebic cysts.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing fungal elements and possible amebic cysts.",
+      "detailed_description": "This is a Gomori methenamine silver (GMS) stain highlighting multiple darkly stained, round to oval structures consistent with fungal elements or cyst-like forms. The background is pale green, typical of GMS staining. Some filamentous structures resembling fungal hyphae are also visible. The image does not definitively confirm amebic cysts but suggests fungal involvement.",
+      "visible_findings": [
+        "darkly stained round to oval structures",
+        "filamentous structures resembling fungal hyphae",
+        "pale green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal elements",
+        "cysts",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "histopathology of cysts"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:30+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 238,
+      "total_tokens": 830
+    }
+  },
+  "Case_07013/figure3.jpg": {
+    "case_id": "Case_07013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07013/figure3.jpg",
+    "source_caption": "Brain tissue at autopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing inflammation and fungal elements.",
+      "detailed_description": "This histopathology image shows brain tissue with prominent inflammatory infiltrates, including numerous dark-staining nuclei suggestive of immune cells. Fungal elements, appearing as dark-staining, rounded or elongated structures, are visible within the tissue. Adjacent areas show hemorrhage with red blood cells. The image is stained with hematoxylin and eosin (H&E), highlighting cellular and fungal morphology.",
+      "visible_findings": [
+        "dark-staining fungal elements",
+        "inflammatory infiltrates with immune cells",
+        "hemorrhage with red blood cells",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "fungal infection",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain histopathology",
+        "fungal infection in brain",
+        "H&E stain of brain tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:31+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 244,
+      "total_tokens": 832
+    }
+  }
+}

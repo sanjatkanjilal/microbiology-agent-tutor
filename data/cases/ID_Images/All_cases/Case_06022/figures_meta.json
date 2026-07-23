@@ -1,0 +1,371 @@
+{
+  "Case_06022/figure4.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure4.jpg",
+    "source_caption": "Gomori-methenamine stain of the lung, 40 x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung",
+      "short_caption": "Gomori-methenamine silver stain of lung tissue at 40x magnification.",
+      "detailed_description": "This image shows lung tissue stained with Gomori-methenamine silver stain at 40x magnification. The stain highlights fungal elements, which appear as black or dark brown branching hyphae against a greenish background of tissue. The branching pattern and septation of the fungal hyphae are visible, consistent with a fungal infection. The surrounding tissue shows some cellular and structural detail, but the focus is on the fungal elements.",
+      "visible_findings": [
+        "black or dark brown branching fungal hyphae",
+        "greenish background tissue",
+        "septation visible in fungal hyphae"
+      ],
+      "keywords": [
+        "gomori-methenamine silver stain",
+        "lung",
+        "fungal infection",
+        "histopathology",
+        "hyphae"
+      ],
+      "reveal_triggers": [
+        "gomori-methenamine stain",
+        "lung histopathology",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:26+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 257,
+      "total_tokens": 856
+    }
+  },
+  "Case_06022/figure1.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "AP chest radiograph showing bilateral lung fields.",
+      "detailed_description": "This is an anteroposterior (AP) chest radiograph taken in a sitting position. The image shows both lung fields, the heart, and the diaphragm. The lung fields appear relatively clear, with no obvious consolidations, masses, or pleural effusions visible. The cardiac silhouette is within normal limits, and the diaphragm appears intact. The bony structures, including the ribs and clavicles, are visible and appear unremarkable.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "normal cardiac silhouette",
+        "intact diaphragm",
+        "unremarkable bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "AP view",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "AP chest radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:28+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_06022/figure2.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral lung fields with areas of abnormality. There are patchy, ground-glass opacities and consolidations visible in both lungs, more prominent in the right lung. The mediastinum and central airways appear unremarkable. The scan is in a lung window setting, optimizing visualization of parenchymal abnormalities.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidations, more prominent on the right",
+        "normal-appearing mediastinum",
+        "normal central airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection imaging",
+        "pulmonary findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 241,
+      "total_tokens": 829
+    }
+  },
+  "Case_06022/figure5.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure5.jpg",
+    "source_caption": "GMS stain of the lung, 100x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung",
+      "short_caption": "GMS stain of lung tissue at 100x magnification showing fungal elements.",
+      "detailed_description": "This image shows lung tissue stained with Gomori methenamine silver (GMS) stain at 100x magnification. The stain highlights fungal elements, which appear as dark, branching structures against a pale blue background. Cellular debris and tissue architecture are visible, with fungal organisms prominently stained. The technique is commonly used to identify fungal infections in histological samples.",
+      "visible_findings": [
+        "dark fungal elements highlighted by GMS stain",
+        "branching structures consistent with fungal morphology",
+        "pale blue background representing tissue matrix"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung",
+        "fungal infection",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection in lung",
+        "histopathology of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:30+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 234,
+      "total_tokens": 829
+    }
+  },
+  "Case_06022/figure8.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure8.jpg",
+    "source_caption": "Gram stain of the aspirate, 100 x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching filamentous structures at 100x magnification.",
+      "detailed_description": "This gram stain image, viewed at 100x magnification, reveals branching filamentous structures stained purple, consistent with gram-positive organisms. The morphology suggests filamentous bacteria, potentially Actinomyces or Nocardia species. The background is relatively clear, with no significant cellular debris visible.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "purple staining consistent with gram-positive organisms",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching filaments",
+        "infectious diseases",
+        "bacteria",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "branching gram-positive bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:32+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 228,
+      "total_tokens": 823
+    }
+  },
+  "Case_06022/figure6.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure6.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Sagittal MRI showing a ring-enhancing lesion in the brain.",
+      "detailed_description": "This sagittal MRI of the brain demonstrates a well-defined, ring-enhancing lesion in the right hemisphere, suggestive of an abscess or other infectious or neoplastic process. The lesion is surrounded by hypointense edema, and there is mild mass effect on adjacent structures. The image appears to be post-contrast, as the enhancement of the lesion's rim is clearly visible.",
+      "visible_findings": [
+        "ring-enhancing lesion in the brain",
+        "surrounding hypointense edema",
+        "mild mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "infection",
+        "abscess",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:34+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_06022/figure7.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure7.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing a ring-enhancing lesion in the left hemisphere.",
+      "detailed_description": "This axial T1-weighted MRI scan with contrast shows a prominent ring-enhancing lesion in the left hemisphere, suggestive of an abscess or other focal pathology. Surrounding edema is visible as a hyperintense area, and there is mild midline shift to the right. The lesion's well-defined ring enhancement indicates a likely infectious or neoplastic etiology.",
+      "visible_findings": [
+        "ring-enhancing lesion in the left hemisphere",
+        "surrounding hyperintense edema",
+        "mild midline shift to the right"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "abscess",
+        "edema",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 235,
+      "total_tokens": 823
+    }
+  },
+  "Case_06022/figure3.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure3.jpg",
+    "source_caption": "Hematoxylin and eosin stain of the lung, 40 x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Hematoxylin and eosin stain of lung tissue showing fungal hyphae, 40x magnification.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E) at 40x magnification. The tissue contains numerous inflammatory cells and a prominent fungal hypha, characterized by septation and branching at acute angles. The surrounding tissue appears inflamed, with evidence of cellular infiltration and damage.",
+      "visible_findings": [
+        "fungal hyphae with septation",
+        "acute angle branching",
+        "inflammatory cell infiltration",
+        "damaged lung parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "fungal infection",
+        "H&E stain",
+        "hyphae"
+      ],
+      "reveal_triggers": [
+        "H&E stain of lung",
+        "fungal infection histology",
+        "lung histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:35+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 241,
+      "total_tokens": 842
+    }
+  },
+  "Case_06022/figure9.jpg": {
+    "case_id": "Case_06022",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06022/figure9.jpg",
+    "source_caption": "Follow-up MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing orbital and intracranial structures.",
+      "detailed_description": "This axial MRI image of the brain demonstrates the orbital cavities and intracranial structures. The image is likely a T1-weighted post-contrast sequence, as evidenced by the enhancement of soft tissues and vascular structures. The optic nerves and globes are clearly visible, and there is no obvious mass effect or midline shift. The ventricles appear symmetric, and there is no overt evidence of acute pathology such as hemorrhage or abscess.",
+      "visible_findings": [
+        "clear visualization of orbital cavities",
+        "symmetric ventricles",
+        "no midline shift",
+        "no obvious mass effect",
+        "enhancement of soft tissues and vascular structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "orbit",
+        "axial",
+        "contrast",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "neuroimaging",
+        "orbital structures"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:35+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 253,
+      "total_tokens": 843
+    }
+  }
+}

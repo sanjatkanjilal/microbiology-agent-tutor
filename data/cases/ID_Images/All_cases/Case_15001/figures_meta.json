@@ -1,0 +1,179 @@
+{
+  "Case_15001/figure1.jpg": {
+    "case_id": "Case_15001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15001/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:57:45+00:00"
+  },
+  "Case_15001/figure3.jpg": {
+    "case_id": "Case_15001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15001/figure3.jpg",
+    "source_caption": "Giemsa stain of skin biopsy (100x magnification).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Giemsa stain of skin biopsy showing inflammatory infiltrate.",
+      "detailed_description": "This is a Giemsa-stained section of a skin biopsy at 100x magnification. The image shows a dense inflammatory infiltrate composed of numerous small, round, darkly stained cells, consistent with lymphocytes, interspersed with larger cells that may represent macrophages or other immune cells. The background is lightly stained pink, indicating the extracellular matrix or connective tissue. The staining highlights cellular details, aiding in the identification of potential infectious or inflammatory processes.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "small, round, darkly stained cells (lymphocytes)",
+        "larger cells interspersed (possible macrophages)",
+        "pink-stained extracellular matrix"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "skin biopsy",
+        "inflammatory infiltrate",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "skin biopsy",
+        "histopathology of skin",
+        "inflammatory cells in skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:50+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 271,
+      "total_tokens": 866
+    }
+  },
+  "Case_15001/figure2.jpg": {
+    "case_id": "Case_15001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15001/figure2.jpg",
+    "source_caption": "Hematoxylin and eosin stain of skin biopsy (100x magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Hematoxylin and eosin stain of skin biopsy at 100x magnification.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of a skin biopsy at 100x magnification. The field contains numerous inflammatory cells, including lymphocytes and histiocytes, with some areas showing multinucleated giant cells. The background appears to have a mix of dermal connective tissue and cellular infiltrates. No clear organisms are visible, but the inflammatory pattern suggests an infectious or granulomatous process.",
+      "visible_findings": [
+        "inflammatory infiltrate with lymphocytes and histiocytes",
+        "multinucleated giant cells",
+        "dermal connective tissue background"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "granuloma"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:56+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 253,
+      "total_tokens": 853
+    }
+  },
+  "Case_15001/figure4.jpg": {
+    "case_id": "Case_15001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15001/figure4.jpg",
+    "source_caption": "Follow-up 14 days after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdominal wall",
+      "short_caption": "Healing ulceration on the abdominal wall, 14 days post-treatment.",
+      "detailed_description": "This clinical photograph shows a large, irregularly shaped ulceration on the abdominal wall. The lesion has a red, granulating base with some areas of fibrinous exudate and surrounding erythema. There are no visible signs of purulent discharge, but mild crusting is present at the edges. The surrounding skin appears mildly inflamed, consistent with healing tissue.",
+      "visible_findings": [
+        "large ulceration with granulating tissue",
+        "irregular lesion borders",
+        "surrounding erythema",
+        "absence of purulent discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdominal wall",
+        "ulcer",
+        "granulation tissue",
+        "healing lesion"
+      ],
+      "reveal_triggers": [
+        "skin ulcer",
+        "abdominal wound",
+        "infectious disease follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:59+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_15001/figure5.jpg": {
+    "case_id": "Case_15001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15001/figure5.jpg",
+    "source_caption": "Follow-up 6 weeks after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "inguinal region",
+      "short_caption": "Erythematous, scaly plaque in the inguinal region, 6 weeks post-treatment.",
+      "detailed_description": "This clinical photograph shows an erythematous, scaly, and irregularly bordered plaque located in the inguinal region. The lesion appears to have areas of superficial desquamation and mild crusting. Surrounding skin shows no significant erythema or edema. The lesion's appearance suggests partial resolution or ongoing inflammation, consistent with follow-up after treatment.",
+      "visible_findings": [
+        "erythematous plaque",
+        "scaly surface",
+        "irregular borders",
+        "mild crusting",
+        "inguinal location"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "inguinal region",
+        "erythematous plaque",
+        "scaling",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "inguinal rash",
+        "follow-up treatment"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:01+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  }
+}

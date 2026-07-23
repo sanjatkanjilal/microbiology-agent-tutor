@@ -1,0 +1,252 @@
+{
+  "Case_11004/figure1.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure1.jpg",
+    "source_caption": "Bronchoscopic findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "tracheobronchial tree",
+      "short_caption": "Bronchoscopic view showing mucosal irregularities and exudates.",
+      "detailed_description": "This bronchoscopic image shows the lumen of the tracheobronchial tree with visible mucosal irregularities and whitish exudates along the walls. The mucosa appears erythematous and inflamed, with some areas of thickened secretions or plaques. The findings suggest an infectious or inflammatory process affecting the airway.",
+      "visible_findings": [
+        "mucosal erythema",
+        "whitish exudates or plaques",
+        "irregular mucosal surface",
+        "airway lumen visible"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchoscopy",
+        "airway",
+        "infection",
+        "inflammation",
+        "mucosal changes"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "airway infection",
+        "tracheal inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:25+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 237,
+      "total_tokens": 824
+    }
+  },
+  "Case_11004/figure2.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure2.jpg",
+    "source_caption": "Bronchoscopic findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "bronchi",
+      "short_caption": "Bronchoscopic view showing mucosal abnormalities in the bronchi.",
+      "detailed_description": "This bronchoscopic image shows the interior of the bronchi. The mucosa appears erythematous and irregular, with visible white plaques or lesions on the surface. The airway lumen is patent, and the bifurcation of the bronchi is visible. These findings may suggest an infectious or inflammatory process affecting the bronchial mucosa.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "white plaques or lesions",
+        "patent airway lumen",
+        "bronchial bifurcation visible"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchi",
+        "mucosal lesions",
+        "bronchoscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "airway lesions",
+        "bronchial mucosa"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:28+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 228,
+      "total_tokens": 815
+    }
+  },
+  "Case_11004/figure3.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure3.jpg",
+    "source_caption": "Histopathology of endobronchial biopsy showing mycetoma.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung (endobronchial tissue)",
+      "short_caption": "Histopathology of endobronchial biopsy showing fungal mycetoma.",
+      "detailed_description": "This histopathology image shows a round, dense fungal structure with concentric layers, consistent with a fungal mycetoma. The central core appears denser, surrounded by radiating filaments. The tissue is stained with a periodic acid-Schiff (PAS) or similar fungal stain, highlighting fungal elements in pink and purple hues. The surrounding tissue shows minimal inflammatory response, suggesting colonization rather than invasive infection.",
+      "visible_findings": [
+        "round fungal structure with concentric layers",
+        "central dense core with radiating filaments",
+        "pink and purple staining of fungal elements",
+        "minimal surrounding inflammatory response"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "endobronchial biopsy",
+        "fungal mycetoma",
+        "PAS stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "histopathology of lung",
+        "fungal mycetoma",
+        "endobronchial biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:29+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 271,
+      "total_tokens": 868
+    }
+  },
+  "Case_11004/figure4.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure4.jpg",
+    "source_caption": "Histopathology showing hyphal elements.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing septate hyphae with branching.",
+      "detailed_description": "This histopathology image shows fungal hyphal elements with septation and acute-angle branching. The hyphae are stained with a periodic acid-Schiff (PAS) stain, highlighting their structure in pink against a lighter background. Cellular debris and inflammatory cells are visible in the surrounding tissue. The morphology is consistent with a fungal infection, likely from a septate hyphal organism.",
+      "visible_findings": [
+        "septate hyphae",
+        "acute-angle branching",
+        "pink-stained fungal elements",
+        "inflammatory cells",
+        "periodic acid-Schiff (PAS) stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "septate hyphae",
+        "PAS stain",
+        "branching hyphae"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "fungal infection",
+        "hyphal elements",
+        "PAS stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:31+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_11004/figure5.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure5.jpg",
+    "source_caption": "Histopathology with cytoplasmic inclusions.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver (likely)",
+      "short_caption": "Histopathology showing cytoplasmic inclusions in hepatocytes.",
+      "detailed_description": "This histopathology image shows a section of tissue stained with hematoxylin and eosin (H&E). The field contains numerous cells with prominent cytoplasmic inclusions, some of which appear eosinophilic. The background tissue architecture suggests a hepatic origin, with scattered inflammatory cells and areas of cellular degeneration. The inclusions are consistent with viral cytopathic effects or intracellular accumulation of material.",
+      "visible_findings": [
+        "cytoplasmic inclusions in cells",
+        "eosinophilic staining of inclusions",
+        "scattered inflammatory cells",
+        "background tissue degeneration"
+      ],
+      "keywords": [
+        "histopathology",
+        "cytoplasmic inclusions",
+        "liver",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "cytoplasmic inclusions",
+        "H&E stain of liver tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:34+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 253,
+      "total_tokens": 845
+    }
+  },
+  "Case_11004/figure6.jpg": {
+    "case_id": "Case_11004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11004/figure6.jpg",
+    "source_caption": "Fungal culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae and conidia.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained with lactophenol cotton blue. The fungal structures include septate hyphae and round conidia, with prominent spore-bearing structures (conidiophores). The stain highlights the fungal morphology in blue against a lighter background, aiding in identification. The image is likely from a culture preparation.",
+      "visible_findings": [
+        "septate hyphae",
+        "round conidia",
+        "spore-bearing structures (conidiophores)",
+        "blue staining of fungal elements"
+      ],
+      "keywords": [
+        "stain",
+        "fungal culture",
+        "hyphae",
+        "conidia",
+        "lactophenol cotton blue"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "microscopic fungal morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:39+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 236,
+      "total_tokens": 822
+    }
+  }
+}

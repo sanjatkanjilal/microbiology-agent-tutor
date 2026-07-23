@@ -1,0 +1,129 @@
+{
+  "Case_03013/figure2.jpg": {
+    "case_id": "Case_03013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03013/figure2.jpg",
+    "source_caption": "Hematoxylin and eosin stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Periodic acid-Schiff (PAS) stain showing fungal hyphae in tissue.",
+      "detailed_description": "This histopathology image demonstrates fungal hyphae highlighted by a Periodic acid-Schiff (PAS) stain. The hyphae are branching and septate, with a characteristic pink-magenta color against a lighter background. The stain enhances the polysaccharide components of the fungal cell walls, making them prominent. The tissue architecture is partially preserved, and there is no clear indication of the specific anatomical site.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate hyphae",
+        "pink-magenta staining of fungal elements",
+        "lighter background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "PAS stain",
+        "hyphae",
+        "branching",
+        "septate"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "PAS stain",
+        "histopathology of fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:36+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 249,
+      "total_tokens": 843
+    }
+  },
+  "Case_03013/figure1.jpg": {
+    "case_id": "Case_03013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03013/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing a cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a large cavitary lesion in the right lung, with thickened walls and surrounding consolidation. The left lung appears relatively normal. The mediastinum is midline, and no significant pleural effusion is visible. The findings are suggestive of a necrotizing infection or abscess.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "thickened cavity walls",
+        "surrounding consolidation",
+        "normal left lung",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "abscess",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:42+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 230,
+      "total_tokens": 816
+    }
+  },
+  "Case_03013/figure3.jpg": {
+    "case_id": "Case_03013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03013/figure3.jpg",
+    "source_caption": "Cytopathology (Gomori silver stain) of the biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Gomori methenamine silver stain showing fungal hyphae.",
+      "detailed_description": "This image shows a Gomori methenamine silver stain of a biopsy specimen. The stain highlights numerous branching fungal hyphae, which appear as black or dark brown structures against a lighter background. The hyphae exhibit septation and branching at acute angles, characteristic of certain fungal organisms. The staining technique is commonly used to identify fungal elements in tissue samples.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "dark staining of fungal structures",
+        "septation in hyphae",
+        "acute angle branching"
+      ],
+      "keywords": [
+        "gomori silver stain",
+        "fungal hyphae",
+        "biopsy",
+        "infectious diseases",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "gomori silver stain",
+        "fungal biopsy",
+        "fungal hyphae in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:44+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 238,
+      "total_tokens": 834
+    }
+  }
+}

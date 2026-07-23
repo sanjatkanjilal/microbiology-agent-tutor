@@ -1,0 +1,124 @@
+{
+  "Case_18005/figure1.jpg": {
+    "case_id": "Case_18005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18005/figure1.jpg",
+    "source_caption": "Right medial thigh nodule.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right medial thigh",
+      "short_caption": "Erythematous nodule with central ulceration on the right medial thigh.",
+      "detailed_description": "The image shows a close-up view of the right medial thigh with a single erythematous nodule. The lesion has a central ulceration or punctum, surrounded by mild erythema. The skin texture appears intact except for the lesion, and there is no visible discharge or crusting. An arrow points directly to the lesion for emphasis.",
+      "visible_findings": [
+        "erythematous nodule",
+        "central ulceration or punctum",
+        "surrounding mild erythema",
+        "arrow pointing to the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "thigh",
+        "nodule",
+        "ulceration",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "thigh nodule",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:31+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 255,
+      "total_tokens": 843
+    }
+  },
+  "Case_18005/figure3.jpg": {
+    "case_id": "Case_18005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18005/figure3.jpg",
+    "source_caption": "Warthin Starry Stain of right inguinal lymph node (40x) showing black rod-shaped organisms (arrows)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "right inguinal lymph node",
+      "short_caption": "Warthin-Starry stain of lymph node showing black rod-shaped organisms.",
+      "detailed_description": "This image is a Warthin-Starry stain of a lymph node section at 40x magnification. The tissue shows a background of tan to light brown staining with scattered black rod-shaped organisms, highlighted by arrows. The organisms are consistent with bacterial morphology, and the stain is specific for identifying certain pathogens such as Bartonella species. The lymph node architecture is partially visible, with some cellular and stromal components.",
+      "visible_findings": [
+        "black rod-shaped organisms",
+        "tan to light brown background staining",
+        "arrows indicating specific organisms"
+      ],
+      "keywords": [
+        "warthin-starry stain",
+        "lymph node",
+        "infectious organisms",
+        "bacteria",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "warthin-starry stain",
+        "lymph node biopsy",
+        "infectious histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:37+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 248,
+      "total_tokens": 857
+    }
+  },
+  "Case_18005/figure2.jpg": {
+    "case_id": "Case_18005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18005/figure2.jpg",
+    "source_caption": "H&E stain of right inguinal lymph node biopsy (10x) showing suppurative granulomas (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "right inguinal lymph node",
+      "short_caption": "H&E stain of lymph node biopsy showing suppurative granulomas.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of a lymph node biopsy at 10x magnification. The tissue demonstrates areas of suppurative granulomas, indicated by the arrows, characterized by central necrosis surrounded by inflammatory cells. The granulomas are well-formed, with a mix of neutrophils and mononuclear cells. The overall architecture of the lymph node is disrupted.",
+      "visible_findings": [
+        "suppurative granulomas with central necrosis",
+        "inflammatory cell infiltrate",
+        "disrupted lymph node architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "granuloma",
+        "H&E stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "granuloma histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:37+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 253,
+      "total_tokens": 860
+    }
+  }
+}

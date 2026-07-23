@@ -1,0 +1,165 @@
+{
+  "Case_13010/figure2.jpg": {
+    "case_id": "Case_13010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13010/figure2.jpg",
+    "source_caption": "Rash on legs.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "legs",
+      "short_caption": "Erythematous maculopapular rash on the legs.",
+      "detailed_description": "This clinical photograph shows the lower legs of a patient with a diffuse erythematous maculopapular rash. The rash is evenly distributed and involves both legs symmetrically. The skin appears otherwise intact without evidence of ulceration, vesicles, or purpura. The image is taken in a clinical setting with the patient lying down, and a blue drape is partially visible.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "symmetric distribution",
+        "no visible ulceration or vesicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "legs",
+        "rash",
+        "maculopapular",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "rash on legs",
+        "maculopapular rash",
+        "skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:12+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 235,
+      "total_tokens": 821
+    }
+  },
+  "Case_13010/figure1.jpg": {
+    "case_id": "Case_13010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13010/figure1.jpg",
+    "source_caption": "Rash on torso.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso",
+      "short_caption": "Diffuse maculopapular rash on the torso.",
+      "detailed_description": "This clinical photograph shows the anterior torso of a patient with a diffuse maculopapular rash. The rash consists of numerous small, red macules and papules distributed across the chest and upper abdomen. Electrocardiogram (ECG) leads and a blood pressure cuff are visible, suggesting the patient is being monitored in a clinical setting. The rash appears non-vesicular and non-confluent, with no visible signs of ulceration or crusting.",
+      "visible_findings": [
+        "diffuse maculopapular rash",
+        "red macules and papules",
+        "ECG leads and blood pressure cuff"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "torso",
+        "maculopapular",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on torso",
+        "maculopapular rash",
+        "skin findings"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:12+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 247,
+      "total_tokens": 833
+    }
+  },
+  "Case_13010/figure3.jpg": {
+    "case_id": "Case_13010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13010/figure3.jpg",
+    "source_caption": "MRI of the brain, T1 gadolinium-enhanced view.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain, T1 gadolinium-enhanced axial view.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain with gadolinium contrast enhancement. The image shows symmetric enhancement of the meninges along the convexities, suggestive of meningeal inflammation or enhancement. The ventricles appear normal in size, and no focal mass lesions are evident. The gadolinium contrast highlights the vascular and meningeal structures.",
+      "visible_findings": [
+        "meningeal enhancement along the convexities",
+        "normal ventricular size",
+        "no focal mass lesions"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1",
+        "gadolinium",
+        "meningeal enhancement",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1 gadolinium",
+        "meningeal enhancement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:13+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 230,
+      "total_tokens": 826
+    }
+  },
+  "Case_13010/figure4.jpg": {
+    "case_id": "Case_13010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13010/figure4.jpg",
+    "source_caption": "MRI of the brain, FLAIR view.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain, FLAIR sequence showing cortical and subcortical abnormalities.",
+      "detailed_description": "This is an axial FLAIR MRI image of the brain. The image demonstrates hyperintense signal abnormalities in the cortical and subcortical regions, particularly in the bilateral frontal lobes. The sulci are well-defined, and there is no evidence of midline shift. The findings may suggest inflammation, infection, or other pathological processes affecting the brain parenchyma.",
+      "visible_findings": [
+        "hyperintense signal in cortical and subcortical regions",
+        "bilateral frontal lobe involvement",
+        "no midline shift",
+        "well-defined sulci"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintense",
+        "cortical abnormalities",
+        "subcortical abnormalities"
+      ],
+      "reveal_triggers": [
+        "brain MRI",
+        "FLAIR sequence",
+        "neurological imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:16+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 247,
+      "total_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Case_04037/figure1.jpg": {
+    "case_id": "Case_04037",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04037/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and scalp",
+      "short_caption": "Scaly, hyperpigmented plaques on the face and scalp.",
+      "detailed_description": "This clinical photograph shows the right side of a patient's face and scalp. There are irregular, scaly, hyperpigmented plaques extending from the scalp to the cheek. The lesions appear dry and well-demarcated, with some areas of scaling more prominent along the edges. The ear and surrounding skin are also visible but appear unaffected.",
+      "visible_findings": [
+        "scaly plaques",
+        "hyperpigmentation",
+        "well-demarcated lesions",
+        "involvement of face and scalp"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "scalp",
+        "scaly plaques",
+        "hyperpigmentation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "scalp lesions",
+        "facial plaques"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:07+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 224,
+      "total_tokens": 792
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "Case_09018/figure2.jpg": {
+    "case_id": "Case_09018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09018/figure2.jpg",
+    "source_caption": "Culture growth of aspirate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Blood agar plate showing bacterial colony growth.",
+      "detailed_description": "This image shows a blood agar plate with bacterial colony growth. The colonies are medium to large, with a shiny, mucoid appearance and irregular edges. The red background indicates the use of blood agar, which is commonly used to culture bacteria from clinical specimens. The colonies appear to be concentrated in streaked areas, suggesting isolation via streak plate technique.",
+      "visible_findings": [
+        "blood agar plate",
+        "bacterial colonies with shiny, mucoid appearance",
+        "irregular colony edges",
+        "streak plate technique evident"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "bacterial growth",
+        "blood agar culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:03+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 220,
+      "total_tokens": 808
+    }
+  },
+  "Case_09018/figure3.jpg": {
+    "case_id": "Case_09018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09018/figure3.jpg",
+    "source_caption": "Culture growth of aspirate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Blood agar plate showing bacterial colony growth.",
+      "detailed_description": "This image shows a blood agar plate with bacterial colonies growing on its surface. The colonies appear grayish and raised, with some clustering visible. A green inoculation loop is seen in the process of streaking or sampling the plate. The red color of the medium indicates it is blood agar, commonly used for culturing bacteria from clinical specimens.",
+      "visible_findings": [
+        "blood agar plate with red medium",
+        "grayish, raised bacterial colonies",
+        "green inoculation loop in use"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture growth",
+        "bacterial culture",
+        "blood agar plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 212,
+      "total_tokens": 800
+    }
+  },
+  "Case_09018/figure1.jpg": {
+    "case_id": "Case_09018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09018/figure1.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing a large, septated cystic lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen reveals a large, well-defined, septated cystic lesion occupying a significant portion of the liver. The lesion demonstrates multiple internal septations and appears to displace surrounding liver parenchyma. No obvious calcifications or solid components are visible within the lesion. The adjacent abdominal structures appear unremarkable in this image.",
+      "visible_findings": [
+        "large cystic lesion in the liver",
+        "internal septations within the lesion",
+        "displacement of surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "cystic lesion",
+        "septations"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "liver cyst",
+        "hepatic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:12+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 228,
+      "total_tokens": 815
+    }
+  }
+}

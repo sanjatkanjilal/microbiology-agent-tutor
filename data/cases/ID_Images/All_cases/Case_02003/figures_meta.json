@@ -1,0 +1,293 @@
+{
+  "Case_02003/figure4.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure4.jpg",
+    "source_caption": "Biopsy findings.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This histopathology image shows a high-power view of tissue stained with hematoxylin and eosin (H&E). It reveals granulomatous inflammation characterized by clusters of epithelioid histiocytes and multinucleated giant cells. Surrounding the granulomas are numerous lymphocytes and scattered areas of necrosis. The pink extracellular material and cellular arrangement suggest a chronic inflammatory process.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "lymphocytic infiltrate",
+        "scattered necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "giant cells",
+        "chronic inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "biopsy findings",
+        "granulomatous inflammation",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:52+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  },
+  "Case_02003/figure3.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure3.jpg",
+    "source_caption": "Biopsy findings.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin biopsy showing epidermal hyperplasia and inflammatory infiltrate.",
+      "detailed_description": "This histopathology image shows a section of skin with notable epidermal hyperplasia, characterized by elongated rete ridges. The dermis contains a dense inflammatory infiltrate, predominantly composed of lymphocytes and plasma cells, with some areas of vascular dilation and extravasation of red blood cells. The overlying epidermis appears intact, with no evidence of ulceration. The stain used is hematoxylin and eosin (H&E), providing clear visualization of cellular and tissue structures.",
+      "visible_findings": [
+        "epidermal hyperplasia with elongated rete ridges",
+        "dense dermal inflammatory infiltrate",
+        "vascular dilation in the dermis",
+        "extravasation of red blood cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "epidermal hyperplasia",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "epidermal hyperplasia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:54+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 273,
+      "total_tokens": 859
+    }
+  },
+  "Case_02003/figure5.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure5.jpg",
+    "source_caption": "CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT of the pelvis showing soft tissue and bony structures.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates soft tissue structures, including muscles and fat planes, as well as bony structures such as the pelvic bones. There is no contrast enhancement visible, suggesting a non-contrast study. The image appears symmetric, and no obvious abnormalities such as masses, fluid collections, or fractures are immediately apparent.",
+      "visible_findings": [
+        "axial view of the pelvis",
+        "soft tissue structures visible",
+        "bony structures of the pelvis visible",
+        "no contrast enhancement",
+        "no obvious abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "axial view",
+        "soft tissue",
+        "bony structures",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "pelvic CT",
+        "axial pelvis scan",
+        "non-contrast CT of pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:55+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 236,
+      "total_tokens": 821
+    }
+  },
+  "Case_02003/figure1.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Erythematous patches with irregular borders on the lower leg.",
+      "detailed_description": "This clinical photograph shows a lower leg with two erythematous patches of irregular shape and poorly defined borders. The lesions appear slightly raised and are surrounded by normal skin. The background shows a white sheet, suggesting the patient is lying down during the examination. The lesions are consistent with a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous patches",
+        "irregular borders",
+        "slightly raised lesions",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "erythematous patches",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on leg",
+        "erythematous skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  },
+  "Case_02003/figure2.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "inguinal region",
+      "short_caption": "Ulcerative and pustular lesions in the inguinal region.",
+      "detailed_description": "This clinical photograph shows the inguinal region with multiple erythematous pustules and two prominent ulcerative lesions with raised, crusted borders. The surrounding skin appears inflamed, with scattered smaller pustules and erythematous papules. The lesions suggest an infectious or inflammatory process, possibly involving bacterial or sexually transmitted pathogens.",
+      "visible_findings": [
+        "multiple erythematous pustules",
+        "two ulcerative lesions with raised, crusted borders",
+        "surrounding skin inflammation",
+        "scattered smaller pustules and papules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "inguinal region",
+        "ulcerative lesions",
+        "pustules",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "inguinal skin lesions",
+        "ulcerative pustules",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:00+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_02003/figure6.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure6.jpg",
+    "source_caption": "Pelvic CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial pelvic CT scan showing abnormalities in the pelvic region.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates multiple fluid-filled structures in the pelvic cavity, some of which appear to have thickened walls suggestive of abscesses or cystic lesions. The surrounding soft tissue shows evidence of inflammation or edema. Bony structures, including the pelvic bones and sacrum, appear intact. No intravenous contrast is evident in this image.",
+      "visible_findings": [
+        "fluid-filled structures in the pelvis",
+        "thickened walls of some structures",
+        "soft tissue inflammation or edema",
+        "intact pelvic bones and sacrum"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "abscess",
+        "cyst",
+        "inflammation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "pelvic CT",
+        "pelvic infection",
+        "abscess on CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:03+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 232,
+      "total_tokens": 819
+    }
+  },
+  "Case_02003/figure7.jpg": {
+    "case_id": "Case_02003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02003/figure7.jpg",
+    "source_caption": "Two month follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "inguinal region",
+      "short_caption": "Erythematous papules and hyperpigmented macules in the inguinal region.",
+      "detailed_description": "This clinical photograph shows the inguinal region with multiple erythematous papules and hyperpigmented macules. The lesions are scattered and vary in size, with some appearing to be resolving or post-inflammatory. The surrounding skin appears slightly erythematous, and there is no visible ulceration or active discharge. The findings suggest a dermatologic or infectious process, possibly with a history of prior inflammation.",
+      "visible_findings": [
+        "erythematous papules",
+        "hyperpigmented macules",
+        "scattered distribution",
+        "no visible ulceration or discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "inguinal region",
+        "erythematous papules",
+        "hyperpigmented macules",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "inguinal rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:03+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 252,
+      "total_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "Case_16009/figure2.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:59:36+00:00"
+  },
+  "Case_16009/figure7.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure7.jpg",
+    "source_caption": "Figure 7: Physical finding.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:59:39+00:00"
+  },
+  "Case_16009/figure5.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure5.jpg",
+    "source_caption": "Figure 5: Skin biopsy, GMS stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy stained with GMS showing fungal elements.",
+      "detailed_description": "This is a histopathological image of a skin biopsy stained with Gomori methenamine silver (GMS). The stain highlights fungal elements as black structures against a green background. The epidermis is visible at the top, with fungal elements distributed in the dermis below. The GMS stain is commonly used to identify fungal infections in tissue samples.",
+      "visible_findings": [
+        "epidermal layer at the top",
+        "green-stained dermis",
+        "black fungal elements highlighted by GMS stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "gms stain",
+        "fungal infection",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "gms stain",
+        "fungal histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:40+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 222,
+      "total_tokens": 815
+    }
+  },
+  "Case_16009/figure3.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure3.jpg",
+    "source_caption": "Skin biopsy, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain showing epidermal and dermal changes.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis is visible at the top, with a thickened keratin layer and some irregularities. The dermis below shows a dense inflammatory infiltrate, predominantly lymphocytic, with some evidence of dermal edema. The overall architecture suggests an inflammatory or infectious process involving the skin.",
+      "visible_findings": [
+        "thickened keratin layer",
+        "dense inflammatory infiltrate in dermis",
+        "lymphocytic predominance",
+        "dermal edema"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:44+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 240,
+      "total_tokens": 830
+    }
+  },
+  "Case_16009/figure1.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and shoulder",
+      "short_caption": "Extensive necrotic eschar formation and erythema on the chest and shoulder.",
+      "detailed_description": "This clinical photograph shows the chest and shoulder region with extensive areas of necrotic eschar formation, surrounded by erythematous and inflamed skin. The lesions are dark brown to black, with irregular borders, and are interspersed with areas of raw, moist tissue. Electrodes for monitoring are visible, suggesting the patient is in a clinical setting. The findings are consistent with a severe skin and soft tissue infection, possibly necrotizing in nature.",
+      "visible_findings": [
+        "necrotic eschar formation",
+        "erythema surrounding lesions",
+        "irregular lesion borders",
+        "raw, moist tissue areas",
+        "monitoring electrodes"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "shoulder",
+        "necrotic eschar",
+        "erythema",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin infection",
+        "necrotic eschar",
+        "chest lesion",
+        "shoulder lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 273,
+      "total_tokens": 841
+    }
+  },
+  "Case_16009/figure6.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure6.jpg",
+    "source_caption": "Figure 6: Detail of Figure 5, skin biopsy, GMS stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with GMS stain showing fungal elements.",
+      "detailed_description": "This histopathology image shows a skin biopsy stained with Gomori methenamine silver (GMS) stain. The background tissue appears green, and there are prominent black fungal elements with branching and septation visible. These findings are consistent with fungal infection, and the GMS stain highlights the fungal cell walls effectively.",
+      "visible_findings": [
+        "green-stained tissue background",
+        "black fungal elements",
+        "branching and septate fungal hyphae"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "fungal infection",
+        "GMS stain",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "GMS stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:47+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 211,
+      "total_tokens": 810
+    }
+  },
+  "Case_16009/figure8.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure8.jpg",
+    "source_caption": "Figure 8: Physical finding",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "axilla",
+      "short_caption": "Erythematous and violaceous lesions in the axilla.",
+      "detailed_description": "This clinical photograph shows the axillary region of a patient with multiple erythematous to violaceous macules and patches. The lesions appear irregularly shaped and are distributed over the skin folds of the axilla. The surrounding skin shows no overt signs of swelling or discharge. The findings suggest an inflammatory or infectious process localized to the axilla.",
+      "visible_findings": [
+        "erythematous macules",
+        "violaceous patches",
+        "irregular lesion shapes",
+        "axillary distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "axilla",
+        "skin lesions",
+        "erythema",
+        "violaceous patches",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "axillary rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 227,
+      "total_tokens": 816
+    }
+  },
+  "Case_16009/figure4.jpg": {
+    "case_id": "Case_16009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16009/figure4.jpg",
+    "source_caption": "Figure 4: Detail of Figure 3, skin biopsy, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with H&E stain showing epidermal and dermal changes.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis displays acanthosis and spongiosis, with a central area of epidermal necrosis or ulceration. The dermis contains a dense inflammatory infiltrate, primarily composed of neutrophils, with evidence of microabscess formation. The overlying stratum corneum appears disrupted, and there is evidence of vascular involvement in the dermis.",
+      "visible_findings": [
+        "acanthosis in the epidermis",
+        "spongiosis",
+        "epidermal necrosis or ulceration",
+        "dense neutrophilic infiltrate in the dermis",
+        "microabscess formation",
+        "disrupted stratum corneum"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "epidermal necrosis",
+        "neutrophilic infiltrate",
+        "microabscess"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:52+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 292,
+      "total_tokens": 892
+    }
+  }
+}

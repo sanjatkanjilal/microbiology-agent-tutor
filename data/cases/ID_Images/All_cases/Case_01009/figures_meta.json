@@ -1,0 +1,43 @@
+{
+  "Case_01009/figure1.jpg": {
+    "case_id": "Case_01009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01009/figure1.jpg",
+    "source_caption": "Culture growth.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal growth with aerial hyphae on a culture plate.",
+      "detailed_description": "This image shows a culture plate with a prominent fungal growth. The colony exhibits a raised, stalk-like structure with a bulbous tip, characteristic of aerial hyphae or sporulating structures. The surrounding area appears to have a dense, white, cottony texture, typical of fungal colonies. The image is focused on the fungal morphology, suggesting a possible identification of the organism based on its macroscopic appearance.",
+      "visible_findings": [
+        "raised stalk-like fungal structure",
+        "bulbous tip on the stalk",
+        "white, cottony colony texture",
+        "culture plate background"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "aerial hyphae",
+        "sporulation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "culture plate growth",
+        "aerial hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:16+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 241,
+      "total_tokens": 826
+    }
+  }
+}

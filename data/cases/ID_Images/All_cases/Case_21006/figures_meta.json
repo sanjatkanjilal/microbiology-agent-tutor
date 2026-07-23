@@ -1,0 +1,86 @@
+{
+  "Case_21006/figure1.jpg": {
+    "case_id": "Case_21006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21006/figure1.jpg",
+    "source_caption": "Computed tomography of the chest without contrast demonstrates a right sided middle lobe solid pulmonary nodule.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest without contrast shows a right middle lobe pulmonary nodule.",
+      "detailed_description": "This axial CT image of the chest, performed without contrast, demonstrates a well-defined solid pulmonary nodule in the right middle lobe. The nodule appears round and is located peripherally. Surrounding lung parenchyma shows no obvious signs of consolidation or ground-glass opacities. The mediastinum and other visible structures appear unremarkable.",
+      "visible_findings": [
+        "right middle lobe solid pulmonary nodule",
+        "no significant surrounding lung abnormalities",
+        "clear mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary nodule",
+        "right middle lobe",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "pulmonary nodule",
+        "right middle lobe lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:11+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 228,
+      "total_tokens": 830
+    }
+  },
+  "Case_21006/figure2.jpg": {
+    "case_id": "Case_21006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21006/figure2.jpg",
+    "source_caption": "Left upper, right upper panel depicts progression of disease in light of no treatment, right lower panel depicts new nodular lesions with scabbing in right thigh. Left lower panel depicts response of lesions to treatment one week after it was started",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and right thigh",
+      "short_caption": "Progression and treatment response of nodular lesions on the face and right thigh.",
+      "detailed_description": "This composite image shows four panels. The left upper panel depicts nodular lesions with scabbing and crusting on the face. The right upper panel shows the same facial region with a dressing applied, suggesting ongoing care. The right lower panel shows multiple nodular lesions with scabbing on the right thigh. The left lower panel depicts a marked reduction in the lesions on the face, indicating a response to treatment. The images demonstrate disease progression and improvement with therapy.",
+      "visible_findings": [
+        "nodular lesions with scabbing on the face",
+        "crusting lesions on the face",
+        "dressing applied to the face",
+        "nodular lesions with scabbing on the right thigh",
+        "reduction in lesion size and crusting after treatment"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "thigh",
+        "nodular lesions",
+        "scabbing",
+        "treatment response",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious lesions",
+        "treatment response"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:12+00:00",
+    "usage": {
+      "prompt_tokens": 629,
+      "completion_tokens": 283,
+      "total_tokens": 912
+    }
+  }
+}

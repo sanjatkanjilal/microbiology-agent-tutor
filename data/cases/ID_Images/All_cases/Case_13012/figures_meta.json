@@ -1,0 +1,207 @@
+{
+  "Case_13012/figure1.jpg": {
+    "case_id": "Case_13012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13012/figure1.jpg",
+    "source_caption": "Left hand lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hand, finger",
+      "short_caption": "Small lesion on the left finger with surrounding erythema.",
+      "detailed_description": "The image shows a close-up view of a finger on the left hand. A small, dark, centrally necrotic lesion is visible on the lateral aspect of the finger, surrounded by erythema. The lesion appears to be raised, with possible signs of inflammation. The background includes a patterned fabric, likely a hospital gown.",
+      "visible_findings": [
+        "small dark lesion with central necrosis",
+        "surrounding erythema",
+        "localized swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "finger",
+        "lesion",
+        "erythema",
+        "necrosis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand infection",
+        "finger erythema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:26+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 218,
+      "total_tokens": 804
+    }
+  },
+  "Case_13012/figure5.jpg": {
+    "case_id": "Case_13012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13012/figure5.jpg",
+    "source_caption": "Gram stain of culture growth, 100x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain of culture growth showing gram-positive branching filaments.",
+      "detailed_description": "This image shows a Gram stain of culture growth at 100x magnification. The organisms appear as pink to red, branching filamentous structures, consistent with gram-positive bacteria. The background is pale, and there are no visible host cells or other structures. The morphology suggests the presence of filamentous bacteria, potentially from the genus *Nocardia* or *Actinomyces*.",
+      "visible_findings": [
+        "pink to red branching filaments",
+        "gram-positive staining",
+        "absence of host cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "culture",
+        "branching filaments",
+        "gram-positive",
+        "bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "culture growth",
+        "branching filaments",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:27+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 229,
+      "total_tokens": 823
+    }
+  },
+  "Case_13012/figure2.jpg": {
+    "case_id": "Case_13012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13012/figure2.jpg",
+    "source_caption": "Left thigh lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left thigh",
+      "short_caption": "Erythematous lesion on the left thigh.",
+      "detailed_description": "This clinical photograph shows a localized erythematous lesion on the left thigh. The lesion appears slightly raised with diffuse redness and no visible central necrosis or drainage. Surrounding skin shows no significant discoloration or swelling. The patient’s clothing is partially visible, confirming the anatomical location.",
+      "visible_findings": [
+        "localized erythema",
+        "slightly raised lesion",
+        "no visible drainage",
+        "no central necrosis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "erythema",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "thigh lesion",
+        "erythema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:28+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 205,
+      "total_tokens": 791
+    }
+  },
+  "Case_13012/figure3.jpg": {
+    "case_id": "Case_13012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13012/figure3.jpg",
+    "source_caption": "Left toe lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left toe",
+      "short_caption": "Lesion on the left toe with discoloration and nail involvement.",
+      "detailed_description": "The image shows the left toe with a focus on the distal phalanx. There is a dark, purplish discoloration visible on the nail bed and adjacent skin, suggestive of a lesion. The surrounding skin appears intact without overt signs of inflammation or ulceration. The nail itself shows mild irregularity but no gross deformity. The lighting highlights the lesion clearly, and the image is oriented to emphasize the affected area.",
+      "visible_findings": [
+        "dark purplish discoloration on the nail bed",
+        "adjacent skin appears intact",
+        "mild nail irregularity"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "toe",
+        "nail lesion",
+        "discoloration",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "toe lesion",
+        "nail discoloration",
+        "skin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:31+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 238,
+      "total_tokens": 824
+    }
+  },
+  "Case_13012/figure4.jpg": {
+    "case_id": "Case_13012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13012/figure4.jpg",
+    "source_caption": "Gram stain of blood culture, 100x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain of blood culture showing gram-positive cocci in clusters, 100x magnification.",
+      "detailed_description": "This image shows a Gram stain of a blood culture at 100x magnification. Numerous gram-positive cocci are visible, arranged predominantly in clusters. The organisms are stained red, indicating the use of a counterstain such as safranin. The background is clear, with no visible host cells or debris, suggesting a pure culture.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "red staining from counterstain"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "gram-positive cocci",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:34+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 222,
+      "total_tokens": 816
+    }
+  }
+}

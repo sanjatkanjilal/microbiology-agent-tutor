@@ -1,0 +1,123 @@
+{
+  "Case_07003/figure1.jpg": {
+    "case_id": "Case_07003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07003/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing a hypodense lesion in the spleen.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense lesion in the spleen, suggestive of a possible abscess or infarction. The surrounding abdominal structures appear normal, with no obvious signs of free fluid or other abnormalities. The scan is labeled with 'R' and 'L' to indicate right and left orientation.",
+      "visible_findings": [
+        "hypodense lesion in the spleen",
+        "normal appearance of surrounding abdominal structures",
+        "no visible free fluid"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "spleen",
+        "hypodense lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "spleen lesion",
+        "infectious diseases imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:24+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  },
+  "Case_07003/figure2.jpg": {
+    "case_id": "Case_07003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07003/figure2.jpg",
+    "source_caption": "Cytologic examination of splenic aspirate. Figure 3. Wet prep of culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "splenic aspirate",
+      "short_caption": "Cytologic examination of splenic aspirate showing fungal structures.",
+      "detailed_description": "This image shows a cytologic preparation of a splenic aspirate stained to highlight fungal structures. Two round fungal cells with thick walls and a budding appearance are visible in the center, suggestive of a yeast-like organism. The background contains scattered cellular debris and faintly stained material. The preparation appears to be from a wet mount or similar technique.",
+      "visible_findings": [
+        "two round fungal cells with thick walls",
+        "budding appearance of fungal cells",
+        "scattered cellular debris in the background"
+      ],
+      "keywords": [
+        "stain",
+        "splenic aspirate",
+        "fungal cells",
+        "yeast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "splenic aspirate",
+        "fungal stain",
+        "cytology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:25+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 229,
+      "total_tokens": 829
+    }
+  },
+  "Case_07003/figure3.jpg": {
+    "case_id": "Case_07003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07003/figure3.jpg",
+    "source_caption": "Wet prep of culture.",
+    "description": {
+      "modality": "wet mount",
+      "anatomical_site": null,
+      "short_caption": "Wet mount showing fungal hyphae and budding yeast forms.",
+      "detailed_description": "This wet mount image reveals numerous branching, septate fungal hyphae and occasional budding yeast forms. The structures are thin and translucent, consistent with fungal morphology. The preparation appears unstained, relying on light microscopy for visualization. The image is likely from a culture or clinical specimen.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate hyphae",
+        "budding yeast forms",
+        "unstained wet mount preparation"
+      ],
+      "keywords": [
+        "wet mount",
+        "fungal hyphae",
+        "budding yeast",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wet prep",
+        "fungal infection",
+        "microscopy of culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:28+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 212,
+      "total_tokens": 799
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Case_13006/figure2.jpg": {
+    "case_id": "Case_13006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13006/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This is a high-magnification image of a Gram stain preparation. Numerous gram-positive cocci, appearing as round, purple-stained organisms, are visible. They are arranged predominantly in clusters, a characteristic feature of certain bacterial species. The background is clear, with no visible host cells or debris.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:57+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 195,
+      "total_tokens": 763
+    }
+  },
+  "Case_13006/figure1.jpg": {
+    "case_id": "Case_13006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13006/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing yeast-like organisms with surrounding inflammation.",
+      "detailed_description": "This histopathology image shows clusters of round to oval yeast-like organisms, some of which appear to be budding. The organisms are stained red, suggesting the use of a fungal-specific stain such as PAS (Periodic Acid-Schiff) or GMS (Gomori Methenamine Silver). Surrounding the organisms, there is evidence of inflammatory cells, likely neutrophils, indicating an ongoing immune response. The background appears to be connective tissue.",
+      "visible_findings": [
+        "round to oval yeast-like organisms",
+        "budding forms visible",
+        "red-stained organisms",
+        "inflammatory cells surrounding the organisms",
+        "connective tissue background"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "yeast",
+        "PAS stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "yeast infection",
+        "PAS stain of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:00+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 253,
+      "total_tokens": 821
+    }
+  }
+}

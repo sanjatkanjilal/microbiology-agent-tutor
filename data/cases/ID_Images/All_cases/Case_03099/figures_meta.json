@@ -1,0 +1,43 @@
+{
+  "Case_03099/figure1.jpg": {
+    "case_id": "Case_03099",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03099/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and abdomen",
+      "short_caption": "Diffuse vesiculopustular rash on the chest and abdomen of a child.",
+      "detailed_description": "This image shows the chest and abdomen of a child with a widespread vesiculopustular rash. The lesions are numerous, discrete, and distributed across the torso. Some lesions appear to be in different stages of development, with a mix of vesicles, pustules, and crusted lesions. The skin surrounding the lesions appears otherwise normal, without significant erythema.",
+      "visible_findings": [
+        "diffuse vesiculopustular rash",
+        "lesions in various stages of development",
+        "distribution across chest and abdomen"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "vesiculopustular",
+        "child",
+        "infectious disease",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesiculopustular rash",
+        "child with rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  }
+}

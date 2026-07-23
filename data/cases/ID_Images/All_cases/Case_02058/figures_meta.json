@@ -1,0 +1,87 @@
+{
+  "Case_02058/figure2.jpg": {
+    "case_id": "Case_02058",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02058/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "inguinal region",
+      "short_caption": "Erythema and fissuring in the inguinal region.",
+      "detailed_description": "This clinical photograph shows the inguinal region with erythema, fissuring, and mild exudation. The skin appears inflamed with areas of redness and superficial breakdown. A gloved hand is gently retracting the surrounding skin to expose the affected area. No obvious vesicles, pustules, or necrosis are visible.",
+      "visible_findings": [
+        "erythema in the inguinal region",
+        "fissuring of the skin",
+        "mild exudation",
+        "no visible vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "inguinal region",
+        "erythema",
+        "fissuring",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "inguinal erythema",
+        "fissuring in groin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  },
+  "Case_02058/figure1.jpg": {
+    "case_id": "Case_02058",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02058/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and upper abdomen",
+      "short_caption": "Erythematous rash with marked swelling and induration on the chest and upper abdomen.",
+      "detailed_description": "This clinical photograph shows the chest and upper abdomen of a patient with a diffuse erythematous rash. The skin appears swollen and indurated, with clear demarcation lines drawn on the skin for monitoring the progression of the lesion. Electrodes are visible, suggesting the patient is being monitored. The findings are consistent with a severe inflammatory or infectious process.",
+      "visible_findings": [
+        "diffuse erythema on the chest and upper abdomen",
+        "swelling and induration of the skin",
+        "demarcation lines drawn on the skin",
+        "monitoring electrodes attached to the chest"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "abdomen",
+        "erythema",
+        "swelling",
+        "induration",
+        "rash",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "chest rash",
+        "erythema and swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:06+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 261,
+      "total_tokens": 829
+    }
+  }
+}

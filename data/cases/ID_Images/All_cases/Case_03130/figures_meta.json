@@ -1,0 +1,46 @@
+{
+  "Case_03130/figure1.jpg": {
+    "case_id": "Case_03130",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03130/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial CT showing cavitary lesions and consolidation in the lungs.",
+      "detailed_description": "This axial CT image of the thorax demonstrates bilateral lung abnormalities. The left lung shows a large cavitary lesion with surrounding consolidation, while the right lung exhibits areas of patchy consolidation. The mediastinum appears midline, and no significant pleural effusion is visible. The findings are suggestive of an infectious or inflammatory process, possibly tuberculosis or a fungal infection.",
+      "visible_findings": [
+        "large cavitary lesion in the left lung",
+        "patchy consolidation in the right lung",
+        "no significant pleural effusion",
+        "mediastinum appears midline"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "cavitary lesion",
+        "consolidation",
+        "infection",
+        "tuberculosis",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "lung CT",
+        "cavitary lesion",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:54+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Case_02006/figure1.jpg": {
+    "case_id": "Case_02006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02006/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT scan showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT scan demonstrates bilateral lung fields with diffuse ground-glass opacities and interlobular septal thickening. The central airways appear patent, and the mediastinal structures are unremarkable. The findings are suggestive of an interstitial process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "diffuse ground-glass opacities",
+        "interlobular septal thickening",
+        "patent central airways",
+        "unremarkable mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "interstitial process",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung findings",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:10+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "Case_05021/figure1.jpg": {
+    "case_id": "Case_05021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05021/figure1.jpg",
+    "source_caption": "Finding after defecation.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "gastrointestinal tract (excreted specimen)",
+      "short_caption": "Photograph of a long, thin worm excreted in stool.",
+      "detailed_description": "This image shows a long, cylindrical worm with a smooth, uniform surface, likely a nematode, placed on a white background. The worm appears intact, with tapered ends, and measures several centimeters in length. The setting suggests it was collected after defecation, consistent with a parasitic infection.",
+      "visible_findings": [
+        "long, cylindrical worm",
+        "smooth surface",
+        "tapered ends",
+        "white background for specimen display"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "worm",
+        "parasite",
+        "nematode",
+        "stool specimen",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "worm in stool",
+        "intestinal parasite",
+        "ascaris",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:43+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 229,
+      "total_tokens": 817
+    }
+  },
+  "Case_05021/figure2.jpg": {
+    "case_id": "Case_05021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05021/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Photograph of a long, thin parasitic organism on a white background.",
+      "detailed_description": "This image shows a long, thin, cylindrical organism with a smooth surface, consistent with a parasitic worm. The organism is displayed on a white background, likely for contrast and clarity. The tapering at one end suggests a nematode, though the specific species cannot be determined from this image alone. The photograph provides a clear view of the organism's length and general morphology.",
+      "visible_findings": [
+        "long, cylindrical organism",
+        "smooth surface",
+        "tapered end",
+        "displayed on a white background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "parasite",
+        "worm",
+        "nematode",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "parasite identification",
+        "worm morphology",
+        "infectious disease case"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 227,
+      "total_tokens": 815
+    }
+  }
+}

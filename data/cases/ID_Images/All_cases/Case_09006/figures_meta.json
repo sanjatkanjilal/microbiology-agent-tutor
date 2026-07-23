@@ -1,0 +1,250 @@
+{
+  "Case_09006/figure1.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot (interdigital space)",
+      "short_caption": "Interdigital lesion with discoloration and maceration on the foot.",
+      "detailed_description": "This clinical photograph shows the interdigital space of the foot, with a small, dark, discolored lesion surrounded by macerated skin. The lesion appears to be located between the toes, with evidence of moisture and possible fungal or bacterial involvement. The surrounding skin shows mild erythema and scaling, suggesting irritation or infection.",
+      "visible_findings": [
+        "dark, discolored lesion in interdigital space",
+        "macerated skin",
+        "mild erythema",
+        "scaling of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "interdigital lesion",
+        "maceration",
+        "infection",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "foot lesion",
+        "interdigital infection",
+        "skin maceration"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  },
+  "Case_09006/figure4.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure4.jpg",
+    "source_caption": "Aspirate of lesion, magnification x 4.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lesion aspirate",
+      "short_caption": "Stained aspirate of lesion showing fungal elements, magnification x4.",
+      "detailed_description": "This image shows a stained aspirate from a lesion at 4x magnification. Multiple fungal elements are visible, including septate hyphae and circular structures resembling sporangia or conidia. The background appears to consist of necrotic debris and cellular material. The stain highlights the fungal morphology, aiding in identification.",
+      "visible_findings": [
+        "septate hyphae",
+        "circular fungal structures (sporangia or conidia)",
+        "necrotic debris",
+        "stained cellular material"
+      ],
+      "keywords": [
+        "stain",
+        "fungal elements",
+        "lesion aspirate",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lesion aspirate",
+        "fungal stain",
+        "microscopy of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:06+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 233,
+      "total_tokens": 826
+    }
+  },
+  "Case_09006/figure2.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot, interdigital space",
+      "short_caption": "Interdigital lesion with yellow discoloration and maceration.",
+      "detailed_description": "This clinical photograph shows the interdigital space of the foot, with a focus on a lesion characterized by yellow discoloration and maceration. The surrounding skin appears mildly erythematous, and there is a small area of erosion or ulceration. The findings suggest a possible infectious or inflammatory process, commonly seen in conditions like tinea pedis or bacterial superinfection.",
+      "visible_findings": [
+        "yellow discoloration",
+        "maceration of the skin",
+        "erythema around the lesion",
+        "small erosion or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "interdigital space",
+        "lesion",
+        "maceration",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "foot lesion",
+        "interdigital infection",
+        "skin maceration"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:10+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_09006/figure3.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure3.jpg",
+    "source_caption": "Aspirate of lesion, magnification x 4.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Aspirate of lesion showing fungal elements, magnification x4.",
+      "detailed_description": "This image shows a stained preparation of an aspirate from a lesion, viewed under low magnification (x4). Numerous darkly pigmented, thick-walled fungal structures are visible, consistent with sclerotic bodies (also known as 'copper pennies'), which are characteristic of chromoblastomycosis. The background appears amorphous and lightly stained, providing contrast to the fungal elements.",
+      "visible_findings": [
+        "darkly pigmented, thick-walled fungal structures",
+        "sclerotic bodies ('copper pennies')",
+        "low magnification (x4)"
+      ],
+      "keywords": [
+        "stain",
+        "fungal elements",
+        "sclerotic bodies",
+        "chromoblastomycosis",
+        "aspirate",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "aspirate of lesion",
+        "fungal stain",
+        "chromoblastomycosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:12+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 250,
+      "total_tokens": 843
+    }
+  },
+  "Case_09006/figure5.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure5.jpg",
+    "source_caption": "Aspirate of lesion, magnification x 10.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fungal elements in aspirate, magnification x10.",
+      "detailed_description": "This image shows a stained preparation of an aspirate viewed under low magnification (x10). Numerous elongated, branching, and septate structures consistent with fungal hyphae are visible. The background appears to have a reddish hue, likely due to the staining technique used. The hyphae are arranged in a disorganized pattern, with some crossing over each other.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate structures",
+        "reddish background staining"
+      ],
+      "keywords": [
+        "stain",
+        "fungal hyphae",
+        "aspirate",
+        "low magnification",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "aspirate microscopy",
+        "low magnification fungal elements"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:15+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 224,
+      "total_tokens": 817
+    }
+  },
+  "Case_09006/figure6.jpg": {
+    "case_id": "Case_09006",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09006/figure6.jpg",
+    "source_caption": "Aspirate of lesion, magnification x 10.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Aspirate of lesion showing oval structures, magnification x10.",
+      "detailed_description": "This image shows an aspirate of a lesion under magnification (x10). The field contains multiple oval, translucent structures with smooth contours, surrounded by a reddish-orange background. The structures appear consistent in size and shape, suggesting a possible parasitic or fungal origin. The reddish hue of the background may indicate the presence of staining or cellular debris.",
+      "visible_findings": [
+        "oval translucent structures",
+        "smooth contours",
+        "reddish-orange background",
+        "consistent size and shape of structures"
+      ],
+      "keywords": [
+        "aspirate",
+        "lesion",
+        "stain",
+        "microscopy",
+        "infectious diseases",
+        "x10 magnification"
+      ],
+      "reveal_triggers": [
+        "aspirate of lesion",
+        "microscopy of lesion",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:18+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 230,
+      "total_tokens": 823
+    }
+  }
+}

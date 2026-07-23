@@ -1,0 +1,167 @@
+{
+  "Case_08024/figure1.jpg": {
+    "case_id": "Case_08024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08024/figure1.jpg",
+    "source_caption": "Ultrasonography of the abdomen.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "left kidney",
+      "short_caption": "Ultrasound of the left kidney showing heterogeneous echotexture.",
+      "detailed_description": "This is an ultrasound image of the left kidney, labeled as 'LONG LT KID.' The kidney appears to have a heterogeneous echotexture, with areas of varying echogenicity. The surrounding structures are visible but not clearly delineated. The image includes standard ultrasound settings and measurements, indicating it was taken in a longitudinal plane.",
+      "visible_findings": [
+        "heterogeneous echotexture of the kidney",
+        "longitudinal view of the left kidney",
+        "standard ultrasound settings visible"
+      ],
+      "keywords": [
+        "ultrasound",
+        "left kidney",
+        "renal",
+        "heterogeneous echotexture",
+        "longitudinal view"
+      ],
+      "reveal_triggers": [
+        "abdominal ultrasound",
+        "renal ultrasound",
+        "kidney imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:23+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 226,
+      "total_tokens": 815
+    }
+  },
+  "Case_08024/figure2.jpg": {
+    "case_id": "Case_08024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08024/figure2.jpg",
+    "source_caption": "CT of the abdomen, with contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen with contrast showing abnormal findings.",
+      "detailed_description": "This axial contrast-enhanced CT image of the abdomen shows multiple abnormalities. There is a large, heterogeneous mass in the right side of the abdomen, likely involving the liver. Adjacent structures, including the kidneys and bowel, are visible. The contrast enhancement highlights vascular structures and helps delineate the lesion. The image is labeled with 'R' indicating the right side.",
+      "visible_findings": [
+        "heterogeneous mass in the right abdomen",
+        "contrast-enhanced vascular structures",
+        "adjacent kidneys and bowel visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "contrast",
+        "mass",
+        "liver",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "contrast-enhanced ct",
+        "liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:25+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 223,
+      "total_tokens": 813
+    }
+  },
+  "Case_08024/figure3.jpg": {
+    "case_id": "Case_08024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08024/figure3.jpg",
+    "source_caption": "CT of the abdomen, with left renal mass (arrows).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing a left renal mass (arrows).",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, heterogeneous mass in the left kidney, as indicated by the arrows. The mass appears to have irregular borders and is distinct from the surrounding renal parenchyma. Adjacent structures, including the contralateral kidney and abdominal organs, appear unremarkable in this slice. The image is labeled with 'R' to indicate right-sided orientation.",
+      "visible_findings": [
+        "heterogeneous left renal mass",
+        "irregular borders of the mass",
+        "normal appearance of contralateral kidney",
+        "right-sided orientation marker ('R')"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "renal mass",
+        "kidney",
+        "left kidney",
+        "tumor",
+        "heterogeneous mass"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "renal mass",
+        "kidney tumor",
+        "left kidney lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:28+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 250,
+      "total_tokens": 845
+    }
+  },
+  "Case_08024/figure4.jpg": {
+    "case_id": "Case_08024",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08024/figure4.jpg",
+    "source_caption": "Figure 4. Follow-up CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing abnormalities in the gastrointestinal tract and adjacent structures.",
+      "detailed_description": "This axial CT image of the abdomen shows multiple loops of bowel with gas and fluid, suggestive of bowel distension. There are areas of increased density in the retroperitoneal space, possibly indicating inflammation or abscess formation. The kidneys are visible bilaterally, with no obvious hydronephrosis. The image is de-identified and appears to be part of a follow-up study.",
+      "visible_findings": [
+        "distended bowel loops with gas and fluid",
+        "increased density in the retroperitoneal space",
+        "bilateral kidneys without hydronephrosis"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel distension",
+        "retroperitoneal inflammation",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "follow-up imaging",
+        "gastrointestinal ct"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:36+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  }
+}

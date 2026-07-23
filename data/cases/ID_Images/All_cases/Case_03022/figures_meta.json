@@ -1,0 +1,125 @@
+{
+  "Case_03022/figure1.jpg": {
+    "case_id": "Case_03022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03022/figure1.jpg",
+    "source_caption": "Patient's urine on the right.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "urine sample",
+      "short_caption": "Comparison of normal urine (left) and abnormal cloudy urine (right).",
+      "detailed_description": "The image shows two transparent cups placed side by side on a blue cloth background. The cup on the left contains clear, yellow-colored urine, consistent with normal appearance. The cup on the right contains cloudy, pale, and turbid urine, suggesting the presence of abnormalities such as infection, proteinuria, or pyuria. The contrast between the two samples is visually striking.",
+      "visible_findings": [
+        "clear yellow urine in left cup",
+        "cloudy, pale, turbid urine in right cup",
+        "contrast in clarity and color between the two samples"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "urine",
+        "cloudy urine",
+        "normal urine",
+        "urinalysis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "urine sample",
+        "cloudy urine",
+        "urinalysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:17+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_03022/figure3.jpg": {
+    "case_id": "Case_03022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03022/figure3.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear showing a microfilaria among red blood cells.",
+      "detailed_description": "This image is a stained blood smear showing a microfilaria, a parasitic nematode, surrounded by numerous red blood cells. The microfilaria is elongated, with a coiled and segmented appearance, and is significantly larger than the surrounding erythrocytes. The staining highlights the internal structures of the parasite and provides contrast against the background cells. The smear is likely stained with a technique such as Giemsa or Wright stain, commonly used for identifying blood parasites.",
+      "visible_findings": [
+        "elongated microfilaria with segmented appearance",
+        "numerous red blood cells in the background",
+        "contrast-enhanced staining of the parasite"
+      ],
+      "keywords": [
+        "blood smear",
+        "microfilaria",
+        "parasitic nematode",
+        "stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "microfilaria",
+        "parasite in blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:19+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 259,
+      "total_tokens": 844
+    }
+  },
+  "Case_03022/figure2.jpg": {
+    "case_id": "Case_03022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03022/figure2.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing bowel loops and intra-abdominal structures.",
+      "detailed_description": "This axial CT scan of the abdomen shows multiple loops of bowel, some of which appear distended with gas and fluid. The vertebral body is visible in the center, and surrounding soft tissues and intra-abdominal structures are present. There is a large, rounded, hypodense area in the left side of the image, suggestive of a fluid-filled or cystic structure. The scan is without contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "distended bowel loops",
+        "hypodense rounded structure in the left abdomen",
+        "vertebral body in the center",
+        "soft tissue and intra-abdominal structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel",
+        "distension",
+        "hypodense lesion",
+        "fluid-filled structure"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel distension",
+        "intra-abdominal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:23+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 257,
+      "total_tokens": 844
+    }
+  }
+}

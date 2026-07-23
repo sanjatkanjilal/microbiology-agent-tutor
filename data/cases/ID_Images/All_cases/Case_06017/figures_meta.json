@@ -1,0 +1,296 @@
+{
+  "Case_06017/figure3.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Scaly, erythematous skin changes on the dorsal foot and toes.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a foot with diffuse scaling and erythema. The skin appears dry and flaky, particularly over the toes and the dorsum of the foot. There are no visible signs of ulceration, pustules, or vesicles. The findings are consistent with a dermatologic condition, possibly related to a fungal or inflammatory etiology.",
+      "visible_findings": [
+        "diffuse scaling of the skin",
+        "erythema on the dorsum of the foot",
+        "dry, flaky appearance of the skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "scaling",
+        "erythema",
+        "dermatology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot rash",
+        "scaling skin on toes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:49+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 235,
+      "total_tokens": 803
+    }
+  },
+  "Case_06017/figure2.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure2.jpg",
+    "source_caption": "Physical findings, on admission.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Erythema and diffuse scaling on the dorsal hand.",
+      "detailed_description": "This image shows the dorsal aspect of a hand with prominent erythema and diffuse, thick scaling. The scaling is yellowish and appears to involve the entire dorsal surface, including the fingers. The nails appear thickened and discolored, with some irregularity. The findings suggest a dermatologic condition, possibly related to an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythema on dorsal hand",
+        "diffuse yellowish scaling",
+        "thickened and discolored nails",
+        "irregular nail surfaces"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "erythema",
+        "scaling",
+        "nail changes",
+        "dermatology",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand rash",
+        "scaling on hand",
+        "nail changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_06017/figure1.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure1.jpg",
+    "source_caption": "Physical findings, on admission.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face and neck",
+      "short_caption": "Thickened, crusted skin with discoloration on the face and neck.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the face and neck. The skin appears thickened, with prominent yellowish crusting and scaling. There is discoloration, including areas of erythema and hyperpigmentation. A fissure is visible near the upper portion of the neck. The findings suggest a severe dermatologic condition, possibly related to an infectious or inflammatory process.",
+      "visible_findings": [
+        "thickened skin",
+        "yellowish crusting",
+        "scaling",
+        "discoloration (erythema and hyperpigmentation)",
+        "fissure on the neck"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "neck",
+        "crusting",
+        "scaling",
+        "dermatologic findings",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin condition",
+        "crusting on face"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 253,
+      "total_tokens": 841
+    }
+  },
+  "Case_06017/figure7.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure7.jpg",
+    "source_caption": "Follow up, day 7.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Follow-up day 7: dorsal hand with scaling and nail discoloration.",
+      "detailed_description": "This image shows the dorsum of a hand with visible scaling and dryness of the skin. The nails exhibit yellowish discoloration, and there is no apparent swelling or erythema. The photograph appears to be taken under natural lighting with the hand resting on a white background. The findings suggest a dermatologic condition, possibly related to an infectious or inflammatory process.",
+      "visible_findings": [
+        "scaling of the skin",
+        "yellowish nail discoloration",
+        "absence of swelling",
+        "absence of erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin scaling",
+        "nail discoloration",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "hand exam",
+        "skin scaling",
+        "nail changes",
+        "follow-up day 7"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:54+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 237,
+      "total_tokens": 826
+    }
+  },
+  "Case_06017/figure5.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure5.jpg",
+    "source_caption": "Figure 5. Skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin biopsy showing parasitic structures within the dermis.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis appears intact, while the dermis contains parasitic structures, including a cross-section of a helminth with a visible cuticle and internal structures. Surrounding the parasite, there is evidence of an inflammatory infiltrate, likely consisting of mixed immune cells. The image highlights the interaction between the parasite and the host tissue.",
+      "visible_findings": [
+        "cross-section of a helminth with visible cuticle",
+        "inflammatory infiltrate in the dermis",
+        "intact epidermis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "parasite",
+        "helminth",
+        "H&E stain",
+        "dermis"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:56+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 254,
+      "total_tokens": 843
+    }
+  },
+  "Case_06017/figure4.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Ulcerated lesion on the forearm with surrounding erythema and scaling.",
+      "detailed_description": "This image shows a forearm with a central ulcerated lesion surrounded by erythema and scaling. The lesion appears to have irregular borders and is slightly raised. The surrounding skin shows diffuse dryness and scaling, suggesting a possible inflammatory or infectious process. The lesion is well-demarcated and appears to be the primary focus of the condition.",
+      "visible_findings": [
+        "ulcerated lesion with irregular borders",
+        "surrounding erythema",
+        "diffuse scaling of the skin",
+        "central area of tissue loss"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "ulcer",
+        "erythema",
+        "scaling",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcerated lesion",
+        "forearm infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:57+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_06017/figure6.jpg": {
+    "case_id": "Case_06017",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06017/figure6.jpg",
+    "source_caption": "Follow up, day 7.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck and lower face",
+      "short_caption": "Follow-up on day 7 showing desquamation of the neck and lower face.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the neck and lower face. There is visible desquamation with peeling skin, particularly prominent on the neck. The skin appears dry and mildly erythematous, with no overt signs of active infection or exudate. The image suggests healing or resolution of a prior condition, possibly following an infectious or inflammatory process.",
+      "visible_findings": [
+        "desquamation of the skin",
+        "dry and mildly erythematous appearance",
+        "no visible exudate or active lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "desquamation",
+        "skin peeling",
+        "follow-up"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "neck desquamation",
+        "follow-up day 7"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:58+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 233,
+      "total_tokens": 822
+    }
+  }
+}

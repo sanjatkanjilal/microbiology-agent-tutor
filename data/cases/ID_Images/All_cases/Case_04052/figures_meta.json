@@ -1,0 +1,333 @@
+{
+  "Case_04052/figure2.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Coronal MRI showing bilateral renal abnormalities.",
+      "detailed_description": "This coronal MRI image shows the abdomen and pelvis, with notable findings in both kidneys. There are multiple rounded, hyperintense lesions in both kidneys, suggestive of abscesses or cystic structures. The surrounding renal parenchyma appears relatively preserved. The spine and adjacent soft tissues are also visible but appear unremarkable in this image.",
+      "visible_findings": [
+        "bilateral rounded hyperintense lesions in kidneys",
+        "renal parenchyma appears relatively preserved",
+        "spine and adjacent soft tissues visible"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "pelvis",
+        "kidney",
+        "renal lesions",
+        "abscess",
+        "cyst"
+      ],
+      "reveal_triggers": [
+        "mri of abdomen",
+        "renal abscess",
+        "kidney lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:25+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  },
+  "Case_04052/figure5.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure5.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "pelvis",
+      "short_caption": "Pelvic radiograph showing lytic lesions and bone destruction.",
+      "detailed_description": "This is a pelvic radiograph showing multiple lytic lesions in the pelvic bones, particularly in the left iliac bone and acetabulum. There is evidence of bone destruction and irregularity, with arrows pointing to the affected areas. The findings suggest a pathological process, possibly infectious or neoplastic in nature. The image is de-identified and intended for medical education.",
+      "visible_findings": [
+        "lytic lesions in pelvic bones",
+        "bone destruction",
+        "irregularity in left iliac bone and acetabulum"
+      ],
+      "keywords": [
+        "radiograph",
+        "pelvis",
+        "lytic lesions",
+        "bone destruction",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "pelvic x-ray",
+        "bone lesions",
+        "lytic lesions in pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:27+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 229,
+      "total_tokens": 797
+    }
+  },
+  "Case_04052/figure1.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "pelvis",
+      "short_caption": "X-ray of the pelvis showing bony destruction and irregularities.",
+      "detailed_description": "This is a frontal radiograph of the pelvis showing significant bony destruction, particularly in the left hip region. There is evidence of irregular bone margins, cortical thinning, and possible joint space narrowing. The findings suggest a destructive process, potentially infectious or neoplastic in nature. The left femoral head appears deformed, and there is a loss of normal bony architecture.",
+      "visible_findings": [
+        "bony destruction in the pelvis",
+        "irregular bone margins",
+        "cortical thinning",
+        "joint space narrowing",
+        "deformed left femoral head"
+      ],
+      "keywords": [
+        "x-ray",
+        "pelvis",
+        "bony destruction",
+        "infection",
+        "radiograph"
+      ],
+      "reveal_triggers": [
+        "pelvic x-ray",
+        "bone infection",
+        "destructive bone lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:28+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  },
+  "Case_04052/figure3.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial pelvic MRI showing bilateral iliopsoas abscesses.",
+      "detailed_description": "This axial T2-weighted MRI image of the pelvis demonstrates bilateral fluid collections in the iliopsoas muscles, consistent with abscesses. The collections appear hyperintense relative to surrounding tissues, with some evidence of rim enhancement. Adjacent soft tissue structures are displaced but not invaded. The findings are suggestive of an infectious process.",
+      "visible_findings": [
+        "bilateral hyperintense fluid collections in the iliopsoas muscles",
+        "rim enhancement around the collections",
+        "displacement of adjacent soft tissue structures"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "iliopsoas abscess",
+        "infectious disease",
+        "fluid collection"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "iliopsoas abscess",
+        "infectious process in pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  },
+  "Case_04052/figure4.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing a large hypodense lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, well-circumscribed hypodense lesion in the right lobe of the liver. The lesion appears to have a central area of lower attenuation, suggestive of necrosis or abscess formation. Surrounding liver parenchyma appears unremarkable. The image is taken without visible intravenous contrast enhancement.",
+      "visible_findings": [
+        "large hypodense lesion in the right liver lobe",
+        "central low-attenuation area within the lesion",
+        "normal appearance of surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesion",
+        "abscess",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "hypodense liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  },
+  "Case_04052/figure6.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure6.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Coronal MRI showing bilateral renal lesions with cystic and solid components.",
+      "detailed_description": "This coronal MRI image of the abdomen and pelvis demonstrates bilateral renal lesions, with both cystic and solid components visible. The lesions are highlighted by arrows, suggesting a pathological process involving the kidneys. The surrounding structures, including the spine and adjacent soft tissues, appear unremarkable. The image is likely obtained using T2-weighted imaging, given the bright signal of the cystic areas.",
+      "visible_findings": [
+        "bilateral renal lesions",
+        "cystic and solid components in the kidneys",
+        "normal appearance of surrounding structures"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "pelvis",
+        "kidney",
+        "renal lesion",
+        "cystic lesion",
+        "solid lesion",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "renal MRI",
+        "kidney lesions",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:29+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  },
+  "Case_04052/figure7.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure7.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial pelvic MRI showing a fluid collection with surrounding inflammation.",
+      "detailed_description": "This axial T2-weighted MRI image of the pelvis shows a hyperintense fluid collection in the midline, anterior to the sacrum, with surrounding hypointense areas suggestive of inflammation or edema. The collection is marked by arrows, indicating its location and extent. Adjacent structures, including pelvic musculature and osseous elements, appear intact. The findings are consistent with an abscess or localized infection.",
+      "visible_findings": [
+        "hyperintense fluid collection in the midline pelvis",
+        "surrounding hypointense areas indicating inflammation",
+        "arrows marking the lesion's location",
+        "adjacent pelvic structures appear intact"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "abscess",
+        "fluid collection",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "fluid collection",
+        "abscess in pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 252,
+      "total_tokens": 820
+    }
+  },
+  "Case_04052/figure8.jpg": {
+    "case_id": "Case_04052",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04052/figure8.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan showing a hepatic lesion with rim enhancement.",
+      "detailed_description": "This is an axial CT image of the abdomen, showing a liver lesion with a well-defined rim enhancement (indicated by arrows). The lesion appears hypodense centrally, suggesting necrosis or fluid content, and is surrounded by a hyperdense rim, consistent with an abscess. Adjacent liver parenchyma appears unremarkable. No obvious biliary dilation or other abnormalities are visible in this slice.",
+      "visible_findings": [
+        "rim-enhancing lesion in the liver",
+        "central hypodensity within the lesion",
+        "normal surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hepatic abscess",
+        "rim enhancement",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct of liver",
+        "hepatic abscess",
+        "rim-enhancing liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 239,
+      "total_tokens": 807
+    }
+  }
+}

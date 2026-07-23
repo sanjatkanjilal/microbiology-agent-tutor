@@ -1,0 +1,436 @@
+{
+  "Case_12007/figure10.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure10.jpg",
+    "source_caption": "Intra-operative digital photograph of the frontal cortex containing a posterior frontal fungal abscess.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:54:43+00:00"
+  },
+  "Case_12007/figure1.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing a right-sided pleural effusion with a chest tube in place.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. There is evidence of a right-sided pleural effusion, as indicated by the blunting of the right costophrenic angle and increased opacity in the right lower lung field. A chest tube is visible, with its tip positioned in the right pleural space. The bony structures, including the ribs and spine, are intact, and the cardiac silhouette appears shifted slightly to the left, likely due to the effusion.",
+      "visible_findings": [
+        "right-sided pleural effusion",
+        "chest tube in right pleural space",
+        "blunting of right costophrenic angle",
+        "increased opacity in right lower lung field",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pleural effusion",
+        "chest tube",
+        "thorax",
+        "costophrenic angle"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "chest tube placement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:50+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 292,
+      "total_tokens": 878
+    }
+  },
+  "Case_12007/figure11.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure11.jpg",
+    "figure_number": 11,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure11.jpg",
+    "source_caption": "Resected fungal abscess",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Resected abscess with possible fungal etiology.",
+      "detailed_description": "This image shows a resected mass consistent with an abscess, placed on a white gauze pad. The mass appears to be round, yellowish, and partially covered with blood. The surrounding gauze shows some blood staining. The image suggests a surgical removal, and the appearance is consistent with a possible fungal abscess, though further laboratory confirmation would be required.",
+      "visible_findings": [
+        "round yellowish mass",
+        "blood-stained gauze",
+        "surgical specimen appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abscess",
+        "fungal infection",
+        "surgical specimen",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "resected abscess",
+        "fungal abscess",
+        "surgical specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 220,
+      "total_tokens": 808
+    }
+  },
+  "Case_12007/figure2.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Coronal CT of the chest showing a large fluid collection in the left hemithorax.",
+      "detailed_description": "This coronal CT image of the chest demonstrates a large fluid collection occupying the majority of the left hemithorax, consistent with a pleural effusion. The mediastinum appears shifted to the right, suggesting mass effect from the effusion. The right lung appears aerated, while the left lung is compressed. Bony structures, including the ribs and spine, are visible and appear intact.",
+      "visible_findings": [
+        "large fluid collection in left hemithorax",
+        "mediastinal shift to the right",
+        "compressed left lung",
+        "aerated right lung",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "mediastinal shift",
+        "lung compression"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pleural effusion",
+        "fluid in chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:54+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 255,
+      "total_tokens": 842
+    }
+  },
+  "Case_12007/figure4.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure4.jpg",
+    "source_caption": "Axial T1-weighted MR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI of the brain with contrast.",
+      "detailed_description": "This axial T1-weighted MRI image of the brain shows a ring-enhancing lesion in the right frontal lobe, suggestive of an infectious or neoplastic process. The lesion demonstrates peripheral enhancement with central hypointensity, consistent with necrosis or fluid. Surrounding vasogenic edema is visible, causing mass effect on adjacent structures. The image is taken with contrast, as evidenced by the enhancement pattern.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right frontal lobe",
+        "central hypointensity within the lesion",
+        "surrounding vasogenic edema",
+        "mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "contrast",
+        "infection",
+        "neoplasm",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:55+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 251,
+      "total_tokens": 842
+    }
+  },
+  "Case_12007/figure3.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure3.jpg",
+    "source_caption": "Sagittal T1-weighted MR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Sagittal T1-weighted MRI showing ring-enhancing lesions in the brain.",
+      "detailed_description": "This sagittal T1-weighted MRI image demonstrates multiple ring-enhancing lesions in the brain parenchyma, most prominently in the frontal lobe. The lesions exhibit a characteristic hypointense center with a hyperintense rim, suggestive of a pathological process such as abscesses or neurocysticercosis. Surrounding edema is also visible, with mass effect on adjacent structures. The image is consistent with contrast-enhanced imaging.",
+      "visible_findings": [
+        "ring-enhancing lesions in the brain",
+        "hypointense centers with hyperintense rims",
+        "surrounding edema",
+        "mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "contrast",
+        "infection",
+        "abscess",
+        "neurocysticercosis"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:56+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 267,
+      "total_tokens": 859
+    }
+  },
+  "Case_12007/figure5.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure5.jpg",
+    "source_caption": "Biopsy of lesion.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing a ring-enhancing lesion.",
+      "detailed_description": "This axial T1-weighted MRI image with contrast shows a prominent ring-enhancing lesion in the left hemisphere near the cortical surface. The lesion has a central hypointense core surrounded by a hyperintense rim, consistent with a ring-enhancing pattern. There is associated mild surrounding edema, and the lesion appears to exert minimal mass effect on adjacent structures. This imaging finding is suggestive of an infectious or neoplastic process.",
+      "visible_findings": [
+        "ring-enhancing lesion in the left hemisphere",
+        "central hypointense core",
+        "hyperintense rim",
+        "mild surrounding edema",
+        "minimal mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "contrast",
+        "infection",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:58+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 248,
+      "total_tokens": 835
+    }
+  },
+  "Case_12007/figure6.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure6.jpg",
+    "source_caption": "H and E stain of brain lesion.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "H&E stain of brain lesion showing inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of brain tissue. The section reveals a dense inflammatory infiltrate composed predominantly of small, round, darkly stained nuclei, consistent with lymphocytes, interspersed with larger cells that may represent macrophages or reactive glial cells. The background appears edematous with some areas of tissue disruption. No clear organisms are visible in this field.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "lymphocyte-predominant cells",
+        "edematous background",
+        "tissue disruption"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "H&E stain",
+        "inflammation",
+        "lymphocytes",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "brain lesion histology",
+        "inflammatory brain pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:59+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  },
+  "Case_12007/figure8.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure8.jpg",
+    "source_caption": "Calcofluor stain of frontal abscess aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Calcofluor stain showing branching fungal hyphae.",
+      "detailed_description": "This image shows a Calcofluor white stain viewed under fluorescence microscopy. Brightly fluorescent, branching fungal hyphae are visible against a dark background. The hyphae exhibit septation and are consistent with a fungal organism. The stain highlights chitin in the fungal cell walls, aiding in visualization.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "fluorescent appearance",
+        "dark background",
+        "septation in hyphae"
+      ],
+      "keywords": [
+        "calcofluor stain",
+        "fluorescence microscopy",
+        "fungal hyphae",
+        "branching",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "calcofluor stain",
+        "fluorescent fungal hyphae",
+        "fungal microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:00+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 226,
+      "total_tokens": 820
+    }
+  },
+  "Case_12007/figure7.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure7.jpg",
+    "source_caption": "GMS stain of brain aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "GMS stain of brain aspirate showing fungal elements.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of a brain aspirate. The fungal elements are prominently stained black against a green background, with branching hyphae and yeast-like forms visible. The staining highlights the fungal structures, aiding in the identification of fungal infection within the brain tissue. The image is de-identified and used for educational purposes.",
+      "visible_findings": [
+        "black-stained fungal elements",
+        "branching hyphae",
+        "yeast-like forms",
+        "green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "brain",
+        "fungal infection",
+        "hyphae",
+        "yeast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection in brain",
+        "brain aspirate",
+        "fungal hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:01+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 244,
+      "total_tokens": 834
+    }
+  },
+  "Case_12007/figure9.jpg": {
+    "case_id": "Case_12007",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12007/figure9.jpg",
+    "source_caption": "Wet mount microscopy with multicellular conidia of Curvularia.",
+    "description": {
+      "modality": "wet mount microscopy",
+      "anatomical_site": null,
+      "short_caption": "Wet mount microscopy showing multicellular conidia of a fungal organism, consistent with Curvularia.",
+      "detailed_description": "This wet mount microscopy image demonstrates multicellular, curved conidia with transverse septations, characteristic of a fungal organism such as Curvularia. The conidia are brownish in color and exhibit a slightly curved or crescent shape. Surrounding hyphae are also visible, appearing as thin, filamentous structures. The image provides a clear view of fungal morphology under light microscopy.",
+      "visible_findings": [
+        "multicellular conidia with transverse septations",
+        "curved or crescent-shaped conidia",
+        "brownish pigmentation of conidia",
+        "filamentous hyphae in the background"
+      ],
+      "keywords": [
+        "wet mount",
+        "microscopy",
+        "fungus",
+        "conidia",
+        "Curvularia",
+        "hyphae",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wet mount microscopy",
+        "fungal conidia",
+        "Curvularia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:03+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 263,
+      "total_tokens": 859
+    }
+  }
+}

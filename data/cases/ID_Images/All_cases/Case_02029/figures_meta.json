@@ -1,0 +1,42 @@
+{
+  "Case_02029/figure1.jpg": {
+    "case_id": "Case_02029",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02029/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right arm",
+      "short_caption": "Small erythematous lesion with central punctum on the right arm.",
+      "detailed_description": "This clinical photograph shows the right arm of a patient, positioned on a hospital bed. A small, erythematous lesion with a central punctum is visible on the lateral aspect of the arm. The surrounding skin appears unremarkable, with no significant swelling or additional lesions. The lesion may suggest a localized infection, insect bite, or abscess formation.",
+      "visible_findings": [
+        "small erythematous lesion",
+        "central punctum",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "erythematous lesion",
+        "punctum",
+        "localized infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "arm infection",
+        "erythematous lesion with punctum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:03+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 223,
+      "total_tokens": 791
+    }
+  }
+}

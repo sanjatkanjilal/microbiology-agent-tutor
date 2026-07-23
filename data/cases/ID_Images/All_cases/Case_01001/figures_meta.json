@@ -1,0 +1,179 @@
+{
+  "Case_01001/figure1.jpg": {
+    "case_id": "Case_01001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01001/figure1.jpg",
+    "source_caption": "Physical findings on face.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:18:37+00:00"
+  },
+  "Case_01001/figure3.jpg": {
+    "case_id": "Case_01001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01001/figure3.jpg",
+    "source_caption": "Physical findings on extremity.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "extremity (likely lower leg)",
+      "short_caption": "Multiple umbilicated papules on the extremity.",
+      "detailed_description": "This clinical photograph shows a section of skin on an extremity, likely the lower leg, with multiple raised, dome-shaped papules. Many of the lesions are umbilicated, with central depressions. The surrounding skin appears intact, with no overt signs of erythema or inflammation. Hair follicles are visible, and the lesions are distributed irregularly across the area.",
+      "visible_findings": [
+        "multiple dome-shaped papules",
+        "umbilicated centers on lesions",
+        "irregular distribution",
+        "visible hair follicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "papules",
+        "umbilicated lesions",
+        "extremity"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "umbilicated papules",
+        "extremity lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:48+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 232,
+      "total_tokens": 820
+    }
+  },
+  "Case_01001/figure2.jpg": {
+    "case_id": "Case_01001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01001/figure2.jpg",
+    "source_caption": "Physical findings in mouth.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "oral cavity",
+      "short_caption": "Oral cavity showing multiple raised lesions on the hard palate and lips.",
+      "detailed_description": "This clinical photograph shows the open mouth of a patient with numerous raised, nodular lesions on the hard palate. The lesions are flesh-colored to slightly pink and vary in size. Similar lesions are visible on the lips and surrounding skin. The teeth appear partially visible, with some dental irregularities. The image suggests a systemic or infectious process involving mucocutaneous tissues.",
+      "visible_findings": [
+        "multiple raised nodular lesions on the hard palate",
+        "lesions on the lips and perioral skin",
+        "flesh-colored to pink nodules",
+        "dental irregularities"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "oral cavity",
+        "nodular lesions",
+        "mucocutaneous findings",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "mouth lesions",
+        "nodular lesions in mouth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:53+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 244,
+      "total_tokens": 831
+    }
+  },
+  "Case_01001/figure4.jpg": {
+    "case_id": "Case_01001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01001/figure4.jpg",
+    "source_caption": "Silver stain of skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Silver stain of a skin biopsy showing fungal elements.",
+      "detailed_description": "This image shows a silver-stained section of skin biopsy. The epidermis and dermis are visible, with fungal elements appearing as black, filamentous structures and round yeast-like forms. The background tissue is stained green, highlighting the contrast between the fungal organisms and the surrounding tissue. The stain is consistent with a Gomori methenamine silver (GMS) stain, commonly used to identify fungal organisms.",
+      "visible_findings": [
+        "black filamentous fungal structures",
+        "round yeast-like fungal forms",
+        "green-stained background tissue",
+        "layered architecture of skin"
+      ],
+      "keywords": [
+        "silver stain",
+        "skin",
+        "fungal infection",
+        "biopsy",
+        "histopathology",
+        "gomori methenamine silver"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "skin biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:53+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_01001/figure5.jpg": {
+    "case_id": "Case_01001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01001/figure5.jpg",
+    "source_caption": "Mucicarmine stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Mucicarmine stain highlighting intracellular and extracellular mucin-producing organisms in a biopsy.",
+      "detailed_description": "This image shows a mucicarmine-stained tissue biopsy. The stain highlights mucin in bright pink to red, with numerous round to oval structures consistent with mucin-producing organisms visible both intracellularly and extracellularly. The surrounding tissue architecture is preserved, with nuclei stained blue. The mucicarmine stain is commonly used to identify organisms such as Cryptococcus species that produce a polysaccharide capsule.",
+      "visible_findings": [
+        "bright pink to red mucin staining",
+        "round to oval structures consistent with organisms",
+        "blue-stained nuclei in surrounding tissue"
+      ],
+      "keywords": [
+        "mucicarmine stain",
+        "biopsy",
+        "cryptococcus",
+        "mucin",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "mucicarmine stain",
+        "biopsy of fungal infection",
+        "cryptococcus histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:54+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 256,
+      "total_tokens": 847
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Case_14009/figure2.jpg": {
+    "case_id": "Case_14009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14009/figure2.jpg",
+    "source_caption": "CT of the neck with contrast, coronal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Coronal CT of the neck with contrast showing soft tissue swelling.",
+      "detailed_description": "This is a coronal CT image of the neck with contrast. The image shows soft tissue swelling and asymmetry on the right side of the neck, with possible involvement of the deep cervical spaces. The contrast highlights vascular structures and enhances soft tissue differentiation. The trachea appears slightly deviated to the left, suggesting a mass effect or significant inflammation.",
+      "visible_findings": [
+        "soft tissue swelling on the right side of the neck",
+        "tracheal deviation to the left",
+        "contrast enhancement of vascular and soft tissue structures"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "contrast",
+        "soft tissue swelling",
+        "tracheal deviation"
+      ],
+      "reveal_triggers": [
+        "ct of the neck",
+        "neck swelling",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:38+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 225,
+      "total_tokens": 818
+    }
+  },
+  "Case_14009/figure1.jpg": {
+    "case_id": "Case_14009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14009/figure1.jpg",
+    "source_caption": "Subcutaneous to intra-abdominal abscess, HE stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "subcutaneous to intra-abdominal tissue",
+      "short_caption": "Histopathology of subcutaneous to intra-abdominal abscess, H&E stain.",
+      "detailed_description": "This histopathology image shows a high-power view of tissue stained with hematoxylin and eosin (H&E). The field contains numerous inflammatory cells, including neutrophils and lymphocytes, indicative of an abscess. There are also areas of necrosis and cellular debris, consistent with tissue destruction. The presence of these features suggests an infectious or inflammatory process.",
+      "visible_findings": [
+        "inflammatory infiltrate with neutrophils and lymphocytes",
+        "necrotic tissue",
+        "cellular debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "abscess",
+        "H&E stain",
+        "inflammation",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "histopathology of abscess",
+        "subcutaneous infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:38+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 238,
+      "total_tokens": 832
+    }
+  },
+  "Case_14009/figure4.jpg": {
+    "case_id": "Case_14009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14009/figure4.jpg",
+    "source_caption": "Right thigh mass, HE stain, high power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "right thigh",
+      "short_caption": "Histopathology of right thigh mass, HE stain, high power view.",
+      "detailed_description": "This histopathology image shows a high-power view of tissue stained with hematoxylin and eosin (HE). The field is densely populated with small, round to oval cells exhibiting hyperchromatic nuclei and scant cytoplasm, consistent with a monomorphic population. Occasional mitotic figures are visible, suggesting high cellular turnover. There is minimal stromal component, and the architecture appears disrupted, indicative of a neoplastic process.",
+      "visible_findings": [
+        "dense population of small, round to oval cells",
+        "hyperchromatic nuclei",
+        "scant cytoplasm",
+        "occasional mitotic figures",
+        "disrupted architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "thigh mass",
+        "HE stain",
+        "high power",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "HE stain",
+        "thigh biopsy",
+        "neoplastic process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:44+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 258,
+      "total_tokens": 850
+    }
+  },
+  "Case_14009/figure3.jpg": {
+    "case_id": "Case_14009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14009/figure3.jpg",
+    "source_caption": "Left neck mass, HE stain, high power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "left neck mass",
+      "short_caption": "Histopathology of left neck mass, H&E stain, high power.",
+      "detailed_description": "This high-power histopathology image shows a dense infiltrate of small, darkly staining lymphoid cells. Scattered among them are large, oval, eosinophilic structures consistent with yeast forms, some of which exhibit a characteristic broad-based budding morphology. The background is composed of a mix of inflammatory cells and necrotic debris. The tissue is stained with hematoxylin and eosin (H&E), highlighting the fungal elements and cellular architecture.",
+      "visible_findings": [
+        "dense lymphoid infiltrate",
+        "large eosinophilic yeast forms",
+        "broad-based budding morphology",
+        "inflammatory cells and necrotic debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "neck mass",
+        "h&e stain",
+        "fungal infection",
+        "broad-based budding",
+        "yeast"
+      ],
+      "reveal_triggers": [
+        "histopathology of neck mass",
+        "h&e stain of fungal infection",
+        "broad-based budding yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:48+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 272,
+      "total_tokens": 864
+    }
+  }
+}

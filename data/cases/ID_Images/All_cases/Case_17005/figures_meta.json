@@ -1,0 +1,179 @@
+{
+  "Case_17005/figure1.jpg": {
+    "case_id": "Case_17005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17005/figure1.jpg",
+    "source_caption": "Figure 1: Penile ulcer.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:59:59+00:00"
+  },
+  "Case_17005/figure2.jpg": {
+    "case_id": "Case_17005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17005/figure2.jpg",
+    "source_caption": "Figure 2a: CT of chest. Nonspecific diffuse bilateral miliary micronodular lung parenchymal process involving the visualized lower lungs.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing diffuse bilateral miliary micronodular lung opacities.",
+      "detailed_description": "This axial CT image of the chest demonstrates diffuse bilateral micronodular opacities throughout the lung parenchyma. The nodules are small and evenly distributed, consistent with a miliary pattern. The trachea and mediastinal structures appear midline, and no significant pleural effusion or lymphadenopathy is evident in this slice. The findings suggest a diffuse process, potentially infectious or granulomatous in nature.",
+      "visible_findings": [
+        "diffuse bilateral micronodular opacities",
+        "miliary pattern in lung parenchyma",
+        "no significant pleural effusion",
+        "midline trachea and mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "miliary pattern",
+        "micronodules",
+        "diffuse opacities"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "miliary pattern",
+        "diffuse lung nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:14+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 269,
+      "total_tokens": 882
+    }
+  },
+  "Case_17005/figure4.jpg": {
+    "case_id": "Case_17005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17005/figure4.jpg",
+    "source_caption": "Figure 3a: Plate showing initially white and then light brown mold.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal culture showing white to light brown mold growth.",
+      "detailed_description": "This image shows a culture plate with fungal growth. The colony appears initially white in the center, transitioning to a light brown color at the edges. The texture is fluffy and irregular, consistent with mold growth. The plate background is dark, enhancing the visibility of the fungal colony.",
+      "visible_findings": [
+        "white central fungal colony",
+        "light brown peripheral growth",
+        "fluffy and irregular texture",
+        "dark background of culture plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "mold",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "mold on plate",
+        "microbiology culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:15+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 206,
+      "total_tokens": 803
+    }
+  },
+  "Case_17005/figure3.jpg": {
+    "case_id": "Case_17005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17005/figure3.jpg",
+    "source_caption": "Figure 2b: CT of chest. Pleural-based nodular density associated with the posterior medial right lower lobe and mildly enlarged sub-carinal mediastinal lymph nodes",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing pleural-based nodular density in the posterior medial right lower lobe.",
+      "detailed_description": "This axial CT image of the chest shows a pleural-based nodular density located in the posterior medial aspect of the right lower lobe. There is also evidence of mildly enlarged sub-carinal mediastinal lymph nodes. The lung parenchyma appears otherwise unremarkable, and no significant pleural effusion is visible. The image is a non-contrast study, as no enhancement is noted.",
+      "visible_findings": [
+        "pleural-based nodular density in posterior medial right lower lobe",
+        "mildly enlarged sub-carinal mediastinal lymph nodes",
+        "no significant pleural effusion",
+        "normal lung parenchyma otherwise"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural nodule",
+        "mediastinal lymphadenopathy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "pleural nodule",
+        "mediastinal lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:17+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 266,
+      "total_tokens": 884
+    }
+  },
+  "Case_17005/figure5.jpg": {
+    "case_id": "Case_17005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17005/figure5.jpg",
+    "source_caption": "Figure 3b: Plate showing initially white and then light brown mold.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Culture plate showing mold colonies with white to light brown coloration.",
+      "detailed_description": "This image depicts a culture plate with multiple mold colonies. The colonies are initially white and transition to a light brown color, with a fuzzy texture characteristic of mold growth. The plate is labeled with pH and expiration date information, suggesting it is a Sabouraud dextrose agar or similar medium used for fungal culture. The colonies are distributed irregularly across the plate.",
+      "visible_findings": [
+        "white to light brown mold colonies",
+        "fuzzy texture of colonies",
+        "irregular distribution of colonies",
+        "labeling on the plate indicating pH and expiration date"
+      ],
+      "keywords": [
+        "culture plate",
+        "mold",
+        "fungal growth",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "mold on culture plate",
+        "microbiology lab findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:22+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 237,
+      "total_tokens": 834
+    }
+  }
+}

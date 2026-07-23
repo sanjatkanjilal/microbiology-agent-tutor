@@ -1,0 +1,129 @@
+{
+  "Case_03002/figure2.jpg": {
+    "case_id": "Case_03002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03002/figure2.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT scan of the head showing diffuse abnormalities.",
+      "detailed_description": "This axial CT image of the head demonstrates diffuse areas of abnormal density, potentially consistent with edema or infiltrative processes. The ventricles appear compressed, and there is a lack of normal differentiation between gray and white matter. No evidence of midline shift is visible. The image is presented without contrast.",
+      "visible_findings": [
+        "diffuse abnormal density in brain parenchyma",
+        "compression of ventricles",
+        "loss of gray-white matter differentiation",
+        "no midline shift"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "brain",
+        "edema",
+        "ventricles",
+        "gray-white differentiation"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "brain imaging",
+        "neurological infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:40+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 214,
+      "total_tokens": 800
+    }
+  },
+  "Case_03002/figure3.jpg": {
+    "case_id": "Case_03002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03002/figure3.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT scan of the head showing hypodense lesions.",
+      "detailed_description": "This axial non-contrast CT scan of the head demonstrates multiple hypodense lesions in the brain parenchyma, some of which appear rounded and well-defined. The lesions are distributed bilaterally and may suggest infectious or neoplastic processes. The scan provides good contrast between the brain tissue and the lesions, with no evidence of midline shift or acute hemorrhage.",
+      "visible_findings": [
+        "multiple hypodense lesions in brain parenchyma",
+        "bilateral distribution of lesions",
+        "no midline shift",
+        "no acute hemorrhage"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "brain",
+        "lesions",
+        "hypodense",
+        "infectious diseases",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "head CT",
+        "brain lesions",
+        "neuroimaging for infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:45+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  },
+  "Case_03002/figure1.jpg": {
+    "case_id": "Case_03002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03002/figure1.jpg",
+    "source_caption": "Head CT scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain.",
+      "detailed_description": "This is an axial T2-weighted MRI of the brain, showing symmetrical structures with hyperintense signal in the bilateral basal ganglia region. The ventricles appear normal in size and shape. No obvious mass effect or midline shift is visible. The hyperintense areas may suggest edema, ischemia, or other pathological processes.",
+      "visible_findings": [
+        "hyperintense signal in bilateral basal ganglia",
+        "normal ventricular size and shape",
+        "no midline shift",
+        "no obvious mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "basal ganglia",
+        "hyperintense",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:46+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 233,
+      "total_tokens": 819
+    }
+  }
+}

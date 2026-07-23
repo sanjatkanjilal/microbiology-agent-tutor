@@ -1,0 +1,85 @@
+{
+  "Case_03034/figure1.jpg": {
+    "case_id": "Case_03034",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03034/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous plaques and nodules on the back.",
+      "detailed_description": "This clinical photograph shows the upper back of a patient with multiple erythematous, violaceous plaques and nodules. The lesions are irregularly shaped and raised, with some areas appearing more inflamed. The surrounding skin shows mild erythema but is otherwise intact. The distribution appears scattered and asymmetrical.",
+      "visible_findings": [
+        "erythematous plaques",
+        "violaceous nodules",
+        "irregular lesion shapes",
+        "scattered distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "erythematous plaques",
+        "nodules",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "erythematous plaques"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:51+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 214,
+      "total_tokens": 782
+    }
+  },
+  "Case_03034/figure2.jpg": {
+    "case_id": "Case_03034",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03034/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thighs and buttocks",
+      "short_caption": "Erythematous plaques on thighs and buttocks.",
+      "detailed_description": "This clinical photograph shows multiple erythematous, well-demarcated plaques on the inner thighs and buttocks. The lesions vary in size and are slightly raised, with some appearing more violaceous. The distribution suggests involvement of the proximal thighs and perineal region.",
+      "visible_findings": [
+        "erythematous plaques",
+        "well-demarcated lesions",
+        "slightly raised lesions",
+        "violaceous discoloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thighs",
+        "buttocks",
+        "erythematous plaques",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "erythematous plaques",
+        "thigh rash",
+        "buttocks rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:57+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  }
+}

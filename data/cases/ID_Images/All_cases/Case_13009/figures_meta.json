@@ -1,0 +1,165 @@
+{
+  "Case_13009/figure1.jpg": {
+    "case_id": "Case_13009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13009/figure1.jpg",
+    "source_caption": "Radiograph of the right knee with effusion.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "right knee",
+      "short_caption": "Lateral radiograph of the right knee showing effusion.",
+      "detailed_description": "This is a lateral radiograph of the right knee. The image demonstrates a soft tissue density in the suprapatellar region, consistent with joint effusion. The bony structures, including the femur, tibia, and patella, appear intact without evidence of fracture or dislocation. The joint space is preserved, and no obvious lytic or sclerotic lesions are visible.",
+      "visible_findings": [
+        "soft tissue density in suprapatellar region",
+        "intact bony structures",
+        "preserved joint space",
+        "no lytic or sclerotic lesions"
+      ],
+      "keywords": [
+        "radiograph",
+        "knee",
+        "effusion",
+        "lateral view",
+        "right knee"
+      ],
+      "reveal_triggers": [
+        "knee x-ray",
+        "lateral knee radiograph",
+        "right knee effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:06+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 242,
+      "total_tokens": 834
+    }
+  },
+  "Case_13009/figure2.jpg": {
+    "case_id": "Case_13009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13009/figure2.jpg",
+    "source_caption": "Culture plate of growth in anaerobic bottle of joint fluid.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "joint fluid (source of inoculum)",
+      "short_caption": "Culture plate showing growth from anaerobic bottle of joint fluid.",
+      "detailed_description": "This image shows a culture plate with visible growth streaks on the surface of the agar. The plate appears to have been inoculated with material from an anaerobic bottle, likely joint fluid. The growth is subtle and evenly distributed, suggesting a bacterial culture. The lighting highlights the texture and streaking pattern, which is consistent with microbial growth.",
+      "visible_findings": [
+        "culture plate with agar medium",
+        "visible streaks indicating microbial growth",
+        "even distribution of growth on the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "joint fluid",
+        "anaerobic growth",
+        "bacterial culture",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "joint fluid culture",
+        "anaerobic bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:09+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 226,
+      "total_tokens": 820
+    }
+  },
+  "Case_13009/figure3.jpg": {
+    "case_id": "Case_13009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13009/figure3.jpg",
+    "source_caption": "Culture growth from anaerobic bottle of joint fluid (4x magnification).",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "joint fluid",
+      "short_caption": "Culture growth from anaerobic bottle of joint fluid at 4x magnification.",
+      "detailed_description": "The image shows a culture plate with visible growth under 4x magnification. The background is a uniform yellowish hue, and circular structures of varying sizes are scattered throughout the field. These structures appear to be colonies or microbial growth, consistent with culture from an anaerobic environment. The uniformity of the background and the distinct circular colonies suggest a controlled culture environment.",
+      "visible_findings": [
+        "yellowish background",
+        "circular colonies of varying sizes",
+        "even distribution of colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "joint fluid",
+        "anaerobic culture",
+        "microbial growth",
+        "4x magnification"
+      ],
+      "reveal_triggers": [
+        "culture growth",
+        "anaerobic bottle",
+        "joint fluid culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:11+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 225,
+      "total_tokens": 822
+    }
+  },
+  "Case_13009/figure4.jpg": {
+    "case_id": "Case_13009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13009/figure4.jpg",
+    "source_caption": "Colonies of Mycoplasma species (10x magnification) on ureaplasma differential agar (A7).",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Colonies of Mycoplasma species on ureaplasma differential agar (A7).",
+      "detailed_description": "This image shows a culture plate with multiple small, circular colonies of Mycoplasma species on ureaplasma differential agar (A7). The colonies exhibit a characteristic 'fried egg' appearance, with a dense central zone and a lighter peripheral zone. The background agar is smooth and uniform, with visible streak lines from inoculation. The image is taken at 10x magnification, highlighting the colony morphology.",
+      "visible_findings": [
+        "Small, circular colonies with 'fried egg' morphology.",
+        "Dense central zone in colonies.",
+        "Lighter peripheral zone in colonies.",
+        "Smooth agar background with streak lines."
+      ],
+      "keywords": [
+        "culture plate",
+        "mycoplasma",
+        "ureaplasma differential agar",
+        "fried egg colonies",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "mycoplasma culture",
+        "ureaplasma agar",
+        "fried egg colonies",
+        "bacterial culture morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:12+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 266,
+      "total_tokens": 873
+    }
+  }
+}

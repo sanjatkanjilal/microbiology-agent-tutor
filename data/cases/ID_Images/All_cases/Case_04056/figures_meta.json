@@ -1,0 +1,127 @@
+{
+  "Case_04056/figure1.jpg": {
+    "case_id": "Case_04056",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04056/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood",
+      "short_caption": "Gram stain showing budding yeast forms and pseudohyphae.",
+      "detailed_description": "This image shows a Gram stain of a blood sample with numerous round to oval yeast forms, some of which are budding. Pseudohyphae are also visible, characterized by elongated yeast cells connected end-to-end. The background contains scattered white blood cells and red blood cells. The image suggests a fungal infection, potentially candidemia.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "budding yeast",
+        "pseudohyphae",
+        "scattered white blood cells",
+        "red blood cells in the background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood",
+        "yeast",
+        "fungal infection",
+        "pseudohyphae",
+        "budding"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood",
+        "fungal infection",
+        "yeast in blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_04056/figure3.jpg": {
+    "case_id": "Case_04056",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04056/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a high-power microscopic image of a stained peripheral blood smear. The image shows numerous red blood cells, with some containing intraerythrocytic ring forms, which are characteristic of certain parasitic infections such as malaria. The ring forms are small, round to oval, and have a central vacuole with a thin rim of cytoplasm, often with a visible chromatin dot. The background appears clear, with occasional leukocytes visible.",
+      "visible_findings": [
+        "red blood cells with intraerythrocytic ring forms",
+        "ring forms with central vacuole and chromatin dot",
+        "occasional leukocytes in the background"
+      ],
+      "keywords": [
+        "blood smear",
+        "ring forms",
+        "malaria",
+        "parasitic infection",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms",
+        "malaria diagnosis",
+        "microscopic examination of blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:51+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 258,
+      "total_tokens": 826
+    }
+  },
+  "Case_04056/figure2.jpg": {
+    "case_id": "Case_04056",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04056/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral blood smear showing intracellular and extracellular yeast forms.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear stained with a hematologic stain (e.g., Giemsa or Wright stain). The smear shows numerous round yeast forms, some of which are intracellular within a white blood cell, while others are extracellular. The yeast forms are uniform in size and shape, with some showing a central clearing. The background consists of red blood cells and a single prominent white blood cell.",
+      "visible_findings": [
+        "intracellular yeast forms within a white blood cell",
+        "extracellular yeast forms",
+        "round yeast forms with central clearing",
+        "red blood cells in the background"
+      ],
+      "keywords": [
+        "blood smear",
+        "yeast",
+        "intracellular organisms",
+        "hematologic stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "yeast in blood",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 248,
+      "total_tokens": 816
+    }
+  }
+}

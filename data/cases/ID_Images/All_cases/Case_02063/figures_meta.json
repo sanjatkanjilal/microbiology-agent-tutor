@@ -1,0 +1,85 @@
+{
+  "Case_02063/figure1.jpg": {
+    "case_id": "Case_02063",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02063/figure1.jpg",
+    "source_caption": "Physical findings. Figure 2. Rash on torso.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palm of the hand",
+      "short_caption": "Diffuse petechial rash on the palm.",
+      "detailed_description": "This image shows the palm of a hand with a diffuse, non-blanching petechial rash. The lesions are small, round, and red to purple in color, distributed across the entire palm. The background skin tone appears normal, and there are no visible signs of swelling or ulceration. The findings suggest a systemic process, possibly involving vascular or infectious etiologies.",
+      "visible_findings": [
+        "diffuse petechial rash",
+        "non-blanching lesions",
+        "red to purple discoloration",
+        "no visible swelling or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palm",
+        "rash",
+        "petechiae",
+        "infectious diseases",
+        "vascular lesions"
+      ],
+      "reveal_triggers": [
+        "rash on hand",
+        "petechial rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:17+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 238,
+      "total_tokens": 831
+    }
+  },
+  "Case_02063/figure2.jpg": {
+    "case_id": "Case_02063",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02063/figure2.jpg",
+    "source_caption": "Rash on torso.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso",
+      "short_caption": "Erythematous maculopapular rash on the torso.",
+      "detailed_description": "This clinical photograph shows the anterior torso of a patient with numerous erythematous maculopapular lesions distributed across the skin. The lesions vary in size and are scattered without a clear pattern. The umbilicus is visible centrally, and the rash appears to spare deeper skin folds. The image is well-lit and provides a clear view of the skin findings.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "scattered distribution",
+        "involvement of anterior torso",
+        "no apparent vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "torso",
+        "rash",
+        "maculopapular",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "rash on torso",
+        "skin lesions",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:18+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  }
+}

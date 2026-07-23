@@ -1,0 +1,292 @@
+{
+  "Case_02046/figure1.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing intra-abdominal findings.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large fluid collection with gas locules in the left upper quadrant, suggestive of an abscess. The liver and spleen are visible, with the fluid collection located adjacent to the spleen. The presence of gas within the collection suggests a possible infectious etiology. The scan is performed without visible contrast enhancement.",
+      "visible_findings": [
+        "large fluid collection in the left upper quadrant",
+        "gas locules within the fluid collection",
+        "adjacent liver and spleen visible",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid collection",
+        "gas locules",
+        "abscess",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "intra-abdominal abscess",
+        "infectious diseases imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:54+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_02046/figure3.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure3.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing multiple fluid-filled structures and abnormal findings.",
+      "detailed_description": "This axial abdominal CT scan reveals multiple fluid-filled structures, some with air-fluid levels, suggesting abscess formation or infected cysts. The scan also shows surrounding soft tissue changes, likely indicative of inflammation. The image is de-identified and includes clear visualization of abdominal organs and pathological findings.",
+      "visible_findings": [
+        "fluid-filled structures in the abdomen",
+        "air-fluid levels",
+        "soft tissue changes suggesting inflammation",
+        "abnormal organ appearance"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid-filled structures",
+        "abscess",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "infected cyst",
+        "abscess in abdomen"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:58+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 212,
+      "total_tokens": 799
+    }
+  },
+  "Case_02046/figure5.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure5.jpg",
+    "source_caption": "Contrast-enhanced chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Contrast-enhanced chest CT scan showing pulmonary findings.",
+      "detailed_description": "This is an axial view of a contrast-enhanced chest CT scan. The pulmonary vasculature is well visualized, and there are no obvious large consolidations, masses, or pleural effusions. The bronchi and lung parenchyma appear symmetric. The mediastinal structures, including the heart and great vessels, are centrally located and appear normal in size and position. The contrast enhancement highlights the vascular structures, aiding in the assessment of potential abnormalities.",
+      "visible_findings": [
+        "contrast-enhanced pulmonary vasculature",
+        "no large consolidations",
+        "no pleural effusions",
+        "symmetric lung parenchyma",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "contrast",
+        "lungs",
+        "pulmonary vasculature",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "contrast-enhanced ct",
+        "pulmonary imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:00+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 260,
+      "total_tokens": 849
+    }
+  },
+  "Case_02046/figure6.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure6.jpg",
+    "source_caption": "Gram stain of peri-hepatic drainage.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "peri-hepatic drainage",
+      "short_caption": "Gram stain showing gram-positive bacilli in peri-hepatic drainage.",
+      "detailed_description": "This is a Gram stain image showing a background of cellular debris and scattered gram-positive bacilli, which appear as purple rod-shaped organisms against an orange-pink background. The organisms are arranged singly and in short chains. The staining technique highlights the bacterial morphology and suggests the presence of gram-positive bacteria in the peri-hepatic drainage sample.",
+      "visible_findings": [
+        "purple rod-shaped organisms (gram-positive bacilli)",
+        "background of cellular debris",
+        "bacteria arranged singly and in short chains"
+      ],
+      "keywords": [
+        "gram stain",
+        "peri-hepatic drainage",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "bacterial morphology"
+      ],
+      "reveal_triggers": [
+        "gram stain of peri-hepatic drainage",
+        "bacterial infection",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:00+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 236,
+      "total_tokens": 827
+    }
+  },
+  "Case_02046/figure7.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure7.jpg",
+    "source_caption": "Gram stain of peri-hepatic drainage.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "peri-hepatic drainage",
+      "short_caption": "Gram stain showing gram-positive bacilli in peri-hepatic drainage.",
+      "detailed_description": "This image shows a Gram stain of a sample from peri-hepatic drainage. Numerous gram-positive bacilli, appearing as purple rod-shaped organisms, are visible against a background of pink-stained material and cellular debris. The staining highlights the bacterial morphology, with no clear clustering or spore formation evident. The image suggests a bacterial infection involving gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive bacilli (purple rods)",
+        "background of pink-stained material",
+        "cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "peri-hepatic drainage",
+        "gram-positive bacilli",
+        "bacterial infection",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of peri-hepatic drainage",
+        "bacterial infection",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:01+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 234,
+      "total_tokens": 825
+    }
+  },
+  "Case_02046/figure4.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure4.jpg",
+    "source_caption": "Electrocardiogram.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "12-lead ECG showing electrical activity of the heart.",
+      "detailed_description": "This is a 12-lead electrocardiogram (ECG) tracing showing the electrical activity of the heart. The leads are labeled as I, II, III, aVR, aVL, aVF, and V1-V6. The tracing shows regular rhythm with visible P waves, QRS complexes, and T waves. Measurements such as heart rate, PR interval, QRS duration, and QTc are listed at the top of the image. The ECG grid provides a standard format for analyzing the waveform morphology and intervals.",
+      "visible_findings": [
+        "12-lead ECG format",
+        "regular rhythm",
+        "visible P waves, QRS complexes, and T waves",
+        "measurement data at the top of the image"
+      ],
+      "keywords": [
+        "ecg",
+        "heart",
+        "cardiology",
+        "electrical activity",
+        "12-lead"
+      ],
+      "reveal_triggers": [
+        "ecg",
+        "electrocardiogram",
+        "heart rhythm tracing"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:01+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 267,
+      "total_tokens": 854
+    }
+  },
+  "Case_02046/figure2.jpg": {
+    "case_id": "Case_02046",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02046/figure2.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing a large hypodense lesion in the liver.",
+      "detailed_description": "This axial abdominal CT scan reveals a large, well-defined hypodense lesion in the liver, suggestive of an abscess or cyst. Adjacent bowel loops and other abdominal structures are visible, with no clear evidence of bowel obstruction. The scan appears to be performed without intravenous contrast, as there is no enhancement of vascular structures or the lesion. The vertebral body and paraspinal structures are also partially visible.",
+      "visible_findings": [
+        "large hypodense lesion in the liver",
+        "adjacent bowel loops visible",
+        "no evidence of bowel obstruction",
+        "vertebral body and paraspinal structures partially visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesion",
+        "abscess",
+        "cyst"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "hypodense liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 253,
+      "total_tokens": 840
+    }
+  }
+}

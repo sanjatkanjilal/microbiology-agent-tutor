@@ -1,0 +1,251 @@
+{
+  "Case_21005/figure1.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure1.jpg",
+    "source_caption": "CT scan of chest. Stable consolidation of the right lower lobe with surrounding ground glass with a focal cavitation in the right lower lobe consolidation and subcarinal and paraesophageal lymphadenopathy",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing right lower lobe consolidation with cavitation and surrounding ground-glass opacities.",
+      "detailed_description": "This axial CT image of the chest demonstrates a dense consolidation in the right lower lobe with a focal cavitary lesion within it. Surrounding the consolidation, there are areas of ground-glass opacities. Mild subcarinal and paraesophageal lymphadenopathy is also visible. The image is taken without contrast, as evidenced by the uniform density of the mediastinal structures.",
+      "visible_findings": [
+        "right lower lobe consolidation",
+        "focal cavitation within consolidation",
+        "surrounding ground-glass opacities",
+        "subcarinal lymphadenopathy",
+        "paraesophageal lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "consolidation",
+        "cavitation",
+        "ground-glass opacities",
+        "lymphadenopathy"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung consolidation",
+        "cavitary lesion",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:06+00:00",
+    "usage": {
+      "prompt_tokens": 623,
+      "completion_tokens": 270,
+      "total_tokens": 893
+    }
+  },
+  "Case_21005/figure5.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure5.jpg",
+    "source_caption": "MRI of brain with gadolinium. Ring-enhancing lesions of the supra and infra-tentorial brain parenchyma, splenium of the corpus callosum, left caudate nucleus, brain stem and right cerebellum the largest being 1.5 cm. Supratentorial lesions shown.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain with gadolinium showing multiple ring-enhancing lesions in the supratentorial region.",
+      "detailed_description": "This axial T1-weighted MRI image with gadolinium contrast demonstrates multiple ring-enhancing lesions in the supratentorial brain parenchyma. The lesions are well-circumscribed, with the largest measuring approximately 1.5 cm. They are located in the splenium of the corpus callosum, left caudate nucleus, and adjacent regions. The surrounding brain parenchyma appears edematous, and the lesions exhibit a characteristic ring-enhancing pattern suggestive of a central necrotic or cystic component.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "largest lesion approximately 1.5 cm",
+        "lesions in the splenium of the corpus callosum and left caudate nucleus",
+        "surrounding edema"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "gadolinium",
+        "supratentorial",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "gadolinium contrast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:06+00:00",
+    "usage": {
+      "prompt_tokens": 648,
+      "completion_tokens": 296,
+      "total_tokens": 944
+    }
+  },
+  "Case_21005/figure4.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure4.jpg",
+    "source_caption": "Figure 2C. Cauda equina nerve roots are clumped most prominently at the L1-L3 level without nerve root enhancement",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "MRI of the lumbar spine showing clumped cauda equina nerve roots at L1-L3.",
+      "detailed_description": "This axial T2-weighted MRI image of the lumbar spine demonstrates clumping of the cauda equina nerve roots, most prominently at the L1-L3 level. The nerve roots appear adherent and lack normal dispersion within the thecal sac. No significant nerve root enhancement is visible, and there is no evidence of mass effect or abnormal contrast uptake.",
+      "visible_findings": [
+        "clumped cauda equina nerve roots",
+        "prominent changes at L1-L3 level",
+        "absence of nerve root enhancement",
+        "normal surrounding bony structures"
+      ],
+      "keywords": [
+        "mri",
+        "lumbar spine",
+        "cauda equina",
+        "nerve root clumping",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "lumbar spine MRI",
+        "cauda equina syndrome",
+        "nerve root clumping"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:07+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 252,
+      "total_tokens": 862
+    }
+  },
+  "Case_21005/figure2.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure2.jpg",
+    "source_caption": "Figure 2A. MRI of spine with gadolinium. Intramedullary peripherally enhancing lesion seen in the spinal cord from T12 to L1",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "MRI of spine with gadolinium showing an intramedullary peripherally enhancing lesion at T12-L1.",
+      "detailed_description": "This sagittal T1-weighted MRI image with gadolinium contrast demonstrates a peripherally enhancing lesion within the spinal cord at the T12-L1 level. The lesion appears intramedullary and shows a ring-like enhancement pattern, suggesting possible infection, inflammation, or neoplasm. Surrounding spinal structures, including vertebrae and intervertebral discs, appear intact without significant deformity.",
+      "visible_findings": [
+        "peripherally enhancing lesion in the spinal cord at T12-L1",
+        "ring-like enhancement pattern",
+        "intact vertebrae and intervertebral discs"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "gadolinium",
+        "intramedullary lesion",
+        "t12-l1",
+        "contrast enhancement"
+      ],
+      "reveal_triggers": [
+        "spinal MRI",
+        "contrast-enhanced MRI",
+        "spinal cord lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:09+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 261,
+      "total_tokens": 877
+    }
+  },
+  "Case_21005/figure3.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure3.jpg",
+    "source_caption": "MRI of brain with gadolinium. Ring-enhancing lesions of the supra and infra-tentorial brain parenchyma, splenium of the corpus callosum, left caudate nucleus, brain stem and right cerebellum the largest being 1.5 cm. Supratentorial lesions shown.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "MRI of the spine showing a large paraspinal lesion.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the spine. A large, well-defined lesion is visible in the right paraspinal region, appearing hyperintense relative to surrounding tissues. The spinal cord and vertebral structures are visible in the midline, with no obvious compression or displacement. The lesion's size and location suggest a pathological process, potentially infectious or neoplastic in nature.",
+      "visible_findings": [
+        "large hyperintense paraspinal lesion on the right",
+        "spinal cord visible in the midline",
+        "no obvious spinal cord compression"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "paraspinal lesion",
+        "t2-weighted",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "paraspinal lesion",
+        "infectious spine pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:11+00:00",
+    "usage": {
+      "prompt_tokens": 648,
+      "completion_tokens": 240,
+      "total_tokens": 888
+    }
+  },
+  "Case_21005/figure6.jpg": {
+    "case_id": "Case_21005",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21005/figure6.jpg",
+    "source_caption": "Gram stain of brain biopsy. Beaded, branching gram positive rods",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Gram stain of brain biopsy showing beaded, branching gram-positive rods.",
+      "detailed_description": "This gram stain image of a brain biopsy shows numerous pink-stained background cells and structures, consistent with tissue. Within the circled area, there are beaded, branching gram-positive rods, which are stained purple. These findings are suggestive of filamentous bacteria, such as Nocardia species. The image highlights the diagnostic morphology of the organism against the tissue background.",
+      "visible_findings": [
+        "beaded, branching gram-positive rods",
+        "pink-stained background tissue",
+        "circled area emphasizing the organism"
+      ],
+      "keywords": [
+        "gram stain",
+        "brain biopsy",
+        "gram-positive rods",
+        "branching bacteria",
+        "nocardia",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of brain biopsy",
+        "branching gram-positive rods",
+        "nocardia infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:19+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 235,
+      "total_tokens": 831
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "Case_07024/figure1.jpg": {
+    "case_id": "Case_07024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07024/figure1.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing abdominal organs and a possible abnormality in the left kidney.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates the liver, spleen, kidneys, and surrounding structures. There is a notable hypodense lesion in the left kidney, which may represent a cyst or other pathology. The surrounding soft tissues and bowel loops appear unremarkable. The scan is performed with contrast, as evidenced by the enhancement of vascular structures.",
+      "visible_findings": [
+        "hypodense lesion in the left kidney",
+        "contrast-enhanced vascular structures",
+        "normal appearance of liver and spleen",
+        "no obvious bowel abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidney lesion",
+        "contrast",
+        "hypodense"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "kidney lesion",
+        "contrast-enhanced CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:37+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_07024/figure2.jpg": {
+    "case_id": "Case_07024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07024/figure2.jpg",
+    "source_caption": "CT of the lower thorax.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "lower thorax",
+      "short_caption": "CT of the lower thorax showing a fluid collection in the pleural space.",
+      "detailed_description": "This axial CT image of the lower thorax demonstrates a large fluid collection in the left pleural space, consistent with a pleural effusion. The heart is visible in the midline, and the adjacent lung parenchyma appears compressed. The right lung field appears aerated. No obvious bony abnormalities or masses are seen in this slice.",
+      "visible_findings": [
+        "large fluid collection in the left pleural space",
+        "compressed left lung parenchyma",
+        "aerated right lung field",
+        "heart in midline position"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "pleural effusion",
+        "fluid collection",
+        "lung compression"
+      ],
+      "reveal_triggers": [
+        "ct of thorax",
+        "pleural effusion",
+        "fluid in chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:45+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 237,
+      "total_tokens": 826
+    }
+  },
+  "Case_07024/figure3.jpg": {
+    "case_id": "Case_07024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07024/figure3.jpg",
+    "source_caption": "Gram stain of aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing filamentous branching structures and inflammatory cells.",
+      "detailed_description": "This is a Gram stain image showing a dense cluster of filamentous, branching structures stained purple, consistent with Gram-positive organisms. Surrounding the cluster are scattered inflammatory cells, including neutrophils, with their nuclei visible. The background is pink, indicating the counterstain. The morphology suggests a filamentous bacterium, possibly Actinomyces or Nocardia, but further identification would require culture or molecular testing.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "purple-stained Gram-positive organisms",
+        "scattered inflammatory cells",
+        "pink counterstained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "filamentous bacteria",
+        "branching structures",
+        "inflammatory cells",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "filamentous bacteria",
+        "branching organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 243,
+      "total_tokens": 831
+    }
+  }
+}

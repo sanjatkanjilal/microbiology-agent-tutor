@@ -1,0 +1,125 @@
+{
+  "Case_02015/figure1.jpg": {
+    "case_id": "Case_02015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02015/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colony growth on a blood agar plate.",
+      "detailed_description": "This image shows a blood agar plate with a large, irregularly shaped fungal colony. The colony appears white to grayish in color with a fluffy texture, suggesting a filamentous fungus. The surrounding agar is red, consistent with blood agar medium. No additional colonies or bacterial growth are visible.",
+      "visible_findings": [
+        "large, irregular fungal colony",
+        "white to grayish coloration",
+        "fluffy texture",
+        "red blood agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colony",
+        "blood agar",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "blood agar plate",
+        "microbiology lab"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:56+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 206,
+      "total_tokens": 774
+    }
+  },
+  "Case_02015/figure2.jpg": {
+    "case_id": "Case_02015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02015/figure2.jpg",
+    "source_caption": "Blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colony growth on an agar plate.",
+      "detailed_description": "This image shows a culture plate with a fungal colony exhibiting a white, fluffy, and cottony texture. The colony appears to have a central dense area with peripheral spreading. The agar medium is translucent, and the fungal growth is prominent against the background. The plate is photographed from above, and the texture and morphology of the colony suggest a filamentous fungus.",
+      "visible_findings": [
+        "white, fluffy fungal colony",
+        "central dense area with peripheral spreading",
+        "translucent agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colony",
+        "agar",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "agar plate",
+        "microbiology lab"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 212,
+      "total_tokens": 798
+    }
+  },
+  "Case_02015/figure3.jpg": {
+    "case_id": "Case_02015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02015/figure3.jpg",
+    "source_caption": "AFB broth culture.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "AFB broth culture showing growth of organisms.",
+      "detailed_description": "This image shows a liquid broth culture tube, likely used for acid-fast bacilli (AFB) detection. The tube contains a pinkish liquid medium with visible white clumps or colonies settled at the bottom, indicative of microbial growth. The tube is labeled with barcodes and other identifiers, and the setup appears to be in a laboratory environment. The growth pattern is consistent with organisms such as Mycobacterium species.",
+      "visible_findings": [
+        "broth culture tube",
+        "pink liquid medium",
+        "white clumps or colonies at the bottom",
+        "laboratory labeling on the tube"
+      ],
+      "keywords": [
+        "culture",
+        "broth",
+        "afb",
+        "mycobacterium",
+        "laboratory",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "afb culture",
+        "broth culture",
+        "mycobacterium growth"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:01+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "Case_20004/figure1.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure1.jpg",
+    "source_caption": "Figure 1A. Image of the patient’s leg demonstrating skin lesions with sporotrichoid pattern before treatment with voriconazole.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Skin lesions with sporotrichoid pattern on the leg.",
+      "detailed_description": "This clinical photograph shows the anterior aspect of a leg with multiple erythematous, ulcerated nodules arranged in a linear pattern, consistent with a sporotrichoid distribution. The lesions appear to vary in size and severity, with some showing central ulceration and crusting. The surrounding skin shows mild erythema and discoloration. The image is well-lit, and the lesions are clearly visible.",
+      "visible_findings": [
+        "erythematous nodules",
+        "ulceration with crusting",
+        "sporotrichoid distribution",
+        "linear arrangement of lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "skin lesions",
+        "sporotrichoid pattern",
+        "ulceration",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "sporotrichoid pattern",
+        "leg lesions",
+        "cutaneous infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T16:05:05+00:00",
+    "usage": {
+      "prompt_tokens": 465,
+      "completion_tokens": 246,
+      "total_tokens": 711
+    }
+  },
+  "Case_20004/figure3.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure3.jpg",
+    "source_caption": "Figure 2B. Representative histopathology from the skin biopsy. A fungus is discernible on periodic acid-Schiff (PAS) stain (40x magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin biopsy showing fungal elements on PAS stain (40x magnification).",
+      "detailed_description": "This histopathology image shows a skin biopsy stained with periodic acid-Schiff (PAS) stain at 40x magnification. The tissue demonstrates fungal elements, which appear as magenta-stained structures against a pink and purple background. The fungal morphology is consistent with hyphae or yeast forms, suggesting a fungal infection. The surrounding tissue shows some degree of inflammation and cellular debris.",
+      "visible_findings": [
+        "magenta-stained fungal elements",
+        "pink and purple background tissue",
+        "inflammatory cells and debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "fungus",
+        "PAS stain",
+        "biopsy",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "PAS stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:07+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 233,
+      "total_tokens": 849
+    }
+  },
+  "Case_20004/figure2.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure2.jpg",
+    "source_caption": "Figure 2A. Representative histopathology from the skin biopsy. Hematoxylin and eosin staining demonstrates a focus of necrotizing neutrophilic and granulomatous inflammation at the base of the biopsy (20x magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain showing necrotizing neutrophilic and granulomatous inflammation in a skin biopsy (20x magnification).",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), demonstrates a focus of necrotizing inflammation at the base of a skin biopsy. The inflammatory infiltrate includes neutrophils and granulomatous components, with areas of necrosis visible as pale, acellular regions. The magnification is approximately 20x, providing a detailed view of the cellular architecture and inflammatory changes.",
+      "visible_findings": [
+        "necrotizing inflammation",
+        "neutrophilic infiltrate",
+        "granulomatous inflammation",
+        "areas of necrosis",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "necrotizing inflammation",
+        "granulomatous inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:07+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 262,
+      "total_tokens": 894
+    }
+  },
+  "Case_20004/figure5.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure5.jpg",
+    "source_caption": "Figure 2D. Representative histopathology from the skin biopsy. Grocott Methenamine Silver (GMS) stain with the fungus appearing as irregular septated hyphae and yeast forms (100x magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "GMS-stained skin biopsy showing irregular septated hyphae and yeast forms.",
+      "detailed_description": "This histopathology image shows a Grocott Methenamine Silver (GMS) stain of a skin biopsy at 100x magnification. The fungal elements are highlighted in black, appearing as irregular septated hyphae and yeast forms against a green background. The staining technique enhances the visualization of fungal structures, aiding in the identification of fungal pathogens.",
+      "visible_findings": [
+        "irregular septated hyphae",
+        "yeast forms",
+        "GMS stain with black fungal elements",
+        "green background"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "GMS stain",
+        "fungus",
+        "hyphae",
+        "yeast"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "GMS stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:09+00:00",
+    "usage": {
+      "prompt_tokens": 627,
+      "completion_tokens": 235,
+      "total_tokens": 862
+    }
+  },
+  "Case_20004/figure4.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure4.jpg",
+    "source_caption": "Figure 2C. Representative histopathology from the skin biopsy showing PAS stain at 100x magnification",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "PAS stain of skin biopsy at 100x magnification showing fungal elements.",
+      "detailed_description": "This histopathology image shows a periodic acid-Schiff (PAS) stain of a skin biopsy at 100x magnification. The field contains numerous fungal elements, including yeast forms and pseudohyphae, which are highlighted in magenta against a pale background. The surrounding tissue shows evidence of inflammation and cellular debris. The PAS stain is used to identify polysaccharides in fungal cell walls, making fungal elements stand out distinctly.",
+      "visible_findings": [
+        "fungal elements highlighted in magenta",
+        "yeast forms and pseudohyphae",
+        "background of inflamed tissue and cellular debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "PAS stain",
+        "fungal elements",
+        "yeast",
+        "pseudohyphae",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "PAS stain",
+        "fungal histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:09+00:00",
+    "usage": {
+      "prompt_tokens": 605,
+      "completion_tokens": 254,
+      "total_tokens": 859
+    }
+  },
+  "Case_20004/figure6.jpg": {
+    "case_id": "Case_20004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20004/figure6.jpg",
+    "source_caption": "Figure 1B. Image of the patient’s leg with resolved skin lesions after treatment with voriconazole.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Clinical photograph of the leg showing partially healed skin lesions.",
+      "detailed_description": "This image shows the anterior aspect of a leg with multiple partially healed skin lesions. The lesions are circular to oval, with central crusting and surrounding hyperpigmentation. There is evidence of healing, as some lesions appear less inflamed and more pigmented compared to active lesions. The surrounding skin shows mild discoloration, likely post-inflammatory changes.",
+      "visible_findings": [
+        "partially healed circular skin lesions",
+        "central crusting in some lesions",
+        "surrounding hyperpigmentation",
+        "post-inflammatory skin changes"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "skin lesions",
+        "healing",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "leg lesions",
+        "fungal infection treatment"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:10+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 220,
+      "total_tokens": 824
+    }
+  }
+}

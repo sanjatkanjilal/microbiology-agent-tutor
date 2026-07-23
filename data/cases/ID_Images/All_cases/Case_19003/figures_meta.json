@@ -1,0 +1,168 @@
+{
+  "Case_19003/figure1.jpg": {
+    "case_id": "Case_19003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19003/figure1.jpg",
+    "source_caption": "Fig. 1: Right foot cutaneous lesion when it was first noticed (ie. three weeks before presenting to the emergency department)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right foot",
+      "short_caption": "Right foot showing erythematous lesion with serpiginous border.",
+      "detailed_description": "This clinical photograph depicts the dorsal aspect of the right foot. There is a well-demarcated, erythematous lesion with a serpiginous border, suggestive of a cutaneous process such as larva migrans. The surrounding skin appears mildly erythematous without overt swelling. The lesion is localized and does not appear to involve deeper structures.",
+      "visible_findings": [
+        "erythematous lesion",
+        "serpiginous border",
+        "localized involvement",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "cutaneous lesion",
+        "erythema",
+        "serpiginous"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot lesion",
+        "cutaneous larva migrans"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:59+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 241,
+      "total_tokens": 850
+    }
+  },
+  "Case_19003/figure2.jpg": {
+    "case_id": "Case_19003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19003/figure2.jpg",
+    "source_caption": "Fig. 2: Right foot cutaneous lesion two weeks after it was first noticed",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right foot",
+      "short_caption": "Right foot cutaneous lesion with blistering and erythema.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of the right foot with a prominent cutaneous lesion. The lesion includes a clear blister with surrounding erythema and mild swelling. The blister appears intact, and there is no visible purulence or crusting. The surrounding skin shows mild discoloration, suggesting inflammation or irritation.",
+      "visible_findings": [
+        "clear blister on the dorsal right foot",
+        "surrounding erythema",
+        "mild swelling",
+        "no visible purulence or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right foot",
+        "cutaneous lesion",
+        "blister",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "foot blister",
+        "cutaneous infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:02+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 221,
+      "total_tokens": 821
+    }
+  },
+  "Case_19003/figure3.jpg": {
+    "case_id": "Case_19003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19003/figure3.jpg",
+    "source_caption": "Fig. 3: Chest X-Ray at presentation. Patchy central opacities noted in the right and left lower lung zone.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing patchy opacities in the lower lung zones bilaterally.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating patchy opacities in the lower lung zones bilaterally, more prominent centrally. The heart and mediastinal contours appear normal, and there is no obvious pleural effusion. The diaphragm and bony structures are intact. The findings are suggestive of a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "patchy opacities in bilateral lower lung zones",
+        "normal heart and mediastinal contours",
+        "no visible pleural effusion",
+        "intact diaphragm and bony structures"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "lung opacities",
+        "lower lung zones",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung opacities",
+        "lower lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:02+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 249,
+      "total_tokens": 858
+    }
+  },
+  "Case_19003/figure4.jpg": {
+    "case_id": "Case_19003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19003/figure4.jpg",
+    "source_caption": "Fig. 4: Chest X-Ray after treatment – changes resolved",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing resolution of prior abnormalities post-treatment.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating clear lung fields with no visible consolidation, pleural effusion, or other abnormalities. The heart and mediastinal contours appear normal, and the diaphragm is well-defined bilaterally. The image suggests resolution of any prior pathological findings, consistent with post-treatment improvement.",
+      "visible_findings": [
+        "clear lung fields bilaterally",
+        "absence of consolidation or effusion",
+        "normal heart and mediastinal contours",
+        "well-defined diaphragms"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung fields",
+        "post-treatment",
+        "resolution"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "post-treatment imaging",
+        "lung infection resolution"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:03+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 221,
+      "total_tokens": 817
+    }
+  }
+}

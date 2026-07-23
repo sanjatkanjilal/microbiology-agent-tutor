@@ -1,0 +1,126 @@
+{
+  "Case_11002/figure1.jpg": {
+    "case_id": "Case_11002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11002/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "external ear",
+      "short_caption": "Erythema and crusting in the external ear canal.",
+      "detailed_description": "This clinical photograph shows the external ear and ear canal of a patient. There is erythema, crusting, and debris visible within the external auditory canal, suggestive of inflammation or infection. The surrounding skin appears mildly erythematous, and there is no obvious swelling of the auricle. A gold earring is visible in the earlobe.",
+      "visible_findings": [
+        "erythema in the external auditory canal",
+        "crusting and debris within the canal",
+        "mild erythema of the surrounding skin",
+        "gold earring in the earlobe"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "external ear",
+        "ear canal",
+        "erythema",
+        "crusting",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "ear infection",
+        "external ear inflammation",
+        "otitis externa"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_11002/figure2.jpg": {
+    "case_id": "Case_11002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11002/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "external ear canal",
+      "short_caption": "Clinical image of the external ear showing debris and possible infection.",
+      "detailed_description": "This clinical photograph shows the external ear canal of a patient. There is visible yellowish-green debris and crusting within the canal, suggestive of an infectious or inflammatory process. The surrounding skin appears mildly erythematous. A gloved hand is seen retracting the ear for better visualization.",
+      "visible_findings": [
+        "yellowish-green debris in the ear canal",
+        "crusting within the external ear canal",
+        "mild erythema of the surrounding skin",
+        "gloved hand retracting the ear"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "ear",
+        "external ear canal",
+        "infection",
+        "debris",
+        "otitis externa"
+      ],
+      "reveal_triggers": [
+        "ear infection",
+        "external ear canal",
+        "otitis externa"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 227,
+      "total_tokens": 795
+    }
+  },
+  "Case_11002/figure3.jpg": {
+    "case_id": "Case_11002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11002/figure3.jpg",
+    "source_caption": "VZV fluorescent antibody testing.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent antibody staining showing VZV-positive cells.",
+      "detailed_description": "This image shows a dark field with scattered bright green fluorescence, consistent with fluorescent antibody staining. The green fluorescence highlights cells or structures that are positive for varicella-zoster virus (VZV). The technique uses antibodies tagged with a fluorescent dye to detect viral antigens. The image is de-identified and does not provide anatomical context.",
+      "visible_findings": [
+        "dark background",
+        "scattered bright green fluorescent spots",
+        "fluorescent antibody staining pattern"
+      ],
+      "keywords": [
+        "fluorescent antibody",
+        "vzv",
+        "staining",
+        "infectious diseases",
+        "virology"
+      ],
+      "reveal_triggers": [
+        "vzv fluorescent antibody",
+        "viral antigen detection",
+        "fluorescent microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 216,
+      "total_tokens": 805
+    }
+  }
+}

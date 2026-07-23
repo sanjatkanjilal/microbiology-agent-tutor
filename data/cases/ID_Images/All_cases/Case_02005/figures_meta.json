@@ -1,0 +1,84 @@
+{
+  "Case_02005/figure1.jpg": {
+    "case_id": "Case_02005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02005/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower back",
+      "short_caption": "Erythematous linear lesions on the lower back.",
+      "detailed_description": "The image shows the lower back with multiple linear, erythematous lesions. The lesions appear slightly raised and follow a curvilinear pattern. The surrounding skin is unremarkable, with no visible signs of ulceration or discharge. The distribution suggests a dermal process, potentially consistent with a superficial infection or irritation.",
+      "visible_findings": [
+        "linear erythematous lesions",
+        "slightly raised appearance",
+        "curvilinear distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "linear lesions",
+        "lower back"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on lower back",
+        "erythematous lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:00+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  },
+  "Case_02005/figure2.jpg": {
+    "case_id": "Case_02005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02005/figure2.jpg",
+    "source_caption": "Examination of stool.",
+    "description": {
+      "modality": "microscopy",
+      "anatomical_site": "stool sample",
+      "short_caption": "Microscopic view of a nematode in a stool sample.",
+      "detailed_description": "This image shows a microscopic view of a stool sample containing a nematode. The organism is elongated, cylindrical, and tapered at both ends, consistent with the morphology of a helminth. Surrounding the nematode are particulate matter and debris from the stool sample. The image appears to be taken under light microscopy with adequate magnification to visualize the organism's structure.",
+      "visible_findings": [
+        "elongated nematode with tapered ends",
+        "particulate stool debris",
+        "light microscopy appearance"
+      ],
+      "keywords": [
+        "microscopy",
+        "stool sample",
+        "nematode",
+        "helminth",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "stool exam",
+        "microscopy of stool",
+        "helminth in stool",
+        "parasitic worm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 236,
+      "total_tokens": 822
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Case_19002/figure2.jpg": {
+    "case_id": "Case_19002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19002/figure2.jpg",
+    "source_caption": "Fig 2: A fluid-filled cyst evacuated intra-operatively from the ventricular system, measuring almost 3cm in diameter. (Contributed by Dr. Pamela Jones)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Evacuated fluid-filled cyst measuring approximately 3 cm in diameter.",
+      "detailed_description": "The image shows a fluid-filled cyst placed on a blue surgical drape with a measuring scale for reference. The cyst appears spherical and translucent, with a pale yellowish-white coloration. The ruler indicates the cyst measures approximately 3 cm in diameter. The setting suggests the specimen was removed intra-operatively, likely from the ventricular system as described in the case text.",
+      "visible_findings": [
+        "fluid-filled cyst",
+        "translucent and pale yellowish-white coloration",
+        "measuring scale indicating size (approximately 3 cm)",
+        "blue surgical drape background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "cyst",
+        "fluid-filled lesion",
+        "surgical specimen",
+        "ventricular system"
+      ],
+      "reveal_triggers": [
+        "cyst removal",
+        "surgical specimen",
+        "ventricular system lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:57+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 253,
+      "total_tokens": 869
+    }
+  },
+  "Case_19002/figure4.jpg": {
+    "case_id": "Case_19002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19002/figure4.jpg",
+    "source_caption": "Fig 4. Intact cyst lining (left) and necrotic cyst lining with microcalcifications (right – black arrows). (200x) (Courtesy of Dr Nathan Clements)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing intact cyst lining and necrotic cyst lining with microcalcifications.",
+      "detailed_description": "This histopathology image demonstrates two distinct regions. On the left, there is an intact cyst lining with preserved cellular architecture. On the right, the cyst lining appears necrotic, with areas of microcalcifications indicated by black arrows. The tissue is stained with hematoxylin and eosin (H&E) and viewed at 200x magnification.",
+      "visible_findings": [
+        "intact cyst lining on the left",
+        "necrotic cyst lining on the right",
+        "microcalcifications marked by black arrows",
+        "H&E stain",
+        "200x magnification"
+      ],
+      "keywords": [
+        "histopathology",
+        "cyst",
+        "necrosis",
+        "microcalcifications",
+        "H&E stain",
+        "200x magnification"
+      ],
+      "reveal_triggers": [
+        "histopathology",
+        "cyst lining",
+        "microcalcifications",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:58+00:00",
+    "usage": {
+      "prompt_tokens": 621,
+      "completion_tokens": 258,
+      "total_tokens": 879
+    }
+  },
+  "Case_19002/figure3.jpg": {
+    "case_id": "Case_19002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19002/figure3.jpg",
+    "source_caption": "Fig 3. Histopathology of cyst (100x) showing cyst lining, of which some is necrotic (black arrows). (Courtesy of Dr Nathan Clements)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cyst lining",
+      "short_caption": "Histopathology of cyst showing necrotic areas in the cyst lining (black arrows).",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a section of a cyst lining at 100x magnification. The lining is composed of cellular material, with areas of necrosis indicated by black arrows. The necrotic regions appear as eosinophilic, acellular zones, contrasting with the surrounding viable tissue. The image demonstrates the structural changes associated with the pathological process in the cyst lining.",
+      "visible_findings": [
+        "cyst lining with cellular structure",
+        "necrotic areas marked by black arrows",
+        "eosinophilic acellular zones",
+        "contrast between viable and necrotic tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "cyst",
+        "necrosis",
+        "H&E stain",
+        "pathology"
+      ],
+      "reveal_triggers": [
+        "histopathology of cyst",
+        "necrotic cyst lining",
+        "H&E stain of cyst"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:58+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 269,
+      "total_tokens": 887
+    }
+  },
+  "Case_19002/figure1.jpg": {
+    "case_id": "Case_19002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19002/figure1.jpg",
+    "source_caption": "Fig 1: MRI Brain at presentation. Sagittal section, FIESTA series. Irregular, cystic-appearing multi-loculated debris is seen at the base of the fourth ventricle with associated upstream ventricular enlargement. The cyst is interposed between the pons and middle cerebellar peduncle and is noted to be T2 isointense to CSF.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Sagittal MRI brain showing a cystic lesion at the base of the fourth ventricle with ventricular enlargement.",
+      "detailed_description": "This sagittal MRI image of the brain, using a FIESTA sequence, demonstrates a multi-loculated, cystic-appearing lesion at the base of the fourth ventricle. The lesion appears interposed between the pons and middle cerebellar peduncle. It is T2 isointense to cerebrospinal fluid (CSF) and is associated with upstream ventricular enlargement, suggesting obstructive hydrocephalus.",
+      "visible_findings": [
+        "cystic, multi-loculated lesion at the base of the fourth ventricle",
+        "lesion is T2 isointense to CSF",
+        "upstream ventricular enlargement",
+        "lesion interposed between pons and middle cerebellar peduncle"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "fourth ventricle",
+        "cystic lesion",
+        "hydrocephalus",
+        "FIESTA sequence"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "fourth ventricle lesion",
+        "hydrocephalus imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:00+00:00",
+    "usage": {
+      "prompt_tokens": 662,
+      "completion_tokens": 298,
+      "total_tokens": 960
+    }
+  },
+  "Case_19002/figure5.jpg": {
+    "case_id": "Case_19002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19002/figure5.jpg",
+    "source_caption": "Fig 5: Three layers of the cyst wall is shown: inner reticular (blue), middle cellular (red), and outer layer with tegument and glycocalyx lining (black) 400x. (Courtesy of Dr Nathan Clements)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cyst wall",
+      "short_caption": "Histopathology of a cyst wall showing three distinct layers at 400x magnification.",
+      "detailed_description": "This histopathological image demonstrates the three distinct layers of a cyst wall under 400x magnification. The inner reticular layer is stained blue, the middle cellular layer is stained red, and the outer layer, which includes the tegument and glycocalyx lining, is labeled in black. The image highlights the structural organization of the cyst wall, with clear demarcation between the layers. The staining technique used enhances the visualization of these layers for diagnostic purposes.",
+      "visible_findings": [
+        "inner reticular layer stained blue",
+        "middle cellular layer stained red",
+        "outer tegument and glycocalyx lining labeled in black",
+        "clear demarcation between the layers"
+      ],
+      "keywords": [
+        "histopathology",
+        "cyst wall",
+        "layers",
+        "tegument",
+        "glycocalyx",
+        "400x magnification"
+      ],
+      "reveal_triggers": [
+        "histopathology of cyst wall",
+        "cyst wall layers",
+        "400x magnification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:09+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 277,
+      "total_tokens": 909
+    }
+  }
+}

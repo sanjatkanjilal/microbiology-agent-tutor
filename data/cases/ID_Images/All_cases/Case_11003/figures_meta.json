@@ -1,0 +1,210 @@
+{
+  "Case_11003/figure1.jpg": {
+    "case_id": "Case_11003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11003/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower legs",
+      "short_caption": "Erythematous papules and pustules on the lower legs.",
+      "detailed_description": "This clinical photograph shows the lower legs of a patient with multiple erythematous papules and pustules scattered across the skin. The lesions vary in size and are distributed irregularly. Some lesions appear to have central crusting or ulceration, suggesting possible secondary infection or necrosis. The surrounding skin appears otherwise unremarkable.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "central crusting or ulceration in some lesions",
+        "irregular distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower legs",
+        "skin lesions",
+        "papules",
+        "pustules",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:20+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 229,
+      "total_tokens": 797
+    }
+  },
+  "Case_11003/figure2.jpg": {
+    "case_id": "Case_11003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11003/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on an extremity",
+      "short_caption": "Skin lesion with central ulceration and surrounding erythema.",
+      "detailed_description": "This image shows a single skin lesion with a central ulceration surrounded by a ring of erythema. The lesion appears circular with a slightly raised border and a central darkened area. The surrounding skin shows mild erythema and is covered with fine hair. The lesion is consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "central ulceration",
+        "surrounding erythema",
+        "circular lesion with raised border",
+        "fine hair on surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulceration",
+        "erythema",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcerated skin",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:21+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_11003/figure3.jpg": {
+    "case_id": "Case_11003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11003/figure3.jpg",
+    "source_caption": "Hematoxylin and eosin stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Hematoxylin and eosin stain of skin biopsy showing superficial and deep perivascular lymphoplasmacytic infiltrate.",
+      "detailed_description": "This image shows two sections of skin biopsy stained with hematoxylin and eosin. The epidermis is intact, with a slightly thickened appearance. The dermis demonstrates a prominent superficial and deep perivascular lymphoplasmacytic infiltrate, as indicated by the labeled arrows. The infiltrate is dense and localized around blood vessels, consistent with an inflammatory process. The stain highlights cellular and structural details, aiding in the assessment of the tissue pathology.",
+      "visible_findings": [
+        "intact epidermis",
+        "superficial and deep perivascular lymphoplasmacytic infiltrate",
+        "dense inflammatory infiltrate around blood vessels"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "hematoxylin and eosin",
+        "inflammation",
+        "lymphoplasmacytic infiltrate"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:24+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 271,
+      "total_tokens": 866
+    }
+  },
+  "Case_11003/figure5.jpg": {
+    "case_id": "Case_11003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11003/figure5.jpg",
+    "source_caption": "Immunostain of biopsy, showing spirochetes.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Immunostain of biopsy showing spirochetes.",
+      "detailed_description": "This image shows a tissue biopsy stained with an immunohistochemical (IHC) stain targeting Treponema pallidum. The spirochetes are visible as thin, spiral-shaped organisms highlighted in brown against a blue background of cellular structures. The staining technique enhances the visibility of the organisms within the tissue, confirming their presence.",
+      "visible_findings": [
+        "spiral-shaped organisms consistent with spirochetes",
+        "brown immunostain highlighting the organisms",
+        "blue background representing cellular structures"
+      ],
+      "keywords": [
+        "immunostain",
+        "tissue biopsy",
+        "spirochetes",
+        "treponema pallidum",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "immunostain",
+        "spirochetes",
+        "tissue biopsy",
+        "treponema pallidum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:27+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 261,
+      "total_tokens": 855
+    }
+  },
+  "Case_11003/figure4.jpg": {
+    "case_id": "Case_11003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11003/figure4.jpg",
+    "source_caption": "Hematoxylin and eosin stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Hematoxylin and eosin stain of skin biopsy showing inflammatory infiltrate and fungal elements.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin tissue. The dermis contains a dense inflammatory infiltrate composed of lymphocytes and histiocytes. Two circled areas highlight fungal elements, appearing as round to oval structures with clear halos, consistent with yeast forms. The epidermis appears intact, and no significant necrosis is visible.",
+      "visible_findings": [
+        "dense inflammatory infiltrate in the dermis",
+        "circled fungal elements resembling yeast forms",
+        "intact epidermis",
+        "clear halos around fungal elements"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "hematoxylin and eosin",
+        "fungal infection",
+        "inflammatory infiltrate",
+        "yeast"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "fungal infection",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:27+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 262,
+      "total_tokens": 857
+    }
+  }
+}

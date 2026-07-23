@@ -1,0 +1,166 @@
+{
+  "Case_03053/figure1.jpg": {
+    "case_id": "Case_03053",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03053/figure1.jpg",
+    "source_caption": "Physical finding on thigh.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous nodule with central ulceration on the thigh.",
+      "detailed_description": "The image shows a raised, erythematous nodule with a central area of ulceration or crusting. The surrounding skin appears mildly inflamed. The lesion is well-circumscribed and located on the thigh. The lighting highlights the shiny surface of the lesion, suggesting possible exudate or moisture.",
+      "visible_findings": [
+        "raised erythematous nodule",
+        "central ulceration or crusting",
+        "mild surrounding erythema",
+        "shiny surface of the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "nodule",
+        "ulceration",
+        "erythema",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "thigh lesion",
+        "infectious nodule"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:16+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 230,
+      "total_tokens": 817
+    }
+  },
+  "Case_03053/figure3.jpg": {
+    "case_id": "Case_03053",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03053/figure3.jpg",
+    "source_caption": "Botfly larvae after suctioning.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Botfly larvae after removal, displayed on a measurement grid.",
+      "detailed_description": "This image shows three botfly larvae placed on a white surface with a measurement grid in the background for scale. The larvae are segmented and curved, with visible tapering ends. The photograph is taken under standard lighting, and the larvae appear intact. The grid provides a reference for size, with each square measuring 1 cm.",
+      "visible_findings": [
+        "three segmented larvae",
+        "curved, tapering ends",
+        "measurement grid for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "botfly larvae",
+        "parasite",
+        "measurement grid",
+        "larvae removal"
+      ],
+      "reveal_triggers": [
+        "botfly larvae",
+        "parasite removal",
+        "clinical photograph of larvae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:18+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 209,
+      "total_tokens": 798
+    }
+  },
+  "Case_03053/figure2.jpg": {
+    "case_id": "Case_03053",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03053/figure2.jpg",
+    "source_caption": "Physical finding on chest.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest",
+      "short_caption": "Clinical photograph showing a tick embedded in the skin of the chest.",
+      "detailed_description": "This clinical photograph depicts a close-up view of the chest skin with a small tick embedded. The tick is highlighted by a blue arrow for emphasis. The surrounding skin appears unremarkable, with no visible erythema or swelling in this image. The lighting is bright, and the focus is centered on the tick.",
+      "visible_findings": [
+        "embedded tick",
+        "blue arrow pointing to the tick",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "tick",
+        "skin lesion",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "tick bite",
+        "skin exam",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:18+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 205,
+      "total_tokens": 792
+    }
+  },
+  "Case_03053/figure4.jpg": {
+    "case_id": "Case_03053",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03053/figure4.jpg",
+    "source_caption": "Botfly larvae.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Botfly larvae extracted from human tissue.",
+      "detailed_description": "This image shows two botfly larvae, likely Dermatobia hominis, extracted from human tissue. The larvae are segmented, with visible spines along their bodies, which are adaptations for anchoring within the host. The specimens appear intact, with some residual tissue or blood visible on their surfaces. The background is a plain blue, likely for contrast during photography.",
+      "visible_findings": [
+        "two segmented larvae",
+        "spines along the body",
+        "residual tissue or blood on larvae",
+        "plain blue background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "botfly larvae",
+        "parasite",
+        "myiasis",
+        "dermatobia hominis"
+      ],
+      "reveal_triggers": [
+        "botfly larvae",
+        "myiasis",
+        "parasite extraction",
+        "skin infestation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:21+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 223,
+      "total_tokens": 809
+    }
+  }
+}

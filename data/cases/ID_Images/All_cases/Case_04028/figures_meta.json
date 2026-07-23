@@ -1,0 +1,85 @@
+{
+  "Case_04028/figure1.jpg": {
+    "case_id": "Case_04028",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04028/figure1.jpg",
+    "source_caption": "Radiograph of the left lower leg.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "left lower leg",
+      "short_caption": "Radiograph of the left lower leg showing bony structures and soft tissue.",
+      "detailed_description": "This is an anteroposterior radiograph of the left lower leg. The tibia and fibula are clearly visualized, with no obvious fractures or deformities. The surrounding soft tissue appears unremarkable. The image is labeled 'L' to indicate the left side.",
+      "visible_findings": [
+        "intact tibia and fibula",
+        "no visible fractures",
+        "normal alignment of bones",
+        "soft tissue appears unremarkable"
+      ],
+      "keywords": [
+        "radiograph",
+        "left lower leg",
+        "tibia",
+        "fibula",
+        "bone imaging"
+      ],
+      "reveal_triggers": [
+        "radiograph of leg",
+        "x-ray of lower extremity",
+        "bone imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:33+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 220,
+      "total_tokens": 810
+    }
+  },
+  "Case_04028/figure2.jpg": {
+    "case_id": "Case_04028",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04028/figure2.jpg",
+    "source_caption": "MRI scan of the lower legs.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lower legs",
+      "short_caption": "MRI of the lower legs showing soft tissue and bone structures.",
+      "detailed_description": "This is a coronal MRI image of the lower legs, showing both tibiae and fibulae, as well as surrounding soft tissues. The image appears to be a T1-weighted or T2-weighted sequence, as soft tissue and bone marrow details are visible. There is no obvious fracture, but subtle abnormalities in the bone marrow or soft tissue may require closer inspection. The image is de-identified and includes a scale marker for reference.",
+      "visible_findings": [
+        "bilateral tibiae and fibulae visible",
+        "soft tissue structures surrounding the bones",
+        "no obvious fractures or gross deformities"
+      ],
+      "keywords": [
+        "mri",
+        "lower legs",
+        "tibia",
+        "fibula",
+        "soft tissue",
+        "bone",
+        "coronal view"
+      ],
+      "reveal_triggers": [
+        "mri of lower legs",
+        "tibia and fibula imaging",
+        "soft tissue and bone mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:36+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  }
+}

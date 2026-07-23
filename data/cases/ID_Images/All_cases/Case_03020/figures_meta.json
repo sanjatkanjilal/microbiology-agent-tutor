@@ -1,0 +1,137 @@
+{
+  "Case_03020/figure1.jpg": {
+    "case_id": "Case_03020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03020/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:25:57+00:00"
+  },
+  "Case_03020/figure2.jpg": {
+    "case_id": "Case_03020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03020/figure2.jpg",
+    "source_caption": "Brain CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain CT scan showing abnormal findings.",
+      "detailed_description": "This is an axial CT scan of the brain. The image shows a hyperdense area along the left hemisphere, suggestive of a possible subdural hematoma or other abnormality. The midline structures appear slightly shifted to the right, indicating mass effect. The sulci on the left side appear effaced compared to the right, further supporting the presence of increased intracranial pressure or mass effect.",
+      "visible_findings": [
+        "hyperdense area in the left hemisphere",
+        "midline shift to the right",
+        "effacement of sulci on the left side"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "subdural hematoma",
+        "midline shift",
+        "mass effect",
+        "intracranial pressure"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "head trauma",
+        "subdural hematoma",
+        "midline shift"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_03020/figure4.jpg": {
+    "case_id": "Case_03020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03020/figure4.jpg",
+    "source_caption": "Granule with cocci-form bacteria.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granule with cocci-form bacteria.",
+      "detailed_description": "This histopathology image shows a granule-like structure surrounded by numerous cocci-shaped bacteria. The granule appears pinkish-purple, likely due to a staining technique such as Gram stain or H&E. The bacteria are densely clustered around the granule, suggesting a possible infectious process. The image is magnified to highlight the bacterial morphology and granule structure.",
+      "visible_findings": [
+        "granule-like structure with pinkish-purple staining",
+        "numerous cocci-shaped bacteria surrounding the granule",
+        "dense clustering of bacteria"
+      ],
+      "keywords": [
+        "histopathology",
+        "granule",
+        "cocci",
+        "bacteria",
+        "infectious process",
+        "staining"
+      ],
+      "reveal_triggers": [
+        "histopathology of infection",
+        "granule with bacteria",
+        "cocci-form bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:05+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 235,
+      "total_tokens": 825
+    }
+  },
+  "Case_03020/figure3.jpg": {
+    "case_id": "Case_03020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03020/figure3.jpg",
+    "source_caption": "Skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of a skin biopsy showing inflammatory infiltrates.",
+      "detailed_description": "This is a histopathological image of a skin biopsy stained with hematoxylin and eosin (H&E). The image shows a section of dermal tissue with areas of inflammatory infiltrates, characterized by dense clusters of cells. The infiltrates appear to be composed of mixed inflammatory cells, and there is evidence of tissue disruption. The surrounding tissue shows normal dermal architecture in some areas.",
+      "visible_findings": [
+        "inflammatory cell infiltrates",
+        "disrupted dermal tissue",
+        "normal dermal architecture in some regions"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "biopsy",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "H&E stain of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:11+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 230,
+      "total_tokens": 815
+    }
+  }
+}

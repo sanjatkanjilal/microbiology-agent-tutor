@@ -1,0 +1,248 @@
+{
+  "Case_09020/figure1.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure1.jpg",
+    "source_caption": "Skin lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the upper extremity",
+      "short_caption": "Skin lesion with central ulceration and surrounding erythema.",
+      "detailed_description": "This clinical photograph shows a skin lesion with a central ulcerated area surrounded by erythema. There is an additional smaller erythematous papule nearby. The lesion appears to be on the upper extremity, and a gloved hand is gently retracting the skin for better visualization. The surrounding skin shows no significant discoloration or swelling beyond the immediate area of the lesions.",
+      "visible_findings": [
+        "central ulceration",
+        "surrounding erythema",
+        "adjacent erythematous papule",
+        "gloved hand retracting skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulceration",
+        "erythema",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected wound",
+        "ulcerated skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:11+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 237,
+      "total_tokens": 822
+    }
+  },
+  "Case_09020/figure2.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure2.jpg",
+    "source_caption": "Skin biopsy, Giemsa stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with Giemsa stain showing fungal elements.",
+      "detailed_description": "This histopathology image shows a Giemsa-stained section of skin tissue. Visible are clusters of darkly stained, round to oval fungal elements, consistent with yeast forms, surrounded by a background of connective tissue and inflammatory cells. The fungal elements are prominent and centrally located, with surrounding tissue showing mild distortion. The stain highlights the fungal structures against a greenish-blue background.",
+      "visible_findings": [
+        "clusters of darkly stained round to oval fungal elements",
+        "greenish-blue background tissue",
+        "inflammatory cells in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "giemsa stain",
+        "fungal elements",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "giemsa stain",
+        "fungal infection",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:12+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_09020/figure3.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure3.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing lung parenchyma and mediastinal structures.",
+      "detailed_description": "This axial CT image of the chest demonstrates the lung parenchyma, mediastinum, and surrounding structures. The lung fields show bilateral patchy opacities, which may represent areas of consolidation or ground-glass attenuation. The heart is centrally located, and no significant pleural effusion is visible. The scan appears to be in a lung window setting, optimizing visualization of pulmonary structures.",
+      "visible_findings": [
+        "bilateral patchy opacities in the lung fields",
+        "no significant pleural effusion",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "pulmonary opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:19+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_09020/figure5.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure5.jpg",
+    "source_caption": "Ophthalmic examination.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye (retina)",
+      "short_caption": "Fundoscopic image showing a retinal lesion with a white, fluffy appearance.",
+      "detailed_description": "This is a fundoscopic image of the retina, showing a prominent white, fluffy lesion located centrally. The surrounding retina appears orange-red, consistent with normal retinal pigmentation. The lesion is suggestive of an infectious or inflammatory process, such as a chorioretinal infection. The image is well-focused, highlighting the lesion's distinct borders and texture.",
+      "visible_findings": [
+        "white, fluffy retinal lesion",
+        "orange-red background of normal retina",
+        "central location of the lesion"
+      ],
+      "keywords": [
+        "fundoscopy",
+        "retina",
+        "retinal lesion",
+        "ophthalmology",
+        "infectious disease",
+        "chorioretinitis"
+      ],
+      "reveal_triggers": [
+        "fundoscopic exam",
+        "retinal infection",
+        "eye lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:21+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 227,
+      "total_tokens": 814
+    }
+  },
+  "Case_09020/figure6.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure6.jpg",
+    "source_caption": "Nasal examination.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "nasal cavity",
+      "short_caption": "Endoscopic view of the nasal cavity showing mucosal irregularities and possible inflammation.",
+      "detailed_description": "This endoscopic image shows the interior of the nasal cavity. The mucosa appears irregular and erythematous, with areas of possible ulceration or erosion. There is a shiny, moist surface consistent with normal nasal secretions, but the irregularities suggest inflammation or infection. The image is taken using a nasal endoscope, providing a close-up view of the nasal structures.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "irregular surface",
+        "possible ulceration or erosion",
+        "moist, shiny appearance"
+      ],
+      "keywords": [
+        "endoscopy",
+        "nasal cavity",
+        "inflammation",
+        "infection",
+        "mucosal irregularity"
+      ],
+      "reveal_triggers": [
+        "nasal endoscopy",
+        "nasal examination",
+        "infectious sinusitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:23+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 237,
+      "total_tokens": 823
+    }
+  },
+  "Case_09020/figure4.jpg": {
+    "case_id": "Case_09020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09020/figure4.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing bilateral kidneys and surrounding structures.",
+      "detailed_description": "This axial CT image of the abdomen shows the bilateral kidneys, vertebral column, and surrounding soft tissues. The kidneys appear symmetric, and there is no obvious evidence of hydronephrosis or mass lesions. The bowel loops are visible, and there is no clear sign of obstruction or abnormal fluid collections. The image is de-identified and appears to be part of a diagnostic evaluation.",
+      "visible_findings": [
+        "bilateral kidneys visible",
+        "vertebral column in midline",
+        "no obvious hydronephrosis",
+        "no clear fluid collections",
+        "bowel loops visible without obstruction"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidneys",
+        "soft tissue",
+        "diagnostic imaging"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "kidney imaging",
+        "cross-sectional abdomen"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:24+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 236,
+      "total_tokens": 823
+    }
+  }
+}

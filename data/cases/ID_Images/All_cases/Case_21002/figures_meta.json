@@ -1,0 +1,210 @@
+{
+  "Case_21002/figure1.jpg": {
+    "case_id": "Case_21002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21002/figure1.jpg",
+    "source_caption": "CT of abdomen and pelvis demonstrating hepatosplenomegaly and anasarca in (A) Coronal section; (B) Transverse section",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "CT of abdomen and pelvis showing hepatosplenomegaly and anasarca in coronal and transverse sections.",
+      "detailed_description": "This image consists of two CT sections of the abdomen and pelvis. Panel A shows a coronal section, highlighting significant hepatosplenomegaly with enlarged liver and spleen. Panel B displays a transverse section, demonstrating diffuse soft tissue swelling consistent with anasarca. Both sections reveal fluid accumulation and organ enlargement, with no contrast enhancement visible, suggesting a non-contrast study.",
+      "visible_findings": [
+        "hepatosplenomegaly",
+        "diffuse soft tissue swelling",
+        "fluid accumulation",
+        "non-contrast CT appearance"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "hepatosplenomegaly",
+        "anasarca",
+        "fluid accumulation",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "hepatosplenomegaly",
+        "anasarca",
+        "abdominal swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:41+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 260,
+      "total_tokens": 873
+    }
+  },
+  "Case_21002/figure2.jpg": {
+    "case_id": "Case_21002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21002/figure2.jpg",
+    "source_caption": "Post-mortem liver explant gross pathology Heterogenous, mottled liver with patchy areas of yellowish discoloration, corresponding to areas of necrosis",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "liver",
+      "short_caption": "Post-mortem liver explant showing heterogeneous mottling and patchy discoloration.",
+      "detailed_description": "This image shows a gross pathology specimen of a liver explant, likely post-mortem. The liver appears heterogeneous with a mottled surface. There are patchy areas of yellowish discoloration, suggestive of necrosis, interspersed with darker regions. A ruler is placed below the specimen for scale. The texture and discoloration patterns are consistent with significant pathological changes, potentially due to ischemia or infection.",
+      "visible_findings": [
+        "heterogeneous mottling of the liver",
+        "patchy yellowish discoloration",
+        "darker areas interspersed with necrotic regions",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "liver",
+        "gross pathology",
+        "necrosis",
+        "post-mortem"
+      ],
+      "reveal_triggers": [
+        "liver pathology",
+        "gross pathology of liver",
+        "infectious liver disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:45+00:00",
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 254,
+      "total_tokens": 869
+    }
+  },
+  "Case_21002/figure4.jpg": {
+    "case_id": "Case_21002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21002/figure4.jpg",
+    "source_caption": "Representative histopathology taken from liver explant showing hematoxylin and eosin staining at high magnification with evidence of viral cytopathic effects",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver tissue with hematoxylin and eosin staining showing viral cytopathic effects.",
+      "detailed_description": "This high-magnification histopathology image of liver tissue stained with hematoxylin and eosin reveals prominent viral cytopathic effects. The tissue shows areas of hepatocyte ballooning degeneration, nuclear enlargement, and chromatin margination. There are also scattered eosinophilic inclusions and areas of necrosis. The staining highlights cellular and structural changes consistent with viral infection.",
+      "visible_findings": [
+        "hepatocyte ballooning degeneration",
+        "nuclear enlargement",
+        "chromatin margination",
+        "eosinophilic inclusions",
+        "areas of necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "hematoxylin and eosin",
+        "viral cytopathic effects",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "liver histopathology",
+        "H&E stain",
+        "viral cytopathic effects"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:46+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 257,
+      "total_tokens": 869
+    }
+  },
+  "Case_21002/figure3.jpg": {
+    "case_id": "Case_21002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21002/figure3.jpg",
+    "source_caption": "Representative histopathology taken from liver explant showing hematoxylin and eosin staining at low magnification with confluent hepatocellular necrosis",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver showing hematoxylin and eosin staining with confluent hepatocellular necrosis.",
+      "detailed_description": "This histopathology image shows a liver section stained with hematoxylin and eosin at low magnification. The tissue demonstrates areas of confluent hepatocellular necrosis, characterized by loss of normal hepatic architecture and eosinophilic debris. There are regions of preserved parenchyma interspersed with necrotic zones. No specific organisms or inflammatory infiltrates are clearly visible at this magnification.",
+      "visible_findings": [
+        "confluent hepatocellular necrosis",
+        "loss of normal hepatic architecture",
+        "eosinophilic debris",
+        "preserved parenchyma in some areas"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "hepatocellular necrosis",
+        "hematoxylin and eosin",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "liver histopathology",
+        "hematoxylin and eosin stain",
+        "liver necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:50+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 274,
+      "total_tokens": 887
+    }
+  },
+  "Case_21002/figure5.jpg": {
+    "case_id": "Case_21002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21002/figure5.jpg",
+    "source_caption": "Representative histopathology taken from liver explant showing HSV-1 immunostain with cytoplasmic and nuclear positivity.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "HSV-1 immunostain of liver explant showing cytoplasmic and nuclear positivity.",
+      "detailed_description": "This histopathology image shows a liver tissue section stained with an HSV-1 immunostain. The staining reveals both cytoplasmic and nuclear positivity in affected cells, consistent with HSV-1 infection. The brown chromogen highlights areas of viral antigen presence, while the background tissue appears lightly counterstained. The distribution of staining is patchy, with clusters of affected cells.",
+      "visible_findings": [
+        "brown chromogen staining in cytoplasm and nuclei",
+        "patchy distribution of positive cells",
+        "light counterstaining of background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "HSV-1",
+        "immunostain",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "HSV-1 liver histopathology",
+        "immunostain of liver",
+        "infectious liver pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:53+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 246,
+      "total_tokens": 852
+    }
+  }
+}

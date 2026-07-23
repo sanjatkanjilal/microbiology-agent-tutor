@@ -1,0 +1,293 @@
+{
+  "Case_07025/figure2.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure2.jpg",
+    "source_caption": "H and E stain, magnified x 200.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "H&E stain at 200x magnification showing tissue invasion.",
+      "detailed_description": "This histopathology image is stained with hematoxylin and eosin (H&E) and magnified at 200x. It shows tissue architecture with evidence of cellular invasion, as indicated by the labeled arrow. The invading cells appear denser and darker compared to the surrounding tissue, with disruption of normal tissue structure. The background shows pink eosinophilic stroma and purple-stained nuclei, characteristic of H&E staining.",
+      "visible_findings": [
+        "tissue invasion labeled with an arrow",
+        "disruption of normal tissue structure",
+        "eosinophilic stroma",
+        "purple-stained nuclei"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "tissue invasion",
+        "200x magnification",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "histopathology of tissue",
+        "tissue invasion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:43+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 256,
+      "total_tokens": 849
+    }
+  },
+  "Case_07025/figure1.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure1.jpg",
+    "source_caption": "CT of the head.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT of the head without contrast.",
+      "detailed_description": "This is an axial CT image of the head without contrast. The image shows the bony structures of the skull, the paranasal sinuses, and portions of the brain. The maxillary sinuses appear partially visualized, and there is no obvious evidence of acute intracranial hemorrhage or mass effect. The image quality is typical for a non-contrast study, with good visualization of soft tissue and bone.",
+      "visible_findings": [
+        "axial view of the head",
+        "paranasal sinuses visible",
+        "no obvious intracranial hemorrhage",
+        "bony structures of the skull intact"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "axial",
+        "non-contrast",
+        "paranasal sinuses",
+        "skull"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "axial ct of head",
+        "non-contrast ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:49+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 246,
+      "total_tokens": 833
+    }
+  },
+  "Case_07025/figure5.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure5.jpg",
+    "source_caption": "H and E stain magnified x 400.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain at 400x magnification showing prominent pigmentation.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) at 400x magnification, shows a pink-stained background with scattered cells and structures. A prominent pigmented area is visible, highlighted by an arrow. The pigmentation appears dark and irregular, contrasting with the surrounding tissue. Cellular and extracellular components are visible, with some vacuolated spaces and scattered nuclei.",
+      "visible_findings": [
+        "pink-stained background",
+        "dark pigmented area",
+        "scattered nuclei",
+        "vacuolated spaces"
+      ],
+      "keywords": [
+        "histopathology",
+        "H&E stain",
+        "pigmentation",
+        "400x magnification",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "histopathology slide",
+        "pigmentation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:50+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 235,
+      "total_tokens": 827
+    }
+  },
+  "Case_07025/figure6.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure6.jpg",
+    "source_caption": "Fungal culture of biopsy specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Microscopic view of fungal elements with septate hyphae and conidia.",
+      "detailed_description": "This image shows a microscopic view of fungal elements, including septate hyphae and conidia. The hyphae are segmented, and the conidia are arranged in a characteristic pattern, suggesting a fungal organism. The image appears to be stained to enhance visualization of fungal structures, though the specific stain is not labeled. The morphology is consistent with a dematiaceous fungus.",
+      "visible_findings": [
+        "septate hyphae",
+        "conidia in a branching arrangement",
+        "stained fungal structures"
+      ],
+      "keywords": [
+        "fungus",
+        "microscopy",
+        "hyphae",
+        "conidia",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal microscopy",
+        "stained fungal elements",
+        "septate hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:52+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 231,
+      "total_tokens": 820
+    }
+  },
+  "Case_07025/figure3.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure3.jpg",
+    "source_caption": "H and E stain, magnified x 400.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain at 400x magnification showing pigmented fungal hyphae.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) and magnified 400x, shows pigmented fungal hyphae. The hyphae are septate and exhibit branching, with visible pigmentation, which is characteristic of dematiaceous fungi. The background tissue appears pink, consistent with the H&E staining technique.",
+      "visible_findings": [
+        "pigmented fungal hyphae",
+        "septate hyphae",
+        "branching hyphae",
+        "pink background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "fungal infection",
+        "pigmented hyphae",
+        "dematiaceous fungi",
+        "400x magnification"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "fungal histopathology",
+        "pigmented hyphae",
+        "400x magnification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:53+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 269,
+      "total_tokens": 862
+    }
+  },
+  "Case_07025/figure4.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure4.jpg",
+    "source_caption": "H and E stain, magnified x 400.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue section",
+      "short_caption": "H&E stain at 400x magnification showing pigmented fungal hyphae near a blood vessel.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E) at 400x magnification, shows fungal hyphae with pigmentation. The hyphae are located in close proximity to a blood vessel, which is clearly visible in the center of the image. The pigmented hyphae suggest the presence of a dematiaceous (darkly pigmented) fungus. The surrounding tissue shows cellular elements and some inflammatory response.",
+      "visible_findings": [
+        "pigmented fungal hyphae",
+        "blood vessel in the center",
+        "surrounding tissue with cellular elements",
+        "inflammatory response"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "fungal hyphae",
+        "pigmentation",
+        "blood vessel",
+        "tissue section"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "fungal infection",
+        "histopathology of tissue",
+        "pigmented hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:57+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 276,
+      "total_tokens": 869
+    }
+  },
+  "Case_07025/figure7.jpg": {
+    "case_id": "Case_07025",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07025/figure7.jpg",
+    "source_caption": "Fungal culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Microscopic view of fungal elements with septate hyphae and conidia.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained for visualization. The structures include septate hyphae and conidia, which are characteristic of certain fungal species. The conidia appear as oval to elongated structures with transverse septations. The background is a uniform light pink, suggesting a staining technique such as lactophenol cotton blue or a similar preparation.",
+      "visible_findings": [
+        "septate hyphae",
+        "oval to elongated conidia with transverse septations",
+        "light pink background"
+      ],
+      "keywords": [
+        "microscopy",
+        "fungal elements",
+        "septate hyphae",
+        "conidia",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "microscopic examination of fungi",
+        "septate hyphae and conidia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:58+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 231,
+      "total_tokens": 817
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Case_03105/figure2.jpg": {
+    "case_id": "Case_03105",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03105/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye and periocular region",
+      "short_caption": "Close-up of the eye showing conjunctival injection and periocular skin.",
+      "detailed_description": "This clinical photograph shows a close-up view of the eye and surrounding periocular skin. The sclera appears white, with no obvious conjunctival injection or discharge visible. The periocular skin shows fine wrinkles and normal pigmentation without overt lesions or swelling. The eyelashes and eyelid margins appear intact and unremarkable.",
+      "visible_findings": [
+        "blue iris",
+        "white sclera",
+        "fine wrinkles on periocular skin",
+        "intact eyelashes and eyelid margins"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "periocular skin",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "periocular skin",
+        "clinical photograph of eye"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  },
+  "Case_03105/figure1.jpg": {
+    "case_id": "Case_03105",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03105/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower eyelid",
+      "short_caption": "Swollen, erythematous lesion on the lower eyelid.",
+      "detailed_description": "This clinical photograph shows a swollen, erythematous, and tender-appearing lesion on the lower eyelid. The lesion is dome-shaped, with a shiny surface and purplish-red discoloration. Surrounding skin appears mildly inflamed. The eye itself is partially visible, with no obvious discharge or conjunctival involvement in this image.",
+      "visible_findings": [
+        "swollen lower eyelid",
+        "erythematous lesion",
+        "shiny, dome-shaped appearance",
+        "purplish-red discoloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower eyelid",
+        "swelling",
+        "erythema",
+        "infection",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "lower eyelid swelling",
+        "skin lesion near eye",
+        "infectious eyelid lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:19+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  }
+}

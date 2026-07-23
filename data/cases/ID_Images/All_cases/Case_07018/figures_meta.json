@@ -1,0 +1,126 @@
+{
+  "Case_07018/figure2.jpg": {
+    "case_id": "Case_07018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07018/figure2.jpg",
+    "source_caption": "Gram stain of the culture of the aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in chains and clusters.",
+      "detailed_description": "This image shows a Gram stain of a sample, likely from a culture of an aspirate. The field contains numerous gram-positive cocci, which appear as purple, round structures. These cocci are arranged in chains and clusters, suggesting a mixed morphology. The background is clear, and the staining technique highlights the bacterial cell walls.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "arrangement in chains and clusters",
+        "purple staining of bacterial cell walls"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "chains",
+        "clusters",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "culture of aspirate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:53+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 216,
+      "total_tokens": 808
+    }
+  },
+  "Case_07018/figure3.jpg": {
+    "case_id": "Case_07018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07018/figure3.jpg",
+    "source_caption": "Detail of Figure 2.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive rods in a clinical specimen.",
+      "detailed_description": "This image shows a Gram stain of a clinical specimen. Numerous purple-staining, rod-shaped bacteria are visible, consistent with gram-positive rods. The rods are arranged singly, in pairs, and in short chains. The background is clear, indicating a clean preparation. The staining technique highlights the bacterial morphology and gram-positive cell wall characteristics.",
+      "visible_findings": [
+        "purple-staining rods",
+        "gram-positive morphology",
+        "bacteria arranged singly, in pairs, and short chains",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive rods",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:55+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 217,
+      "total_tokens": 805
+    }
+  },
+  "Case_07018/figure1.jpg": {
+    "case_id": "Case_07018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07018/figure1.jpg",
+    "source_caption": "MRI of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the lumbar spine showing abnormal findings.",
+      "detailed_description": "This sagittal MRI image of the lumbar spine demonstrates the vertebral column, intervertebral discs, and spinal canal. There is evidence of abnormal signal intensity within the spinal canal, possibly indicating a pathological process such as infection, inflammation, or mass effect. The cerebrospinal fluid (CSF) signal appears altered in certain areas, and there may be associated soft tissue changes. The image is de-identified and shows no patient-identifiable information.",
+      "visible_findings": [
+        "sagittal view of the lumbar spine",
+        "altered signal intensity in the spinal canal",
+        "possible soft tissue changes",
+        "vertebral column and intervertebral discs visible"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "lumbar",
+        "infection",
+        "spinal canal",
+        "sagittal view"
+      ],
+      "reveal_triggers": [
+        "spine MRI",
+        "lumbar spine infection",
+        "sagittal MRI of spine"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:57+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 264,
+      "total_tokens": 851
+    }
+  }
+}

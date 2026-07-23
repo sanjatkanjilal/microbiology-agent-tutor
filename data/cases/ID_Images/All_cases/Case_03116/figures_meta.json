@@ -1,0 +1,45 @@
+{
+  "Case_03116/figure1.jpg": {
+    "case_id": "Case_03116",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03116/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "elbow",
+      "short_caption": "Large ulceration with necrotic tissue on the elbow.",
+      "detailed_description": "This image shows a large ulcerative lesion on the elbow with extensive erythema, necrotic tissue, and surrounding inflammation. The lesion appears moist and irregularly shaped, with areas of black eschar and red granulation tissue. The surrounding skin shows signs of erythema and possible edema, suggesting an infectious or inflammatory process.",
+      "visible_findings": [
+        "large ulceration",
+        "necrotic tissue",
+        "erythema",
+        "irregular lesion margins",
+        "surrounding inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "elbow",
+        "ulcer",
+        "necrosis",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected ulcer",
+        "elbow wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 223,
+      "total_tokens": 791
+    }
+  }
+}

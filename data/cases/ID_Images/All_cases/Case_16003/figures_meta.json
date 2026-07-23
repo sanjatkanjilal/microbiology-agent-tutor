@@ -1,0 +1,308 @@
+{
+  "Case_16003/figure2.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure2.jpg",
+    "source_caption": "Physical finding on the anterior right thigh.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:58:50+00:00"
+  },
+  "Case_16003/figure3.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure3.jpg",
+    "source_caption": "Radiograph of left wrist.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "left wrist",
+      "short_caption": "Radiograph of the left wrist showing lytic lesions in the distal radius.",
+      "detailed_description": "This radiograph depicts the left wrist, including the distal radius, ulna, and carpal bones. There are prominent lytic lesions visible in the distal radius, characterized by areas of bone destruction with irregular margins. The surrounding bone appears intact, and no obvious periosteal reaction is noted. The carpal bones and ulna appear unaffected.",
+      "visible_findings": [
+        "lytic lesions in the distal radius",
+        "intact carpal bones and ulna",
+        "no visible periosteal reaction"
+      ],
+      "keywords": [
+        "radiograph",
+        "left wrist",
+        "lytic lesion",
+        "bone destruction",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wrist x-ray",
+        "bone lesion",
+        "radiograph of wrist"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:55+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  },
+  "Case_16003/figure4.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure4.jpg",
+    "source_caption": "Computed tomography (CT) of the abdomen and extremities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "CT scan showing abnormalities in the abdomen and pelvis, including soft tissue and bony structures.",
+      "detailed_description": "This CT image includes coronal and axial views of the abdomen and pelvis. The coronal view shows the lumbar spine, kidneys, and surrounding soft tissues. The axial inset highlights the pelvic region, including the hip joint and adjacent structures. There appear to be abnormalities in the soft tissue and bony structures, potentially indicative of infection or inflammation. No contrast enhancement is evident in this image.",
+      "visible_findings": [
+        "lumbar spine visible in coronal view",
+        "kidneys with possible irregularities",
+        "soft tissue abnormalities in the pelvic region",
+        "hip joint visible in axial inset"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "soft tissue",
+        "bony structures",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "pelvic ct",
+        "soft tissue infection",
+        "bony abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:57+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 252,
+      "total_tokens": 847
+    }
+  },
+  "Case_16003/figure5.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure5.jpg",
+    "source_caption": "CT and magnetic resonance imaging (MRI) of the lumbar spine.",
+    "description": {
+      "modality": "CT | MRI",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "CT and MRI of the lumbar spine showing vertebral abnormalities.",
+      "detailed_description": "The image shows a sagittal CT scan (left) and a sagittal T2-weighted MRI (right) of the lumbar spine. The CT scan highlights bony structures, showing vertebral bodies and intervertebral disc spaces. The MRI provides soft tissue contrast, revealing intervertebral discs and potential abnormalities in the spinal canal. There appears to be evidence of vertebral endplate irregularities and possible disc space narrowing, suggesting degenerative or infectious changes.",
+      "visible_findings": [
+        "sagittal CT of lumbar spine showing vertebral bodies and disc spaces",
+        "sagittal T2-weighted MRI of lumbar spine with soft tissue contrast",
+        "vertebral endplate irregularities",
+        "possible disc space narrowing"
+      ],
+      "keywords": [
+        "ct",
+        "mri",
+        "lumbar spine",
+        "vertebrae",
+        "disc space",
+        "spinal imaging"
+      ],
+      "reveal_triggers": [
+        "lumbar spine imaging",
+        "spinal CT",
+        "spinal MRI",
+        "vertebral abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:57+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 280,
+      "total_tokens": 875
+    }
+  },
+  "Case_16003/figure1.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure1.jpg",
+    "source_caption": "Physical finding on the left posterior thigh.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left posterior thigh",
+      "short_caption": "Ulcerated lesion with erythematous and violaceous borders on the left posterior thigh.",
+      "detailed_description": "This clinical photograph shows an oval-shaped ulcerated lesion on the skin of the left posterior thigh. The lesion has a central area of necrosis or granulation tissue, surrounded by erythematous and violaceous borders. The surrounding skin appears slightly indurated, and there is no visible purulent discharge. The lesion is well-demarcated and suggests an inflammatory or infectious process.",
+      "visible_findings": [
+        "oval ulcerated lesion",
+        "central necrosis or granulation tissue",
+        "erythematous and violaceous borders",
+        "indurated surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "ulcer",
+        "skin lesion",
+        "erythema",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "ulcer on thigh",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:00+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_16003/figure6.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure6.jpg",
+    "source_caption": "Pathological examination of the gluteal aspirate (H and E stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gluteal tissue",
+      "short_caption": "Histopathology of gluteal aspirate showing fungal elements (H&E stain).",
+      "detailed_description": "This histopathology image shows a gluteal aspirate stained with hematoxylin and eosin (H&E). The main panel reveals numerous inflammatory cells, including neutrophils, and scattered fungal elements. The inset highlights round fungal structures with thick walls and occasional budding, consistent with yeast forms. The background shows necrotic debris and cellular infiltrates, indicative of an infectious process.",
+      "visible_findings": [
+        "round fungal elements with thick walls",
+        "occasional budding yeast forms",
+        "inflammatory cells, including neutrophils",
+        "necrotic debris in the background"
+      ],
+      "keywords": [
+        "histopathology",
+        "gluteal tissue",
+        "fungal infection",
+        "h&e stain",
+        "yeast forms"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "fungal infection",
+        "gluteal aspirate pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:00+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 257,
+      "total_tokens": 855
+    }
+  },
+  "Case_16003/figure8.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure8.jpg",
+    "source_caption": "Physical findings 10 months after diagnosis.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Circular, erythematous, scaly skin lesion with central clearing.",
+      "detailed_description": "This clinical photograph shows a circular skin lesion with a well-demarcated, erythematous border and central clearing. The lesion appears scaly, with some areas of hyperpigmentation and hypopigmentation. The surrounding skin is unremarkable. The findings are consistent with a dermatologic condition, possibly fungal in origin, such as tinea corporis.",
+      "visible_findings": [
+        "circular lesion",
+        "erythematous border",
+        "central clearing",
+        "scaly texture",
+        "well-demarcated edges"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythematous lesion",
+        "scaly lesion",
+        "tinea corporis",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythematous rash",
+        "scaly patch",
+        "ringworm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:03+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  },
+  "Case_16003/figure7.jpg": {
+    "case_id": "Case_16003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16003/figure7.jpg",
+    "source_caption": "Pathological examination of the gluteal aspirate (GMS stain).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "gluteal tissue",
+      "short_caption": "GMS stain of gluteal aspirate showing fungal elements.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of a gluteal aspirate. The field contains round to oval fungal elements with thick, darkly stained walls, consistent with yeast forms. Some of the yeast cells appear to have budding, indicative of replication. The background tissue is lightly stained, providing contrast to the fungal structures. The image includes magnified insets for clearer visualization of the fungal morphology.",
+      "visible_findings": [
+        "round to oval fungal elements",
+        "thick, darkly stained cell walls",
+        "budding yeast forms",
+        "lightly stained background tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "gluteal tissue",
+        "fungal elements",
+        "yeast",
+        "pathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "gluteal aspirate pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:04+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 253,
+      "total_tokens": 850
+    }
+  }
+}

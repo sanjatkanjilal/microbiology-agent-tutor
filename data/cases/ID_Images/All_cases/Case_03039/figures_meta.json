@@ -1,0 +1,85 @@
+{
+  "Case_03039/figure1.jpg": {
+    "case_id": "Case_03039",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03039/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates and medical devices.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing bilateral pulmonary infiltrates, which appear as diffuse opacities in both lung fields. The lower lung zones are more prominently affected. Medical devices, including two central venous catheter lines, are visible, with their tips projecting over the heart shadow. The image is slightly overexposed in the lower thoracic region, obscuring some details.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "central venous catheter lines",
+        "overexposure in the lower thoracic region"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "central venous catheter",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "central line placement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:31+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  },
+  "Case_03039/figure2.jpg": {
+    "case_id": "Case_03039",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03039/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing a large cavitary lesion in the right lung.",
+      "detailed_description": "This axial CT scan of the chest demonstrates a large cavitary lesion in the right lung, with an air-fluid level visible within the cavity. Surrounding lung parenchyma shows areas of consolidation and possible ground-glass opacities. The left lung appears relatively spared. The image is in a soft tissue window setting, highlighting the cavity and adjacent structures.",
+      "visible_findings": [
+        "large cavitary lesion in the right lung",
+        "air-fluid level within the cavity",
+        "consolidation in surrounding lung parenchyma",
+        "relatively normal appearance of the left lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "air-fluid level",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung cavity",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:32+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 246,
+      "total_tokens": 834
+    }
+  }
+}

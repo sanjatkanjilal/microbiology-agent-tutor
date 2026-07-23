@@ -1,0 +1,56 @@
+{
+  "Case_19004/figure1.jpg": {
+    "case_id": "Case_19004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19004/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of left forearm",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:03:59+00:00"
+  },
+  "Case_19004/figure2.jpg": {
+    "case_id": "Case_19004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19004/figure2.jpg",
+    "source_caption": "Figure 2: H&E stain of skin biopsy showing non-septate thickened branching hyphae (400x magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing non-septate thickened branching hyphae.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin tissue at 400x magnification. Prominent findings include thick, non-septate, branching fungal hyphae (indicated by arrows) within the dermis. Surrounding the hyphae, there is an inflammatory infiltrate composed of neutrophils and other immune cells, consistent with an infectious process. The morphology of the hyphae suggests a fungal etiology, possibly a Mucorales species.",
+      "visible_findings": [
+        "non-septate thickened branching hyphae",
+        "inflammatory infiltrate with neutrophils",
+        "pink and purple staining typical of H&E"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "h&e stain",
+        "fungal infection",
+        "non-septate hyphae",
+        "branching hyphae"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "h&e stain",
+        "fungal hyphae",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:16+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 291,
+      "total_tokens": 900
+    }
+  }
+}

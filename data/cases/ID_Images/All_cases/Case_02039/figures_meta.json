@@ -1,0 +1,90 @@
+{
+  "Case_02039/figure1.jpg": {
+    "case_id": "Case_02039",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02039/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm and hand",
+      "short_caption": "Erythematous and desquamated forearm with visible lesions.",
+      "detailed_description": "This image shows the dorsal aspect of the forearm and hand with extensive erythema, desquamation, and areas of superficial ulceration. The skin appears inflamed and shiny, with scattered erosions and discoloration. No clear signs of purulent discharge are visible. The image is taken under clinical lighting on a white medical drape.",
+      "visible_findings": [
+        "erythema covering the forearm and hand",
+        "desquamation and shiny skin texture",
+        "scattered erosions and superficial ulcerations",
+        "discoloration in some areas"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "hand",
+        "erythema",
+        "desquamation",
+        "skin lesion",
+        "ulceration"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious rash",
+        "desquamation",
+        "forearm lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 268,
+      "total_tokens": 836
+    }
+  },
+  "Case_02039/figure2.jpg": {
+    "case_id": "Case_02039",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02039/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Erythematous, desquamating rash on the dorsal hand.",
+      "detailed_description": "This image shows the dorsal aspect of a hand with diffuse erythema, desquamation, and areas of superficial skin peeling. The affected skin appears shiny and inflamed, with irregular patches of epidermal loss. A white bandage or dressing is visible around the wrist, suggesting prior wound care or protection. The findings are consistent with a severe inflammatory or infectious process involving the skin.",
+      "visible_findings": [
+        "diffuse erythema",
+        "desquamation",
+        "shiny, inflamed skin",
+        "epidermal peeling",
+        "white bandage around wrist"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "erythema",
+        "desquamation",
+        "skin infection",
+        "rash"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "hand erythema",
+        "desquamation",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 248,
+      "total_tokens": 816
+    }
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "Case_10012/figure4.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure4.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing mediastinal structures and measurements.",
+      "detailed_description": "This axial CT image of the chest shows the mediastinal structures, including the heart and great vessels, with surrounding lung parenchyma. Measurements are annotated in green, likely indicating the size of a specific structure or lesion. The image is in soft tissue window settings, and no contrast enhancement is evident. No obvious abnormalities such as masses, fluid collections, or significant lung pathology are immediately visible.",
+      "visible_findings": [
+        "mediastinal structures including the heart and great vessels",
+        "lung parenchyma visible bilaterally",
+        "green measurement annotations on the image",
+        "soft tissue window settings"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinum",
+        "lung",
+        "measurement",
+        "soft tissue window"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "mediastinal imaging",
+        "lung ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:26+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 246,
+      "total_tokens": 833
+    }
+  },
+  "Case_10012/figure1.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure1.jpg",
+    "source_caption": "Physical findings on forehead.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forehead",
+      "short_caption": "Close-up of the forehead showing skin findings.",
+      "detailed_description": "This image shows a close-up view of the forehead. The skin appears to have multiple small, raised, flesh-colored papules distributed across the area. The lesions are subtle and uniform in size, with no visible erythema or scaling. Hairline and eyebrow are partially visible, providing anatomical context.",
+      "visible_findings": [
+        "multiple small raised papules",
+        "flesh-colored lesions",
+        "no visible erythema or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forehead",
+        "skin lesions",
+        "papules",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "forehead lesions",
+        "papular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:26+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 203,
+      "total_tokens": 790
+    }
+  },
+  "Case_10012/figure3.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure3.jpg",
+    "source_caption": "Physical findings on foot.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythema and swelling over the lateral aspect of the foot.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of a foot with notable erythema and swelling. The skin appears tense and mildly shiny, suggesting inflammation or edema. There are no visible open wounds, ulcerations, or purulent discharge. The findings are consistent with a localized inflammatory process, potentially cellulitis or another soft tissue infection.",
+      "visible_findings": [
+        "erythema over the lateral foot",
+        "swelling of the lateral foot",
+        "tense and shiny skin appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "erythema",
+        "swelling",
+        "inflammation",
+        "cellulitis"
+      ],
+      "reveal_triggers": [
+        "foot exam",
+        "skin findings on foot",
+        "erythema and swelling on foot"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:27+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 224,
+      "total_tokens": 811
+    }
+  },
+  "Case_10012/figure2.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure2.jpg",
+    "source_caption": "Physical findings on foot.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythema and swelling on the dorsal aspect of the foot.",
+      "detailed_description": "This image shows the dorsal aspect of a foot with diffuse erythema and mild swelling. The redness appears patchy and extends across the midfoot and toes. There is no visible ulceration or drainage. The toenails appear intact, though there is slight discoloration of the nail of the great toe. The findings suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "diffuse erythema on the dorsal foot",
+        "mild swelling",
+        "patchy redness extending to the toes",
+        "intact toenails with slight discoloration of the great toe"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "erythema",
+        "swelling",
+        "inflammation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "foot exam",
+        "erythema on foot",
+        "infectious foot findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:27+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 240,
+      "total_tokens": 827
+    }
+  },
+  "Case_10012/figure5.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure5.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary infiltrates, predominantly in the lower lung fields. The infiltrates appear as patchy areas of increased attenuation, consistent with consolidation or ground-glass opacities. The heart and mediastinal structures are centrally located, and no significant pleural effusion is evident. The image is likely obtained without contrast, as vascular structures are not prominently enhanced.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "patchy areas of increased attenuation",
+        "no significant pleural effusion",
+        "normal-appearing mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "ground-glass opacities",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:29+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  },
+  "Case_10012/figure6.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure6.jpg",
+    "source_caption": "H and E stain of skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing inflammatory infiltrates and structural changes.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin. The dermis contains dense inflammatory infiltrates, primarily composed of mononuclear cells, surrounding adnexal structures. There are areas of epidermal and dermal structural disruption, with some regions showing edema and possible necrosis. The staining highlights cellular and extracellular components, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "dense inflammatory infiltrates in the dermis",
+        "mononuclear cell predominance",
+        "disruption of normal skin architecture",
+        "edema and possible necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:30+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  },
+  "Case_10012/figure7.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure7.jpg",
+    "source_caption": "Fite stain of skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Fite stain of skin biopsy showing acid-fast bacilli.",
+      "detailed_description": "This image shows a Fite stain of a skin biopsy. The background is composed of dermal connective tissue, stained blue. Numerous small, rod-shaped, red-stained structures are visible, consistent with acid-fast bacilli. The Fite stain is used to identify organisms such as Mycobacterium leprae in tissue samples.",
+      "visible_findings": [
+        "blue-stained connective tissue background",
+        "numerous red-stained rod-shaped structures (acid-fast bacilli)"
+      ],
+      "keywords": [
+        "fite stain",
+        "skin biopsy",
+        "acid-fast bacilli",
+        "mycobacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fite stain",
+        "skin biopsy",
+        "acid-fast organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:34+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 216,
+      "total_tokens": 805
+    }
+  },
+  "Case_10012/figure8.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure8.jpg",
+    "source_caption": "H and E stain of lymph node.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "H&E stain of a lymph node showing architectural changes.",
+      "detailed_description": "This is a histopathological image of a lymph node stained with hematoxylin and eosin (H&E). The lymph node architecture appears disrupted, with areas of follicular hyperplasia and possible effacement of normal structure. There are regions of increased cellularity and some lighter staining areas suggestive of necrosis or germinal center activity. The staining highlights the nuclei in blue and the cytoplasm and extracellular matrix in varying shades of pink.",
+      "visible_findings": [
+        "disrupted lymph node architecture",
+        "follicular hyperplasia",
+        "increased cellularity",
+        "lighter staining areas suggestive of necrosis or germinal centers"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "H&E stain",
+        "follicular hyperplasia",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node histology",
+        "lymph node biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:40+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 258,
+      "total_tokens": 848
+    }
+  },
+  "Case_10012/figure9.jpg": {
+    "case_id": "Case_10012",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10012/figure9.jpg",
+    "source_caption": "Fite stain of lymph node.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Fite stain of lymph node showing acid-fast bacilli.",
+      "detailed_description": "This image shows a Fite stain of lymph node tissue. Numerous pink to red, rod-shaped acid-fast bacilli are visible against a blue background of cellular and extracellular material. The staining highlights the presence of mycobacteria, which are characteristic of infections such as leprosy or atypical mycobacterial infections. The tissue architecture is partially preserved, with inflammatory cells and granulomatous structures visible.",
+      "visible_findings": [
+        "pink to red rod-shaped bacilli",
+        "blue background staining",
+        "granulomatous structures",
+        "inflammatory cells"
+      ],
+      "keywords": [
+        "fite stain",
+        "lymph node",
+        "acid-fast bacilli",
+        "mycobacteria",
+        "infectious disease",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "fite stain",
+        "lymph node histology",
+        "acid-fast bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:41+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 249,
+      "total_tokens": 838
+    }
+  }
+}

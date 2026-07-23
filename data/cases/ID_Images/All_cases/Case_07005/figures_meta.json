@@ -1,0 +1,127 @@
+{
+  "Case_07005/figure1.jpg": {
+    "case_id": "Case_07005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07005/figure1.jpg",
+    "source_caption": "Radiograph of the chest and abdomen.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest and abdomen",
+      "short_caption": "Frontal chest and abdominal radiograph showing thoracic and abdominal structures.",
+      "detailed_description": "This is a frontal radiograph of the chest and abdomen, likely from a pediatric patient based on skeletal proportions. The thoracic cavity shows clear lung fields without obvious consolidation, pleural effusion, or masses. The cardiac silhouette appears normal in size and shape. The abdominal cavity reveals gas-filled bowel loops, with no apparent signs of obstruction or abnormal calcifications. The bony structures, including ribs, spine, and pelvis, appear intact without visible fractures or deformities.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal cardiac silhouette",
+        "gas-filled bowel loops",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "radiograph",
+        "chest",
+        "abdomen",
+        "pediatric",
+        "lungs",
+        "bowel",
+        "bones"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "abdominal x-ray",
+        "pediatric radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:29+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 257,
+      "total_tokens": 847
+    }
+  },
+  "Case_07005/figure2.jpg": {
+    "case_id": "Case_07005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07005/figure2.jpg",
+    "source_caption": "Barium swallow.",
+    "description": {
+      "modality": "barium swallow",
+      "anatomical_site": "esophagus",
+      "short_caption": "Barium swallow showing esophageal narrowing.",
+      "detailed_description": "This image is a barium swallow radiograph demonstrating the esophagus. There is a clear narrowing of the esophageal lumen, likely due to a stricture or external compression. The contrast medium outlines the esophagus, highlighting the abnormality. The surrounding anatomy is faintly visible, consistent with the imaging technique.",
+      "visible_findings": [
+        "esophageal narrowing",
+        "contrast outlining the esophagus",
+        "normal proximal esophagus",
+        "possible stricture or external compression"
+      ],
+      "keywords": [
+        "barium swallow",
+        "esophagus",
+        "stricture",
+        "contrast study",
+        "radiograph"
+      ],
+      "reveal_triggers": [
+        "barium swallow",
+        "esophageal imaging",
+        "contrast study of esophagus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:32+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 213,
+      "total_tokens": 799
+    }
+  },
+  "Case_07005/figure3.jpg": {
+    "case_id": "Case_07005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07005/figure3.jpg",
+    "source_caption": "Barium swallow.",
+    "description": {
+      "modality": "barium swallow",
+      "anatomical_site": "esophagus",
+      "short_caption": "Barium swallow showing a dilated esophagus with a narrowed distal segment.",
+      "detailed_description": "This is a barium swallow radiograph demonstrating a markedly dilated esophagus with a smooth, tapered narrowing at the distal end, resembling a 'bird-beak' appearance. The contrast medium outlines the esophageal lumen, highlighting the obstruction at the gastroesophageal junction. The surrounding anatomy is faintly visible, and no obvious perforation or extravasation of contrast is seen.",
+      "visible_findings": [
+        "dilated esophagus",
+        "tapered narrowing at distal esophagus",
+        "'bird-beak' appearance",
+        "contrast outlining esophageal lumen"
+      ],
+      "keywords": [
+        "barium swallow",
+        "esophagus",
+        "bird-beak",
+        "achalasia",
+        "contrast study"
+      ],
+      "reveal_triggers": [
+        "barium swallow",
+        "esophageal obstruction",
+        "achalasia imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:33+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 238,
+      "total_tokens": 824
+    }
+  }
+}

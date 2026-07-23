@@ -1,0 +1,219 @@
+{
+  "Case_15011/figure1.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:58:39+00:00"
+  },
+  "Case_15011/figure6.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure6.jpg",
+    "source_caption": "Mycobacterium marinum, grown in culture on Middlebrook7H11 agar from skin biopsy.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Mycobacterium marinum colonies grown on Middlebrook 7H11 agar.",
+      "detailed_description": "The image shows a culture plate containing Middlebrook 7H11 agar with two distinct colonies of Mycobacterium marinum. The colonies are circular, slightly raised, and exhibit a yellow pigmentation. The agar is clear, allowing the colonies to be easily visualized. This culture was likely derived from a clinical specimen, such as a skin biopsy, as suggested by the case context.",
+      "visible_findings": [
+        "two circular colonies on agar",
+        "yellow pigmentation of colonies",
+        "clear agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "mycobacterium marinum",
+        "middlebrook 7h11 agar",
+        "infectious diseases",
+        "skin biopsy"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "mycobacterium marinum",
+        "skin biopsy culture",
+        "middlebrook agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:46+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 239,
+      "total_tokens": 842
+    }
+  },
+  "Case_15011/figure2.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Forearm with extensive skin ulceration and scarring.",
+      "detailed_description": "This image shows a forearm with significant skin changes, including areas of ulceration, scarring, and crusting. The lesions appear irregularly shaped, with some areas showing erythema and others covered by dark crusts. The surrounding skin is discolored and appears thickened, suggesting chronicity. The image is taken in a clinical setting, with the arm resting on a white cloth.",
+      "visible_findings": [
+        "irregular skin ulceration",
+        "dark crusting over lesions",
+        "discoloration and thickening of surrounding skin",
+        "scarring"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "skin ulceration",
+        "scarring",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin ulcer",
+        "forearm lesion",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:48+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_15011/figure3.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure3.jpg",
+    "source_caption": "Skin biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of a skin biopsy showing inflammatory infiltrate and necrosis.",
+      "detailed_description": "This histopathology image shows a section of skin tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates a dense inflammatory infiltrate composed predominantly of neutrophils, along with areas of necrosis. There are also scattered red-staining areas suggestive of hemorrhage or extravasated red blood cells. The background tissue architecture appears disrupted, consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "dense neutrophilic infiltrate",
+        "areas of necrosis",
+        "red-staining regions suggestive of hemorrhage",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "inflammation",
+        "necrosis",
+        "infection",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "H&E stain of skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:51+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 249,
+      "total_tokens": 835
+    }
+  },
+  "Case_15011/figure5.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure5.jpg",
+    "source_caption": "Mycobacterium marinum shown with Kinyoun stain after growth in culture from skin biopsy specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin biopsy specimen",
+      "short_caption": "Kinyoun stain showing Mycobacterium marinum from a skin biopsy culture.",
+      "detailed_description": "This image shows a Kinyoun stain of a culture derived from a skin biopsy specimen. The red-stained, filamentous and branching structures are consistent with acid-fast bacilli, characteristic of Mycobacterium species. The background is pale, with no significant cellular debris visible, highlighting the stained organisms.",
+      "visible_findings": [
+        "red-stained filamentous structures",
+        "branching morphology",
+        "acid-fast staining pattern"
+      ],
+      "keywords": [
+        "kinyoun stain",
+        "mycobacterium marinum",
+        "acid-fast bacilli",
+        "skin biopsy",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "kinyoun stain",
+        "acid-fast organisms",
+        "mycobacterium marinum culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:52+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 238,
+      "total_tokens": 841
+    }
+  },
+  "Case_15011/figure4.jpg": {
+    "case_id": "Case_15011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15011/figure4.jpg",
+    "source_caption": "Skin biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of a skin biopsy showing inflammation and necrosis.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis and dermis are visible, with an area of necrosis and inflammation predominantly in the lower dermis. The necrotic region appears pink and amorphous, while the surrounding tissue shows a mixed inflammatory infiltrate. The upper dermis and epidermis appear relatively preserved.",
+      "visible_findings": [
+        "necrotic area in the dermis",
+        "mixed inflammatory infiltrate",
+        "preserved epidermis",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "H&E stain of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:53+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 238,
+      "total_tokens": 824
+    }
+  }
+}

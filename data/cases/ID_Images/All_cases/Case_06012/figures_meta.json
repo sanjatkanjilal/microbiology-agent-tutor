@@ -1,0 +1,127 @@
+{
+  "Case_06012/figure1.jpg": {
+    "case_id": "Case_06012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06012/figure1.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of the chest showing a cavitary lesion in the right lung.",
+      "detailed_description": "This axial CT image of the chest demonstrates a cavitary lesion in the right lung, surrounded by areas of consolidation. The lesion appears to have irregular borders and is located in the upper lobe. The left lung appears relatively normal, with no obvious abnormalities. The image is in grayscale, typical of non-contrast CT imaging.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "surrounding consolidation in the right lung",
+        "normal appearance of the left lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "consolidation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavitation",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:31+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  },
+  "Case_06012/figure2.jpg": {
+    "case_id": "Case_06012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06012/figure2.jpg",
+    "source_caption": "H and E stain of lung biopsy",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing a spherule filled with endospores.",
+      "detailed_description": "This histopathology image shows a round, well-defined spherule filled with numerous smaller endospores, characteristic of a fungal organism. The background tissue appears pink with hematoxylin and eosin (H&E) staining, and there is evidence of surrounding inflammation. The spherule is centrally located and prominent, suggesting a fungal infection, such as Coccidioides species.",
+      "visible_findings": [
+        "round spherule with endospores",
+        "pink-stained background tissue",
+        "evidence of inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "h&e stain",
+        "spherule",
+        "fungal infection",
+        "coccidioides"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "h&e stain",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:33+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 243,
+      "total_tokens": 833
+    }
+  },
+  "Case_06012/figure3.jpg": {
+    "case_id": "Case_06012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06012/figure3.jpg",
+    "source_caption": "GMS stain of lung biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of lung biopsy showing a fungal spherule with endospores.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of lung tissue. A large, round fungal spherule is visible, containing numerous smaller endospores within its structure. The spherule is darkly stained against a blue background, characteristic of fungal elements highlighted by the GMS stain. This appearance is consistent with a fungal infection, such as coccidioidomycosis.",
+      "visible_findings": [
+        "large, round fungal spherule",
+        "numerous internal endospores",
+        "dark staining of fungal elements with GMS",
+        "blue background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung biopsy",
+        "fungal infection",
+        "spherule",
+        "endospores",
+        "coccidioidomycosis"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "lung biopsy",
+        "fungal spherule",
+        "coccidioidomycosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 276,
+      "total_tokens": 865
+    }
+  }
+}

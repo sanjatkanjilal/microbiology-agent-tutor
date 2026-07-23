@@ -1,0 +1,44 @@
+{
+  "Case_03102/figure1.jpg": {
+    "case_id": "Case_03102",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03102/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Vesiculopustular lesions on the face, concentrated around the nose and mouth.",
+      "detailed_description": "This image shows multiple vesiculopustular lesions on the face, primarily distributed around the nose and mouth. The lesions are erythematous, some with central crusting, and vary in size. The surrounding skin appears mildly inflamed. The distribution and appearance suggest an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "vesiculopustular lesions",
+        "erythema around lesions",
+        "central crusting in some lesions",
+        "concentration around nose and mouth"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "vesiculopustular lesions",
+        "erythema",
+        "infection",
+        "skin"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:20+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  }
+}

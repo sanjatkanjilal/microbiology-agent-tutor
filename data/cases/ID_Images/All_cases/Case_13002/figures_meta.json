@@ -1,0 +1,167 @@
+{
+  "Case_13002/figure2.jpg": {
+    "case_id": "Case_13002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13002/figure2.jpg",
+    "source_caption": "Skin lesion after lateral pressure applied.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Skin lesion with erythema and central erosion after lateral pressure applied.",
+      "detailed_description": "This clinical photograph shows a localized skin lesion with surrounding erythema and a central erosion or ulceration. The lesion appears to be under examination, with gloved hands applying lateral pressure. The surrounding skin is mildly inflamed, and the lesion is well-demarcated. The gloves and sterile field suggest a clinical setting.",
+      "visible_findings": [
+        "localized erythema",
+        "central erosion or ulceration",
+        "well-demarcated lesion",
+        "gloved hands applying pressure"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "lesion",
+        "erythema",
+        "ulceration",
+        "pressure sign"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "pressure sign",
+        "erythematous lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 222,
+      "total_tokens": 811
+    }
+  },
+  "Case_13002/figure3.jpg": {
+    "case_id": "Case_13002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13002/figure3.jpg",
+    "source_caption": "Physical findings, 24 hours after application of petrolatum jelly.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Erythematous lesion with central pustule on the skin.",
+      "detailed_description": "This clinical photograph shows a localized erythematous lesion with a central pustule. The surrounding skin appears mildly inflamed, with a pink to red hue. The lesion is well-demarcated, and the pustule is small and white, suggesting a localized inflammatory or infectious process. The image is taken under natural lighting, and no additional diagnostic tools are visible.",
+      "visible_findings": [
+        "erythematous skin lesion",
+        "central pustule",
+        "localized inflammation",
+        "well-demarcated borders"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "pustule",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "pustule",
+        "erythematous rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:39+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 225,
+      "total_tokens": 820
+    }
+  },
+  "Case_13002/figure1.jpg": {
+    "case_id": "Case_13002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13002/figure1.jpg",
+    "source_caption": "Physical findings on leg.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Erythematous lesions on the leg.",
+      "detailed_description": "This image shows a close-up view of the skin on the leg. There are two erythematous lesions, one larger and more prominent with central discoloration, and another smaller lesion nearby. The surrounding skin appears mildly inflamed but without significant swelling or drainage visible. The lesions suggest localized inflammation, possibly due to an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous lesions",
+        "central discoloration in one lesion",
+        "mild surrounding inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "skin lesion",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "leg lesion",
+        "infectious skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:39+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 210,
+      "total_tokens": 797
+    }
+  },
+  "Case_13002/figure4.jpg": {
+    "case_id": "Case_13002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13002/figure4.jpg",
+    "source_caption": "Extracted African tumbu fly Cordylobia anthropophaga larva, with breathing tube.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Extracted larva of African tumbu fly with visible breathing tube.",
+      "detailed_description": "The image shows a small, translucent larva placed on a blue background next to a pen for scale. The larva appears elongated with a tapering end and a visible breathing tube extending from its body. The pen provides a size reference, indicating the larva is small. The background and lighting emphasize the larva's structure.",
+      "visible_findings": [
+        "small translucent larva",
+        "elongated body with tapering end",
+        "visible breathing tube",
+        "pen for size reference"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "larva",
+        "tumbu fly",
+        "breathing tube",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "tumbu fly larva",
+        "Cordylobia anthropophaga",
+        "parasitic larva",
+        "skin infestation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:45+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 232,
+      "total_tokens": 833
+    }
+  }
+}

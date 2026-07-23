@@ -1,0 +1,85 @@
+{
+  "Case_03044/figure1.jpg": {
+    "case_id": "Case_03044",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03044/figure1.jpg",
+    "source_caption": "Abdominal-pelvic CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Axial abdominal-pelvic CT scan showing abnormal findings.",
+      "detailed_description": "This axial CT image of the abdomen and pelvis shows a large, well-defined, rounded lesion in the right side of the abdomen. The lesion appears to have a mixed density with areas of soft tissue attenuation and possible gas or fluid levels. Surrounding structures, including bowel loops, are displaced. There is no evident contrast enhancement visible in this image, suggesting it may be a non-contrast study.",
+      "visible_findings": [
+        "large rounded lesion in the right abdomen",
+        "mixed density with possible gas or fluid levels",
+        "displacement of surrounding bowel loops"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "lesion",
+        "mixed density",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "pelvic CT",
+        "abdominal mass",
+        "infectious lesion on CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:53+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  },
+  "Case_03044/figure2.jpg": {
+    "case_id": "Case_03044",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03044/figure2.jpg",
+    "source_caption": "Aspirate results.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Tissue aspirate with intracellular and extracellular round structures stained with a histological stain.",
+      "detailed_description": "This image shows a high-magnification view of a tissue aspirate stained with a histological stain, likely periodic acid-Schiff (PAS) or similar. The field contains multiple round, pink-staining structures, some of which appear intracellular within host cells, while others are extracellular. The background shows a fibrous or cellular matrix. These findings are consistent with fungal or protozoal elements in tissue.",
+      "visible_findings": [
+        "round, pink-staining structures",
+        "intracellular and extracellular distribution",
+        "fibrous or cellular background matrix"
+      ],
+      "keywords": [
+        "stain",
+        "tissue aspirate",
+        "fungal elements",
+        "protozoal elements",
+        "histology"
+      ],
+      "reveal_triggers": [
+        "tissue aspirate",
+        "PAS stain",
+        "fungal infection",
+        "protozoal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:01+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 244,
+      "total_tokens": 830
+    }
+  }
+}

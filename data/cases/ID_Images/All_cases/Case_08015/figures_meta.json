@@ -1,0 +1,167 @@
+{
+  "Case_08015/figure3.jpg": {
+    "case_id": "Case_08015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08015/figure3.jpg",
+    "source_caption": "H and E stain of specimen, higher (40x) magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing fungal organisms with surrounding inflammation.",
+      "detailed_description": "This is a histopathology image stained with hematoxylin and eosin (H&E) at high magnification (40x). The image shows fungal organisms, characterized by round to oval structures with clear halos, suggestive of a capsule. These structures are surrounded by an inflammatory infiltrate, including numerous darkly stained nuclei of inflammatory cells. The background tissue appears disrupted, with areas of necrosis and pink-staining extracellular matrix.",
+      "visible_findings": [
+        "round to oval fungal organisms with clear halos",
+        "inflammatory cell infiltrate with dark nuclei",
+        "disrupted tissue architecture",
+        "pink-staining extracellular matrix"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "fungal infection",
+        "capsule",
+        "inflammation",
+        "high magnification"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "fungal histopathology",
+        "capsule visualization"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:20+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 254,
+      "total_tokens": 851
+    }
+  },
+  "Case_08015/figure2.jpg": {
+    "case_id": "Case_08015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08015/figure2.jpg",
+    "source_caption": "Hematoxylin and eosin (H and E) stain of spleen specimen, low magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "spleen",
+      "short_caption": "Hematoxylin and eosin stain of spleen specimen at low magnification.",
+      "detailed_description": "This histopathology image shows a spleen specimen stained with hematoxylin and eosin (H&E) at low magnification. The tissue displays a mix of red and purple staining, with areas of red likely representing vascular or hemorrhagic regions and purple areas corresponding to cellular components. The architecture suggests a disrupted or inflamed spleen, with possible infiltration or necrosis visible in some regions. The image is de-identified and labeled for educational purposes.",
+      "visible_findings": [
+        "red and purple staining typical of H&E",
+        "disrupted splenic architecture",
+        "areas of potential necrosis or infiltration",
+        "vascular or hemorrhagic regions"
+      ],
+      "keywords": [
+        "histopathology",
+        "spleen",
+        "H&E stain",
+        "low magnification",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain of spleen",
+        "histopathology of spleen",
+        "low magnification spleen pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:20+00:00",
+    "usage": {
+      "prompt_tokens": 605,
+      "completion_tokens": 274,
+      "total_tokens": 879
+    }
+  },
+  "Case_08015/figure1.jpg": {
+    "case_id": "Case_08015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08015/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT scan of the abdomen showing intra-abdominal pathology.",
+      "detailed_description": "This is a coronal CT scan of the abdomen. The image shows soft tissue structures, bowel loops, and abdominal organs. There appears to be abnormal soft tissue density in the mid-abdomen, possibly suggestive of an infectious or inflammatory process. The bowel loops are visible, and there may be evidence of mesenteric involvement or lymphadenopathy. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "soft tissue density in the mid-abdomen",
+        "bowel loops visible",
+        "potential mesenteric involvement",
+        "no contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "intra-abdominal pathology",
+        "non-contrast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "intra-abdominal infection",
+        "mesenteric involvement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.9
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 247,
+      "total_tokens": 835
+    }
+  },
+  "Case_08015/figure4.jpg": {
+    "case_id": "Case_08015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08015/figure4.jpg",
+    "source_caption": "Mucicarmine stain of spleen specimen, 40x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "spleen",
+      "short_caption": "Mucicarmine stain of spleen specimen showing encapsulated yeast forms, 40x magnification.",
+      "detailed_description": "This image shows a mucicarmine-stained section of a spleen specimen at 40x magnification. Numerous round to oval yeast forms with prominent capsules are visible, stained bright pink to red, against a lighter background. The mucicarmine stain highlights the polysaccharide capsule of the organisms, which is a key diagnostic feature. The background tissue appears faintly stained, allowing the yeast forms to stand out clearly.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "prominent pink to red capsules",
+        "lighter background tissue"
+      ],
+      "keywords": [
+        "mucicarmine stain",
+        "spleen",
+        "yeast",
+        "capsule",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "mucicarmine stain",
+        "spleen histology",
+        "encapsulated yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:24+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 258,
+      "total_tokens": 857
+    }
+  }
+}

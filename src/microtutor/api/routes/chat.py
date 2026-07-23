@@ -21,6 +21,12 @@ from microtutor.services.case import (
     resolve_case_package,
     resolve_case_package_by_id,
 )
+from microtutor.services.case.figure_catalog import (
+    allowed_figure_numbers,
+    build_figure_catalog,
+    parse_display_figures,
+)
+from microtutor.services.case.speaker_markers import parse_agent_markers
 from microtutor.services.emr import get_emr_service
 from microtutor.services.emr.service import notes_to_emr_data
 from microtutor.services.infrastructure.background import BackgroundTaskService, get_background_service
@@ -33,6 +39,21 @@ router = APIRouter()
 
 # Tools whose replies should feed structured EMR extraction
 _EMR_SOURCE_TOOLS = {"patient", "tests_management"}
+
+
+def _ensure_package_figure_catalog(package) -> list:
+    """Lazily backfill catalog for sessions started before vision wiring."""
+    if not package:
+        return []
+    if package.figure_catalog:
+        return list(package.figure_catalog)
+    if package.library_case_id and package.figures:
+        package.figure_catalog = build_figure_catalog(
+            package.library_case_id,
+            package.figures,
+            narrative=package.narrative or "",
+        )
+    return list(package.figure_catalog or [])
 
 
 async def _start_case_locked(
@@ -314,8 +335,10 @@ async def chat(
                 logger.warning(f"[CHAT] Failed to hydrate history from DB: {e}")
         
         # Prefer the bound package narrative so chat turns use the same case as figures
-        bound_narrative = get_case_package_store().get_narrative(request.case_id)
         store = get_case_package_store()
+        package = store.get(request.case_id)
+        bound_narrative = package.narrative if package else None
+        figure_catalog = _ensure_package_figure_catalog(package)
         session_settings = store.get_settings(request.case_id)
         if request.patient_style is not None or request.allow_plausible_findings is not None:
             session_settings = store.put_settings(
@@ -334,6 +357,9 @@ async def chat(
                 "enable_guidelines": request.enable_guidelines or False,
                 "patient_style": session_settings.patient_style,
                 "allow_plausible_findings": session_settings.allow_plausible_findings,
+                "figure_catalog": figure_catalog,
+                "active_module": request.active_module,
+                "route_to": (request.route_to or "").strip().lower() or None,
             },
         )
         # Persist phase across requests.
@@ -361,13 +387,38 @@ async def chat(
             feedback_enabled=request.feedback_enabled,
             feedback_threshold=request.feedback_threshold
         )
+
+        # Strip [[speaker:…]] and [[display_figure:N]] markers for the UI
+        allowed = allowed_figure_numbers(package.figures if package else [])
+        route_to = (request.route_to or "").strip().lower()
+        default_speaker = "tutor" if route_to == "tutor" else "patient"
+        clean_content, speaker, revealed_figures = parse_agent_markers(
+            response.content or "",
+            allowed_figure_numbers=allowed or None,
+            default_speaker=default_speaker,
+        )
+        if (response.metadata or {}).get("speaker") == "tutor":
+            speaker = "tutor"
+        if clean_content != (response.content or ""):
+            response.content = clean_content
+            # Keep server-side history free of markers too
+            if context.conversation_history:
+                for msg in reversed(context.conversation_history):
+                    if msg.get("role") == "assistant":
+                        msg["content"] = clean_content
+                        break
         
         # Log assistant response asynchronously
         background_service.log_conversation_async(
             case_id=request.case_id,
             role="assistant",
-            content=response.content,
-            metadata={"tools_used": response.tools_used, "organism": request.organism_key}
+            content=clean_content,
+            metadata={
+                "tools_used": response.tools_used,
+                "organism": request.organism_key,
+                "revealed_figures": revealed_figures,
+                "speaker": speaker,
+            },
         )
 
         # Queue structured EMR extraction for patient / test-result replies
@@ -377,29 +428,36 @@ async def chat(
             emr_service.enqueue_exchange(
                 case_id=request.case_id,
                 student_question=request.message,
-                patient_response=response.content,
+                patient_response=clean_content,
             )
         
         processing_time = (datetime.now() - start_time).total_seconds() * 1000
-        logger.info(f"[CHAT] Completed in {processing_time:.2f}ms for case_id={request.case_id}")
+        logger.info(
+            f"[CHAT] Completed in {processing_time:.2f}ms for case_id={request.case_id} "
+            f"revealed_figures={revealed_figures} speaker={speaker}"
+        )
         
         return ChatResponse(
-            response=response.content,
+            response=clean_content,
             history=[{"role": msg["role"], "content": msg["content"]} for msg in context.conversation_history],
             tools_used=response.tools_used,
             metadata={
+                **(response.metadata or {}),
                 "processing_time_ms": processing_time,
                 "case_id": request.case_id,
                 "organism": request.organism_key,
                 "patient_style": session_settings.patient_style,
                 "allow_plausible_findings": session_settings.allow_plausible_findings,
-                **(response.metadata or {}),
+                "revealed_figures": revealed_figures,
+                "speaker": speaker,
                 "current_phase": (response.metadata or {}).get("current_phase") or (response.metadata or {}).get("state"),
             },
             feedback_examples=response.feedback_examples or [],
             emr_notes=emr_service.get_notes(request.case_id),
             emr_data=notes_to_emr_data(emr_service.get_notes(request.case_id)),
             emr_busy=emr_service.is_busy(request.case_id),
+            revealed_figures=revealed_figures,
+            speaker=speaker,
         )
         
     except ValueError as e:

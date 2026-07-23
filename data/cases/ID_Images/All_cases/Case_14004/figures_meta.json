@@ -1,0 +1,170 @@
+{
+  "Case_14004/figure2.jpg": {
+    "case_id": "Case_14004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14004/figure2.jpg",
+    "source_caption": "Rash on face and upper torso.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, neck, and upper torso",
+      "short_caption": "Erythematous rash on the face, neck, and upper torso.",
+      "detailed_description": "This clinical photograph shows a diffuse erythematous maculopapular rash involving the lower face, neck, and upper chest. The rash appears to consist of numerous small, red, raised lesions with some areas of confluence. The skin appears inflamed, and there is no visible scaling or crusting. The distribution suggests a systemic or infectious etiology.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "involvement of face, neck, and upper torso",
+        "areas of confluence",
+        "no visible scaling or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "erythematous",
+        "maculopapular",
+        "face",
+        "neck",
+        "upper torso",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "rash on face",
+        "rash on neck",
+        "rash on upper torso",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:17+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 272,
+      "total_tokens": 861
+    }
+  },
+  "Case_14004/figure1.jpg": {
+    "case_id": "Case_14004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14004/figure1.jpg",
+    "source_caption": "Rash on torso.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "torso and upper chest",
+      "short_caption": "Erythematous rash on the torso and upper chest.",
+      "detailed_description": "This clinical photograph shows the anterior torso and upper chest of an adult male. There is a diffuse erythematous maculopapular rash, predominantly involving the upper chest, shoulders, and extending to the proximal arms. The rash appears patchy with some areas of confluence, and there is no visible scaling or vesiculation. The skin surrounding the rash appears normal, and no other lesions are visible in this image.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "patchy areas of confluence",
+        "involvement of upper chest, shoulders, and proximal arms"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "torso",
+        "upper chest",
+        "maculopapular",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "rash on torso",
+        "skin exam",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:18+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 260,
+      "total_tokens": 846
+    }
+  },
+  "Case_14004/figure3.jpg": {
+    "case_id": "Case_14004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14004/figure3.jpg",
+    "source_caption": "Direct fluorescent antibody (DFA) testing of nasal specimen for measles virus (green = positive reaction).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "nasal specimen",
+      "short_caption": "Direct fluorescent antibody (DFA) test showing green fluorescence for measles virus.",
+      "detailed_description": "This image shows a direct fluorescent antibody (DFA) test of a nasal specimen. Bright green fluorescence is visible against a dark background, indicating a positive reaction for the presence of measles virus antigens. The fluorescence is scattered and appears in discrete spots, consistent with the labeling of viral particles or infected cells. The technique uses fluorescently labeled antibodies specific to measles virus.",
+      "visible_findings": [
+        "green fluorescence on a dark background",
+        "discrete scattered fluorescent spots",
+        "indicative of positive antigen-antibody reaction"
+      ],
+      "keywords": [
+        "dfa",
+        "fluorescent antibody",
+        "measles virus",
+        "nasal specimen",
+        "infectious diseases",
+        "virology"
+      ],
+      "reveal_triggers": [
+        "dfa test",
+        "measles diagnosis",
+        "fluorescent antibody test",
+        "nasal specimen for measles"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:25+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 248,
+      "total_tokens": 851
+    }
+  },
+  "Case_14004/figure4.jpg": {
+    "case_id": "Case_14004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14004/figure4.jpg",
+    "source_caption": "DFA of nasal specimen for measles virus (1000x magnification).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "nasal specimen",
+      "short_caption": "Direct fluorescent antibody (DFA) stain of nasal specimen for measles virus.",
+      "detailed_description": "This image shows a direct fluorescent antibody (DFA) stain of a nasal specimen, viewed at high magnification (approximately 1000x). Bright green fluorescence highlights areas of antigen-antibody binding, consistent with the presence of measles virus antigens. The background is dark, enhancing the contrast of the fluorescent signal. The image demonstrates the utility of DFA in detecting viral antigens in clinical specimens.",
+      "visible_findings": [
+        "bright green fluorescence indicating antigen-antibody binding",
+        "dark background for contrast",
+        "irregularly shaped fluorescent areas"
+      ],
+      "keywords": [
+        "dfa",
+        "fluorescent stain",
+        "measles virus",
+        "nasal specimen",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "dfa stain",
+        "measles virus detection",
+        "fluorescent microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:26+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 240,
+      "total_tokens": 837
+    }
+  }
+}

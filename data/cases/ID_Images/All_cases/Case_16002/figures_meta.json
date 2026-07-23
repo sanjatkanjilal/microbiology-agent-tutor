@@ -1,0 +1,166 @@
+{
+  "Case_16002/figure1.jpg": {
+    "case_id": "Case_16002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16002/figure1.jpg",
+    "source_caption": "Electrocardiogram.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": null,
+      "short_caption": "Electrocardiogram showing abnormal findings.",
+      "detailed_description": "This is a standard 12-lead electrocardiogram (ECG) tracing. The leads are labeled, including limb leads (I, II, III, aVR, aVL, aVF) and precordial leads (V1-V6). The tracing shows abnormal findings, including prominent QRS complexes and possible ST-segment elevations or depressions in some leads. The rhythm appears regular, but further interpretation would require clinical correlation.",
+      "visible_findings": [
+        "12-lead ECG format with labeled leads",
+        "prominent QRS complexes",
+        "possible ST-segment abnormalities",
+        "regular rhythm"
+      ],
+      "keywords": [
+        "ecg",
+        "electrocardiogram",
+        "cardiac rhythm",
+        "st-segment",
+        "qrs complex"
+      ],
+      "reveal_triggers": [
+        "ecg",
+        "electrocardiogram",
+        "cardiac tracing"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:47+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 245,
+      "total_tokens": 832
+    }
+  },
+  "Case_16002/figure3.jpg": {
+    "case_id": "Case_16002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16002/figure3.jpg",
+    "source_caption": "Repeat electrocardiogram, 7 minutes after EKG shown in Figure 1.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "Repeat ECG showing electrical activity of the heart, 7 minutes after the prior tracing.",
+      "detailed_description": "This is a 12-lead electrocardiogram (ECG) showing the electrical activity of the heart. The tracing includes standard leads (I, II, III, aVR, aVL, aVF) and precordial leads (V1-V6). The rhythm appears regular, and there are no immediately obvious gross abnormalities such as ST-segment elevation, T-wave inversion, or arrhythmias. Further interpretation would require comparison with prior tracings and clinical context.",
+      "visible_findings": [
+        "12-lead ECG format",
+        "regular rhythm",
+        "no gross ST-segment elevation",
+        "no obvious T-wave inversion"
+      ],
+      "keywords": [
+        "ecg",
+        "electrocardiogram",
+        "heart",
+        "cardiac rhythm",
+        "12-lead tracing"
+      ],
+      "reveal_triggers": [
+        "ecg",
+        "electrocardiogram",
+        "cardiac tracing"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:56+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 258,
+      "total_tokens": 858
+    }
+  },
+  "Case_16002/figure2.jpg": {
+    "case_id": "Case_16002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16002/figure2.jpg",
+    "source_caption": "Detail of EKG shown in Figure 1.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "ECG showing multiple leads with abnormal findings.",
+      "detailed_description": "This is a 12-lead ECG tracing showing leads aVR, aVL, aVF, V1, and V2. The tracing demonstrates abnormal findings, including ST-segment elevations and T-wave changes in some leads. The grid background and labeled leads are consistent with a standard ECG recording.",
+      "visible_findings": [
+        "ST-segment elevation in some leads",
+        "T-wave abnormalities",
+        "standard 12-lead ECG format",
+        "labeled leads aVR, aVL, aVF, V1, V2"
+      ],
+      "keywords": [
+        "ecg",
+        "electrocardiogram",
+        "st-segment elevation",
+        "t-wave changes",
+        "cardiology"
+      ],
+      "reveal_triggers": [
+        "ecg",
+        "electrocardiogram",
+        "heart tracing"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:56+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 229,
+      "total_tokens": 821
+    }
+  },
+  "Case_16002/figure4.jpg": {
+    "case_id": "Case_16002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16002/figure4.jpg",
+    "source_caption": "Detail of EKG shown in Figure 3.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "ECG showing waveform abnormalities in leads V1, II, and V5.",
+      "detailed_description": "This ECG tracing displays leads V1, II, and V5. The waveform shows notable abnormalities, including peaked T waves and widened QRS complexes. The rhythm appears regular, and the findings may suggest hyperkalemia or another electrolyte disturbance. The grid background and standard lead labeling are visible, indicating a standard 12-lead ECG recording.",
+      "visible_findings": [
+        "peaked T waves",
+        "widened QRS complexes",
+        "regular rhythm",
+        "standard lead labeling (V1, II, V5)"
+      ],
+      "keywords": [
+        "ecg",
+        "heart",
+        "waveform abnormalities",
+        "hyperkalemia",
+        "electrolyte disturbance"
+      ],
+      "reveal_triggers": [
+        "ekg",
+        "ecg abnormalities",
+        "electrocardiogram"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:02+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 232,
+      "total_tokens": 824
+    }
+  }
+}

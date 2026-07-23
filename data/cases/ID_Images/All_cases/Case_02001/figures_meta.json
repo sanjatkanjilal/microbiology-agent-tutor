@@ -1,0 +1,83 @@
+{
+  "Case_02001/figure1.jpg": {
+    "case_id": "Case_02001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02001/figure1.jpg",
+    "source_caption": "Wright stain of the CSF.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Wright stain of CSF showing intracellular organisms in leukocytes.",
+      "detailed_description": "This image shows a Wright-stained preparation of cerebrospinal fluid (CSF). Two large leukocytes are visible, with intracellular purple-staining structures suggestive of organisms. Surrounding the leukocytes are smaller, pink-staining red blood cells. The stain highlights cellular detail and potential infectious agents within the CSF sample.",
+      "visible_findings": [
+        "large leukocytes with intracellular purple-staining structures",
+        "pink-staining red blood cells in the background",
+        "Wright stain preparation"
+      ],
+      "keywords": [
+        "wright stain",
+        "csf",
+        "leukocytes",
+        "intracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "csf analysis",
+        "intracellular organisms in csf"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:45+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 229,
+      "total_tokens": 818
+    }
+  },
+  "Case_02001/figure2.jpg": {
+    "case_id": "Case_02001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02001/figure2.jpg",
+    "source_caption": "Wright stain of the CSF.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Wright stain of CSF showing neutrophils and a monocyte.",
+      "detailed_description": "This Wright-stained cerebrospinal fluid sample shows multiple neutrophils with segmented nuclei and a single monocyte with a large, eccentrically placed nucleus. The cytoplasm of the monocyte is pale blue, while the nuclei of both cell types are stained dark purple. The background is clear, consistent with the staining technique used for cellular differentiation.",
+      "visible_findings": [
+        "segmented neutrophils with dark purple nuclei",
+        "monocyte with pale blue cytoplasm and eccentrically placed nucleus",
+        "clear background typical of Wright stain"
+      ],
+      "keywords": [
+        "wright stain",
+        "csf",
+        "neutrophils",
+        "monocyte",
+        "cerebrospinal fluid",
+        "cell morphology"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "csf microscopy",
+        "cerebrospinal fluid analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:50+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 248,
+      "total_tokens": 837
+    }
+  }
+}

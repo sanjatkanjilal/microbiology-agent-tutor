@@ -1,0 +1,47 @@
+{
+  "Case_06034/figure1.jpg": {
+    "case_id": "Case_06034",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06034/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg and foot",
+      "short_caption": "Erythematous, swollen lower leg with bullae formation.",
+      "detailed_description": "This clinical photograph shows a lower leg and foot with marked erythema, swelling, and shiny skin. The affected area extends from the foot to the mid-calf. Bullae are visible on the anterior surface of the leg, indicating fluid accumulation under the skin. The surrounding tissue appears tense and inflamed, suggesting a severe infectious or inflammatory process. The image is taken in a clinical setting with the patient lying on a white towel.",
+      "visible_findings": [
+        "diffuse erythema of the lower leg and foot",
+        "swelling and shiny skin",
+        "bullae formation on the anterior leg",
+        "involvement extending from foot to mid-calf"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "foot",
+        "erythema",
+        "swelling",
+        "bullae",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin infection",
+        "lower leg swelling",
+        "bullae on leg",
+        "erythema and swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:10+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 275,
+      "total_tokens": 843
+    }
+  }
+}

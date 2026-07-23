@@ -1,0 +1,168 @@
+{
+  "Case_12004/figure4.jpg": {
+    "case_id": "Case_12004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12004/figure4.jpg",
+    "source_caption": "Chest radiograph, after 12 months of anti-TB therapy.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph after 12 months of anti-TB therapy.",
+      "detailed_description": "This is a frontal chest radiograph showing bilateral lung fields and the mediastinum. There is evidence of fibrotic changes and volume loss in the upper lobes, more pronounced on the right side. The lung fields appear clear of active infiltrates, and no cavitary lesions are visible. The heart and mediastinal contours are within normal limits. These findings are consistent with post-treatment changes following anti-TB therapy.",
+      "visible_findings": [
+        "fibrotic changes in upper lobes",
+        "volume loss in right upper lobe",
+        "absence of active infiltrates",
+        "no visible cavitary lesions",
+        "normal heart and mediastinal contours"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "tuberculosis",
+        "fibrosis",
+        "post-treatment changes"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "tuberculosis follow-up",
+        "lung fibrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:34+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 262,
+      "total_tokens": 858
+    }
+  },
+  "Case_12004/figure1.jpg": {
+    "case_id": "Case_12004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12004/figure1.jpg",
+    "source_caption": "Chest radiograph, on presentation.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph showing diffuse bilateral pulmonary infiltrates, more prominent in the lower lung zones. The heart size appears normal, and there is no clear evidence of pleural effusion. The findings are consistent with a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "normal heart size",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary infiltrates",
+        "infection",
+        "lungs"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:34+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 194,
+      "total_tokens": 783
+    }
+  },
+  "Case_12004/figure2.jpg": {
+    "case_id": "Case_12004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12004/figure2.jpg",
+    "source_caption": "Chest radiograph, after 2 months of anti-TB therapy.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph after 2 months of anti-TB therapy.",
+      "detailed_description": "This is a frontal chest radiograph showing bilateral lung fields with residual opacities, predominantly in the upper zones. There is evidence of fibrotic changes and volume loss, particularly on the right side, consistent with post-treatment changes in pulmonary tuberculosis. The heart and mediastinal structures appear within normal limits. No significant pleural effusion or pneumothorax is visible.",
+      "visible_findings": [
+        "bilateral upper zone opacities",
+        "fibrotic changes",
+        "volume loss on the right",
+        "no pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "tuberculosis",
+        "fibrosis",
+        "volume loss",
+        "post-treatment"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary tuberculosis",
+        "TB treatment imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:36+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 248,
+      "total_tokens": 844
+    }
+  },
+  "Case_12004/figure3.jpg": {
+    "case_id": "Case_12004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12004/figure3.jpg",
+    "source_caption": "Chest radiograph, after 6 months of anti-TB therapy.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph after 6 months of anti-TB therapy.",
+      "detailed_description": "This is a frontal chest radiograph showing bilateral lung fields. There are residual fibrotic changes and volume loss, particularly in the upper lobes, consistent with post-treatment sequelae of pulmonary tuberculosis. The mediastinum appears midline, and no acute abnormalities such as pleural effusion or pneumothorax are visible. The clavicles and ribs are intact, and there is no evidence of active disease.",
+      "visible_findings": [
+        "bilateral upper lobe fibrotic changes",
+        "volume loss in upper lobes",
+        "no pleural effusion",
+        "no pneumothorax",
+        "midline mediastinum"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary tuberculosis",
+        "fibrosis",
+        "post-treatment changes"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "TB treatment",
+        "pulmonary fibrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:41+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 257,
+      "total_tokens": 853
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "Case_06006/figure2.jpg": {
+    "case_id": "Case_06006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06006/figure2.jpg",
+    "source_caption": "Blood smear, 100x magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing a neutrophil with bilobed nucleus and surrounding erythrocytes.",
+      "detailed_description": "This image is a stained blood smear viewed at high magnification (approximately 100x). It shows a neutrophil with a bilobed nucleus and granular cytoplasm, surrounded by numerous erythrocytes. The erythrocytes appear as uniform, pale pink, biconcave discs. The staining highlights cellular details, aiding in the identification of blood cell types.",
+      "visible_findings": [
+        "neutrophil with bilobed nucleus",
+        "granular cytoplasm in the neutrophil",
+        "surrounding erythrocytes with biconcave shape"
+      ],
+      "keywords": [
+        "blood smear",
+        "neutrophil",
+        "erythrocytes",
+        "stain",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "peripheral blood exam",
+        "hematology slide"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:04+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 246,
+      "total_tokens": 837
+    }
+  },
+  "Case_06006/figure1.jpg": {
+    "case_id": "Case_06006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06006/figure1.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing a neutrophil with intracellular inclusions.",
+      "detailed_description": "This is a peripheral blood smear stained with Wright-Giemsa stain. The image shows numerous red blood cells, a single neutrophil in the center, and small intracellular inclusions within the neutrophil. The red blood cells appear normocytic and normochromic, while the neutrophil displays a segmented nucleus and cytoplasmic granules.",
+      "visible_findings": [
+        "neutrophil with segmented nucleus",
+        "intracellular inclusions in the neutrophil",
+        "normocytic, normochromic red blood cells"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "neutrophil",
+        "intracellular inclusions",
+        "wright-giemsa stain",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "neutrophil inclusions",
+        "blood cell morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:06+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 247,
+      "total_tokens": 833
+    }
+  }
+}

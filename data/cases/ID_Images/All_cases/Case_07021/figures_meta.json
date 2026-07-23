@@ -1,0 +1,191 @@
+{
+  "Case_07021/figure4.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure4.jpg",
+    "source_caption": "Colonoscopy findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:43:07+00:00"
+  },
+  "Case_07021/figure5.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure5.jpg",
+    "source_caption": "Colonoscopy findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:43:07+00:00"
+  },
+  "Case_07021/figure1.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure1.jpg",
+    "source_caption": "CT scan of abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing gas and fluid collections in the biliary tree.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates abnormal gas collections within the biliary tree (pneumobilia), indicated by arrows. The liver, kidneys, and other abdominal structures are visible. The presence of gas in the biliary tree suggests a possible biliary-enteric fistula or infection. The scan appears to be performed without intravenous contrast, as there is no clear enhancement of vascular structures.",
+      "visible_findings": [
+        "gas collections in the biliary tree (pneumobilia)",
+        "normal liver and kidney outlines",
+        "no clear intravenous contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pneumobilia",
+        "biliary tree",
+        "infection",
+        "fistula"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "pneumobilia",
+        "gas in biliary tree"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 245,
+      "total_tokens": 832
+    }
+  },
+  "Case_07021/figure6.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure6.jpg",
+    "source_caption": "AFB growth from culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Acid-fast bacilli (AFB) visible on stained smear.",
+      "detailed_description": "This image shows a microscopic view of acid-fast bacilli (AFB) stained using a Ziehl-Neelsen or similar acid-fast staining technique. The bacilli appear as slender, rod-shaped organisms stained bright pink or red against a pale background. The arrangement is scattered, with no clear clustering or specific orientation. This staining method highlights the mycolic acid in the cell walls of certain bacteria, such as Mycobacterium species.",
+      "visible_findings": [
+        "slender, rod-shaped organisms",
+        "bright pink or red staining",
+        "scattered arrangement",
+        "acid-fast staining technique"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "afb",
+        "mycobacterium",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "afb stain",
+        "acid-fast bacilli",
+        "mycobacterium microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:19+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 243,
+      "total_tokens": 831
+    }
+  },
+  "Case_07021/figure2.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure2.jpg",
+    "source_caption": "CT scan of abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing gas and fluid collections in the bowel wall.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates abnormal findings in the bowel. There are areas of gas within the bowel wall (pneumatosis intestinalis) and fluid collections, suggestive of bowel ischemia or infection. The surrounding soft tissues appear unremarkable, and no free intraperitoneal air is visible. The image is taken with contrast, as evidenced by the enhanced vascular structures.",
+      "visible_findings": [
+        "gas within the bowel wall (pneumatosis intestinalis)",
+        "fluid collections in the bowel",
+        "no free intraperitoneal air",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pneumatosis intestinalis",
+        "bowel ischemia",
+        "infection",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "ct scan of abdomen",
+        "pneumatosis intestinalis",
+        "bowel ischemia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:20+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 259,
+      "total_tokens": 846
+    }
+  },
+  "Case_07021/figure3.jpg": {
+    "case_id": "Case_07021",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07021/figure3.jpg",
+    "source_caption": "Colonoscopy findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing a yellowish plaque with surrounding inflammation.",
+      "detailed_description": "This colonoscopy image shows a segment of the colon with a yellowish, raised plaque-like lesion surrounded by erythematous and inflamed mucosa. The lesion appears adherent to the mucosal surface, and there is evidence of surrounding tissue damage. A medical instrument is visible in the foreground, likely being used for biopsy or other intervention. The findings are suggestive of pseudomembranous colitis, often associated with Clostridioides difficile infection.",
+      "visible_findings": [
+        "yellowish plaque-like lesion",
+        "surrounding erythema and inflammation",
+        "adherent lesion to mucosa",
+        "medical instrument in foreground"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "pseudomembranous colitis",
+        "yellow plaque",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "pseudomembranous colitis",
+        "yellow plaques in colon"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:22+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 259,
+      "total_tokens": 845
+    }
+  }
+}

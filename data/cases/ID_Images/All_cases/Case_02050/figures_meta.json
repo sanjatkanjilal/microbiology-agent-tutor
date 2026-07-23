@@ -1,0 +1,83 @@
+{
+  "Case_02050/figure1.jpg": {
+    "case_id": "Case_02050",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02050/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity",
+      "short_caption": "Erythematous papules on the lower extremity.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of a lower extremity, including the knee. Multiple erythematous papules are scattered across the skin, some of which appear excoriated. The lesions are discrete, with no evidence of coalescence or significant surrounding erythema. The background skin appears otherwise normal.",
+      "visible_findings": [
+        "multiple erythematous papules",
+        "some excoriation",
+        "normal background skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremity",
+        "papules",
+        "erythema",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on leg",
+        "erythematous papules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:19+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 214,
+      "total_tokens": 782
+    }
+  },
+  "Case_02050/figure2.jpg": {
+    "case_id": "Case_02050",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02050/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of lower extremity",
+      "short_caption": "Erythematous papules with central puncta on the skin of the lower extremity.",
+      "detailed_description": "This clinical photograph shows multiple erythematous papules scattered across the skin of a lower extremity. Each lesion has a central punctum, suggesting a possible insect bite or follicular involvement. The surrounding skin appears normal without significant erythema or swelling. The distribution and morphology are consistent with a localized dermatologic reaction.",
+      "visible_findings": [
+        "multiple erythematous papules",
+        "central puncta in lesions",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "papules",
+        "erythema",
+        "puncta",
+        "lower extremity"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "papular rash",
+        "insect bites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:21+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  }
+}

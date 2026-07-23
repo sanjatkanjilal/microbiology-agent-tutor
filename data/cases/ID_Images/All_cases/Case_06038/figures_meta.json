@@ -1,0 +1,85 @@
+{
+  "Case_06038/figure2.jpg": {
+    "case_id": "Case_06038",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06038/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive branching filamentous bacteria.",
+      "detailed_description": "This is a microscopic image of a Gram stain preparation. It shows numerous gram-positive branching filamentous bacteria, which appear as dark purple structures against a lighter background. The branching morphology is characteristic of certain bacterial species. The image also contains scattered debris and other non-specific staining artifacts.",
+      "visible_findings": [
+        "gram-positive branching filamentous bacteria",
+        "purple staining of bacterial structures",
+        "background with scattered debris and artifacts"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "branching",
+        "filamentous",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 205,
+      "total_tokens": 773
+    }
+  },
+  "Case_06038/figure1.jpg": {
+    "case_id": "Case_06038",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06038/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Skin ulcer with necrotic tissue and surrounding desquamation.",
+      "detailed_description": "The image shows a skin ulcer with a central area of yellowish necrotic tissue surrounded by erythematous and desquamated skin. The ulcer appears irregular in shape with a moist base, and the surrounding skin shows peeling and inflammation. The lesion suggests a possible infectious or ischemic etiology.",
+      "visible_findings": [
+        "central yellow necrotic tissue",
+        "surrounding erythema",
+        "desquamation of the skin",
+        "irregular ulcer margins"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "necrosis",
+        "desquamation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin ulcer",
+        "necrotic tissue",
+        "infected wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  }
+}

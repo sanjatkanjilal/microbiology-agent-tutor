@@ -1,0 +1,289 @@
+{
+  "Case_11005/figure3.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure3.jpg",
+    "source_caption": "MRI scan, 1 months later.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing posterior fossa structures.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain, focusing on the posterior fossa. The cerebellum and brainstem are visible, with no obvious mass effect, midline shift, or significant abnormalities apparent at this resolution. The image appears to be part of a follow-up study, as suggested by the case caption.",
+      "visible_findings": [
+        "axial view of the brain",
+        "posterior fossa structures visible",
+        "no clear mass effect or midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "posterior fossa",
+        "axial view",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri of brain",
+        "posterior fossa imaging",
+        "neuroimaging follow-up"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:33+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 226,
+      "total_tokens": 816
+    }
+  },
+  "Case_11005/figure1.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure1.jpg",
+    "source_caption": "MRI of the brainstem and cerebellum.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brainstem and cerebellum",
+      "short_caption": "Axial MRI of the brainstem and cerebellum showing bilateral lesions in the pons.",
+      "detailed_description": "This axial T2-weighted MRI image shows the brainstem and cerebellum. Bilateral hyperintense lesions are visible in the pons, indicated by arrows. The cerebellum appears normal, and no significant mass effect or midline shift is evident. The image is de-identified and suitable for educational purposes.",
+      "visible_findings": [
+        "bilateral hyperintense lesions in the pons",
+        "normal cerebellar appearance",
+        "no midline shift or mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brainstem",
+        "cerebellum",
+        "pons",
+        "lesion",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "mri of brainstem",
+        "cerebellum imaging",
+        "pons lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:36+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 237,
+      "total_tokens": 829
+    }
+  },
+  "Case_11005/figure2.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure2.jpg",
+    "source_caption": "MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI showing a large lesion in the posterior fossa.",
+      "detailed_description": "This axial MRI image of the brain demonstrates a large, well-defined lesion in the posterior fossa, likely involving the cerebellum. The lesion appears hyperintense on this T2-weighted image, with surrounding mass effect and possible midline shift. Adjacent structures, including the brainstem, may be compressed. No contrast enhancement is visible in this image.",
+      "visible_findings": [
+        "large hyperintense lesion in the posterior fossa",
+        "mass effect on adjacent structures",
+        "possible midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "posterior fossa",
+        "lesion",
+        "mass effect",
+        "cerebellum"
+      ],
+      "reveal_triggers": [
+        "mri of brain",
+        "posterior fossa lesion",
+        "cerebellar mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:39+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 233,
+      "total_tokens": 818
+    }
+  },
+  "Case_11005/figure4.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure4.jpg",
+    "source_caption": "MRI scan, 1 months later.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing bilateral orbital and sinus involvement.",
+      "detailed_description": "This axial MRI image of the brain demonstrates abnormal signal intensity in the bilateral orbital regions and paranasal sinuses, suggestive of an infectious or inflammatory process. The involvement appears symmetric, with possible extension into adjacent structures. The image is T1-weighted with contrast, as evidenced by the enhancement patterns seen in the affected areas.",
+      "visible_findings": [
+        "bilateral orbital involvement",
+        "paranasal sinus abnormalities",
+        "enhancement suggesting infection or inflammation"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "orbit",
+        "sinus",
+        "infection",
+        "inflammation",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "orbital infection",
+        "sinus involvement",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:40+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 221,
+      "total_tokens": 811
+    }
+  },
+  "Case_11005/figure5.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure5.jpg",
+    "source_caption": "Brain biopsy, hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Brain biopsy with hematoxylin and eosin stain showing inflammatory and cellular changes.",
+      "detailed_description": "This histopathology image shows a brain biopsy stained with hematoxylin and eosin. The tissue reveals a mix of cellular elements, including neurons and glial cells, with evidence of inflammation. There are scattered dark-staining nuclei and some areas of cellular clustering. The pink background represents the eosinophilic cytoplasm and extracellular matrix. The findings may suggest an infectious or inflammatory process in the brain.",
+      "visible_findings": [
+        "pink eosinophilic background",
+        "dark-staining nuclei",
+        "scattered cellular clustering",
+        "inflammatory changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "hematoxylin and eosin",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "H&E stain",
+        "histopathology of brain tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:43+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 244,
+      "total_tokens": 838
+    }
+  },
+  "Case_11005/figure6.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure6.jpg",
+    "source_caption": "Brain biopsy, Luxol fast blue stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Brain biopsy stained with Luxol fast blue showing demyelination.",
+      "detailed_description": "This histopathology image shows a brain biopsy stained with Luxol fast blue, a stain used to highlight myelin. The image reveals areas of reduced or absent staining, indicative of demyelination. Scattered inflammatory cells and gliosis are also visible. The background tissue shows a mix of blue-stained myelinated areas and pale, demyelinated regions.",
+      "visible_findings": [
+        "demyelinated regions with reduced Luxol fast blue staining",
+        "scattered inflammatory cells",
+        "gliosis",
+        "remaining blue-stained myelinated areas"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "Luxol fast blue",
+        "demyelination",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "Luxol fast blue stain",
+        "demyelination histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:44+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 241,
+      "total_tokens": 832
+    }
+  },
+  "Case_11005/figure7.jpg": {
+    "case_id": "Case_11005",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11005/figure7.jpg",
+    "source_caption": "Brain biopsy, SV-40 T-antigen staining (in which JC viral nuclei stain brown).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Brain biopsy with SV-40 T-antigen staining showing JC virus-infected nuclei in brown.",
+      "detailed_description": "This image shows a brain biopsy stained with SV-40 T-antigen immunohistochemistry. The nuclei of infected cells are stained brown, indicating the presence of JC virus. The background tissue appears pale with scattered blue-stained nuclei, representing uninfected cells. The staining highlights the focal distribution of infected cells within the brain tissue.",
+      "visible_findings": [
+        "brown-stained nuclei indicating JC virus infection",
+        "blue-stained nuclei of uninfected cells",
+        "pale background tissue"
+      ],
+      "keywords": [
+        "brain biopsy",
+        "sv-40 t-antigen",
+        "jc virus",
+        "immunohistochemistry",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "sv-40 staining",
+        "jc virus histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:45+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 234,
+      "total_tokens": 835
+    }
+  }
+}

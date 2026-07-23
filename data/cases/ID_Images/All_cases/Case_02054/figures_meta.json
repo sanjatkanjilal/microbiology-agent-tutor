@@ -1,0 +1,86 @@
+{
+  "Case_02054/figure1.jpg": {
+    "case_id": "Case_02054",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02054/figure1.jpg",
+    "source_caption": "Skin findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Diffuse erythematous maculopapular rash on the abdomen.",
+      "detailed_description": "This clinical photograph shows the abdomen of a patient with numerous erythematous maculopapular lesions scattered diffusely across the skin. The lesions vary slightly in size and are distributed without a clear pattern. Several adhesive ECG electrode pads and leads are visible, indicating the patient is being monitored. There is also a visible scar on the left side of the abdomen. No signs of vesicles, pustules, or ulceration are apparent.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "ECG electrode pads and leads",
+        "scar on the left abdomen"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "rash",
+        "maculopapular",
+        "skin lesions",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "skin findings",
+        "rash on abdomen",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:39+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 254,
+      "total_tokens": 839
+    }
+  },
+  "Case_02054/figure2.jpg": {
+    "case_id": "Case_02054",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02054/figure2.jpg",
+    "source_caption": "Skin findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the axilla",
+      "short_caption": "Erythematous papules and pustules on the axillary skin.",
+      "detailed_description": "This clinical photograph shows the axillary region with multiple erythematous papules and pustules scattered across the skin. The lesions vary slightly in size and appear to be inflammatory in nature. The surrounding skin shows no significant discoloration or scaling. The image is well-lit, and the findings are clearly visible.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "scattered distribution",
+        "axillary skin involvement"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "axilla",
+        "papules",
+        "pustules",
+        "rash",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "axillary rash",
+        "papules and pustules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:45+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 227,
+      "total_tokens": 812
+    }
+  }
+}

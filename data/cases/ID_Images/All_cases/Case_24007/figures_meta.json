@@ -1,0 +1,213 @@
+{
+  "Case_24007/figure2.jpg": {
+    "case_id": "Case_24007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24007/figure2.jpg",
+    "source_caption": "Figure 2: FDG PET scan; Multiple foci of metabolic activity involving the T1-T4 four vertebral bodies.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "spine",
+      "short_caption": "FDG PET scan showing metabolic activity in the T1-T4 vertebral bodies.",
+      "detailed_description": "This is an FDG PET scan in sagittal view, showing increased metabolic activity localized to the T1-T4 vertebral bodies. The scan highlights areas of hypermetabolism, which may suggest infection, malignancy, or other inflammatory processes. The vertebral column is clearly visualized, with the increased uptake appearing as bright foci in the upper thoracic spine.",
+      "visible_findings": [
+        "increased FDG uptake in T1-T4 vertebral bodies",
+        "sagittal view of the spine",
+        "hypermetabolic foci in the thoracic region"
+      ],
+      "keywords": [
+        "fdg pet",
+        "spine",
+        "thoracic vertebrae",
+        "metabolic activity",
+        "infection",
+        "malignancy"
+      ],
+      "reveal_triggers": [
+        "fdg pet scan",
+        "spine imaging",
+        "thoracic vertebrae metabolic activity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:03+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 253,
+      "total_tokens": 861
+    }
+  },
+  "Case_24007/figure3.jpg": {
+    "case_id": "Case_24007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24007/figure3.jpg",
+    "source_caption": "Figure 3: CT scan of the chest without contrast; Left upper lobe infiltration closely related to aortic stent graft, measuring ~ 3.2 x 5.2 x 8.1 cm, increased in size from prior study.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest without contrast showing left upper lobe infiltration near an aortic stent graft.",
+      "detailed_description": "This axial CT image of the chest, taken without contrast, shows a prominent area of infiltration in the left upper lobe. The lesion is closely associated with an aortic stent graft and appears irregular in shape. The surrounding lung parenchyma shows no significant abnormalities, and the mediastinal structures are partially visualized. The lesion's size and proximity to the stent graft suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "left upper lobe infiltration",
+        "proximity to aortic stent graft",
+        "irregular lesion margins",
+        "no contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "infection",
+        "aortic stent graft",
+        "infiltration"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung lesion",
+        "aortic stent graft infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:05+00:00",
+    "usage": {
+      "prompt_tokens": 633,
+      "completion_tokens": 249,
+      "total_tokens": 882
+    }
+  },
+  "Case_24007/figure5.jpg": {
+    "case_id": "Case_24007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24007/figure5.jpg",
+    "source_caption": "Figure 5: Pathology Lung, AFB stain, 40x. Multiple aggregates of acid-fast bacilli on AFB stain (Courtesy of Dr. David Sauer).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung",
+      "short_caption": "AFB stain of lung tissue showing multiple aggregates of acid-fast bacilli at 40x magnification.",
+      "detailed_description": "This image shows a microscopic view of lung tissue stained with an acid-fast bacillus (AFB) stain at 40x magnification. Numerous bright red, rod-shaped bacilli are visible, clustered in aggregates against a blue background. The blue staining highlights the surrounding tissue, while the red staining specifically identifies the acid-fast organisms. This pattern is characteristic of mycobacterial infection.",
+      "visible_findings": [
+        "bright red, rod-shaped bacilli",
+        "aggregates of acid-fast organisms",
+        "blue-stained background tissue"
+      ],
+      "keywords": [
+        "afb stain",
+        "lung",
+        "acid-fast bacilli",
+        "mycobacteria",
+        "infectious disease",
+        "pathology",
+        "40x magnification"
+      ],
+      "reveal_triggers": [
+        "afb stain",
+        "lung pathology",
+        "acid-fast bacilli",
+        "mycobacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:06+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 253,
+      "total_tokens": 870
+    }
+  },
+  "Case_24007/figure1.jpg": {
+    "case_id": "Case_24007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24007/figure1.jpg",
+    "source_caption": "Figure 1: FDG PET scan; Increased metabolic activity in posterior medial left upper lobe mass; extending into L hilar region.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "FDG PET-CT showing increased metabolic activity in the left upper lobe and hilar region.",
+      "detailed_description": "This is a coronal FDG PET-CT image showing increased metabolic activity in the posterior medial aspect of the left upper lobe, with extension into the left hilar region. The hypermetabolic area is suggestive of a mass lesion, potentially indicative of malignancy or infection. The kidneys and bladder are also visible with normal tracer uptake. The image provides a clear view of the thoracic cavity and surrounding structures.",
+      "visible_findings": [
+        "increased FDG uptake in left upper lobe mass",
+        "extension of activity into left hilar region",
+        "normal tracer uptake in kidneys and bladder"
+      ],
+      "keywords": [
+        "fdg pet-ct",
+        "thorax",
+        "left upper lobe",
+        "hilar region",
+        "hypermetabolic lesion",
+        "infection",
+        "malignancy"
+      ],
+      "reveal_triggers": [
+        "fdg pet scan",
+        "thoracic mass",
+        "hypermetabolic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:10+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 262,
+      "total_tokens": 871
+    }
+  },
+  "Case_24007/figure4.jpg": {
+    "case_id": "Case_24007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24007/figure4.jpg",
+    "source_caption": "Figure 4: Pathology; Lung, 1.25x. Coalescing necrotizing granulomas with fibrosis and vascular erosion (Courtesy of Dr. David Sauer).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of lung showing necrotizing granulomas with fibrosis and vascular involvement.",
+      "detailed_description": "This histopathology image shows lung tissue at low magnification (1.25x). There are coalescing necrotizing granulomas with central areas of necrosis surrounded by fibrotic tissue. Evidence of vascular erosion is visible, with granulomas encroaching on and disrupting vascular structures. The staining highlights cellular and structural details, consistent with a hematoxylin and eosin (H&E) stain.",
+      "visible_findings": [
+        "coalescing necrotizing granulomas",
+        "central necrosis",
+        "fibrosis surrounding granulomas",
+        "vascular erosion"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "necrosis",
+        "fibrosis",
+        "vascular erosion",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "necrotizing granulomas",
+        "H&E stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:11+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 255,
+      "total_tokens": 873
+    }
+  }
+}

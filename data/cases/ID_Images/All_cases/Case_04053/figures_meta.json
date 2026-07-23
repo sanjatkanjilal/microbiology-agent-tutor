@@ -1,0 +1,81 @@
+{
+  "Case_04053/figure2.jpg": {
+    "case_id": "Case_04053",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04053/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive branching filamentous organisms.",
+      "detailed_description": "This image shows a Gram stain with pink and purple staining. Notable are branching filamentous structures consistent with gram-positive organisms. The background contains cellular debris and scattered material. The branching morphology is characteristic of certain bacterial genera, such as Nocardia or Actinomyces.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "gram-positive staining",
+        "cellular debris in the background"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching bacteria",
+        "gram-positive",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of tissue",
+        "branching bacteria",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:34+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 200,
+      "total_tokens": 768
+    }
+  },
+  "Case_04053/figure1.jpg": {
+    "case_id": "Case_04053",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04053/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fungal elements seen on a stained preparation.",
+      "detailed_description": "This image shows a stained preparation with fungal elements visible. The fungal structures appear as branching, filamentous hyphae, stained in a darker color against a lighter background. The preparation suggests a fungal infection, and the stain highlights the morphology of the organism. The image is de-identified and does not provide anatomical context.",
+      "visible_findings": [
+        "branching filamentous fungal hyphae",
+        "stained preparation with contrasting background"
+      ],
+      "keywords": [
+        "stain",
+        "fungal elements",
+        "hyphae",
+        "infectious diseases",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "microscopy of fungal infection",
+        "hyphae on stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:40+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 208,
+      "total_tokens": 776
+    }
+  }
+}

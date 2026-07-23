@@ -1,0 +1,43 @@
+{
+  "Case_03122/figure1.jpg": {
+    "case_id": "Case_03122",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03122/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the arm",
+      "short_caption": "Multiple violaceous patches on the arm suggestive of cutaneous involvement.",
+      "detailed_description": "This clinical photograph shows the skin of an arm with multiple irregularly shaped, violaceous patches. The lesions vary in size and are distributed over the lateral aspect of the arm. The discoloration suggests possible vascular involvement or hemorrhagic changes. The surrounding skin appears unremarkable without significant erythema or swelling.",
+      "visible_findings": [
+        "violaceous patches",
+        "irregular shapes",
+        "distribution on the arm",
+        "no surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "violaceous patches",
+        "cutaneous lesion",
+        "arm"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "cutaneous lesions",
+        "violaceous skin patches"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 213,
+      "total_tokens": 781
+    }
+  }
+}

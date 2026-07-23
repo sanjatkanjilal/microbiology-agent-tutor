@@ -1,0 +1,82 @@
+{
+  "Case_03126/figure1.jpg": {
+    "case_id": "Case_03126",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03126/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing branching filamentous bacteria and cocci.",
+      "detailed_description": "This image shows a Gram stain with an orange background. Visible are thin, branching filamentous structures consistent with filamentous bacteria, as well as clusters of cocci. The branching filaments suggest the presence of organisms such as Actinomyces or Nocardia, while the cocci may represent a secondary organism. The staining technique highlights the morphology of the bacteria.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "clusters of cocci",
+        "orange background typical of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "branching filaments",
+        "cocci",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:50+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  },
+  "Case_03126/figure2.jpg": {
+    "case_id": "Case_03126",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03126/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters and gram-negative bacilli.",
+      "detailed_description": "This image shows a gram stain with a yellowish background. Visible are gram-positive cocci arranged in clusters, appearing dark blue to purple, and gram-negative bacilli, which are pink to red. The organisms are dispersed throughout the field, with some clustering more prominently. The staining technique highlights the differential cell wall properties of the bacteria.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "gram-negative bacilli",
+        "yellowish background typical of gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "gram-negative bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:50+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 220,
+      "total_tokens": 788
+    }
+  }
+}

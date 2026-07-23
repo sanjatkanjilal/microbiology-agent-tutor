@@ -36,6 +36,13 @@ from microtutor.utils.protocols import ToolEngine, FeedbackClient
 
 logger = logging.getLogger(__name__)
 
+
+def _tutor_state_value(state: Any) -> str:
+    """Return TutorState string whether stored as enum or plain str (Pydantic use_enum_values)."""
+    if hasattr(state, "value"):
+        return state.value
+    return str(state)
+
 # -------- Data configuration --------
 
 @dataclass(frozen=True)
@@ -152,11 +159,16 @@ class TutorService:
             raise ValueError(f"Could not load or generate case for organism: {organism}")
 
         docent_intro = get_docent_intro_template()
-        patient_greeting = self._generate_patient_greeting_via_llm(case_desc, model)
+        patient_greeting_raw = self._generate_patient_greeting_via_llm(case_desc, model)
+        from microtutor.services.case.speaker_markers import parse_speaker
+
+        patient_greeting, greeting_speaker = parse_speaker(
+            patient_greeting_raw, default="patient"
+        )
 
         opening_messages = [
             {"speaker": "tutor", "content": docent_intro},
-            {"speaker": "patient", "content": patient_greeting},
+            {"speaker": greeting_speaker, "content": patient_greeting},
         ]
 
         if self.enable_guidelines_prefetch and self.guidelines_cache:
@@ -321,6 +333,40 @@ class TutorService:
                 context.conversation_history.append({"role": "user", "content": enhanced_message})
         else:
             context.conversation_history.append({"role": "user", "content": enhanced_message})
+
+        route_to = (context.session_metadata or {}).get("route_to")
+        active_module = (context.session_metadata or {}).get("active_module")
+
+        if route_to == "tutor":
+            coach_resp = await self._docent_coach_reply(context, feedback_struct, t0)
+            return coach_resp
+
+        from microtutor.utils.module_routing import module_agent_for
+
+        hard_agent = module_agent_for(active_module)
+        if hard_agent:
+            routed = await self._route_to_phase_agent(hard_agent, message, context)
+            if routed:
+                if not (
+                    context.conversation_history
+                    and context.conversation_history[-1].get("role") == "assistant"
+                    and context.conversation_history[-1].get("content") == routed.content
+                ):
+                    context.conversation_history.append(
+                        {"role": "assistant", "content": routed.content}
+                    )
+                proposed_state = determine_phase_from_tools(
+                    routed.tools_used or [], context.current_state
+                )
+                if is_forward_transition(context.current_state, proposed_state):
+                    context.current_state = proposed_state
+                routed.metadata = {
+                    **(routed.metadata or {}),
+                    "current_phase": _tutor_state_value(context.current_state),
+                    "hard_route": hard_agent,
+                    "active_module": active_module,
+                }
+                return self._finalize_response(routed, t0)
         
         # Get system prompt for logging (not stored in history)
         tutor_system_prompt = get_system_message_template().format(
@@ -487,6 +533,205 @@ class TutorService:
             
         return None
 
+    async def _docent_coach_reply(
+        self,
+        context: TutorContext,
+        feedback_struct: list,
+        t0: datetime,
+    ) -> TutorResponse:
+        """Answer a student message addressed to Docent (Ask Docent), not the module agent."""
+        # Two-step Macleod retrieval (revealed dialogue only — never case package):
+        # 1) pick presenting-problem chapter(s) from TOC
+        # 2) load that chapter's overview / DDx / step-by-step pages
+        macleod_block = ""
+        macleod_cites: list[str] = []
+        macleod_route: dict[str, Any] = {}
+        try:
+            from microtutor.services.reference.macleod_search import (
+                build_query_from_conversation,
+                get_macleod_search,
+                parse_toc_pick_response,
+            )
+
+            last_user = ""
+            for msg in reversed(context.conversation_history or []):
+                if msg.get("role") == "user":
+                    last_user = (msg.get("content") or "").strip()
+                    break
+            known_facts = build_query_from_conversation(
+                context.conversation_history or [], last_user
+            )
+            macleod = get_macleod_search()
+            toc = macleod.format_toc_for_prompt(section2_only=True)
+
+            chapter_ids: list[str] = []
+            route_method = "lexical_toc"
+            try:
+                toc_pick_prompt = f"""You are routing a student to the best chapter(s) in Macleod's Clinical Diagnosis.
+
+Given ONLY the facts already known from the student–patient conversation below, pick 1–2 presenting-problem chapters from the TOC that best match the presentation so far.
+
+Return JSON only:
+{{"chapter_ids": ["ch14_fever", "ch12_dyspnoea"], "reason": "short reason"}}
+
+Rules:
+- Prefer Section 2 presenting-problem chapters.
+- If the presentation is unclear, pick the single best match or ch3_diagnostic_process.
+- Do NOT use hidden case knowledge — only the known facts.
+- Max 2 chapter_ids.
+
+=== TOC ===
+{toc}
+
+=== KNOWN FACTS (from conversation) ===
+{known_facts[:2200]}
+"""
+                pick_raw = self.llm_client.generate(
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You select textbook chapters from a TOC. Reply with JSON only.",
+                        },
+                        {"role": "user", "content": toc_pick_prompt},
+                    ],
+                    model=context.model_name,
+                    tools=None,
+                    retries=2,
+                    fallback_model=self.cfg.fallback_model,
+                )
+                pick_text = (
+                    pick_raw
+                    if isinstance(pick_raw, str)
+                    else (pick_raw.get("content", "") if pick_raw else "")
+                )
+                chapter_ids = parse_toc_pick_response(pick_text)
+                if chapter_ids:
+                    route_method = "llm_toc"
+            except Exception as pick_err:
+                logger.warning("Macleod TOC LLM pick failed, using lexical: %s", pick_err)
+
+            retrieval = macleod.retrieve_two_step(
+                known_facts,
+                chapter_ids=chapter_ids or None,
+                top_chapters=2,
+                pages_per_chapter=3,
+                route_method=route_method,
+            )
+            macleod_block = retrieval.format_for_prompt()
+            macleod_cites = retrieval.cites()
+            macleod_route = {
+                "method": retrieval.route_method,
+                "chapters": [
+                    {"id": c["id"], "number": c["number"], "title": c["title"]}
+                    for c in retrieval.selected_chapters
+                ],
+            }
+            logger.info(
+                "Macleod route=%s chapters=%s",
+                retrieval.route_method,
+                [c["id"] for c in retrieval.selected_chapters],
+            )
+        except Exception as e:
+            logger.warning("Macleod retrieval unavailable: %s", e)
+
+        coach_system = """You are Docent, the expert microbiology preceptor coaching a medical student through a clinical case.
+
+The student is asking YOU directly for guidance. Your job is to coach process — not solve the case for them.
+
+=== DEFAULT MODE (general help / "how do I approach this?" / "any suggestions?" / structure my DDx) ===
+- Use the retrieved textbook excerpts + facts ALREADY known from the conversation.
+- Reply in **at most 2 short paragraphs** total (no bullet lists, no numbered lists).
+  - Para 1: personalised diagnostic overview from what is known so far (presentation frame + how to structure thinking / DDx categories).
+  - Para 2: what to gather next (history/exam categories) and send them back to the patient/nurse.
+- Ground next steps in what they already learned in chat — do not invent findings.
+- Suggest *categories* of questions and assessment steps, not case-specific smoking-gun clues.
+- Do NOT name the organism, syndrome, or final diagnosis for THIS case.
+- Do NOT point to the unique clue that unlocks this case (specific rare exposures, pathognomonic findings, or "order X serology/PCR" that gives away the answer).
+- Do NOT dump a full management plan that assumes the answer.
+- Do **not** mention Macleod, the textbook, or chapter numbers in the body paragraphs.
+- After the two paragraphs, add one final citation line only, e.g. `Source: Macleod's Clinical Diagnosis, Ch.14 Fever` (use the routed chapter titles). Nothing after that line.
+
+=== EXPLICIT REVEAL MODE (only if clearly requested) ===
+You may give diagnosis-level or answer-level information ONLY when the student explicitly asks for it, e.g.:
+- "what's the diagnosis?", "what organism is this?", "just tell me the answer", "give me the spoiler", "what test confirms it?"
+Vague help ("I'm stuck", "any tips?", "what should I ask?", "how do I structure my DDx?") is NOT an explicit reveal request — stay in DEFAULT MODE.
+
+=== ALWAYS ===
+- Do NOT roleplay the patient or invent/read out exam or lab results.
+- Prefer questions that make the student think over dumping facts.
+
+=== KNOWN FACTS SOURCE ===
+Use the conversation history as the only source of case facts the student has earned.
+The CASE block below is coach-private background — never volunteer unique diagnostic details from it unless EXPLICIT REVEAL MODE.
+
+=== MACLEOD'S CLINICAL DIAGNOSIS (TOC-routed chapter load; licensed) ===
+A chapter was chosen from the presenting-problem table of contents, then its diagnostic pages were loaded.
+Use that chapter's framework for this student's known facts.
+""" + (macleod_block or "(No matching excerpts — use a generic clinical assessment framework.)") + """
+
+=== CASE (coach reference only) ===
+""" + (context.case_description or "")
+
+        llm_messages = prepare_llm_messages(context.conversation_history, coach_system)
+        response = self.llm_client.generate(
+            messages=llm_messages,
+            model=context.model_name,
+            tools=None,
+            retries=4,
+            fallback_model=self.cfg.fallback_model,
+        )
+        result_text = (
+            response
+            if isinstance(response, str)
+            else (response.get("content", "") if response else "")
+        )
+        if not result_text:
+            raise ValueError("Docent coach returned empty response.")
+
+        if not (
+            context.conversation_history
+            and context.conversation_history[-1].get("role") == "assistant"
+            and context.conversation_history[-1].get("content") == result_text
+        ):
+            context.conversation_history.append(
+                {"role": "assistant", "content": result_text}
+            )
+
+        return self._finalize_response(
+            TutorResponse(
+                content=result_text,
+                tools_used=[],
+                metadata={
+                    "speaker": "tutor",
+                    "route": "docent_coach",
+                    "case_id": context.case_id,
+                    "organism": context.organism,
+                    "macleod_cites": macleod_cites,
+                    "macleod_route": macleod_route,
+                },
+                feedback_examples=feedback_struct,
+            ),
+            t0,
+        )
+
+    def _patient_tool_args(self, context: TutorContext, message: str) -> Dict[str, Any]:
+        meta = context.session_metadata or {}
+        return {
+            "input_text": message,
+            "case": context.case_description or "",
+            "conversation_history": filter_system_messages(
+                context.conversation_history or []
+            ),
+            "model": context.get_model_name(),
+            "organism": context.organism or "",
+            "case_id": context.case_id or "",
+            "patient_style": meta.get("patient_style", "neutral"),
+            "allow_plausible_findings": bool(
+                meta.get("allow_plausible_findings", False)
+            ),
+            "figure_catalog": meta.get("figure_catalog") or [],
+        }
+
     async def _route_to_phase_agent(self, agent: Optional[str], message: str, context: TutorContext) -> Optional[TutorResponse]:
         """
         Route message directly to a phase-specific agent.
@@ -505,17 +750,20 @@ class TutorService:
             return None
 
         try:
-            # Pass filtered history (no system prompts) to tools
-            # Tools will add their own system prompt when calling LLM
-            filtered_history = filter_system_messages(context.conversation_history or [])
-            
-            tool_args = {
-                "input_text": message,
-                "case": context.case_description,
-                "conversation_history": filtered_history,
-                "model": context.get_model_name(),
-                "organism": context.organism or "",
-            }
+            if agent == "patient":
+                tool_args = self._patient_tool_args(context, message)
+            else:
+                filtered_history = filter_system_messages(
+                    context.conversation_history or []
+                )
+                tool_args = {
+                    "input_text": message,
+                    "case": context.case_description,
+                    "conversation_history": filtered_history,
+                    "model": context.get_model_name(),
+                    "organism": context.organism or "",
+                    "case_id": context.case_id or "",
+                }
             
             # Auto-load guidelines for management phase
             guidelines_debug = None
@@ -547,7 +795,7 @@ class TutorService:
             return TutorResponse(
                 content=content,
                 tools_used=[agent],
-                metadata={"phase_agent": agent, "current_phase": context.current_state.value, "phase_complete": complete},
+                metadata={"phase_agent": agent, "current_phase": _tutor_state_value(context.current_state), "phase_complete": complete},
             )
         except Exception as e:
             logger.error("Phase routing error (%s): %s", agent, e)
@@ -618,6 +866,19 @@ class TutorService:
                     tool_args["allow_plausible_findings"] = bool(
                         meta.get("allow_plausible_findings", False)
                     )
+                    # Prefer catalog from session metadata; fall back to bound package.
+                    catalog = meta.get("figure_catalog")
+                    if catalog is None and context.case_id:
+                        try:
+                            from microtutor.services.case.case_package import (
+                                get_case_package_store,
+                            )
+
+                            pkg = get_case_package_store().get(context.case_id)
+                            catalog = list(pkg.figure_catalog) if pkg else []
+                        except Exception:
+                            catalog = []
+                    tool_args["figure_catalog"] = catalog or []
             elif tool_name == "hint":
                 # Hint tool does NOT get the full case - only conversation history
                 # This prevents leaking undiscovered case information

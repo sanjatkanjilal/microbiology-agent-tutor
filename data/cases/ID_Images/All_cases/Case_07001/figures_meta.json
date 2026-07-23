@@ -1,0 +1,95 @@
+{
+  "Case_07001/figure1.jpg": {
+    "case_id": "Case_07001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07001/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:41:12+00:00"
+  },
+  "Case_07001/figure3.jpg": {
+    "case_id": "Case_07001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07001/figure3.jpg",
+    "source_caption": "Modified acid fast stain of tissue culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Modified acid-fast stain showing filamentous branching organisms.",
+      "detailed_description": "This image shows a modified acid-fast stain of a specimen, revealing thin, filamentous, branching organisms stained bright pink against a blue background. The branching morphology is characteristic of certain actinomycetes, such as Nocardia species. The contrast between the pink-stained organisms and the blue background highlights the acid-fast nature of the organisms.",
+      "visible_findings": [
+        "filamentous branching organisms",
+        "bright pink staining of organisms",
+        "blue background"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "filamentous organisms",
+        "nocardia",
+        "branching morphology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "nocardia",
+        "branching organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:21+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 213,
+      "total_tokens": 803
+    }
+  },
+  "Case_07001/figure2.jpg": {
+    "case_id": "Case_07001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07001/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper arm",
+      "short_caption": "Erythematous lesion on the upper arm.",
+      "detailed_description": "The image shows the lateral aspect of an upper arm with a single, round, erythematous lesion. The lesion appears slightly raised and is surrounded by normal skin. The surrounding tissue does not show significant swelling or discoloration. The background includes clinical equipment, suggesting a healthcare setting.",
+      "visible_findings": [
+        "erythematous lesion",
+        "round shape",
+        "slightly raised appearance",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "upper arm",
+        "erythema",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythematous rash",
+        "arm lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:22+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 205,
+      "total_tokens": 773
+    }
+  }
+}

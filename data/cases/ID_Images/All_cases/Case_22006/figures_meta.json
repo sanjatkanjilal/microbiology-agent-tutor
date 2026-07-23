@@ -1,0 +1,128 @@
+{
+  "Case_22006/figure1.png": {
+    "case_id": "Case_22006",
+    "filename": "figure1.png",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22006/figure1.png",
+    "source_caption": "Fig 1. Faint erythematous macular rash on face, arms and legs, trunk, and palms of hands",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, arms, trunk, palms",
+      "short_caption": "Faint erythematous macular rash on face, arms, trunk, and palms.",
+      "detailed_description": "This composite image shows faint erythematous macular lesions distributed across multiple anatomical sites including the forehead, axilla, upper arm, and palm. The rash appears diffuse and non-confluent, with individual macules visible against the skin. The lesions are subtle and do not exhibit scaling or pustulation. The image highlights the rash's presence on both exposed and less exposed areas of the body.",
+      "visible_findings": [
+        "faint erythematous macular lesions",
+        "diffuse distribution across face, arms, trunk, and palms",
+        "non-confluent macules",
+        "no scaling or pustulation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "macular lesions",
+        "erythematous",
+        "skin",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash distribution",
+        "macular rash"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:38+00:00",
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 261,
+      "total_tokens": 1009
+    }
+  },
+  "Case_22006/figure2.png": {
+    "case_id": "Case_22006",
+    "filename": "figure2.png",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22006/figure2.png",
+    "source_caption": "Fig 2. Bilateral basilar infiltrates",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "lungs",
+      "short_caption": "Chest radiograph showing bilateral basilar infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating bilateral opacities predominantly in the lower lung zones. The infiltrates appear diffuse and hazy, consistent with a pattern of consolidation or interstitial involvement. The heart and mediastinal structures are partially obscured by the overlying opacities. No clear evidence of pleural effusion or pneumothorax is visible.",
+      "visible_findings": [
+        "bilateral basilar infiltrates",
+        "hazy opacities in lower lung zones",
+        "partially obscured heart borders"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "lungs",
+        "infiltrates",
+        "bilateral",
+        "basilar",
+        "radiograph"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "bilateral basilar infiltrates",
+        "lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:41+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 236,
+      "total_tokens": 829
+    }
+  },
+  "Case_22006/figure3.png": {
+    "case_id": "Case_22006",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22006/figure3.png",
+    "source_caption": "Fig 3. Bilateral airspace opacities of posterior lungs and moderate pulmonary edema",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "CT chest showing bilateral airspace opacities and pulmonary edema.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral airspace opacities predominantly in the posterior lung fields. There is evidence of moderate pulmonary edema, with increased interstitial markings and ground-glass opacities. The heart appears enlarged, suggesting possible cardiomegaly. The findings are consistent with fluid overload or an infectious/inflammatory process.",
+      "visible_findings": [
+        "bilateral airspace opacities",
+        "ground-glass opacities",
+        "interstitial thickening",
+        "enlarged cardiac silhouette",
+        "posterior lung involvement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "airspace opacities",
+        "pulmonary edema",
+        "ground-glass opacities"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "pulmonary edema",
+        "bilateral airspace opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:41+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 243,
+      "total_tokens": 844
+    }
+  }
+}

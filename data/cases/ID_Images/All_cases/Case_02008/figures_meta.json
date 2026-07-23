@@ -1,0 +1,125 @@
+{
+  "Case_02008/figure2.jpg": {
+    "case_id": "Case_02008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02008/figure2.jpg",
+    "source_caption": "Blood smear with gametocyte.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing a gametocyte.",
+      "detailed_description": "This image shows a stained blood smear with numerous red blood cells and a single crescent-shaped gametocyte, characteristic of Plasmodium falciparum. The gametocyte is stained purple and stands out against the pink-stained red blood cells. The smear appears to be prepared with a Giemsa stain, commonly used for identifying malaria parasites.",
+      "visible_findings": [
+        "crescent-shaped gametocyte",
+        "pink-stained red blood cells",
+        "purple-stained parasite structure"
+      ],
+      "keywords": [
+        "blood smear",
+        "gametocyte",
+        "plasmodium",
+        "malaria",
+        "giemsa stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "malaria diagnosis",
+        "gametocyte identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 223,
+      "total_tokens": 812
+    }
+  },
+  "Case_02008/figure1.jpg": {
+    "case_id": "Case_02008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02008/figure1.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear showing red blood cells and intracellular ring forms.",
+      "detailed_description": "This is a high-magnification image of a blood smear stained with Giemsa or a similar stain. The smear shows numerous red blood cells, some of which contain intracellular ring-shaped structures consistent with parasitic infection, such as Plasmodium species. The red blood cells appear normocytic, and no significant anisocytosis or poikilocytosis is evident. The background is clear, with no visible white blood cells in this field.",
+      "visible_findings": [
+        "red blood cells with intracellular ring forms",
+        "normocytic red blood cells",
+        "absence of white blood cells in this field"
+      ],
+      "keywords": [
+        "blood smear",
+        "giemsa stain",
+        "ring forms",
+        "plasmodium",
+        "red blood cells",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms in red blood cells",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:15+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 251,
+      "total_tokens": 836
+    }
+  },
+  "Case_02008/figure3.jpg": {
+    "case_id": "Case_02008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02008/figure3.jpg",
+    "source_caption": "Blood smear with schizont.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing a schizont within a red blood cell.",
+      "detailed_description": "This is a high-magnification image of a stained blood smear. The field shows numerous red blood cells, most of which appear normal in size and shape. One red blood cell contains a schizont, a stage of a Plasmodium parasite, characterized by multiple small nuclei or merozoites within the cell. The staining highlights the parasite's internal structures, aiding in its identification.",
+      "visible_findings": [
+        "red blood cells with normal morphology",
+        "one red blood cell containing a schizont",
+        "multiple nuclei or merozoites visible within the schizont"
+      ],
+      "keywords": [
+        "blood smear",
+        "schizont",
+        "plasmodium",
+        "malaria",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "schizont",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:21+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "Case_03061/figure2.jpg": {
+    "case_id": "Case_03061",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03061/figure2.jpg",
+    "source_caption": "Laboratory finding.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Gel electrophoresis showing DNA banding patterns.",
+      "detailed_description": "This image shows a gel electrophoresis result with multiple lanes. A molecular weight ladder is visible on the far left, providing size references for the DNA bands. Several lanes contain distinct DNA bands of varying intensities and positions, suggesting the presence of specific DNA fragments. The gel is illuminated under UV light, highlighting the DNA bands stained with a fluorescent dye.",
+      "visible_findings": [
+        "molecular weight ladder on the left",
+        "distinct DNA bands in multiple lanes",
+        "fluorescent staining under UV light"
+      ],
+      "keywords": [
+        "gel electrophoresis",
+        "dna bands",
+        "molecular weight ladder",
+        "laboratory finding"
+      ],
+      "reveal_triggers": [
+        "gel electrophoresis",
+        "dna analysis",
+        "laboratory finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:50+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 217,
+      "total_tokens": 802
+    }
+  },
+  "Case_03061/figure1.jpg": {
+    "case_id": "Case_03061",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03061/figure1.jpg",
+    "source_caption": "Laboratory finding.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing yeast forms with budding.",
+      "detailed_description": "This image shows a Gram stain with multiple yeast forms, some of which exhibit budding. The organisms are stained purple, indicating they are Gram-positive. The background is relatively clear, with scattered cellular debris. No hyphal forms are visible in this field.",
+      "visible_findings": [
+        "yeast forms",
+        "budding yeast",
+        "Gram-positive staining",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "yeast",
+        "budding",
+        "laboratory finding",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "yeast infection",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:51+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 190,
+      "total_tokens": 775
+    }
+  }
+}

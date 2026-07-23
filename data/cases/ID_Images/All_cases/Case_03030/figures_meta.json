@@ -1,0 +1,255 @@
+{
+  "Case_03030/figure2.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure2.jpg",
+    "source_caption": "Skin findings on the eighth day.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Erythematous papule with central ulceration on the eighth day.",
+      "detailed_description": "The image shows a close-up view of the skin with a single erythematous papule that has a central ulceration. The lesion is surrounded by a slightly raised red border, and the central area appears to have a small depression or crust. The surrounding skin is otherwise unremarkable. The text overlay indicates this was observed on the eighth day.",
+      "visible_findings": [
+        "erythematous papule",
+        "central ulceration",
+        "slightly raised red border",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "papule",
+        "ulceration",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "skin lesion",
+        "infectious skin finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 229,
+      "total_tokens": 818
+    }
+  },
+  "Case_03030/figure1.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure1.jpg",
+    "source_caption": "Skin findings on the sixth hospital day.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Erythematous papule on the skin observed on the sixth hospital day.",
+      "detailed_description": "The image shows a close-up view of a single erythematous papule on the skin. The lesion is small, round, and slightly raised with a central area of erythema. The surrounding skin appears unremarkable, with no significant swelling or additional lesions visible. The photograph is well-lit, allowing clear visualization of the lesion's characteristics.",
+      "visible_findings": [
+        "single erythematous papule",
+        "central area of erythema",
+        "surrounding skin appears normal"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythematous papule",
+        "lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythematous papule",
+        "hospital day 6"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:25+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 231,
+      "total_tokens": 821
+    }
+  },
+  "Case_03030/figure4.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure4.jpg",
+    "source_caption": "Cervical lymph node, H and E stain (x 400 magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cervical lymph node",
+      "short_caption": "Cervical lymph node, H&E stain at high magnification showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a section of a cervical lymph node stained with hematoxylin and eosin (H&E) at high magnification. The field reveals granulomatous inflammation characterized by clusters of epithelioid macrophages, multinucleated giant cells, and scattered lymphocytes. The background contains areas of necrosis and cellular debris, indicative of caseating granulomas. These findings are consistent with an infectious or inflammatory process, such as tuberculosis or fungal infection.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "epithelioid macrophages",
+        "multinucleated giant cells",
+        "caseating necrosis",
+        "scattered lymphocytes"
+      ],
+      "keywords": [
+        "histopathology",
+        "cervical lymph node",
+        "granuloma",
+        "H&E stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "H&E stain of lymph node",
+        "granulomatous inflammation",
+        "tuberculosis histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:26+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 283,
+      "total_tokens": 881
+    }
+  },
+  "Case_03030/figure5.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure5.jpg",
+    "source_caption": "Chest CT scan on the sixth day.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral pulmonary findings.",
+      "detailed_description": "This image shows axial CT slices of the chest at different levels. The lung windows (right panels) reveal bilateral ground-glass opacities and patchy consolidations, predominantly in the lower lobes. The mediastinal windows (left panels) show no significant lymphadenopathy or pleural effusion. These findings are consistent with an infectious or inflammatory process, potentially viral or bacterial pneumonia.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "patchy consolidations",
+        "predominantly lower lobe involvement",
+        "no significant lymphadenopathy",
+        "no pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "pneumonia"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:29+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 254,
+      "total_tokens": 844
+    }
+  },
+  "Case_03030/figure6.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure6.jpg",
+    "source_caption": "Cervical lymph node PAS stain x 1000.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cervical lymph node",
+      "short_caption": "Cervical lymph node PAS stain showing fungal elements at high magnification.",
+      "detailed_description": "This is a histopathological image of a cervical lymph node stained with periodic acid-Schiff (PAS) at high magnification (x1000). The image shows numerous round to oval fungal elements with thick walls and occasional budding forms, consistent with yeast-like organisms. The surrounding tissue exhibits a pink background with inflammatory cells and some necrosis. The PAS stain highlights the fungal cell walls in magenta, aiding in their identification.",
+      "visible_findings": [
+        "round to oval fungal elements",
+        "thick-walled yeast-like organisms",
+        "occasional budding forms",
+        "pink background with inflammatory cells",
+        "PAS stain highlighting fungal cell walls in magenta"
+      ],
+      "keywords": [
+        "histopathology",
+        "cervical lymph node",
+        "PAS stain",
+        "fungal elements",
+        "yeast",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "fungal infection",
+        "lymph node biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:30+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 267,
+      "total_tokens": 860
+    }
+  },
+  "Case_03030/figure3.jpg": {
+    "case_id": "Case_03030",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03030/figure3.jpg",
+    "source_caption": "Cervical lymph node, H and E stain (x 100 magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cervical lymph node",
+      "short_caption": "H&E stain of cervical lymph node at 100x magnification.",
+      "detailed_description": "This histopathology image shows a section of a cervical lymph node stained with hematoxylin and eosin (H&E) at 100x magnification. The tissue demonstrates areas of necrosis with pink eosinophilic debris and scattered basophilic nuclear remnants. Surrounding the necrotic areas, there are lymphoid cells and granulomatous inflammation with multinucleated giant cells. The architecture of the lymph node appears disrupted, consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "necrotic areas with eosinophilic debris",
+        "scattered basophilic nuclear remnants",
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "disrupted lymph node architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "cervical lymph node",
+        "H&E stain",
+        "necrosis",
+        "granulomatous inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "cervical lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:41+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 284,
+      "total_tokens": 882
+    }
+  }
+}

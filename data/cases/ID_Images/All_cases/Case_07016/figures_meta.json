@@ -1,0 +1,254 @@
+{
+  "Case_07016/figure2.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand (palmar surface)",
+      "short_caption": "Erythematous, scaly lesions with hyperkeratosis on the palm.",
+      "detailed_description": "This clinical photograph shows the palmar surface of a hand with erythematous, scaly, and hyperkeratotic lesions. There are areas of thickened skin with yellowish discoloration, and some fissuring is visible. The lesions appear to involve multiple fingers and the central palm. The surrounding skin shows dryness and scaling, suggesting chronic irritation or inflammation.",
+      "visible_findings": [
+        "erythema",
+        "scaling",
+        "hyperkeratosis",
+        "fissuring",
+        "yellowish discoloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "palm",
+        "erythema",
+        "scaling",
+        "hyperkeratosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "hand rash",
+        "scaly lesions on palm",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 247,
+      "total_tokens": 815
+    }
+  },
+  "Case_07016/figure1.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "trunk",
+      "short_caption": "Diffuse erythematous maculopapular rash on the trunk.",
+      "detailed_description": "This clinical photograph shows the trunk of a patient with a diffuse erythematous maculopapular rash. The rash consists of small, red, raised lesions scattered across the skin. Electrodes are attached to the chest, suggesting monitoring or a clinical procedure. The image is taken in a medical setting, with gloved hands visible, indicating examination or intervention.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "electrodes attached to the chest",
+        "gloved hand in the field"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "trunk",
+        "rash",
+        "maculopapular",
+        "erythematous",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  },
+  "Case_07016/figure4.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure4.jpg",
+    "source_caption": "Physical finding (with ink applied)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "plantar surface of the foot",
+      "short_caption": "Erythema and desquamation on the plantar surface of the foot.",
+      "detailed_description": "This clinical photograph shows the plantar surface of a foot with marked erythema, desquamation, and areas of superficial skin peeling. Several well-demarcated erythematous patches and erosions are visible, with some areas showing white maceration. The findings suggest an inflammatory or infectious process affecting the skin.",
+      "visible_findings": [
+        "erythema on the plantar surface",
+        "desquamation and peeling skin",
+        "well-demarcated erythematous patches",
+        "areas of white maceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "erythema",
+        "desquamation",
+        "skin infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot rash",
+        "erythema and peeling skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:43+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_07016/figure3.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure3.jpg",
+    "source_caption": "Physical finding (with ink applied)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "bilateral soles of the feet",
+      "short_caption": "Clinical photograph of bilateral foot lesions with discoloration and blistering.",
+      "detailed_description": "This image shows the soles of both feet with significant findings. There are areas of dark discoloration, consistent with necrosis, and multiple fluid-filled blisters. The skin appears erythematous and swollen, with some areas of desquamation. The findings suggest a severe dermatologic or vascular process, possibly infectious or ischemic in nature. Gloves are visible, indicating a clinical setting.",
+      "visible_findings": [
+        "dark discoloration on both soles, suggestive of necrosis",
+        "multiple fluid-filled blisters",
+        "erythema and swelling",
+        "areas of skin desquamation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "feet",
+        "necrosis",
+        "blisters",
+        "erythema",
+        "infection",
+        "vascular compromise"
+      ],
+      "reveal_triggers": [
+        "foot lesions",
+        "skin necrosis",
+        "infectious foot findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:44+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 251,
+      "total_tokens": 840
+    }
+  },
+  "Case_07016/figure5.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure5.jpg",
+    "source_caption": "Radiographs of long bones.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "long bones of the lower extremities",
+      "short_caption": "Radiograph showing abnormalities in the long bones of the lower extremities.",
+      "detailed_description": "This is an anteroposterior radiograph of the lower extremities in a pediatric patient. The image reveals bilateral bowing of the femurs and tibias, with metaphyseal irregularities and widening, particularly at the knees. These findings are suggestive of a metabolic bone disorder, such as rickets. The soft tissues appear normal, and there is no evidence of fracture or dislocation.",
+      "visible_findings": [
+        "bilateral bowing of femurs and tibias",
+        "metaphyseal irregularities and widening",
+        "no visible fractures or dislocations"
+      ],
+      "keywords": [
+        "radiograph",
+        "long bones",
+        "lower extremities",
+        "pediatric",
+        "rickets",
+        "metaphyseal widening",
+        "bowing deformity"
+      ],
+      "reveal_triggers": [
+        "long bone radiograph",
+        "pediatric bone abnormalities",
+        "rickets"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:48+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 259,
+      "total_tokens": 847
+    }
+  },
+  "Case_07016/figure6.jpg": {
+    "case_id": "Case_07016",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07016/figure6.jpg",
+    "source_caption": "Laboratory test results.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Graph showing platelet count and liver enzyme trends during penicillin therapy.",
+      "detailed_description": "This is a graph displaying trends in platelet count (x1000/mm³) and liver enzymes (AST and ALT, in U/L) over days of life in a patient. The x-axis represents the day of life, while the y-axis has dual scales for platelet count (left) and liver enzymes (right). A purple bar indicates the period of penicillin therapy. Platelet count starts high, drops significantly, and then gradually recovers. AST and ALT levels initially rise, peak around day 11, and then decline. The data suggest a temporal relationship between penicillin therapy and these laboratory trends.",
+      "visible_findings": [
+        "Elevated platelet count at birth, followed by a drop and gradual recovery.",
+        "AST and ALT levels rise, peak, and then decline.",
+        "Penicillin therapy period marked on the graph."
+      ],
+      "keywords": [
+        "graph",
+        "platelet count",
+        "liver enzymes",
+        "penicillin therapy",
+        "trend analysis"
+      ],
+      "reveal_triggers": [
+        "laboratory trends",
+        "platelet count graph",
+        "liver enzyme changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:53+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 287,
+      "total_tokens": 873
+    }
+  }
+}

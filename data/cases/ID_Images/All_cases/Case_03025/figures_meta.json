@@ -1,0 +1,207 @@
+{
+  "Case_03025/figure1.jpg": {
+    "case_id": "Case_03025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03025/figure1.jpg",
+    "source_caption": "Pre-op contrast pelvic CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial contrast-enhanced CT of the pelvis showing a central pelvic mass.",
+      "detailed_description": "This axial contrast-enhanced CT image of the pelvis demonstrates a centrally located mass with a heterogeneous appearance. The mass appears to be within the pelvic cavity, possibly involving or adjacent to pelvic organs. Surrounding soft tissues and bony structures are visible, and the contrast enhancement highlights the vascular structures and tissue planes. The image is de-identified and suitable for educational purposes.",
+      "visible_findings": [
+        "central pelvic mass",
+        "heterogeneous appearance of the mass",
+        "contrast enhancement of surrounding tissues",
+        "visible pelvic bones and soft tissues"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "contrast",
+        "pelvic mass",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "contrast-enhanced ct",
+        "pelvic mass"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:32+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 229,
+      "total_tokens": 818
+    }
+  },
+  "Case_03025/figure2.jpg": {
+    "case_id": "Case_03025",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03025/figure2.jpg",
+    "source_caption": "Pre-op contrast abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial contrast-enhanced abdominal CT showing dilated bowel loops with air-fluid levels.",
+      "detailed_description": "This axial contrast-enhanced CT scan of the abdomen demonstrates multiple dilated bowel loops with air-fluid levels, suggestive of bowel obstruction. The contrast highlights the bowel lumen and surrounding structures. There is no clear evidence of free intraperitoneal air, but the findings are consistent with a mechanical obstruction or ileus. The scan is preoperative, as indicated in the case caption.",
+      "visible_findings": [
+        "dilated bowel loops",
+        "air-fluid levels",
+        "contrast-enhanced bowel lumen",
+        "no visible free intraperitoneal air"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel obstruction",
+        "air-fluid levels",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel obstruction",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 237,
+      "total_tokens": 826
+    }
+  },
+  "Case_03025/figure3.jpg": {
+    "case_id": "Case_03025",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03025/figure3.jpg",
+    "source_caption": "H and E stain of peritoneal serosa biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "peritoneal serosa",
+      "short_caption": "H and E stain of peritoneal serosa biopsy showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a section of peritoneal serosa stained with hematoxylin and eosin (H and E). The tissue demonstrates granulomatous inflammation characterized by a central area of necrosis surrounded by epithelioid macrophages and multinucleated giant cells. The background contains scattered lymphocytes and fibroblasts. The findings are consistent with a granulomatous process, potentially infectious or inflammatory in origin.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "central necrosis",
+        "epithelioid macrophages",
+        "multinucleated giant cells",
+        "scattered lymphocytes and fibroblasts"
+      ],
+      "keywords": [
+        "histopathology",
+        "peritoneal serosa",
+        "granuloma",
+        "H and E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H and E stain",
+        "peritoneal biopsy",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:45+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 272,
+      "total_tokens": 866
+    }
+  },
+  "Case_03025/figure5.jpg": {
+    "case_id": "Case_03025",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03025/figure5.jpg",
+    "source_caption": "Calcofluor stain of spun urine (400x).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "urine",
+      "short_caption": "Calcofluor stain of spun urine showing fungal elements (400x).",
+      "detailed_description": "This image shows a fluorescent microscopy view of a calcofluor white stain preparation of spun urine sediment at 400x magnification. The fungal element appears as a bright green, rounded structure with internal detail, consistent with yeast morphology. The calcofluor stain binds to chitin and cellulose in fungal cell walls, causing them to fluoresce under UV light.",
+      "visible_findings": [
+        "bright green fluorescence",
+        "rounded fungal structure",
+        "internal detail consistent with yeast morphology"
+      ],
+      "keywords": [
+        "calcofluor stain",
+        "urine",
+        "fungal elements",
+        "yeast",
+        "fluorescence microscopy"
+      ],
+      "reveal_triggers": [
+        "calcofluor stain",
+        "urine microscopy",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:46+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 227,
+      "total_tokens": 821
+    }
+  },
+  "Case_03025/figure4.jpg": {
+    "case_id": "Case_03025",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03025/figure4.jpg",
+    "source_caption": "Calcofluor stain of spun peritoneal fluid (400x).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peritoneal fluid",
+      "short_caption": "Calcofluor stain of spun peritoneal fluid showing fungal elements (400x).",
+      "detailed_description": "This image shows a fluorescent green-stained structure under a Calcofluor white stain viewed at 400x magnification. The structure appears rounded with irregular edges and internal granularity, consistent with fungal elements. Calcofluor binds to chitin and cellulose in fungal cell walls, causing fluorescence under UV light. The background is dark, enhancing the visibility of the fluorescent structure.",
+      "visible_findings": [
+        "fluorescent green-stained structure",
+        "rounded shape with irregular edges",
+        "internal granularity",
+        "dark background"
+      ],
+      "keywords": [
+        "calcofluor stain",
+        "peritoneal fluid",
+        "fungal elements",
+        "fluorescence microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "calcofluor stain",
+        "peritoneal fluid microscopy",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:47+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 248,
+      "total_tokens": 845
+    }
+  }
+}

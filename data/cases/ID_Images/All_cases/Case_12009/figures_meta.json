@@ -1,0 +1,165 @@
+{
+  "Case_12009/figure4.jpg": {
+    "case_id": "Case_12009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12009/figure4.jpg",
+    "source_caption": "Peripheral smear, Wright-Giemsa stain, x1250 magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral smear, Wright-Giemsa stain, showing intracellular inclusions.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear stained with Wright-Giemsa. Numerous red blood cells are visible, appearing as round, pale pink discs with central pallor. A few cells contain small, dark purple intracellular inclusions, consistent with parasitic organisms. The background is clear, with no significant debris or artifacts.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "intracellular dark purple inclusions",
+        "clear background"
+      ],
+      "keywords": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood",
+        "intracellular inclusions",
+        "parasitic organisms"
+      ],
+      "reveal_triggers": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood smear with inclusions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:08+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 231,
+      "total_tokens": 828
+    }
+  },
+  "Case_12009/figure2.jpg": {
+    "case_id": "Case_12009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12009/figure2.jpg",
+    "source_caption": "Peripheral smear, Wright-Giemsa stain, x1250 magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral smear showing intraerythrocytic inclusions, Wright-Giemsa stain, x1250 magnification.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear stained with Wright-Giemsa. Numerous red blood cells (RBCs) are visible, appearing as round, pale-pink structures with central pallor. Several RBCs contain small, dark-blue intraerythrocytic inclusions consistent with parasitic forms. The inclusions are suggestive of a protozoal infection, such as Plasmodium species or Babesia species. The background is clear, with no significant leukocytes or platelets visible.",
+      "visible_findings": [
+        "round red blood cells with central pallor",
+        "dark-blue intraerythrocytic inclusions",
+        "absence of significant leukocytes or platelets"
+      ],
+      "keywords": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood",
+        "intraerythrocytic inclusions",
+        "plasmodium",
+        "babesia",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood parasites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:12+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 298,
+      "total_tokens": 895
+    }
+  },
+  "Case_12009/figure3.jpg": {
+    "case_id": "Case_12009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12009/figure3.jpg",
+    "source_caption": "Peripheral smear, Wright-Giemsa stain, x1250 magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral smear, Wright-Giemsa stain, showing intracellular inclusion.",
+      "detailed_description": "This image shows a peripheral blood smear stained with Wright-Giemsa at high magnification (approximately x1250). Numerous red blood cells (RBCs) are visible, appearing as round, pale pink structures with central pallor. One RBC contains a distinct intracellular inclusion, which is darkly stained and suggestive of a parasitic organism. The background is clear, and no significant leukocytes or platelets are prominently visible.",
+      "visible_findings": [
+        "round red blood cells with central pallor",
+        "intracellular inclusion in one RBC",
+        "Wright-Giemsa stain"
+      ],
+      "keywords": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood",
+        "intracellular inclusion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "peripheral smear",
+        "wright-giemsa stain",
+        "blood parasite"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:12+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 247,
+      "total_tokens": 844
+    }
+  },
+  "Case_12009/figure1.jpg": {
+    "case_id": "Case_12009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12009/figure1.jpg",
+    "source_caption": "Chest radiograph, on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax, including bilateral lung fields, mediastinal structures, and bony thoracic anatomy. The lung fields appear clear without obvious consolidation, pleural effusion, or masses. The cardiac silhouette is within normal limits, and there is no visible evidence of pneumothorax. The bony structures, including ribs, clavicles, and spine, appear intact without fractures or deformities.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "intact bony thoracic structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "cardiac silhouette",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "radiograph of lungs"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 248,
+      "total_tokens": 837
+    }
+  }
+}

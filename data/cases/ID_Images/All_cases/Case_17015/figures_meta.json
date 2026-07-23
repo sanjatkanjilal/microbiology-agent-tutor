@@ -1,0 +1,252 @@
+{
+  "Case_17015/figure4.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure4.jpg",
+    "source_caption": "Direct tissue-KOH preparation demonstrating a thick-walled yeast with a diameter of 11.43 µm",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "KOH preparation showing a thick-walled yeast measuring approximately 11.43 µm in diameter.",
+      "detailed_description": "This image shows a direct tissue preparation stained with potassium hydroxide (KOH). A prominent thick-walled yeast is visible, with a measured diameter of 11.43 µm, as indicated by the green annotation. The yeast appears spherical with a smooth, well-defined wall. The background contains scattered debris and other small, non-specific particles. The preparation highlights fungal elements for diagnostic purposes.",
+      "visible_findings": [
+        "thick-walled yeast",
+        "diameter measurement annotation (11.43 µm)",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "koh preparation",
+        "yeast",
+        "fungus",
+        "infectious diseases",
+        "direct microscopy"
+      ],
+      "reveal_triggers": [
+        "koh preparation",
+        "fungal microscopy",
+        "yeast identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:15+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 234,
+      "total_tokens": 838
+    }
+  },
+  "Case_17015/figure2.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure2.jpg",
+    "source_caption": "Chest CT showed multiple bilateral nodular opacities some with cavitation. The largest nodule was seen in the left hilum (arrow), measuring 3.1 x 2.9 x 1.8 cm.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral nodular opacities, with cavitation and a large left hilar nodule (arrow).",
+      "detailed_description": "This axial chest CT image demonstrates multiple bilateral nodular opacities, some of which exhibit cavitation. The largest nodule is located in the left hilum, as indicated by the red arrow, and measures approximately 3.1 x 2.9 x 1.8 cm. The lung parenchyma shows additional smaller nodules scattered bilaterally. The image is in a lung window setting, highlighting the pulmonary structures and abnormalities.",
+      "visible_findings": [
+        "bilateral nodular opacities",
+        "cavitating lesions",
+        "large left hilar nodule (arrow)",
+        "lung window setting"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "nodules",
+        "cavitation",
+        "hilar nodule",
+        "lung window"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "cavitating lesions",
+        "hilar mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:21+00:00",
+    "usage": {
+      "prompt_tokens": 767,
+      "completion_tokens": 268,
+      "total_tokens": 1035
+    }
+  },
+  "Case_17015/figure1.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure1.jpg",
+    "source_caption": "Chest X-Ray showed a 3cm mass near the left hilum and an ill-defined opacity in the right mid lung",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing a 3 cm mass near the left hilum and an ill-defined opacity in the right mid-lung.",
+      "detailed_description": "This is a frontal chest radiograph showing a well-defined, approximately 3 cm mass near the left hilum. Additionally, there is an ill-defined opacity in the right mid-lung zone. The lung fields otherwise appear clear, and the cardiac silhouette is within normal limits. The bony structures and diaphragm appear intact.",
+      "visible_findings": [
+        "3 cm mass near the left hilum",
+        "ill-defined opacity in the right mid-lung zone",
+        "clear lung fields outside the noted abnormalities",
+        "normal cardiac silhouette",
+        "intact bony structures and diaphragm"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "lung mass",
+        "opacity",
+        "hilum",
+        "radiograph"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung mass",
+        "hilar mass",
+        "pulmonary opacity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:22+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 261,
+      "total_tokens": 868
+    }
+  },
+  "Case_17015/figure3.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure3.jpg",
+    "source_caption": "Silver stain of left perihilar and left upper lobe nodes demonstrating budding yeast (arrow)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Silver stain showing budding yeast in lymph node tissue.",
+      "detailed_description": "This is a microscopic image using a silver stain technique, highlighting fungal elements in lymph node tissue. The image shows multiple round to oval dark-stained structures consistent with yeast forms, some of which exhibit budding. The background tissue is stained in a contrasting light green, enhancing the visibility of the fungal elements. The arrow points to a prominent budding yeast cell, characteristic of certain fungal infections.",
+      "visible_findings": [
+        "dark-stained round to oval yeast forms",
+        "budding yeast cells",
+        "light green background tissue",
+        "prominent yeast cell indicated by an arrow"
+      ],
+      "keywords": [
+        "silver stain",
+        "lymph node",
+        "budding yeast",
+        "fungal infection",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "fungal infection",
+        "budding yeast",
+        "lymph node biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:23+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 241,
+      "total_tokens": 842
+    }
+  },
+  "Case_17015/figure6.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure6.jpg",
+    "source_caption": "Follow-up CT chest without contrast at 4 months demonstrating decrease in size of the left hilar mass",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Follow-up CT chest showing reduction in size of left hilar mass.",
+      "detailed_description": "This axial CT image of the chest, obtained without contrast, shows a decrease in the size of a left hilar mass compared to prior imaging. The mass is indicated by a red arrow and appears smaller, with no evidence of new lesions or significant surrounding abnormalities. The mediastinum and lung parenchyma are otherwise unremarkable in this slice.",
+      "visible_findings": [
+        "left hilar mass with reduced size",
+        "red arrow indicating the lesion",
+        "normal-appearing mediastinum and lung parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "hilar mass",
+        "follow-up",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "hilar mass",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:28+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 224,
+      "total_tokens": 826
+    }
+  },
+  "Case_17015/figure5.jpg": {
+    "case_id": "Case_17015",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17015/figure5.jpg",
+    "source_caption": "GMS Stain from culture plates of left hilar node demonstrating thick walled conidia resembling Histoplasma var. duboisii",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing fungal hyphae and thick-walled conidia.",
+      "detailed_description": "This image is a GMS (Gomori methenamine silver) stain showing numerous fungal elements, including branching hyphae and thick-walled, spherical conidia. The fungal structures are stained darkly against a lighter background, with the conidia appearing as round, thick-walled structures. The hyphae are septate and branching, consistent with a fungal organism. The image is likely from a culture plate, as suggested by the organized growth pattern.",
+      "visible_findings": [
+        "branching septate hyphae",
+        "thick-walled spherical conidia",
+        "dark staining of fungal elements with GMS"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal hyphae",
+        "conidia",
+        "histoplasma",
+        "culture plate",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal culture",
+        "histoplasma conidia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:30+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 259,
+      "total_tokens": 868
+    }
+  }
+}

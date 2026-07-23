@@ -1,0 +1,252 @@
+{
+  "Case_10002/figure1.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing medical devices and lung fields.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thoracic cavity. Multiple medical devices are visible, including ECG leads and possibly a central venous catheter. The lung fields appear symmetrically aerated, with no obvious consolidation, effusion, or pneumothorax. The cardiac silhouette is visible, and the mediastinum appears unremarkable. The image is labeled with 'L' to indicate the left side.",
+      "visible_findings": [
+        "presence of ECG leads",
+        "possible central venous catheter",
+        "symmetrically aerated lung fields",
+        "no visible consolidation or effusion",
+        "normal cardiac silhouette",
+        "mediastinum appears unremarkable"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "medical devices",
+        "lung fields",
+        "ECG leads"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "radiograph of thorax",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:50+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 264,
+      "total_tokens": 850
+    }
+  },
+  "Case_10002/figure2.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing consolidation and cavitation in the right lung.",
+      "detailed_description": "This axial chest CT image shows significant abnormalities in the right lung, including areas of dense consolidation and cavitation. The left lung appears relatively spared. The mediastinum and heart are visible in the midline. No contrast enhancement is evident, suggesting this is a non-contrast study. The findings are consistent with a severe infectious or inflammatory process, such as necrotizing pneumonia or lung abscess.",
+      "visible_findings": [
+        "right lung consolidation",
+        "cavitation in the right lung",
+        "relatively normal left lung",
+        "mediastinum and heart in midline"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "consolidation",
+        "cavitation",
+        "infection",
+        "pneumonia"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "necrotizing pneumonia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:51+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_10002/figure5.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure5.jpg",
+    "source_caption": "Gram stain of pleural fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "pleural fluid",
+      "short_caption": "Gram stain of pleural fluid showing gram-positive cocci and inflammatory cells.",
+      "detailed_description": "This image shows a Gram stain of pleural fluid. Numerous gram-positive cocci, appearing as small purple clusters, are visible against a background of inflammatory cells, including neutrophils with multilobed nuclei. The staining highlights the bacterial morphology and the cellular response, suggesting an infectious process in the pleural space.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "numerous inflammatory cells, including neutrophils",
+        "background of pleural fluid"
+      ],
+      "keywords": [
+        "gram stain",
+        "pleural fluid",
+        "bacteria",
+        "infection",
+        "inflammatory cells",
+        "gram-positive cocci"
+      ],
+      "reveal_triggers": [
+        "gram stain of pleural fluid",
+        "pleural infection",
+        "bacterial pleuritis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:56+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 228,
+      "total_tokens": 817
+    }
+  },
+  "Case_10002/figure3.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral pulmonary abnormalities, including patchy areas of ground-glass opacities and consolidations predominantly in the lower lung zones. The mediastinum and central airways appear unremarkable. The findings are suggestive of an infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "patchy consolidations",
+        "normal mediastinum",
+        "unremarkable central airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:56+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 218,
+      "total_tokens": 804
+    }
+  },
+  "Case_10002/figure6.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure6.jpg",
+    "source_caption": "Follow up chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT image shows the lungs, mediastinum, and surrounding structures. There are bilateral pulmonary opacities visible, with a patchy distribution. The airways and vasculature are also visible, with no clear evidence of significant obstruction or mass effect. The image appears to be a follow-up scan, as suggested by the filename, but no interval changes can be inferred without comparison to prior imaging.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "patchy distribution of findings",
+        "normal-appearing mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "pulmonary opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary infection",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:56+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 229,
+      "total_tokens": 817
+    }
+  },
+  "Case_10002/figure4.jpg": {
+    "case_id": "Case_10002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10002/figure4.jpg",
+    "source_caption": "Gram stain of sputum.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "sputum",
+      "short_caption": "Gram stain of sputum showing inflammatory cells and bacteria.",
+      "detailed_description": "This image shows a Gram stain of sputum. Numerous polymorphonuclear leukocytes (PMNs) are visible, characterized by their multi-lobed nuclei and pink cytoplasm. Scattered small, dark purple-staining bacterial forms are present, consistent with Gram-positive cocci. The background appears lightly stained, with no clear evidence of epithelial cells. The findings suggest an inflammatory process, likely due to infection.",
+      "visible_findings": [
+        "polymorphonuclear leukocytes (PMNs) with multi-lobed nuclei",
+        "Gram-positive cocci (dark purple-staining bacteria)",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "bacteria",
+        "inflammatory cells",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "bacterial infection",
+        "respiratory infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 246,
+      "total_tokens": 834
+    }
+  }
+}

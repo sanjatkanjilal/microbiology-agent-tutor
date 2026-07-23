@@ -1,0 +1,244 @@
+{
+  "Case_17017/figure3.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure3.jpg",
+    "source_caption": "Maculopopular rash seen on the upper back. Figure 4. Papular lesion seen on the left palm.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal MRI showing a focal lesion in the liver.",
+      "detailed_description": "This is an axial MRI image of the abdomen. A focal lesion is visible in the liver, appearing hyperintense relative to the surrounding liver parenchyma. The lesion is located in the right lobe of the liver. The surrounding liver tissue appears heterogeneous, and there are no clear signs of ascites or other abnormalities in this image. The imaging technique appears to be T2-weighted, as the lesion is hyperintense.",
+      "visible_findings": [
+        "focal hyperintense lesion in the liver",
+        "heterogeneous liver parenchyma",
+        "no visible ascites"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "liver",
+        "lesion",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "liver lesion",
+        "infectious liver disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:31+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 240,
+      "total_tokens": 847
+    }
+  },
+  "Case_17017/figure2.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure2.jpg",
+    "source_caption": "Figure 2a. MRI of abdomen demonstrating a 2.8 cm rim-enhancing lesion with central necrosis in the left lateral hepatic segment (T1 weighted post contrast).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "MRI of abdomen showing a rim-enhancing lesion with central necrosis in the left hepatic lobe.",
+      "detailed_description": "This is an axial T1-weighted post-contrast MRI image of the abdomen. A 2.8 cm rim-enhancing lesion with central necrosis is visible in the left lateral segment of the liver. The lesion demonstrates a hypointense center with a hyperintense rim, consistent with rim enhancement. Surrounding hepatic parenchyma appears unremarkable. No other focal lesions or abnormalities are evident in this slice.",
+      "visible_findings": [
+        "rim-enhancing lesion in the left hepatic lobe",
+        "central necrosis within the lesion",
+        "normal surrounding hepatic parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "liver",
+        "rim-enhancing lesion",
+        "necrosis",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "mri of abdomen",
+        "liver lesion",
+        "rim-enhancing hepatic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:31+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 254,
+      "total_tokens": 872
+    }
+  },
+  "Case_17017/figure1.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure1.jpg",
+    "source_caption": "Ultrasound of the liver demonstrating an ill-defined hypo-echoic mass in the left lateral segment of the liver (arrow).",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "liver",
+      "short_caption": "Ultrasound of the liver showing an ill-defined hypo-echoic mass in the left lateral segment.",
+      "detailed_description": "This ultrasound image depicts the liver, with a red arrow pointing to an ill-defined hypo-echoic mass located in the left lateral segment. The mass appears darker compared to the surrounding liver parenchyma, suggesting a lesion. The surrounding liver tissue shows normal echotexture. The image orientation and depth are typical for abdominal ultrasound.",
+      "visible_findings": [
+        "ill-defined hypo-echoic mass",
+        "red arrow indicating lesion",
+        "normal surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ultrasound",
+        "liver",
+        "hypo-echoic mass",
+        "abdominal imaging",
+        "lesion"
+      ],
+      "reveal_triggers": [
+        "liver ultrasound",
+        "hypo-echoic liver lesion",
+        "abdominal ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:34+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 236,
+      "total_tokens": 843
+    }
+  },
+  "Case_17017/figure6.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure6.jpg",
+    "source_caption": "Warthin-Starry silver stain of liver biopsy (60x) demonstrating a spiral-shaped organism (arrow).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "liver",
+      "short_caption": "Warthin-Starry silver stain of liver biopsy showing a spiral-shaped organism.",
+      "detailed_description": "This is a high-magnification image (60x) of a liver biopsy stained with the Warthin-Starry silver stain. The background shows a dense distribution of cellular and extracellular material, with darkly stained structures scattered throughout. A single spiral-shaped organism is highlighted by an arrow, appearing dark against the lighter background. The staining technique enhances visualization of spirochetes and other bacteria.",
+      "visible_findings": [
+        "spiral-shaped organism highlighted by an arrow",
+        "darkly stained structures scattered throughout",
+        "Warthin-Starry silver stain enhancing contrast"
+      ],
+      "keywords": [
+        "warthin-starry stain",
+        "liver biopsy",
+        "spiral-shaped organism",
+        "spirochete",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "warthin-starry stain",
+        "liver biopsy",
+        "spirochete visualization"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:38+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 251,
+      "total_tokens": 855
+    }
+  },
+  "Case_17017/figure4.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure4.jpg",
+    "source_caption": "Maculopopular rash seen on the upper back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper back",
+      "short_caption": "Maculopapular rash on the upper back.",
+      "detailed_description": "This image shows the upper back of an individual with numerous small, erythematous maculopapular lesions scattered across the skin. The lesions are discrete and appear to be distributed diffusely over the visible area. The surrounding skin appears otherwise normal without signs of excoriation or significant inflammation.",
+      "visible_findings": [
+        "diffuse maculopapular lesions",
+        "erythematous appearance",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "maculopapular",
+        "upper back"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "maculopapular rash",
+        "rash on back"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:42+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 208,
+      "total_tokens": 802
+    }
+  },
+  "Case_17017/figure5.jpg": {
+    "case_id": "Case_17017",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17017/figure5.jpg",
+    "source_caption": "Warthin-Starry silver stain of liver biopsy (60x) demonstrating a spiral-shaped organism (arrow).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palm of the hand",
+      "short_caption": "Clinical photograph of a lesion on the palm.",
+      "detailed_description": "This image shows the palm of a hand with a small, circular, erythematous lesion located near the center. The lesion appears slightly raised and well-demarcated. The surrounding skin shows no significant discoloration or inflammation. The lighting highlights the lesion against the relatively pale skin of the palm.",
+      "visible_findings": [
+        "small circular lesion",
+        "erythematous appearance",
+        "well-demarcated borders",
+        "no surrounding inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palm",
+        "skin lesion",
+        "erythema",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "palm lesion",
+        "clinical photograph of hand"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:46+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 211,
+      "total_tokens": 815
+    }
+  }
+}

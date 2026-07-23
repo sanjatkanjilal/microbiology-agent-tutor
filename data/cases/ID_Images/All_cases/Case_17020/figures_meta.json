@@ -1,0 +1,55 @@
+{
+  "Case_17020/figure2.jpg": {
+    "case_id": "Case_17020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17020/figure2.jpg",
+    "source_caption": "Close-up view of the skin lesion",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:45+00:00"
+  },
+  "Case_17020/figure1.jpg": {
+    "case_id": "Case_17020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17020/figure1.jpg",
+    "source_caption": "Skin lesions on bilateral upper arms",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "bilateral upper arms",
+      "short_caption": "Skin lesions on bilateral upper arms with ulcerations and discoloration.",
+      "detailed_description": "This image shows the bilateral upper arms of a patient with multiple skin lesions. The lesions vary in size and appear as ulcerations with surrounding discoloration. Some lesions have crusting or scabbing, and the skin shows diffuse hyperpigmentation. The patient is wearing a hospital gown, and medical equipment is visible, suggesting an inpatient setting.",
+      "visible_findings": [
+        "multiple ulcerated skin lesions on both arms",
+        "discoloration and hyperpigmentation of the skin",
+        "crusting or scabbing on some lesions",
+        "hospital gown and medical equipment visible"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesions",
+        "upper arms",
+        "ulcerations",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin lesions",
+        "arm ulcers"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:47+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 236,
+      "total_tokens": 825
+    }
+  }
+}
