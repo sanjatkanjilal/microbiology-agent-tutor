@@ -20,7 +20,8 @@ venv/
 # ─── Environment & secrets ────────────────────────────────────────────────────
 **/.env
 **/env.dev
-dot_env_microtutor.txt     # LLM API credentials — never commit
+# LLM API credentials — never commit
+dot_env_microtutor.txt
 
 # ─── Logs ─────────────────────────────────────────────────────────────────────
 logs/
