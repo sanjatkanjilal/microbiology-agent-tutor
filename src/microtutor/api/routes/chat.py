@@ -4,6 +4,7 @@ import logging
 from datetime import datetime
 
 from fastapi import APIRouter, Depends, HTTPException, status
+from pydantic import BaseModel
 
 from microtutor.api.dependencies import get_tutor_service
 from microtutor.api.dependencies import get_db
@@ -52,6 +53,17 @@ async def start_case(
             enable_guidelines=request.enable_guidelines or False
         )
         
+        # Look up case library metadata for images
+        from microtutor.api.routes.cases import lookup_cases_by_organism
+        case_library_matches = lookup_cases_by_organism(request.organism)
+        case_library_id = None
+        figures = []
+        if case_library_matches:
+            # Use the first matching case
+            case_library_id = case_library_matches[0]["id"]
+            figures = case_library_matches[0].get("figures", [])
+            logger.info(f"[START_CASE] Found case library match: {case_library_id} with {len(figures)} figures")
+        
         # Log asynchronously
         background_service.log_conversation_async(
             case_id=request.case_id,
@@ -72,7 +84,9 @@ async def start_case(
             initial_message=response.content,
             history=[{"role": "assistant", "content": response.content}],
             case_id=request.case_id,
-            organism=request.organism
+            organism=request.organism,
+            case_library_id=case_library_id,
+            figures=figures,
         )
         
     except ValueError as e:
@@ -373,3 +387,37 @@ async def get_available_organisms() -> dict:
     except Exception as e:
         logger.error(f"[ORGANISMS] Error: {e}", exc_info=True)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to retrieve organisms")
+
+
+class SummarizeEMRRequest(BaseModel):
+    field: str
+    text: str
+
+@router.post(
+    "/summarize_emr",
+    summary="Summarize EMR updates",
+    description="Summarize raw dialogue into clinical phrasing for the EMR"
+)
+async def summarize_emr(request: SummarizeEMRRequest) -> dict:
+    if not request.text:
+        return {"summary": ""}
+        
+    try:
+        from microtutor.core.llm.llm_router import chat_complete
+        
+        system_prompt = (
+            f"You are a clinical scribe. Convert the following raw patient dialogue or tutor notes into a highly concise, "
+            f"professional clinical summary for the '{request.field}' section of an Electronic Medical Record (EMR). "
+            f"Use standard medical abbreviations. Output ONLY the summarized text and nothing else."
+        )
+        
+        response = chat_complete(
+            system_prompt=system_prompt,
+            user_prompt=request.text,
+            model=config.API_MODEL_NAME,
+            conversation_history=[]
+        )
+        return {"summary": response.strip()}
+    except Exception as e:
+        logger.error(f"[SUMMARIZE_EMR] Error: {e}", exc_info=True)
+        return {"summary": request.text}

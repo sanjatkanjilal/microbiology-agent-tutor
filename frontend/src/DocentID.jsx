@@ -115,6 +115,134 @@ function formatMessage(text) {
   return out;
 }
 
+/**
+ * Extract structured EMR data from an assistant response and user question
+ * by detecting clinical topics, keywords, and patterns. Appends to existing fields.
+ */
+function extractEMRFromResponse(assistantText, userText = "", toolsUsed = []) {
+  if (!assistantText) return {};
+  const lower = assistantText.toLowerCase();
+  const userLower = (userText || "").toLowerCase();
+  const extracted = {};
+
+  // Helper to get clean sentences
+  const sentences = assistantText.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 5);
+
+  // ── Chief complaint (first interaction or explicit mention) ──
+  const ccMatch = assistantText.match(/(?:chief complaint|(?:presents? with|complain(?:s|ing) of|came in (?:for|because|with)|brought in for|here (?:for|because)))[:\s]+([^.\n]+)/i);
+  if (ccMatch) extracted.chief_complaint = ccMatch[1].trim();
+
+  // ── Vitals ──
+  const vitalPatterns = [
+    /(?:temperature|temp)[\s:is]+([\d.]+\s*°?[CF]?)/i,
+    /(?:pulse|heart rate|hr)[\s:is]+(\d+[^.\n]{0,30})/i,
+    /(?:blood pressure|bp)[\s:is]+(\d+\/\d+[^.\n]{0,20})/i,
+    /(?:respiratory rate|rr|respirations)[\s:is]+(\d+[^.\n]{0,30})/i,
+    /(?:oxygen saturation|o2 sat|spo2|sao2|sat)[\s:is]+(\d+%?[^.\n]{0,30})/i,
+  ];
+  const vitalHits = [];
+  for (const p of vitalPatterns) {
+    const m = assistantText.match(p);
+    if (m) vitalHits.push(m[0].trim());
+  }
+  if (vitalHits.length > 0) {
+    extracted.vitals = vitalHits.join("; ");
+  } else if (userLower.match(/(?:vitals?|temperature|temp|heart rate|pulse|blood pressure|bp|respiratory rate|o2 sat|spo2)/i)) {
+    if (sentences.length > 0) extracted.vitals = assistantText.trim();
+  }
+
+  // ── HPI / history of present illness ──
+  if (toolsUsed.includes("patient") || userLower.match(/(?:symptoms?|when did|how long|started|pain|cough|fever|chills|fatigue|sweat|brings you in|tell me about)/i)) {
+    if (!extracted.chief_complaint && sentences.length > 0) {
+      extracted.hpi = assistantText.trim();
+    }
+  }
+
+  // ── PMH ──
+  const pmhMatch = assistantText.match(/(?:past medical history|pmh|medical history|history of)[:\s]+([^.\n]+(?:\.[^.\n]+){0,3})/i);
+  if (pmhMatch) {
+    extracted.pmh = pmhMatch[1].trim();
+  } else if (userLower.match(/(?:medical history|pmh|history of|conditions|chronic|diagnos|illness|health problems)/i)) {
+    extracted.pmh = assistantText.trim();
+  } else if (lower.includes("diabetes") || lower.includes("hypertension") || lower.includes("copd") || lower.includes("hiv") || lower.includes("asthma")) {
+    const conditionSentences = sentences.filter(s => {
+      const sl = s.toLowerCase();
+      return sl.includes("history of") || sl.includes("diagnosed with") || sl.includes("i have") || sl.includes("i've had") || sl.includes("hiv") || sl.includes("diabetes");
+    });
+    if (conditionSentences.length > 0 && !extracted.pmh) {
+      extracted.pmh = conditionSentences.join(". ") + ".";
+    }
+  }
+
+  // ── Medications ──
+  const medMatch = assistantText.match(/(?:medications?|meds|taking)[:\s]+([^.\n]+(?:\.[^.\n]+){0,2})/i);
+  if (medMatch) {
+    extracted.medications = medMatch[1].trim();
+  } else if (userLower.match(/(?:medications?|meds|taking|pills|prescript|treatment|adherent)/i)) {
+    extracted.medications = assistantText.trim();
+  }
+
+  // ── Allergies ──
+  const allergyMatch = assistantText.match(/(?:allerg(?:y|ies))[:\s]+([^.\n]+)/i);
+  if (allergyMatch) {
+    extracted.allergies = allergyMatch[1].trim();
+  } else if (userLower.match(/(?:allerg(?:y|ies)|allergic|nkda)/i)) {
+    if (lower.includes("no") || lower.includes("none") || lower.includes("not that i know")) {
+      extracted.allergies = "No known drug allergies (NKDA)";
+    } else {
+      extracted.allergies = assistantText.trim();
+    }
+  } else if (lower.includes("no known allergies") || lower.includes("no allergies") || lower.includes("nkda")) {
+    extracted.allergies = "No known allergies";
+  }
+
+  // ── Social history ──
+  const socialKeywords = ["smok", "alcohol", "drink", "drug use", "tobacco", "marijuana", "occupation", "works as", "lives with", "travel"];
+  if (socialKeywords.some(k => lower.includes(k)) || userLower.match(/(?:smoke|smoking|tobacco|alcohol|drink|drug|occupation|work|live|social history)/i)) {
+    const socialSentences = sentences.filter(s => socialKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:smoke|smoking|alcohol|drink|occupation|work|live)/i));
+    if (socialSentences.length > 0) extracted.social_history = socialSentences.join(". ") + ".";
+  }
+
+  // ── Physical exam findings ──
+  const examKeywords = ["examination", "on exam", "physical exam", "auscultation", "palpation", "inspection", "tender", "swollen", "rash", "crackles", "murmur", "lymphadenopathy", "edema", "erythema", "lesion", "thrush"];
+  if (examKeywords.some(k => lower.includes(k)) || userLower.match(/(?:examine|examination|exam|inspect|look at|listen to|auscultat|palpat|skin|mouth|heart|lungs|abdomen)/i)) {
+    const examSentences = sentences.filter(s => examKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:examine|examination|exam|inspect|look at|listen|skin|mouth|heart|lungs|abdomen)/i));
+    if (examSentences.length > 0) extracted.exam = examSentences.join(". ") + ".";
+  }
+
+  // ── Labs (general + specific) ──
+  const labKeywords = ["wbc", "white blood cell", "white cell count", "hemoglobin", "hematocrit", "platelet", "creatinine", "bun", "sodium", "potassium", "glucose", "lab", "blood work", "blood test", "ast", "alt"];
+  if (labKeywords.some(k => lower.includes(k)) || userLower.match(/(?:labs?|blood work|tests?|cbc|electrolyte|renal|liver)/i)) {
+    const labSentences = sentences.filter(s => labKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:labs?|blood work|tests?|cbc)/i));
+    if (labSentences.length > 0) extracted.labs = labSentences.join(". ") + ".";
+  }
+
+  // ── CBC specifically ──
+  if (lower.includes("cbc") || (lower.includes("white blood cell") && lower.includes("platelet")) || userLower.includes("cbc")) {
+    const cbcSentences = sentences.filter(s => {
+      const sl = s.toLowerCase();
+      return sl.includes("cbc") || sl.includes("white blood") || sl.includes("wbc") || sl.includes("hematocrit") || sl.includes("hemoglobin") || sl.includes("platelet") || userLower.includes("cbc");
+    });
+    if (cbcSentences.length > 0) extracted.cbc = cbcSentences.join(". ") + ".";
+  }
+
+  // ── Microbiology ──
+  const microKeywords = ["culture", "gram stain", "acid-fast", "sensitivity", "susceptib", "grew", "organism", "blood culture", "urine culture", "sputum culture", "silver stain", "mucicarmine", "biopsy"];
+  if (microKeywords.some(k => lower.includes(k)) || userLower.match(/(?:culture|gram stain|silver stain|mucicarmine|biopsy|microbiolog|pathology)/i)) {
+    const microSentences = sentences.filter(s => microKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:culture|gram stain|silver stain|biopsy)/i));
+    if (microSentences.length > 0) extracted.microbiology = microSentences.join(". ") + ".";
+  }
+
+  // ── Imaging ──
+  const imagingKeywords = ["x-ray", "xray", "ct scan", "ct ", "mri", "ultrasound", "chest radiograph", "radiograph", "imaging", "computed tomography", "magnetic resonance"];
+  if (imagingKeywords.some(k => lower.includes(k)) || userLower.match(/(?:x-?ray|radiograph|ct|mri|ultrasound|imaging)/i)) {
+    const imgSentences = sentences.filter(s => imagingKeywords.some(k => s.toLowerCase().includes(k)) || userLower.match(/(?:x-?ray|radiograph|ct|mri|ultrasound|imaging)/i));
+    if (imgSentences.length > 0) extracted.imaging = imgSentences.join(". ") + ".";
+  }
+
+  return extracted;
+}
+
 // ─── CSS variables injected into <head> ──────────────────────────────────────
 
 function useDarkMode() {
@@ -781,7 +909,7 @@ function MessageBubble({ msg, onFeedback }) {
 // ─── Collapsible Image ────────────────────────────────────────────────────────
 
 function CollapsibleImage({ title, src }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <div style={{ marginBottom: 8 }}>
       <button
@@ -807,9 +935,58 @@ function CollapsibleImage({ title, src }) {
 
 // ─── Left Panel: Context Box ──────────────────────────────────────────────────
 
+function renderImagesSection(caseContext) {
+  if (!caseContext) return null;
+  const { availableFigures = [], revealedFigures = [], examImage, radiologyImage, radiologyNote, figures = [] } = caseContext;
+  
+  return (
+    <div style={{ marginTop: 14 }}>
+      {/* Status banner telling student images are available and how to unlock */}
+      {availableFigures.length > 0 && (
+        <div style={{
+          background: "var(--surface-0)", border: "1px dashed var(--border-strong)",
+          borderRadius: 6, padding: "10px 12px", marginBottom: 12, fontSize: 12,
+          color: "var(--text-secondary)", lineHeight: 1.5, fontFamily: "var(--font-sans)"
+        }}>
+          <div style={{ fontWeight: 600, color: "var(--text-accent)", marginBottom: 4 }}>
+            📷 Case Library Figures ({revealedFigures.length} of {availableFigures.length} Revealed)
+          </div>
+          {revealedFigures.length === 0 ? (
+            <span>Ask specific questions or order relevant tests regarding physical examination findings, radiology/imaging, or biopsy/pathology stains to reveal the case images right here!</span>
+          ) : (
+            <span>Figures relevant to your clinical inquiry are displayed below. Ask about other studies or findings to reveal more!</span>
+          )}
+        </div>
+      )}
+
+      {examImage && <CollapsibleImage title="Exam finding" src={examImage} />}
+      {radiologyImage && (
+        <>
+          <CollapsibleImage title="Radiology" src={radiologyImage} />
+          {radiologyNote && (
+            <div style={{ fontSize: 12, color: "var(--text-secondary)", marginTop: 4, lineHeight: 1.5 }}>{radiologyNote}</div>
+          )}
+        </>
+      )}
+      {figures && figures.map((figUrl, idx) => (
+        <CollapsibleImage key={idx} title={`Figure ${idx + (examImage ? 1 : 0) + (radiologyImage ? 1 : 0) + 1}`} src={figUrl} />
+      ))}
+      {revealedFigures && revealedFigures.map((figUrl, idx) => {
+        const match = figUrl.match(/figure(\d+)/i);
+        const figNum = match ? match[1] : idx + 1;
+        return (
+          <CollapsibleImage key={figUrl} title={`Figure ${figNum}`} src={figUrl} />
+        );
+      })}
+    </div>
+  );
+}
+
+// ─── Left Panel: Context Box ──────────────────────────────────────────────────
+
 function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImportToEMR }) {
   const isHistory = module === "history_taking";
-  const isPathophys = module === "pathophys_epi";
+  const isPathophys = module === "pathophysiology" || module === "case_summary";
   const [imported, setImported] = useState(false);
 
   const handleImport = () => {
@@ -848,12 +1025,15 @@ function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImp
         </div>
 
         {isHistory ? (
-          <div style={{
-            background: "var(--bg-accent)", border: "1px solid var(--border-accent)",
-            borderRadius: 8, padding: "10px 12px", fontSize: 13, lineHeight: 1.6,
-            color: "var(--text-primary)", fontStyle: "italic", fontFamily: "var(--font-sans)",
-          }}>
-            {chiefComplaint || <span style={{ color: "var(--text-muted)" }}>Waiting for case to start…</span>}
+          <div>
+            <div style={{
+              background: "var(--bg-accent)", border: "1px solid var(--border-accent)",
+              borderRadius: 8, padding: "10px 12px", fontSize: 13, lineHeight: 1.6,
+              color: "var(--text-primary)", fontStyle: "italic", fontFamily: "var(--font-sans)",
+            }}>
+              {chiefComplaint || <span style={{ color: "var(--text-muted)" }}>Waiting for case to start…</span>}
+            </div>
+            {renderImagesSection(caseContext)}
           </div>
         ) : caseContext ? (
           <div style={{ fontSize: 13, color: "var(--text-primary)", lineHeight: 1.6, fontFamily: "var(--font-sans)" }}>
@@ -910,16 +1090,7 @@ function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImp
               </div>
             )}
 
-            {/* Collapsible images */}
-            {caseContext.examImage && <CollapsibleImage title="Exam finding" src={caseContext.examImage} />}
-            {caseContext.radiologyImage && (
-              <>
-                <CollapsibleImage title="Radiology" src={caseContext.radiologyImage} />
-                {caseContext.radiologyNote && (
-                  <div style={{ fontSize: 12, color: "var(--text-secondary)", marginTop: 4, lineHeight: 1.5 }}>{caseContext.radiologyNote}</div>
-                )}
-              </>
-            )}
+            {renderImagesSection(caseContext)}
           </div>
         ) : (
           <span style={{ fontSize: 13, color: "var(--text-muted)" }}>Waiting for case to start…</span>
@@ -1016,6 +1187,25 @@ function CurbsideConsult() {
 }
 
 // ─── Right Panel: Electronic Medical Record ───────────────────────────────────
+function renderEMRText(text) {
+  if (Array.isArray(text)) {
+    return <ul style={{ margin: 0, paddingLeft: 14 }}>{text.map((v, i) => <li key={i} style={{ marginBottom: 2 }}>{v}</li>)}</ul>;
+  }
+  if (!text) return null;
+  const str = String(text);
+  if (str.includes('\n') || str.trim().startsWith('-') || str.trim().startsWith('•') || str.trim().startsWith('*')) {
+    const lines = str.split('\n').filter(l => l.trim().length > 0);
+    return (
+      <ul style={{ margin: 0, paddingLeft: 14 }}>
+        {lines.map((line, i) => {
+          const cleaned = line.replace(/^[-*•]\s*/, '').trim();
+          return cleaned ? <li key={i} style={{ marginBottom: 2 }}>{cleaned}</li> : null;
+        })}
+      </ul>
+    );
+  }
+  return str;
+}
 
 function EMRSection({ title, fields, data, emptyMsg }) {
   const entries = fields.filter(f => data[f.key]);
@@ -1036,10 +1226,7 @@ function EMRSection({ title, fields, data, emptyMsg }) {
             padding: "6px 9px", background: "var(--surface-0)",
             border: "1px solid var(--border)", borderRadius: 5, fontFamily: "var(--font-sans)",
           }}>
-            {Array.isArray(data[f.key])
-              ? <ul style={{ margin: 0, paddingLeft: 14 }}>{data[f.key].map((v, i) => <li key={i} style={{ marginBottom: 2 }}>{v}</li>)}</ul>
-              : String(data[f.key])
-            }
+            {renderEMRText(data[f.key])}
           </div>
         </div>
       ))}
@@ -1126,7 +1313,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
                   <div key={f.key} style={{ marginBottom: 6 }}>
                     <div style={{ fontSize: 10, color: "var(--text-muted)", marginBottom: 1 }}>{f.label}</div>
                     <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                      {Array.isArray(data[f.key]) ? data[f.key].join(", ") : String(data[f.key])}
+                      {renderEMRText(data[f.key])}
                     </div>
                   </div>
                 ))
@@ -1138,10 +1325,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
               <div style={{ marginBottom: 6 }}>
                 <div style={{ fontSize: 10, fontWeight: 700, color: "var(--text-accent)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>Microbiology</div>
                 <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                  {Array.isArray(data.microbiology)
-                    ? <ul style={{ margin: 0, paddingLeft: 14 }}>{data.microbiology.map((v, i) => <li key={i}>{v}</li>)}</ul>
-                    : String(data.microbiology)
-                  }
+                  {renderEMRText(data.microbiology)}
                 </div>
               </div>
             )}
@@ -1151,7 +1335,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
               <div style={{ marginBottom: 6 }}>
                 <div style={{ fontSize: 10, fontWeight: 700, color: "var(--text-accent)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>Histopathology</div>
                 <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                  {String(data.histopathology)}
+                  {renderEMRText(data.histopathology)}
                 </div>
               </div>
             )}
@@ -1277,6 +1461,12 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
         // Extract chief complaint from first message (first sentence of patient speech)
         const firstSentence = data.initial_message.split(/[.!?]/)[0]?.trim();
         if (firstSentence) setChiefComplaint(firstSentence + ".");
+        // Seed EMR right at start of case so it's never empty
+        setEmrData(prev => ({
+          ...prev,
+          chief_complaint: firstSentence ? firstSentence + "." : "Initial presentation",
+          hpi: data.initial_message,
+        }));
         // Extract structured context from history
         if (data.history) extractCaseContext(data);
         setCaseActive(true);
@@ -1313,6 +1503,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       const contentType = res.headers.get("content-type") || "";
       let responseText = "";
 
+      let usedTools = [];
       if (contentType.includes("text/event-stream")) {
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
@@ -1326,6 +1517,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
                 if (p.content) { responseText += p.content; setMessages(prev => prev.map(m => m.id === streamingId ? { ...m, content: responseText } : m)); }
                 if (p.phase) setCurrentPhase(p.phase);
                 if (p.revealed_info) setRevealedInfo(prev => ({ ...prev, ...p.revealed_info }));
+                if (p.tools_used) usedTools = p.tools_used;
               } catch {}
             }
           }
@@ -1333,6 +1525,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       } else {
         const data = await res.json();
         responseText = data.response || data.content || data.message || JSON.stringify(data);
+        usedTools = data.tools_used || [];
         if (data.metadata?.current_phase) setCurrentPhase(data.metadata.current_phase);
         if (data.metadata?.revealed_info) {
           setRevealedInfo(prev => ({ ...prev, ...data.metadata.revealed_info }));
@@ -1344,6 +1537,38 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
           [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
         }));
       }
+
+      // Auto-extract EMR data from the response text and user question
+      const emrExtracted = extractEMRFromResponse(responseText, text, usedTools);
+      if (Object.keys(emrExtracted).length > 0) {
+        Object.entries(emrExtracted).forEach(([key, value]) => {
+          fetch(`${API_BASE}/summarize_emr`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ field: key, text: value })
+          })
+            .then(res => res.json())
+            .then(data => {
+              if (data.summary) {
+                setEmrData(prev => {
+                  const merged = { ...prev };
+                  if (merged[key]) {
+                    if (!merged[key].includes(data.summary)) {
+                      merged[key] = merged[key] + "\n" + data.summary;
+                    }
+                  } else {
+                    merged[key] = data.summary;
+                  }
+                  return merged;
+                });
+              }
+            })
+            .catch(err => console.error("Error summarizing EMR:", err));
+        });
+      }
+
+      // Check if relevant images should be unlocked based on the inquiry
+      unlockRelevantFigures(text, responseText, caseContext, setCaseContext);
 
       const aMsg = { role: "assistant", content: responseText };
       historyRef.current = [...historyRef.current, aMsg];
@@ -1550,7 +1775,75 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
         imaging: d.imaging || "",
       });
     }
-    setCaseContext(null);
+    const figUrls = (data.case_library_id && data.figures && data.figures.length > 0)
+      ? data.figures.map(f => `/case-images/${data.case_library_id}/${f}`)
+      : [];
+    const newContext = {
+      presentation: data.presentation || (data.case_data && (data.case_data.hpi || data.case_data.history_of_present_illness)) || null,
+      examFindings: data.examFindings || (data.case_data && (data.case_data.physical_exam || data.case_data.exam)) || null,
+      investigations: data.investigations || (data.case_data && (data.case_data.labs || data.case_data.laboratory_results)) || null,
+      diagnosis: data.diagnosis || (data.case_data && data.case_data.diagnosis) || null,
+      assessment: data.assessment || (data.case_data && data.case_data.assessment) || null,
+      examImage: data.examImage || null,
+      radiologyImage: data.radiologyImage || null,
+      radiologyNote: data.radiologyNote || null,
+      figures: [],
+      availableFigures: figUrls,
+      revealedFigures: [],
+    };
+    setCaseContext(newContext);
+  }
+}
+
+function unlockRelevantFigures(userText, assistantText, caseContext, setCaseContext) {
+  if (!caseContext || !caseContext.availableFigures || caseContext.availableFigures.length === 0) return;
+  const u = (userText || "").toLowerCase();
+  const a = (assistantText || "").toLowerCase();
+  const combined = u + " " + a;
+  
+  const toReveal = new Set();
+  const available = caseContext.availableFigures;
+
+  // 1. Explicit mention of Figure X in tutor response or user question
+  const figMatches = [...combined.matchAll(/(?:figure|fig)\.?\s*(\d+)/gi)];
+  for (const m of figMatches) {
+    const num = m[1];
+    const target = available.find(url => url.toLowerCase().includes(`figure${num}.`));
+    if (target) toReveal.add(target);
+  }
+
+  // 2. Physical exam topics
+  if (combined.match(/(?:skin|rash|lesion|face|mouth|extremit|physical exam|on exam|inspect|palpat|auscultat|lymph node|ulcer|plaque)/i)) {
+    const target = available.find(url => url.toLowerCase().includes("figure1."));
+    if (target) toReveal.add(target);
+  }
+
+  // 3. Radiology / imaging topics
+  if (combined.match(/(?:x-?ray|radiograph|ct scan|mri|ultrasound|imaging|infiltrate|consolidation|cavity|opacity|pleural|chest study)/i)) {
+    const target = available.find(url => url.toLowerCase().includes("figure2.") || url.toLowerCase().includes("xray") || url.toLowerCase().includes("rad"));
+    if (target) toReveal.add(target);
+  }
+
+  // 4. Pathology / biopsy / stain topics
+  if (combined.match(/(?:biopsy|silver stain|mucicarmine|gram stain|acid-fast|histolog|patholog|microscop|yeast|hyphae|spherule|encapsulated|stain|tissue)/i)) {
+    available.forEach(url => {
+      if (url.toLowerCase().includes("figure3.") || url.toLowerCase().includes("figure4.") || url.toLowerCase().includes("figure5.")) {
+        toReveal.add(url);
+      }
+    });
+  }
+
+  if (toReveal.size > 0) {
+    setCaseContext(prev => {
+      if (!prev) return prev;
+      const currentRevealed = prev.revealedFigures || [];
+      const newRevealed = Array.from(toReveal).filter(url => !currentRevealed.includes(url));
+      if (newRevealed.length === 0) return prev;
+      return {
+        ...prev,
+        revealedFigures: [...currentRevealed, ...newRevealed],
+      };
+    });
   }
 }
 
