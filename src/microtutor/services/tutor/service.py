@@ -341,11 +341,28 @@ class TutorService:
             coach_resp = await self._docent_coach_reply(context, feedback_struct, t0)
             return coach_resp
 
-        from microtutor.utils.module_routing import module_agent_for
+        from microtutor.utils.module_routing import (
+            kickoff_message_for_module,
+            module_agent_for,
+            parse_module_transition,
+        )
+
+        # V4-style module tab click: "Let's move onto module: …" → kick off that agent
+        requested_module = parse_module_transition(message)
+        if requested_module:
+            active_module = requested_module
+            if context.session_metadata is None:
+                context.session_metadata = {}
+            context.session_metadata["active_module"] = requested_module
 
         hard_agent = module_agent_for(active_module)
         if hard_agent:
-            routed = await self._route_to_phase_agent(hard_agent, message, context)
+            agent_message = (
+                kickoff_message_for_module(active_module)
+                if requested_module
+                else message
+            )
+            routed = await self._route_to_phase_agent(hard_agent, agent_message, context)
             if routed:
                 if not (
                     context.conversation_history
@@ -639,7 +656,7 @@ The CASE block below is coach-private background — never volunteer unique diag
         
         Args:
             agent: Agent name to route to
-            message: User message
+            message: User message (or synthetic module kickoff)
             context: Current conversation context
             
         Returns:
@@ -649,16 +666,30 @@ The CASE block below is coach-private background — never volunteer unique diag
             return None
 
         try:
+            # For LLM tools that read conversation_history, ensure `message` is the
+            # latest user turn seen by the agent (V4 kickoff replaces the tab-click text).
+            filtered_history = filter_system_messages(
+                context.conversation_history or []
+            )
+            hist_for_agent = list(filtered_history)
+            if hist_for_agent and hist_for_agent[-1].get("role") == "user":
+                if hist_for_agent[-1].get("content") != message:
+                    hist_for_agent[-1] = {
+                        **hist_for_agent[-1],
+                        "content": message,
+                    }
+            else:
+                hist_for_agent.append({"role": "user", "content": message})
+
             if agent == "patient":
                 tool_args = self._patient_tool_args(context, message)
+                tool_args["conversation_history"] = hist_for_agent
+                tool_args["input_text"] = message
             else:
-                filtered_history = filter_system_messages(
-                    context.conversation_history or []
-                )
                 tool_args = {
                     "input_text": message,
                     "case": context.case_description,
-                    "conversation_history": filtered_history,
+                    "conversation_history": hist_for_agent,
                     "model": context.get_model_name(),
                     "organism": context.organism or "",
                     "case_id": context.case_id or "",
@@ -753,7 +784,15 @@ The CASE block below is coach-private background — never volunteer unique diag
             
             # Augment tool args with context for agentic tools
             # These tools need case, conversation_history, model to function properly
-            if tool_name in ["patient", "socratic", "tests_management", "feedback", "mcq_tool", "post_case_assessment"]:
+            if tool_name in [
+                "patient",
+                "socratic",
+                "tests_management",
+                "pathophys_epi",
+                "feedback",
+                "mcq_tool",
+                "post_case_assessment",
+            ]:
                 tool_args["case"] = context.case_description or ""
                 tool_args["conversation_history"] = context.conversation_history or []
                 tool_args["model"] = context.model_name or global_config.API_MODEL_NAME or "gpt-5"

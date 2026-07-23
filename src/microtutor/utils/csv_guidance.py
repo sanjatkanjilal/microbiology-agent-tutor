@@ -52,6 +52,11 @@ class CSVGuidance:
             logger.error(f"Failed to load CSV guidance: {e}")
             self._df = None
 
+    def format_factors_for_prompt(self, organism_name: str) -> str:
+        """Comma-joined crucial factors for teaching-agent prompts (V4 style)."""
+        factors = self.get_crucial_factors(organism_name) if organism_name else []
+        return ", ".join(factors) if factors else "None identified"
+
     def get_crucial_factors(self, organism_name: str) -> list[str]:
         """
         Get list of crucial factors (columns with value 1.0) for a given organism.

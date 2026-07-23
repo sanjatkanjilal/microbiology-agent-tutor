@@ -19,6 +19,7 @@ from microtutor.core.llm.llm_router import chat_complete
 from microtutor.prompts.tests_management_prompts import get_tests_management_system_prompt
 from microtutor.core.logging.logging_config import log_agent_context
 from microtutor.utils.conversation_utils import prepare_llm_messages
+from microtutor.utils.csv_guidance import csv_guidance
 
 logger = logging.getLogger(__name__)
 
@@ -47,24 +48,26 @@ class TestsManagementTool(AgenticTool):
             case = kwargs.get('case', '')
             input_text = kwargs.get('input_text', '')
             conversation_history = kwargs.get('conversation_history', [])
-            
-            # Debug: Log conversation history length
-            logger.info(f"[TESTS_MGMT] Received {len(conversation_history)} messages in conversation history")
+            organism = kwargs.get('organism', '')
+
+            logger.info(
+                "[TESTS_MGMT] Received %d messages in conversation history",
+                len(conversation_history),
+            )
             if conversation_history:
-                # Log full conversation history to inspect structure
-                logger.info(f"[TESTS_MGMT] FULL HISTORY DUMP: {conversation_history}")
-                # Log last few messages to verify context
                 for msg in conversation_history[-3:]:
                     role = msg.get('role', 'unknown')
                     content = msg.get('content', '')[:100]
                     logger.info(f"[TESTS_MGMT] Recent msg - {role}: {content}...")
-            
-            # Get guidelines context if provided (from database/service)
+
             guidelines_context = kwargs.get("guidelines_context", "")
-            
-            # Get system prompt template and format with case
+            csv_guidance_text = csv_guidance.format_factors_for_prompt(organism)
+
             system_prompt_template = get_tests_management_system_prompt()
-            system_prompt = system_prompt_template.format(case=case)
+            system_prompt = system_prompt_template.format(
+                case=case,
+                csv_guidance=csv_guidance_text,
+            )
             
             # Add guidelines if available
             if guidelines_context:

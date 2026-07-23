@@ -1694,11 +1694,12 @@ function ChatScreen({
     };
   }, []);
 
-  const sendMessage = useCallback(async () => {
-    const text = input.trim();
+  const sendMessage = useCallback(async (overrideText, options = {}) => {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
     if (!text || loading || !caseActive) return;
-    const routeToDocent = sendTarget === "docent";
-    setInput("");
+    const moduleForSend = options.activeModule || activeModule;
+    const routeToDocent = options.routeToDocent ?? (sendTarget === "docent");
+    if (typeof overrideText !== "string") setInput("");
     setError(null);
 
     const userMsg = { role: "user", content: text };
@@ -1722,7 +1723,7 @@ function ChatScreen({
           current_phase: currentPhase,
           patient_style: patientStyle,
           allow_plausible_findings: allowPlausibleFindings,
-          active_module: activeModule,
+          active_module: moduleForSend,
           route_to: routeToDocent ? "tutor" : null,
         }),
       });
@@ -1780,12 +1781,14 @@ function ChatScreen({
           replySpeaker = data.speaker || data.metadata.speaker;
         } else if (toolsUsed.includes("patient")) {
           replySpeaker = "patient";
+        } else if (toolsUsed.includes("socratic") || toolsUsed.includes("tests_management") || toolsUsed.includes("pathophys_epi")) {
+          replySpeaker = "tutor";
         } else if (routeToDocent) {
           replySpeaker = "tutor";
         }
         setProgress(prev => ({
           ...prev,
-          [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
+          [moduleForSend]: Math.min(100, (prev[moduleForSend] || 0) + 12),
         }));
       }
 
@@ -1802,6 +1805,18 @@ function ChatScreen({
     }
   }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule, patientStyle, allowPlausibleFindings, sendTarget]);
 
+  // V4-style: clicking a module tab sends a transition and kicks off that module's agent
+  const transitionToModule = useCallback((modId) => {
+    if (!caseActive || loading || !modId || modId === activeModule) return;
+    const mod = MODULES.find(m => m.id === modId);
+    if (!mod) return;
+    setActiveModule(modId);
+    setSendTarget("module");
+    sendMessage(`Let's move onto module: ${mod.label}`, {
+      activeModule: modId,
+      routeToDocent: false,
+    });
+  }, [caseActive, loading, activeModule, sendMessage]);
   const handleFeedback = useCallback(async (msg, rating) => {
     try {
       await fetch(`${API_BASE}/feedback`, {
@@ -1937,7 +1952,7 @@ function ChatScreen({
       <ModuleProgressBar
         modules={modules}
         activeModule={activeModule}
-        onSwitchModule={(mod) => { setActiveModule(mod); setSendTarget("module"); }}
+        onSwitchModule={transitionToModule}
         progress={progress}
       />
 

@@ -31,23 +31,9 @@ class SocraticTool(AgenticTool):
             # If not passed explicitly, we might try to infer it, but TutorService should pass it.
             # In V4, TutorService passes 'case' and 'conversation_history'. 
             # We need to ensure 'organism' is also passed in tool_args.
-            organism = kwargs.get('organism', '') 
-            
-            # Get CSV guidance
-            csv_guidance_text = ""
-            if organism:
-                crucial_factors = csv_guidance.get_crucial_factors(organism)
-                if crucial_factors:
-                    factors_list = "\n- ".join(crucial_factors)
-                    csv_guidance_text = (
-                        f"=== CRITICAL GUIDANCE FROM KNOWLEDGE BASE ===\n"
-                        f"For the correct diagnosis ({organism}), the following factors are CRITICAL. "
-                        f"Ensure the student considers these associations in their differential:\n"
-                        f"- {factors_list}\n\n"
-                        f"Guide the student to identify these specific connections."
-                    )
-            
-            # Get system prompt template and format with case and csv_guidance
+            organism = kwargs.get('organism', '')
+            csv_guidance_text = csv_guidance.format_factors_for_prompt(organism)
+
             system_prompt_template = get_socratic_system_prompt()
             system_prompt = system_prompt_template.format(
                 case=case,

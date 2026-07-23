@@ -87,7 +87,7 @@ CasePackage binds narrative + figures for both voice and figure reveal
 
 Hard-routing is motivated by **response latency** (drop the router hop). Voices + Ask Docent follow because the patient agent becomes the sole History recipient. EMR uses the same latency principle: keep chart LLM work **off** the chat critical path via async enqueue/poll. Case binding keeps narrative/figures consistent for voice and reveal.
 
-Ask Docent coaches from conversation-revealed facts + private case context (≤2 paragraphs; no spoilers unless explicitly requested). Textbook retrieval is out of scope for this PR.
+All four UI modules hard-route to dedicated agents (V4 src_simplified parity): History→`patient`, DDx→`socratic`, Management→`tests_management`, Pathophys→`pathophys_epi`. Ask Docent coaches from conversation-revealed facts + private case context (≤2 paragraphs; no spoilers unless explicitly requested). Textbook retrieval is out of scope for this PR.
 
 ---
 
@@ -99,17 +99,18 @@ Ask Docent coaches from conversation-revealed facts + private case context (≤2
 | Case binding | `src/microtutor/services/case/case_package.py` |
 | Voice | `src/microtutor/prompts/patient_prompts.py`, `src/microtutor/services/case/speaker_markers.py` |
 | Routing | `src/microtutor/services/tutor/service.py`, `src/microtutor/utils/module_routing.py` |
+| Teaching agents | `socratic` (V4 DDx), `tests_management` (V4 Tx), `pathophys_epi` (ported) |
 | Figures | `src/microtutor/services/case/figure_catalog.py`, `scripts/describe_case_figures.py`, `data/cases/figure_descriptions.json` |
 | UI | `frontend/src/DocentID.jsx` |
 | API contracts | `src/microtutor/schemas/api/requests.py`, `responses.py`, `api/routes/chat.py` |
 
 ---
-
 ## Test plan
 
 - [ ] Ambulatory library case: `speaker=patient` greeting; first-person HPI.
 - [ ] ICU sedated/intubated library case: `speaker=family` or `nurse` named opener; no first-person ambulatory greeting.
 - [ ] History default Send: `tools_used` includes `patient` (hard route); speaker label matches marker.
+- [ ] DDx / Management / Pathophys modules: hard-route to `socratic` / `tests_management` / `pathophys_epi` (no tutor soft-router hop); prompts match V4 deep-dive style.
 - [ ] Obs/exam/Ix: `speaker=nurse`; figure numbers in `revealed_figures` when catalog matches.
 - [ ] Ask Docent approach question: ≤2 paragraphs; no organism name unless explicitly requested; helpful process coaching without textbook citations; send target resets to module.
 - [ ] EMR fields update after patient/test turns; busy/refresh behave; bullets render.

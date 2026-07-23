@@ -5,9 +5,10 @@ This module contains all prompts for the tutor and agent tools.
 
 Agents:
 - patient: Simulates patient responses
-- socratic: Socratic questioning
+- socratic: Differential diagnosis deep-dive (V4 DDx)
 - hint: Progressive hints
-- tests_management: Test selection and management guidance
+- tests_management: Management deep-dive (V4 Tx)
+- pathophys_epi: Pathophysiology & epidemiology deep-dive
 - feedback: Final feedback on performance
 - post_case_assessment: Targeted MCQ generation after case
 """
@@ -47,6 +48,10 @@ from microtutor.prompts.tests_management_prompts import (
     get_tests_management_system_prompt,
 )
 
+from microtutor.prompts.pathophys_epi_prompts import (
+    get_pathophys_epi_system_prompt,
+)
+
 from microtutor.prompts.final_feedback_agent_prompts import (
     get_feedback_system_prompt,
 )
@@ -80,6 +85,8 @@ __all__ = [
     "get_hint_system_prompt",
     # Tests management prompts
     "get_tests_management_system_prompt",
+    # Pathophys & epi prompts
+    "get_pathophys_epi_system_prompt",
     # Feedback prompts
     "get_feedback_system_prompt",
     # Post-case assessment prompts
