@@ -1,0 +1,207 @@
+{
+  "Case_23002/figure5.jpg": {
+    "case_id": "Case_23002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23002/figure5.jpg",
+    "source_caption": "Figure 3b: The follow-up abdominal CT performed 5 months later showed slight decrease in size of liver lesions.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing liver lesions with slight size reduction.",
+      "detailed_description": "This is a coronal view from an abdominal CT scan. Multiple hypodense lesions are visible in the liver, consistent with hepatic lesions. The lesions appear slightly smaller compared to prior imaging, suggesting a decrease in size. Surrounding abdominal structures, including the stomach and intestines, are visible, with no obvious abnormalities noted in these regions. The image is de-identified and appears to be a follow-up scan.",
+      "visible_findings": [
+        "multiple hypodense liver lesions",
+        "slight reduction in lesion size",
+        "normal appearance of surrounding abdominal structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesions",
+        "follow-up",
+        "hypodense lesions"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesions",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:54+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 231,
+      "total_tokens": 837
+    }
+  },
+  "Case_23002/figure4.jpg": {
+    "case_id": "Case_23002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23002/figure4.jpg",
+    "source_caption": "Figure 3a: The follow-up abdominal CT performed 5 months later showed slight decrease in size of liver lesions.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing liver lesions with slight decrease in size compared to prior imaging.",
+      "detailed_description": "This axial abdominal CT image shows multiple hypodense lesions in the liver, consistent with hepatic involvement. The lesions appear slightly smaller compared to prior imaging, suggesting a decrease in size. The surrounding abdominal structures, including the spleen, kidneys, and vertebrae, are visible and appear unremarkable. No evidence of acute complications such as abscess formation or significant mass effect is noted.",
+      "visible_findings": [
+        "multiple hypodense liver lesions",
+        "slight decrease in lesion size",
+        "normal appearance of surrounding abdominal structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "lesions",
+        "infectious diseases",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesions",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:57+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 234,
+      "total_tokens": 840
+    }
+  },
+  "Case_23002/figure3.jpg": {
+    "case_id": "Case_23002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23002/figure3.jpg",
+    "source_caption": "Figure 2: The microscopic pathological study of the liver biopsy tissue found dense eosinophilic infiltration with Charcot-Laden crystals",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver biopsy showing dense eosinophilic infiltration with Charcot-Laden crystals.",
+      "detailed_description": "This histopathological image shows a liver biopsy stained with hematoxylin and eosin (H&E). The tissue demonstrates dense infiltration of eosinophils, identifiable by their bright eosinophilic (pink) cytoplasm. Charcot-Laden crystals, which are elongated and refractile structures, are visible among the infiltrating cells. These findings are consistent with eosinophilic inflammation, which may be associated with parasitic infections, drug reactions, or other causes of eosinophilia.",
+      "visible_findings": [
+        "dense eosinophilic infiltration",
+        "Charcot-Laden crystals",
+        "pink cytoplasmic staining of eosinophils"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "eosinophilic infiltration",
+        "Charcot-Laden crystals",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "eosinophilic inflammation",
+        "Charcot-Laden crystals"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:57+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 274,
+      "total_tokens": 883
+    }
+  },
+  "Case_23002/figure2.jpg": {
+    "case_id": "Case_23002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23002/figure2.jpg",
+    "source_caption": "Figure 1b: The first abdominal CT showed hepatomegaly with a 9.6 x 16.3 x 7.1-cm lobulated hypodense mass involving both hepatic lobes, more prominent in left lobe. No dilatation of the intrahepatic or common bile duct was seen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing a large lobulated hypodense hepatic mass.",
+      "detailed_description": "This axial contrast-enhanced abdominal CT image demonstrates a large, lobulated, hypodense mass involving both hepatic lobes, more prominent in the left lobe. The mass measures approximately 9.6 x 16.3 x 7.1 cm. No evidence of intrahepatic or common bile duct dilatation is visible. Surrounding liver parenchyma appears otherwise unremarkable, and no significant ascites or other abnormalities are noted.",
+      "visible_findings": [
+        "large lobulated hypodense hepatic mass",
+        "more prominent in the left hepatic lobe",
+        "no intrahepatic or common bile duct dilatation",
+        "no significant ascites"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver mass",
+        "hypodense lesion",
+        "hepatomegaly"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "hepatomegaly"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:58+00:00",
+    "usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 265,
+      "total_tokens": 914
+    }
+  },
+  "Case_23002/figure1.jpg": {
+    "case_id": "Case_23002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23002/figure1.jpg",
+    "source_caption": "Figure 1a: The first abdominal CT showed hepatomegaly with a 9.6 x 16.3 x 7.1-cm lobulated hypodense mass involving both hepatic lobes, more prominent in left lobe. No dilatation of the intrahepatic or common bile duct was seen",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing hepatomegaly with a large lobulated hypodense hepatic mass.",
+      "detailed_description": "This coronal abdominal CT image demonstrates marked hepatomegaly with a large, lobulated hypodense mass involving both hepatic lobes, more prominent in the left lobe. The mass measures approximately 9.6 x 16.3 x 7.1 cm. No evidence of intrahepatic or common bile duct dilatation is visible. Adjacent abdominal structures appear displaced but not infiltrated.",
+      "visible_findings": [
+        "hepatomegaly",
+        "lobulated hypodense hepatic mass",
+        "mass more prominent in left hepatic lobe",
+        "no bile duct dilatation",
+        "displacement of adjacent structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "hepatomegaly",
+        "hepatic mass",
+        "hypodense lesion",
+        "liver"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver mass",
+        "hepatomegaly"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:01+00:00",
+    "usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 267,
+      "total_tokens": 916
+    }
+  }
+}

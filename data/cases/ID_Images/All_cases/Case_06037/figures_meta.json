@@ -1,0 +1,46 @@
+{
+  "Case_06037/figure1.jpg": {
+    "case_id": "Case_06037",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06037/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm and elbow",
+      "short_caption": "Extensive skin lesions with bullae and erythema on the arm.",
+      "detailed_description": "This clinical photograph shows the arm and elbow of a patient with multiple areas of erythema, ulceration, and bullae formation. The lesions appear to be of varying sizes, with some showing clear fluid-filled bullae and others displaying raw, denuded skin. There is evidence of tissue damage and possible exudate. The surrounding skin appears inflamed, suggesting an infectious or inflammatory process.",
+      "visible_findings": [
+        "fluid-filled bullae",
+        "erythema",
+        "denuded skin",
+        "ulceration",
+        "inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "skin lesions",
+        "bullae",
+        "erythema",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "bullae on arm",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Case_18008/figure1.jpg": {
+    "case_id": "Case_18008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18008/figure1.jpg",
+    "source_caption": "Fig 1: Photograph of right upper arm showing purplish-black discoloration in at least 4 areas. These areas had irregular borders, were surrounded by a wide area of erythema and edema and were exquisitely painful.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right upper arm",
+      "short_caption": "Photograph of right upper arm showing purplish-black discoloration with surrounding erythema and edema.",
+      "detailed_description": "This image shows the right upper arm with multiple areas of purplish-black discoloration, some of which have irregular borders. The lesions are surrounded by a wide area of erythema and edema. A central lesion exhibits a fluid-filled blister or bulla. The surrounding skin appears inflamed, and the discoloration suggests necrosis or severe tissue damage.",
+      "visible_findings": [
+        "purplish-black discoloration in multiple areas",
+        "irregular lesion borders",
+        "surrounding erythema and edema",
+        "fluid-filled blister or bulla on one lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right upper arm",
+        "necrosis",
+        "erythema",
+        "edema",
+        "bulla",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "necrotic lesions",
+        "infected arm",
+        "bulla on arm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:52+00:00",
+    "usage": {
+      "prompt_tokens": 630,
+      "completion_tokens": 261,
+      "total_tokens": 891
+    }
+  },
+  "Case_18008/figure2.jpg": {
+    "case_id": "Case_18008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18008/figure2.jpg",
+    "source_caption": "Fig 2: MRI of right upper extremity showing diffuse soft tissue edema and patchy enhancement involving the muscles of the right lateral chest wall, shoulder, arm, and forearm",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right upper extremity",
+      "short_caption": "MRI of the right upper extremity showing diffuse soft tissue edema and patchy muscle enhancement.",
+      "detailed_description": "This axial T1-weighted MRI image of the right upper extremity demonstrates diffuse soft tissue edema with hyperintense signal changes in the subcutaneous tissues. There is patchy enhancement involving the muscles of the lateral chest wall, shoulder, arm, and forearm. The findings suggest an inflammatory or infectious process, such as myositis or fasciitis. The image is de-identified and includes a scale marker for reference.",
+      "visible_findings": [
+        "diffuse soft tissue edema",
+        "patchy muscle enhancement",
+        "involvement of lateral chest wall, shoulder, arm, and forearm",
+        "hyperintense signal changes in subcutaneous tissues"
+      ],
+      "keywords": [
+        "mri",
+        "right upper extremity",
+        "soft tissue edema",
+        "muscle enhancement",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri of arm",
+        "soft tissue infection",
+        "myositis imaging"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:56+00:00",
+    "usage": {
+      "prompt_tokens": 619,
+      "completion_tokens": 268,
+      "total_tokens": 887
+    }
+  }
+}

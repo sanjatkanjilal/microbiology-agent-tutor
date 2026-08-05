@@ -1,0 +1,170 @@
+{
+  "Case_03054/figure1.jpg": {
+    "case_id": "Case_03054",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03054/figure1.jpg",
+    "source_caption": "Head MRI scan, FLAIR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial FLAIR MRI showing a hyperintense lesion in the right frontal lobe.",
+      "detailed_description": "This axial FLAIR MRI image of the brain shows a hyperintense lesion in the right frontal lobe, with surrounding edema. The lesion appears well-circumscribed and is associated with a hypointense center, suggestive of necrosis or cystic changes. The ventricles and midline structures appear intact, with no evidence of significant mass effect or midline shift.",
+      "visible_findings": [
+        "hyperintense lesion in the right frontal lobe",
+        "surrounding edema",
+        "hypointense center within the lesion",
+        "intact ventricles and midline structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintense lesion",
+        "frontal lobe",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "flair brain image",
+        "right frontal lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:23+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 252,
+      "total_tokens": 843
+    }
+  },
+  "Case_03054/figure4.jpg": {
+    "case_id": "Case_03054",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03054/figure4.jpg",
+    "source_caption": "MRI at six-week follow-up, T1 image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI of the brain at six-week follow-up.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain. The ventricles are visible in the central region, and there is evidence of abnormal signal intensity in the right basal ganglia region, suggestive of a lesion or residual inflammation. The surrounding brain parenchyma appears largely preserved, with no overt mass effect or midline shift. The image quality is consistent with a follow-up study to monitor changes over time.",
+      "visible_findings": [
+        "abnormal signal intensity in the right basal ganglia",
+        "intact ventricles with no significant dilation",
+        "no midline shift or mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1-weighted",
+        "lesion",
+        "follow-up",
+        "basal ganglia"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1-weighted mri",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:28+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 253,
+      "total_tokens": 846
+    }
+  },
+  "Case_03054/figure3.jpg": {
+    "case_id": "Case_03054",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03054/figure3.jpg",
+    "source_caption": "MRI at six-week follow-up, FLAIR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial FLAIR MRI showing hyperintense lesions in the periventricular white matter.",
+      "detailed_description": "This axial FLAIR MRI image of the brain demonstrates hyperintense lesions predominantly in the periventricular white matter. The ventricles are visible and appear symmetrically enlarged, suggesting possible atrophy or chronic changes. The hyperintense areas are consistent with inflammation, demyelination, or other pathologic processes. No evidence of acute hemorrhage or mass effect is seen.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "symmetrically enlarged ventricles",
+        "no acute hemorrhage",
+        "no mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintense lesions",
+        "periventricular",
+        "white matter",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain MRI",
+        "FLAIR imaging",
+        "periventricular lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:28+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 254,
+      "total_tokens": 848
+    }
+  },
+  "Case_03054/figure2.jpg": {
+    "case_id": "Case_03054",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03054/figure2.jpg",
+    "source_caption": "Head MRI scan, FSE image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing a hyperintense lesion in the right frontal lobe.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain demonstrates a hyperintense lesion in the right frontal lobe. The lesion appears well-circumscribed and is associated with surrounding edema, as evidenced by the hyperintense signal in the adjacent white matter. The ventricles are midline and symmetric, with no evidence of significant mass effect or midline shift. The imaging technique is consistent with a fast spin-echo (FSE) sequence.",
+      "visible_findings": [
+        "hyperintense lesion in the right frontal lobe",
+        "surrounding edema in adjacent white matter",
+        "midline and symmetric ventricles",
+        "no significant mass effect or midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "hyperintense lesion",
+        "frontal lobe",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain lesion",
+        "t2-weighted mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:28+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 276,
+      "total_tokens": 866
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "Case_02049/figure2.jpg": {
+    "case_id": "Case_02049",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02049/figure2.jpg",
+    "source_caption": "Culture plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colonies on blood agar plate.",
+      "detailed_description": "This image shows a blood agar culture plate with multiple fungal colonies. The colonies are circular, with a central white area surrounded by concentric zones of grayish growth. The red background indicates the blood agar medium, which is commonly used for culturing various microorganisms. The colonies exhibit a characteristic filamentous or mold-like appearance, suggesting a fungal organism.",
+      "visible_findings": [
+        "circular fungal colonies",
+        "white central areas with grayish concentric zones",
+        "red blood agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colonies",
+        "blood agar",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "fungal growth",
+        "blood agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:15+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 210,
+      "total_tokens": 795
+    }
+  },
+  "Case_02049/figure1.jpg": {
+    "case_id": "Case_02049",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02049/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye",
+      "short_caption": "Corneal transplant with sutures and signs of infection.",
+      "detailed_description": "This clinical photograph shows an eye with a corneal transplant, evident by the presence of sutures around the corneal graft. The cornea appears cloudy, with visible signs of inflammation, including conjunctival injection and edema. The graft-host junction is clearly delineated, and there are indications of possible infectious keratitis, such as opacity and irregularity in the corneal surface.",
+      "visible_findings": [
+        "corneal transplant with sutures",
+        "cloudy cornea",
+        "conjunctival injection",
+        "signs of inflammation",
+        "possible infectious keratitis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal transplant",
+        "keratitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "eye infection",
+        "corneal transplant complications",
+        "infectious keratitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:15+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_02049/figure3.jpg": {
+    "case_id": "Case_02049",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02049/figure3.jpg",
+    "source_caption": "Numerous organisms are seen in Figure 4 with a corneal silver stain. Blood cultures were negative.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cornea",
+      "short_caption": "Silver stain showing numerous curved, rod-shaped organisms.",
+      "detailed_description": "This image shows a silver stain preparation, highlighting numerous curved, rod-shaped organisms distributed across the field. The organisms are stained dark against a lighter background, consistent with the morphology of certain bacterial or fungal pathogens. The image suggests a high density of organisms, which may correlate with an infectious process involving the cornea.",
+      "visible_findings": [
+        "numerous curved, rod-shaped organisms",
+        "dark staining of organisms",
+        "light background typical of silver stain"
+      ],
+      "keywords": [
+        "silver stain",
+        "cornea",
+        "infectious organisms",
+        "curved rods",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "corneal infection",
+        "infectious organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:15+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 208,
+      "total_tokens": 810
+    }
+  },
+  "Case_02049/figure4.jpg": {
+    "case_id": "Case_02049",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02049/figure4.jpg",
+    "source_caption": "Silver stain of cornea.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cornea",
+      "short_caption": "Silver stain of corneal tissue showing fungal elements.",
+      "detailed_description": "This is a histopathological image of corneal tissue stained with a silver stain. The image reveals numerous darkly stained fungal elements, including hyphae and yeast-like forms, against a blue-green background of the corneal stroma. The fungal structures are prominent and irregularly distributed, consistent with fungal keratitis. The silver stain enhances the visibility of fungal cell walls, making them stand out distinctly.",
+      "visible_findings": [
+        "darkly stained fungal hyphae",
+        "yeast-like forms",
+        "blue-green background of corneal stroma"
+      ],
+      "keywords": [
+        "silver stain",
+        "cornea",
+        "fungal keratitis",
+        "histopathology",
+        "fungal elements"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "corneal infection",
+        "fungal keratitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:20+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 232,
+      "total_tokens": 820
+    }
+  }
+}

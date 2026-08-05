@@ -1,0 +1,212 @@
+{
+  "Case_22002/figure1.png": {
+    "case_id": "Case_22002",
+    "filename": "figure1.png",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22002/figure1.png",
+    "source_caption": "Fig 1. Dilated fundus exam of left eye showed optic disc edema with blurring of the disc margins (shown by arrow)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye fundus",
+      "short_caption": "Dilated fundus exam of the left eye showing optic disc edema with blurred disc margins.",
+      "detailed_description": "This is a dilated fundus photograph of the left eye. The optic disc appears swollen, with blurring of the disc margins, particularly evident superiorly and nasally. The surrounding retina shows normal vascular structures without obvious hemorrhages or exudates. The arrow highlights the area of optic disc edema.",
+      "visible_findings": [
+        "optic disc edema",
+        "blurring of disc margins",
+        "normal retinal vasculature",
+        "absence of hemorrhages or exudates"
+      ],
+      "keywords": [
+        "fundus photograph",
+        "optic disc edema",
+        "left eye",
+        "retina",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "fundus exam",
+        "optic disc edema",
+        "eye infection",
+        "blurry disc margins"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:29+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 233,
+      "total_tokens": 843
+    }
+  },
+  "Case_22002/figure2.png": {
+    "case_id": "Case_22002",
+    "filename": "figure2.png",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22002/figure2.png",
+    "source_caption": "Fig 2. Dilated fundus exam of left eye showed macular edema with exudates adjacent to nerve nasally in half macula star configuration (shown by arrow)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye, retina",
+      "short_caption": "Dilated fundus exam of left eye showing macular edema with exudates in a partial macular star pattern.",
+      "detailed_description": "This image shows a dilated fundus exam of the left eye. The optic disc is visible with clear margins. Adjacent to the optic nerve nasally, there is macular edema with yellowish exudates forming a partial macular star configuration. Retinal vessels are visible, and no significant hemorrhages or other abnormalities are noted in the periphery. The arrow highlights the area of exudates.",
+      "visible_findings": [
+        "optic disc with clear margins",
+        "macular edema",
+        "yellowish exudates in partial macular star pattern",
+        "retinal vessels visible"
+      ],
+      "keywords": [
+        "fundus exam",
+        "retina",
+        "macular edema",
+        "exudates",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "fundus exam",
+        "retinal exudates",
+        "macular star"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:30+00:00",
+    "usage": {
+      "prompt_tokens": 757,
+      "completion_tokens": 259,
+      "total_tokens": 1016
+    }
+  },
+  "Case_22002/figure5.png": {
+    "case_id": "Case_22002",
+    "filename": "figure5.png",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22002/figure5.png",
+    "source_caption": "Fig 5. Dilated fundus exam of the left eye revealed normal disc, few macular star exudates, normal vessels, and normal periphery (shown by arrow)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye fundus",
+      "short_caption": "Dilated fundus exam showing macular star exudates and normal optic disc.",
+      "detailed_description": "This is a dilated fundus photograph of the left eye. The optic disc appears normal, with clear margins and no signs of swelling. The retinal vessels are normal in caliber and distribution. A few macular star-shaped exudates are visible, indicated by an arrow, suggesting localized retinal pathology. The peripheral retina appears unremarkable.",
+      "visible_findings": [
+        "normal optic disc with clear margins",
+        "normal retinal vessels",
+        "macular star-shaped exudates",
+        "normal peripheral retina"
+      ],
+      "keywords": [
+        "fundus photograph",
+        "eye",
+        "macular exudates",
+        "optic disc",
+        "retina"
+      ],
+      "reveal_triggers": [
+        "fundus exam",
+        "retinal exudates",
+        "eye pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:32+00:00",
+    "usage": {
+      "prompt_tokens": 619,
+      "completion_tokens": 245,
+      "total_tokens": 864
+    }
+  },
+  "Case_22002/figure4.png": {
+    "case_id": "Case_22002",
+    "filename": "figure4.png",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22002/figure4.png",
+    "source_caption": "Fig 4. OCT Retinal Nerve Fiber Layer (RNFL) showed swelling of the layer in the left eye (125 µm average thickness) compared to the right eye (91 µm average thickness).",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "retina",
+      "short_caption": "OCT showing RNFL swelling in the left eye compared to the right eye.",
+      "detailed_description": "This image is an OCT (Optical Coherence Tomography) analysis of the Retinal Nerve Fiber Layer (RNFL) for both eyes. The left eye (OS) shows increased RNFL thickness (125 µm average) compared to the right eye (OD) (91 µm average). The color-coded thickness maps, deviation maps, and cross-sectional scans highlight the swelling in the left eye. The RNFL thickness graphs and quadrant analysis further confirm the asymmetry, with the left eye showing significant thickening in multiple quadrants.",
+      "visible_findings": [
+        "Color-coded RNFL thickness maps with asymmetry between eyes.",
+        "Increased RNFL thickness in the left eye (OS).",
+        "RNFL deviation map showing abnormalities in the left eye.",
+        "Cross-sectional OCT scans showing thickened RNFL in the left eye."
+      ],
+      "keywords": [
+        "oct",
+        "retina",
+        "rnfl",
+        "nerve fiber layer",
+        "swelling",
+        "optic nerve",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "oct",
+        "retinal nerve fiber layer",
+        "rnfl swelling",
+        "optic nerve analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:32+00:00",
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 306,
+      "total_tokens": 931
+    }
+  },
+  "Case_22002/figure3.png": {
+    "case_id": "Case_22002",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22002/figure3.png",
+    "source_caption": "Fig 3. The Macular Ganglion Cell Complex (GCC) available in OCT (Optical Coherence Tomography) showed mild thinning nasally and temporally in the left eye",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "retina",
+      "short_caption": "OCT showing macular ganglion cell complex (GCC) analysis with mild thinning nasally and temporally in the left eye.",
+      "detailed_description": "This image is an Optical Coherence Tomography (OCT) scan displaying the macular ganglion cell complex (GCC) analysis for both eyes. The color-coded thickness maps highlight mild thinning in the nasal and temporal regions of the left eye (OS), as indicated by the cooler colors (green to yellow) in these areas. The right eye (OD) appears within normal limits. Cross-sectional OCT B-scans of the macula are also included, showing retinal layers in grayscale with no gross structural abnormalities. Quantitative data and deviation maps further support the findings.",
+      "visible_findings": [
+        "color-coded GCC thickness maps for both eyes",
+        "mild thinning nasally and temporally in the left eye (OS)",
+        "normal GCC thickness in the right eye (OD)",
+        "cross-sectional OCT B-scans of the macula"
+      ],
+      "keywords": [
+        "oct",
+        "retina",
+        "macula",
+        "ganglion cell complex",
+        "thinning",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "oct scan",
+        "retinal thinning",
+        "macular ganglion cell complex"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:34+00:00",
+    "usage": {
+      "prompt_tokens": 621,
+      "completion_tokens": 310,
+      "total_tokens": 931
+    }
+  }
+}

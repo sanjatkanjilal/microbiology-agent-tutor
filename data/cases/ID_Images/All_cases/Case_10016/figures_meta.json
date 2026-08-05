@@ -1,0 +1,170 @@
+{
+  "Case_10016/figure2.jpg": {
+    "case_id": "Case_10016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10016/figure2.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing an abnormal fluid collection.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense fluid collection in the left upper quadrant, suggestive of an abscess or cystic lesion. The surrounding structures, including bowel loops and solid organs, appear displaced but not directly infiltrated. The vertebral body and adjacent soft tissues are visible in the posterior aspect. No contrast enhancement is apparent, suggesting a non-contrast study.",
+      "visible_findings": [
+        "hypodense fluid collection in the left upper quadrant",
+        "displacement of adjacent bowel loops",
+        "vertebral body and posterior soft tissues visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid collection",
+        "abscess",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "fluid collection in abdomen",
+        "non-contrast ct of abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:53+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  },
+  "Case_10016/figure1.jpg": {
+    "case_id": "Case_10016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10016/figure1.jpg",
+    "source_caption": "CT of the chest and abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest and abdomen",
+      "short_caption": "Coronal CT of the chest and abdomen showing thoracic and abdominal structures.",
+      "detailed_description": "This is a coronal CT image of the chest and abdomen. The thoracic cavity shows the lungs and mediastinum, while the abdominal cavity reveals the kidneys, spine, and surrounding soft tissues. The image appears to be without contrast enhancement, as no clear vascular opacification is visible. The kidneys are well-demarcated, and there is no obvious evidence of masses, fluid collections, or other abnormalities in the visible structures.",
+      "visible_findings": [
+        "coronal view of chest and abdomen",
+        "lungs and mediastinum visible",
+        "kidneys and spine visible",
+        "no clear contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "abdomen",
+        "kidneys",
+        "lungs",
+        "spine",
+        "coronal view"
+      ],
+      "reveal_triggers": [
+        "ct of chest and abdomen",
+        "coronal ct",
+        "kidneys on ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:56+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 256,
+      "total_tokens": 845
+    }
+  },
+  "Case_10016/figure3.jpg": {
+    "case_id": "Case_10016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10016/figure3.jpg",
+    "source_caption": "Renal biopsy, H and E stain (x400 magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "kidney",
+      "short_caption": "Renal biopsy, H&E stain at high magnification showing inflammatory infiltrates and glomerular changes.",
+      "detailed_description": "This histopathology image shows a renal biopsy stained with hematoxylin and eosin (H&E) at high magnification (approximately x400). The section reveals prominent inflammatory cell infiltrates, including lymphocytes and possibly plasma cells, within the interstitial space. There is evidence of glomerular involvement with mesangial expansion and cellular proliferation. The surrounding renal tubules appear mildly atrophic, and there is interstitial edema.",
+      "visible_findings": [
+        "inflammatory cell infiltrates in interstitial space",
+        "glomerular mesangial expansion",
+        "glomerular cellular proliferation",
+        "mild tubular atrophy",
+        "interstitial edema"
+      ],
+      "keywords": [
+        "histopathology",
+        "kidney",
+        "renal biopsy",
+        "H&E stain",
+        "inflammation",
+        "glomerular changes"
+      ],
+      "reveal_triggers": [
+        "renal biopsy",
+        "H&E stain",
+        "kidney histology",
+        "glomerular inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:57+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 273,
+      "total_tokens": 869
+    }
+  },
+  "Case_10016/figure4.jpg": {
+    "case_id": "Case_10016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10016/figure4.jpg",
+    "source_caption": "Renal biopsy, H and E stain (x400 magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "renal tissue",
+      "short_caption": "Renal biopsy showing histopathological changes, H&E stain at high magnification (x400).",
+      "detailed_description": "This histopathological image shows renal tissue stained with hematoxylin and eosin (H&E) at high magnification (x400). The tissue demonstrates a dense infiltrate of mononuclear cells, with areas of interstitial inflammation. The background reveals a pink-staining extracellular matrix, consistent with renal parenchyma. Tubular structures are visible, some of which appear distorted or atrophic. No clear evidence of glomeruli is present in this field.",
+      "visible_findings": [
+        "mononuclear cell infiltrate",
+        "interstitial inflammation",
+        "pink extracellular matrix",
+        "distorted or atrophic tubular structures"
+      ],
+      "keywords": [
+        "histopathology",
+        "renal biopsy",
+        "H&E stain",
+        "inflammation",
+        "tubular distortion"
+      ],
+      "reveal_triggers": [
+        "renal biopsy",
+        "H&E stain",
+        "histopathology of kidney"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:00+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 262,
+      "total_tokens": 858
+    }
+  }
+}

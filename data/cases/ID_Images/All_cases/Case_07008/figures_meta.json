@@ -1,0 +1,124 @@
+{
+  "Case_07008/figure1.jpg": {
+    "case_id": "Case_07008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07008/figure1.jpg",
+    "source_caption": "Figure 1. Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing branching gram-positive bacilli from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture with prominent branching, filamentous structures stained pink, consistent with gram-positive bacilli. The background contains scattered debris and other cellular material. The branching morphology is characteristic of certain bacterial species, such as Nocardia or Actinomyces. The image is magnified to highlight the bacterial structures.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "pink-stained gram-positive bacilli",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "branching bacilli",
+        "infectious diseases",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "branching gram-positive bacilli",
+        "blood infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:39+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 223,
+      "total_tokens": 815
+    }
+  },
+  "Case_07008/figure2.jpg": {
+    "case_id": "Case_07008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07008/figure2.jpg",
+    "source_caption": "Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing branching, filamentous Gram-positive organisms.",
+      "detailed_description": "This image shows a Gram stain of a blood culture. It reveals branching, filamentous structures that stain Gram-positive (red in this stain preparation). These structures are consistent with filamentous bacteria, such as Nocardia or Actinomyces. The background contains scattered cellular debris and other non-specific material.",
+      "visible_findings": [
+        "branching, filamentous structures",
+        "Gram-positive staining (red)",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "filamentous bacteria",
+        "branching organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "filamentous bacteria",
+        "nocardia",
+        "actinomyces"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 217,
+      "total_tokens": 805
+    }
+  },
+  "Case_07008/figure3.jpg": {
+    "case_id": "Case_07008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07008/figure3.jpg",
+    "source_caption": "Plate of blood culture growth.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colonies with characteristic morphology on culture plate.",
+      "detailed_description": "This image shows a close-up view of a culture plate with multiple fungal colonies. The colonies are circular with a central dense area and a lighter, fuzzy periphery, consistent with fungal growth. The plate appears to have an orange background, and the colonies exhibit a whitish-gray coloration. The morphology suggests filamentous fungi, but the specific organism cannot be definitively identified from this image alone.",
+      "visible_findings": [
+        "circular fungal colonies",
+        "dense central area in colonies",
+        "lighter, fuzzy periphery",
+        "orange culture plate background"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colonies",
+        "infectious diseases",
+        "microbiology",
+        "filamentous fungi"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "microbiology plate",
+        "infectious disease diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 230,
+      "total_tokens": 818
+    }
+  }
+}

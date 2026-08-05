@@ -1,0 +1,252 @@
+{
+  "Case_14007/figure4.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure4.jpg",
+    "source_caption": "Lung tissue, HE stain, 200x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Lung tissue, HE stain, showing granulomatous inflammation at 200x magnification.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (HE) at 200x magnification. The tissue exhibits granulomatous inflammation, characterized by clusters of inflammatory cells, including macrophages and lymphocytes. Central necrosis is visible, surrounded by cellular aggregates. The presence of multinucleated giant cells is also noted, which is typical in granulomatous diseases.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "central necrosis",
+        "clusters of macrophages and lymphocytes"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung tissue",
+        "HE stain",
+        "granuloma",
+        "inflammation",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "HE stain of lung",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:31+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 258,
+      "total_tokens": 852
+    }
+  },
+  "Case_14007/figure1.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. Both lung fields are visible, with clear visualization of the ribs, mediastinum, and diaphragm. No obvious consolidation, effusion, or masses are apparent. The cardiac silhouette appears normal in size and shape, and the trachea is midline. The image is de-identified and includes standard radiographic markers.",
+      "visible_findings": [
+        "bilateral lung fields without consolidation",
+        "normal cardiac silhouette",
+        "midline trachea",
+        "clear costophrenic angles"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "mediastinum",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "radiograph of lungs",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:31+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 237,
+      "total_tokens": 823
+    }
+  },
+  "Case_14007/figure2.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary findings. There are areas of increased attenuation in both lungs, suggestive of consolidation or infiltrates. The mediastinum appears central, and no significant pleural effusion is visible. The scan is likely performed with contrast, as vascular structures are well-defined.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "increased attenuation in lung fields",
+        "central mediastinum",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "pulmonary opacities",
+        "infectious diseases",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infection",
+        "lung abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:33+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 219,
+      "total_tokens": 806
+    }
+  },
+  "Case_14007/figure6.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure6.jpg",
+    "source_caption": "Lung tissue, GMS stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Lung tissue stained with GMS showing fungal elements.",
+      "detailed_description": "This image shows a histopathological section of lung tissue stained with Gomori methenamine silver (GMS). The stain highlights oval to crescent-shaped fungal elements with thick, darkly stained walls against a green background. These structures are consistent with fungal spores or yeast forms. The GMS stain is commonly used to identify fungal organisms in tissue sections.",
+      "visible_findings": [
+        "oval to crescent-shaped fungal elements",
+        "thick, darkly stained fungal walls",
+        "green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung tissue",
+        "fungal elements",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "lung histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:39+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 227,
+      "total_tokens": 816
+    }
+  },
+  "Case_14007/figure3.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure3.jpg",
+    "source_caption": "Lung tissue, HE stain, 40x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Lung tissue, H&E stain, showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E) at 40x magnification. A central area of granulomatous inflammation is visible, characterized by a collection of epithelioid macrophages and surrounding lymphocytes. There are also multinucleated giant cells present within the granuloma. The surrounding lung parenchyma shows evidence of inflammation and possible tissue damage. Blood vessels are visible in the background, stained red.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "epithelioid macrophages",
+        "multinucleated giant cells",
+        "lymphocytic infiltration",
+        "blood vessels"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "lung histology",
+        "granuloma",
+        "H&E stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:40+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 264,
+      "total_tokens": 858
+    }
+  },
+  "Case_14007/figure5.jpg": {
+    "case_id": "Case_14007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14007/figure5.jpg",
+    "source_caption": "Lung tissue, HE stain, 400x magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Histopathology of lung tissue showing a parasitic structure, HE stain, 400x magnification.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (HE) at 400x magnification. A prominent oval-shaped parasitic structure with a thick, eosinophilic wall and internal granular contents is visible, likely representing an organism such as a helminth or its egg. Surrounding the structure are inflammatory cells, including eosinophils, and disrupted tissue architecture, indicative of a host immune response.",
+      "visible_findings": [
+        "oval parasitic structure with thick wall",
+        "internal granular contents within the structure",
+        "surrounding inflammatory cells, including eosinophils",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "parasitic structure",
+        "HE stain",
+        "eosinophils",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "HE stain of lung tissue",
+        "parasitic infection in lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:41+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 274,
+      "total_tokens": 868
+    }
+  }
+}

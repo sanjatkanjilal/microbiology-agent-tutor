@@ -1,0 +1,293 @@
+{
+  "Case_06025/figure1.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure1.jpg",
+    "source_caption": "Findings on the oropharynx.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "oropharynx",
+      "short_caption": "Clinical photograph showing lesions on the oropharyngeal mucosa.",
+      "detailed_description": "This image shows the oropharynx of a patient with visible mucosal abnormalities. Multiple small, raised, whitish lesions are present on the mucosal surface. The surrounding mucosa appears erythematous. The photograph is taken with the mouth open, and the lesions are located on the posterior oropharyngeal wall and possibly the soft palate. The findings suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "multiple small, raised, whitish lesions",
+        "erythematous mucosa",
+        "lesions on posterior oropharyngeal wall"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "oropharynx",
+        "mucosal lesions",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "oropharynx exam",
+        "oral lesions",
+        "infectious mucosal findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:43+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 249,
+      "total_tokens": 839
+    }
+  },
+  "Case_06025/figure6.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure6.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing mucosal ulceration with fibrinous exudate.",
+      "detailed_description": "This endoscopic image depicts the colonic mucosa with a prominent area of ulceration covered by a white fibrinous exudate. Surrounding mucosa appears erythematous, with irregular borders and scattered debris. The findings suggest inflammation and possible infectious or ischemic etiology.",
+      "visible_findings": [
+        "mucosal ulceration",
+        "white fibrinous exudate",
+        "erythematous surrounding mucosa",
+        "irregular lesion borders",
+        "scattered debris"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "ulceration",
+        "fibrinous exudate",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "intestinal ulcer",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:45+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  },
+  "Case_06025/figure2.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure2.jpg",
+    "source_caption": "Detail of the palate.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palate",
+      "short_caption": "Clinical photograph showing lesions on the palate.",
+      "detailed_description": "This image depicts the palate with visible mucosal abnormalities. There are multiple raised, white to yellowish lesions, including a prominent nodular lesion near the midline. The surrounding mucosa appears erythematous. The lesions suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "raised white to yellowish lesions",
+        "nodular lesion near the midline",
+        "erythematous surrounding mucosa"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palate",
+        "oral lesions",
+        "mucosal abnormalities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "palate lesions",
+        "oral infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:46+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 200,
+      "total_tokens": 787
+    }
+  },
+  "Case_06025/figure4.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure4.jpg",
+    "source_caption": "Skin lesions on the abdomen.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Erythematous papules and vesicles on the abdominal skin.",
+      "detailed_description": "This clinical photograph shows multiple erythematous papules and vesicles on the skin of the abdomen. The lesions vary in size and appear to be scattered irregularly. The background skin tone is pale, and there is no visible ulceration or crusting in this image. The lesions suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous papules",
+        "vesicles",
+        "scattered distribution",
+        "no visible ulceration or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "skin lesions",
+        "papules",
+        "vesicles",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "abdominal rash",
+        "vesicular lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  },
+  "Case_06025/figure5.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure5.jpg",
+    "source_caption": "Findings on esophagoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "esophagus",
+      "short_caption": "Endoscopic view of the esophagus showing mucosal abnormalities.",
+      "detailed_description": "This endoscopic image shows the esophageal lumen with visible mucosal irregularities. There are areas of erythema, friability, and white plaques or exudates adherent to the mucosa. The findings suggest an inflammatory or infectious process, such as esophagitis, possibly fungal or other infectious etiology. The image is well-focused, highlighting the central lumen and surrounding mucosa.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "white plaques or exudates",
+        "esophageal lumen visible",
+        "mucosal irregularities"
+      ],
+      "keywords": [
+        "endoscopy",
+        "esophagus",
+        "esophagitis",
+        "white plaques",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "esophagoscopy",
+        "endoscopic view of esophagus",
+        "esophageal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:53+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_06025/figure7.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure7.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing mucosal erythema and yellow exudate.",
+      "detailed_description": "This endoscopic image shows a segment of the colonic mucosa with areas of erythema and a patch of yellow exudate, suggestive of inflammation or infection. The mucosal surface appears irregular, with some reflective areas indicating fluid. The findings are consistent with a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "yellow exudate",
+        "irregular mucosal surface",
+        "fluid reflection"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "mucosal erythema",
+        "yellow exudate",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "colon inflammation",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:54+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 218,
+      "total_tokens": 805
+    }
+  },
+  "Case_06025/figure3.jpg": {
+    "case_id": "Case_06025",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06025/figure3.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Multiple erythematous papules and pustules on the abdomen.",
+      "detailed_description": "This clinical photograph shows the anterior abdominal wall of a patient with scattered erythematous papules and pustules. The lesions vary in size and distribution, with some appearing to have central necrosis or crusting. A surgical scar is visible extending vertically from the umbilicus. There is also a larger area of discoloration and possible ecchymosis or resolving lesion in the lower right quadrant. The skin appears otherwise intact.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "central necrosis or crusting",
+        "surgical scar",
+        "area of discoloration or ecchymosis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "skin lesions",
+        "papules",
+        "pustules",
+        "erythema",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "abdominal rash",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:54+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 261,
+      "total_tokens": 846
+    }
+  }
+}

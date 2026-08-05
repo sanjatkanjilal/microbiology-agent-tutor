@@ -1,0 +1,212 @@
+{
+  "Case_03006/figure1.jpg": {
+    "case_id": "Case_03006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03006/figure1.jpg",
+    "source_caption": "Chest radiograph, after clinical deterioration.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates after clinical deterioration.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing diffuse bilateral pulmonary infiltrates, predominantly in the mid and lower lung zones. The heart and mediastinum appear enlarged, and there are visible medical devices, including bilateral shoulder prostheses and indwelling lines. The lung fields demonstrate a hazy appearance consistent with interstitial or alveolar involvement, which may suggest infection, edema, or other pathology.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "hazy lung fields",
+        "enlarged heart and mediastinum",
+        "bilateral shoulder prostheses",
+        "indwelling medical lines"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infection",
+        "clinical deterioration"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "clinical deterioration"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:57+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 251,
+      "total_tokens": 841
+    }
+  },
+  "Case_03006/figure2.jpg": {
+    "case_id": "Case_03006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03006/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing pulmonary abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates a cavitary lesion in the upper lobe of the right lung, with surrounding consolidation and possible air-fluid level. The left lung appears relatively clear. The mediastinum and bony structures are visible, with no obvious abnormalities in these regions. The image is presented in a soft tissue window.",
+      "visible_findings": [
+        "cavitary lesion in the right upper lobe",
+        "surrounding consolidation in the right lung",
+        "possible air-fluid level in the cavity",
+        "clear left lung",
+        "normal-appearing mediastinum and bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:57+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  },
+  "Case_03006/figure3.jpg": {
+    "case_id": "Case_03006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03006/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial chest CT scan reveals bilateral pulmonary abnormalities, including areas of consolidation and ground-glass opacities, predominantly in the lower lung fields. The mediastinum and heart are centrally located, and there is no obvious pleural effusion. The scan is presented in a lung window setting, highlighting parenchymal changes.",
+      "visible_findings": [
+        "bilateral pulmonary consolidation",
+        "ground-glass opacities",
+        "no obvious pleural effusion",
+        "lung window setting"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "consolidation",
+        "ground-glass opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:57+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 219,
+      "total_tokens": 805
+    }
+  },
+  "Case_03006/figure5.jpg": {
+    "case_id": "Case_03006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03006/figure5.jpg",
+    "source_caption": "H and E stain of bone marrow (200x).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "H&E stain of bone marrow showing a granuloma (200x).",
+      "detailed_description": "This is a high-power (200x) histopathology image of bone marrow stained with hematoxylin and eosin (H&E). The image shows a well-formed granuloma, characterized by a central area of necrosis surrounded by a ring of epithelioid histiocytes and lymphocytes. The arrow points to the granuloma, while the arrowhead indicates adjacent marrow elements. The cellular composition and organization are consistent with a granulomatous inflammatory response.",
+      "visible_findings": [
+        "granuloma with central necrosis",
+        "epithelioid histiocytes",
+        "lymphocytic infiltration",
+        "adjacent marrow elements"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "granuloma",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "granuloma in bone marrow",
+        "H&E stain of bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:02+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 265,
+      "total_tokens": 858
+    }
+  },
+  "Case_03006/figure4.jpg": {
+    "case_id": "Case_03006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03006/figure4.jpg",
+    "source_caption": "H and E stain of bone marrow (80x).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "H&E stain of bone marrow showing granulomas and cellular changes.",
+      "detailed_description": "This is a histopathology image of bone marrow stained with hematoxylin and eosin (H&E) at 80x magnification. The image shows multiple granulomas (indicated by arrows) with central necrosis surrounded by inflammatory cells. The background reveals a mix of hematopoietic cells and areas of marrow fat. The granulomas suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "granulomas with central necrosis",
+        "inflammatory cell infiltrate",
+        "hematopoietic cells in the background",
+        "marrow fat spaces"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "H&E stain",
+        "granulomas",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "H&E stain",
+        "granulomas in marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:03+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 247,
+      "total_tokens": 840
+    }
+  }
+}

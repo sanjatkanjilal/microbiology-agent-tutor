@@ -1,0 +1,290 @@
+{
+  "Case_06018/figure3.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure3.jpg",
+    "source_caption": "Abdominal radiograph.",
+    "description": {
+      "modality": "abdominal radiograph",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Abdominal radiograph showing gas patterns and skeletal structures.",
+      "detailed_description": "This is an anterior-posterior abdominal radiograph displaying the lumbar spine, pelvis, and soft tissue structures. Gas patterns are visible in the bowel loops, with no obvious signs of obstruction or free air under the diaphragm. The skeletal structures, including the vertebrae and pelvic bones, appear intact. The image is de-identified and includes a copyright watermark.",
+      "visible_findings": [
+        "lumbar spine and pelvic bones visible",
+        "gas patterns in bowel loops",
+        "no free air under the diaphragm",
+        "no obvious skeletal abnormalities"
+      ],
+      "keywords": [
+        "radiograph",
+        "abdomen",
+        "pelvis",
+        "gas patterns",
+        "skeletal structures"
+      ],
+      "reveal_triggers": [
+        "abdominal x-ray",
+        "radiograph of abdomen",
+        "bowel gas patterns"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:58+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_06018/figure4.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure4.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing abnormal fluid collection and soft tissue changes.",
+      "detailed_description": "This axial abdominal CT scan demonstrates a fluid collection with irregular borders in the left abdominal cavity, suggestive of an abscess or localized infection. Surrounding soft tissue appears edematous, and there is asymmetry compared to the contralateral side. The vertebral body is centrally visible, providing orientation. No contrast enhancement is evident, suggesting a non-contrast study.",
+      "visible_findings": [
+        "fluid collection with irregular borders in the left abdomen",
+        "soft tissue edema surrounding the lesion",
+        "vertebral body centrally visible for orientation",
+        "absence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid collection",
+        "abscess",
+        "infection",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "fluid collection in abdomen",
+        "infectious abscess imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:59+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  },
+  "Case_06018/figure5.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure5.jpg",
+    "source_caption": "H and E stain of caseating granuloma.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing caseating granuloma with central necrosis.",
+      "detailed_description": "This histopathology image is stained with hematoxylin and eosin (H&E). It shows a well-defined granuloma with a central area of caseation necrosis, surrounded by a rim of epithelioid macrophages and lymphocytes. The necrotic center appears pale pink, while the surrounding cellular region is darker stained. This pattern is characteristic of granulomatous inflammation, often associated with infections like tuberculosis.",
+      "visible_findings": [
+        "central caseation necrosis",
+        "rim of epithelioid macrophages",
+        "surrounding lymphocytic infiltration",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "caseation",
+        "H&E stain",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "granuloma histology",
+        "caseating necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:00+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 254,
+      "total_tokens": 846
+    }
+  },
+  "Case_06018/figure1.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. The lung fields are visible bilaterally, with no obvious consolidation, cavitation, or pleural effusion. The mediastinal structures, including the heart and trachea, appear midline. The diaphragm is well-defined, and there is no apparent abnormality in the bony thoracic cage. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "bilateral lung fields visible",
+        "mediastinal structures appear midline",
+        "no obvious consolidation or effusion",
+        "diaphragm well-defined",
+        "bony thoracic cage intact"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "mediastinum",
+        "diaphragm"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "lung radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 257,
+      "total_tokens": 843
+    }
+  },
+  "Case_06018/figure2.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "right lower lung",
+      "short_caption": "Chest radiograph showing consolidation in the right lower lung field.",
+      "detailed_description": "This is a close-up view of a chest radiograph focusing on the right lower lung field. The image reveals an area of increased opacity consistent with consolidation, suggesting a possible infectious or inflammatory process. The ribs and soft tissue structures are also visible, providing anatomical context.",
+      "visible_findings": [
+        "increased opacity in the right lower lung field",
+        "visible rib structures",
+        "soft tissue outlines"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung",
+        "consolidation",
+        "infection",
+        "right lower lobe"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung consolidation",
+        "pneumonia imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:02+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 206,
+      "total_tokens": 794
+    }
+  },
+  "Case_06018/figure6.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure6.jpg",
+    "source_caption": "H and E stain of mucosal ulceration.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mucosa",
+      "short_caption": "H&E stain showing mucosal ulceration with inflammatory infiltrate.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a section of mucosa with clear evidence of ulceration. The epithelial surface is disrupted, and there is a loss of normal architecture. The underlying tissue demonstrates inflammatory infiltrate, with dense cellularity suggestive of an immune response. Adjacent areas of intact mucosa are visible, providing contrast to the ulcerated region.",
+      "visible_findings": [
+        "mucosal ulceration",
+        "disrupted epithelial surface",
+        "inflammatory infiltrate",
+        "adjacent intact mucosa"
+      ],
+      "keywords": [
+        "histopathology",
+        "mucosa",
+        "ulceration",
+        "H&E stain",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "mucosal ulceration",
+        "histopathology of inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:06+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 246,
+      "total_tokens": 838
+    }
+  },
+  "Case_06018/figure7.jpg": {
+    "case_id": "Case_06018",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06018/figure7.jpg",
+    "source_caption": "Silver stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Silver stain showing fungal elements in tissue biopsy.",
+      "detailed_description": "This image shows a silver-stained tissue biopsy with numerous round to oval dark-staining fungal elements scattered throughout a pale green background. The fungal elements are consistent with yeast forms, some of which appear to be budding. The silver stain highlights the fungal cell walls, making them prominently visible against the background tissue.",
+      "visible_findings": [
+        "dark-staining round to oval fungal elements",
+        "budding yeast forms",
+        "pale green background tissue"
+      ],
+      "keywords": [
+        "silver stain",
+        "fungal elements",
+        "yeast",
+        "biopsy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "fungal biopsy",
+        "histopathology of yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 207,
+      "total_tokens": 794
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "Case_04023/figure3.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure3.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:33:59+00:00"
+  },
+  "Case_04023/figure1.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure1.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing mucosal irregularities and nodularity.",
+      "detailed_description": "This endoscopic image shows the colonic mucosa with irregularities, nodularity, and areas of yellowish discoloration. The mucosa appears inflamed, with possible exudates or plaques. The findings suggest an infectious or inflammatory process. No clear evidence of ulceration or bleeding is visible in this view.",
+      "visible_findings": [
+        "irregular mucosal surface",
+        "nodularity",
+        "yellowish discoloration",
+        "possible exudates or plaques"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "mucosal irregularities",
+        "nodularity",
+        "infectious diseases",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "infectious colitis",
+        "colon inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:02+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_04023/figure2.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure2.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing mucosal irregularities and nodularity.",
+      "detailed_description": "This endoscopic image shows the mucosa of the colon with irregularities, nodularity, and areas of erythema. The mucosa appears inflamed and edematous, with some yellowish exudates visible. The findings suggest an inflammatory or infectious process affecting the colon.",
+      "visible_findings": [
+        "mucosal irregularities",
+        "nodularity",
+        "erythema",
+        "yellowish exudates",
+        "inflamed and edematous mucosa"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "mucosal irregularities",
+        "nodularity",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "colon inflammation",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:05+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 217,
+      "total_tokens": 804
+    }
+  },
+  "Case_04023/figure4.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure4.jpg",
+    "source_caption": "Findings on colonoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopy showing inflamed mucosa with ulceration and exudate.",
+      "detailed_description": "This endoscopic image shows the lumen of the colon with significant mucosal inflammation. The mucosa appears erythematous and friable, with areas of ulceration and yellowish exudate. The surrounding tissue is irregular, and there is evidence of severe inflammation. The findings are consistent with a colonic inflammatory process, possibly infectious or inflammatory bowel disease.",
+      "visible_findings": [
+        "erythematous mucosa",
+        "ulceration",
+        "yellowish exudate",
+        "irregular tissue architecture"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "inflammation",
+        "ulceration",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "colonoscopy",
+        "colon inflammation",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 227,
+      "total_tokens": 814
+    }
+  },
+  "Case_04023/figure7.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure7.jpg",
+    "source_caption": "Ziehl Neelsen stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Ziehl-Neelsen stain showing sparse acid-fast bacilli in a biopsy sample.",
+      "detailed_description": "This image shows a Ziehl-Neelsen stain of a biopsy sample. The background consists of numerous blue-stained host cells, likely inflammatory cells, and tissue structures. Scattered among them are a few pink-red, rod-shaped acid-fast bacilli, characteristic of mycobacteria. The staining highlights the organisms against the blue background, aiding in their identification.",
+      "visible_findings": [
+        "blue-stained host cells and tissue structures",
+        "pink-red rod-shaped acid-fast bacilli",
+        "Ziehl-Neelsen stain technique"
+      ],
+      "keywords": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "biopsy",
+        "mycobacteria",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "ziehl-neelsen stain",
+        "acid-fast organisms",
+        "biopsy histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:10+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 259,
+      "total_tokens": 849
+    }
+  },
+  "Case_04023/figure6.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure6.jpg",
+    "source_caption": "H and E stain of biopsy (detail).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing granulomatous inflammation with central necrosis.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section. The field is dominated by granulomatous inflammation, characterized by a collection of epithelioid macrophages and lymphocytes. A central area of necrosis is visible, consistent with caseating necrosis. The surrounding tissue shows a dense inflammatory infiltrate. This pattern is suggestive of an infectious etiology, such as tuberculosis.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "central necrosis",
+        "epithelioid macrophages",
+        "lymphocytic infiltrate",
+        "caseating necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "necrosis",
+        "H&E stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "biopsy",
+        "granuloma",
+        "caseating necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:10+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 258,
+      "total_tokens": 849
+    }
+  },
+  "Case_04023/figure5.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure5.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This is a histopathology image stained with hematoxylin and eosin (H&E). It shows granulomatous inflammation characterized by clusters of epithelioid histiocytes and multinucleated giant cells. There are areas of necrosis and scattered lymphocytes. The architecture suggests a chronic inflammatory process, possibly infectious or autoimmune in origin.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "necrosis",
+        "scattered lymphocytes"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "granuloma",
+        "giant cells",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "biopsy",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:11+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_04023/figure8.jpg": {
+    "case_id": "Case_04023",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04023/figure8.jpg",
+    "source_caption": "Detail of Figure 7.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing intracellular and extracellular organisms with Ziehl-Neelsen stain.",
+      "detailed_description": "This histopathology image demonstrates a field stained with Ziehl-Neelsen stain, highlighting acid-fast bacilli as bright red, rod-shaped organisms against a blue background. The organisms are visible both intracellularly and extracellularly, surrounded by inflammatory cells. The background tissue appears to be infiltrated with inflammatory cells, suggesting an infectious process.",
+      "visible_findings": [
+        "acid-fast bacilli stained red",
+        "blue background from Ziehl-Neelsen stain",
+        "inflammatory cell infiltration",
+        "intracellular and extracellular organisms"
+      ],
+      "keywords": [
+        "histopathology",
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "infectious disease",
+        "inflammatory cells"
+      ],
+      "reveal_triggers": [
+        "ziehl-neelsen stain",
+        "acid-fast bacilli",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:12+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  }
+}

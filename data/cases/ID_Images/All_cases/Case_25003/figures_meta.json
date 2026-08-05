@@ -1,0 +1,86 @@
+{
+  "Case_25003/figure1.jpg": {
+    "case_id": "Case_25003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25003/figure1.jpg",
+    "source_caption": "Signal hyperintensity in the bilateral cerebral cortex on diffusion-weighted imaging (DWI).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Hyperintensity in the bilateral cerebral cortex on diffusion-weighted imaging (DWI).",
+      "detailed_description": "This axial diffusion-weighted MRI image of the brain demonstrates areas of signal hyperintensity in the bilateral cerebral cortex, particularly in the parietal and frontal regions. The hyperintensity is symmetric and suggests restricted diffusion, which may indicate cytotoxic edema. The ventricles appear normal in size and shape, and no midline shift is evident.",
+      "visible_findings": [
+        "bilateral cortical hyperintensity",
+        "symmetry of findings",
+        "normal ventricular size and shape"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "dwi",
+        "hyperintensity",
+        "cerebral cortex",
+        "restricted diffusion"
+      ],
+      "reveal_triggers": [
+        "diffusion-weighted imaging",
+        "brain mri",
+        "cortical hyperintensity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:33+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 229,
+      "total_tokens": 829
+    }
+  },
+  "Case_25003/figure2.jpg": {
+    "case_id": "Case_25003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25003/figure2.jpg",
+    "source_caption": "Signal hyperintensity in the bilateral cerebral cortex on fluid-attenuated inversion recovery (FLAIR).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "FLAIR MRI showing bilateral cortical hyperintensities.",
+      "detailed_description": "This axial FLAIR MRI image of the brain demonstrates areas of hyperintensity in the bilateral cerebral cortex, particularly in the frontal and parietal regions. The hyperintensities are symmetric and involve the cortical gray matter. The ventricles appear normal in size, and there is no evidence of midline shift. The findings are consistent with cortical involvement, which may suggest an infectious, inflammatory, or toxic-metabolic process.",
+      "visible_findings": [
+        "bilateral cortical hyperintensities",
+        "involvement of frontal and parietal regions",
+        "normal ventricular size",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintensity",
+        "cortex",
+        "bilateral",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair hyperintensity",
+        "cortical signal abnormality"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:40+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 254,
+      "total_tokens": 856
+    }
+  }
+}

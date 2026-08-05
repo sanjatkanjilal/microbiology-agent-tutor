@@ -1,0 +1,42 @@
+{
+  "Case_03131/figure1.jpg": {
+    "case_id": "Case_03131",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03131/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Necrotic lesion on the finger with surrounding erythema.",
+      "detailed_description": "This image shows a close-up view of a finger with a necrotic lesion on the dorsal surface near the distal phalanx. The lesion appears dark and necrotic, with a central eschar surrounded by erythema and mild swelling. The surrounding skin shows no obvious vesicles or pustules. The background includes a patterned medical gown, suggesting a clinical setting.",
+      "visible_findings": [
+        "necrotic lesion with central eschar",
+        "surrounding erythema",
+        "mild swelling of the finger"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "necrotic lesion",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "finger necrosis",
+        "infectious skin finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  }
+}

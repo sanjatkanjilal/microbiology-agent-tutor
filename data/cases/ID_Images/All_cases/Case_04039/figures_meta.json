@@ -1,0 +1,88 @@
+{
+  "Case_04039/figure1.jpg": {
+    "case_id": "Case_04039",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04039/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and upper extremities",
+      "short_caption": "Diffuse hyperpigmented plaques with scaling on the chest and arms.",
+      "detailed_description": "This clinical photograph shows the anterior chest and upper extremities of a patient with extensive hyperpigmented plaques. The lesions are irregularly distributed and exhibit scaling and crusting. The skin appears thickened in some areas, suggesting chronicity. The findings are consistent with a dermatologic condition, possibly related to an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "hyperpigmented plaques",
+        "scaling and crusting",
+        "thickened skin",
+        "irregular distribution of lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "arms",
+        "hyperpigmentation",
+        "plaques",
+        "scaling",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hyperpigmented plaques",
+        "chronic skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:09+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_04039/figure2.jpg": {
+    "case_id": "Case_04039",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04039/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "trunk and arm",
+      "short_caption": "Hyperpigmented plaques and nodules on the trunk and arm.",
+      "detailed_description": "This clinical photograph shows multiple hyperpigmented plaques and nodules distributed across the trunk and extending to the proximal arm. The lesions appear irregular in shape and size, with some showing crusting or scaling. The skin surrounding the lesions appears relatively normal. The distribution and morphology suggest a chronic dermatologic or infectious process.",
+      "visible_findings": [
+        "multiple hyperpigmented plaques",
+        "nodules of varying sizes",
+        "crusting and scaling on some lesions",
+        "involvement of trunk and proximal arm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "hyperpigmented plaques",
+        "nodules",
+        "trunk",
+        "arm",
+        "dermatologic lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "cutaneous lesions",
+        "hyperpigmented nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  }
+}

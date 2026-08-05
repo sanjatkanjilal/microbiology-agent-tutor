@@ -1,0 +1,43 @@
+{
+  "Case_03076/figure1.jpg": {
+    "case_id": "Case_03076",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03076/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and upper extremities",
+      "short_caption": "Diffuse papular rash on the chest and arms.",
+      "detailed_description": "This clinical photograph shows a male patient with a diffuse erythematous papular rash distributed across the chest, abdomen, and upper extremities. The lesions are small, raised, and appear to be scattered with some clustering. The patient’s arms are crossed over the chest, but the rash is visible on the forearms and hands as well. The background suggests a clinical setting.",
+      "visible_findings": [
+        "diffuse erythematous papular rash",
+        "lesions on chest, abdomen, arms, and hands",
+        "scattered and clustered distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "papular lesions",
+        "chest",
+        "arms",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "rash on chest",
+        "papular rash",
+        "skin findings in infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 239,
+      "total_tokens": 807
+    }
+  }
+}

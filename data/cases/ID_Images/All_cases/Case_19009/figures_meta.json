@@ -1,0 +1,128 @@
+{
+  "Case_19009/figure1.jpg": {
+    "case_id": "Case_19009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19009/figure1.jpg",
+    "source_caption": "Frontal chest XR showed prominent opacity in the right paratracheal region",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Frontal chest radiograph showing prominent opacity in the right paratracheal region.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating a prominent opacity in the right paratracheal region. The opacity appears well-defined and is located adjacent to the trachea, suggestive of a mediastinal or paratracheal abnormality. The lung fields are otherwise clear, and the cardiac silhouette is within normal limits. No obvious pleural effusion or pneumothorax is visible.",
+      "visible_findings": [
+        "prominent opacity in the right paratracheal region",
+        "clear lung fields",
+        "normal cardiac silhouette",
+        "no pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "paratracheal opacity",
+        "mediastinal abnormality"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "mediastinal mass",
+        "right paratracheal opacity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:49+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 256,
+      "total_tokens": 854
+    }
+  },
+  "Case_19009/figure2.jpg": {
+    "case_id": "Case_19009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19009/figure2.jpg",
+    "source_caption": "Figure 2: a) Axial CT chest revealed a 4 cm focal consolidative process in the medial right upper lobe with large central area of necrosis and early cavitation; b) Coronal CT chest revealed focal necrotizing consolidation with cavitation that extends from the right lung apex to the anterior of the right hilar region",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial and coronal CT images showing necrotizing consolidation with cavitation in the right upper lobe.",
+      "detailed_description": "This image consists of two CT chest views: (a) an axial view showing a 4 cm focal consolidative lesion in the medial right upper lobe with a large central area of necrosis and early cavitation, and (b) a coronal view revealing the same necrotizing consolidation with cavitation extending from the right lung apex to the anterior right hilar region. The lesion appears well-demarcated with evidence of tissue destruction and air-filled cavitation.",
+      "visible_findings": [
+        "focal consolidation in the right upper lobe",
+        "central necrosis with cavitation",
+        "extension of cavitation from apex to hilar region",
+        "air-filled spaces within the lesion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "right upper lobe",
+        "necrosis",
+        "cavitation",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung cavitation",
+        "necrotizing pneumonia",
+        "right upper lobe lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:53+00:00",
+    "usage": {
+      "prompt_tokens": 651,
+      "completion_tokens": 284,
+      "total_tokens": 935
+    }
+  },
+  "Case_19009/figure3.jpg": {
+    "case_id": "Case_19009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19009/figure3.jpg",
+    "source_caption": "Figure 3 a and b: Sagittal and coronal CT chest 1 month post completion of treatment revealed residual thin-walled cystic space",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Sagittal and coronal CT chest showing residual thin-walled cystic space post-treatment.",
+      "detailed_description": "This image consists of two CT chest views: axial (A) and coronal (B). Both images reveal a residual thin-walled cystic space in the lung parenchyma, likely representing a sequela of prior infection or treatment. The lung fields show no significant consolidation or active infiltrates. The mediastinum and surrounding structures appear unremarkable. The images are post-treatment, as indicated by the absence of acute findings.",
+      "visible_findings": [
+        "thin-walled cystic space in lung parenchyma",
+        "no significant consolidation",
+        "no active infiltrates",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cystic space",
+        "post-treatment",
+        "infection sequelae"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung cyst",
+        "post-treatment imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:53+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 255,
+      "total_tokens": 868
+    }
+  }
+}

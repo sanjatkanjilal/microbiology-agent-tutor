@@ -1,0 +1,293 @@
+{
+  "Case_10006/figure5.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure5.jpg",
+    "source_caption": "Pericardial tissue, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "pericardial tissue",
+      "short_caption": "Histopathology of pericardial tissue with H&E stain.",
+      "detailed_description": "This is a histopathological image of pericardial tissue stained with hematoxylin and eosin (H&E). The image shows a fibrous layer with inflammatory infiltrates and areas of tissue disruption. There is evidence of fibrin deposition and possible exudative changes, consistent with inflammation. The tissue layers are well-differentiated, with a clear separation between the fibrous and inflammatory regions.",
+      "visible_findings": [
+        "fibrous tissue layer",
+        "inflammatory infiltrates",
+        "fibrin deposition",
+        "tissue disruption"
+      ],
+      "keywords": [
+        "histopathology",
+        "pericardium",
+        "H&E stain",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "pericardial histology",
+        "pericarditis pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:27+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 247,
+      "total_tokens": 840
+    }
+  },
+  "Case_10006/figure2.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure2.jpg",
+    "source_caption": "EKG on admission.",
+    "description": {
+      "modality": "ECG",
+      "anatomical_site": "heart",
+      "short_caption": "12-lead ECG on admission showing electrical activity of the heart.",
+      "detailed_description": "This is a standard 12-lead ECG tracing showing the electrical activity of the heart. The leads are labeled as I, II, III, aVR, aVL, aVF, and V1-V6. The tracing appears on a pink grid background, typical of ECG paper, with standard calibration markers visible. The rhythm, intervals, and waveforms can be analyzed for abnormalities such as arrhythmias, ischemia, or conduction delays.",
+      "visible_findings": [
+        "12-lead ECG tracing",
+        "pink grid background",
+        "standard calibration markers",
+        "labeled leads I, II, III, aVR, aVL, aVF, V1-V6"
+      ],
+      "keywords": [
+        "ecg",
+        "heart",
+        "12-lead",
+        "cardiology",
+        "electrical activity",
+        "rhythm analysis"
+      ],
+      "reveal_triggers": [
+        "ekg",
+        "ecg",
+        "heart electrical activity",
+        "cardiac rhythm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:27+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 265,
+      "total_tokens": 852
+    }
+  },
+  "Case_10006/figure7.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure7.jpg",
+    "source_caption": "Pericardial tissue, acid-fast stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "pericardial tissue",
+      "short_caption": "Acid-fast stain of pericardial tissue showing acid-fast bacilli.",
+      "detailed_description": "This image shows a high-power view of pericardial tissue stained with an acid-fast stain. Numerous slender, red-staining bacilli are visible against a blue background, consistent with acid-fast organisms. The background tissue appears fibrous with scattered cellular elements, likely representing the pericardial tissue matrix. The staining highlights the presence of mycobacteria, which are characteristic of acid-fast organisms.",
+      "visible_findings": [
+        "red-staining bacilli consistent with acid-fast organisms",
+        "blue background tissue matrix",
+        "fibrous and cellular elements in the pericardial tissue"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "pericardial tissue",
+        "mycobacteria",
+        "infectious disease",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "pericardial tissue",
+        "mycobacteria infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:32+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 256,
+      "total_tokens": 848
+    }
+  },
+  "Case_10006/figure3.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure3.jpg",
+    "source_caption": "CT scan of the chest, lung view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral lung abnormalities. There are patchy areas of ground-glass opacities and consolidations visible in both lungs, more pronounced in the lower lobes. The heart appears enlarged, and there is no obvious pleural effusion. The scan is presented in a lung window setting, optimizing the visualization of pulmonary parenchymal changes.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation",
+        "enlarged cardiac silhouette",
+        "no pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung abnormalities",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:34+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 235,
+      "total_tokens": 826
+    }
+  },
+  "Case_10006/figure4.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure4.jpg",
+    "source_caption": "CT scan of the chest, mediastinal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of the chest, mediastinal view.",
+      "detailed_description": "This axial CT image of the chest shows the mediastinal structures. The heart is centrally located, and the surrounding mediastinal fat and structures are visible. The bony structures, including the vertebrae and ribs, are intact. No obvious masses, fluid collections, or other abnormalities are apparent in this image. The scan appears to be non-contrast, as no enhancement of vascular or soft tissue structures is evident.",
+      "visible_findings": [
+        "axial chest CT view",
+        "heart in central mediastinum",
+        "intact bony structures (vertebrae, ribs)",
+        "no visible masses or fluid collections",
+        "non-contrast appearance"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinum",
+        "axial view",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "mediastinal view",
+        "axial chest scan"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:34+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 255,
+      "total_tokens": 848
+    }
+  },
+  "Case_10006/figure1.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure1.jpg",
+    "source_caption": "Chest radiograph, on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing consolidation and pleural effusion.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing significant opacification in the right lower lung field, consistent with consolidation. There is also evidence of a right-sided pleural effusion, as indicated by blunting of the costophrenic angle. The heart and mediastinum appear shifted slightly to the left, possibly due to mass effect from the effusion. The left lung field appears relatively clear. No obvious fractures or bony abnormalities are visible.",
+      "visible_findings": [
+        "right lower lung consolidation",
+        "right-sided pleural effusion",
+        "blunting of the right costophrenic angle",
+        "mediastinal shift to the left"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pleural effusion",
+        "lung consolidation",
+        "infectious diseases",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "lung consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:36+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 261,
+      "total_tokens": 850
+    }
+  },
+  "Case_10006/figure6.jpg": {
+    "case_id": "Case_10006",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10006/figure6.jpg",
+    "source_caption": "Pericardial tissue, H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "pericardial tissue",
+      "short_caption": "Pericardial tissue showing inflammation, H&E stain.",
+      "detailed_description": "This histopathology image shows pericardial tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates dense inflammatory infiltrates composed predominantly of lymphocytes and plasma cells, with areas of necrosis and fibrin deposition. The architecture is disrupted, consistent with an inflammatory or infectious process. No specific organisms are visible at this magnification.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "lymphocytes and plasma cells",
+        "areas of necrosis",
+        "fibrin deposition",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "pericardial tissue",
+        "H&E stain",
+        "inflammation",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "pericardial histology",
+        "inflammatory infiltrate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:37+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  }
+}

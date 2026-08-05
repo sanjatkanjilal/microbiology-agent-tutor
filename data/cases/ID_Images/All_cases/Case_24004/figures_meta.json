@@ -1,0 +1,336 @@
+{
+  "Case_24004/figure1.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure1.jpg",
+    "source_caption": "Image 1: Ulcerated lesion of the chin, most advanced lesion at time of presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chin",
+      "short_caption": "Ulcerated lesion on the chin with central necrosis.",
+      "detailed_description": "This clinical photograph shows the lower face of an older individual, focusing on the chin. A single ulcerated lesion is visible on the midline of the chin. The lesion has a dark, necrotic center surrounded by erythematous and slightly raised borders. The surrounding skin appears wrinkled and aged, with no other visible lesions or abnormalities.",
+      "visible_findings": [
+        "ulcerated lesion on the chin",
+        "central necrosis within the lesion",
+        "erythematous and raised borders",
+        "wrinkled surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chin",
+        "ulcerated lesion",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcer on chin",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:49+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 231,
+      "total_tokens": 833
+    }
+  },
+  "Case_24004/figure2.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure2.jpg",
+    "source_caption": "Image 2: Lesion on nose of patient, stage prior to eschar formation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "nose",
+      "short_caption": "Lesion on the nose prior to eschar formation.",
+      "detailed_description": "This clinical photograph shows a lesion on the dorsum of the nose. The lesion appears erythematous with a central area of ulceration or necrosis. The surrounding skin shows no significant swelling or discoloration. The lesion is in a stage prior to eschar formation, as no dark scab is visible.",
+      "visible_findings": [
+        "erythematous lesion on the nose",
+        "central ulceration or necrosis",
+        "absence of eschar formation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "nose",
+        "lesion",
+        "ulceration",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesion on nose",
+        "infectious lesion",
+        "pre-eschar stage"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:50+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 213,
+      "total_tokens": 813
+    }
+  },
+  "Case_24004/figure3.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure3.jpg",
+    "source_caption": "Image 3a: All Grocott–Gömöri's methenamine silver stain Periodic acid–Schiff–diastase stains of lung biopsy: round/oval yeast with narrowed-based buds",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Grocott–Gömöri's methenamine silver stain showing round/oval yeast forms with narrow-based budding.",
+      "detailed_description": "This histopathology image of lung tissue is stained using Grocott–Gömöri's methenamine silver stain, which highlights fungal elements. Numerous round to oval yeast forms are visible, with some showing narrow-based budding. The fungal elements appear darkly stained against a lighter background, consistent with the staining technique. The periodic acid–Schiff–diastase stain further enhances the visualization of fungal structures.",
+      "visible_findings": [
+        "round/oval yeast forms",
+        "narrow-based budding",
+        "dark fungal elements highlighted by silver stain",
+        "lighter background tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung tissue",
+        "fungal infection",
+        "silver stain",
+        "yeast",
+        "narrow-based budding"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "fungal stain",
+        "silver stain",
+        "histopathology of yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:53+00:00",
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 278,
+      "total_tokens": 903
+    }
+  },
+  "Case_24004/figure6.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure6.jpg",
+    "source_caption": "Image 3d: All Grocott–Gömöri's methenamine silver stain Periodic acid–Schiff–diastase stains of lung biopsy: round/oval yeast with narrowed-based buds",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Grocott–Gömöri's methenamine silver stain showing round/oval yeast with narrow-based budding.",
+      "detailed_description": "This histopathology image shows a lung biopsy stained with Grocott–Gömöri's methenamine silver stain. Numerous round to oval yeast forms are visible, some exhibiting narrow-based budding. The fungal elements are highlighted in black against a green background, consistent with fungal organisms. The staining technique emphasizes the fungal cell walls, aiding in their identification.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "narrow-based budding",
+        "black-stained fungal elements",
+        "green background typical of silver stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "fungal infection",
+        "silver stain",
+        "yeast",
+        "narrow-based budding"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "silver stain",
+        "fungal histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:55+00:00",
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 243,
+      "total_tokens": 868
+    }
+  },
+  "Case_24004/figure7.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure7.jpg",
+    "source_caption": "Image 4: Histopathology of lung with intracellular Emergomyces: round/oval yeast with narrowed-based buds.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of lung showing intracellular round/oval yeast forms with narrow-based budding.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E). The tissue demonstrates numerous intracellular and extracellular round to oval yeast forms, some of which exhibit narrow-based budding. The yeast forms are distributed within a background of inflammatory infiltrate and fibrotic tissue. The findings are consistent with a fungal infection, potentially caused by Emergomyces or a similar organism.",
+      "visible_findings": [
+        "intracellular round/oval yeast forms",
+        "narrow-based budding",
+        "inflammatory infiltrate",
+        "fibrotic lung tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "fungal infection",
+        "yeast",
+        "narrow-based budding",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of lung",
+        "fungal infection in lung",
+        "yeast forms in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:55+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 253,
+      "total_tokens": 859
+    }
+  },
+  "Case_24004/figure8.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure8.jpg",
+    "source_caption": "Image 5: Emergomyces canandensis colonies grown on Potato Flake Agar. Colonies were slow growing, initially white with light red/brown and as they matured became white/tan with yellow and brown.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Emergomyces colonies on Potato Flake Agar showing white, tan, and yellow-brown pigmentation.",
+      "detailed_description": "This image shows a culture plate containing colonies of a fungal organism grown on Potato Flake Agar. The colonies are circular and exhibit a range of colors, including white, tan, and yellow-brown. The colonies appear to be slow-growing, with a fluffy texture and a slightly raised morphology. The plate is labeled 'p11,' and the agar medium is light brown in color.",
+      "visible_findings": [
+        "circular fungal colonies",
+        "white, tan, and yellow-brown pigmentation",
+        "fluffy texture",
+        "slightly raised morphology"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colonies",
+        "potato flake agar",
+        "emergomyces",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "potato flake agar",
+        "emergomyces colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:56+00:00",
+    "usage": {
+      "prompt_tokens": 626,
+      "completion_tokens": 247,
+      "total_tokens": 873
+    }
+  },
+  "Case_24004/figure4.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure4.jpg",
+    "source_caption": "Image 3b: All Grocott–Gömöri's methenamine silver stain Periodic acid–Schiff–diastase stains of lung biopsy: round/oval yeast with narrowed-based buds",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Grocott–Gömöri's methenamine silver stain of lung biopsy showing round/oval yeast with narrow-based budding.",
+      "detailed_description": "This image shows a lung biopsy stained with Grocott–Gömöri's methenamine silver stain. The stain highlights numerous round to oval yeast forms with narrow-based budding, appearing as black structures against a green background. The fungal organisms are distributed throughout the tissue, consistent with a fungal infection. The stain enhances the visualization of fungal cell walls, making the organisms prominent.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "narrow-based budding",
+        "black-stained fungal organisms",
+        "green-stained background tissue"
+      ],
+      "keywords": [
+        "grocott stain",
+        "lung biopsy",
+        "fungal infection",
+        "yeast",
+        "narrow-based budding",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "grocott stain",
+        "lung biopsy fungal infection",
+        "fungal histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:03+00:00",
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 256,
+      "total_tokens": 881
+    }
+  },
+  "Case_24004/figure5.jpg": {
+    "case_id": "Case_24004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24004/figure5.jpg",
+    "source_caption": "Image 3c: All Grocott–Gömöri's methenamine silver stain Periodic acid–Schiff–diastase stains of lung biopsy: round/oval yeast with narrowed-based buds",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Grocott–Gömöri's methenamine silver stain of lung biopsy showing round/oval yeast forms with narrow-based budding.",
+      "detailed_description": "This is a high-magnification image of lung tissue stained with Grocott–Gömöri's methenamine silver stain. The stain highlights numerous round to oval yeast forms, which appear as black structures against a green background. Several of the yeast forms exhibit narrow-based budding. The surrounding tissue shows a fibrous and cellular matrix, consistent with lung parenchyma. This staining technique is commonly used to identify fungal organisms in tissue samples.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "narrow-based budding",
+        "black-stained fungal elements",
+        "green-stained background of lung tissue"
+      ],
+      "keywords": [
+        "grocott stain",
+        "lung biopsy",
+        "fungal infection",
+        "yeast",
+        "narrow-based budding",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "grocott stain",
+        "lung biopsy",
+        "fungal infection",
+        "yeast forms in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:03+00:00",
+    "usage": {
+      "prompt_tokens": 625,
+      "completion_tokens": 277,
+      "total_tokens": 902
+    }
+  }
+}

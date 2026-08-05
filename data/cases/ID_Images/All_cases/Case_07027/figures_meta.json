@@ -1,0 +1,126 @@
+{
+  "Case_07027/figure1.jpg": {
+    "case_id": "Case_07027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07027/figure1.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing hypodense lesions in the liver.",
+      "detailed_description": "This axial CT image of the abdomen shows the liver with multiple hypodense lesions, some of which are labeled (A and B). These lesions suggest possible abscesses or other focal hepatic abnormalities. The kidneys and other abdominal structures are visible, with no obvious abnormalities noted in these regions. The image is a contrast-enhanced study, as evidenced by the differentiation of vascular structures.",
+      "visible_findings": [
+        "hypodense lesions in the liver",
+        "contrast-enhanced vascular structures",
+        "normal appearance of kidneys"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesions",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "liver lesions",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:56+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 224,
+      "total_tokens": 811
+    }
+  },
+  "Case_07027/figure2.jpg": {
+    "case_id": "Case_07027",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07027/figure2.jpg",
+    "source_caption": "ERCP findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "biliary tree",
+      "short_caption": "ERCP image showing biliary tree with contrast injection.",
+      "detailed_description": "This endoscopic retrograde cholangiopancreatography (ERCP) image shows a catheter inserted into the biliary tree. Contrast material highlights the biliary ducts, which appear dilated and irregular in some areas. The surrounding anatomy is faintly visible. The image demonstrates the biliary system under fluoroscopy, likely to evaluate for obstruction or infection.",
+      "visible_findings": [
+        "catheter inserted into biliary tree",
+        "contrast-enhanced biliary ducts",
+        "dilated and irregular biliary ducts",
+        "fluoroscopic imaging of surrounding anatomy"
+      ],
+      "keywords": [
+        "endoscopy",
+        "ercp",
+        "biliary tree",
+        "contrast",
+        "fluoroscopy",
+        "infection",
+        "obstruction"
+      ],
+      "reveal_triggers": [
+        "ercp",
+        "biliary tree imaging",
+        "contrast study of bile ducts"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:58+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_07027/figure3.jpg": {
+    "case_id": "Case_07027",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07027/figure3.jpg",
+    "source_caption": "ERCP findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "biliary system",
+      "short_caption": "Endoscopic retrograde cholangiopancreatography (ERCP) showing biliary duct cannulation.",
+      "detailed_description": "This endoscopic image shows the biliary system during an ERCP procedure. A catheter or cannula is seen entering the ampulla of Vater, with surrounding mucosa appearing erythematous and inflamed. The image demonstrates successful cannulation of the biliary duct, likely for diagnostic or therapeutic purposes. The presence of bile or contrast material may be inferred from the dark fluid visible near the cannula.",
+      "visible_findings": [
+        "cannulation of the ampulla of Vater",
+        "erythematous and inflamed mucosa",
+        "dark fluid near the cannula, possibly bile or contrast"
+      ],
+      "keywords": [
+        "endoscopy",
+        "biliary system",
+        "ERCP",
+        "ampulla of Vater",
+        "cannulation",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "ERCP",
+        "biliary endoscopy",
+        "ampulla of Vater"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 259,
+      "total_tokens": 845
+    }
+  }
+}

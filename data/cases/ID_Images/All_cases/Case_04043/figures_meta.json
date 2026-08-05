@@ -1,0 +1,47 @@
+{
+  "Case_04043/figure1.jpg": {
+    "case_id": "Case_04043",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04043/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand and forearm",
+      "short_caption": "Severe crusted and hyperkeratotic lesions on the hand and forearm.",
+      "detailed_description": "This clinical photograph shows a hand and forearm with extensive crusting, hyperkeratosis, and scaling. The lesions are thickened and yellowish, with areas of fissuring and deformity. The involvement appears severe, with significant disruption of normal skin architecture. The condition is likely chronic, given the extent of keratin buildup and deformity.",
+      "visible_findings": [
+        "thick yellowish crusts",
+        "hyperkeratosis",
+        "fissuring",
+        "deformity of the hand",
+        "extensive scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "forearm",
+        "crusting",
+        "hyperkeratosis",
+        "infectious diseases",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesions",
+        "hyperkeratosis",
+        "crusted skin infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:35:13+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 250,
+      "total_tokens": 674
+    }
+  }
+}

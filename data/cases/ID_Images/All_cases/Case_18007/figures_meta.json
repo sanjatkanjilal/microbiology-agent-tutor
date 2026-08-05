@@ -1,0 +1,225 @@
+{
+  "Case_18007/figure2.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure2.jpg",
+    "source_caption": "Figure 2: Photograph of right elbow showing non-healing ulceration. The lesion was associated with thickened nerves and hypoesthesia.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:02:36+00:00"
+  },
+  "Case_18007/figure4.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure4.jpg",
+    "source_caption": "Figure 4: Chest X-ray at presentation demonstrated a miliary pattern",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing diffuse miliary pattern in the lungs.",
+      "detailed_description": "This is a frontal chest radiograph showing diffuse, small, nodular opacities throughout both lung fields, consistent with a miliary pattern. The heart and mediastinal structures appear normal in size and contour. No obvious pleural effusion or pneumothorax is visible. The miliary pattern suggests hematogenous dissemination, commonly seen in infections such as miliary tuberculosis.",
+      "visible_findings": [
+        "diffuse, small, nodular opacities throughout both lungs",
+        "normal heart and mediastinal contours",
+        "no pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "miliary pattern",
+        "nodular opacities",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "miliary tuberculosis",
+        "diffuse lung nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:41+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 248,
+      "total_tokens": 845
+    }
+  },
+  "Case_18007/figure5.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure5.jpg",
+    "source_caption": "Figure 5: Fite-Faraco stain of skin biopsy demonstrating very large numbers of acid fast organisms (arrow) within histiocytes, cutaneous nerves, and in epithelial cells. The bacillary index was 6+. (400x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Fite-Faraco stain showing abundant acid-fast bacilli within histiocytes and epithelial cells.",
+      "detailed_description": "This histopathology image demonstrates a Fite-Faraco stain of a skin biopsy at 400x magnification. Numerous acid-fast bacilli are visible as bright pink rods within histiocytes, epithelial cells, and cutaneous nerves. The organisms are densely packed, consistent with a high bacillary index. The background tissue is stained blue, highlighting cellular structures and providing contrast for the acid-fast organisms. An arrow points to a cluster of bacilli.",
+      "visible_findings": [
+        "acid-fast bacilli stained bright pink",
+        "dense clusters of bacilli within histiocytes and epithelial cells",
+        "blue-stained background tissue",
+        "arrow indicating bacilli cluster"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "fite-faraco stain",
+        "acid-fast bacilli",
+        "infectious disease",
+        "leprosy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "fite-faraco stain",
+        "acid-fast organisms",
+        "histopathology of leprosy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:41+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 284,
+      "total_tokens": 916
+    }
+  },
+  "Case_18007/figure1.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of right anterior chest wall showing non-healing ulceration with multiple areas of hypopigmented macules",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right anterior chest wall",
+      "short_caption": "Photograph of right anterior chest wall showing ulceration and hypopigmented macules.",
+      "detailed_description": "This clinical photograph depicts the right anterior chest wall of a patient. There is a non-healing ulcer with irregular borders and erythematous base. Surrounding the ulcer, multiple hypopigmented macules are visible. A sterile dressing is partially visible in the lower portion of the image, covering another area. The skin appears hyperpigmented in some regions, and the overall appearance suggests a chronic process.",
+      "visible_findings": [
+        "non-healing ulcer with irregular borders",
+        "erythematous base of the ulcer",
+        "multiple hypopigmented macules",
+        "sterile dressing on the lower chest wall",
+        "hyperpigmented surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest wall",
+        "ulcer",
+        "hypopigmented macules",
+        "non-healing lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "chest wall lesion",
+        "non-healing ulcer",
+        "hypopigmented macules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:48+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 282,
+      "total_tokens": 891
+    }
+  },
+  "Case_18007/figure3.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure3.jpg",
+    "source_caption": "Figure 3: Photograph of lower limbs showing multiple hypopigmented confluent macules and deformed ankle and feet consistent with Charcot joints. There was associated loss of proprioception.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower limbs",
+      "short_caption": "Photograph of lower limbs showing hypopigmented macules and deformities consistent with Charcot joints.",
+      "detailed_description": "This clinical photograph shows the lower limbs of a patient with visible hypopigmented, confluent macules on the skin. The feet and ankles appear deformed, with features suggestive of Charcot joint changes, such as bony prominences and abnormal joint alignment. The skin appears dry and slightly shiny, possibly indicating trophic changes. The positioning suggests a clinical examination setting.",
+      "visible_findings": [
+        "hypopigmented macules on lower limbs",
+        "deformities of ankles and feet",
+        "bony prominences and abnormal joint alignment",
+        "dry and shiny skin appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower limbs",
+        "hypopigmented macules",
+        "Charcot joints",
+        "deformities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower limb deformities",
+        "Charcot joints",
+        "hypopigmented macules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:48+00:00",
+    "usage": {
+      "prompt_tokens": 620,
+      "completion_tokens": 266,
+      "total_tokens": 886
+    }
+  },
+  "Case_18007/figure6.jpg": {
+    "case_id": "Case_18007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18007/figure6.jpg",
+    "source_caption": "Figure 6: H&E stain of skin biopsy showing prominent neutrophils (arrow), consistent with erythema nodosum leprosum. (400x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing neutrophilic infiltrate, consistent with erythema nodosum leprosum.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of a skin biopsy at high magnification (400x). The tissue demonstrates a prominent neutrophilic infiltrate, as indicated by the arrow, within a background of dermal inflammation. The findings are consistent with erythema nodosum leprosum, a reactional state in leprosy. The cellular details and inflammatory infiltrate are well visualized.",
+      "visible_findings": [
+        "prominent neutrophilic infiltrate",
+        "dermal inflammation",
+        "arrow indicating a focus of neutrophils"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "neutrophils",
+        "erythema nodosum leprosum",
+        "leprosy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "erythema nodosum leprosum histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:53+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 275,
+      "total_tokens": 891
+    }
+  }
+}

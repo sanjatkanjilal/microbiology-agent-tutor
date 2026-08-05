@@ -1,0 +1,42 @@
+{
+  "Case_08023/figure1.jpg": {
+    "case_id": "Case_08023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08023/figure1.jpg",
+    "source_caption": "Figure 1.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": null,
+      "short_caption": "Engorged tick, likely a vector for infectious diseases.",
+      "detailed_description": "This is a clinical photograph of an engorged tick, with a rounded body and visible legs extending from the anterior portion. The tick appears to be in a fully fed state, as indicated by the distended abdomen. The image is clear and focused, showing the characteristic morphology of a tick, including its segmented body and small head. The background is plain, emphasizing the tick as the central subject.",
+      "visible_findings": [
+        "engorged tick with distended abdomen",
+        "visible legs extending from anterior portion",
+        "segmented body structure"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tick",
+        "vector",
+        "infectious diseases",
+        "arthropod"
+      ],
+      "reveal_triggers": [
+        "tick identification",
+        "arthropod vector",
+        "infectious disease vector"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:23+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "Case_02066/figure1.jpg": {
+    "case_id": "Case_02066",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02066/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan showing a large fluid collection in the right upper abdomen.",
+      "detailed_description": "This axial CT image of the abdomen shows a large, well-defined hypodense area in the right upper quadrant, consistent with a fluid collection. The lesion appears to displace adjacent structures, including the liver and diaphragm. The surrounding tissues do not show significant enhancement, and there is no clear evidence of gas within the collection. The findings are suggestive of an abscess or other fluid-filled lesion.",
+      "visible_findings": [
+        "large hypodense fluid collection in the right upper quadrant",
+        "displacement of adjacent structures including the liver and diaphragm",
+        "no visible gas within the lesion"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid collection",
+        "abscess",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "fluid collection in abdomen",
+        "abscess imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:18+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  },
+  "Case_02066/figure2.jpg": {
+    "case_id": "Case_02066",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02066/figure2.jpg",
+    "source_caption": "Gram stain.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching filamentous bacteria.",
+      "detailed_description": "This is a Gram stain image showing thin, branching, filamentous structures stained dark blue against a pink background. The background appears amorphous and may represent tissue or debris. The branching morphology is characteristic of certain filamentous bacteria, such as Actinomyces or Nocardia. The image is magnified to highlight the bacterial structures.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "dark blue staining of bacterial filaments",
+        "pink amorphous background"
+      ],
+      "keywords": [
+        "gram stain",
+        "filamentous bacteria",
+        "branching",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:18+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 213,
+      "total_tokens": 798
+    }
+  },
+  "Case_02066/figure3.jpg": {
+    "case_id": "Case_02066",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02066/figure3.jpg",
+    "source_caption": "Fluorescent stain.",
+    "description": {
+      "modality": "fluorescent stain",
+      "anatomical_site": "null",
+      "short_caption": "Fluorescent stain showing filamentous structures.",
+      "detailed_description": "This image shows a fluorescent stain with a green background and prominent filamentous structures, likely fungal hyphae, visible in the center. The fluorescence highlights the branching and filamentous morphology, which is consistent with fungal elements. The image appears to be taken at a microscopic level, with the fluorescent stain enhancing the visibility of the structures.",
+      "visible_findings": [
+        "green fluorescent background",
+        "branching filamentous structures",
+        "central cluster of filaments"
+      ],
+      "keywords": [
+        "fluorescent stain",
+        "fungal hyphae",
+        "microscopy",
+        "infectious diseases",
+        "filamentous structures"
+      ],
+      "reveal_triggers": [
+        "fluorescent stain",
+        "fungal microscopy",
+        "hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:25+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 217,
+      "total_tokens": 804
+    }
+  }
+}

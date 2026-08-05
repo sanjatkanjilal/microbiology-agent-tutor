@@ -1,0 +1,373 @@
+{
+  "Case_17022/figure2.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure2.jpg",
+    "source_caption": "Figure 2: Extensor surface of the right wrist at presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right wrist, extensor surface",
+      "short_caption": "Clinical photograph of the extensor surface of the right wrist showing a raised lesion.",
+      "detailed_description": "This image shows the extensor surface of the right wrist. A single, raised, well-circumscribed lesion is visible, with a slightly lighter color compared to the surrounding skin. The lesion appears smooth and is not associated with visible erythema or scaling. The surrounding skin appears otherwise normal.",
+      "visible_findings": [
+        "raised, well-circumscribed lesion",
+        "slightly lighter color compared to surrounding skin",
+        "smooth surface",
+        "no visible erythema or scaling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "wrist",
+        "skin lesion",
+        "extensor surface",
+        "dermatology"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "wrist lesion",
+        "extensor surface lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:58+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 228,
+      "total_tokens": 824
+    }
+  },
+  "Case_17022/figure4.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure4.jpg",
+    "source_caption": "Figure 4: MRI of the right hand",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right hand",
+      "short_caption": "MRI of the right hand showing dorsal cystic masses in the middle finger and fourth MCP joint.",
+      "detailed_description": "This MRI image of the right hand demonstrates two distinct cystic masses. The first mass, measuring 2.3 x 1.4 x 5.8 cm, is located in the dorsal aspect of the middle finger, overlying the proximal and middle phalanges. The second mass, measuring 1.8 x 1.6 x 2 cm, is situated at the dorsal aspect of the fourth MCP joint, extending medially into the interspace between the heads of the third and fourth metacarpals. The image is presented in axial views, highlighting soft tissue and fluid-filled structures.",
+      "visible_findings": [
+        "Cystic mass in the dorsal aspect of the middle finger overlying proximal and middle phalanges.",
+        "Cystic mass at the dorsal aspect of the fourth MCP joint extending medially.",
+        "Soft tissue and fluid-filled structures visible in axial MRI views."
+      ],
+      "keywords": [
+        "mri",
+        "right hand",
+        "cystic mass",
+        "middle finger",
+        "fourth mcp joint",
+        "soft tissue",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "mri of hand",
+        "soft tissue cyst",
+        "middle finger mass",
+        "fourth mcp joint mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:58+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 329,
+      "total_tokens": 921
+    }
+  },
+  "Case_17022/figure1.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure1.jpg",
+    "source_caption": "Figure 1: Right hand at presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand",
+      "short_caption": "Clinical photograph of the right hand showing nodular lesions and skin changes.",
+      "detailed_description": "This image shows the dorsal aspect of a right hand with visible nodular lesions, particularly over the proximal phalanx of the middle finger and near the metacarpophalangeal joint. The skin over the lesions appears raised and hyperpigmented, with some areas of scaling or desquamation. The surrounding skin shows no overt erythema or swelling. The nails appear intact, though the middle fingernail shows subtle irregularities.",
+      "visible_findings": [
+        "nodular lesion on the proximal phalanx of the middle finger",
+        "hyperpigmentation over the lesions",
+        "scaling or desquamation of the skin",
+        "intact nails with subtle irregularity on the middle fingernail"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right hand",
+        "nodular lesion",
+        "skin changes",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesion",
+        "nodular skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:58+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 266,
+      "total_tokens": 857
+    }
+  },
+  "Case_17022/figure3.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure3.jpg",
+    "source_caption": "Figure 3: X-ray of the right hand",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "right hand",
+      "short_caption": "X-ray of the right hand showing soft tissue masses at the PIP of the third finger and MCP area.",
+      "detailed_description": "The image shows two X-ray views of the right hand: anteroposterior (AP) and lateral. In the AP view, a dense fusiform soft tissue mass is visible at the level of the proximal interphalangeal (PIP) joint of the third finger. In the lateral view, a smaller soft tissue mass is noted over the metacarpophalangeal (MCP) area of the same finger. No obvious bony destruction or fractures are seen.",
+      "visible_findings": [
+        "fusiform soft tissue mass at the PIP joint of the third finger",
+        "small soft tissue mass over the MCP area of the third finger",
+        "no visible bony destruction",
+        "no fractures"
+      ],
+      "keywords": [
+        "x-ray",
+        "right hand",
+        "soft tissue mass",
+        "PIP joint",
+        "MCP area"
+      ],
+      "reveal_triggers": [
+        "x-ray of hand",
+        "soft tissue mass",
+        "PIP joint swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:58+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 281,
+      "total_tokens": 874
+    }
+  },
+  "Case_17022/figure5.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure5.jpg",
+    "source_caption": "Figure 5: Periodic acid-Schiff stain demonstrated septated fungal hyphae (black arrows)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Periodic acid-Schiff stain showing septated fungal hyphae (black arrows).",
+      "detailed_description": "This histopathology image is stained with periodic acid-Schiff (PAS), highlighting fungal elements in magenta against a purple background. Two black arrows point to septated fungal hyphae, which are slender and branching. Surrounding tissue shows inflammatory infiltrates, suggesting an infectious process. The PAS stain enhances carbohydrate-rich structures, aiding in fungal identification.",
+      "visible_findings": [
+        "septated fungal hyphae",
+        "magenta fungal elements on PAS stain",
+        "inflammatory infiltrates in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "periodic acid-schiff stain",
+        "fungal hyphae",
+        "infection",
+        "septated hyphae"
+      ],
+      "reveal_triggers": [
+        "pas stain",
+        "fungal infection histology",
+        "septated hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:58+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 238,
+      "total_tokens": 841
+    }
+  },
+  "Case_17022/figure9.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure9.jpg",
+    "source_caption": "Figure 9: Photograph of the right hand 10 months after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand",
+      "short_caption": "Photograph of the right hand 10 months after treatment.",
+      "detailed_description": "This image shows the dorsal aspect of the right hand. The skin appears generally intact, with mild discoloration and hyperpigmentation over the proximal interphalangeal joint of the middle finger. There are no visible open wounds, ulcers, or significant deformities. The nails appear normal, with no evident dystrophy or discoloration. The image suggests a healed or resolving condition following prior treatment.",
+      "visible_findings": [
+        "mild hyperpigmentation over proximal interphalangeal joint of middle finger",
+        "intact skin",
+        "normal-appearing nails"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right hand",
+        "hyperpigmentation",
+        "post-treatment",
+        "skin findings"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand photograph",
+        "post-treatment skin changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:03+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 231,
+      "total_tokens": 828
+    }
+  },
+  "Case_17022/figure7.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure7.jpg",
+    "source_caption": "Figure 7: Horse blood agar (left) and Sabouraud agar (right) – Growth after 4 days showed velvety gray colonies with a black reverse.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Horse blood agar and Sabouraud agar showing velvety gray colonies with a black reverse after 4 days.",
+      "detailed_description": "This image shows two culture plates: horse blood agar on the left and Sabouraud agar on the right. Both plates display growth of colonies with a velvety gray appearance. The colonies on the horse blood agar have a black reverse, which is visible through the translucent medium. The growth pattern is dense and organized in streaks, consistent with inoculation techniques. The findings suggest fungal growth, possibly a dematiaceous (darkly pigmented) fungus.",
+      "visible_findings": [
+        "velvety gray colonies",
+        "black reverse visible on horse blood agar",
+        "dense streaked growth pattern",
+        "two different agar types: horse blood agar (red) and Sabouraud agar (clear)"
+      ],
+      "keywords": [
+        "culture plate",
+        "horse blood agar",
+        "sabouraud agar",
+        "fungal colonies",
+        "velvety gray colonies",
+        "black reverse"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "fungal growth",
+        "horse blood agar",
+        "sabouraud agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:03+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 285,
+      "total_tokens": 902
+    }
+  },
+  "Case_17022/figure8.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure8.jpg",
+    "source_caption": "Figure 8: Photomicrography showed septate hyphae with ellipsoidal conidia",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Photomicrograph showing septate hyphae with ellipsoidal conidia.",
+      "detailed_description": "This photomicrograph demonstrates a dense network of septate hyphae with branching patterns. Ellipsoidal conidia are visible, arranged in clusters along the hyphae. The image appears to be taken under high magnification with a fungal-specific stain, highlighting the structural details of the fungal elements. The staining technique enhances the contrast, making the hyphae and conidia clearly distinguishable.",
+      "visible_findings": [
+        "septate hyphae",
+        "ellipsoidal conidia",
+        "branching fungal structures",
+        "high magnification fungal stain"
+      ],
+      "keywords": [
+        "photomicrograph",
+        "fungal stain",
+        "septate hyphae",
+        "conidia",
+        "mycology"
+      ],
+      "reveal_triggers": [
+        "fungal microscopy",
+        "septate hyphae",
+        "conidia identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:04+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 258,
+      "total_tokens": 862
+    }
+  },
+  "Case_17022/figure6.jpg": {
+    "case_id": "Case_17022",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17022/figure6.jpg",
+    "source_caption": "Figure 6: Sabouraud's dextrose agar with an olive-black velvet colony and a black reverse",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Sabouraud's dextrose agar with an olive-black, velvety colony and a dark reverse.",
+      "detailed_description": "This image shows a culture on Sabouraud's dextrose agar. The colony has a velvety texture and an olive-black coloration on the surface. The reverse side of the colony appears dark, consistent with pigmentation often seen in certain fungal species. The culture is contained within a glass container, and the setup suggests fungal growth under laboratory conditions.",
+      "visible_findings": [
+        "olive-black velvety colony",
+        "dark reverse pigmentation",
+        "growth on Sabouraud's dextrose agar",
+        "glass container"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colony",
+        "sabouraud's agar",
+        "olive-black colony",
+        "dark reverse"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "sabouraud's agar",
+        "olive-black colony"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:10+00:00",
+    "usage": {
+      "prompt_tokens": 605,
+      "completion_tokens": 239,
+      "total_tokens": 844
+    }
+  }
+}

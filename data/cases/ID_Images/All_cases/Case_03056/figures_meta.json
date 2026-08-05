@@ -1,0 +1,125 @@
+{
+  "Case_03056/figure1.jpg": {
+    "case_id": "Case_03056",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03056/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image shows a cavitary lesion in the right lung, with surrounding parenchymal changes. The lesion appears to have a thick wall and is located in the upper lobe. The mediastinal structures are visible, and there is no obvious pleural effusion. The scan is presented in lung window settings.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "thick-walled cavity",
+        "surrounding parenchymal changes",
+        "no pleural effusion visible"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "parenchymal changes"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:28+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 226,
+      "total_tokens": 812
+    }
+  },
+  "Case_03056/figure2.jpg": {
+    "case_id": "Case_03056",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03056/figure2.jpg",
+    "source_caption": "Figure 2. Gram stain of blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing branching, filamentous bacteria in a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture. The bacteria appear as branching, filamentous structures that stain purple, indicating they are Gram-positive. The background contains scattered cellular debris and other artifacts. The morphology is suggestive of an organism such as Nocardia or Actinomyces, though definitive identification would require further testing.",
+      "visible_findings": [
+        "branching, filamentous bacteria",
+        "Gram-positive staining (purple)",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "branching bacteria",
+        "gram-positive",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "branching bacteria",
+        "nocardia",
+        "actinomyces"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:30+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 222,
+      "total_tokens": 814
+    }
+  },
+  "Case_03056/figure3.jpg": {
+    "case_id": "Case_03056",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03056/figure3.jpg",
+    "source_caption": "Modified acid-fast stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Modified acid-fast stain showing branching filamentous organisms.",
+      "detailed_description": "This image shows a modified acid-fast stain with pink-stained branching filamentous organisms against a lighter background. The organisms are consistent with the morphology of Nocardia species, which are partially acid-fast. The staining highlights the organisms' structure, aiding in their identification.",
+      "visible_findings": [
+        "pink-stained branching filamentous organisms",
+        "lighter background contrast",
+        "morphology consistent with partially acid-fast bacteria"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "nocardia",
+        "branching filaments",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "nocardia morphology",
+        "branching filamentous bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:35+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 206,
+      "total_tokens": 793
+    }
+  }
+}

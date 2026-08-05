@@ -1,0 +1,85 @@
+{
+  "Case_03077/figure1.jpg": {
+    "case_id": "Case_03077",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03077/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing hyperintensity in the periventricular white matter.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain demonstrates symmetrical hyperintense signal changes in the periventricular white matter surrounding the lateral ventricles. The ventricles appear normal in size and shape. The cortical gray matter and subcortical white matter show no obvious abnormalities. The findings may suggest demyelination or other white matter pathology.",
+      "visible_findings": [
+        "hyperintense signal in periventricular white matter",
+        "normal-sized lateral ventricles",
+        "no obvious cortical abnormalities"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "periventricular",
+        "white matter",
+        "hyperintensity"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "white matter hyperintensity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 243,
+      "total_tokens": 811
+    }
+  },
+  "Case_03077/figure2.jpg": {
+    "case_id": "Case_03077",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03077/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial FLAIR MRI showing hyperintense lesions in the periventricular white matter.",
+      "detailed_description": "This axial FLAIR MRI image of the brain demonstrates hyperintense lesions in the periventricular white matter, which are symmetrically distributed around the lateral ventricles. The lesions are suggestive of inflammation or demyelination. The FLAIR sequence suppresses CSF signal, enhancing the visibility of white matter abnormalities.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "symmetrical distribution of lesions",
+        "lateral ventricles clearly visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintense lesions",
+        "periventricular",
+        "white matter",
+        "demyelination"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair sequence",
+        "white matter lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  }
+}

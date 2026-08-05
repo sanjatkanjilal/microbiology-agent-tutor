@@ -1,0 +1,44 @@
+{
+  "Case_01003/figure1.jpg": {
+    "case_id": "Case_01003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01003/figure1.jpg",
+    "source_caption": "Figure 1. Culture results.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial colonies on a blood agar plate.",
+      "detailed_description": "This image shows a blood agar plate with distinct yellow, raised, and irregular bacterial colonies. The colonies appear to have a rough texture and are surrounded by a red agar medium, which is typical for blood agar. The colonies are clustered in some areas and isolated in others. No hemolysis is evident around the colonies.",
+      "visible_findings": [
+        "yellow bacterial colonies",
+        "raised and irregular morphology",
+        "rough texture",
+        "red blood agar medium",
+        "no visible hemolysis"
+      ],
+      "keywords": [
+        "culture plate",
+        "bacteria",
+        "blood agar",
+        "colonies",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "culture results",
+        "bacterial colonies",
+        "blood agar plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:43+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 212,
+      "total_tokens": 801
+    }
+  }
+}

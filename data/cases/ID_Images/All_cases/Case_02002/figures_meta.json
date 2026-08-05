@@ -1,0 +1,83 @@
+{
+  "Case_02002/figure2.jpg": {
+    "case_id": "Case_02002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02002/figure2.jpg",
+    "source_caption": "Giemsa stain skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Giemsa stain of skin biopsy showing intracellular and extracellular organisms.",
+      "detailed_description": "This image shows a Giemsa-stained preparation of a skin biopsy. The stain highlights intracellular and extracellular round structures, consistent with organisms. The purple-stained structures are prominent and appear to have a central nucleus-like feature. The background shows scattered cellular debris and faint staining. The magnification suggests a microscopic view suitable for identifying pathogens.",
+      "visible_findings": [
+        "purple-stained round structures",
+        "intracellular and extracellular organisms",
+        "scattered cellular debris"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "skin biopsy",
+        "infectious organisms",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "giemsa stain",
+        "infectious organisms microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:50+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 212,
+      "total_tokens": 801
+    }
+  },
+  "Case_02002/figure1.jpg": {
+    "case_id": "Case_02002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02002/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper arm",
+      "short_caption": "Erythematous lesion with central crusting on the upper arm.",
+      "detailed_description": "This image shows a close-up view of the upper arm with a single, round lesion. The lesion is erythematous with a central area of crusting or scabbing. Surrounding the lesion, there is mild redness extending into the adjacent skin. The lesion appears to be well-demarcated and slightly raised.",
+      "visible_findings": [
+        "erythematous lesion",
+        "central crusting",
+        "mild surrounding redness",
+        "well-demarcated edges"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "lesion",
+        "erythema",
+        "crusting",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infectious skin condition",
+        "erythematous lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 224,
+      "total_tokens": 792
+    }
+  }
+}

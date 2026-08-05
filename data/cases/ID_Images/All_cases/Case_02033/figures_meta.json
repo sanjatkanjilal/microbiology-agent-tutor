@@ -1,0 +1,86 @@
+{
+  "Case_02033/figure1.jpg": {
+    "case_id": "Case_02033",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02033/figure1.jpg",
+    "source_caption": "Head CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial head CT showing orbital and sinus abnormalities.",
+      "detailed_description": "This axial CT scan of the head demonstrates significant abnormalities in the orbital and sinus regions. The right orbit appears to have a large, well-defined lesion with heterogeneous density, possibly suggestive of an abscess or mass. The adjacent sinuses show opacification, consistent with sinusitis or other inflammatory processes. There is evidence of bony erosion, particularly involving the orbital walls, which may indicate an invasive process. No contrast enhancement is visible in this image.",
+      "visible_findings": [
+        "heterogeneous lesion in the right orbit",
+        "opacification of adjacent sinuses",
+        "bony erosion of orbital walls"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "orbit",
+        "sinus",
+        "lesion",
+        "bony erosion",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "head CT",
+        "orbital lesion",
+        "sinus infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:14+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_02033/figure2.jpg": {
+    "case_id": "Case_02033",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02033/figure2.jpg",
+    "source_caption": "Aspergillus fumigatus.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing septate hyphae with acute angle branching.",
+      "detailed_description": "This histopathology image shows fungal hyphae with septations and acute angle branching, characteristic of Aspergillus species. The hyphae are thin and uniform in width, with a branching pattern that is consistent with the morphology of Aspergillus. The background tissue appears stained with hematoxylin and eosin (H&E), highlighting the fungal structures against the surrounding tissue.",
+      "visible_findings": [
+        "septate fungal hyphae",
+        "acute angle branching",
+        "uniform hyphal width",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "aspergillus",
+        "fungal infection",
+        "septate hyphae",
+        "acute angle branching",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of aspergillus",
+        "fungal hyphae",
+        "acute angle branching"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:23+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 246,
+      "total_tokens": 835
+    }
+  }
+}

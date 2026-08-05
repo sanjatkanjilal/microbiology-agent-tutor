@@ -1,16 +1,34 @@
 """Chat-related API endpoints."""
 
+import asyncio
 import logging
 from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, status
+from pydantic import BaseModel, Field
 
 from microtutor.api.dependencies import get_tutor_service
 from microtutor.api.dependencies import get_db
 from microtutor.core.config.config_helper import config
 from microtutor.schemas.api.requests import StartCaseRequest, ChatRequest, FeedbackRequest, CaseFeedbackRequest
-from microtutor.schemas.api.responses import StartCaseResponse, ChatResponse, ErrorResponse
+from microtutor.schemas.api.responses import StartCaseResponse, ChatResponse, ErrorResponse, OpeningMessage
 from microtutor.schemas.domain.domain import TutorContext
+from microtutor.prompts.patient_prompts import normalize_patient_style
+from microtutor.services.case import (
+    CaseOpeningSnapshot,
+    get_case_package_store,
+    resolve_case_package,
+    resolve_case_package_by_id,
+)
+from microtutor.services.case.figure_catalog import (
+    allowed_figure_numbers,
+    build_figure_catalog,
+    parse_display_figures,
+)
+from microtutor.services.case.speaker_markers import parse_agent_markers
+from microtutor.services.emr import get_emr_service
+from microtutor.services.emr.service import notes_to_emr_data
 from microtutor.services.infrastructure.background import BackgroundTaskService, get_background_service
 from microtutor.services.tutor.service import TutorService
 from sqlalchemy.orm import Session
@@ -18,6 +36,185 @@ from sqlalchemy import text
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
+
+# Tools whose replies should feed structured EMR extraction
+_EMR_SOURCE_TOOLS = {"patient", "tests_management"}
+
+
+def _ensure_package_figure_catalog(package) -> list:
+    """Lazily backfill catalog for sessions started before vision wiring."""
+    if not package:
+        return []
+    if package.figure_catalog:
+        return list(package.figure_catalog)
+    if package.library_case_id and package.figures:
+        package.figure_catalog = build_figure_catalog(
+            package.library_case_id,
+            package.figures,
+            narrative=package.narrative or "",
+        )
+    return list(package.figure_catalog or [])
+
+
+async def _start_case_locked(
+    *,
+    request: StartCaseRequest,
+    tutor_service: TutorService,
+    background_service: BackgroundTaskService,
+    model_name: str,
+    store,
+) -> StartCaseResponse:
+    """Body of start_case; caller must hold store.get_start_lock(case_id)."""
+    session_settings = store.put_settings(
+        request.case_id,
+        patient_style=normalize_patient_style(request.patient_style),
+        allow_plausible_findings=bool(request.allow_plausible_findings),
+    )
+
+    # Idempotent reuse after the first successful start for this case_id
+    cached_opening = store.get_opening(request.case_id)
+    existing_package = store.get(request.case_id)
+    if cached_opening and existing_package:
+        logger.warning(
+            "[START_CASE] Idempotent reuse for case_id=%s library_id=%s "
+            "(duplicate start ignored)",
+            request.case_id,
+            existing_package.library_case_id,
+        )
+        emr_service = get_emr_service()
+        emr_notes = emr_service.get_notes(request.case_id)
+        emr_data = notes_to_emr_data(emr_notes)
+        if cached_opening.presentation and not emr_data.get("chief_complaint"):
+            emr_data = {**emr_data, "chief_complaint": cached_opening.presentation}
+        return StartCaseResponse(
+            initial_message=cached_opening.initial_message,
+            history=cached_opening.history,
+            case_id=request.case_id,
+            organism=cached_opening.organism,
+            case_library_id=cached_opening.library_case_id,
+            figures=cached_opening.figures,
+            emr_notes=emr_notes,
+            emr_data=emr_data,
+            presentation=cached_opening.presentation or None,
+            opening_messages=[
+                OpeningMessage(speaker=m["speaker"], content=m["content"])
+                for m in cached_opening.opening_messages
+            ],
+            patient_style=session_settings.patient_style,
+            allow_plausible_findings=session_settings.allow_plausible_findings,
+        )
+
+    if request.library_case_id:
+        package = resolve_case_package_by_id(request.library_case_id)
+    elif existing_package:
+        package = existing_package
+        logger.info(
+            "[START_CASE] Reusing existing package for case_id=%s library_id=%s",
+            request.case_id,
+            package.library_case_id,
+        )
+    else:
+        package = resolve_case_package(request.organism or "", prefer_figures=True)
+
+    organism = package.organism or (request.organism or "")
+    store.put(request.case_id, package)
+
+    response = await tutor_service.start_case(
+        organism=organism,
+        case_id=request.case_id,
+        model_name=request.model_name,
+        enable_guidelines=request.enable_guidelines or False,
+        case_description=package.narrative,
+        case_source=package.source,
+    )
+
+    presentation = ((response.metadata or {}).get("presentation") or "").strip()
+    opening_raw = (response.metadata or {}).get("opening_messages") or []
+    opening_messages = [
+        OpeningMessage(speaker=m["speaker"], content=m["content"])
+        for m in opening_raw
+        if isinstance(m, dict) and m.get("content")
+    ]
+
+    emr_service = get_emr_service()
+    if emr_service.get_session(request.case_id) is None:
+        emr_service.start_case(request.case_id)
+        if presentation:
+            emr_service.enqueue_exchange(
+                case_id=request.case_id,
+                student_question="(Patient introduces themselves)",
+                patient_response=presentation,
+            )
+    elif presentation and not emr_service.get_notes(request.case_id):
+        emr_service.enqueue_exchange(
+            case_id=request.case_id,
+            student_question="(Patient introduces themselves)",
+            patient_response=presentation,
+        )
+
+    background_service.log_conversation_async(
+        case_id=request.case_id,
+        role="system",
+        content=f"Case started: {organism}",
+        metadata={
+            "organism": organism,
+            "model": model_name,
+            "library_case_id": package.library_case_id,
+            "case_source": package.source,
+            "patient_style": session_settings.patient_style,
+        },
+    )
+    for msg in opening_messages:
+        background_service.log_conversation_async(
+            case_id=request.case_id,
+            role="assistant",
+            content=msg.content,
+            metadata={"tools_used": response.tools_used, "speaker": msg.speaker},
+        )
+
+    logger.info(
+        f"[START_CASE] Success for case_id={request.case_id} "
+        f"source={package.source} library_id={package.library_case_id} "
+        f"figures={len(package.figures)}"
+    )
+
+    emr_data = notes_to_emr_data(emr_service.get_notes(request.case_id))
+    if presentation and not emr_data.get("chief_complaint"):
+        emr_data = {**emr_data, "chief_complaint": presentation}
+
+    history = [
+        {"role": "assistant", "content": m.content} for m in opening_messages
+    ] or [{"role": "assistant", "content": response.content}]
+
+    store.put_opening(
+        request.case_id,
+        CaseOpeningSnapshot(
+            organism=organism,
+            initial_message=response.content,
+            presentation=presentation,
+            opening_messages=[
+                {"speaker": m.speaker, "content": m.content} for m in opening_messages
+            ],
+            history=history,
+            library_case_id=package.library_case_id,
+            figures=list(package.figures or []),
+        ),
+    )
+
+    return StartCaseResponse(
+        initial_message=response.content,
+        history=history,
+        case_id=request.case_id,
+        organism=organism,
+        case_library_id=package.library_case_id,
+        figures=package.figures,
+        emr_notes=emr_service.get_notes(request.case_id),
+        emr_data=emr_data,
+        presentation=presentation or None,
+        opening_messages=opening_messages,
+        patient_style=session_settings.patient_style,
+        allow_plausible_findings=session_settings.allow_plausible_findings,
+    )
 
 
 @router.post(
@@ -42,39 +239,23 @@ async def start_case(
     - **model_name**: Optional LLM model to use (defaults to o3-mini)
     """
     model_name = request.model_name or config.API_MODEL_NAME
-    logger.info(f"[START_CASE] organism={request.organism}, case_id={request.case_id}, model={model_name}")
+    logger.info(
+        f"[START_CASE] organism={request.organism}, "
+        f"library_case_id={request.library_case_id}, "
+        f"case_id={request.case_id}, model={model_name}"
+    )
     
     try:
-        response = await tutor_service.start_case(
-            organism=request.organism,
-            case_id=request.case_id,
-            model_name=request.model_name,
-            enable_guidelines=request.enable_guidelines or False
-        )
-        
-        # Log asynchronously
-        background_service.log_conversation_async(
-            case_id=request.case_id,
-            role="system",
-            content=f"Case started: {request.organism}",
-            metadata={"organism": request.organism, "model": model_name}
-        )
-        background_service.log_conversation_async(
-            case_id=request.case_id,
-            role="assistant",
-            content=response.content,
-            metadata={"tools_used": response.tools_used}
-        )
-        
-        logger.info(f"[START_CASE] Success for case_id={request.case_id}")
-        
-        return StartCaseResponse(
-            initial_message=response.content,
-            history=[{"role": "assistant", "content": response.content}],
-            case_id=request.case_id,
-            organism=request.organism
-        )
-        
+        store = get_case_package_store()
+        # Serialize duplicate starts for the same case_id (React StrictMode fires twice).
+        async with store.get_start_lock(request.case_id):
+            return await _start_case_locked(
+                request=request,
+                tutor_service=tutor_service,
+                background_service=background_service,
+                model_name=model_name,
+                store=store,
+            )
     except ValueError as e:
         logger.error(f"[START_CASE] ValueError: {e}")
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
@@ -153,13 +334,33 @@ async def chat(
             except Exception as e:
                 logger.warning(f"[CHAT] Failed to hydrate history from DB: {e}")
         
+        # Prefer the bound package narrative so chat turns use the same case as figures
+        store = get_case_package_store()
+        package = store.get(request.case_id)
+        bound_narrative = package.narrative if package else None
+        figure_catalog = _ensure_package_figure_catalog(package)
+        session_settings = store.get_settings(request.case_id)
+        if request.patient_style is not None or request.allow_plausible_findings is not None:
+            session_settings = store.put_settings(
+                request.case_id,
+                patient_style=request.patient_style,
+                allow_plausible_findings=request.allow_plausible_findings,
+            )
         context = TutorContext(
             case_id=request.case_id,
             organism=request.organism_key,
+            case_description=bound_narrative,
             conversation_history=clean_history,
             model_name=model_name,
             use_azure=use_azure,
-            session_metadata={"enable_guidelines": request.enable_guidelines or False}
+            session_metadata={
+                "enable_guidelines": request.enable_guidelines or False,
+                "patient_style": session_settings.patient_style,
+                "allow_plausible_findings": session_settings.allow_plausible_findings,
+                "figure_catalog": figure_catalog,
+                "active_module": request.active_module,
+                "route_to": (request.route_to or "").strip().lower() or None,
+            },
         )
         # Persist phase across requests.
         # Without this, every /chat call starts from INITIALIZING and the tutor may
@@ -186,32 +387,77 @@ async def chat(
             feedback_enabled=request.feedback_enabled,
             feedback_threshold=request.feedback_threshold
         )
+
+        # Strip [[speaker:…]] and [[display_figure:N]] markers for the UI
+        allowed = allowed_figure_numbers(package.figures if package else [])
+        route_to = (request.route_to or "").strip().lower()
+        default_speaker = "tutor" if route_to == "tutor" else "patient"
+        clean_content, speaker, revealed_figures = parse_agent_markers(
+            response.content or "",
+            allowed_figure_numbers=allowed or None,
+            default_speaker=default_speaker,
+        )
+        if (response.metadata or {}).get("speaker") == "tutor":
+            speaker = "tutor"
+        if clean_content != (response.content or ""):
+            response.content = clean_content
+            # Keep server-side history free of markers too
+            if context.conversation_history:
+                for msg in reversed(context.conversation_history):
+                    if msg.get("role") == "assistant":
+                        msg["content"] = clean_content
+                        break
         
         # Log assistant response asynchronously
         background_service.log_conversation_async(
             case_id=request.case_id,
             role="assistant",
-            content=response.content,
-            metadata={"tools_used": response.tools_used, "organism": request.organism_key}
+            content=clean_content,
+            metadata={
+                "tools_used": response.tools_used,
+                "organism": request.organism_key,
+                "revealed_figures": revealed_figures,
+                "speaker": speaker,
+            },
         )
+
+        # Queue structured EMR extraction for patient / test-result replies
+        emr_service = get_emr_service()
+        tools_used = response.tools_used or []
+        if any(t in _EMR_SOURCE_TOOLS for t in tools_used):
+            emr_service.enqueue_exchange(
+                case_id=request.case_id,
+                student_question=request.message,
+                patient_response=clean_content,
+            )
         
         processing_time = (datetime.now() - start_time).total_seconds() * 1000
-        logger.info(f"[CHAT] Completed in {processing_time:.2f}ms for case_id={request.case_id}")
+        logger.info(
+            f"[CHAT] Completed in {processing_time:.2f}ms for case_id={request.case_id} "
+            f"revealed_figures={revealed_figures} speaker={speaker}"
+        )
         
         return ChatResponse(
-            response=response.content,
+            response=clean_content,
             history=[{"role": msg["role"], "content": msg["content"]} for msg in context.conversation_history],
             tools_used=response.tools_used,
             metadata={
+                **(response.metadata or {}),
                 "processing_time_ms": processing_time,
                 "case_id": request.case_id,
                 "organism": request.organism_key,
-                # Bubble up tutor/service metadata (phase, guidelines flags, etc.)
-                **(response.metadata or {}),
-                # Normalize phase naming for frontend consumers
+                "patient_style": session_settings.patient_style,
+                "allow_plausible_findings": session_settings.allow_plausible_findings,
+                "revealed_figures": revealed_figures,
+                "speaker": speaker,
                 "current_phase": (response.metadata or {}).get("current_phase") or (response.metadata or {}).get("state"),
             },
-            feedback_examples=response.feedback_examples or []
+            feedback_examples=response.feedback_examples or [],
+            emr_notes=emr_service.get_notes(request.case_id),
+            emr_data=notes_to_emr_data(emr_service.get_notes(request.case_id)),
+            emr_busy=emr_service.is_busy(request.case_id),
+            revealed_figures=revealed_figures,
+            speaker=speaker,
         )
         
     except ValueError as e:
@@ -373,3 +619,48 @@ async def get_available_organisms() -> dict:
     except Exception as e:
         logger.error(f"[ORGANISMS] Error: {e}", exc_info=True)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to retrieve organisms")
+
+
+class EmrRefreshRequest(BaseModel):
+    history: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Full conversation history for a complete EMR rebuild",
+    )
+
+
+@router.get(
+    "/emr_notes/{case_id}",
+    summary="Poll structured EMR notes",
+    description="Return the current structured EMR notes snapshot for a case",
+)
+async def get_emr_notes(case_id: str) -> dict:
+    emr_service = get_emr_service()
+    # Recreate empty session after server restart so polling does not 404
+    session = emr_service.ensure_session(case_id)
+    notes = session.snapshot()
+    return {
+        "emr_notes": notes,
+        "emr_busy": session.is_busy(),
+        "emr_data": notes_to_emr_data(notes),
+    }
+
+
+@router.post(
+    "/emr_refresh/{case_id}",
+    summary="Rebuild EMR notes from conversation",
+    description="Full re-extraction of structured EMR notes from the conversation history",
+)
+async def emr_refresh(case_id: str, request: EmrRefreshRequest) -> dict:
+    emr_service = get_emr_service()
+    history = request.history or []
+    clean_history = [
+        {"role": m.get("role", ""), "content": m.get("content", "")}
+        for m in history
+        if m.get("role") in ("user", "assistant") and m.get("content")
+    ]
+    notes = await asyncio.to_thread(emr_service.rebuild, case_id, clean_history)
+    return {
+        "emr_notes": notes,
+        "emr_busy": False,
+        "emr_data": notes_to_emr_data(notes),
+    }

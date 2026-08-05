@@ -1,0 +1,85 @@
+{
+  "Case_02017/figure2.jpg": {
+    "case_id": "Case_02017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02017/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Multiple erythematous plaques on the forearm.",
+      "detailed_description": "The image shows a forearm with multiple erythematous, scaly plaques of varying sizes. The lesions appear slightly raised and are distributed irregularly. The surrounding skin shows no significant discoloration or swelling. The hair on the forearm is intact, and there is no visible ulceration or exudate.",
+      "visible_findings": [
+        "erythematous plaques",
+        "scaly texture",
+        "irregular distribution",
+        "no visible ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "erythematous plaques",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "forearm rash",
+        "erythematous plaques"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 215,
+      "total_tokens": 783
+    }
+  },
+  "Case_02017/figure1.jpg": {
+    "case_id": "Case_02017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02017/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hand and forearm",
+      "short_caption": "Erythematous nodules on the left hand and forearm.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of the left hand and forearm. Multiple erythematous, raised nodules are visible along the forearm, with a linear distribution suggestive of lymphatic spread. The surrounding skin appears slightly hyperpigmented but otherwise unremarkable. The lesions are well-demarcated and appear to be of varying sizes.",
+      "visible_findings": [
+        "erythematous nodules",
+        "linear distribution along forearm",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "forearm",
+        "nodules",
+        "erythematous",
+        "lymphatic spread",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "cutaneous nodules",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 248,
+      "total_tokens": 816
+    }
+  }
+}

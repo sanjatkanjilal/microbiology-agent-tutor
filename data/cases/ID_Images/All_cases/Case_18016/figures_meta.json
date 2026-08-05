@@ -1,0 +1,127 @@
+{
+  "Case_18016/figure2.jpg": {
+    "case_id": "Case_18016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18016/figure2.jpg",
+    "source_caption": "Despite all these complications, the patient recovered well. His imaging abnormalities completely resolved six months after presentation. Three years later, he continues to do well with no further major infectious complications",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing a hypodense lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large hypodense lesion in the liver, likely involving the right lobe. The lesion appears well-demarcated and is suggestive of an abscess or other fluid-filled structure. Surrounding liver parenchyma appears unremarkable, and no obvious calcifications or additional abnormalities are visible. The image is non-contrast or early-phase contrast-enhanced, as no significant enhancement is noted within the lesion.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "well-demarcated margins",
+        "no visible calcifications",
+        "normal surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesion",
+        "abscess",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver abscess",
+        "hypodense liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:48+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 257,
+      "total_tokens": 875
+    }
+  },
+  "Case_18016/figure3.jpg": {
+    "case_id": "Case_18016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18016/figure3.jpg",
+    "source_caption": "Clinical Timeline. * Piperacilin/tazobactam, vancomycin, fluconazole.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Clinical timeline with treatment and events.",
+      "detailed_description": "This image is a clinical timeline depicting a sequence of events and treatments over several months. The timeline includes labeled points for specific clinical events, such as diagnosis, symptom onset, and interventions. Medications like piperacillin/tazobactam, vancomycin, and fluconazole are noted, along with their respective timeframes. The timeline is organized with clear annotations and arrows to indicate progression and relationships between events.",
+      "visible_findings": [
+        "labeled timeline with months marked",
+        "notations for clinical events and treatments",
+        "medications listed: piperacillin/tazobactam, vancomycin, fluconazole",
+        "arrows indicating progression of events"
+      ],
+      "keywords": [
+        "timeline",
+        "clinical course",
+        "treatment",
+        "infectious diseases",
+        "antibiotics",
+        "antifungal"
+      ],
+      "reveal_triggers": [
+        "clinical timeline",
+        "treatment course",
+        "infectious disease management"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:48+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 257,
+      "total_tokens": 861
+    }
+  },
+  "Case_18016/figure1.jpg": {
+    "case_id": "Case_18016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18016/figure1.jpg",
+    "source_caption": "Figure 1a. Non-contrast Computed tomography of the abdomen showing multiple lobulated hypoattenuated collections within the allograft.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Non-contrast CT of the abdomen showing multiple lobulated hypoattenuated collections within the allograft.",
+      "detailed_description": "This axial non-contrast CT image of the abdomen demonstrates multiple lobulated, hypoattenuated collections within the renal allograft. The collections are well-defined and appear to occupy a significant portion of the graft. Surrounding structures, including adjacent soft tissues and vasculature, are visible but do not show clear evidence of involvement. The hypoattenuation suggests fluid or necrotic material, consistent with abscesses or other infectious processes.",
+      "visible_findings": [
+        "lobulated hypoattenuated collections",
+        "renal allograft involvement",
+        "no contrast enhancement visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "renal allograft",
+        "hypoattenuation",
+        "infection",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "renal allograft infection",
+        "hypoattenuated collections"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:48+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 251,
+      "total_tokens": 861
+    }
+  }
+}

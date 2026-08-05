@@ -1,0 +1,82 @@
+{
+  "Case_04001/figure2.jpg": {
+    "case_id": "Case_04001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04001/figure2.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear showing spirochetes and red blood cells.",
+      "detailed_description": "This is a high-magnification image of a blood smear stained with a technique that highlights spirochetes. Numerous red blood cells are visible, with a few showing central pallor. Thin, spiral-shaped organisms consistent with spirochetes are seen interspersed among the red blood cells. The background is clear, and the staining technique enhances the visibility of the spirochetes.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "spiral-shaped organisms (spirochetes)",
+        "clear background with no other cellular elements"
+      ],
+      "keywords": [
+        "blood smear",
+        "spirochetes",
+        "red blood cells",
+        "infectious diseases",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "spirochetes in blood",
+        "infectious blood smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:06+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 238,
+      "total_tokens": 823
+    }
+  },
+  "Case_04001/figure1.jpg": {
+    "case_id": "Case_04001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04001/figure1.jpg",
+    "source_caption": "Blood smear.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood",
+      "short_caption": "Gram stain of blood showing Gram-positive cocci in chains.",
+      "detailed_description": "This image shows a Gram stain of a blood sample. Numerous Gram-positive cocci are visible, arranged in chains. The background consists of red blood cells, which appear unstained. The cocci are stained purple, consistent with Gram-positive organisms, and their chain arrangement is characteristic of certain bacterial species, such as Streptococcus. The image is de-identified and is likely part of an infectious-diseases case study.",
+      "visible_findings": [
+        "Gram-positive cocci in chains",
+        "unstained red blood cells in the background",
+        "purple-stained bacterial structures"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood",
+        "gram-positive cocci",
+        "chains",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "gram stain of blood",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:08+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 234,
+      "total_tokens": 819
+    }
+  }
+}

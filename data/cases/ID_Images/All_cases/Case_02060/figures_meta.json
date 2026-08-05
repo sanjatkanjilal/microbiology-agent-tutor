@@ -1,0 +1,253 @@
+{
+  "Case_02060/figure1.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure1.jpg",
+    "source_caption": "Admission chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral lung abnormalities. The left lung shows areas of consolidation with air bronchograms, suggestive of infection or inflammation. The right lung also has scattered patchy opacities. The mediastinum appears central, and no significant pleural effusion is visible. The scan is performed without clear evidence of contrast enhancement.",
+      "visible_findings": [
+        "bilateral lung abnormalities",
+        "consolidation in the left lung",
+        "air bronchograms in the left lung",
+        "patchy opacities in the right lung",
+        "central mediastinum",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "infection",
+        "air bronchograms",
+        "opacities"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "pulmonary consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 247,
+      "total_tokens": 834
+    }
+  },
+  "Case_02060/figure2.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure2.jpg",
+    "source_caption": "Second chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing cavitary lesions and consolidation in the lungs.",
+      "detailed_description": "This axial chest CT image demonstrates significant abnormalities in the lungs. The left lung shows multiple cavitary lesions with surrounding consolidation, suggestive of necrotizing infection or abscess formation. The right lung appears relatively spared but shows some areas of ground-glass opacities. The mediastinum and central airways are visible and appear unremarkable. No contrast enhancement is evident in this scan.",
+      "visible_findings": [
+        "cavitary lesions in the left lung",
+        "consolidation in the left lung",
+        "ground-glass opacities in the right lung",
+        "unremarkable mediastinum and central airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "cavitary lesions",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "cavitary lesions on ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:10+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 252,
+      "total_tokens": 839
+    }
+  },
+  "Case_02060/figure5.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure5.jpg",
+    "source_caption": "Lactophenol cotton blue stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae and sporangia.",
+      "detailed_description": "This image depicts a microscopic view of fungal structures stained with lactophenol cotton blue. The stain highlights branching hyphae and spherical sporangia, which are characteristic of certain fungal species. The blue coloration enhances the visibility of the fungal elements against the background. The structures are well-defined, suggesting a fungal morphology consistent with molds.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "spherical sporangia",
+        "blue stain highlighting fungal structures"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal stain",
+        "hyphae",
+        "sporangia",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "microscopic view of fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:10+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 227,
+      "total_tokens": 816
+    }
+  },
+  "Case_02060/figure3.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure3.jpg",
+    "source_caption": "Third chest CT scan showing progression.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing extensive cavitary lesions and consolidation in the left lung.",
+      "detailed_description": "This axial chest CT image demonstrates significant abnormalities in the left lung, including large cavitary lesions with thick walls and surrounding consolidation. The right lung appears relatively spared, with normal aeration and no visible cavitary changes. The mediastinum and trachea are midline. The findings suggest a severe infectious or inflammatory process, possibly with necrosis.",
+      "visible_findings": [
+        "large cavitary lesions in the left lung",
+        "thick-walled cavities",
+        "consolidation surrounding the cavities",
+        "normal aeration in the right lung",
+        "midline mediastinum and trachea"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "consolidation",
+        "infection",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavitation",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:11+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 251,
+      "total_tokens": 840
+    }
+  },
+  "Case_02060/figure4.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure4.jpg",
+    "source_caption": "Aerial mycelium on fungal media plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal culture plate showing aerial mycelium growth.",
+      "detailed_description": "This image depicts a fungal culture plate with prominent white, fluffy aerial mycelium covering most of the surface. The growth appears dense and uniform, indicative of a filamentous fungus. The media is a standard fungal culture medium, and the plate is photographed under standard lighting conditions. No additional identifying features of the fungal species are visible.",
+      "visible_findings": [
+        "white, fluffy aerial mycelium",
+        "dense and uniform growth",
+        "standard fungal culture plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungus",
+        "aerial mycelium",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "aerial mycelium",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:12+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 214,
+      "total_tokens": 806
+    }
+  },
+  "Case_02060/figure6.jpg": {
+    "case_id": "Case_02060",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02060/figure6.jpg",
+    "source_caption": "Gomori methenamine silver stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Gomori methenamine silver stain showing fungal elements.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain highlighting fungal elements. The fungal structures appear as black or dark brown branching hyphae and yeast-like forms against a green background. The stain is commonly used to identify fungal organisms in tissue samples. The branching morphology and size of the fungal elements are clearly visible.",
+      "visible_findings": [
+        "dark branching fungal hyphae",
+        "yeast-like forms",
+        "green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gomori methenamine silver stain",
+        "fungal elements",
+        "histopathology",
+        "hyphae",
+        "yeast"
+      ],
+      "reveal_triggers": [
+        "gomori methenamine silver stain",
+        "fungal infection",
+        "histopathology of fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:16+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 227,
+      "total_tokens": 817
+    }
+  }
+}

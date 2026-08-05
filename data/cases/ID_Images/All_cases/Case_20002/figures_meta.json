@@ -1,0 +1,131 @@
+{
+  "Case_20002/figure1.jpg": {
+    "case_id": "Case_20002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20002/figure1.jpg",
+    "source_caption": "Chest Radiograph single view shows patchy infiltrates in the bilateral perihilar region and bases, right greater than left",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph shows bilateral perihilar and basal patchy infiltrates, right greater than left.",
+      "detailed_description": "This is a frontal chest radiograph showing patchy opacities in the bilateral perihilar regions and lung bases, with more pronounced involvement on the right side. The heart silhouette appears normal in size, and there is no obvious pleural effusion or pneumothorax. Medical devices, including ECG leads, are visible. The findings suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral perihilar patchy opacities",
+        "basal infiltrates, right greater than left",
+        "no pleural effusion or pneumothorax",
+        "normal heart size",
+        "visible ECG leads"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "infiltrates",
+        "perihilar",
+        "bilateral",
+        "infection",
+        "lungs"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infiltrates",
+        "perihilar opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:00+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 272,
+      "total_tokens": 879
+    }
+  },
+  "Case_20002/figure3.jpg": {
+    "case_id": "Case_20002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20002/figure3.jpg",
+    "source_caption": "Lactophenol cotton blue stain from sputum culture shows Aspergillus fumigatus",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "respiratory tract (sputum culture)",
+      "short_caption": "Lactophenol cotton blue stain showing Aspergillus fumigatus hyphae and conidia.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of a sputum culture. It reveals septate hyphae with acute angle branching and conidiophores with characteristic vesicles and conidia, consistent with Aspergillus fumigatus. The fungal structures are stained blue, with clear visualization of the conidia and hyphal morphology. The background appears pale, enhancing the contrast of the fungal elements.",
+      "visible_findings": [
+        "septate hyphae with acute angle branching",
+        "conidiophores with vesicles and conidia",
+        "blue-stained fungal structures"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "aspergillus fumigatus",
+        "fungal hyphae",
+        "conidia",
+        "sputum culture",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lactophenol cotton blue stain",
+        "aspergillus fumigatus",
+        "fungal infection",
+        "sputum culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:02+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 282,
+      "total_tokens": 882
+    }
+  },
+  "Case_20002/figure2.jpg": {
+    "case_id": "Case_20002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20002/figure2.jpg",
+    "source_caption": "CT Angiography of the Thorax shows dense consolidation in the superior segments of bilateral lower lobes with bubbly appearance on the right concerning for necrotizing pneumonia",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "CT of thorax shows bilateral lower lobe consolidation with cavitation, suggestive of necrotizing pneumonia.",
+      "detailed_description": "This axial CT image of the thorax demonstrates dense consolidation in the superior segments of the bilateral lower lobes. The right lower lobe shows areas of cavitation with a bubbly appearance, consistent with necrotizing changes. The heart and mediastinal structures are visible in the midline, and no significant pleural effusion is noted. The findings are concerning for necrotizing pneumonia.",
+      "visible_findings": [
+        "Dense consolidation in bilateral lower lobes",
+        "Cavitation with bubbly appearance in the right lower lobe",
+        "No significant pleural effusion",
+        "Heart and mediastinal structures visible"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "necrotizing pneumonia",
+        "consolidation",
+        "cavitation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct thorax",
+        "necrotizing pneumonia",
+        "lung consolidation",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:04+00:00",
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 266,
+      "total_tokens": 881
+    }
+  }
+}

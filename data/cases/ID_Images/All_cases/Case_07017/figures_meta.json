@@ -1,0 +1,82 @@
+{
+  "Case_07017/figure2.jpg": {
+    "case_id": "Case_07017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07017/figure2.jpg",
+    "source_caption": "Voriconazole was administered for 8 weeks. Aspiration of the joint was repeated after 4 weeks of therapy, and cultures were still positive for Prototheca wickerhamii. After 8 weeks, cultures of the joint fluid were sterile. The patient improved and did well.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "joint fluid",
+      "short_caption": "Stained preparation of joint fluid showing Prototheca wickerhamii.",
+      "detailed_description": "This image shows a stained preparation of joint fluid with numerous round to oval structures of varying sizes. The structures have a central area and appear consistent with Prototheca species morphology. The background is a uniform yellowish color, suggesting a specific staining technique was used to highlight the organisms.",
+      "visible_findings": [
+        "Round to oval structures with central areas",
+        "Varying sizes of the organisms",
+        "Uniform yellowish background indicating staining"
+      ],
+      "keywords": [
+        "stain",
+        "joint fluid",
+        "prototheca",
+        "infectious diseases",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "stain of joint fluid",
+        "prototheca microscopy",
+        "infectious arthritis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:51+00:00",
+    "usage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 213,
+      "total_tokens": 852
+    }
+  },
+  "Case_07017/figure1.jpg": {
+    "case_id": "Case_07017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07017/figure1.jpg",
+    "source_caption": "Figure 1. Culture growth from aspirate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Culture plate showing white, creamy colonies from an aspirate.",
+      "detailed_description": "This image shows a culture plate with white, creamy colonies growing in a streaked pattern. The colonies appear dense and smooth, suggesting a fungal or yeast-like organism. The growth is uniform along the streak lines, indicating successful inoculation and incubation. The background is a clear agar medium.",
+      "visible_findings": [
+        "white, creamy colonies",
+        "streaked growth pattern",
+        "clear agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "microbiology",
+        "fungal colonies",
+        "yeast",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture growth",
+        "fungal culture",
+        "aspirate culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:53+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 199,
+      "total_tokens": 791
+    }
+  }
+}

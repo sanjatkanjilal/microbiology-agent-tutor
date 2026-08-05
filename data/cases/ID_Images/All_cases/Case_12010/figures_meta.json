@@ -1,0 +1,129 @@
+{
+  "Case_12010/figure3.jpg": {
+    "case_id": "Case_12010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12010/figure3.jpg",
+    "source_caption": "Resected colon, H and E stain, high power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "colon",
+      "short_caption": "Histopathology of resected colon, H&E stain, high power.",
+      "detailed_description": "This high-power histopathology image shows a section of the colon stained with hematoxylin and eosin (H&E). The tissue demonstrates inflammatory changes, with numerous inflammatory cells, including neutrophils and lymphocytes, infiltrating the tissue. There are also areas of necrosis and disruption of normal architecture. Some cells appear to have enlarged nuclei and cytoplasmic changes, possibly indicative of infection or tissue damage.",
+      "visible_findings": [
+        "inflammatory cell infiltrates",
+        "disrupted tissue architecture",
+        "necrosis",
+        "enlarged nuclei",
+        "cytoplasmic changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "colon",
+        "H&E stain",
+        "inflammation",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "colon histopathology",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:14+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 252,
+      "total_tokens": 846
+    }
+  },
+  "Case_12010/figure2.jpg": {
+    "case_id": "Case_12010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12010/figure2.jpg",
+    "source_caption": "Resected colon, hematolylin and eosin stain, low power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "colon",
+      "short_caption": "Resected colon tissue, hematoxylin and eosin stain, low power view.",
+      "detailed_description": "This histopathology image shows a low-power view of resected colon tissue stained with hematoxylin and eosin. The mucosa displays preserved crypt architecture with some areas of inflammation. The submucosa contains prominent inflammatory infiltrates, including lymphocytes and plasma cells, as well as dilated blood vessels. Adipose tissue is visible in the lower portion of the image, indicating deeper layers of the bowel wall. The staining highlights cellular and structural details, with nuclei stained dark blue and cytoplasm in varying shades of pink.",
+      "visible_findings": [
+        "preserved crypt architecture",
+        "inflammatory infiltrates in submucosa",
+        "dilated blood vessels",
+        "adipose tissue in deeper layers"
+      ],
+      "keywords": [
+        "histopathology",
+        "colon",
+        "hematoxylin and eosin",
+        "inflammation",
+        "low power",
+        "resected tissue"
+      ],
+      "reveal_triggers": [
+        "colon histology",
+        "H&E stain of colon",
+        "low power histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:16+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 288,
+      "total_tokens": 886
+    }
+  },
+  "Case_12010/figure1.jpg": {
+    "case_id": "Case_12010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12010/figure1.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing multiple fluid and gas-filled structures.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates multiple dilated bowel loops with fluid and gas, suggestive of bowel obstruction. The image shows clear delineation of the abdominal structures, with some areas of gas-fluid levels visible. The scan is labeled with right (R) and left (L) markers, and the image appears to be taken without contrast enhancement.",
+      "visible_findings": [
+        "dilated bowel loops",
+        "fluid and gas-filled structures",
+        "gas-fluid levels",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel obstruction",
+        "fluid",
+        "gas",
+        "dilated loops"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "bowel obstruction",
+        "gas-fluid levels"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:19+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 226,
+      "total_tokens": 813
+    }
+  }
+}

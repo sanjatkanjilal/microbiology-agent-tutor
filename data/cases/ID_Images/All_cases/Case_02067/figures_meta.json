@@ -1,0 +1,125 @@
+{
+  "Case_02067/figure2.jpg": {
+    "case_id": "Case_02067",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02067/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the back",
+      "short_caption": "Erythematous lesion with central eschar on the back.",
+      "detailed_description": "This clinical photograph shows a localized erythematous lesion on the skin of the back. The lesion has a central necrotic eschar surrounded by a faint area of erythema. The surrounding skin appears otherwise unremarkable. The lesion is suggestive of a localized infectious or inflammatory process, possibly related to an insect bite or cutaneous anthrax.",
+      "visible_findings": [
+        "central necrotic eschar",
+        "surrounding erythema",
+        "localized skin lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "eschar",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "infectious skin process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:23+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  },
+  "Case_02067/figure1.jpg": {
+    "case_id": "Case_02067",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02067/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower back",
+      "short_caption": "Skin lesion with central ulceration on the lower back.",
+      "detailed_description": "This clinical photograph shows the lower back of a patient with a ruler for scale. A central skin lesion with ulceration is visible, surrounded by an area of erythema. The lesion appears to be small and localized. There are also linear marks on the skin, possibly from prior trauma or scratching.",
+      "visible_findings": [
+        "central skin lesion with ulceration",
+        "surrounding erythema",
+        "linear marks on the skin",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "ulceration",
+        "lower back",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcerated lesion",
+        "lower back skin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:23+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  },
+  "Case_02067/figure3.jpg": {
+    "case_id": "Case_02067",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02067/figure3.jpg",
+    "source_caption": "Skin biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin showing epidermal and dermal inflammation.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis demonstrates acanthosis and mild spongiosis, with inflammatory infiltrates extending into the dermis. The infiltrates are predominantly composed of lymphocytes. The dermis also shows vascular congestion and edema. No organisms are visible in this image.",
+      "visible_findings": [
+        "epidermal acanthosis",
+        "mild spongiosis",
+        "lymphocytic infiltrates in dermis",
+        "vascular congestion",
+        "dermal edema"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "inflammation",
+        "H&E stain",
+        "dermal infiltrates"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of skin",
+        "H&E stain of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:25+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 243,
+      "total_tokens": 829
+    }
+  }
+}

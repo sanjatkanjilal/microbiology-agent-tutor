@@ -1,0 +1,83 @@
+{
+  "Case_04010/figure2.jpg": {
+    "case_id": "Case_04010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04010/figure2.jpg",
+    "source_caption": "Culture plate of CSF.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Culture plate showing colonies from CSF sample.",
+      "detailed_description": "This image shows a culture plate with multiple white, raised, and shiny colonies growing on the surface. The colonies are arranged in streak patterns, consistent with streak plate inoculation. The morphology suggests a fungal or bacterial organism, but further identification would require additional testing. The image is well-lit, and the colonies are clearly visible.",
+      "visible_findings": [
+        "white, raised, shiny colonies",
+        "streak pattern indicating inoculation technique",
+        "dense growth in certain areas"
+      ],
+      "keywords": [
+        "culture plate",
+        "csf",
+        "colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "csf culture",
+        "microbiology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:00+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 208,
+      "total_tokens": 796
+    }
+  },
+  "Case_04010/figure1.jpg": {
+    "case_id": "Case_04010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04010/figure1.jpg",
+    "source_caption": "Figure 1. Gram stain of CSF.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of CSF showing gram-positive yeast forms with budding.",
+      "detailed_description": "This image shows a Gram stain of cerebrospinal fluid (CSF). Visible are clusters of gram-positive yeast forms with budding, indicative of fungal elements. The organisms appear darkly stained against a lighter background. The morphology is consistent with a fungal infection, potentially Cryptococcus species, though definitive identification requires further testing.",
+      "visible_findings": [
+        "clusters of gram-positive yeast forms",
+        "budding yeast morphology",
+        "light background with darkly stained organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "csf",
+        "yeast",
+        "fungal infection",
+        "cryptococcus",
+        "budding"
+      ],
+      "reveal_triggers": [
+        "gram stain of csf",
+        "fungal infection in csf",
+        "cryptococcus gram stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:09+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 226,
+      "total_tokens": 818
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "Case_19006/figure1.jpg": {
+    "case_id": "Case_19006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19006/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of her back",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Diffuse erythematous maculopapular rash on the back.",
+      "detailed_description": "This image shows the back of a patient with a widespread erythematous maculopapular rash. The rash appears confluent in some areas, with a uniform red coloration and small raised lesions. The surrounding skin shows no visible signs of ulceration or scaling. The patient is seated, and the photograph is taken in a clinical setting.",
+      "visible_findings": [
+        "diffuse erythematous rash",
+        "maculopapular lesions",
+        "confluence of rash in some areas"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "erythematous",
+        "maculopapular"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "back rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:16+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 225,
+      "total_tokens": 816
+    }
+  },
+  "Case_19006/figure2.jpg": {
+    "case_id": "Case_19006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19006/figure2.jpg",
+    "source_caption": "Figure 2: Photograph of her upper torso",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper torso",
+      "short_caption": "Diffuse erythematous maculopapular rash on the upper torso.",
+      "detailed_description": "This clinical photograph shows the upper torso of a patient with a diffuse erythematous maculopapular rash. The rash is characterized by numerous small, red, raised lesions distributed across the chest and shoulders. The background skin appears inflamed, with no visible vesicles, pustules, or scaling. The image suggests a systemic or infectious etiology.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "involvement of chest and shoulders",
+        "absence of vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "upper torso",
+        "rash",
+        "maculopapular",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on chest",
+        "maculopapular rash",
+        "skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:18+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 242,
+      "total_tokens": 834
+    }
+  },
+  "Case_19006/figure3.jpg": {
+    "case_id": "Case_19006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19006/figure3.jpg",
+    "source_caption": "Figure 3: Photograph of her right upper extremity",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right upper extremity",
+      "short_caption": "Photograph of the right upper extremity showing a diffuse maculopapular rash.",
+      "detailed_description": "This clinical photograph shows the right upper extremity of a patient with a diffuse maculopapular rash. The rash consists of numerous small, red, raised lesions distributed across the skin. An intravenous catheter is visible on the forearm, secured with transparent dressing and tubing. The background includes a hospital gown, suggesting a clinical setting.",
+      "visible_findings": [
+        "diffuse maculopapular rash",
+        "intravenous catheter on forearm",
+        "transparent dressing over catheter",
+        "hospital gown in background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right arm",
+        "maculopapular rash",
+        "intravenous catheter",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "right arm photograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:18+00:00",
+    "usage": {
+      "prompt_tokens": 733,
+      "completion_tokens": 239,
+      "total_tokens": 972
+    }
+  },
+  "Case_19006/figure4.jpg": {
+    "case_id": "Case_19006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19006/figure4.jpg",
+    "source_caption": "Figure 4: Photograph of her palms",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palms",
+      "short_caption": "Photograph of both palms showing a diffuse erythematous rash.",
+      "detailed_description": "This image shows the palms of both hands with a diffuse erythematous rash. The rash appears maculopapular, with red discoloration and scattered raised lesions. The distribution is symmetric, involving the entirety of both palms. The background skin appears slightly erythematous as well. No vesicles, pustules, or significant desquamation are visible.",
+      "visible_findings": [
+        "diffuse erythematous rash",
+        "maculopapular lesions",
+        "symmetric involvement of both palms",
+        "no vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "palms",
+        "rash",
+        "erythema",
+        "maculopapular"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on palms",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:20+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 236,
+      "total_tokens": 827
+    }
+  },
+  "Case_19006/figure5.jpg": {
+    "case_id": "Case_19006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19006/figure5.jpg",
+    "source_caption": "Figure 5: Photograph of her lower extremities",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremities",
+      "short_caption": "Photograph of lower extremities showing a diffuse erythematous rash.",
+      "detailed_description": "This image shows both lower extremities in a supine position. The skin is diffusely covered with a maculopapular erythematous rash, which appears evenly distributed and non-blanching. There are no visible signs of ulceration, vesicles, or purpura. The surrounding skin tone is otherwise normal, and no significant swelling or deformity is observed.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "even distribution",
+        "no visible ulceration or vesicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremities",
+        "rash",
+        "maculopapular",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on legs",
+        "lower extremity rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:21+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 241,
+      "total_tokens": 834
+    }
+  }
+}

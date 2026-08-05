@@ -1,0 +1,211 @@
+{
+  "Case_07012/figure1.jpg": {
+    "case_id": "Case_07012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07012/figure1.jpg",
+    "source_caption": "Rash on back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Multiple erythematous macules and papules on the back.",
+      "detailed_description": "This image shows the back of a patient with numerous erythematous macules and papules scattered across the skin. The lesions vary in size, with some appearing more inflamed and prominent than others. The distribution is diffuse, and the surrounding skin appears otherwise normal. The photograph is taken in a clinical setting, with the patient wearing a hospital gown.",
+      "visible_findings": [
+        "diffuse erythematous macules and papules",
+        "lesions of varying size and intensity",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "macules",
+        "papules",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "rash on back",
+        "skin lesions",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:09+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 230,
+      "total_tokens": 816
+    }
+  },
+  "Case_07012/figure4.jpg": {
+    "case_id": "Case_07012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07012/figure4.jpg",
+    "source_caption": "Eye findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye",
+      "short_caption": "Clinical photograph showing conjunctival injection and mild eyelid swelling.",
+      "detailed_description": "This image shows a close-up view of an eye with visible conjunctival injection (redness) and mild swelling of the lower eyelid. The sclera appears reddened, indicating inflammation or irritation. The upper and lower eyelids are slightly puffy, and there is no obvious discharge visible in this image.",
+      "visible_findings": [
+        "conjunctival injection",
+        "mild eyelid swelling",
+        "no visible discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "conjunctival injection",
+        "eyelid swelling",
+        "red eye"
+      ],
+      "reveal_triggers": [
+        "eye findings",
+        "red eye",
+        "conjunctivitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:13+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 207,
+      "total_tokens": 792
+    }
+  },
+  "Case_07012/figure3.jpg": {
+    "case_id": "Case_07012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07012/figure3.jpg",
+    "source_caption": "Detail of rash on back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous macules and plaques on the back.",
+      "detailed_description": "This clinical photograph shows multiple erythematous macules and plaques on the skin of the back. The lesions vary in size, with some larger plaques having central clearing and peripheral erythema, suggestive of annular morphology. The surrounding skin appears unremarkable, and no vesicles or pustules are visible. The image is well-focused, highlighting the texture and distribution of the rash.",
+      "visible_findings": [
+        "erythematous macules",
+        "erythematous plaques",
+        "central clearing in some plaques",
+        "annular morphology"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "erythematous macules",
+        "plaques",
+        "annular lesions",
+        "back"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "erythematous plaques"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:13+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  },
+  "Case_07012/figure5.jpg": {
+    "case_id": "Case_07012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07012/figure5.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing left-sided opacity.",
+      "detailed_description": "This is an anteroposterior chest radiograph of a pediatric patient. There is a dense opacity in the left hemithorax, which obscures the left cardiac border and suggests consolidation or effusion. The trachea appears midline, and there is no obvious evidence of mediastinal shift. The bony structures, including ribs and clavicles, are intact. The lung fields on the right side appear aerated.",
+      "visible_findings": [
+        "left-sided thoracic opacity",
+        "obscured left cardiac border",
+        "intact bony structures",
+        "aerated right lung field",
+        "midline trachea"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pediatric",
+        "opacity",
+        "consolidation",
+        "effusion"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pediatric chest radiograph",
+        "lung opacity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:13+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 257,
+      "total_tokens": 843
+    }
+  },
+  "Case_07012/figure2.jpg": {
+    "case_id": "Case_07012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07012/figure2.jpg",
+    "source_caption": "Lip lesions and rash.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lips and perioral region",
+      "short_caption": "Erosive lip lesions with scattered papules on the face and neck.",
+      "detailed_description": "The image shows the lower face of a child with prominent erosive lesions on the lips, particularly the lower lip, which appears swollen and erythematous with crusting and ulceration. Scattered erythematous papules are visible on the surrounding skin, including the chin and neck. The findings suggest a mucocutaneous process, possibly infectious or inflammatory in origin.",
+      "visible_findings": [
+        "erosive lesions on lips",
+        "crusting and ulceration",
+        "erythematous papules on chin and neck"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lips",
+        "rash",
+        "erosion",
+        "papules",
+        "infectious diseases",
+        "child"
+      ],
+      "reveal_triggers": [
+        "lip lesions",
+        "rash on face",
+        "skin and mucosal findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:25+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 242,
+      "total_tokens": 829
+    }
+  }
+}

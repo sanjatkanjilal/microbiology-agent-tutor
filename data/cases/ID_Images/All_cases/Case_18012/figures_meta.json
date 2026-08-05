@@ -1,0 +1,213 @@
+{
+  "Case_18012/figure2.jpg": {
+    "case_id": "Case_18012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18012/figure2.jpg",
+    "source_caption": "Figure 2: CT scan of the neck. A soft tissue density is seen in the subcutaneous tissue on the right side of the neck with skin thickening and adjacent fat stranding without evidence of a fluid collection.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT of the neck showing subcutaneous soft tissue density with fat stranding on the right.",
+      "detailed_description": "This axial CT image of the neck demonstrates a soft tissue density in the subcutaneous tissue on the right side, marked by a red circle. There is associated fat stranding and skin thickening, but no clear evidence of a fluid collection or abscess. The surrounding structures, including the vertebrae and airway, appear intact.",
+      "visible_findings": [
+        "soft tissue density in subcutaneous tissue",
+        "fat stranding",
+        "skin thickening",
+        "no fluid collection visible"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "soft tissue",
+        "fat stranding",
+        "skin thickening",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "neck CT",
+        "soft tissue infection",
+        "fat stranding on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:20+00:00",
+    "usage": {
+      "prompt_tokens": 626,
+      "completion_tokens": 228,
+      "total_tokens": 854
+    }
+  },
+  "Case_18012/figure1.jpg": {
+    "case_id": "Case_18012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18012/figure1.jpg",
+    "source_caption": "Figure 1: Neck lesion at presentation (A) and after removal of the eschar (B)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Neck lesion before (A) and after eschar removal (B).",
+      "detailed_description": "This image shows two clinical photographs of a lesion on the neck. Panel A depicts an erythematous, indurated lesion with a central dark eschar surrounded by scaling and inflammation. Panel B shows the same lesion after removal of the eschar, revealing an ulcerated base with surrounding erythema and scaling. The lesion is located on the posterior neck near the hairline.",
+      "visible_findings": [
+        "erythematous lesion",
+        "central eschar in panel A",
+        "ulcerated base after eschar removal in panel B",
+        "scaling around the lesion",
+        "inflammation surrounding the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "eschar",
+        "ulcer",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "neck infection",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:21+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 255,
+      "total_tokens": 858
+    }
+  },
+  "Case_18012/figure4.jpg": {
+    "case_id": "Case_18012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18012/figure4.jpg",
+    "source_caption": "Figure 3b: Several intracytoplasmic bodies (arrow) are seen measuring around 2 micrometer (400x magnification). These are consistent with amastigotes. Each amastigote has a prominent kinetoplast.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing intracytoplasmic amastigotes with prominent kinetoplasts.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows several intracytoplasmic bodies (amastigotes) within host cells. The amastigotes are small, measuring approximately 2 micrometers, and each contains a prominent kinetoplast, which is a distinguishing feature. The surrounding tissue includes inflammatory cells and appears to be part of a granulomatous response. The image is magnified at 400x.",
+      "visible_findings": [
+        "intracytoplasmic amastigotes",
+        "prominent kinetoplasts",
+        "inflammatory cells",
+        "granulomatous tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "amastigotes",
+        "kinetoplast",
+        "granuloma",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "histopathology of amastigotes",
+        "H&E stain with kinetoplasts",
+        "granulomatous tissue with parasites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:22+00:00",
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 290,
+      "total_tokens": 921
+    }
+  },
+  "Case_18012/figure3.jpg": {
+    "case_id": "Case_18012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18012/figure3.jpg",
+    "source_caption": "Figure 3A: Dense lymphoplasmacytic infiltrate is seen with pan-dermal granulomas (40x magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology showing lymphoplasmacytic infiltrate with granulomas in the dermis (40x magnification).",
+      "detailed_description": "This histopathology image shows a dense lymphoplasmacytic infiltrate with granulomas spanning the dermis. The granulomas are well-formed and distributed throughout the dermal layer. The staining highlights cellular details, with lymphocytes and plasma cells visible. The magnification is approximately 40x, providing a clear view of the inflammatory and granulomatous architecture.",
+      "visible_findings": [
+        "dense lymphoplasmacytic infiltrate",
+        "pan-dermal granulomas",
+        "well-formed granulomas",
+        "dermal involvement"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "granulomas",
+        "lymphoplasmacytic infiltrate",
+        "dermis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of granulomas",
+        "dermal inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:23+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 252,
+      "total_tokens": 861
+    }
+  },
+  "Case_18012/figure5.jpg": {
+    "case_id": "Case_18012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18012/figure5.jpg",
+    "source_caption": "Figure 4: Serial photography of the neck lesion",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Serial photographs of a neck lesion showing progression and healing over time.",
+      "detailed_description": "This composite image shows serial photographs of a lesion on the neck at different stages of progression and treatment. Panel A depicts the lesion at presentation, with a central eschar surrounded by erythema. Panel B shows the lesion after removal of the eschar, revealing an ulcerated base. Panels C, D, and E demonstrate progressive healing at 10 days, 2 months, and 4 months post-treatment, respectively, with decreasing erythema and resolution of the ulceration.",
+      "visible_findings": [
+        "central eschar in panel A",
+        "ulcerated base in panel B",
+        "progressive reduction in erythema and lesion size in panels C, D, and E"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "lesion",
+        "eschar",
+        "ulcer",
+        "healing",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "neck lesion",
+        "serial photography of lesion",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:26+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 267,
+      "total_tokens": 860
+    }
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "Case_18013/figure2.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure2.jpg",
+    "source_caption": "Figure 2: MRI of the right foot. Space-occupying lesion evident within the skin and subcutaneous fat along the dorsum of the foot overlying the metatarsals and phalanges. There were several hyper-intense, rim-enhancing conglomerate lesions noted, with a “targetoid” appearance seen post-contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right foot",
+      "short_caption": "MRI of the right foot showing rim-enhancing lesions with a targetoid appearance in the dorsum.",
+      "detailed_description": "This sagittal MRI image of the right foot demonstrates multiple space-occupying lesions within the skin and subcutaneous fat overlying the metatarsals and phalanges. The lesions exhibit hyperintense signals with rim enhancement and a 'targetoid' appearance, particularly evident post-contrast. The findings suggest a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "rim-enhancing lesions",
+        "targetoid appearance",
+        "hyperintense signals",
+        "lesions in skin and subcutaneous fat",
+        "dorsum of the foot involvement"
+      ],
+      "keywords": [
+        "mri",
+        "right foot",
+        "rim-enhancing lesions",
+        "targetoid appearance",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri of foot",
+        "rim-enhancing lesion",
+        "targetoid lesion",
+        "foot infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:26+00:00",
+    "usage": {
+      "prompt_tokens": 651,
+      "completion_tokens": 251,
+      "total_tokens": 902
+    }
+  },
+  "Case_18013/figure4.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure4.jpg",
+    "source_caption": "Figure 4: Small granules (arrow) were seen draining from the right foot lesion during the punch biopsy",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right foot",
+      "short_caption": "Granules draining from a lesion on the right foot during a punch biopsy.",
+      "detailed_description": "This clinical photograph shows a close-up view of the dorsal aspect of a right foot during a punch biopsy procedure. The skin appears to have multiple areas of erythema and active bleeding. Small white granules are visible within the draining fluid from the lesion. Gloved hands are seen manipulating the site, suggesting an ongoing procedure. The image is well-lit, with clear visualization of the lesion and surrounding tissue.",
+      "visible_findings": [
+        "small white granules in draining fluid",
+        "active bleeding from the lesion",
+        "erythema around the lesion",
+        "gloved hands performing a procedure"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "lesion",
+        "granules",
+        "biopsy",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "foot lesion",
+        "draining granules",
+        "biopsy of foot",
+        "infectious foot lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:29+00:00",
+    "usage": {
+      "prompt_tokens": 605,
+      "completion_tokens": 252,
+      "total_tokens": 857
+    }
+  },
+  "Case_18013/figure5.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure5.jpg",
+    "source_caption": "Figure 5: Photograph of right foot taken during the surgical resection",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right foot",
+      "short_caption": "Photograph of the right foot during surgical resection showing extensive tissue destruction.",
+      "detailed_description": "This clinical photograph shows the right foot during a surgical procedure. There is extensive tissue destruction with exposed subcutaneous tissue and muscle. The dorsal aspect of the foot appears necrotic, with irregular margins and significant tissue loss. The surrounding skin is darkened, suggesting ischemia or necrosis. Surgical instruments are visible, indicating an ongoing resection.",
+      "visible_findings": [
+        "extensive tissue destruction",
+        "exposed subcutaneous tissue and muscle",
+        "darkened, necrotic skin",
+        "irregular wound margins",
+        "surgical instruments in view"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right foot",
+        "necrosis",
+        "surgical resection",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "surgical resection",
+        "foot necrosis",
+        "infected wound",
+        "right foot surgery"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T16:03:31+00:00",
+    "usage": {
+      "prompt_tokens": 453,
+      "completion_tokens": 244,
+      "total_tokens": 697
+    }
+  },
+  "Case_18013/figure1.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of right foot showing 12cm x 7cm swelling with exophytic nodules",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right foot",
+      "short_caption": "Photograph of right foot with swelling and exophytic nodules.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a right foot with significant swelling and multiple exophytic nodules. The lesions are irregular, some with a verrucous appearance, and are distributed over the dorsum of the foot and toes. The surrounding skin appears hyperpigmented, and there is evidence of chronic changes. The toes are mildly deformed, and the nail of the great toe appears thickened.",
+      "visible_findings": [
+        "swelling of the right foot",
+        "multiple exophytic nodules",
+        "verrucous lesions",
+        "hyperpigmented skin",
+        "thickened great toenail"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right foot",
+        "swelling",
+        "nodules",
+        "verrucous lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "foot swelling",
+        "cutaneous nodules",
+        "infectious foot lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T16:03:35+00:00",
+    "usage": {
+      "prompt_tokens": 462,
+      "completion_tokens": 259,
+      "total_tokens": 721
+    }
+  },
+  "Case_18013/figure3.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure3.jpg",
+    "source_caption": "Figure 3: MRI of the right foot. The mass extended circumferentially around the first digit phalanges and within the web space of the first/second digit. The maximal thickness was 2.6cm.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "right foot",
+      "short_caption": "MRI of the right foot showing a circumferential mass around the first digit phalanges and web space.",
+      "detailed_description": "This axial MRI image of the right foot demonstrates a soft tissue mass extending circumferentially around the first digit phalanges and into the web space between the first and second digits. The lesion appears hyperintense on this sequence, suggesting a fluid-rich or inflammatory component. The maximal thickness of the mass is approximately 2.6 cm. Adjacent structures, including the bones and soft tissues, are visible for context.",
+      "visible_findings": [
+        "circumferential mass around the first digit phalanges",
+        "extension into the web space between the first and second digits",
+        "hyperintense signal suggesting fluid-rich or inflammatory nature",
+        "adjacent bony structures intact"
+      ],
+      "keywords": [
+        "mri",
+        "foot",
+        "soft tissue mass",
+        "first digit",
+        "web space",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "mri of foot",
+        "soft tissue infection",
+        "mass in foot"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:35+00:00",
+    "usage": {
+      "prompt_tokens": 628,
+      "completion_tokens": 272,
+      "total_tokens": 900
+    }
+  },
+  "Case_18013/figure6.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure6.jpg",
+    "source_caption": "Figure 6: 5 cm x 3 cm, soft excised mass with cystic nodules and yellow granules within",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "soft tissue mass",
+      "short_caption": "Excised soft tissue mass with cystic nodules and yellow granules.",
+      "detailed_description": "This image shows an excised soft tissue mass measuring approximately 5 cm x 3 cm. The mass has been bisected to reveal internal structures, including multiple cystic nodules and prominent yellow granules within the tissue. The surface appears moist and irregular, with areas of hemorrhage. The yellow granules are suggestive of sulfur granules, which may be associated with certain infectious processes.",
+      "visible_findings": [
+        "excised soft tissue mass",
+        "cystic nodules",
+        "yellow granules",
+        "irregular moist surface",
+        "areas of hemorrhage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "soft tissue mass",
+        "cystic nodules",
+        "yellow granules",
+        "sulfur granules",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "soft tissue mass",
+        "sulfur granules",
+        "infectious mass excision"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:38+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 257,
+      "total_tokens": 866
+    }
+  },
+  "Case_18013/figure7.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure7.jpg",
+    "source_caption": "Figure 7: Gram stain of the tissue biopsy showing gram-positive, filamentous bacteria (arrow). Magnification (x40).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "tissue biopsy",
+      "short_caption": "Gram stain of tissue biopsy showing gram-positive, filamentous bacteria (arrow).",
+      "detailed_description": "This image shows a gram-stained tissue biopsy at a magnification of approximately 40x. The background tissue appears blue-green, consistent with the staining technique. A cluster of gram-positive, filamentous bacteria is visible, stained dark purple, with an arrow indicating the specific area of interest. The filamentous morphology suggests a branching structure, characteristic of certain bacterial species.",
+      "visible_findings": [
+        "blue-green background tissue",
+        "dark purple, gram-positive filamentous bacteria",
+        "arrow pointing to bacterial cluster"
+      ],
+      "keywords": [
+        "gram stain",
+        "tissue biopsy",
+        "gram-positive",
+        "filamentous bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of tissue",
+        "filamentous bacteria",
+        "infectious disease biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:40+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 232,
+      "total_tokens": 840
+    }
+  },
+  "Case_18013/figure8.jpg": {
+    "case_id": "Case_18013",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18013/figure8.jpg",
+    "source_caption": "Figure 8: Hematoxylin and eosin staining of granules, showing tangled masses of filaments (arrow). Magnification (x10).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Hematoxylin and eosin staining showing tangled masses of filaments (arrow).",
+      "detailed_description": "This hematoxylin and eosin-stained histopathology image shows a granular structure with dense, tangled masses of filamentous material. The filaments are stained dark purple, contrasting with the surrounding pink-stained background. An arrow highlights the area of interest, where the filamentous structures are most prominent. The magnification appears to be low (approximately x10).",
+      "visible_findings": [
+        "tangled masses of filaments",
+        "granular structure",
+        "dark purple-stained filaments",
+        "pink-stained background"
+      ],
+      "keywords": [
+        "histopathology",
+        "hematoxylin and eosin",
+        "filaments",
+        "granules",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "histopathology of granules",
+        "H&E stain",
+        "filamentous structures"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:40+00:00",
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 245,
+      "total_tokens": 859
+    }
+  }
+}

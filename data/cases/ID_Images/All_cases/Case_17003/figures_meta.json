@@ -1,0 +1,44 @@
+{
+  "Case_17003/figure1.jpg": {
+    "case_id": "Case_17003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17003/figure1.jpg",
+    "source_caption": "Typically, the gram-negative rod appears straight but may be fusiform, may develop characteristic lateral bulbar swelling, and is usually arranged in chains and loosely tangled clumps (1). Commercial blood culture media contains 0.05% sodium polyanethol sulfonate (SPS), an anticoagulant which inhibits its growth; therefore anaerobic culture bottles, resin bead culture systems, and/or trypticase so",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-negative rods in tangled clumps.",
+      "detailed_description": "This is a gram stain image showing gram-negative rods that are arranged in loosely tangled clumps. The rods appear straight to slightly fusiform, with some showing lateral bulbar swelling. The background is pink, consistent with the gram-negative staining, and the rods are stained purple. The image demonstrates characteristic morphology of the organism, which may be inhibited by sodium polyanethol sulfonate (SPS) in certain culture media.",
+      "visible_findings": [
+        "gram-negative rods",
+        "tangled clumps",
+        "pink background",
+        "purple-stained rods",
+        "lateral bulbar swelling in some rods"
+      ],
+      "keywords": [
+        "gram stain",
+        "gram-negative rods",
+        "bacteria",
+        "clumps",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-negative rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:06+00:00",
+    "usage": {
+      "prompt_tokens": 666,
+      "completion_tokens": 239,
+      "total_tokens": 905
+    }
+  }
+}

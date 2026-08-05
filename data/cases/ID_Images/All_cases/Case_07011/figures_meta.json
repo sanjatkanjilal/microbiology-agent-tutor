@@ -1,0 +1,246 @@
+{
+  "Case_07011/figure1.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eyes and surrounding skin",
+      "short_caption": "Bilateral eye involvement with yellow discharge and eyelid swelling.",
+      "detailed_description": "This clinical photograph shows the eyes and surrounding skin of a patient. The left eye exhibits significant yellow discharge pooling in the conjunctival sac, with associated eyelid swelling. The right eye also shows mild swelling and yellow crusting near the medial canthus. The skin appears unremarkable except for a small lesion on the forehead. The findings suggest a possible infectious or inflammatory process affecting the eyes.",
+      "visible_findings": [
+        "yellow discharge in the left eye",
+        "mild swelling of both eyelids",
+        "yellow crusting near the medial canthus of the right eye",
+        "small lesion on the forehead"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eyes",
+        "discharge",
+        "swelling",
+        "infection",
+        "conjunctivitis"
+      ],
+      "reveal_triggers": [
+        "eye discharge",
+        "swollen eyelids",
+        "conjunctivitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 248,
+      "total_tokens": 816
+    }
+  },
+  "Case_07011/figure6.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure6.jpg",
+    "source_caption": "Gram stain of aerobic blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters from an aerobic blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. Numerous gram-positive cocci are visible, arranged predominantly in clusters, consistent with the morphology of staphylococci. The background is relatively clear, with minimal debris or other cellular elements. The staining technique highlights the bacterial cell walls, with the gram-positive organisms appearing dark purple.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "purple staining of bacterial cell walls",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "clusters",
+        "staphylococci"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "blood culture",
+        "staphylococci morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:06+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 220,
+      "total_tokens": 809
+    }
+  },
+  "Case_07011/figure4.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure4.jpg",
+    "source_caption": "MRI scan of the head.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial MRI of the head showing orbital and intracranial structures.",
+      "detailed_description": "This axial MRI image of the head demonstrates the orbits, brain parenchyma, and surrounding structures. The image appears to be a T1-weighted sequence, as the fat in the orbits is hyperintense. There is no obvious mass lesion, midline shift, or significant abnormality visible in this slice. The symmetry of the orbits and brain structures is preserved.",
+      "visible_findings": [
+        "bilateral orbits with hyperintense fat signal",
+        "symmetrical intracranial structures",
+        "no visible mass lesions or midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "brain",
+        "orbits",
+        "axial",
+        "t1-weighted"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "brain imaging",
+        "orbital mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:08+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_07011/figure3.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure3.jpg",
+    "source_caption": "Gram stain of CSF.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of CSF showing numerous neutrophils and gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain of cerebrospinal fluid (CSF). Numerous neutrophils are visible, characterized by their multilobed nuclei. Among the neutrophils, there are gram-negative diplococci, appearing as paired, pink-staining cocci. The findings are consistent with a bacterial meningitis caused by a gram-negative organism, such as Neisseria meningitidis.",
+      "visible_findings": [
+        "numerous neutrophils with multilobed nuclei",
+        "gram-negative diplococci (pink-staining paired cocci)"
+      ],
+      "keywords": [
+        "gram stain",
+        "csf",
+        "neutrophils",
+        "gram-negative diplococci",
+        "bacterial meningitis"
+      ],
+      "reveal_triggers": [
+        "gram stain of csf",
+        "bacterial meningitis",
+        "neisseria meningitidis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:08+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 248,
+      "total_tokens": 836
+    }
+  },
+  "Case_07011/figure2.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eyes",
+      "short_caption": "Yellow scleral discoloration in the left eye, consistent with jaundice.",
+      "detailed_description": "This clinical photograph shows the eyes of a patient with the left upper eyelid retracted to reveal a yellow discoloration of the sclera, indicative of jaundice. The right eye appears normal in color. The image suggests a systemic condition leading to hyperbilirubinemia. The photograph is well-lit and focuses on the upper face and eyes.",
+      "visible_findings": [
+        "yellow scleral discoloration in the left eye",
+        "normal scleral color in the right eye",
+        "asymmetry in scleral appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eyes",
+        "jaundice",
+        "scleral icterus",
+        "hyperbilirubinemia"
+      ],
+      "reveal_triggers": [
+        "scleral icterus",
+        "jaundice",
+        "yellow eyes",
+        "clinical photograph of eyes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:13+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  },
+  "Case_07011/figure5.jpg": {
+    "case_id": "Case_07011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07011/figure5.jpg",
+    "source_caption": "MRI scan with dural enhancement.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI scan showing dural enhancement in the brain.",
+      "detailed_description": "This axial T1-weighted MRI image with contrast shows marked dural enhancement along the basal and lateral aspects of the brain. The enhancement is symmetric and appears to involve the dura mater, which may suggest an infectious or inflammatory process such as meningitis or pachymeningitis. The orbits and surrounding structures appear unremarkable.",
+      "visible_findings": [
+        "dural enhancement along the basal and lateral brain surfaces",
+        "symmetry of enhancement",
+        "normal appearance of the orbits"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "dural enhancement",
+        "contrast",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri of brain",
+        "dural enhancement",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 217,
+      "total_tokens": 806
+    }
+  }
+}

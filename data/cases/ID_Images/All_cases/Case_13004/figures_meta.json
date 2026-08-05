@@ -1,0 +1,85 @@
+{
+  "Case_13004/figure1.jpg": {
+    "case_id": "Case_13004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13004/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in clusters and short chains.",
+      "detailed_description": "This image shows a gram stain with numerous gram-positive bacilli, appearing as purple rod-shaped organisms. The bacteria are seen in clusters and short chains, distributed across the field. The background is clear, with no visible host cells or debris. The staining technique highlights the morphology and arrangement of the organisms.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "clusters of bacteria",
+        "short chains of bacteria",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 207,
+      "total_tokens": 775
+    }
+  },
+  "Case_13004/figure2.jpg": {
+    "case_id": "Case_13004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13004/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial colonies on a blood agar plate showing hemolysis.",
+      "detailed_description": "This image shows a blood agar plate with bacterial colonies. The colonies are distributed across the plate, with some areas showing clear zones of hemolysis, particularly in the red agar medium. The hemolysis suggests the presence of bacteria capable of lysing red blood cells. The plate is being held by a gloved hand, and the lighting highlights the contrast between the colonies and the agar.",
+      "visible_findings": [
+        "bacterial colonies on blood agar",
+        "zones of hemolysis",
+        "red agar medium",
+        "gloved hand holding the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "hemolysis",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "blood agar culture",
+        "bacterial growth",
+        "hemolysis on agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  }
+}

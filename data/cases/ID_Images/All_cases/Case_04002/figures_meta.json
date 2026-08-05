@@ -1,0 +1,84 @@
+{
+  "Case_04002/figure2.jpg": {
+    "case_id": "Case_04002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04002/figure2.jpg",
+    "source_caption": "Lateral chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph displaying the thoracic cavity. The image shows the vertebral column, ribs, and soft tissue structures. The diaphragm is visible inferiorly, and the lung fields appear partially aerated. No obvious consolidation, pleural effusion, or gross abnormalities are apparent in this image. The radiograph is well-positioned, with clear visualization of the thoracic spine and posterior ribs.",
+      "visible_findings": [
+        "thoracic vertebral column visible",
+        "ribs and soft tissues outlined",
+        "diaphragm visible inferiorly",
+        "lung fields appear partially aerated"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lungs",
+        "diaphragm",
+        "vertebrae"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "thoracic radiograph",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:10+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 251,
+      "total_tokens": 839
+    }
+  },
+  "Case_04002/figure1.jpg": {
+    "case_id": "Case_04002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04002/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying both lung fields, the mediastinum, and the diaphragm. The lung fields appear clear without obvious consolidations, masses, or effusions. The heart silhouette is visible, and the mediastinum appears midline. The bony structures, including the ribs and clavicles, are intact. No significant abnormalities are immediately apparent in this image.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "midline mediastinum",
+        "intact bony structures",
+        "normal heart silhouette"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "mediastinum",
+        "normal chest x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung imaging",
+        "radiograph of chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:13+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 231,
+      "total_tokens": 817
+    }
+  }
+}

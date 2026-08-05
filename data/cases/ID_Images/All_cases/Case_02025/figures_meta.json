@@ -1,0 +1,86 @@
+{
+  "Case_02025/figure1.jpg": {
+    "case_id": "Case_02025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02025/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing gas-filled structures in the right upper quadrant.",
+      "detailed_description": "This is an axial abdominal CT scan showing the right upper quadrant. There are gas-filled structures visible, likely within the liver or adjacent to it, suggestive of abnormal air presence. The surrounding soft tissue appears heterogeneous, and there is no clear evidence of contrast enhancement in this image. The findings may indicate an infectious or necrotic process.",
+      "visible_findings": [
+        "gas-filled structures in the right upper quadrant",
+        "heterogeneous soft tissue appearance",
+        "absence of clear contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "gas",
+        "infection",
+        "necrosis",
+        "right upper quadrant"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "gas in liver",
+        "right upper quadrant infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:47+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 220,
+      "total_tokens": 807
+    }
+  },
+  "Case_02025/figure2.jpg": {
+    "case_id": "Case_02025",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02025/figure2.jpg",
+    "source_caption": "Pathological exam of liver biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver biopsy showing inflammation and necrosis.",
+      "detailed_description": "This histopathological image shows a liver biopsy stained with hematoxylin and eosin (H&E). The tissue demonstrates significant inflammatory cell infiltration, predominantly mononuclear cells, and areas of hepatocyte necrosis. The architecture appears disrupted, with evidence of cellular debris and possible microabscess formation. These findings are consistent with an infectious or inflammatory process affecting the liver.",
+      "visible_findings": [
+        "inflammatory cell infiltration",
+        "hepatocyte necrosis",
+        "disrupted liver architecture",
+        "cellular debris",
+        "possible microabscess formation"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "inflammation",
+        "necrosis",
+        "hepatitis",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "inflammatory liver disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:50+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 242,
+      "total_tokens": 831
+    }
+  }
+}

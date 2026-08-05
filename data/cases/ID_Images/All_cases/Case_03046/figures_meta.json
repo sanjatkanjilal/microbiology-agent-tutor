@@ -1,0 +1,84 @@
+{
+  "Case_03046/figure2.jpg": {
+    "case_id": "Case_03046",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03046/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing intracellular ring forms in red blood cells.",
+      "detailed_description": "This image is a stained peripheral blood smear showing multiple red blood cells. One cell contains intracellular ring forms with a central vacuole and chromatin dots, suggestive of a parasitic infection such as Plasmodium species. The smear is stained, likely with Giemsa or Wright stain, to highlight the morphology of the red blood cells and the intracellular parasites.",
+      "visible_findings": [
+        "red blood cells with normal morphology",
+        "intracellular ring forms in one red blood cell",
+        "stain highlights chromatin dots and vacuoles"
+      ],
+      "keywords": [
+        "blood smear",
+        "ring forms",
+        "plasmodium",
+        "giemsa stain",
+        "parasitology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms in red blood cells",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:53+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_03046/figure1.jpg": {
+    "case_id": "Case_03046",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03046/figure1.jpg",
+    "source_caption": "Peripheral blood smear findings.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a high-power microscopic image of a peripheral blood smear stained with Giemsa or a similar stain. Numerous red blood cells are visible, with one cell prominently containing intraerythrocytic ring forms, consistent with Plasmodium species. The smear also shows normal red blood cell morphology without significant anisocytosis or poikilocytosis. No visible leukocytes are present in this field.",
+      "visible_findings": [
+        "red blood cells with normal morphology",
+        "intraerythrocytic ring forms",
+        "absence of leukocytes in this field"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "plasmodium",
+        "ring forms",
+        "malaria",
+        "giemsa stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "malaria diagnosis",
+        "ring forms in blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:56+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 245,
+      "total_tokens": 832
+    }
+  }
+}

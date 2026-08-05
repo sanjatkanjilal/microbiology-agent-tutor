@@ -1,0 +1,128 @@
+{
+  "Case_05003/figure1.jpg": {
+    "case_id": "Case_05003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05003/figure1.jpg",
+    "source_caption": "Figure 1. Physical finding.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity (knee region)",
+      "short_caption": "Erythematous lesion with central necrosis on the lower extremity.",
+      "detailed_description": "The image shows a close-up view of the lower extremity, specifically the knee region. There is a well-demarcated erythematous lesion with a central area of necrosis or ulceration. Surrounding the lesion, the skin appears inflamed with some induration. The lesion suggests a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "erythematous skin lesion",
+        "central necrosis or ulceration",
+        "surrounding induration",
+        "localized inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "erythema",
+        "necrosis",
+        "lower extremity",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infected wound",
+        "necrotic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:06+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 233,
+      "total_tokens": 822
+    }
+  },
+  "Case_05003/figure3.jpg": {
+    "case_id": "Case_05003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05003/figure3.jpg",
+    "source_caption": "Biopsy result.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing a large cell with intracellular organisms.",
+      "detailed_description": "This histopathology image shows a large cell with a pink cytoplasm and multiple dark-staining intracellular organisms. The background consists of numerous smaller cells with dense nuclei, likely inflammatory cells. The staining technique highlights the contrast between the large cell and the surrounding tissue. The organisms appear clustered within the cytoplasm, suggesting an infectious process.",
+      "visible_findings": [
+        "large cell with pink cytoplasm",
+        "intracellular dark-staining organisms",
+        "background of smaller inflammatory cells",
+        "contrast-enhancing stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "infectious organisms",
+        "biopsy",
+        "intracellular organisms",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "biopsy result",
+        "histopathology of infection",
+        "intracellular organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:10+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_05003/figure2.jpg": {
+    "case_id": "Case_05003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05003/figure2.jpg",
+    "source_caption": "Biopsy result.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows granulomatous inflammation characterized by a dense collection of inflammatory cells, including epithelioid histiocytes and multinucleated giant cells. A central area of necrosis is visible, suggesting caseating granulomas. The surrounding tissue shows lymphocytic infiltration. These findings are consistent with an infectious or inflammatory process, such as tuberculosis or fungal infection.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "central necrosis (caseation)",
+        "lymphocytic infiltration"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "giant cells",
+        "caseation",
+        "inflammation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "biopsy result",
+        "granuloma",
+        "tuberculosis histology",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:11+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 263,
+      "total_tokens": 849
+    }
+  }
+}

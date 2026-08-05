@@ -1,0 +1,126 @@
+{
+  "Case_08025/figure2.jpg": {
+    "case_id": "Case_08025",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08025/figure2.jpg",
+    "source_caption": "Fundoscopic examination.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "fundus of the eye",
+      "short_caption": "Fundoscopic image showing optic disc swelling and blurred margins.",
+      "detailed_description": "This is a fundoscopic image of the retina, showing the optic disc with notable swelling and blurred margins. The surrounding retinal vessels appear prominent, and there is a hazy area around the optic disc, suggestive of possible papilledema or optic neuritis. The image is centered on the optic nerve head, with a reddish-orange background typical of the retinal fundus.",
+      "visible_findings": [
+        "optic disc swelling",
+        "blurred optic disc margins",
+        "prominent retinal vessels",
+        "hazy area around the optic disc"
+      ],
+      "keywords": [
+        "fundoscopy",
+        "optic disc",
+        "retina",
+        "optic nerve swelling",
+        "papilledema",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "fundoscopic exam",
+        "optic disc swelling",
+        "retinal examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:29+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 235,
+      "total_tokens": 821
+    }
+  },
+  "Case_08025/figure3.jpg": {
+    "case_id": "Case_08025",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08025/figure3.jpg",
+    "source_caption": "Fundoscopic exam, 10 weeks after admission, with macular star.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "fundus of the eye",
+      "short_caption": "Fundoscopic image showing macular star pattern.",
+      "detailed_description": "This fundoscopic image shows the retina with prominent vascular structures and the optic disc visible on the right. A macular star pattern is evident, characterized by radial streaks of exudates extending outward from the macula. The image is well-focused, with clear visualization of retinal vessels and the surrounding structures. The macular star is indicative of retinal involvement, often associated with conditions such as hypertensive retinopathy or infectious processes.",
+      "visible_findings": [
+        "macular star pattern",
+        "radial streaks of exudates",
+        "optic disc visible",
+        "retinal vessels prominent"
+      ],
+      "keywords": [
+        "fundoscopy",
+        "retina",
+        "macular star",
+        "exudates",
+        "ophthalmology"
+      ],
+      "reveal_triggers": [
+        "fundoscopic exam",
+        "macular star",
+        "retinal exudates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:35+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 243,
+      "total_tokens": 840
+    }
+  },
+  "Case_08025/figure1.jpg": {
+    "case_id": "Case_08025",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08025/figure1.jpg",
+    "source_caption": "Fundoscopic examination.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "fundus of the eye",
+      "short_caption": "Fundoscopic image showing retinal vasculature and optic disc.",
+      "detailed_description": "This is a fundoscopic image of the retina, showing the optic disc on the right side of the image with a bright yellow appearance. The retinal vasculature is clearly visible, branching out from the optic disc. The macula is located centrally, appearing slightly darker than the surrounding retina. The image appears to be free of significant hemorrhages, exudates, or other obvious pathological findings.",
+      "visible_findings": [
+        "optic disc with bright yellow coloration",
+        "retinal vasculature branching from the optic disc",
+        "central macula with darker pigmentation",
+        "no visible hemorrhages or exudates"
+      ],
+      "keywords": [
+        "fundoscopy",
+        "retina",
+        "optic disc",
+        "retinal vasculature",
+        "macula"
+      ],
+      "reveal_triggers": [
+        "fundoscopic exam",
+        "eye exam",
+        "retinal image"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:36+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 249,
+      "total_tokens": 835
+    }
+  }
+}

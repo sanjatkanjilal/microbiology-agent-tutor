@@ -1,0 +1,44 @@
+{
+  "Case_04046/figure1.jpg": {
+    "case_id": "Case_04046",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04046/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Dusky discoloration and swelling of both hands.",
+      "detailed_description": "This clinical photograph shows both hands with diffuse dusky discoloration, consistent with cyanosis or ischemia. There is visible swelling and mottling of the skin, with a bluish-purple hue. The fingers appear slightly flexed, and the skin shows signs of dryness and cracking. The findings suggest compromised blood flow or severe systemic illness.",
+      "visible_findings": [
+        "dusky discoloration of hands",
+        "swelling of hands",
+        "mottled bluish-purple skin",
+        "dry and cracked skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "cyanosis",
+        "ischemia",
+        "swelling",
+        "skin discoloration"
+      ],
+      "reveal_triggers": [
+        "hand discoloration",
+        "cyanosis",
+        "infectious disease hands"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:17+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  }
+}

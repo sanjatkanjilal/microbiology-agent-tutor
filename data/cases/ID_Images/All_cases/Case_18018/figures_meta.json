@@ -1,0 +1,84 @@
+{
+  "Case_18018/figure1.jpg": {
+    "case_id": "Case_18018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18018/figure1.jpg",
+    "source_caption": "Figure 1: Urine dipstick",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "null",
+      "short_caption": "Urine dipstick comparison with a reference chart.",
+      "detailed_description": "The image shows a urine dipstick being held next to a reference chart for color comparison. The dipstick has multiple colored pads, each corresponding to a specific test parameter (e.g., pH, protein, glucose). A urine sample container with a pink lid is visible in the background, slightly out of focus. The setup suggests a qualitative or semi-quantitative analysis of urine components.",
+      "visible_findings": [
+        "urine dipstick with multiple test pads",
+        "reference chart for color comparison",
+        "urine sample container in the background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "urine dipstick",
+        "urinalysis",
+        "diagnostic test",
+        "color comparison"
+      ],
+      "reveal_triggers": [
+        "urine dipstick",
+        "urinalysis",
+        "urine test"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:56+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 230,
+      "total_tokens": 821
+    }
+  },
+  "Case_18018/figure2.jpg": {
+    "case_id": "Case_18018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18018/figure2.jpg",
+    "source_caption": "Figure 2: Double disk synergy test and combined-disk test with Imipenem alone (A) and with EDTA disk tests (B). The picture shows a combined disk test that uses the disk of imipenem alone (IMP) and the disk of imipenem plus EDTA (IMP-EDTA). An enhanced inhibition zone of more than 7 mm around IMP + EDTA is seen when a metallo-beta-lactamase is present.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Double disk synergy test showing enhanced inhibition with IMP + EDTA disk.",
+      "detailed_description": "This image shows a culture plate with two disks labeled 'IMP' (imipenem alone) and 'IMP + EDTA' (imipenem plus EDTA). The plate demonstrates a clear enhancement of the inhibition zone around the IMP + EDTA disk compared to the IMP disk alone. This finding is consistent with the presence of a metallo-beta-lactamase enzyme, which is inhibited by EDTA. The test is a combined disk test used to detect metallo-beta-lactamase production in bacterial isolates.",
+      "visible_findings": [
+        "culture plate with greenish background",
+        "two disks labeled 'IMP' and 'IMP + EDTA'",
+        "enhanced inhibition zone around 'IMP + EDTA' disk",
+        "smaller inhibition zone around 'IMP' disk"
+      ],
+      "keywords": [
+        "culture plate",
+        "double disk synergy test",
+        "metallo-beta-lactamase",
+        "imipenem",
+        "EDTA",
+        "antibiotic resistance"
+      ],
+      "reveal_triggers": [
+        "double disk synergy test",
+        "metallo-beta-lactamase detection",
+        "imipenem resistance test"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:01+00:00",
+    "usage": {
+      "prompt_tokens": 676,
+      "completion_tokens": 299,
+      "total_tokens": 975
+    }
+  }
+}

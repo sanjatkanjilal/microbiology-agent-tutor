@@ -1,0 +1,179 @@
+{
+  "Case_13013/figure3.jpg": {
+    "case_id": "Case_13013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13013/figure3.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:56:26+00:00"
+  },
+  "Case_13013/figure2.jpg": {
+    "case_id": "Case_13013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13013/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "knees",
+      "short_caption": "Erythematous maculopapular rash on both knees.",
+      "detailed_description": "This image shows the anterior aspect of both knees. The skin exhibits a diffuse erythematous maculopapular rash, with small, scattered red lesions. The rash appears symmetrical and is more prominent on the lateral aspects of the knees. The surrounding skin shows no evidence of excoriation, ulceration, or significant swelling.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "symmetrical distribution",
+        "no excoriation or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "knees",
+        "rash",
+        "maculopapular",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "knee rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  },
+  "Case_13013/figure1.jpg": {
+    "case_id": "Case_13013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13013/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Diffuse erythematous maculopapular rash on the abdomen.",
+      "detailed_description": "This image shows the abdomen of a patient with a diffuse erythematous maculopapular rash. The rash consists of small, red macules and papules distributed across the skin. The umbilicus is visible, and the rash appears to be non-confluent with no evident vesicles or pustules. The skin texture appears otherwise normal, and there are no signs of excoriation or ulceration.",
+      "visible_findings": [
+        "diffuse erythematous maculopapular rash",
+        "non-confluent distribution",
+        "absence of vesicles or pustules",
+        "normal skin texture"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "rash",
+        "maculopapular",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "abdominal rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 254,
+      "total_tokens": 822
+    }
+  },
+  "Case_13013/figure4.jpg": {
+    "case_id": "Case_13013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13013/figure4.jpg",
+    "source_caption": "Examination of a stool specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Microscopic examination of a stool specimen showing helminth larvae.",
+      "detailed_description": "This is a microscopic image of a stool specimen stained to highlight parasitic structures. Several elongated, thread-like structures consistent with helminth larvae are visible against a yellowish-brown background. The larvae have a curved or coiled appearance, with some showing tapering ends. The staining technique enhances the contrast between the larvae and the surrounding debris.",
+      "visible_findings": [
+        "thread-like helminth larvae",
+        "curved or coiled structures",
+        "yellowish-brown background",
+        "staining highlights parasitic structures"
+      ],
+      "keywords": [
+        "microscopy",
+        "stool specimen",
+        "helminth",
+        "larvae",
+        "parasitology",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "stool microscopy",
+        "parasitic infection",
+        "helminth larvae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:38+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_13013/figure5.jpg": {
+    "case_id": "Case_13013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13013/figure5.jpg",
+    "source_caption": "Examination of a sputum specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "respiratory tract (sputum specimen)",
+      "short_caption": "Microscopic examination of a sputum specimen showing a helminth larva.",
+      "detailed_description": "This image shows a microscopic view of a sputum specimen stained to highlight structures. A prominent, curved helminth larva is visible in the center, surrounded by smaller particles and debris. The larva appears elongated with a smooth body surface, consistent with a parasitic organism. The background contains scattered particulate matter, likely mucus and cellular debris.",
+      "visible_findings": [
+        "curved helminth larva",
+        "smooth body surface of larva",
+        "scattered particulate matter in the background"
+      ],
+      "keywords": [
+        "microscopy",
+        "sputum",
+        "helminth",
+        "larva",
+        "parasitology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "sputum microscopy",
+        "helminth in sputum",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:40+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 243,
+      "total_tokens": 832
+    }
+  }
+}

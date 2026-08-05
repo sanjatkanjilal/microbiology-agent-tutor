@@ -1,0 +1,248 @@
+{
+  "Case_06020/figure2.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Multiple ulcerated lesions on the lower leg.",
+      "detailed_description": "This image shows the anterior aspect of a lower leg with multiple dark, ulcerated lesions of varying sizes. The lesions appear to have central necrosis and are surrounded by erythematous borders. The surrounding skin shows no significant swelling or discoloration. The lesions are scattered and appear to be at different stages of healing.",
+      "visible_findings": [
+        "multiple ulcerated lesions",
+        "dark central necrosis",
+        "erythematous borders",
+        "scattered distribution on the lower leg"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "ulcerated lesions",
+        "necrosis",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "ulcers on leg",
+        "infectious skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  },
+  "Case_06020/figure1.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Multiple small ulcerations on the abdominal skin.",
+      "detailed_description": "This image shows the abdominal region of a patient with multiple small, shallow ulcerations or scars on the skin. The lesions are irregularly distributed and appear to be healing or in a chronic state. The surrounding skin shows no significant erythema or swelling. The image is well-lit, and the lesions are clearly visible against the background of normal skin.",
+      "visible_findings": [
+        "multiple small ulcerations or scars",
+        "irregular distribution",
+        "no significant surrounding erythema or swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "skin lesions",
+        "ulcerations",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "abdominal lesions",
+        "infectious skin ulcers"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  },
+  "Case_06020/figure6.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure6.jpg",
+    "source_caption": "Culture of specimen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Culture plate showing bacterial growth with hemolysis.",
+      "detailed_description": "This image shows a culture plate with bacterial colonies growing on an agar medium. The colonies appear as dense, cream-colored growths with irregular edges. Surrounding the colonies, there is a clear zone of hemolysis, where the red blood cells in the medium have been lysed, creating a distinct contrast between the red agar and the pale zones. This pattern suggests the presence of hemolytic bacteria.",
+      "visible_findings": [
+        "cream-colored bacterial colonies",
+        "irregular colony edges",
+        "zones of hemolysis around colonies",
+        "red agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "bacterial growth",
+        "hemolysis",
+        "agar",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "bacterial growth",
+        "hemolysis on agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:16+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 230,
+      "total_tokens": 816
+    }
+  },
+  "Case_06020/figure5.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure5.jpg",
+    "source_caption": "Modified acid fast stain of specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Modified acid-fast stain showing branching, beaded, filamentous structures.",
+      "detailed_description": "This image shows a modified acid-fast stain of a specimen. The stain highlights branching, beaded, filamentous structures in bright magenta against a pale background. These structures are consistent with organisms such as Nocardia species, which are partially acid-fast. The background appears granular and lacks significant cellular detail.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "beaded appearance",
+        "bright magenta staining",
+        "pale granular background"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "nocardia",
+        "branching filaments",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "nocardia",
+        "branching bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:17+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 215,
+      "total_tokens": 804
+    }
+  },
+  "Case_06020/figure3.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure3.jpg",
+    "source_caption": "CT scan of the abdomen and pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "Axial CT scan of the abdomen and pelvis showing bony pelvis and surrounding soft tissues.",
+      "detailed_description": "This axial CT image of the abdomen and pelvis demonstrates the bony structures of the pelvis, including the iliac bones and sacrum, as well as surrounding soft tissues. The image is in grayscale, with clear delineation of bone, muscle, and fat planes. No obvious abnormalities such as fluid collections, masses, or fractures are immediately apparent. The scan appears to be without contrast enhancement.",
+      "visible_findings": [
+        "bony pelvis structures including iliac bones and sacrum",
+        "soft tissue planes visible",
+        "no evident fluid collections or masses",
+        "no contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "bony pelvis",
+        "soft tissue",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "ct scan of abdomen and pelvis",
+        "axial ct",
+        "pelvic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:18+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 250,
+      "total_tokens": 840
+    }
+  },
+  "Case_06020/figure4.jpg": {
+    "case_id": "Case_06020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06020/figure4.jpg",
+    "source_caption": "Gram stain of specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive rods in chains.",
+      "detailed_description": "This Gram stain image shows purple-staining gram-positive rods arranged in chains, consistent with a bacterial morphology. The background includes faintly visible white blood cells and other cellular debris. The staining technique highlights the bacterial cell walls, which retain the crystal violet dye, characteristic of gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive rods",
+        "chain arrangement of bacteria",
+        "faintly visible white blood cells",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive rods",
+        "chain morphology",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive rods in chains"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:18+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 206,
+      "total_tokens": 793
+    }
+  }
+}

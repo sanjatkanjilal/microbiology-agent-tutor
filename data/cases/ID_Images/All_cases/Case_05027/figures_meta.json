@@ -1,0 +1,122 @@
+{
+  "Case_05027/figure2.jpg": {
+    "case_id": "Case_05027",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05027/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing clumps of acid-fast bacilli against a pink background.",
+      "detailed_description": "This image shows an acid-fast stain with numerous small, rod-shaped organisms that stain dark red or magenta, consistent with acid-fast bacilli. The background is a lighter pink, with some scattered debris and cellular material. The organisms appear in clumps and are characteristic of mycobacteria. The staining technique highlights the waxy cell walls of these organisms.",
+      "visible_findings": [
+        "clumps of acid-fast bacilli",
+        "pink background",
+        "scattered debris and cellular material"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "bacilli",
+        "mycobacteria",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "mycobacteria",
+        "stain for tuberculosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 227,
+      "total_tokens": 795
+    }
+  },
+  "Case_05027/figure1.jpg": {
+    "case_id": "Case_05027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05027/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain with numerous gram-positive cocci appearing as dark purple clusters against a pink background. The cocci are arranged in grape-like clusters, which is characteristic of certain bacterial species. The background staining is diffuse, with no clear tissue structures visible, suggesting this is likely a smear preparation.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "dark purple staining of bacteria",
+        "pink background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 201,
+      "total_tokens": 769
+    }
+  },
+  "Case_05027/figure3.jpg": {
+    "case_id": "Case_05027",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05027/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "unspecified",
+      "short_caption": "Gram stain showing Gram-positive bacilli with a beaded appearance.",
+      "detailed_description": "This image shows a Gram stain with numerous Gram-positive bacilli, which appear as dark purple rods against a pink background. Some bacilli exhibit a beaded appearance, suggesting uneven staining. The background is granular, likely representing cellular debris or other material. The staining technique highlights the bacterial morphology effectively.",
+      "visible_findings": [
+        "Gram-positive bacilli",
+        "beaded appearance of some bacilli",
+        "pink granular background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 207,
+      "total_tokens": 775
+    }
+  }
+}

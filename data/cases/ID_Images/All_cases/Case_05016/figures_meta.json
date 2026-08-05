@@ -1,0 +1,88 @@
+{
+  "Case_05016/figure1.jpg": {
+    "case_id": "Case_05016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05016/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger (distal phalanx)",
+      "short_caption": "Erythematous swelling with vesicular lesions on the distal finger.",
+      "detailed_description": "This clinical photograph shows the distal phalanx of a finger with erythematous swelling and multiple small vesicular lesions scattered across the surface. The lesions appear translucent to slightly yellowish, and the surrounding skin is mildly inflamed. The nail is partially visible, and there is no obvious purulent discharge. The background is a neutral medical drape.",
+      "visible_findings": [
+        "erythematous swelling of the distal finger",
+        "multiple small vesicular lesions",
+        "mild surrounding inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "vesicles",
+        "erythema",
+        "swelling",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesicular lesions on finger",
+        "infectious finger swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:30+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_05016/figure2.jpg": {
+    "case_id": "Case_05016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05016/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger (distal phalanx, nail bed)",
+      "short_caption": "Inflamed and swollen distal finger with nail bed involvement.",
+      "detailed_description": "This image shows the distal phalanx of a finger with significant swelling, erythema, and discoloration. The nail bed appears to be partially lifted, with visible subungual hemorrhage and crusting. The surrounding tissue is erythematous and edematous, suggesting an inflammatory or infectious process. The lesion is localized to the fingertip and nail bed.",
+      "visible_findings": [
+        "swelling of the distal finger",
+        "erythema and discoloration",
+        "subungual hemorrhage",
+        "partial lifting of the nail",
+        "crusting and inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "nail bed",
+        "infection",
+        "inflammation",
+        "swelling",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "finger infection",
+        "nail bed swelling",
+        "paronychia",
+        "subungual hemorrhage"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:30+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 259,
+      "total_tokens": 827
+    }
+  }
+}

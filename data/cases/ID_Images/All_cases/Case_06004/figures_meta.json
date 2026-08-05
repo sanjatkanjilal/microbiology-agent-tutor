@@ -1,0 +1,125 @@
+{
+  "Case_06004/figure3.jpg": {
+    "case_id": "Case_06004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06004/figure3.jpg",
+    "source_caption": "Bronchoalveolar lavage.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung (bronchoalveolar lavage)",
+      "short_caption": "Fungal elements in bronchoalveolar lavage stained with Gomori methenamine silver.",
+      "detailed_description": "This image shows a microscopic view of a bronchoalveolar lavage sample stained with Gomori methenamine silver (GMS). Multiple darkly stained, round to oval fungal elements are visible, some appearing as budding yeast forms. The background consists of lightly stained cellular debris and extracellular material. The staining highlights the fungal cell walls, making them prominent against the lighter background.",
+      "visible_findings": [
+        "darkly stained round to oval fungal elements",
+        "budding yeast forms",
+        "lightly stained background with cellular debris"
+      ],
+      "keywords": [
+        "stain",
+        "fungal elements",
+        "bronchoalveolar lavage",
+        "gomori methenamine silver",
+        "lung infection"
+      ],
+      "reveal_triggers": [
+        "bronchoalveolar lavage",
+        "fungal stain",
+        "GMS stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 244,
+      "total_tokens": 832
+    }
+  },
+  "Case_06004/figure2.jpg": {
+    "case_id": "Case_06004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06004/figure2.jpg",
+    "source_caption": "Bronchoalveolar lavage.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Fungal elements in lung tissue stained with Gomori methenamine silver (GMS).",
+      "detailed_description": "This image shows a histopathological section of lung tissue stained with Gomori methenamine silver (GMS). Numerous round to oval, darkly stained fungal elements are visible, consistent with yeast forms. The background tissue appears pale, with some cellular and structural details visible. The fungal elements are clustered and distributed throughout the field.",
+      "visible_findings": [
+        "darkly stained round to oval fungal elements",
+        "clustered distribution of fungal forms",
+        "pale background tissue with structural details"
+      ],
+      "keywords": [
+        "gomori methenamine silver",
+        "lung tissue",
+        "fungal infection",
+        "histopathology",
+        "yeast forms"
+      ],
+      "reveal_triggers": [
+        "gomori methenamine silver stain",
+        "lung biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_06004/figure1.jpg": {
+    "case_id": "Case_06004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06004/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Portable chest radiograph showing bilateral opacities and medical devices.",
+      "detailed_description": "This is a portable chest radiograph showing bilateral diffuse opacities, particularly in the lower lung zones, suggestive of consolidation or pulmonary edema. The heart size is difficult to assess due to the overlying opacities. Medical devices are visible, including an endotracheal tube in the trachea, a central venous catheter, and an enteric feeding tube. The lung bases appear obscured, likely due to effusion or consolidation.",
+      "visible_findings": [
+        "bilateral diffuse opacities",
+        "endotracheal tube in trachea",
+        "central venous catheter",
+        "enteric feeding tube",
+        "obscured lung bases"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "medical devices",
+        "endotracheal tube",
+        "central line",
+        "portable x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary opacities",
+        "intubation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:55+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 274,
+      "total_tokens": 860
+    }
+  }
+}

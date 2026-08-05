@@ -1,0 +1,248 @@
+{
+  "Case_03066/figure4.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure4.jpg",
+    "source_caption": "Brain biopsy with necrosis and inflammation.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain tissue showing necrosis and inflammation.",
+      "detailed_description": "This histopathology image shows brain tissue with areas of necrosis, characterized by loss of normal architecture and cellular debris. Surrounding the necrotic regions, there is evidence of inflammation with infiltrates of inflammatory cells. The tissue is stained with hematoxylin and eosin (H&E), highlighting cellular and structural details. The findings are consistent with a pathological process involving significant tissue damage and immune response.",
+      "visible_findings": [
+        "necrotic brain tissue",
+        "inflammatory cell infiltrates",
+        "loss of normal tissue architecture",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "necrosis and inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:11+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 236,
+      "total_tokens": 826
+    }
+  },
+  "Case_03066/figure5.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure5.jpg",
+    "source_caption": "Biopsy showing a tissue cyst.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Tissue section stained to highlight a cystic structure.",
+      "detailed_description": "This image shows a stained tissue section with a prominent cystic structure. The stain used appears to highlight the extracellular matrix and cellular components, with blue coloration dominating the image. The cyst is irregularly shaped with extensions and appears to contain internal material. The background is relatively clear, suggesting a focus on the cystic structure.",
+      "visible_findings": [
+        "irregularly shaped cystic structure",
+        "blue-stained extracellular matrix",
+        "internal material within the cyst",
+        "clear background"
+      ],
+      "keywords": [
+        "stain",
+        "tissue",
+        "cyst",
+        "infectious disease",
+        "histology"
+      ],
+      "reveal_triggers": [
+        "tissue cyst",
+        "histology of cyst",
+        "infectious disease biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:13+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 217,
+      "total_tokens": 806
+    }
+  },
+  "Case_03066/figure6.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure6.jpg",
+    "source_caption": "Tissue cyst of Toxoplasma.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Histopathology showing a tissue cyst consistent with Toxoplasma gondii.",
+      "detailed_description": "This histopathology image shows a round, well-defined structure consistent with a tissue cyst. The cyst contains numerous small, basophilic structures suggestive of bradyzoites, characteristic of Toxoplasma gondii. The surrounding tissue appears lightly stained, with no significant inflammatory infiltrate visible in this field. The stain used appears to be hematoxylin and eosin (H&E), highlighting the cyst and its contents.",
+      "visible_findings": [
+        "round, well-defined cyst",
+        "numerous basophilic structures within the cyst",
+        "lightly stained surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "tissue cyst",
+        "toxoplasma",
+        "bradyzoites",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "toxoplasma tissue cyst",
+        "histopathology of toxoplasmosis",
+        "tissue cyst microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:14+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 257,
+      "total_tokens": 847
+    }
+  },
+  "Case_03066/figure1.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure1.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI showing multiple ring-enhancing lesions.",
+      "detailed_description": "This axial T1-weighted MRI with contrast demonstrates multiple ring-enhancing lesions in the brain parenchyma. The lesions are of varying sizes and are surrounded by areas of hypointensity, suggestive of surrounding edema. The findings are consistent with infectious or inflammatory processes, such as abscesses or neurocysticercosis.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "surrounding hypointense edema",
+        "lesions of varying sizes"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "infection",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:14+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 216,
+      "total_tokens": 802
+    }
+  },
+  "Case_03066/figure3.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure3.jpg",
+    "source_caption": "Brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain biopsy showing inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows brain tissue with scattered inflammatory infiltrates, predominantly lymphocytes, within the parenchyma. The background neuropil appears disrupted, and there is evidence of gliosis. The staining technique appears to be hematoxylin and eosin (H&E), highlighting cellular and tissue architecture. No specific organisms are visible in this image.",
+      "visible_findings": [
+        "inflammatory infiltrates",
+        "lymphocytic predominance",
+        "disrupted neuropil",
+        "gliosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "inflammation",
+        "biopsy",
+        "gliosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "inflammatory brain lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:19+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 242,
+      "total_tokens": 827
+    }
+  },
+  "Case_03066/figure2.jpg": {
+    "case_id": "Case_03066",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03066/figure2.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI showing multiple ring-enhancing lesions.",
+      "detailed_description": "This axial T1-weighted MRI with contrast shows multiple ring-enhancing lesions scattered throughout the brain parenchyma. The lesions are of varying sizes and are located in both hemispheres. The findings are suggestive of infectious or neoplastic etiologies, such as abscesses or metastases. The surrounding brain tissue appears relatively preserved without significant midline shift.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "lesions of varying sizes",
+        "bilateral distribution in the brain",
+        "no significant midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "infection",
+        "neoplasm",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:19+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 232,
+      "total_tokens": 818
+    }
+  }
+}

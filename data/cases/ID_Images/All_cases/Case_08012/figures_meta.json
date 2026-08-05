@@ -1,0 +1,125 @@
+{
+  "Case_08012/figure1.jpg": {
+    "case_id": "Case_08012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08012/figure1.jpg",
+    "source_caption": "MRI of the lumbar spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "MRI of the lumbar spine showing abnormal enhancement and possible discitis or osteomyelitis.",
+      "detailed_description": "This sagittal T2-weighted MRI image of the lumbar spine shows abnormal signal intensity and enhancement at the L4-L5 intervertebral disc space, suggesting discitis. Adjacent vertebral endplates appear irregular, consistent with possible osteomyelitis. There is also evidence of soft tissue involvement anterior to the spine. The image provides clear visualization of the vertebral bodies, intervertebral discs, and surrounding soft tissues.",
+      "visible_findings": [
+        "abnormal signal intensity at L4-L5 disc space",
+        "irregular vertebral endplates at L4 and L5",
+        "soft tissue involvement anterior to the spine"
+      ],
+      "keywords": [
+        "mri",
+        "lumbar spine",
+        "discitis",
+        "osteomyelitis",
+        "spinal infection"
+      ],
+      "reveal_triggers": [
+        "mri of lumbar spine",
+        "spinal infection",
+        "discitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 257,
+      "total_tokens": 845
+    }
+  },
+  "Case_08012/figure2.jpg": {
+    "case_id": "Case_08012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08012/figure2.jpg",
+    "source_caption": "MRI of the lumbar spine, transverse cut.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "MRI of the lumbar spine, transverse cut showing abnormal signal intensity.",
+      "detailed_description": "This is a transverse MRI image of the lumbar spine. The image shows a focal area of abnormal signal intensity at the level of the vertebral body and surrounding soft tissues, indicated by an arrow. The abnormality may suggest an infectious or inflammatory process, such as discitis or osteomyelitis. The surrounding soft tissue appears edematous, and there is evidence of contrast enhancement.",
+      "visible_findings": [
+        "abnormal signal intensity in vertebral body",
+        "soft tissue edema",
+        "contrast enhancement",
+        "arrow indicating focal abnormality"
+      ],
+      "keywords": [
+        "mri",
+        "lumbar spine",
+        "transverse cut",
+        "infection",
+        "discitis",
+        "osteomyelitis",
+        "contrast enhancement"
+      ],
+      "reveal_triggers": [
+        "lumbar spine MRI",
+        "spinal infection",
+        "transverse MRI of spine"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:00+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 243,
+      "total_tokens": 834
+    }
+  },
+  "Case_08012/figure3.jpg": {
+    "case_id": "Case_08012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08012/figure3.jpg",
+    "source_caption": "Surgical pathology of the resected tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "intestinal tissue",
+      "short_caption": "Histopathology of resected intestinal tissue showing mucosal architecture and parasitic structures.",
+      "detailed_description": "This histopathology image shows a section of intestinal tissue stained with hematoxylin and eosin (H&E). The mucosal layer is visible with intact villous architecture (labeled A). Adjacent to the mucosa, parasitic structures (labeled B) are present, consistent with an infectious etiology. The parasites appear as oval or round structures with internal features, suggesting an invasive organism. The surrounding tissue shows mild inflammatory changes.",
+      "visible_findings": [
+        "intact intestinal villi",
+        "parasitic structures adjacent to mucosa",
+        "mild inflammatory changes in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "intestinal tissue",
+        "parasite",
+        "H&E stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "intestinal histopathology",
+        "parasitic infection",
+        "H&E stain of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:01+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 254,
+      "total_tokens": 845
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Case_03068/figure1.jpg": {
+    "case_id": "Case_03068",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03068/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial skin with multiple umbilicated papules and pustules.",
+      "detailed_description": "This clinical photograph shows the lower half of a face with numerous discrete, dome-shaped papules and pustules, many of which are umbilicated. The lesions are distributed across the cheeks, upper lip, and chin. The skin appears slightly erythematous around some lesions, suggesting inflammation. The findings are consistent with a viral or infectious etiology.",
+      "visible_findings": [
+        "multiple dome-shaped papules and pustules",
+        "umbilicated lesions",
+        "erythema around some lesions",
+        "distribution across cheeks, upper lip, and chin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "papules",
+        "pustules",
+        "umbilicated lesions",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial rash",
+        "umbilicated papules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:26+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 239,
+      "total_tokens": 807
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "Case_19007/figure1.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of the raised papular rash on the posterior scalp",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "posterior scalp",
+      "short_caption": "Photograph of erythematous papular rash on the posterior scalp.",
+      "detailed_description": "This image shows the posterior scalp of a bald individual with numerous erythematous papules distributed across the skin. The lesions are irregularly spaced and vary slightly in size, with some areas appearing more confluent. The surrounding skin shows mild erythema without overt signs of ulceration or crusting. The image is well-lit, allowing clear visualization of the rash morphology.",
+      "visible_findings": [
+        "erythematous papules",
+        "diffuse distribution on posterior scalp",
+        "mild background erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "scalp",
+        "rash",
+        "papules",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "scalp rash",
+        "papular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:26+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 226,
+      "total_tokens": 824
+    }
+  },
+  "Case_19007/figure2.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure2.jpg",
+    "source_caption": "Figure 2: Photograph of petechial rash on upper thighs",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper thighs",
+      "short_caption": "Photograph showing petechial rash on the upper thighs.",
+      "detailed_description": "This clinical photograph depicts the anterior aspect of both upper thighs. Numerous small, non-blanching, red to purple macules are scattered across the skin, consistent with a petechial rash. The lesions vary slightly in size and are distributed irregularly. The surrounding skin appears otherwise normal without significant erythema or swelling. The image is well-lit, and the findings are clearly visible.",
+      "visible_findings": [
+        "numerous small, non-blanching red to purple macules",
+        "irregular distribution of lesions",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "petechial rash",
+        "upper thighs",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "petechial rash",
+        "rash on thighs"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:27+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 234,
+      "total_tokens": 830
+    }
+  },
+  "Case_19007/figure6.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure6.jpg",
+    "source_caption": "Figure 6: Parvovirus immunohistochemistry positive on bone marrow biopsy",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Parvovirus immunohistochemistry positive on bone marrow biopsy.",
+      "detailed_description": "This histopathology image shows a bone marrow biopsy stained with immunohistochemistry. A single large cell with a prominent, dark brown-stained intranuclear inclusion is visible, consistent with parvovirus infection. Surrounding cells are stained blue, likely representing hematopoietic cells counterstained with hematoxylin. The brown staining indicates the presence of parvoviral antigen within the nucleus.",
+      "visible_findings": [
+        "dark brown intranuclear inclusion in a single large cell",
+        "blue-stained surrounding hematopoietic cells",
+        "immunohistochemical staining pattern"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "parvovirus",
+        "immunohistochemistry",
+        "intranuclear inclusion"
+      ],
+      "reveal_triggers": [
+        "parvovirus histology",
+        "bone marrow biopsy",
+        "immunohistochemistry for infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:29+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 254,
+      "total_tokens": 853
+    }
+  },
+  "Case_19007/figure5.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure5.jpg",
+    "source_caption": "Figure 5: Trephine hematoxylin and eosin staining showing parvovirus inclusion body",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow trephine biopsy with H&E stain showing parvovirus inclusion body.",
+      "detailed_description": "This histopathology image shows a bone marrow trephine biopsy stained with hematoxylin and eosin (H&E). A prominent intranuclear inclusion body, characteristic of parvovirus infection, is visible within a hematopoietic precursor cell. The inclusion appears as a dense, eosinophilic structure surrounded by a clear halo, highlighted by the black arrow. The surrounding marrow shows normal cellular elements with no significant architectural disruption.",
+      "visible_findings": [
+        "intranuclear inclusion body with eosinophilic staining",
+        "clear halo surrounding the inclusion",
+        "normal marrow cellular elements in the background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "parvovirus",
+        "inclusion body",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "parvovirus histology",
+        "H&E stain of marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:30+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 256,
+      "total_tokens": 860
+    }
+  },
+  "Case_19007/figure4.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure4.jpg",
+    "source_caption": "Figure 4: Wright-Giemsa stain of bone marrow aspirate showing large parvovirus B19 erythroblast",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Wright-Giemsa stain of bone marrow aspirate showing a large erythroblast with viral inclusions.",
+      "detailed_description": "This image shows a Wright-Giemsa stained bone marrow aspirate. A large erythroblast is prominently visible in the center, stained blue with a dense nucleus. The cytoplasm appears basophilic, and there are visible inclusions consistent with viral infection. Surrounding cells include smaller erythroid precursors and other hematopoietic cells. The arrow highlights the erythroblast of interest.",
+      "visible_findings": [
+        "large erythroblast with basophilic cytoplasm",
+        "dense nucleus",
+        "viral inclusions within the erythroblast",
+        "surrounding smaller hematopoietic cells"
+      ],
+      "keywords": [
+        "wright-giemsa stain",
+        "bone marrow",
+        "erythroblast",
+        "viral inclusions",
+        "parvovirus B19"
+      ],
+      "reveal_triggers": [
+        "wright-giemsa stain",
+        "bone marrow aspirate",
+        "parvovirus B19",
+        "erythroblast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:30+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 273,
+      "total_tokens": 880
+    }
+  },
+  "Case_19007/figure3.jpg": {
+    "case_id": "Case_19007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19007/figure3.jpg",
+    "source_caption": "Figure 3: Photographs of the right ankle showing swelling and petechiae",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right lower leg and ankle",
+      "short_caption": "Photograph of the right lower leg showing swelling, petechiae, and discoloration.",
+      "detailed_description": "This clinical photograph shows the right lower leg and ankle with significant swelling, extensive petechiae, and areas of reddish-purple discoloration. The findings are most prominent over the anterior and lateral aspects of the leg. The skin appears tense, and there is evidence of possible subcutaneous edema. No open wounds or ulcerations are visible in this image.",
+      "visible_findings": [
+        "swelling of the right lower leg and ankle",
+        "petechiae scattered over the skin",
+        "reddish-purple discoloration",
+        "tense skin appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right lower leg",
+        "ankle",
+        "swelling",
+        "petechiae",
+        "discoloration",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "right ankle swelling",
+        "petechiae on leg"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:32+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 252,
+      "total_tokens": 851
+    }
+  }
+}

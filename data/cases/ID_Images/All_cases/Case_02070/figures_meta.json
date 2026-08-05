@@ -1,0 +1,85 @@
+{
+  "Case_02070/figure1.jpg": {
+    "case_id": "Case_02070",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02070/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. The lung fields are visible bilaterally, with no obvious consolidation, cavitation, or pleural effusion. The mediastinal structures, including the heart and trachea, appear midline. The bony thorax, including ribs and clavicles, is intact without visible deformities. No foreign bodies or devices are present.",
+      "visible_findings": [
+        "bilateral lung fields appear clear",
+        "mediastinal structures are midline",
+        "no visible pleural effusion",
+        "bony thorax intact"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "mediastinum",
+        "normal chest x-ray"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thorax imaging",
+        "radiograph of lungs"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:30+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 247,
+      "total_tokens": 833
+    }
+  },
+  "Case_02070/figure2.jpg": {
+    "case_id": "Case_02070",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02070/figure2.jpg",
+    "source_caption": "Chest radiograph five days later.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing diffuse bilateral pulmonary infiltrates. The infiltrates are more pronounced in the lower lung zones, with areas of consolidation visible. The heart silhouette is partially obscured, suggesting significant involvement of the surrounding lung parenchyma. No clear pleural effusion or pneumothorax is visible. The radiograph appears consistent with a severe infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "consolidation in lower lung zones",
+        "obscured heart silhouette",
+        "no visible pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:32+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 252,
+      "total_tokens": 841
+    }
+  }
+}

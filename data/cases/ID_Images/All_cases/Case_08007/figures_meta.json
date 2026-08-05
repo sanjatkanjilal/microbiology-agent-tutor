@@ -1,0 +1,205 @@
+{
+  "Case_08007/figure1.jpg": {
+    "case_id": "Case_08007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08007/figure1.jpg",
+    "source_caption": "Blood smear, Giemsa stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear with Giemsa stain showing intracellular ring forms.",
+      "detailed_description": "This is a Giemsa-stained blood smear showing numerous red blood cells, some of which contain intracellular ring forms consistent with parasitic infection. The ring forms are small, circular to oval, and have a central vacuole with a thin rim of cytoplasm. The background is clear, and the red blood cells appear normochromic and normocytic. No significant leukocytes or platelets are visible in this field.",
+      "visible_findings": [
+        "intracellular ring forms in red blood cells",
+        "normochromic, normocytic red blood cells",
+        "clear background"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "blood smear",
+        "ring forms",
+        "parasitic infection",
+        "red blood cells"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "giemsa stain",
+        "ring forms in red blood cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:20+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 246,
+      "total_tokens": 836
+    }
+  },
+  "Case_08007/figure3.jpg": {
+    "case_id": "Case_08007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08007/figure3.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying both lung fields, the heart, and mediastinal structures. The lung fields appear symmetric with no obvious focal consolidations, masses, or cavitations. The heart size is within normal limits, and the diaphragm contours are smooth. The bony thorax, including ribs and clavicles, appears intact without visible fractures. No pleural effusion or pneumothorax is evident.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "normal heart size",
+        "smooth diaphragm contours",
+        "intact bony thorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "heart",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "thoracic imaging",
+        "lung radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:21+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 238,
+      "total_tokens": 824
+    }
+  },
+  "Case_08007/figure2.jpg": {
+    "case_id": "Case_08007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08007/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This image shows a peripheral blood smear with numerous red blood cells. Some of the red blood cells contain small, ring-shaped structures with a central dot, consistent with intraerythrocytic parasites. The smear appears to be stained with a Giemsa or similar stain, highlighting the parasitic forms within the erythrocytes.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "ring-shaped intraerythrocytic forms",
+        "central dots within some ring forms",
+        "uniform staining of red blood cells"
+      ],
+      "keywords": [
+        "blood smear",
+        "giemsa stain",
+        "ring forms",
+        "intraerythrocytic parasites",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms in red blood cells",
+        "giemsa stain of blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:21+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 241,
+      "total_tokens": 829
+    }
+  },
+  "Case_08007/figure5.jpg": {
+    "case_id": "Case_08007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08007/figure5.jpg",
+    "source_caption": "An arrow in Figure 5 highlights a cell in which the intracellular chromatin is suggestive of a Maltese cross.) Polymerase chain reaction (PCR) testing is available and may detect low levels of parasitemia.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing intracellular chromatin with a Maltese cross appearance.",
+      "detailed_description": "This is a high-magnification image of a stained peripheral blood smear. The red blood cells are visible, with one cell highlighted by an arrow. Within this cell, intracellular chromatin is arranged in a pattern resembling a Maltese cross. This finding is characteristic of Babesia species infection. The smear is stained, likely with Giemsa or a similar stain, to enhance visualization of intracellular parasites.",
+      "visible_findings": [
+        "stained red blood cells",
+        "intracellular chromatin with Maltese cross appearance",
+        "arrow pointing to a specific infected cell"
+      ],
+      "keywords": [
+        "blood smear",
+        "babesia",
+        "maltese cross",
+        "intracellular parasite",
+        "giemsa stain"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "maltese cross",
+        "babesia infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:23+00:00",
+    "usage": {
+      "prompt_tokens": 626,
+      "completion_tokens": 239,
+      "total_tokens": 865
+    }
+  },
+  "Case_08007/figure4.jpg": {
+    "case_id": "Case_08007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08007/figure4.jpg",
+    "source_caption": "Blood smear, Giemsa stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Blood smear with Giemsa stain showing intraerythrocytic inclusions.",
+      "detailed_description": "This is a high-magnification image of a Giemsa-stained peripheral blood smear. Numerous red blood cells are visible, with some containing small, dark-staining intraerythrocytic inclusions suggestive of parasitic infection. The inclusions are consistent with the morphology of Plasmodium species, likely indicating malaria. The background is clear, and the cells are evenly distributed.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "intraerythrocytic inclusions (dark-staining)",
+        "even distribution of cells"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "blood smear",
+        "plasmodium",
+        "malaria",
+        "intraerythrocytic inclusions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "giemsa stain",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:23+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 253,
+      "total_tokens": 843
+    }
+  }
+}

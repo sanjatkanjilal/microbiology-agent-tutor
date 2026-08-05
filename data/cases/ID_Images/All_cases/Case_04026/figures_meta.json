@@ -1,0 +1,123 @@
+{
+  "Case_04026/figure1.jpg": {
+    "case_id": "Case_04026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04026/figure1.jpg",
+    "source_caption": "Physical findings on hands.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hands",
+      "short_caption": "Clinical photograph showing erythematous maculopapular lesions on the hands.",
+      "detailed_description": "This image shows the dorsal aspect of both hands, with scattered erythematous maculopapular lesions visible on the skin. The lesions are small, discrete, and distributed across the hands. A bandage is present on the left hand, suggesting prior intervention or injury. The nails appear normal, and there are no visible signs of swelling or deformity.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "scattered distribution",
+        "bandage on left hand",
+        "normal-appearing nails"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hands",
+        "maculopapular rash",
+        "erythematous lesions",
+        "skin findings"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on hands",
+        "maculopapular lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:20+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 241,
+      "total_tokens": 828
+    }
+  },
+  "Case_04026/figure2.jpg": {
+    "case_id": "Case_04026",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04026/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Erythematous maculopapular rash on the skin.",
+      "detailed_description": "This image shows a section of skin with multiple erythematous maculopapular lesions of varying sizes. The lesions are scattered and some appear more inflamed than others. There is no visible scaling, vesiculation, or ulceration. The background skin appears otherwise normal.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "scattered distribution",
+        "no visible scaling or vesicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "maculopapular",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:22+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 212,
+      "total_tokens": 780
+    }
+  },
+  "Case_04026/figure3.jpg": {
+    "case_id": "Case_04026",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04026/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous maculopapular rash on the thigh.",
+      "detailed_description": "This clinical photograph shows the anterior aspect of a thigh with multiple erythematous maculopapular lesions scattered across the skin. The lesions vary slightly in size and are distributed irregularly. The surrounding skin appears otherwise normal without signs of swelling or ulceration. The image suggests a dermatologic manifestation, potentially related to an infectious or allergic process.",
+      "visible_findings": [
+        "erythematous maculopapular lesions",
+        "irregular distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "rash",
+        "maculopapular",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:23+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  }
+}

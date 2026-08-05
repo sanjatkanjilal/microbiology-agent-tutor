@@ -1,0 +1,100 @@
+{
+  "Case_01004/figure2.jpg": {
+    "case_id": "Case_01004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01004/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:18:46+00:00"
+  },
+  "Case_01004/figure1.jpg": {
+    "case_id": "Case_01004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01004/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand and wrist",
+      "short_caption": "Swollen hand with erythema and edema, suggestive of cellulitis or soft tissue infection.",
+      "detailed_description": "This clinical photograph shows a markedly swollen hand and wrist with diffuse erythema and edema. The skin appears tense and shiny, indicating significant inflammation. A hospital wristband is visible, and a gloved hand is gently holding the wrist, suggesting a clinical examination. The findings are consistent with a soft tissue infection, such as cellulitis, possibly with an underlying abscess or other complication.",
+      "visible_findings": [
+        "diffuse swelling of the hand and wrist",
+        "erythema and shiny skin",
+        "tense appearance of the skin",
+        "hospital wristband and gloved hand indicating clinical context"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "wrist",
+        "swelling",
+        "erythema",
+        "cellulitis",
+        "soft tissue infection"
+      ],
+      "reveal_triggers": [
+        "swollen hand",
+        "skin infection",
+        "cellulitis",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:50+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 263,
+      "total_tokens": 831
+    }
+  },
+  "Case_01004/figure3.jpg": {
+    "case_id": "Case_01004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01004/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Forearm with erythema, swelling, and ecchymosis suggestive of soft tissue infection.",
+      "detailed_description": "The image shows a patient's forearm with visible erythema, swelling, and areas of ecchymosis extending from the wrist to the mid-forearm. The discoloration appears dark red to purple, consistent with inflammation or possible necrosis. A healthcare provider is holding the patient's arm, wearing gloves, suggesting clinical examination. The findings are suggestive of a severe soft tissue infection, possibly cellulitis or necrotizing fasciitis.",
+      "visible_findings": [
+        "erythema along the forearm",
+        "swelling of soft tissues",
+        "ecchymosis extending proximally",
+        "gloved hand holding the arm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "soft tissue infection",
+        "erythema",
+        "swelling",
+        "ecchymosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "soft tissue infection",
+        "forearm erythema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 265,
+      "total_tokens": 833
+    }
+  }
+}

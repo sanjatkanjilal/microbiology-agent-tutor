@@ -1,0 +1,124 @@
+{
+  "Case_02014/figure1.jpg": {
+    "case_id": "Case_02014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02014/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. There are bilateral pulmonary infiltrates, more pronounced in the right lung, with areas of consolidation. The heart size appears within normal limits, and there is no obvious pleural effusion. The findings suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "right lung consolidation",
+        "normal heart size",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary infiltrates",
+        "consolidation",
+        "infection",
+        "lungs"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:55+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 213,
+      "total_tokens": 799
+    }
+  },
+  "Case_02014/figure2.jpg": {
+    "case_id": "Case_02014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02014/figure2.jpg",
+    "source_caption": "Sputum gram stain.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Gram stain of sputum showing gram-positive bacilli.",
+      "detailed_description": "This image shows a gram stain of sputum with gram-positive bacilli visible as purple, rod-shaped organisms against a yellowish background. The background appears to contain cellular debris and possible inflammatory material. The organisms are scattered and not densely clustered. The staining technique highlights the morphology of the bacteria.",
+      "visible_findings": [
+        "gram-positive bacilli (purple, rod-shaped organisms)",
+        "yellowish background with cellular debris",
+        "scattered distribution of bacteria"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "respiratory tract",
+        "gram-positive bacilli",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "sputum gram stain",
+        "respiratory infection",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 222,
+      "total_tokens": 810
+    }
+  },
+  "Case_02014/figure3.jpg": {
+    "case_id": "Case_02014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02014/figure3.jpg",
+    "source_caption": "Sputum culture.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Sputum culture showing colonies with filamentous, branching morphology on an agar plate.",
+      "detailed_description": "This image shows a culture plate with multiple colonies exhibiting filamentous, branching morphology, consistent with a fungal or actinomycete organism. The colonies are irregularly shaped, with a central dense area and radiating projections. The agar plate background is reddish, suggesting the use of a blood agar medium. A black box obscures part of the image, likely for de-identification purposes.",
+      "visible_findings": [
+        "filamentous, branching colonies",
+        "irregular colony shapes",
+        "reddish agar medium",
+        "central dense areas in colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "sputum",
+        "filamentous colonies",
+        "branching morphology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "sputum culture",
+        "fungal culture",
+        "actinomycete colonies"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:01+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 248,
+      "total_tokens": 835
+    }
+  }
+}

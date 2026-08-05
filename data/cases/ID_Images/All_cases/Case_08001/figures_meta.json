@@ -1,0 +1,292 @@
+{
+  "Case_08001/figure1.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities.",
+      "detailed_description": "This is a frontal chest radiograph showing bilateral pulmonary opacities, more prominent in the right lung field. The cardiac silhouette appears enlarged, and there is evidence of increased interstitial markings, suggesting possible pulmonary edema or infection. The diaphragm is visible, and there are no obvious pleural effusions. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "enlarged cardiac silhouette",
+        "increased interstitial markings",
+        "no obvious pleural effusions"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "cardiac silhouette",
+        "infection",
+        "pulmonary edema"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "cardiomegaly"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:15+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 232,
+      "total_tokens": 820
+    }
+  },
+  "Case_08001/figure2.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure2.jpg",
+    "source_caption": "Lateral view of chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral view of chest radiograph showing abnormal lung findings.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity. There is evidence of increased opacification in the lung fields, particularly in the lower zones, suggestive of consolidation or infiltrates. The diaphragm and cardiac silhouette are partially visible. The image quality and positioning are consistent with a standard lateral chest X-ray.",
+      "visible_findings": [
+        "increased opacification in lung fields",
+        "possible consolidation or infiltrates",
+        "partially visible diaphragm and cardiac silhouette"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "lung",
+        "opacification",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung infection imaging",
+        "chest radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:18+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 228,
+      "total_tokens": 818
+    }
+  },
+  "Case_08001/figure6.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure6.jpg",
+    "source_caption": "Immunofluorescent stain for Pneumocystis.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Immunofluorescent stain highlighting Pneumocystis organisms.",
+      "detailed_description": "This image shows an immunofluorescent stain of lung tissue, with a bright green fluorescence highlighting a cluster of Pneumocystis organisms against a dark background. The fluorescence is specific to the organism, aiding in its identification. The surrounding tissue appears dark red to black, consistent with the staining technique.",
+      "visible_findings": [
+        "bright green fluorescent cluster of organisms",
+        "dark background with minimal fluorescence",
+        "contrast between organism and surrounding tissue"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "pneumocystis",
+        "lung",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "immunofluorescent stain",
+        "pneumocystis identification",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:26+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 227,
+      "total_tokens": 822
+    }
+  },
+  "Case_08001/figure5.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure5.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing extensive consolidation and cavitation in the left lung.",
+      "detailed_description": "This axial CT image of the chest demonstrates significant abnormalities in the left lung. There is extensive consolidation involving the majority of the left lung field, with areas of cavitation visible. The right lung appears relatively spared. The mediastinum is shifted slightly to the right, likely due to volume loss or mass effect from the left-sided pathology. No contrast enhancement is evident, suggesting a non-contrast study.",
+      "visible_findings": [
+        "extensive left lung consolidation",
+        "cavitation in the left lung",
+        "mediastinal shift to the right",
+        "relatively normal right lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung consolidation",
+        "cavitation",
+        "mediastinal shift",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung cavitation",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:27+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 249,
+      "total_tokens": 837
+    }
+  },
+  "Case_08001/figure7.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure7.jpg",
+    "source_caption": "Immunofluorescent stain of HSV from culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Immunofluorescent stain showing HSV-positive cells from culture.",
+      "detailed_description": "This image shows an immunofluorescent stain of cells from a culture. Bright green fluorescence highlights areas of HSV antigen expression, indicating HSV-positive cells. The background is dark, with scattered red and green fluorescence, likely representing nonspecific staining or other cellular components. The staining technique is specific for HSV detection.",
+      "visible_findings": [
+        "bright green fluorescence indicating HSV-positive cells",
+        "dark background typical of immunofluorescent staining",
+        "scattered red and green fluorescence in the background"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "hsv",
+        "culture",
+        "infectious diseases",
+        "staining"
+      ],
+      "reveal_triggers": [
+        "immunofluorescent stain",
+        "hsv culture",
+        "viral detection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:28+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 225,
+      "total_tokens": 818
+    }
+  },
+  "Case_08001/figure3.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure3.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral lung abnormalities with areas of increased density in the upper lobes, suggestive of consolidation or fibrosis. The mediastinum and bony structures appear intact. The scan is presented in a lung window setting, highlighting parenchymal changes.",
+      "visible_findings": [
+        "bilateral upper lobe abnormalities",
+        "increased lung density",
+        "intact mediastinal structures",
+        "normal-appearing bony thorax"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "fibrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 216,
+      "total_tokens": 804
+    }
+  },
+  "Case_08001/figure4.jpg": {
+    "case_id": "Case_08001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08001/figure4.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing extensive bilateral lung abnormalities.",
+      "detailed_description": "This axial CT scan of the chest demonstrates extensive bilateral lung involvement. The left lung shows significant consolidation with air bronchograms, while the right lung exhibits pleural effusion and areas of ground-glass opacities. The mediastinum appears midline, and the pleural spaces are asymmetrically affected, with the right side showing more fluid accumulation. The findings are consistent with a severe infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "air bronchograms in the left lung",
+        "right-sided pleural effusion",
+        "ground-glass opacities in the right lung",
+        "midline mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "pleural effusion",
+        "ground-glass opacities",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "pleural effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 260,
+      "total_tokens": 848
+    }
+  }
+}

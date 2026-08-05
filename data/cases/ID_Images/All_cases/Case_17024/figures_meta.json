@@ -1,0 +1,252 @@
+{
+  "Case_17024/figure2.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure2.jpg",
+    "source_caption": "Figure 2: Photograph of fluorescein stained left eye under blue light on day 30 of presentation. This adds contrast and helps delineate the full extent of corneal ulceration.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Fluorescein-stained left eye under blue light showing corneal ulceration.",
+      "detailed_description": "This image shows a fluorescein-stained left eye viewed under blue light. The fluorescein highlights a central corneal ulceration, which appears as a bright green area surrounded by a darker corneal background. The ulceration is irregular in shape, with well-demarcated edges. The blue light enhances the contrast, making the extent of the lesion more apparent.",
+      "visible_findings": [
+        "fluorescein-stained cornea",
+        "central corneal ulceration",
+        "irregular lesion with bright green fluorescence",
+        "blue light illumination"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal ulcer",
+        "fluorescein stain",
+        "blue light"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "fluorescein stain",
+        "corneal ulcer",
+        "blue light exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:10+00:00",
+    "usage": {
+      "prompt_tokens": 620,
+      "completion_tokens": 245,
+      "total_tokens": 865
+    }
+  },
+  "Case_17024/figure3.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure3.jpg",
+    "source_caption": "Figure 3: Photograph of left eye taken on day 40 of presentation. Rapid progression seen with complete opacification of the cornea suggestive of progressive keratitis",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Clinical photograph showing complete corneal opacification in the left eye, consistent with advanced keratitis.",
+      "detailed_description": "This clinical photograph depicts the left eye with marked findings. The cornea is completely opacified, with a dense white appearance obscuring the underlying structures. The surrounding conjunctiva is erythematous and inflamed, indicative of significant irritation or infection. The findings are consistent with progressive keratitis, potentially infectious in etiology. The image highlights the advanced stage of the condition.",
+      "visible_findings": [
+        "complete corneal opacification",
+        "dense white appearance of the cornea",
+        "erythematous and inflamed conjunctiva"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal opacification",
+        "keratitis",
+        "conjunctival inflammation"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "keratitis",
+        "corneal opacification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:11+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 241,
+      "total_tokens": 858
+    }
+  },
+  "Case_17024/figure4.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure4.jpg",
+    "source_caption": "Figure 4: SAB plate with a powdery white mold on day 5 of culture",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "SAB plate showing a powdery white mold colony on day 5 of culture.",
+      "detailed_description": "This image shows a Sabouraud dextrose agar (SAB) plate with a mold colony exhibiting a powdery white surface. The colony appears circular with a slightly raised center and radiating folds or ridges. The texture suggests a filamentous fungal growth, consistent with mold. The image is taken at close range, emphasizing the colony morphology.",
+      "visible_findings": [
+        "powdery white mold colony",
+        "circular growth with radiating folds",
+        "raised central area",
+        "filamentous texture"
+      ],
+      "keywords": [
+        "culture plate",
+        "sabouraud agar",
+        "mold",
+        "fungal colony",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "SAB plate",
+        "fungal culture",
+        "mold colony",
+        "powdery white growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:16+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 237,
+      "total_tokens": 838
+    }
+  },
+  "Case_17024/figure5.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure5.jpg",
+    "source_caption": "Figure 5: Photograph of left eye on day 41 after presentation (1 day after his first corneal transplant)",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Photograph of left eye showing corneal transplant with sutures and signs of inflammation.",
+      "detailed_description": "This image shows a close-up view of the left eye. The cornea has visible sutures consistent with a recent corneal transplant. The central corneal area appears hazy with a greenish discoloration, possibly indicating edema or infection. Surrounding conjunctiva is erythematous, suggesting inflammation. The eyelashes have yellow crusting, which may represent discharge or debris.",
+      "visible_findings": [
+        "corneal sutures",
+        "central corneal haze with green discoloration",
+        "erythematous conjunctiva",
+        "yellow crusting on eyelashes"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal transplant",
+        "infection",
+        "inflammation",
+        "sutures"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "corneal transplant complications",
+        "postoperative eye infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:16+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 240,
+      "total_tokens": 846
+    }
+  },
+  "Case_17024/figure6.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure6.jpg",
+    "source_caption": "Figure 6: Photograph of left eye 54 days from presentation and 14 days post his first corneal transplant. Recurrence of an infiltrate at the inferior aspect of the temporary corneal graft.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Photograph of left eye showing recurrence of an infiltrate at the inferior aspect of a corneal graft.",
+      "detailed_description": "This clinical photograph shows a close-up view of the left eye. A temporary corneal graft is visible, secured with multiple sutures around its circumference. There is a hazy, white infiltrate at the inferior aspect of the graft, suggesting recurrence of infection or inflammation. The central corneal area appears relatively clear, but the peripheral infiltrate is prominent. The image was taken 14 days post-corneal transplant.",
+      "visible_findings": [
+        "temporary corneal graft with sutures",
+        "hazy white infiltrate at the inferior aspect of the graft",
+        "relatively clear central corneal area"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal graft",
+        "infiltrate",
+        "infection",
+        "post-transplant"
+      ],
+      "reveal_triggers": [
+        "eye infection",
+        "corneal transplant",
+        "post-surgical complications"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:16+00:00",
+    "usage": {
+      "prompt_tokens": 623,
+      "completion_tokens": 254,
+      "total_tokens": 877
+    }
+  },
+  "Case_17024/figure1.jpg": {
+    "case_id": "Case_17024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17024/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of fluorescein stained left eye on day 30 of presentation demonstrated a central infiltrate and the extent of corneal ulceration.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Fluorescein-stained left eye showing a central corneal infiltrate and ulceration.",
+      "detailed_description": "This clinical photograph depicts a close-up view of the left eye with fluorescein staining. A central greenish-yellow area is visible, consistent with a corneal infiltrate and ulceration. Surrounding conjunctival injection is evident, with prominent redness of the sclera. The fluorescein highlights the extent of the corneal defect, indicating significant involvement of the central cornea. The image suggests an advanced infectious process, possibly microbial keratitis.",
+      "visible_findings": [
+        "central corneal infiltrate",
+        "fluorescein staining of corneal ulcer",
+        "conjunctival injection",
+        "greenish-yellow discoloration in the cornea"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "corneal ulcer",
+        "fluorescein stain",
+        "keratitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "fluorescein stain",
+        "corneal ulcer",
+        "infectious keratitis",
+        "eye infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:18+00:00",
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 271,
+      "total_tokens": 885
+    }
+  }
+}

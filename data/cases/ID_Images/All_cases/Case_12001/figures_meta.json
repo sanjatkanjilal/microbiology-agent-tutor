@@ -1,0 +1,376 @@
+{
+  "Case_12001/figure1.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure1.jpg",
+    "source_caption": "Chest radiograph, other hospital.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities.",
+      "detailed_description": "This is an anteroposterior (AP) chest radiograph. The image shows bilateral pulmonary opacities, more pronounced in the mid and lower lung zones. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion. The bony structures, including the ribs and clavicles, are intact. The radiograph suggests a possible infectious or inflammatory process in the lungs.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "normal cardiac silhouette",
+        "no visible pleural effusion",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "lungs",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "lung opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:12+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_12001/figure2.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure2.jpg",
+    "source_caption": "Chest radiograph, on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary findings and medical device placement.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. There are bilateral pulmonary opacities, more pronounced in the lower lung fields, suggesting possible consolidation or infiltrates. Medical devices, including ECG leads and a central venous catheter, are visible. The bony structures, including the ribs and spine, appear intact. The heart size is within normal limits, and there is no obvious pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "ECG leads visible",
+        "central venous catheter in place",
+        "no pleural effusion or pneumothorax",
+        "normal heart size"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "medical devices",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "radiograph with devices"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 266,
+      "total_tokens": 855
+    }
+  },
+  "Case_12001/figure3.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure3.jpg",
+    "source_caption": "CT of the head and neck, sagittal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head and neck",
+      "short_caption": "Sagittal CT of the head and neck showing soft tissue and bony structures.",
+      "detailed_description": "This sagittal CT image of the head and neck demonstrates detailed visualization of the cranial vault, nasal cavity, oropharynx, cervical spine, and surrounding soft tissues. The image is in a bone window setting, highlighting the bony structures such as the skull, vertebrae, and mandible. The soft tissues of the neck, including the airway and pharyngeal structures, are also visible. No obvious abnormalities such as fractures, masses, or fluid collections are apparent in this image.",
+      "visible_findings": [
+        "sagittal view of the skull and cervical spine",
+        "clear visualization of nasal cavity and oropharynx",
+        "normal alignment of cervical vertebrae",
+        "no visible fractures or masses"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "neck",
+        "sagittal",
+        "bone window",
+        "cranial vault",
+        "cervical spine"
+      ],
+      "reveal_triggers": [
+        "head and neck CT",
+        "sagittal CT",
+        "cranial imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:18+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 285,
+      "total_tokens": 878
+    }
+  },
+  "Case_12001/figure8.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure8.jpg",
+    "source_caption": "Gram stain of pleural fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "pleural fluid",
+      "short_caption": "Gram stain of pleural fluid showing gram-positive bacilli and inflammatory cells.",
+      "detailed_description": "This image shows a Gram stain of pleural fluid. Numerous gram-positive bacilli are visible, appearing as purple rod-shaped organisms. Additionally, there are scattered inflammatory cells, including neutrophils, which are indicative of an inflammatory or infectious process. The background is lightly stained, aiding in the visualization of cellular and bacterial elements.",
+      "visible_findings": [
+        "gram-positive bacilli (purple rods)",
+        "scattered inflammatory cells, including neutrophils",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "pleural fluid",
+        "gram-positive bacilli",
+        "inflammatory cells",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of pleural fluid",
+        "pleural infection",
+        "bacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:18+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 225,
+      "total_tokens": 814
+    }
+  },
+  "Case_12001/figure5.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure5.jpg",
+    "source_caption": "CT of the chest, post thoracentesis, mediastinal window.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest, mediastinal window, post-thoracentesis with residual air and fluid noted.",
+      "detailed_description": "This axial CT image of the chest, viewed in the mediastinal window, shows the heart centrally with surrounding lung fields. There is evidence of residual air in the pleural space, consistent with a pneumothorax, and fluid is visible in the pleural cavity, likely residual from the thoracentesis procedure. The image also demonstrates normal mediastinal structures and no obvious masses or lymphadenopathy.",
+      "visible_findings": [
+        "residual air in pleural space (pneumothorax)",
+        "fluid in pleural cavity",
+        "normal mediastinal structures",
+        "no obvious masses or lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinal window",
+        "thoracentesis",
+        "pneumothorax",
+        "pleural fluid"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "mediastinal window",
+        "post-thoracentesis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:20+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 270,
+      "total_tokens": 868
+    }
+  },
+  "Case_12001/figure4.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure4.jpg",
+    "source_caption": "CT of the neck.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT of the neck showing soft tissue structures.",
+      "detailed_description": "This axial CT image of the neck demonstrates soft tissue structures, including the airway, vascular structures, and cervical vertebrae. The image shows contrast-enhanced areas, suggesting the use of intravenous contrast. There is no obvious evidence of abscess, mass, or significant swelling in the visible soft tissues. The bony structures appear intact, and the airway is patent.",
+      "visible_findings": [
+        "axial view of the neck",
+        "contrast-enhanced soft tissue structures",
+        "patent airway",
+        "intact cervical vertebrae",
+        "no obvious abscess or mass"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "soft tissue",
+        "contrast",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "neck CT",
+        "axial neck scan",
+        "contrast-enhanced CT of neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:22+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_12001/figure6.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure6.jpg",
+    "source_caption": "CT of the chest, lung window.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest in lung window showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT image of the chest, viewed in the lung window, demonstrates bilateral pulmonary abnormalities. There are areas of ground-glass opacities and consolidations visible in both lungs, more prominent in the lower lobes. The mediastinum and central airways appear unremarkable. The image is de-identified and includes standard CT imaging markers.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidations in both lungs",
+        "normal-appearing mediastinum",
+        "unremarkable central airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung window",
+        "ground-glass opacities",
+        "consolidation",
+        "pulmonary findings"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung window",
+        "pulmonary infection imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:25+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  },
+  "Case_12001/figure9.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure9.jpg",
+    "source_caption": "Gram stain of neck aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "neck aspirate",
+      "short_caption": "Gram stain of neck aspirate showing gram-positive rods and inflammatory cells.",
+      "detailed_description": "This image shows a Gram stain of a neck aspirate. Numerous gram-positive rods are visible, appearing as purple, rod-shaped structures. There are also abundant inflammatory cells, including neutrophils, with pink cytoplasm and multilobed nuclei. The background contains amorphous material, likely necrotic debris. The findings suggest a bacterial infection, possibly involving anaerobic or facultative anaerobic organisms.",
+      "visible_findings": [
+        "gram-positive rods",
+        "inflammatory cells (neutrophils)",
+        "necrotic debris in the background"
+      ],
+      "keywords": [
+        "gram stain",
+        "neck aspirate",
+        "gram-positive rods",
+        "neutrophils",
+        "bacterial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of neck aspirate",
+        "bacterial infection",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:25+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 239,
+      "total_tokens": 828
+    }
+  },
+  "Case_12001/figure7.jpg": {
+    "case_id": "Case_12001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12001/figure7.jpg",
+    "source_caption": "CT of the head and neck, with arrows showing air in the prevertebral space.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head and neck",
+      "short_caption": "CT of the head and neck showing air in the prevertebral space.",
+      "detailed_description": "This sagittal CT image of the head and neck demonstrates abnormal air in the prevertebral space, indicated by arrows. The air appears as dark, radiolucent areas anterior to the cervical spine. The surrounding soft tissue structures and bony anatomy are well visualized. This finding is suggestive of a possible infection or trauma leading to gas formation or introduction into the prevertebral space.",
+      "visible_findings": [
+        "air in the prevertebral space",
+        "normal bony anatomy of the cervical spine",
+        "soft tissue structures of the neck"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "neck",
+        "prevertebral space",
+        "air",
+        "infection",
+        "trauma"
+      ],
+      "reveal_triggers": [
+        "ct of the neck",
+        "air in prevertebral space",
+        "head and neck infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:29+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 243,
+      "total_tokens": 843
+    }
+  }
+}

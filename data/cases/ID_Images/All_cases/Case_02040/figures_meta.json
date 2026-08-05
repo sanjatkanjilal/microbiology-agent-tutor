@@ -1,0 +1,85 @@
+{
+  "Case_02040/figure1.jpg": {
+    "case_id": "Case_02040",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02040/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm",
+      "short_caption": "Ulcerated lesion with surrounding erythema on the arm.",
+      "detailed_description": "This image shows an ulcerated lesion on the arm with a dark, necrotic center surrounded by erythema. The lesion is circumscribed with a pen marking, likely for monitoring progression. The surrounding skin appears inflamed, with no visible signs of drainage or crusting. The lesion is suggestive of a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "ulcerated lesion with necrotic center",
+        "surrounding erythema",
+        "pen marking around the lesion",
+        "inflamed surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "ulcer",
+        "erythema",
+        "necrosis",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "arm ulcer",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  },
+  "Case_02040/figure2.jpg": {
+    "case_id": "Case_02040",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02040/figure2.jpg",
+    "source_caption": "Gram stain of skin biopsy.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "skin biopsy",
+      "short_caption": "Gram stain showing gram-positive bacilli from a skin biopsy.",
+      "detailed_description": "This image shows a Gram stain of a skin biopsy under a microscope. Numerous slender, rod-shaped organisms are visible, staining pink to red, consistent with gram-positive bacilli. The background appears relatively clear, with minimal cellular debris. The organisms are scattered throughout the field, with some clustering noted.",
+      "visible_findings": [
+        "slender rod-shaped organisms",
+        "pink to red staining consistent with gram-positive bacilli",
+        "minimal background debris",
+        "scattered and clustered distribution of organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "skin biopsy",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "skin biopsy",
+        "bacteria in skin infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:46+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 220,
+      "total_tokens": 808
+    }
+  }
+}

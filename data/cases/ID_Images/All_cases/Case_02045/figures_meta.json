@@ -1,0 +1,83 @@
+{
+  "Case_02045/figure2.jpg": {
+    "case_id": "Case_02045",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02045/figure2.jpg",
+    "source_caption": "Gram stain from aortic aneurysm.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "aorta",
+      "short_caption": "Gram stain of aortic tissue showing gram-positive cocci and inflammatory cells.",
+      "detailed_description": "This is a Gram stain of aortic tissue viewed at 40x magnification. The image shows numerous gram-positive cocci (staining purple) in clusters, along with inflammatory cells, including neutrophils. The background contains extracellular material and debris, consistent with tissue destruction. The findings suggest an infectious process involving the aorta, potentially an infected aortic aneurysm.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "inflammatory cells (neutrophils)",
+        "tissue debris and extracellular material"
+      ],
+      "keywords": [
+        "gram stain",
+        "aorta",
+        "infectious aneurysm",
+        "gram-positive cocci",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "gram stain of aortic tissue",
+        "infected aneurysm",
+        "gram-positive cocci in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:55+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 239,
+      "total_tokens": 829
+    }
+  },
+  "Case_02045/figure1.jpg": {
+    "case_id": "Case_02045",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02045/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing bilateral kidneys and surrounding structures.",
+      "detailed_description": "This axial abdominal CT scan demonstrates the kidneys bilaterally, with clear corticomedullary differentiation. Surrounding abdominal structures, including bowel loops and retroperitoneal fat, are visible. No obvious masses, fluid collections, or abnormal enhancement patterns are noted in this image. The scan appears to be performed without contrast, as vascular structures lack enhancement.",
+      "visible_findings": [
+        "bilateral kidneys with normal corticomedullary differentiation",
+        "retroperitoneal fat visible",
+        "no abnormal masses or fluid collections",
+        "absence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidneys",
+        "axial",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal CT scan",
+        "kidney imaging",
+        "retroperitoneal structures"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:56+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 231,
+      "total_tokens": 818
+    }
+  }
+}

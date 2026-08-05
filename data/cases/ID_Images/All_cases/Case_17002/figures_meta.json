@@ -1,0 +1,253 @@
+{
+  "Case_17002/figure1.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure1.jpg",
+    "source_caption": "Non-healing ulcer on occiput",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "occiput",
+      "short_caption": "Non-healing ulcer on the occiput with surrounding erythema.",
+      "detailed_description": "This clinical photograph shows the occipital region of the scalp with a visible ulcerative lesion. The lesion appears irregular in shape with a reddish base and surrounding erythema. The area is partially obscured by hair, but the lesion is clearly visible. The surrounding skin shows mild inflammation, and there is no obvious discharge or crusting in this view.",
+      "visible_findings": [
+        "ulcerative lesion on the occiput",
+        "irregular lesion margins",
+        "reddish base",
+        "surrounding erythema",
+        "hair partially obscuring the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "occiput",
+        "ulcer",
+        "non-healing lesion",
+        "erythema",
+        "scalp"
+      ],
+      "reveal_triggers": [
+        "non-healing ulcer",
+        "scalp lesion",
+        "occiput ulcer",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:52+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 255,
+      "total_tokens": 846
+    }
+  },
+  "Case_17002/figure2.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure2.jpg",
+    "source_caption": "Maculopapular skin rash on left shin.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left shin",
+      "short_caption": "Maculopapular rash with excoriations on the left shin.",
+      "detailed_description": "This clinical photograph shows the left shin with a maculopapular rash characterized by erythematous papules and macules. There are areas of excoriation, likely from scratching, and some lesions appear crusted. The surrounding skin shows mild erythema, and the distribution suggests a localized process.",
+      "visible_findings": [
+        "erythematous macules and papules",
+        "excoriations",
+        "crusting on some lesions",
+        "localized distribution on the left shin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "maculopapular",
+        "excoriation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on shin",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:55+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 231,
+      "total_tokens": 824
+    }
+  },
+  "Case_17002/figure5.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure5.jpg",
+    "source_caption": "Skin of the arm, GMS stain",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "GMS stain of skin showing fungal elements.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of a skin biopsy. The fungal elements are highlighted in black against a green background of connective tissue. The fungal organisms appear as small, round to oval structures, consistent with yeast forms. The staining technique enhances the visibility of fungal cell walls, aiding in the identification of fungal infections.",
+      "visible_findings": [
+        "black-stained fungal elements",
+        "green-stained connective tissue",
+        "round to oval yeast-like structures"
+      ],
+      "keywords": [
+        "gms stain",
+        "skin",
+        "fungal infection",
+        "yeast",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "skin biopsy",
+        "fungal elements",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:58+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 222,
+      "total_tokens": 813
+    }
+  },
+  "Case_17002/figure4.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure4.jpg",
+    "source_caption": "Scalp biopsy, GMS stain",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "scalp",
+      "short_caption": "Scalp biopsy with GMS stain showing fungal elements.",
+      "detailed_description": "This image shows a histological section of a scalp biopsy stained with Gomori methenamine silver (GMS). The stain highlights fungal elements as dark brown to black structures against a green background. The fungal elements appear as numerous small, round to oval forms scattered throughout the tissue. The surrounding tissue matrix is stained green, consistent with the GMS stain. This finding is suggestive of a fungal infection.",
+      "visible_findings": [
+        "dark brown to black fungal elements",
+        "green-stained tissue matrix",
+        "scattered distribution of fungal elements"
+      ],
+      "keywords": [
+        "gms stain",
+        "scalp",
+        "fungal infection",
+        "histopathology",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "scalp biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:58+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 230,
+      "total_tokens": 820
+    }
+  },
+  "Case_17002/figure3.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure3.jpg",
+    "source_caption": "MRI Brain with contrast showing a ring-enhancing lesion in the R cerebellar hemisphere.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain with contrast showing a ring-enhancing lesion in the right cerebellar hemisphere.",
+      "detailed_description": "This axial MRI image of the brain, obtained with contrast, demonstrates a well-defined ring-enhancing lesion in the right cerebellar hemisphere. The lesion is hyperintense centrally with a hypointense rim, suggesting a possible abscess or neoplastic process. Surrounding vasogenic edema is evident, causing mass effect on adjacent structures. The red arrow highlights the lesion for clarity.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right cerebellar hemisphere",
+        "central hyperintensity with a hypointense rim",
+        "surrounding vasogenic edema",
+        "mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "cerebellum",
+        "ring-enhancing lesion",
+        "contrast",
+        "abscess",
+        "neoplasm"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "ring-enhancing lesion",
+        "cerebellar lesion",
+        "brain abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:01+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 263,
+      "total_tokens": 863
+    }
+  },
+  "Case_17002/figure6.jpg": {
+    "case_id": "Case_17002",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17002/figure6.jpg",
+    "source_caption": "Brain abscess culture, cotton blue stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain abscess culture",
+      "short_caption": "Cotton blue stain of a brain abscess culture showing fungal elements.",
+      "detailed_description": "This image shows a microscopic view of a cotton blue-stained specimen from a brain abscess culture. Numerous round to oval fungal spores and branching septate hyphae are visible, stained in varying intensities of blue. The fungal structures are well-demarcated against the background, consistent with a fungal etiology. The stain highlights the chitin in fungal cell walls, aiding in visualization.",
+      "visible_findings": [
+        "round to oval fungal spores",
+        "branching septate hyphae",
+        "blue staining of fungal elements"
+      ],
+      "keywords": [
+        "cotton blue stain",
+        "fungal elements",
+        "brain abscess",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "cotton blue stain",
+        "fungal microscopy",
+        "brain abscess culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:03+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 236,
+      "total_tokens": 827
+    }
+  }
+}

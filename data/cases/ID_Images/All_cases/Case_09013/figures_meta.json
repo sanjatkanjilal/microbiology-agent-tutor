@@ -1,0 +1,83 @@
+{
+  "Case_09013/figure2.jpg": {
+    "case_id": "Case_09013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09013/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing extracellular spiral-shaped organisms.",
+      "detailed_description": "This image shows a stained peripheral blood smear with numerous red blood cells and a few extracellular spiral-shaped organisms, consistent with spirochetes. The organisms are thin, elongated, and exhibit a helical morphology. The smear also includes occasional artifacts or debris. The stain highlights the spirochetes distinctly against the background of red blood cells.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "extracellular spiral-shaped organisms (spirochetes)",
+        "helical morphology of organisms",
+        "occasional debris or artifacts"
+      ],
+      "keywords": [
+        "blood smear",
+        "spirochetes",
+        "stain",
+        "infectious diseases",
+        "peripheral blood"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "spirochetes",
+        "peripheral blood examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 229,
+      "total_tokens": 817
+    }
+  },
+  "Case_09013/figure1.jpg": {
+    "case_id": "Case_09013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09013/figure1.jpg",
+    "source_caption": "Wright stain of the peripheral blood.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Wright stain of peripheral blood showing intracellular and extracellular findings.",
+      "detailed_description": "This Wright-stained peripheral blood smear shows numerous red blood cells with a few white blood cells visible. A prominent finding is the presence of a thread-like organism, likely a microfilaria, seen extracellularly. The red blood cells appear normochromic and normocytic, and there is no significant rouleaux formation or hemolysis. The staining highlights cellular morphology and the presence of the parasite.",
+      "visible_findings": [
+        "normochromic, normocytic red blood cells",
+        "thread-like organism resembling a microfilaria",
+        "few white blood cells present"
+      ],
+      "keywords": [
+        "wright stain",
+        "peripheral blood",
+        "microfilaria",
+        "parasite",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "peripheral blood smear",
+        "microfilaria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:39+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 242,
+      "total_tokens": 831
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "Case_03057/figure1.jpg": {
+    "case_id": "Case_03057",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03057/figure1.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing ring forms of Plasmodium species.",
+      "detailed_description": "This image is a peripheral blood smear stained with Giemsa stain. Numerous red blood cells are visible, with some containing ring-shaped inclusions consistent with Plasmodium species (malaria parasites). The ring forms are centrally located within the red blood cells, and there is a single dark chromatin dot visible in some of the rings. The background shows a clear field with no significant debris.",
+      "visible_findings": [
+        "red blood cells with central ring-shaped inclusions",
+        "dark chromatin dots within some ring forms",
+        "clear background with no significant debris"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "plasmodium",
+        "ring forms",
+        "malaria",
+        "giemsa stain"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "malaria diagnosis",
+        "plasmodium ring forms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:31+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_03057/figure2.jpg": {
+    "case_id": "Case_03057",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03057/figure2.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear stained with Giemsa or a similar stain. The smear shows numerous red blood cells, most of which appear normal in size and shape. A few red blood cells contain intraerythrocytic ring forms, consistent with Plasmodium species, suggestive of malaria. The background is clear, and no significant leukocytosis or thrombocytopenia is evident in this field.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "intraerythrocytic ring forms",
+        "normal red blood cell morphology in most cells"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "plasmodium",
+        "malaria",
+        "ring forms",
+        "giemsa stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "malaria diagnosis",
+        "ring forms in blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:39+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  },
+  "Case_03057/figure3.jpg": {
+    "case_id": "Case_03057",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03057/figure3.jpg",
+    "source_caption": "Figure 2, with arrow.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral blood smear showing ring forms within red blood cells.",
+      "detailed_description": "This image shows a peripheral blood smear stained with Giemsa or a similar stain. Multiple red blood cells are visible, with one cell containing a ring-shaped structure suggestive of a parasitic infection, such as Plasmodium species. The background is clear, and the cells are evenly distributed. The arrow points to a specific red blood cell containing the ring form.",
+      "visible_findings": [
+        "red blood cells with central pallor",
+        "ring-shaped structure within a red blood cell",
+        "arrow indicating a specific cell"
+      ],
+      "keywords": [
+        "blood smear",
+        "ring form",
+        "plasmodium",
+        "giemsa stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring form in red blood cell",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:41+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 230,
+      "total_tokens": 819
+    }
+  },
+  "Case_03057/figure4.jpg": {
+    "case_id": "Case_03057",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03057/figure4.jpg",
+    "source_caption": "Peripheral blood smear, higher magnification.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peripheral blood",
+      "short_caption": "Peripheral blood smear showing intracellular ring forms.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear. The red blood cells appear mostly normochromic and normocytic. Within some red blood cells, there are small, ring-shaped intracellular inclusions with a central clearing and a thin, dark-staining ring, consistent with ring forms of a parasitic organism. The background is clear, and no significant leukocytes or platelets are visible in this field.",
+      "visible_findings": [
+        "red blood cells with intracellular ring forms",
+        "normochromic and normocytic red blood cells",
+        "absence of visible leukocytes or platelets in this field"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "ring forms",
+        "parasitic infection",
+        "red blood cells",
+        "high magnification"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "ring forms",
+        "malaria smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:41+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 246,
+      "total_tokens": 836
+    }
+  }
+}

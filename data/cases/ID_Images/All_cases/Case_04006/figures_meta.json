@@ -1,0 +1,86 @@
+{
+  "Case_04006/figure1.jpg": {
+    "case_id": "Case_04006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04006/figure1.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Diffuse erythematous papules and pustules on the back.",
+      "detailed_description": "This clinical photograph shows the back of an individual with numerous erythematous papules and pustules scattered diffusely across the skin. The lesions vary slightly in size and are distributed without a clear pattern. There is no visible scaling or crusting, and the surrounding skin appears otherwise normal. The image suggests an inflammatory or infectious dermatologic process.",
+      "visible_findings": [
+        "diffuse erythematous papules",
+        "scattered pustules",
+        "no visible scaling or crusting",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "skin lesions",
+        "papules",
+        "pustules",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "rash on back",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:29+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 228,
+      "total_tokens": 813
+    }
+  },
+  "Case_04006/figure2.jpg": {
+    "case_id": "Case_04006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04006/figure2.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Multiple erythematous papules and pustules on the skin.",
+      "detailed_description": "This clinical photograph shows multiple erythematous papules and pustules distributed on the skin. The lesions are dome-shaped, some with central pustular heads, and are surrounded by mild erythema. The image suggests an inflammatory or infectious process involving the skin. The background skin appears otherwise normal, with no significant scaling or ulceration.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules with central heads",
+        "mild surrounding erythema",
+        "normal background skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "papules",
+        "pustules",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "pustular rash",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:31+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 230,
+      "total_tokens": 815
+    }
+  }
+}

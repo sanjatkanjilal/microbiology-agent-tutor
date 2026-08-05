@@ -1,0 +1,44 @@
+{
+  "Case_06026/figure1.jpg": {
+    "case_id": "Case_06026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06026/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Skin with purpuric lesions and hemorrhagic bullae.",
+      "detailed_description": "This clinical photograph shows an area of skin with irregularly shaped purpuric lesions and multiple hemorrhagic bullae. The lesions are dark red to purple, with some areas of pallor and central necrosis. The bullae are tense, fluid-filled, and have a shiny surface. The surrounding skin appears erythematous and inflamed. The findings suggest a severe dermatologic or infectious process, possibly involving vascular compromise.",
+      "visible_findings": [
+        "purpuric lesions",
+        "hemorrhagic bullae",
+        "erythematous surrounding skin",
+        "areas of pallor and necrosis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "purpura",
+        "bullae",
+        "hemorrhagic lesions",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "purpuric rash",
+        "hemorrhagic bullae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 252,
+      "total_tokens": 820
+    }
+  }
+}

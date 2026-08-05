@@ -1,0 +1,124 @@
+{
+  "Case_07022/figure1.jpg": {
+    "case_id": "Case_07022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07022/figure1.jpg",
+    "source_caption": "CT of the abdomen, with annular mass.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing an annular mass in the bowel.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates an annular mass in the bowel, indicated by arrows. The lesion appears to cause partial luminal narrowing, with thickened walls and a characteristic 'target' or 'apple-core' appearance. Surrounding structures, including adjacent bowel loops and soft tissues, appear unremarkable. No obvious signs of perforation or abscess are visible.",
+      "visible_findings": [
+        "annular mass in the bowel",
+        "partial luminal narrowing",
+        "thickened bowel walls",
+        "no visible perforation or abscess"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "bowel mass",
+        "annular lesion",
+        "luminal narrowing"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "bowel mass",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:21+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 233,
+      "total_tokens": 825
+    }
+  },
+  "Case_07022/figure2.jpg": {
+    "case_id": "Case_07022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07022/figure2.jpg",
+    "source_caption": "H and E stain of the ileocecal valve biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "ileocecal valve",
+      "short_caption": "H&E stain of ileocecal valve biopsy showing inflammatory changes.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stain of tissue from the ileocecal valve. The section reveals dense inflammatory infiltrates, including numerous lymphocytes and plasma cells, within the lamina propria. There is evidence of tissue architecture disruption and possible granuloma formation. The staining highlights cellular and extracellular details, with nuclei appearing dark blue and cytoplasm in varying shades of pink.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "lymphocytes and plasma cells",
+        "disrupted tissue architecture",
+        "possible granuloma formation"
+      ],
+      "keywords": [
+        "histopathology",
+        "ileocecal valve",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "ileocecal valve biopsy",
+        "histopathology of inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:25+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 248,
+      "total_tokens": 842
+    }
+  },
+  "Case_07022/figure3.jpg": {
+    "case_id": "Case_07022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07022/figure3.jpg",
+    "source_caption": "Immunohistochemical stain of the biopsy.",
+    "description": {
+      "modality": "immunohistochemistry",
+      "anatomical_site": "unspecified tissue",
+      "short_caption": "Immunohistochemical stain showing darkly stained cells amidst a background of lighter-stained tissue.",
+      "detailed_description": "This image shows an immunohistochemical stain of a tissue biopsy. Dark brown staining is visible in several cells, indicating the presence of a specific antigen targeted by the stain. The background tissue is counterstained in a lighter blue, highlighting the cellular architecture. The distribution of the stained cells appears scattered, with no clear clustering pattern. The image is at high magnification, allowing for detailed visualization of individual cells.",
+      "visible_findings": [
+        "dark brown-stained cells",
+        "lighter blue counterstained background",
+        "scattered distribution of stained cells"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "biopsy",
+        "stain",
+        "antigen detection",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "immunohistochemical stain",
+        "biopsy histology",
+        "antigen-specific staining"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:26+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 252,
+      "total_tokens": 843
+    }
+  }
+}

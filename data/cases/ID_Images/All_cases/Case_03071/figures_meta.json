@@ -1,0 +1,85 @@
+{
+  "Case_03071/figure1.jpg": {
+    "case_id": "Case_03071",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03071/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck and jawline",
+      "short_caption": "Submandibular swelling with draining sinuses on the neck.",
+      "detailed_description": "This clinical photograph shows the left side of the neck and jawline of a patient. There is a prominent submandibular swelling with multiple draining sinuses. The overlying skin appears erythematous and indurated, with evidence of purulent discharge. The findings suggest a chronic infectious process, possibly involving deep soft tissues.",
+      "visible_findings": [
+        "submandibular swelling",
+        "draining sinuses",
+        "erythematous and indurated skin",
+        "purulent discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "submandibular swelling",
+        "draining sinuses",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "neck swelling",
+        "draining sinuses",
+        "submandibular infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:30:26+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 231,
+      "total_tokens": 655
+    }
+  },
+  "Case_03071/figure2.jpg": {
+    "case_id": "Case_03071",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03071/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Ulcerated lesions with scarring and pigmentation on the neck.",
+      "detailed_description": "This clinical photograph shows the posterior neck of a patient with multiple ulcerated lesions. The lesions are irregularly shaped, with areas of crusting, erythema, and hyperpigmentation. There is evidence of scarring and surrounding skin discoloration. The distribution appears linear, suggesting possible involvement of lymphatic drainage or trauma. The image is well-focused and provides a clear view of the affected area.",
+      "visible_findings": [
+        "ulcerated lesions",
+        "crusting and erythema",
+        "hyperpigmentation",
+        "scarring",
+        "linear distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "ulcerated lesions",
+        "skin infection",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "neck lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:33+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  }
+}

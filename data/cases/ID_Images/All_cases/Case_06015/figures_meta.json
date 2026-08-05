@@ -1,0 +1,249 @@
+{
+  "Case_06015/figure1.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure1.jpg",
+    "source_caption": "Chest radiograph, three years before admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and cardiac silhouette.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields bilaterally without evidence of consolidation, nodules, or effusions. The cardiac silhouette appears normal in size and shape, and the mediastinum is unremarkable. Bony structures, including the ribs and clavicles, are intact and symmetric. No acute abnormalities are visible.",
+      "visible_findings": [
+        "clear lung fields bilaterally",
+        "normal cardiac silhouette",
+        "no visible consolidation, nodules, or effusions",
+        "intact and symmetric bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "cardiac silhouette"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:39+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 231,
+      "total_tokens": 822
+    }
+  },
+  "Case_06015/figure2.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure2.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thorax. Bilateral pulmonary infiltrates are visible, predominantly in the middle and lower lung zones. The infiltrates appear patchy and ill-defined, suggesting a possible infectious or inflammatory process. The heart silhouette and mediastinum appear normal in size, and there is no obvious pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "patchy and ill-defined opacities",
+        "normal heart silhouette",
+        "no pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:39+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_06015/figure3.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure3.jpg",
+    "source_caption": "CT scan of the chest on admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral pulmonary infiltrates with ground-glass opacities and areas of consolidation. The findings are distributed throughout both lungs, predominantly in the lower lobes. The mediastinum appears unremarkable, and no pleural effusion is visible. The image is de-identified and appears to be taken without contrast.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "ground-glass opacities",
+        "areas of consolidation",
+        "no pleural effusion",
+        "normal mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "ground-glass opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infiltrates",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:40+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 233,
+      "total_tokens": 823
+    }
+  },
+  "Case_06015/figure4.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure4.jpg",
+    "source_caption": "Figure 4. H and E stain of lung biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing a viral inclusion body.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of lung tissue. A prominent eosinophilic intranuclear inclusion body is visible within a cell, surrounded by a clear halo. The surrounding tissue shows inflammatory cells and some degree of cellular damage. This finding is suggestive of a viral infection, such as cytomegalovirus (CMV).",
+      "visible_findings": [
+        "eosinophilic intranuclear inclusion body",
+        "clear halo surrounding the inclusion",
+        "inflammatory cells in the background",
+        "cellular damage in lung tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "H&E stain",
+        "viral inclusion",
+        "cytomegalovirus",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lung biopsy",
+        "viral inclusion body"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:45+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 247,
+      "total_tokens": 841
+    }
+  },
+  "Case_06015/figure5.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure5.jpg",
+    "source_caption": "H and E stain of lung biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing a large, round, eosinophilic inclusion body.",
+      "detailed_description": "This histopathology image shows lung tissue stained with hematoxylin and eosin (H&E). A prominent, round, eosinophilic inclusion body is visible within a cell, indicated by an arrow. Surrounding tissue shows inflammatory cells and some degree of architectural disruption. The inclusion body is suggestive of a viral cytopathic effect, potentially consistent with a herpesvirus or cytomegalovirus infection.",
+      "visible_findings": [
+        "large, round, eosinophilic inclusion body",
+        "inflammatory cells in surrounding tissue",
+        "disrupted lung architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "h&e stain",
+        "inclusion body",
+        "infection",
+        "viral cytopathic effect"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "lung biopsy",
+        "viral inclusion body"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:49+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 245,
+      "total_tokens": 835
+    }
+  },
+  "Case_06015/figure6.jpg": {
+    "case_id": "Case_06015",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06015/figure6.jpg",
+    "source_caption": "Immunohistochemical stain of biopsy.",
+    "description": {
+      "modality": "immunohistochemical stain",
+      "anatomical_site": "unspecified tissue",
+      "short_caption": "Immunohistochemical stain showing fungal elements in tissue.",
+      "detailed_description": "This image shows an immunohistochemical stain of tissue, highlighting fungal elements in brown against a blue background of cellular nuclei. The arrow points to a fungal structure, likely a yeast form, with visible internal details. The surrounding tissue shows scattered nuclei with no significant inflammatory infiltrate visible at this magnification. The staining technique emphasizes the fungal organism, aiding in its identification.",
+      "visible_findings": [
+        "brown-stained fungal element",
+        "blue-stained nuclei",
+        "arrow indicating fungal structure"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "fungal infection",
+        "biopsy",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "immunohistochemical stain",
+        "fungal infection in tissue",
+        "biopsy with fungal elements"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:53+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 235,
+      "total_tokens": 825
+    }
+  }
+}

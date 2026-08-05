@@ -1,0 +1,176 @@
+{
+  "Case_02056/figure2.jpg": {
+    "case_id": "Case_02056",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02056/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:23:43+00:00"
+  },
+  "Case_02056/figure1.jpg": {
+    "case_id": "Case_02056",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02056/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Forearm with necrotic ulcers and surrounding erythema.",
+      "detailed_description": "This image shows a forearm with multiple necrotic ulcers of varying sizes. The largest lesion has a dark, necrotic center with surrounding erythema. Smaller lesions with crusted surfaces are also visible. The skin appears pale with some areas of discoloration. The background is a clinical setting with a white cloth beneath the arm.",
+      "visible_findings": [
+        "necrotic ulcers with dark centers",
+        "surrounding erythema",
+        "crusted smaller lesions",
+        "pale skin with discoloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "necrotic ulcers",
+        "erythema",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin ulcers",
+        "necrotic lesions",
+        "forearm infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  },
+  "Case_02056/figure3.jpg": {
+    "case_id": "Case_02056",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02056/figure3.jpg",
+    "source_caption": "Calcofluor stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Calcofluor white stain showing fluorescent fungal elements.",
+      "detailed_description": "This image shows a fluorescent microscopic view of fungal elements stained with Calcofluor white. The fungal structures appear as bright green, branching, filamentous forms against a dark background. The stain highlights chitin in the fungal cell walls, aiding in the identification of fungal organisms. The image is consistent with the use of fluorescence microscopy.",
+      "visible_findings": [
+        "bright green fluorescent branching structures",
+        "dark background",
+        "filamentous fungal morphology"
+      ],
+      "keywords": [
+        "calcofluor white",
+        "fluorescence microscopy",
+        "fungal elements",
+        "stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "calcofluor stain",
+        "fluorescent microscopy of fungi",
+        "fungal cell wall stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:55+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 219,
+      "total_tokens": 807
+    }
+  },
+  "Case_02056/figure4.jpg": {
+    "case_id": "Case_02056",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02056/figure4.jpg",
+    "source_caption": "Calcofluor stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Calcofluor stain highlighting fungal hyphae.",
+      "detailed_description": "This image shows a fluorescent microscopic view of fungal hyphae stained with Calcofluor white. The stain binds to chitin in fungal cell walls, causing the hyphae to fluoresce brightly under ultraviolet or blue light. The branching structure of the hyphae is clearly visible against the dark background, characteristic of fungal morphology.",
+      "visible_findings": [
+        "fluorescent branching fungal hyphae",
+        "dark background",
+        "bright fluorescence indicating Calcofluor binding"
+      ],
+      "keywords": [
+        "calcofluor stain",
+        "fluorescence microscopy",
+        "fungal hyphae",
+        "mycology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "calcofluor stain",
+        "fungal microscopy",
+        "fluorescent stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:57+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 224,
+      "total_tokens": 812
+    }
+  },
+  "Case_02056/figure5.jpg": {
+    "case_id": "Case_02056",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02056/figure5.jpg",
+    "source_caption": "Fungal stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained with lactophenol cotton blue. The fungal hyphae are long, filamentous, and septate, with occasional branching. The stain highlights the structures in blue against a light background, aiding in visualization of the fungal morphology. No specific anatomical site is indicated as this is a laboratory preparation.",
+      "visible_findings": [
+        "long, filamentous fungal hyphae",
+        "septate hyphae",
+        "branching hyphae",
+        "blue staining with lactophenol cotton blue"
+      ],
+      "keywords": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "hyphae",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "microscopic view of fungi",
+        "lactophenol cotton blue stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:04+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  }
+}

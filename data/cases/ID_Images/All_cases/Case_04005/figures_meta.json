@@ -1,0 +1,126 @@
+{
+  "Case_04005/figure1.jpg": {
+    "case_id": "Case_04005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04005/figure1.jpg",
+    "source_caption": "Cerebrospinal fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of cerebrospinal fluid showing intracellular and extracellular gram-positive cocci.",
+      "detailed_description": "This image shows a Gram stain of cerebrospinal fluid under high magnification. Numerous gram-positive cocci are visible, both intracellularly within neutrophils and extracellularly in the background. The cocci appear in clusters, consistent with a bacterial infection. The background staining and cellular debris suggest an inflammatory response.",
+      "visible_findings": [
+        "intracellular gram-positive cocci",
+        "extracellular gram-positive cocci",
+        "neutrophils",
+        "inflammatory cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "cerebrospinal fluid",
+        "gram-positive cocci",
+        "bacterial meningitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of CSF",
+        "cerebrospinal fluid infection",
+        "bacterial meningitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:26+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  },
+  "Case_04005/figure3.jpg": {
+    "case_id": "Case_04005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04005/figure3.jpg",
+    "source_caption": "Brain MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI showing hyperintense lesions.",
+      "detailed_description": "This axial T2-weighted or FLAIR MRI image of the brain demonstrates multiple hyperintense lesions in the white matter, some of which appear periventricular. The lesions are asymmetrical and may suggest an inflammatory, infectious, or demyelinating process. The image is de-identified and shows no patient-specific information.",
+      "visible_findings": [
+        "multiple hyperintense lesions",
+        "periventricular distribution",
+        "asymmetrical involvement",
+        "white matter changes"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "hyperintense lesions",
+        "white matter",
+        "flair",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "white matter lesions",
+        "t2 flair brain scan"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:28+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 222,
+      "total_tokens": 808
+    }
+  },
+  "Case_04005/figure2.jpg": {
+    "case_id": "Case_04005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04005/figure2.jpg",
+    "source_caption": "Cerebrospinal fluid.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Microscopic view of cerebrospinal fluid stained to highlight cellular and microbial elements.",
+      "detailed_description": "This image shows a microscopic view of cerebrospinal fluid stained with a cytological or microbiological stain. The field contains large, irregularly shaped cells with prominent nuclei stained in purple and cytoplasm in varying shades of pink and blue. These cells may represent immune or inflammatory cells, such as macrophages or neutrophils. The staining highlights cellular morphology and potential microbial elements, though no definitive organisms are clearly visible in this field.",
+      "visible_findings": [
+        "large cells with prominent nuclei",
+        "cytoplasm stained pink and blue",
+        "irregular cellular shapes",
+        "no definitive microorganisms visible"
+      ],
+      "keywords": [
+        "stain",
+        "cerebrospinal fluid",
+        "microscopy",
+        "cells",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "cerebrospinal fluid",
+        "CSF microscopy",
+        "stained CSF"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 254,
+      "total_tokens": 842
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Case_08016/figure1.jpg": {
+    "case_id": "Case_08016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08016/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Conjunctival erythema and inflammation of the left eye.",
+      "detailed_description": "This clinical photograph shows the left eye with marked conjunctival erythema and inflammation. The patient is manually retracting the upper eyelid, revealing hyperemia of the conjunctiva. The sclera appears injected, and there is no visible discharge or foreign body in this image. The right eye, visible in the background, appears unaffected.",
+      "visible_findings": [
+        "conjunctival erythema",
+        "scleral injection",
+        "manual eyelid retraction",
+        "no visible discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "conjunctiva",
+        "erythema",
+        "inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "eye redness",
+        "conjunctivitis",
+        "ocular inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:23+00:00",
+    "usage": {
+      "prompt_tokens": 707,
+      "completion_tokens": 227,
+      "total_tokens": 934
+    }
+  },
+  "Case_08016/figure2.jpg": {
+    "case_id": "Case_08016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08016/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and shoulder",
+      "short_caption": "Erythema and swelling over the chest and shoulder region.",
+      "detailed_description": "This clinical photograph shows the upper chest and shoulder region of a patient. There is prominent erythema and mild swelling over the area, with a diffuse reddish discoloration of the skin. The surrounding skin appears normal, and there are no visible pustules, vesicles, or ulcerations. The patient is lying in a hospital bed, as indicated by the gown and bedding.",
+      "visible_findings": [
+        "erythema over chest and shoulder",
+        "mild swelling",
+        "absence of visible pustules or vesicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "shoulder",
+        "erythema",
+        "swelling",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythema on chest",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:25+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_08016/figure3.jpg": {
+    "case_id": "Case_08016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08016/figure3.jpg",
+    "source_caption": "CT of the chest, chest wall and mediastinal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing mediastinal structures and chest wall.",
+      "detailed_description": "This axial CT image of the chest demonstrates the mediastinal structures, including the heart, great vessels, and surrounding soft tissues. The chest wall and ribs are visible bilaterally. The image is in a soft tissue window, allowing for detailed visualization of mediastinal and chest wall anatomy. No obvious masses, fluid collections, or other abnormalities are immediately apparent in this view.",
+      "visible_findings": [
+        "mediastinal structures including heart and great vessels",
+        "bilateral ribs and chest wall",
+        "soft tissue window settings"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinum",
+        "chest wall",
+        "soft tissue window"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "mediastinal view",
+        "chest wall imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:26+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 231,
+      "total_tokens": 826
+    }
+  },
+  "Case_08016/figure4.jpg": {
+    "case_id": "Case_08016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08016/figure4.jpg",
+    "source_caption": "CT scan (lung view).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "lungs",
+      "short_caption": "Axial CT scan of the lungs showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial CT scan of the chest, performed with IV contrast, shows bilateral lung abnormalities. There are multiple areas of patchy ground-glass opacities and nodular consolidations, particularly in the right lung. The mediastinum and central airways appear unremarkable. The findings suggest a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral patchy ground-glass opacities",
+        "nodular consolidations, more prominent in the right lung",
+        "normal mediastinum and central airways"
+      ],
+      "keywords": [
+        "ct",
+        "lungs",
+        "ground-glass opacities",
+        "nodular consolidations",
+        "chest imaging",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lung ct",
+        "chest ct",
+        "pulmonary infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:31+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  }
+}

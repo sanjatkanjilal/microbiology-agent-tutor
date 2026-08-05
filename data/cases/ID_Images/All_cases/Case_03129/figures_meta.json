@@ -1,0 +1,43 @@
+{
+  "Case_03129/figure1.jpg": {
+    "case_id": "Case_03129",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03129/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "palm of the hand",
+      "short_caption": "Erythematous lesion on the palm of the hand.",
+      "detailed_description": "This image shows the palm of a hand with a prominent erythematous lesion near the base of the thumb. The surrounding skin appears slightly discolored with areas of yellowish-greenish hue, possibly indicating bruising or subcutaneous changes. The lesion is localized and does not appear to involve the entire palm. The hand is resting on a white cloth, and no other abnormalities are visible in the image.",
+      "visible_findings": [
+        "erythematous lesion near the base of the thumb",
+        "yellowish-greenish discoloration of surrounding skin",
+        "localized lesion without involvement of the entire palm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "palm",
+        "erythema",
+        "lesion",
+        "skin changes"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesion",
+        "erythematous palm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:59+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 247,
+      "total_tokens": 815
+    }
+  }
+}

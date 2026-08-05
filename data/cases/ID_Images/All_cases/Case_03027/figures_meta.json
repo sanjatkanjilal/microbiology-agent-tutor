@@ -1,0 +1,168 @@
+{
+  "Case_03027/figure1.jpg": {
+    "case_id": "Case_03027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03027/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing intra-abdominal findings.",
+      "detailed_description": "This is an axial view of an abdominal CT scan without clear evidence of contrast enhancement. The image shows the abdominal cavity with visible loops of bowel, vertebral column, and surrounding soft tissues. There appears to be some gas-filled bowel loops and possible soft tissue densities, but no obvious large masses or fluid collections are immediately apparent. The scan is oriented with the right side of the patient on the left of the image (R) and the left side on the right (L).",
+      "visible_findings": [
+        "axial CT view of the abdomen",
+        "gas-filled bowel loops",
+        "vertebral column in the midline",
+        "soft tissue structures surrounding the bowel"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "axial view",
+        "bowel",
+        "soft tissue",
+        "vertebra"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "ct scan of abdomen",
+        "intra-abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:45+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 258,
+      "total_tokens": 845
+    }
+  },
+  "Case_03027/figure2.jpg": {
+    "case_id": "Case_03027",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03027/figure2.jpg",
+    "source_caption": "Abdominal CT scan three days later.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing a fluid collection with surrounding inflammation.",
+      "detailed_description": "This axial abdominal CT scan demonstrates a well-defined fluid collection in the left retroperitoneal region, with surrounding fat stranding indicative of inflammation. Adjacent bowel loops appear displaced but not directly involved. The vertebral body and surrounding musculature are visible, with no obvious bony abnormalities. The scan is non-contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "fluid collection in the left retroperitoneal region",
+        "surrounding fat stranding",
+        "displaced bowel loops",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "fluid collection",
+        "inflammation",
+        "retroperitoneal",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "retroperitoneal abscess",
+        "fluid collection on ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:57+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  },
+  "Case_03027/figure4.jpg": {
+    "case_id": "Case_03027",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03027/figure4.jpg",
+    "source_caption": "Stain of the aorta.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "aorta",
+      "short_caption": "Histological stain of the aorta showing bacterial organisms.",
+      "detailed_description": "This image shows a histological section of the aorta stained to highlight bacterial organisms. Numerous small, rod-shaped bacteria are visible, distributed throughout the tissue. The background tissue appears disrupted, with areas of necrosis and inflammatory infiltrates. The staining technique enhances the contrast between the bacteria and the surrounding tissue, aiding in their identification.",
+      "visible_findings": [
+        "rod-shaped bacterial organisms",
+        "disrupted tissue architecture",
+        "areas of necrosis",
+        "inflammatory infiltrates"
+      ],
+      "keywords": [
+        "stain",
+        "aorta",
+        "bacteria",
+        "histology",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "stain of the aorta",
+        "infected aorta histology",
+        "bacteria in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:57+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 222,
+      "total_tokens": 811
+    }
+  },
+  "Case_03027/figure3.jpg": {
+    "case_id": "Case_03027",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03027/figure3.jpg",
+    "source_caption": "Histopathology of the aorta.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "aorta",
+      "short_caption": "Histopathology of the aorta showing inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows a section of the aorta stained with hematoxylin and eosin (H&E). The tissue demonstrates dense inflammatory infiltrates predominantly composed of mononuclear cells within the vessel wall. There is evidence of disruption of the normal architecture, with areas of fibrinoid necrosis and possible involvement of the media. The background shows eosinophilic staining of connective tissue and scattered nuclei.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "mononuclear cells",
+        "fibrinoid necrosis",
+        "disrupted vessel wall architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "aorta",
+        "inflammation",
+        "H&E stain",
+        "vascular pathology"
+      ],
+      "reveal_triggers": [
+        "histopathology of aorta",
+        "vascular inflammation",
+        "H&E stain of vessel"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:58+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 243,
+      "total_tokens": 833
+    }
+  }
+}

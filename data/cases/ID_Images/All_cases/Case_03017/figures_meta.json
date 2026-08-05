@@ -1,0 +1,82 @@
+{
+  "Case_03017/figure2.jpg": {
+    "case_id": "Case_03017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03017/figure2.jpg",
+    "source_caption": "Modified acid fast stain of stool.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool",
+      "short_caption": "Modified acid-fast stain showing a red-stained oocyst in stool.",
+      "detailed_description": "This image shows a modified acid-fast stain of a stool sample. A single oval-shaped oocyst is prominently stained red against a blue background, indicative of an acid-fast organism. The surrounding material appears granular and blue, consistent with debris and background staining. The staining technique highlights acid-fast organisms, which retain the red dye due to their waxy cell walls.",
+      "visible_findings": [
+        "oval-shaped red-stained oocyst",
+        "blue granular background",
+        "modified acid-fast staining pattern"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "stool",
+        "oocyst",
+        "acid-fast organism",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "stool microscopy",
+        "oocyst identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:51+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 228,
+      "total_tokens": 817
+    }
+  },
+  "Case_03017/figure1.jpg": {
+    "case_id": "Case_03017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03017/figure1.jpg",
+    "source_caption": "Modified acid fast stain of stool specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool specimen",
+      "short_caption": "Modified acid-fast stain of stool specimen showing oocysts.",
+      "detailed_description": "This image shows a modified acid-fast stain of a stool specimen. The background is blue, with numerous round to oval structures stained bright pink to red, consistent with acid-fast oocysts. The contrast between the blue background and the red-stained organisms highlights their presence. This staining technique is commonly used to identify coccidian parasites such as Cryptosporidium species.",
+      "visible_findings": [
+        "blue background from counterstain",
+        "numerous round to oval red-stained structures (oocysts)",
+        "modified acid-fast staining pattern"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "stool specimen",
+        "oocysts",
+        "cryptosporidium",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "stool microscopy",
+        "cryptosporidium oocysts"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:56+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  }
+}

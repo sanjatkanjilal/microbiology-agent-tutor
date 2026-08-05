@@ -1,0 +1,86 @@
+{
+  "Case_24005/figure1.jpg": {
+    "case_id": "Case_24005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24005/figure1.jpg",
+    "source_caption": "Figure 1a: CT Chest contrast showing multifocal ground glass and consolidative opacities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing multifocal ground-glass opacities and consolidations.",
+      "detailed_description": "This axial CT image of the chest, with contrast, demonstrates extensive bilateral lung involvement. There are multifocal areas of ground-glass opacities and consolidative changes, predominantly in the lower lobes. The findings suggest a diffuse inflammatory or infectious process. The heart and mediastinal structures appear centrally positioned.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidative changes",
+        "predominance in lower lobes",
+        "contrast-enhanced imaging"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious disease",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "ground-glass opacities",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:56+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 231,
+      "total_tokens": 833
+    }
+  },
+  "Case_24005/figure2.jpg": {
+    "case_id": "Case_24005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24005/figure2.jpg",
+    "source_caption": "Figure 1b: CT Chest contrast showing multifocal ground glass and consolidative opacities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing multifocal ground-glass and consolidative opacities.",
+      "detailed_description": "This coronal CT image of the chest, obtained with contrast, demonstrates bilateral multifocal ground-glass opacities and areas of consolidation. The findings are distributed throughout both lungs, with no clear predilection for a specific lobe. The opacities are patchy and irregular, consistent with a diffuse pulmonary process. The contrast enhances the vascular structures, aiding in delineating the abnormalities.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation",
+        "diffuse distribution",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "consolidation",
+        "contrast",
+        "pulmonary"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "ground-glass opacities",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:59+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 242,
+      "total_tokens": 844
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Case_22008/figure2.jpg": {
+    "case_id": "Case_22008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22008/figure2.jpg",
+    "source_caption": "Physical exam finding. Morbilliform eruption along chest wall and abdomen",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:06:43+00:00"
+  },
+  "Case_22008/figure1.jpg": {
+    "case_id": "Case_22008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22008/figure1.jpg",
+    "source_caption": "Physical exam finding. Dense, erythematous, maculopapular eruption",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Erythematous maculopapular eruption on the skin.",
+      "detailed_description": "This clinical photograph shows a section of skin with a dense, erythematous maculopapular eruption. The lesions are small, red, and slightly raised, distributed across the visible area. Sparse hair is present, and the background skin appears slightly inflamed. The pattern suggests a diffuse involvement, consistent with a systemic or localized dermatologic process.",
+      "visible_findings": [
+        "erythematous macules and papules",
+        "diffuse distribution",
+        "background skin inflammation",
+        "sparse hair present"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "maculopapular eruption",
+        "erythema",
+        "rash"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "maculopapular rash",
+        "erythematous eruption"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:47+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 232,
+      "total_tokens": 832
+    }
+  },
+  "Case_22008/figure3.jpg": {
+    "case_id": "Case_22008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22008/figure3.jpg",
+    "source_caption": "Physical exam finding. Morbilliform eruption along back and flanks",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back and flanks",
+      "short_caption": "Morbilliform eruption on the back and flanks.",
+      "detailed_description": "This clinical photograph shows a widespread morbilliform eruption characterized by erythematous macules and papules distributed across the back and flanks. The lesions are confluent in some areas, creating a diffuse erythematous appearance. The surrounding skin appears otherwise intact, and no vesicles, pustules, or ulcerations are visible. The image is taken in a clinical setting, with part of a hospital bed visible in the background.",
+      "visible_findings": [
+        "erythematous macules and papules",
+        "confluent areas of erythema",
+        "distribution across back and flanks",
+        "no vesicles or pustules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "morbilliform eruption",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "morbilliform rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:51+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 255,
+      "total_tokens": 851
+    }
+  }
+}

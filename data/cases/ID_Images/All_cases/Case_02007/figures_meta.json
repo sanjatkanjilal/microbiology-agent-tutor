@@ -1,0 +1,135 @@
+{
+  "Case_02007/figure1.jpg": {
+    "case_id": "Case_02007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02007/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:20:01+00:00"
+  },
+  "Case_02007/figure2.jpg": {
+    "case_id": "Case_02007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02007/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the lower extremity",
+      "short_caption": "Large tense bullae on erythematous skin.",
+      "detailed_description": "This clinical photograph shows multiple large, tense bullae on an erythematous base, distributed over the skin of the lower extremity. The bullae appear fluid-filled and intact, with surrounding redness and mild swelling. The skin texture suggests an acute inflammatory process, possibly infectious or autoimmune in origin.",
+      "visible_findings": [
+        "large tense bullae",
+        "erythematous base",
+        "intact skin surrounding lesions",
+        "fluid-filled appearance"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "bullae",
+        "erythema",
+        "lower extremity"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "bullous lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:06+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 214,
+      "total_tokens": 782
+    }
+  },
+  "Case_02007/figure3.jpg": {
+    "case_id": "Case_02007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02007/figure3.jpg",
+    "source_caption": "Gram stain of the aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive bacilli.",
+      "detailed_description": "This image shows a Gram stain of an aspirate. Multiple rod-shaped bacteria are visible, stained purple, consistent with gram-positive bacilli. The background is lightly stained, and no other cellular elements are prominently visible. The rods are scattered and vary slightly in size and orientation.",
+      "visible_findings": [
+        "rod-shaped bacteria",
+        "purple staining consistent with gram-positive organisms",
+        "scattered distribution of bacilli"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "aspirate analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:12+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 197,
+      "total_tokens": 786
+    }
+  },
+  "Case_02007/figure4.jpg": {
+    "case_id": "Case_02007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02007/figure4.jpg",
+    "source_caption": "Tissue gram stain.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "tissue",
+      "short_caption": "Tissue gram stain showing gram-positive bacilli.",
+      "detailed_description": "This image shows a tissue gram stain with numerous gram-positive bacilli visible as purple rod-shaped structures. The background consists of yellow-stained tissue matrix, likely collagen or extracellular material. The bacilli are scattered throughout the field, with some clustering in certain areas. The staining highlights the bacterial morphology and their distribution within the tissue.",
+      "visible_findings": [
+        "purple rod-shaped gram-positive bacilli",
+        "yellow-stained tissue matrix",
+        "scattered and clustered bacterial distribution"
+      ],
+      "keywords": [
+        "gram stain",
+        "tissue",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "bacterial morphology"
+      ],
+      "reveal_triggers": [
+        "tissue gram stain",
+        "gram-positive bacilli",
+        "bacterial infection in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:13+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 219,
+      "total_tokens": 805
+    }
+  }
+}

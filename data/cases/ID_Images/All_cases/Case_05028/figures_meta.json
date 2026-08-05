@@ -1,0 +1,166 @@
+{
+  "Case_05028/figure1.jpg": {
+    "case_id": "Case_05028",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05028/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing yeast forms with budding and pseudohyphae.",
+      "detailed_description": "This gram stain image shows numerous round to oval yeast forms, some of which exhibit budding. Pseudohyphae are also visible, appearing as elongated structures connecting the yeast cells. The background contains scattered red blood cells and other cellular debris. The staining highlights the fungal elements, which are consistent with a yeast-like organism.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "budding yeast cells",
+        "pseudohyphae",
+        "scattered red blood cells",
+        "cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "yeast",
+        "budding",
+        "pseudohyphae",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of fungal infection",
+        "yeast forms",
+        "pseudohyphae on gram stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:06+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_05028/figure2.jpg": {
+    "case_id": "Case_05028",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05028/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Gram stain of blood smear showing intracellular gram-positive cocci.",
+      "detailed_description": "This image shows a gram-stained blood smear with numerous red blood cells and a few white blood cells. Intracellular gram-positive cocci are visible within some of the white blood cells, appearing as small, round, purple structures. The background is clear, and the staining highlights the morphology of the organisms and cells distinctly.",
+      "visible_findings": [
+        "intracellular gram-positive cocci",
+        "red blood cells in the background",
+        "white blood cells with visible organisms inside"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood smear",
+        "gram-positive cocci",
+        "intracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood",
+        "intracellular bacteria",
+        "blood infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:10+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_05028/figure3.jpg": {
+    "case_id": "Case_05028",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05028/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Giemsa-stained blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a Giemsa-stained blood smear displaying numerous red blood cells, some of which contain intraerythrocytic ring forms consistent with parasitic infection. The ring forms are characterized by a central vacuole and a thin rim of cytoplasm. A few white blood cells are visible in the background. The staining highlights the parasitic structures within the red blood cells, aiding in their identification.",
+      "visible_findings": [
+        "intraerythrocytic ring forms",
+        "red blood cells with central vacuoles",
+        "Giemsa stain highlighting parasitic structures",
+        "scattered white blood cells"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "blood smear",
+        "ring forms",
+        "parasitic infection",
+        "red blood cells"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "blood smear",
+        "ring forms in red blood cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:10+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 258,
+      "total_tokens": 826
+    }
+  },
+  "Case_05028/figure4.jpg": {
+    "case_id": "Case_05028",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05028/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing intracellular gram-negative diplococci within neutrophils.",
+      "detailed_description": "This image shows a Gram stain of a specimen with numerous neutrophils containing intracellular gram-negative diplococci. The diplococci are small, round, and appear as pairs within the cytoplasm of the neutrophils. The background contains scattered extracellular organisms and cellular debris. The staining highlights the contrast between the pink-stained cytoplasm and the purple-stained organisms.",
+      "visible_findings": [
+        "intracellular gram-negative diplococci",
+        "numerous neutrophils",
+        "scattered extracellular organisms",
+        "pink cytoplasm and purple-stained organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "intracellular diplococci",
+        "neutrophils",
+        "infectious diseases",
+        "bacterial infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "intracellular diplococci",
+        "neutrophils with bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  }
+}

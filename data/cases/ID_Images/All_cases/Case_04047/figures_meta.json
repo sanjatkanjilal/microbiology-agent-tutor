@@ -1,0 +1,42 @@
+{
+  "Case_04047/figure1.jpg": {
+    "case_id": "Case_04047",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04047/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "buttock",
+      "short_caption": "Multiple umbilicated papules on the buttock.",
+      "detailed_description": "This clinical photograph shows the buttock of a patient with numerous raised, dome-shaped lesions, many of which are umbilicated. The lesions are distributed across the skin surface and appear to be of varying sizes. The surrounding skin shows mild hyperpigmentation. The appearance is consistent with a viral or infectious etiology.",
+      "visible_findings": [
+        "multiple raised papules",
+        "umbilicated centers",
+        "mild hyperpigmentation of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "buttock",
+        "umbilicated papules",
+        "skin lesions",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "umbilicated papules",
+        "buttock lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:19+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  }
+}

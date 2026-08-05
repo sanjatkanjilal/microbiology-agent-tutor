@@ -1,0 +1,207 @@
+{
+  "Case_06024/figure1.jpg": {
+    "case_id": "Case_06024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06024/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing abdominal structures and potential pathology.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates the liver, kidneys, spleen, and bowel loops. There is a notable hypodense lesion in the liver, suggestive of a possible abscess or cyst. The kidneys appear symmetric, and no obvious hydronephrosis is seen. The bowel loops show no clear evidence of obstruction. The scan is performed without visible contrast enhancement, as no vascular structures are highlighted.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "normal-appearing kidneys",
+        "no evidence of bowel obstruction",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesion",
+        "hypodense",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "liver lesion",
+        "infectious abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:40+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 241,
+      "total_tokens": 829
+    }
+  },
+  "Case_06024/figure3.jpg": {
+    "case_id": "Case_06024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06024/figure3.jpg",
+    "source_caption": "Gram stain of liver abscess aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "liver abscess aspirate",
+      "short_caption": "Gram stain of liver abscess aspirate showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of a liver abscess aspirate. The background appears pinkish, consistent with cellular debris and proteinaceous material. Numerous gram-positive cocci are visible, arranged in clusters, which is suggestive of a staphylococcal species. The staining technique highlights the bacterial morphology against the background material.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "pinkish background with cellular debris",
+        "no visible gram-negative organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "liver abscess",
+        "bacteria",
+        "infectious diseases",
+        "gram-positive cocci"
+      ],
+      "reveal_triggers": [
+        "gram stain of liver abscess",
+        "bacterial morphology",
+        "staphylococcal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:41+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 232,
+      "total_tokens": 823
+    }
+  },
+  "Case_06024/figure5.jpg": {
+    "case_id": "Case_06024",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06024/figure5.jpg",
+    "source_caption": "H and E stain of mucocele of the appendix.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "appendix",
+      "short_caption": "H&E stain showing histopathology of an appendix mucocele.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows the wall of the appendix with features consistent with a mucocele. The image reveals a dilated lumen filled with mucinous material, surrounded by a fibrotic and inflamed wall. The epithelial lining may be partially visible, with areas of mucin pooling. The staining highlights cellular and structural details, aiding in the identification of the pathological process.",
+      "visible_findings": [
+        "dilated lumen filled with mucinous material",
+        "fibrotic and inflamed wall",
+        "mucin pooling",
+        "H&E staining with pink and purple hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "appendix",
+        "mucocele",
+        "H&E stain",
+        "mucinous lesion"
+      ],
+      "reveal_triggers": [
+        "appendix histology",
+        "H&E stain of appendix",
+        "mucocele pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:42+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 264,
+      "total_tokens": 858
+    }
+  },
+  "Case_06024/figure2.jpg": {
+    "case_id": "Case_06024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06024/figure2.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT scan of the abdomen showing multiple cystic lesions in the right kidney.",
+      "detailed_description": "This coronal CT image of the abdomen reveals multiple cystic lesions predominantly in the right kidney. The lesions vary in size and are well-demarcated, with some appearing to have internal septations. The left kidney appears unremarkable. Surrounding abdominal structures, including the intestines and vasculature, are visible but do not show significant abnormalities. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "multiple cystic lesions in the right kidney",
+        "well-demarcated cysts with possible septations",
+        "normal appearance of the left kidney",
+        "no evidence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidney",
+        "cystic lesions",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "kidney cysts",
+        "renal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:46+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 254,
+      "total_tokens": 842
+    }
+  },
+  "Case_06024/figure4.jpg": {
+    "case_id": "Case_06024",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06024/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing a large hepatic lesion with a fluid level.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, well-circumscribed lesion in the liver, predominantly in the right lobe. The lesion contains a fluid level, suggesting the presence of both liquid and gas, indicative of a possible abscess. Surrounding liver parenchyma appears relatively normal. The kidneys and vertebral column are also visible in this slice, with no obvious abnormalities noted in these structures.",
+      "visible_findings": [
+        "large hepatic lesion in the right lobe",
+        "fluid level within the lesion",
+        "well-circumscribed margins of the lesion",
+        "normal-appearing surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hepatic lesion",
+        "fluid level",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "hepatic abscess",
+        "liver lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:46+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 257,
+      "total_tokens": 825
+    }
+  }
+}

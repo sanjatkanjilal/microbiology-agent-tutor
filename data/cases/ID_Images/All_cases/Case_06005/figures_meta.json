@@ -1,0 +1,170 @@
+{
+  "Case_06005/figure1.jpg": {
+    "case_id": "Case_06005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06005/figure1.jpg",
+    "source_caption": "Skin findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Erythematous and desquamating rash on the lower leg with marked swelling.",
+      "detailed_description": "This clinical photograph shows the lower leg of a patient with diffuse erythema, swelling, and areas of desquamation. The skin appears shiny and tense, suggesting significant edema. There are also marked areas of peeling skin and some darker markings, possibly indicating prior skin markings or lesions. The findings are consistent with an inflammatory or infectious process involving the skin and subcutaneous tissues.",
+      "visible_findings": [
+        "erythema of the lower leg",
+        "skin desquamation",
+        "swelling and edema",
+        "shiny and tense skin appearance",
+        "darker markings on the skin surface"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "erythema",
+        "desquamation",
+        "swelling",
+        "skin findings"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg rash",
+        "erythema and swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:00+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 252,
+      "total_tokens": 837
+    }
+  },
+  "Case_06005/figure3.jpg": {
+    "case_id": "Case_06005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06005/figure3.jpg",
+    "source_caption": "Right shoulder lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right shoulder",
+      "short_caption": "Erythematous lesion on the right shoulder.",
+      "detailed_description": "The image shows the right shoulder of a patient with a single, well-demarcated, erythematous lesion. The lesion appears circular, with a slightly raised border and central clearing. The surrounding skin is unremarkable, and no additional lesions are visible. The patient is partially draped in a patterned hospital gown.",
+      "visible_findings": [
+        "single erythematous lesion",
+        "circular shape with raised border",
+        "central clearing",
+        "surrounding skin appears normal"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right shoulder",
+        "skin lesion",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "shoulder rash",
+        "erythematous lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 220,
+      "total_tokens": 806
+    }
+  },
+  "Case_06005/figure2.jpg": {
+    "case_id": "Case_06005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06005/figure2.jpg",
+    "source_caption": "Left leg lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left leg",
+      "short_caption": "Erythematous lesions on the left leg with central necrosis and surrounding inflammation.",
+      "detailed_description": "This clinical photograph shows the left leg with multiple erythematous lesions. A larger area of erythema is visible, with a central necrotic lesion marked by a black circle. The surrounding skin appears inflamed, with redness extending outward. A separate puncture site with a dressing is visible near the upper part of the image. The lesions suggest an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous skin lesions",
+        "central necrosis in one lesion",
+        "marked inflammation around lesions",
+        "puncture site with dressing"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "left leg",
+        "skin lesions",
+        "erythema",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin lesion",
+        "necrotic lesion on leg"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:03+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_06005/figure4.jpg": {
+    "case_id": "Case_06005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06005/figure4.jpg",
+    "source_caption": "Biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Histopathology of lung tissue showing fungal elements and necrosis.",
+      "detailed_description": "This histopathology image shows lung tissue with areas of necrosis and numerous fungal elements, including septate hyphae with acute angle branching. The tissue is stained with a hematoxylin and eosin (H&E) stain, highlighting the fungal structures and surrounding necrotic areas. The fungal elements are suggestive of an invasive fungal infection, such as aspergillosis.",
+      "visible_findings": [
+        "necrotic lung tissue",
+        "septate fungal hyphae",
+        "acute angle branching",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "fungal infection",
+        "H&E stain",
+        "aspergillosis",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "fungal infection histology",
+        "H&E stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:39:08+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  }
+}

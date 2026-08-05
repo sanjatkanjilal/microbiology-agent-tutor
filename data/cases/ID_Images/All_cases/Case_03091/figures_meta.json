@@ -1,0 +1,44 @@
+{
+  "Case_03091/figure1.jpg": {
+    "case_id": "Case_03091",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03091/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Clinical image of a foot with discoloration and swelling of the second toe.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a foot with notable findings on the second toe. The toe appears swollen and exhibits a dark discoloration, suggestive of necrosis or ischemia. The surrounding skin shows mild erythema and no obvious ulceration or drainage. The nails appear intact, and there is no visible involvement of other toes.",
+      "visible_findings": [
+        "dark discoloration of the second toe",
+        "swelling of the second toe",
+        "mild erythema of surrounding skin",
+        "intact nails"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "toe discoloration",
+        "swelling",
+        "necrosis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "foot exam",
+        "toe discoloration",
+        "infected toe"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:04+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  }
+}

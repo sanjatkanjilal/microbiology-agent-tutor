@@ -1,0 +1,83 @@
+{
+  "Case_04055/figure1.jpg": {
+    "case_id": "Case_04055",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04055/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching gram-positive bacilli.",
+      "detailed_description": "This image shows a gram stain with numerous branching, filamentous structures that stain gram-positive (purple). The background is relatively clear, with scattered debris. The morphology is consistent with filamentous bacteria, which may suggest organisms such as Nocardia or Actinomyces. No specific anatomical site is indicated in the image.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "gram-positive staining (purple)",
+        "clear background with scattered debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous bacteria",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 209,
+      "total_tokens": 777
+    }
+  },
+  "Case_04055/figure2.jpg": {
+    "case_id": "Case_04055",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04055/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive rods in a clinical sample.",
+      "detailed_description": "This image shows a Gram stain of a clinical sample, revealing numerous gram-positive rods. The rods are arranged singly, in pairs, and in short chains. The background is relatively clear, with minimal debris or other cellular elements visible. The staining technique highlights the purple coloration characteristic of gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive rods",
+        "purple staining",
+        "rods arranged singly, in pairs, and short chains",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive rods",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious diseases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 212,
+      "total_tokens": 780
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "Case_23005/figure2.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure2.jpg",
+    "source_caption": "Figure 2: CT imaging 15 months post EVAR showing new collections in right psoas",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT showing new collections in the right psoas 15 months post-EVAR.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a post-EVAR (endovascular aneurysm repair) state with evidence of new fluid collections in the right psoas muscle. The collection appears hypodense relative to surrounding tissues, suggesting a possible abscess or hematoma. The aortic stent graft is visible in the midline, and adjacent structures appear unremarkable. No significant bowel abnormalities are noted in this slice.",
+      "visible_findings": [
+        "hypodense collection in the right psoas muscle",
+        "aortic stent graft in place",
+        "no obvious bowel abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "psoas",
+        "evar",
+        "fluid collection",
+        "abscess",
+        "hematoma"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "post-evar complication",
+        "psoas abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:12+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 252,
+      "total_tokens": 855
+    }
+  },
+  "Case_23005/figure1.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure1.jpg",
+    "source_caption": "Figure 1: Surveillance imaging 6 months post EVAR showing soft tissue enhancement surrounding the aorta, extending to the right psoas muscle.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT showing soft tissue enhancement around the aorta extending to the right psoas muscle.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates soft tissue enhancement surrounding the aorta, with extension into the right psoas muscle. The aorta appears to contain an endovascular stent graft, consistent with prior EVAR (endovascular aneurysm repair). The surrounding enhancement suggests possible infection or inflammatory changes. The image is de-identified and labeled with orientation markers (R and L).",
+      "visible_findings": [
+        "soft tissue enhancement around the aorta",
+        "extension of enhancement into the right psoas muscle",
+        "presence of an endovascular stent graft",
+        "orientation markers (R and L)"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "aorta",
+        "psoas muscle",
+        "evar",
+        "infection",
+        "soft tissue enhancement"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "aortic infection",
+        "post-evar imaging",
+        "psoas muscle involvement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:12+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 264,
+      "total_tokens": 876
+    }
+  },
+  "Case_23005/figure4.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure4.jpg",
+    "source_caption": "Figure 4: Recurrence of collection in right psoas muscle on follow up imaging 4 months post aspiration.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "right psoas muscle",
+      "short_caption": "CT showing recurrence of collection in the right psoas muscle 4 months post aspiration.",
+      "detailed_description": "This axial CT image demonstrates a hypodense collection in the right psoas muscle, consistent with a fluid-filled lesion. The lesion is well-circumscribed and appears to be recurrent following prior aspiration. Surrounding soft tissue structures, including the vertebral column and adjacent musculature, are visible. No obvious calcifications or gas are noted within the collection. The image is taken without clear evidence of contrast enhancement.",
+      "visible_findings": [
+        "hypodense collection in the right psoas muscle",
+        "well-circumscribed lesion",
+        "adjacent musculature and vertebral column visible"
+      ],
+      "keywords": [
+        "ct",
+        "psoas muscle",
+        "fluid collection",
+        "recurrence",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "psoas abscess",
+        "ct of abdomen",
+        "infectious collection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:19+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 252,
+      "total_tokens": 858
+    }
+  },
+  "Case_23005/figure3.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure3.jpg",
+    "source_caption": "Figure 3: CT imaging 1 month post aspiration showing improvement in collection with small residual collection in right psoas muscle.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT showing residual collection in the right psoas muscle post aspiration.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a small residual hypodense collection in the right psoas muscle, consistent with a resolving abscess. Surrounding soft tissue structures appear unremarkable, and there is no evidence of new or worsening fluid collections. The image is taken approximately one month post aspiration, showing improvement compared to earlier imaging.",
+      "visible_findings": [
+        "hypodense collection in the right psoas muscle",
+        "normal appearance of surrounding soft tissues",
+        "no new or worsening fluid collections"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "psoas muscle",
+        "abscess",
+        "post aspiration",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "psoas abscess",
+        "post aspiration imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:20+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 229,
+      "total_tokens": 837
+    }
+  },
+  "Case_23005/figure6.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure6.jpg",
+    "source_caption": "Figure 6: Significantly worse periaortic collection with large right psoas collection",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT showing periaortic and right psoas collections.",
+      "detailed_description": "This axial contrast-enhanced CT image of the abdomen demonstrates a significant periaortic fluid collection, which appears hypodense relative to surrounding tissues. Additionally, there is a large collection in the right psoas muscle, also hypodense, suggesting an abscess or fluid accumulation. The vertebral bodies and surrounding structures are visible, providing anatomical context. The findings are consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "periaortic hypodense collection",
+        "large hypodense collection in the right psoas muscle",
+        "contrast-enhanced structures providing anatomical detail"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "periaortic collection",
+        "psoas abscess",
+        "fluid collection",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "periaortic abscess",
+        "psoas muscle infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:24+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 245,
+      "total_tokens": 847
+    }
+  },
+  "Case_23005/figure5.jpg": {
+    "case_id": "Case_23005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23005/figure5.jpg",
+    "source_caption": "Figure 5: PET/CT showing intense hypermetabolic tissue along soft tissue along the distal abdominal aorta and right psoas muscle concerning for an abscess with extent to aortic stent.",
+    "description": {
+      "modality": "PET/CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "PET/CT showing hypermetabolic tissue near the distal abdominal aorta and right psoas muscle.",
+      "detailed_description": "This image shows axial and coronal PET/CT views of the abdomen and pelvis. There is intense hypermetabolic activity localized to the soft tissue surrounding the distal abdominal aorta and extending into the right psoas muscle. The findings are concerning for an abscess or infectious process, potentially involving an aortic stent. The hypermetabolic region is well-demarcated and suggests active inflammation or infection.",
+      "visible_findings": [
+        "intense hypermetabolic activity near the distal abdominal aorta",
+        "extension of hypermetabolic tissue into the right psoas muscle",
+        "possible involvement of an aortic stent",
+        "suggestion of abscess or infectious process"
+      ],
+      "keywords": [
+        "pet/ct",
+        "abdomen",
+        "psoas muscle",
+        "aorta",
+        "abscess",
+        "infection",
+        "hypermetabolic activity"
+      ],
+      "reveal_triggers": [
+        "pet/ct of abdomen",
+        "aortic infection",
+        "psoas abscess",
+        "infected stent"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:25+00:00",
+    "usage": {
+      "prompt_tokens": 623,
+      "completion_tokens": 290,
+      "total_tokens": 913
+    }
+  }
+}

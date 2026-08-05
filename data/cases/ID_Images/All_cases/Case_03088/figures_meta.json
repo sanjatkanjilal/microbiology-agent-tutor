@@ -1,0 +1,42 @@
+{
+  "Case_03088/figure1.jpg": {
+    "case_id": "Case_03088",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03088/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "penis",
+      "short_caption": "Exophytic, verrucous lesions on the glans penis.",
+      "detailed_description": "This clinical photograph shows multiple exophytic, verrucous lesions on the glans penis. The lesions are irregular, cauliflower-like in appearance, and vary in size. The surrounding skin appears hyperpigmented but otherwise unremarkable. The findings are consistent with condyloma acuminata, commonly caused by human papillomavirus (HPV).",
+      "visible_findings": [
+        "exophytic verrucous lesions",
+        "cauliflower-like appearance",
+        "lesions localized to the glans penis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "penis",
+        "verrucous lesions",
+        "condyloma acuminata",
+        "hpv"
+      ],
+      "reveal_triggers": [
+        "genital warts",
+        "penile lesions",
+        "hpv infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  }
+}

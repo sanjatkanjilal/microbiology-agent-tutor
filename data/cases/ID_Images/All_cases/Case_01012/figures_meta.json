@@ -1,0 +1,166 @@
+{
+  "Case_01012/figure1.jpg": {
+    "case_id": "Case_01012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01012/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary findings.",
+      "detailed_description": "This is a frontal chest radiograph showing the thorax. The image reveals bilateral pulmonary infiltrates, more prominent in the upper lung zones. There are no visible pleural effusions or pneumothorax. The clavicles and ribs appear intact, and there are no obvious skeletal abnormalities. The radiograph also shows the presence of medical devices, likely ECG leads, on the chest wall.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "more prominent findings in upper lung zones",
+        "no visible pleural effusions or pneumothorax",
+        "presence of medical devices on chest wall"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infectious diseases",
+        "lungs"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pulmonary infiltrates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:33+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 244,
+      "total_tokens": 830
+    }
+  },
+  "Case_01012/figure2.jpg": {
+    "case_id": "Case_01012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01012/figure2.jpg",
+    "source_caption": "Head scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head and neck",
+      "short_caption": "Axial CT scan of the head and neck.",
+      "detailed_description": "This axial CT image shows a cross-sectional view of the head and neck region. The scan highlights soft tissue structures, bony anatomy, and air-filled spaces. There is no visible contrast enhancement, suggesting a non-contrast study. The image appears to be focused on the upper cervical region, with clear visualization of the vertebrae, airway, and surrounding soft tissues.",
+      "visible_findings": [
+        "axial view of head and neck",
+        "clear visualization of cervical vertebrae",
+        "airway visible in the midline",
+        "soft tissue structures surrounding the airway"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "neck",
+        "axial",
+        "soft tissue",
+        "cervical vertebrae"
+      ],
+      "reveal_triggers": [
+        "head scan",
+        "neck CT",
+        "axial CT of head and neck"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:43+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 239,
+      "total_tokens": 824
+    }
+  },
+  "Case_01012/figure3.jpg": {
+    "case_id": "Case_01012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01012/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "vascular structure, likely a vein",
+      "short_caption": "Ultrasound with Doppler showing a vascular structure with flow characteristics.",
+      "detailed_description": "This is a Doppler ultrasound image showing a longitudinal view of a vascular structure, likely a vein, with blue and red color signals indicating blood flow direction and velocity. The vessel appears patent, and the surrounding soft tissue is visible. The Doppler overlay suggests active flow within the vessel, with no obvious signs of obstruction or thrombosis.",
+      "visible_findings": [
+        "longitudinal vascular structure",
+        "blue and red Doppler signals indicating blood flow",
+        "surrounding soft tissue visible"
+      ],
+      "keywords": [
+        "ultrasound",
+        "doppler",
+        "vascular",
+        "vein",
+        "blood flow"
+      ],
+      "reveal_triggers": [
+        "doppler ultrasound",
+        "vascular imaging",
+        "vein ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 223,
+      "total_tokens": 791
+    }
+  },
+  "Case_01012/figure4.jpg": {
+    "case_id": "Case_01012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01012/figure4.jpg",
+    "source_caption": "Doppler study of right internal jugular vein.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "right internal jugular vein",
+      "short_caption": "Doppler ultrasound of the right internal jugular vein showing blood flow.",
+      "detailed_description": "This is a Doppler ultrasound image of the right internal jugular vein. The vessel is visualized in a longitudinal plane, with color Doppler overlay indicating blood flow. Blue and red color signals represent flow direction relative to the transducer, consistent with venous blood flow. The surrounding soft tissue appears hypoechoic to hyperechoic. The scale on the right indicates flow velocity in cm/s.",
+      "visible_findings": [
+        "longitudinal view of a vessel",
+        "color Doppler overlay showing blood flow",
+        "blue and red signals indicating flow direction",
+        "soft tissue surrounding the vessel"
+      ],
+      "keywords": [
+        "ultrasound",
+        "doppler",
+        "right internal jugular vein",
+        "vascular imaging",
+        "blood flow"
+      ],
+      "reveal_triggers": [
+        "doppler study",
+        "right internal jugular vein",
+        "vascular ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:44+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 253,
+      "total_tokens": 845
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Case_02032/figure1.jpg": {
+    "case_id": "Case_02032",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02032/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right eye",
+      "short_caption": "Conjunctival injection and erythema of the right eye.",
+      "detailed_description": "This clinical photograph shows the right eye with notable conjunctival injection and erythema. The sclera appears reddened, and there is mild swelling of the conjunctiva. The surrounding skin shows no significant abnormalities. The findings suggest inflammation, which could be due to infection, irritation, or other causes.",
+      "visible_findings": [
+        "conjunctival injection",
+        "erythema of the sclera",
+        "mild conjunctival swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "conjunctival injection",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "eye redness",
+        "conjunctivitis",
+        "ocular inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 211,
+      "total_tokens": 779
+    }
+  },
+  "Case_02032/figure2.jpg": {
+    "case_id": "Case_02032",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02032/figure2.jpg",
+    "source_caption": "Echocardiogram.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiogram showing cardiac structures and motion.",
+      "detailed_description": "This is an echocardiographic image displaying a cross-sectional view of the heart. The image shows the left and right chambers, with visible cardiac motion. The echocardiogram appears to be in a parasternal long-axis view, and the grayscale contrast highlights the myocardium and intracardiac structures. An ECG tracing is visible at the bottom of the screen, synchronized with the cardiac cycle.",
+      "visible_findings": [
+        "cross-sectional view of the heart",
+        "visible left and right chambers",
+        "grayscale contrast highlighting myocardium",
+        "ECG tracing at the bottom"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiogram",
+        "heart",
+        "cardiac imaging",
+        "parasternal view"
+      ],
+      "reveal_triggers": [
+        "echocardiogram",
+        "cardiac ultrasound",
+        "heart imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:11+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  }
+}

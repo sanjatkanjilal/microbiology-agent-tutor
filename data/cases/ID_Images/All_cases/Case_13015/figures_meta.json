@@ -1,0 +1,127 @@
+{
+  "Case_13015/figure1.jpg": {
+    "case_id": "Case_13015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13015/figure1.jpg",
+    "source_caption": "Chest radiograph with infiltrate in the left lung and a pleural-based density.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing left lung infiltrate and pleural-based density.",
+      "detailed_description": "This is a frontal chest radiograph showing an infiltrate in the left lung field, characterized by an area of increased opacity. Additionally, there is a pleural-based density visible in the left lower lung zone, suggestive of a possible pleural effusion or consolidation. The cardiac silhouette and mediastinum appear within normal limits. No obvious abnormalities are noted in the right lung field.",
+      "visible_findings": [
+        "increased opacity in the left lung field",
+        "pleural-based density in the left lower lung zone",
+        "normal cardiac silhouette",
+        "normal mediastinum",
+        "no abnormalities in the right lung field"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung infiltrate",
+        "pleural density",
+        "left lung",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infiltrate",
+        "pleural-based density"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:45+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 254,
+      "total_tokens": 853
+    }
+  },
+  "Case_13015/figure3.jpg": {
+    "case_id": "Case_13015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13015/figure3.jpg",
+    "source_caption": "Follow-up CT of the chest, 4 weeks later.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT, follow-up imaging after 4 weeks.",
+      "detailed_description": "This axial CT image of the chest shows the lungs, heart, and mediastinum. There are bilateral pulmonary findings, including patchy areas of ground-glass opacities and possible consolidation, more prominent in the lower lobes. The heart and mediastinal structures appear centrally located. No significant pleural effusion or pneumothorax is visible. The image is part of a follow-up study, likely assessing progression or resolution of a prior condition.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "possible consolidation in lower lobes",
+        "no significant pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "follow-up imaging",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:50+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 257,
+      "total_tokens": 851
+    }
+  },
+  "Case_13015/figure2.jpg": {
+    "case_id": "Case_13015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13015/figure2.jpg",
+    "source_caption": "Chest CT, with areas of consolidation.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral areas of consolidation.",
+      "detailed_description": "This axial chest CT image shows bilateral areas of consolidation, particularly prominent in the lower lobes. The consolidations appear as regions of increased density, consistent with alveolar filling processes. The heart and mediastinum are centrally located, and no significant pleural effusion is visible. The image is obtained without clear evidence of contrast enhancement.",
+      "visible_findings": [
+        "bilateral areas of consolidation",
+        "increased density in the lower lobes",
+        "no significant pleural effusion",
+        "centrally located heart and mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "consolidation",
+        "infection",
+        "lower lobes"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung consolidation",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:50+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 222,
+      "total_tokens": 812
+    }
+  }
+}

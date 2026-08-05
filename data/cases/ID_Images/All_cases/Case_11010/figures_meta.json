@@ -1,0 +1,206 @@
+{
+  "Case_11010/figure1.jpg": {
+    "case_id": "Case_11010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11010/figure1.jpg",
+    "source_caption": "MRI of the lumbar spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "lumbar spine",
+      "short_caption": "MRI of the lumbar spine showing abnormal signal intensity and structural changes.",
+      "detailed_description": "This is a sagittal MRI of the lumbar spine. The image shows abnormal signal intensity in the lower lumbar vertebrae and intervertebral discs, with evidence of structural changes such as vertebral body destruction and disc space narrowing. These findings are consistent with an infectious or inflammatory process, such as discitis or osteomyelitis. The arrows highlight the affected regions, emphasizing the pathological changes.",
+      "visible_findings": [
+        "abnormal signal intensity in lumbar vertebrae",
+        "disc space narrowing",
+        "vertebral body destruction",
+        "arrows indicating affected areas"
+      ],
+      "keywords": [
+        "mri",
+        "lumbar spine",
+        "discitis",
+        "osteomyelitis",
+        "vertebral destruction",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lumbar spine MRI",
+        "spinal infection",
+        "discitis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:06+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  },
+  "Case_11010/figure2.jpg": {
+    "case_id": "Case_11010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11010/figure2.jpg",
+    "source_caption": "MRI scan of sacroiliac joint.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "sacroiliac joint",
+      "short_caption": "MRI of sacroiliac joint showing inflammation and edema.",
+      "detailed_description": "This axial MRI image of the pelvis highlights the sacroiliac joints bilaterally. The arrows point to areas of hyperintensity on the T2-weighted sequence, consistent with inflammation and edema in the sacroiliac joints. The surrounding soft tissues appear unremarkable, and no significant bony destruction is visible.",
+      "visible_findings": [
+        "bilateral sacroiliac joint hyperintensity",
+        "evidence of inflammation and edema",
+        "normal surrounding soft tissues"
+      ],
+      "keywords": [
+        "mri",
+        "sacroiliac joint",
+        "inflammation",
+        "edema",
+        "pelvis"
+      ],
+      "reveal_triggers": [
+        "mri of sacroiliac joint",
+        "pelvic mri",
+        "joint inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:09+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 226,
+      "total_tokens": 817
+    }
+  },
+  "Case_11010/figure3.jpg": {
+    "case_id": "Case_11010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11010/figure3.jpg",
+    "source_caption": "MRI showing infrarenal aortic aneurysm.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen, infrarenal aorta",
+      "short_caption": "MRI showing infrarenal aortic aneurysm.",
+      "detailed_description": "This sagittal T2-weighted MRI image of the abdomen demonstrates a focal, well-defined, saccular dilation of the infrarenal aorta (indicated by arrows). The aneurysm appears as a rounded structure with altered signal intensity compared to the surrounding tissues. The vertebral bodies and intervertebral discs are visible in the background, providing anatomical context.",
+      "visible_findings": [
+        "saccular dilation of the infrarenal aorta",
+        "arrows pointing to the aneurysm",
+        "vertebral bodies and intervertebral discs in the background"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "aortic aneurysm",
+        "infrarenal",
+        "vascular pathology"
+      ],
+      "reveal_triggers": [
+        "mri of abdomen",
+        "aortic aneurysm",
+        "vascular imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:10+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 240,
+      "total_tokens": 832
+    }
+  },
+  "Case_11010/figure4.jpg": {
+    "case_id": "Case_11010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11010/figure4.jpg",
+    "source_caption": "Ultrasonography showing aortic aneursym.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "abdominal aorta",
+      "short_caption": "Ultrasound with Doppler showing an abdominal aortic aneurysm.",
+      "detailed_description": "This is a Doppler ultrasound image of the abdominal aorta. The image shows a dilated aortic lumen with turbulent blood flow, indicated by the red and orange Doppler signals. The aneurysmal dilation is evident, with irregular flow patterns suggesting possible turbulence or altered hemodynamics. The surrounding soft tissue appears relatively normal.",
+      "visible_findings": [
+        "dilated aortic lumen",
+        "turbulent blood flow with Doppler signal",
+        "aneurysmal dilation of the aorta"
+      ],
+      "keywords": [
+        "ultrasound",
+        "doppler",
+        "abdominal aorta",
+        "aneurysm",
+        "vascular"
+      ],
+      "reveal_triggers": [
+        "aortic aneurysm",
+        "abdominal ultrasound",
+        "doppler imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:12+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 229,
+      "total_tokens": 821
+    }
+  },
+  "Case_11010/figure5.jpg": {
+    "case_id": "Case_11010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11010/figure5.jpg",
+    "source_caption": "Pathology of resected aorta.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "aorta",
+      "short_caption": "Histopathology of resected aorta showing inflammatory changes.",
+      "detailed_description": "This histopathology image shows a section of the aorta with prominent inflammatory changes. There are areas of dense inflammatory infiltrates, with regions of necrosis and disruption of normal tissue architecture. The pink-stained areas represent connective tissue, while the darker purple regions indicate inflammatory cell clusters. The image suggests a pathological process involving significant inflammation, possibly infectious or autoimmune in nature.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "regions of necrosis",
+        "disruption of normal tissue architecture",
+        "pink-stained connective tissue",
+        "darker purple inflammatory cell clusters"
+      ],
+      "keywords": [
+        "histopathology",
+        "aorta",
+        "inflammation",
+        "necrosis",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "histopathology of aorta",
+        "inflammatory changes in aorta",
+        "infectious aortitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:15+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 247,
+      "total_tokens": 838
+    }
+  }
+}

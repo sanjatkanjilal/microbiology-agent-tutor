@@ -1,0 +1,277 @@
+{
+  "Case_06021/figure5.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure5.jpg",
+    "source_caption": "Post-mortem examination of the brain.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:40:17+00:00"
+  },
+  "Case_06021/figure3.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure3.jpg",
+    "source_caption": "Post-mortem examination, left lung.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left lung",
+      "short_caption": "Post-mortem photograph of the left lung showing consolidation and necrosis.",
+      "detailed_description": "This post-mortem clinical photograph depicts the left lung with areas of consolidation and necrosis. The tissue appears red and inflamed, with irregular surfaces and focal areas of destruction. A yellow box highlights a specific region of interest, possibly indicating a lesion or area of significant pathology. The image is de-identified and intended for educational purposes.",
+      "visible_findings": [
+        "red, inflamed lung tissue",
+        "areas of consolidation",
+        "focal necrosis",
+        "irregular surface texture"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lung",
+        "post-mortem",
+        "consolidation",
+        "necrosis",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "post-mortem lung exam",
+        "infectious lung pathology",
+        "necrotizing pneumonia"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:18+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 248,
+      "total_tokens": 839
+    }
+  },
+  "Case_06021/figure6.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure6.jpg",
+    "source_caption": "Post-mortem examination of the brain.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:40:18+00:00"
+  },
+  "Case_06021/figure4.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure4.jpg",
+    "source_caption": "Hematoxylin and eosin stain of lung tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Hematoxylin and eosin stain of lung tissue showing fungal structures.",
+      "detailed_description": "This histopathology image of lung tissue, stained with hematoxylin and eosin, reveals a round fungal structure with internal compartments suggestive of a sporangium or spherule. Surrounding the fungal structure are inflammatory cells and disrupted lung architecture, indicative of infection. The stain highlights cellular and fungal morphology effectively.",
+      "visible_findings": [
+        "round fungal structure with internal compartments",
+        "inflammatory cells surrounding the fungal structure",
+        "disrupted lung tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "fungal infection",
+        "hematoxylin and eosin",
+        "spherule"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "fungal histopathology",
+        "H&E stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:19+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 228,
+      "total_tokens": 823
+    }
+  },
+  "Case_06021/figure8.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure8.jpg",
+    "source_caption": "H and E stain of the brain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "H&E stain of brain tissue showing fungal organisms with thick walls and clear halos.",
+      "detailed_description": "This histopathology image shows brain tissue stained with hematoxylin and eosin (H&E). The image highlights multiple round fungal organisms with thick walls and prominent clear halos, consistent with encapsulated yeast forms. The surrounding brain parenchyma exhibits inflammatory changes, including cellular infiltrates and tissue damage. The findings are suggestive of a fungal infection, such as cryptococcosis.",
+      "visible_findings": [
+        "round fungal organisms with thick walls",
+        "clear halos surrounding the organisms",
+        "inflammatory infiltrates in brain tissue",
+        "tissue damage in the surrounding parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "h&e stain",
+        "fungal infection",
+        "cryptococcus",
+        "encapsulated yeast"
+      ],
+      "reveal_triggers": [
+        "h&e stain of brain",
+        "fungal infection in brain",
+        "cryptococcus histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:24+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 258,
+      "total_tokens": 848
+    }
+  },
+  "Case_06021/figure1.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure1.jpg",
+    "source_caption": "MRI of the brain, day 5.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing abnormal enhancement in the basal cisterns.",
+      "detailed_description": "This axial T1-weighted MRI image with contrast shows abnormal enhancement in the basal cisterns, suggestive of inflammation or infection. The orbits and surrounding structures appear symmetric. The enhancement pattern may indicate meningitis or another infectious/inflammatory process. No obvious mass effect or midline shift is visible.",
+      "visible_findings": [
+        "abnormal enhancement in the basal cisterns",
+        "symmetric orbits",
+        "no midline shift",
+        "no obvious mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "basal cisterns",
+        "contrast",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "contrast-enhanced mri",
+        "meningitis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:26+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 222,
+      "total_tokens": 813
+    }
+  },
+  "Case_06021/figure2.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure2.jpg",
+    "source_caption": "Post-mortem examination, left lung.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left lung",
+      "short_caption": "Post-mortem examination of the left lung showing gross pathology.",
+      "detailed_description": "This is a post-mortem photograph of the left lung, showing a sectioned surface with prominent red discoloration and irregular texture. The tissue appears congested with areas of hemorrhage and possible consolidation. A yellow box highlights a specific region of interest, potentially indicating a focal lesion or abnormality. The image is taken against a blue background, emphasizing the lung specimen.",
+      "visible_findings": [
+        "red discoloration of lung tissue",
+        "irregular texture with areas of hemorrhage",
+        "highlighted region of interest in yellow box",
+        "blue background for contrast"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lung",
+        "post-mortem",
+        "gross pathology",
+        "hemorrhage",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "post-mortem lung",
+        "gross pathology of lung",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:27+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 245,
+      "total_tokens": 836
+    }
+  },
+  "Case_06021/figure7.jpg": {
+    "case_id": "Case_06021",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06021/figure7.jpg",
+    "source_caption": "H and E stain of the brain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "H&E stain of brain tissue showing fungal organisms with thick-walled capsules.",
+      "detailed_description": "This histopathology image shows brain tissue stained with hematoxylin and eosin (H&E). Numerous round to oval fungal organisms with thick-walled capsules are visible, some with a clear halo surrounding them, consistent with encapsulated yeast forms. The background shows neuropil with scattered inflammatory cells and evidence of tissue damage. The findings are suggestive of a fungal infection, such as cryptococcosis.",
+      "visible_findings": [
+        "round to oval fungal organisms",
+        "thick-walled capsules",
+        "clear halos around organisms",
+        "neuropil with scattered inflammatory cells",
+        "evidence of tissue damage"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "h&e stain",
+        "fungal infection",
+        "cryptococcus",
+        "encapsulated yeast"
+      ],
+      "reveal_triggers": [
+        "h&e stain of brain",
+        "fungal infection in brain",
+        "histopathology of cryptococcosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:37+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 264,
+      "total_tokens": 854
+    }
+  }
+}

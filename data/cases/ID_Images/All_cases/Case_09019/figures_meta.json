@@ -1,0 +1,167 @@
+{
+  "Case_09019/figure1.jpg": {
+    "case_id": "Case_09019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09019/figure1.jpg",
+    "source_caption": "Echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiographic image showing labeled cardiac structures.",
+      "detailed_description": "This is a transthoracic echocardiographic image in a parasternal short-axis view. Key cardiac structures, including the right atrium (RA), left atrium (LA), right coronary cusp (RCC), left coronary cusp (LCC), and pulmonary valve (PV), are labeled. The image provides a cross-sectional view of the heart, with clear visualization of the aortic valve and surrounding anatomy. The orientation markers and scale are visible, aiding in anatomical localization.",
+      "visible_findings": [
+        "labeled cardiac structures including RA, LA, RCC, LCC, PV",
+        "parasternal short-axis view of the heart",
+        "aortic valve and surrounding anatomy clearly visualized"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiography",
+        "heart",
+        "cardiac anatomy",
+        "aortic valve",
+        "parasternal short axis"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "heart ultrasound",
+        "cardiac imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:10+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 267,
+      "total_tokens": 854
+    }
+  },
+  "Case_09019/figure4.jpg": {
+    "case_id": "Case_09019",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09019/figure4.jpg",
+    "source_caption": "Gram stain of growth from anaerobic bottle, 100x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching gram-positive bacilli, 100x magnification.",
+      "detailed_description": "This image shows a Gram stain at 100x magnification. Visible are branching, filamentous, gram-positive bacilli, stained red, consistent with an organism such as Actinomyces or Nocardia. The background contains scattered cellular debris and lighter-staining material. The image suggests an anaerobic or facultative anaerobic organism, as indicated by the growth in an anaerobic bottle.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "gram-positive staining (red)",
+        "scattered cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching bacilli",
+        "infectious diseases",
+        "anaerobic culture",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching gram-positive bacilli",
+        "anaerobic culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:11+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 233,
+      "total_tokens": 830
+    }
+  },
+  "Case_09019/figure2.jpg": {
+    "case_id": "Case_09019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09019/figure2.jpg",
+    "source_caption": "Echocardiography.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Echocardiographic image showing cardiac structures in a parasternal long axis view.",
+      "detailed_description": "This is an echocardiographic image in a parasternal long axis view. The left ventricle (LV), right ventricle (RV), left atrium (LA), and other cardiac structures are visible. The image shows typical grayscale ultrasound features with labeled anatomical landmarks. No obvious vegetations or abnormalities are apparent in this still image, but further dynamic assessment may be necessary.",
+      "visible_findings": [
+        "left ventricle (LV) visible",
+        "right ventricle (RV) visible",
+        "left atrium (LA) visible",
+        "parasternal long axis view",
+        "grayscale echocardiographic imaging"
+      ],
+      "keywords": [
+        "ultrasound",
+        "echocardiography",
+        "heart",
+        "parasternal long axis",
+        "cardiac imaging"
+      ],
+      "reveal_triggers": [
+        "echocardiography",
+        "heart ultrasound",
+        "cardiac imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:11+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 258,
+      "total_tokens": 845
+    }
+  },
+  "Case_09019/figure3.jpg": {
+    "case_id": "Case_09019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09019/figure3.jpg",
+    "source_caption": "Gram stain of growth from anaerobic bottle, 100x magnification.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing branching, filamentous gram-positive bacteria.",
+      "detailed_description": "This image shows a Gram stain at 100x magnification, highlighting branching, filamentous structures consistent with gram-positive bacteria. The organisms are stained purple, indicating their gram-positive nature, and are arranged in a dense, tangled cluster. The background appears lightly stained with minimal cellular debris, suggesting a clean preparation. This morphology is characteristic of certain anaerobic or facultative anaerobic bacteria.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "gram-positive staining (purple)",
+        "dense, tangled bacterial cluster",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "branching",
+        "filamentous",
+        "gram-positive",
+        "anaerobic culture"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous gram-positive bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:12+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 236,
+      "total_tokens": 833
+    }
+  }
+}

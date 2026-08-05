@@ -1,0 +1,126 @@
+{
+  "Case_03059/figure3.jpg": {
+    "case_id": "Case_03059",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03059/figure3.jpg",
+    "source_caption": "Figure 3. Barium swallow.",
+    "description": {
+      "modality": "barium swallow",
+      "anatomical_site": "esophagus",
+      "short_caption": "Barium swallow showing a dilated esophagus with a bird-beak narrowing at the distal end.",
+      "detailed_description": "This image is a barium swallow study of the chest, demonstrating a markedly dilated esophagus with smooth tapering at the distal end, resembling a bird-beak appearance. The contrast medium outlines the esophagus and highlights the narrowing at the gastroesophageal junction. The surrounding thoracic structures, including the ribs and mediastinum, are visible. This finding is suggestive of achalasia or a similar motility disorder.",
+      "visible_findings": [
+        "dilated esophagus",
+        "bird-beak narrowing at distal esophagus",
+        "contrast-filled esophageal lumen",
+        "thoracic skeletal structures visible"
+      ],
+      "keywords": [
+        "barium swallow",
+        "esophagus",
+        "achalasia",
+        "bird-beak",
+        "contrast study"
+      ],
+      "reveal_triggers": [
+        "barium swallow",
+        "esophageal motility disorder",
+        "achalasia imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:41+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 255,
+      "total_tokens": 845
+    }
+  },
+  "Case_03059/figure2.jpg": {
+    "case_id": "Case_03059",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03059/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing a large fluid collection in the left hemithorax.",
+      "detailed_description": "This axial chest CT image demonstrates a large, well-defined fluid collection occupying the left hemithorax, consistent with a pleural effusion. The mediastinum appears shifted toward the right side, suggesting mass effect from the effusion. Adjacent lung parenchyma is compressed, and the heart is displaced. No obvious lung consolidation or cavitation is visible in this slice.",
+      "visible_findings": [
+        "large fluid collection in the left hemithorax",
+        "mediastinal shift to the right",
+        "compression of adjacent lung parenchyma",
+        "displacement of the heart"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "pleural effusion",
+        "mediastinal shift",
+        "fluid collection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pleural effusion",
+        "fluid in thorax"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:43+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 249,
+      "total_tokens": 835
+    }
+  },
+  "Case_03059/figure1.jpg": {
+    "case_id": "Case_03059",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03059/figure1.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing a fluid collection in the anterior mediastinum.",
+      "detailed_description": "This axial chest CT image demonstrates a well-defined fluid collection in the anterior mediastinum, likely within the prevascular space. The collection appears hypodense relative to surrounding soft tissues, consistent with fluid. Adjacent structures, including the sternum and great vessels, are visible. No obvious bony destruction or gas within the collection is noted. The scan is performed without contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "fluid collection in the anterior mediastinum",
+        "hypodense area relative to soft tissues",
+        "no gas or bony destruction visible",
+        "adjacent sternum and great vessels visible"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "mediastinum",
+        "fluid collection",
+        "infection",
+        "anterior mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "mediastinal fluid",
+        "anterior mediastinum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:43+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 257,
+      "total_tokens": 843
+    }
+  }
+}

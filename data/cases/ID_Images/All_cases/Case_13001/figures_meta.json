@@ -1,0 +1,334 @@
+{
+  "Case_13001/figure1.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph on admission showing normal lung fields and mediastinum.",
+      "detailed_description": "This is a frontal chest radiograph displaying clear lung fields without evidence of consolidation, effusion, or masses. The heart size appears within normal limits, and the mediastinum is unremarkable. The bony structures, including the ribs, clavicles, and spine, are intact without visible abnormalities. There is no evidence of pneumothorax or other acute pathology.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal heart size",
+        "unremarkable mediastinum",
+        "intact bony structures",
+        "no consolidation or effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "normal findings",
+        "mediastinum",
+        "heart size"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:23+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_13001/figure3.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure3.jpg",
+    "source_caption": "CT of the chest, on admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral cavitary lesions in the lungs.",
+      "detailed_description": "This axial chest CT image demonstrates multiple bilateral cavitary lesions within the lung parenchyma. The cavities are of varying sizes and are surrounded by areas of normal-appearing lung tissue. No significant pleural effusion or mediastinal abnormalities are visible in this slice. The image is de-identified and appears to be taken without contrast.",
+      "visible_findings": [
+        "bilateral cavitary lesions in the lungs",
+        "normal-appearing surrounding lung parenchyma",
+        "absence of pleural effusion",
+        "no visible mediastinal abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "cavitary lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung cavities",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:25+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 231,
+      "total_tokens": 821
+    }
+  },
+  "Case_13001/figure2.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure2.jpg",
+    "source_caption": "Chest radiograph, lateral view.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity, including the lungs, heart, and bony structures such as the ribs and spine. The lung fields appear well-aerated, and the diaphragm is visible. The heart silhouette is partially visible, and there is no obvious evidence of consolidation, pleural effusion, or other acute abnormalities. The image is de-identified and appears to be of good quality for diagnostic purposes.",
+      "visible_findings": [
+        "well-aerated lung fields",
+        "visible diaphragm",
+        "spinal column and ribs clearly outlined",
+        "no obvious consolidation or effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lungs",
+        "diaphragm",
+        "spine"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "thoracic imaging",
+        "lung radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:28+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 252,
+      "total_tokens": 841
+    }
+  },
+  "Case_13001/figure5.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure5.jpg",
+    "source_caption": "Culture growth from bronchial washing.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "bronchial washing (source of sample)",
+      "short_caption": "Fungal colonies with a cottony texture on a culture plate.",
+      "detailed_description": "This image shows a culture plate containing two fungal colonies with a cottony, white appearance. The colonies are circular and have a slightly raised texture. The medium appears to be a standard agar plate, and the colonies are well-formed, suggesting fungal growth. The source of the sample is noted as bronchial washing.",
+      "visible_findings": [
+        "two circular fungal colonies",
+        "cottony white texture",
+        "growth on agar plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "bronchial washing",
+        "infectious diseases",
+        "agar"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "bronchial washing culture",
+        "infectious disease diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:33+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 219,
+      "total_tokens": 808
+    }
+  },
+  "Case_13001/figure4.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure4.jpg",
+    "source_caption": "CT of the chest, on admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral cavitary lesions in the lungs.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral cavitary lesions in the lungs, with a larger cavity in the right lung and a smaller one in the left lung. The cavities have thick walls and appear to contain air. Surrounding lung parenchyma shows areas of consolidation and ground-glass opacities. The image is de-identified and appears to be taken without intravenous contrast.",
+      "visible_findings": [
+        "bilateral cavitary lesions",
+        "thick-walled cavities",
+        "air within cavities",
+        "surrounding consolidation",
+        "ground-glass opacities"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "cavitary lesions",
+        "infection",
+        "consolidation",
+        "ground-glass opacities"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavities",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:35+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  },
+  "Case_13001/figure6.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure6.jpg",
+    "source_caption": "Tape prep from culture growth, lactophenol cotton blue stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained with lactophenol cotton blue. The fungal structures appear as long, branching, filamentous hyphae with septations visible. The background is clear, allowing the blue-stained fungal elements to stand out distinctly. This preparation is commonly used to visualize fungal morphology from culture growth.",
+      "visible_findings": [
+        "long, branching hyphae",
+        "septations in hyphae",
+        "blue staining of fungal elements",
+        "clear background"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal hyphae",
+        "stain",
+        "microscopy",
+        "culture growth"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "microscopic fungal elements"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:36+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 228,
+      "total_tokens": 823
+    }
+  },
+  "Case_13001/figure8.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure8.jpg",
+    "source_caption": "Follow-up CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT image of the chest shows both lungs with multiple small, round, well-defined nodules scattered bilaterally. The nodules appear to be distributed throughout the lung parenchyma. The mediastinum and chest wall structures are visible but do not show any obvious abnormalities. The image is de-identified and appears to be a follow-up scan, as indicated in the case text.",
+      "visible_findings": [
+        "bilateral small, round pulmonary nodules",
+        "even distribution of nodules in lung parenchyma",
+        "no obvious mediastinal abnormalities"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "pulmonary findings",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary nodules",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:36+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 235,
+      "total_tokens": 824
+    }
+  },
+  "Case_13001/figure7.jpg": {
+    "case_id": "Case_13001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13001/figure7.jpg",
+    "source_caption": "Tape prep of culture growth.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol cotton blue stain showing fungal hyphae.",
+      "detailed_description": "This image shows a microscopic view of fungal elements stained with lactophenol cotton blue. The fungal structures include long, branching hyphae, some of which are septate. The stain highlights the fungal cell walls in blue against a clear background, aiding in visualization of the morphology. The preparation appears to be from a culture growth, consistent with the caption.",
+      "visible_findings": [
+        "long, branching fungal hyphae",
+        "septate hyphae",
+        "blue-stained fungal cell walls",
+        "clear background"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal hyphae",
+        "stain",
+        "culture",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "microscopic view of hyphae",
+        "lactophenol cotton blue preparation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:55:38+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  }
+}

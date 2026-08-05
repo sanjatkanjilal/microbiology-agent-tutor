@@ -1,0 +1,44 @@
+{
+  "Case_06031/figure1.jpg": {
+    "case_id": "Case_06031",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06031/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in chains and pairs.",
+      "detailed_description": "This is a microscopic image of a Gram stain. It shows numerous gram-positive cocci, which appear as round, purple-stained organisms. Many of these cocci are arranged in chains and pairs. The background is lightly stained, and no other organisms or debris are prominently visible.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "cocci in chains",
+        "cocci in pairs",
+        "purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "microbiology",
+        "gram-positive cocci",
+        "chains",
+        "pairs",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "cocci in chains"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  }
+}

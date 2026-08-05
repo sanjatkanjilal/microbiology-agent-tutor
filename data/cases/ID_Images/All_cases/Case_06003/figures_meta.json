@@ -1,0 +1,340 @@
+{
+  "Case_06003/figure5.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure5.jpg",
+    "source_caption": "ERCP findings.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:38:35+00:00"
+  },
+  "Case_06003/figure3.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure3.jpg",
+    "source_caption": "ERCP scanning.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "biliary tree",
+      "short_caption": "ERCP image showing biliary tree and pancreatic duct anatomy.",
+      "detailed_description": "This is an endoscopic retrograde cholangiopancreatography (ERCP) image. The biliary tree and pancreatic duct are visualized with contrast filling. The ducts appear dilated, and there may be evidence of obstruction or stricture. The image is grayscale, typical of fluoroscopic imaging during ERCP, and shows the anatomy of the biliary system in detail.",
+      "visible_findings": [
+        "contrast-filled biliary tree",
+        "dilated ducts",
+        "possible obstruction or stricture",
+        "grayscale fluoroscopic imaging"
+      ],
+      "keywords": [
+        "ercp",
+        "biliary tree",
+        "pancreatic duct",
+        "fluoroscopy",
+        "contrast imaging"
+      ],
+      "reveal_triggers": [
+        "ercp",
+        "biliary imaging",
+        "fluoroscopic biliary study"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:38+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 235,
+      "total_tokens": 821
+    }
+  },
+  "Case_06003/figure1.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing a large fluid-filled lesion in the liver.",
+      "detailed_description": "This axial abdominal CT image reveals a large, well-defined, hypodense lesion in the right lobe of the liver, consistent with a fluid-filled structure. Surrounding liver parenchyma appears relatively normal. Adjacent structures, including the stomach and bowel loops, are visible but do not show overt abnormalities. The image is non-contrast, as no enhancement of the lesion or surrounding tissues is observed.",
+      "visible_findings": [
+        "large hypodense lesion in the liver",
+        "well-defined lesion margins",
+        "normal surrounding liver parenchyma",
+        "adjacent abdominal structures visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "fluid-filled lesion",
+        "hypodense",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "fluid-filled structure in liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:39+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 248,
+      "total_tokens": 835
+    }
+  },
+  "Case_06003/figure2.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure2.jpg",
+    "source_caption": "ERCP scanning.",
+    "description": {
+      "modality": "ERCP",
+      "anatomical_site": "biliary tree",
+      "short_caption": "ERCP image showing biliary tree with contrast filling.",
+      "detailed_description": "This is an endoscopic retrograde cholangiopancreatography (ERCP) image showing the biliary tree. The image demonstrates contrast filling the bile ducts, with a clear view of the ductal anatomy. There may be evidence of narrowing or obstruction in the bile ducts, but further interpretation would depend on clinical context. The radiopaque contrast highlights the biliary structures against the surrounding soft tissue.",
+      "visible_findings": [
+        "contrast-filled biliary tree",
+        "radiopaque contrast outlining bile ducts",
+        "possible narrowing or obstruction in ducts"
+      ],
+      "keywords": [
+        "ercp",
+        "biliary tree",
+        "contrast study",
+        "bile ducts",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "ercp",
+        "biliary imaging",
+        "contrast study of bile ducts"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:39+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 230,
+      "total_tokens": 816
+    }
+  },
+  "Case_06003/figure4.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure4.jpg",
+    "source_caption": "ERCP findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "biliary system",
+      "short_caption": "Endoscopic view of biliary obstruction with visible stone and inflammation.",
+      "detailed_description": "This endoscopic image shows a close-up view of the biliary system during an ERCP procedure. A large, pale, irregularly shaped stone is visible, partially obstructing the bile duct. Surrounding mucosa appears erythematous and inflamed, with some areas of blood and debris. The image also includes a catheter or instrument in the upper portion, likely used for stone extraction or intervention.",
+      "visible_findings": [
+        "large pale biliary stone",
+        "erythematous and inflamed mucosa",
+        "blood and debris in the field",
+        "instrument or catheter visible"
+      ],
+      "keywords": [
+        "endoscopy",
+        "biliary system",
+        "ERCP",
+        "stone",
+        "inflammation",
+        "obstruction"
+      ],
+      "reveal_triggers": [
+        "ERCP",
+        "biliary obstruction",
+        "endoscopic view of bile duct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:46+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 246,
+      "total_tokens": 832
+    }
+  },
+  "Case_06003/figure6.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure6.jpg",
+    "source_caption": "Biliary tree filling defects seen in Figure 4.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "biliary tree",
+      "short_caption": "Fluoroscopic image showing biliary tree filling defects.",
+      "detailed_description": "This is a fluoroscopic image of the biliary tree, with contrast highlighting the biliary ducts. Multiple filling defects are visible within the ducts, as indicated by arrows, suggesting the presence of obstructions or intraluminal material such as stones, sludge, or parasites. The image provides a clear view of the biliary anatomy and abnormalities.",
+      "visible_findings": [
+        "contrast-enhanced biliary tree",
+        "multiple filling defects within the ducts",
+        "arrows pointing to the defects"
+      ],
+      "keywords": [
+        "fluoroscopy",
+        "biliary tree",
+        "filling defects",
+        "contrast study",
+        "obstruction"
+      ],
+      "reveal_triggers": [
+        "biliary tree imaging",
+        "contrast study of bile ducts",
+        "filling defects in biliary tree"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:49+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 227,
+      "total_tokens": 820
+    }
+  },
+  "Case_06003/figure9.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure9.jpg",
+    "source_caption": "H and E stain of cyst wall, magnified x 20.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cyst wall",
+      "short_caption": "H&E stain of cyst wall, magnified x20.",
+      "detailed_description": "This histopathology image shows a section of a cyst wall stained with hematoxylin and eosin (H&E) at 20x magnification. The image reveals a layered structure with alternating light and dark bands, consistent with a laminated cyst wall. The outermost layer appears irregular and disrupted, possibly due to mechanical or pathological processes. The staining highlights the structural details of the cyst wall, aiding in the identification of its composition.",
+      "visible_findings": [
+        "laminated cyst wall structure",
+        "alternating light and dark bands",
+        "irregular outermost layer"
+      ],
+      "keywords": [
+        "histopathology",
+        "cyst wall",
+        "H&E stain",
+        "laminated structure",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "cyst wall histology",
+        "laminated cyst wall"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:49+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 244,
+      "total_tokens": 840
+    }
+  },
+  "Case_06003/figure7.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure7.jpg",
+    "source_caption": "Biliary tree filling defects seen in Figure 5.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "biliary tree",
+      "short_caption": "Fluoroscopic image showing biliary tree filling defects.",
+      "detailed_description": "This fluoroscopic image demonstrates the biliary tree with multiple filling defects (indicated by arrows) within the bile ducts. The defects suggest the presence of intraluminal obstructions, such as stones, sludge, or parasites. The biliary tree is visualized using contrast, highlighting the ducts and the areas of obstruction. The image is centered on the upper abdomen, with clear visualization of the biliary anatomy.",
+      "visible_findings": [
+        "biliary tree filling defects",
+        "contrast-enhanced visualization of bile ducts",
+        "arrows marking intraluminal obstructions"
+      ],
+      "keywords": [
+        "fluoroscopy",
+        "biliary tree",
+        "filling defects",
+        "contrast",
+        "obstruction"
+      ],
+      "reveal_triggers": [
+        "biliary tree imaging",
+        "fluoroscopy of bile ducts",
+        "biliary obstruction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:50+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 240,
+      "total_tokens": 833
+    }
+  },
+  "Case_06003/figure8.jpg": {
+    "case_id": "Case_06003",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06003/figure8.jpg",
+    "source_caption": "H and E stain of liver and cyst, magnified x 4.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "H&E stain of liver tissue showing a cystic structure, magnified x4.",
+      "detailed_description": "This histopathology image shows liver tissue stained with hematoxylin and eosin (H&E) at low magnification (x4). A prominent cystic structure is visible on the right side of the image, with a laminated wall suggestive of parasitic origin. Surrounding liver parenchyma appears disrupted, with areas of inflammation and fibrosis. The cyst wall exhibits characteristic layering, and the adjacent tissue shows signs of reactive changes.",
+      "visible_findings": [
+        "cystic structure with laminated wall",
+        "disrupted liver parenchyma",
+        "inflammatory and fibrotic changes",
+        "H&E stain at low magnification"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "cyst",
+        "H&E stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "liver cyst",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:54+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 263,
+      "total_tokens": 860
+    }
+  }
+}

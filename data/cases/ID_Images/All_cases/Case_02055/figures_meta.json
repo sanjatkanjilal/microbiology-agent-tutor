@@ -1,0 +1,210 @@
+{
+  "Case_02055/figure4.jpg": {
+    "case_id": "Case_02055",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02055/figure4.jpg",
+    "source_caption": "Gram stain of the aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain under a microscope. Visible are gram-positive cocci arranged in clusters, which stain purple, indicative of their gram-positive nature. There is also an orange-stained amorphous area in the background, possibly representing cellular debris or proteinaceous material. The field is otherwise sparse.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "orange-stained amorphous material",
+        "sparse background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "bacterial infection microscopy",
+        "gram-positive cocci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 210,
+      "total_tokens": 799
+    }
+  },
+  "Case_02055/figure1.jpg": {
+    "case_id": "Case_02055",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02055/figure1.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI showing a large left-sided brain lesion with surrounding edema.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain shows a large, well-demarcated lesion in the left hemisphere. The lesion appears hyperintense with a hypointense rim, suggestive of a capsule. Surrounding the lesion is extensive hyperintense edema extending into adjacent brain tissue. The midline structures are slightly shifted to the right, indicating mass effect.",
+      "visible_findings": [
+        "large hyperintense lesion in the left hemisphere",
+        "hypointense rim around the lesion",
+        "surrounding hyperintense edema",
+        "midline shift to the right"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "lesion",
+        "edema",
+        "mass effect",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain lesion",
+        "t2-weighted mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:50+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 248,
+      "total_tokens": 834
+    }
+  },
+  "Case_02055/figure5.jpg": {
+    "case_id": "Case_02055",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02055/figure5.jpg",
+    "source_caption": "Follow-up head CT scan at three months.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Follow-up head CT scan showing a hypodense lesion in the right basal ganglia region.",
+      "detailed_description": "This axial non-contrast CT scan of the head demonstrates a hypodense area in the right basal ganglia region, consistent with a chronic infarct or abscess. There is no significant midline shift, and the ventricles appear mildly enlarged, possibly due to volume loss. The surrounding brain parenchyma shows no acute hemorrhage or edema. The findings suggest a chronic process, potentially infectious or ischemic in nature.",
+      "visible_findings": [
+        "hypodense lesion in the right basal ganglia",
+        "mild ventricular enlargement",
+        "no midline shift",
+        "no acute hemorrhage"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "basal ganglia",
+        "hypodense lesion",
+        "chronic infarct",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "head CT",
+        "chronic infarct",
+        "brain abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:51+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 254,
+      "total_tokens": 845
+    }
+  },
+  "Case_02055/figure3.jpg": {
+    "case_id": "Case_02055",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02055/figure3.jpg",
+    "source_caption": "Gram stain of the aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of an aspirate under a microscope. Numerous gram-positive cocci, appearing as purple, round organisms, are visible in clusters against a yellowish background. The arrangement of the cocci in grape-like clusters is characteristic. No other cell types or organisms are prominently visible in this field.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining organisms",
+        "yellowish background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "bacterial infection microscopy",
+        "gram-positive cocci clusters"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:51+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 213,
+      "total_tokens": 802
+    }
+  },
+  "Case_02055/figure2.jpg": {
+    "case_id": "Case_02055",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02055/figure2.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Head MRI showing a ring-enhancing lesion in the brain.",
+      "detailed_description": "This is a coronal MRI image of the head showing a prominent ring-enhancing lesion in the right cerebral hemisphere. The lesion has a hypointense center surrounded by a hyperintense rim, suggestive of a pathological process such as an abscess or neoplasm. Adjacent brain tissue appears edematous, with some mass effect visible. The image is consistent with post-contrast imaging.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right cerebral hemisphere",
+        "hypointense center with hyperintense rim",
+        "adjacent edema",
+        "mass effect on surrounding brain tissue"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "brain",
+        "ring-enhancing lesion",
+        "abscess",
+        "neoplasm",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain lesion",
+        "ring-enhancing lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:53+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  }
+}

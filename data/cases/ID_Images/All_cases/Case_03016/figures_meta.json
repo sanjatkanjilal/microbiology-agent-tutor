@@ -1,0 +1,85 @@
+{
+  "Case_03016/figure1.jpg": {
+    "case_id": "Case_03016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03016/figure1.jpg",
+    "source_caption": "Graph of SARS cases in Singapore.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Graph of SARS cases by date of hospitalization in Singapore, February 25 to March 22, 2003.",
+      "detailed_description": "This is a bar graph displaying the number of SARS cases in Singapore by date of hospitalization between February 25 and March 22, 2003. The x-axis represents the date of onset, while the y-axis shows the number of cases. The bars are color-coded to represent different transmission categories: index (blue), primary (yellow), secondary (pink), and tertiary (red). A notable annotation highlights a case-patient transit event on March 17. The graph provides a visual representation of the outbreak's progression and transmission dynamics.",
+      "visible_findings": [
+        "Bar graph with dates on the x-axis and case counts on the y-axis.",
+        "Color-coded bars indicating transmission categories: index, primary, secondary, tertiary.",
+        "Annotation marking a case-patient transit event on March 17.",
+        "Peak in cases around mid-March."
+      ],
+      "keywords": [
+        "graph",
+        "SARS",
+        "Singapore",
+        "epidemiology",
+        "outbreak",
+        "transmission",
+        "2003"
+      ],
+      "reveal_triggers": [
+        "SARS outbreak",
+        "epidemiology graph",
+        "Singapore SARS cases"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:16:52+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 306,
+      "total_tokens": 895
+    }
+  },
+  "Case_03016/figure2.jpg": {
+    "case_id": "Case_03016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03016/figure2.jpg",
+    "source_caption": "TB cording in culture.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent microscopy showing cording morphology of Mycobacterium tuberculosis in culture.",
+      "detailed_description": "This image depicts a fluorescent microscopy view of Mycobacterium tuberculosis in culture. The organisms exhibit characteristic cording morphology, with long, intertwined filamentous structures. The fluorescence highlights the bacterial structures against a dark background, aiding visualization. This morphology is typical of M. tuberculosis in liquid media cultures.",
+      "visible_findings": [
+        "bright fluorescent filamentous structures",
+        "intertwined cording morphology",
+        "dark background enhancing contrast"
+      ],
+      "keywords": [
+        "culture plate",
+        "fluorescent microscopy",
+        "mycobacterium tuberculosis",
+        "cording morphology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "tb culture",
+        "fluorescent microscopy",
+        "cording morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:51+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 215,
+      "total_tokens": 803
+    }
+  }
+}

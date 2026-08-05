@@ -1,0 +1,82 @@
+{
+  "Case_14008/figure1.jpg": {
+    "case_id": "Case_14008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14008/figure1.jpg",
+    "source_caption": "Liver biopsy, HE stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Liver biopsy showing inflammatory infiltrates and hepatocyte changes, HE stain.",
+      "detailed_description": "This histopathology image shows a liver biopsy stained with hematoxylin and eosin (HE). The tissue exhibits inflammatory infiltrates, predominantly composed of small, darkly stained nuclei suggestive of lymphocytes. Hepatocytes appear disorganized, with some showing cytoplasmic changes. The overall architecture is disrupted, consistent with an inflammatory or infectious process.",
+      "visible_findings": [
+        "inflammatory infiltrates with small, dark nuclei",
+        "disorganized hepatocyte architecture",
+        "cytoplasmic changes in hepatocytes"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "he stain",
+        "inflammation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "HE stain of liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:41+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 233,
+      "total_tokens": 821
+    }
+  },
+  "Case_14008/figure2.jpg": {
+    "case_id": "Case_14008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14008/figure2.jpg",
+    "source_caption": "Liver biopsy, immunoperoxidase stain for adenovirus.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "liver",
+      "short_caption": "Liver biopsy with immunoperoxidase stain for adenovirus.",
+      "detailed_description": "This image shows a liver biopsy stained with immunoperoxidase, highlighting adenovirus antigens. Brown staining indicates positive immunoreactivity, localized to specific areas of hepatocytes. The background tissue shows normal liver architecture with nuclei visible in blue. The staining pattern suggests adenoviral infection in the liver tissue.",
+      "visible_findings": [
+        "brown immunoperoxidase staining indicating adenovirus antigen",
+        "blue nuclear counterstain",
+        "hepatocyte architecture partially preserved"
+      ],
+      "keywords": [
+        "immunoperoxidase stain",
+        "liver",
+        "adenovirus",
+        "biopsy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "adenovirus stain",
+        "immunoperoxidase for infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:41+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 222,
+      "total_tokens": 816
+    }
+  }
+}

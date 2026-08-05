@@ -1,0 +1,124 @@
+{
+  "Case_24001/figure3.jpg": {
+    "case_id": "Case_24001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24001/figure3.jpg",
+    "source_caption": "Figure 3: Mitral valve anterior leaflets had foamy macrophages (green arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mitral valve anterior leaflet",
+      "short_caption": "Histopathology of mitral valve showing foamy macrophages (green arrows).",
+      "detailed_description": "This histopathology image depicts tissue from the mitral valve anterior leaflet. The section is stained with hematoxylin and eosin (H&E), showing numerous foamy macrophages highlighted by green arrows. These macrophages have a characteristic vacuolated cytoplasm, indicative of lipid or other material accumulation. Surrounding the macrophages are other inflammatory cells and connective tissue components. The image provides evidence of a pathological process involving the valve tissue.",
+      "visible_findings": [
+        "foamy macrophages with vacuolated cytoplasm",
+        "green arrows marking specific macrophages",
+        "background inflammatory cells",
+        "connective tissue matrix"
+      ],
+      "keywords": [
+        "histopathology",
+        "mitral valve",
+        "macrophages",
+        "foamy cells",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of mitral valve",
+        "foamy macrophages",
+        "H&E stain of valve tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:36+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 271,
+      "total_tokens": 872
+    }
+  },
+  "Case_24001/figure1.jpg": {
+    "case_id": "Case_24001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24001/figure1.jpg",
+    "source_caption": "Figure 1: Mitral valve anterior leaflets had few micro abscesses. No bacteria, fungi, or acid-fast bacteria are seen on gram, PAS, and AFB stains, respectively. Immunohistochemical stain for spirochetes did not show any bacteria.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mitral valve",
+      "short_caption": "Histopathology of mitral valve showing inflammatory infiltrate and microabscesses.",
+      "detailed_description": "This histopathology image shows a section of the mitral valve stained with hematoxylin and eosin (H&E). The tissue demonstrates dense inflammatory infiltrates, predominantly composed of neutrophils, and the presence of microabscesses within the valve leaflet. No organisms are visible in this image, consistent with the case description. The scale bar provides a reference for magnification.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "microabscesses",
+        "absence of visible organisms"
+      ],
+      "keywords": [
+        "histopathology",
+        "mitral valve",
+        "microabscess",
+        "inflammation",
+        "infectious endocarditis"
+      ],
+      "reveal_triggers": [
+        "histopathology of mitral valve",
+        "infective endocarditis",
+        "valve inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:45+00:00",
+    "usage": {
+      "prompt_tokens": 638,
+      "completion_tokens": 239,
+      "total_tokens": 877
+    }
+  },
+  "Case_24001/figure2.jpg": {
+    "case_id": "Case_24001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24001/figure2.jpg",
+    "source_caption": "Figure 2: Mitral valve anterior leaflets had focal collections of plasma cells (red arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mitral valve anterior leaflet",
+      "short_caption": "Histopathology of mitral valve showing plasma cell collections (red arrows).",
+      "detailed_description": "This histopathology image shows a section of tissue stained with hematoxylin and eosin (H&E). The field contains numerous inflammatory cells, with prominent clusters of plasma cells indicated by red arrows. The plasma cells are characterized by eccentric nuclei and basophilic cytoplasm. The tissue architecture suggests involvement of the mitral valve anterior leaflet. No other specific organisms or structures are visible in this field.",
+      "visible_findings": [
+        "clusters of plasma cells with eccentric nuclei",
+        "basophilic cytoplasm in plasma cells",
+        "red arrows marking focal collections of plasma cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "mitral valve",
+        "plasma cells",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of mitral valve",
+        "plasma cell infiltration",
+        "H&E stain of valve tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:46+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 254,
+      "total_tokens": 856
+    }
+  }
+}

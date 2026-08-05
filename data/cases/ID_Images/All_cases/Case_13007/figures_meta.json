@@ -1,0 +1,125 @@
+{
+  "Case_13007/figure2.jpg": {
+    "case_id": "Case_13007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13007/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing organisms consistent with mycobacteria.",
+      "detailed_description": "This is a microscopic image using an acid-fast stain. The background appears lightly stained, while several rod-shaped organisms are stained red, consistent with acid-fast bacteria. The red-stained organisms are scattered among other debris and cells, which are stained blue or remain unstained. The image suggests the presence of mycobacteria, such as Mycobacterium tuberculosis or related species.",
+      "visible_findings": [
+        "red-stained rod-shaped organisms",
+        "blue-stained background material",
+        "scattered cellular debris"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "mycobacteria",
+        "microscopy",
+        "infectious diseases",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "mycobacteria microscopy",
+        "Ziehl-Neelsen stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:00+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 229,
+      "total_tokens": 797
+    }
+  },
+  "Case_13007/figure1.jpg": {
+    "case_id": "Case_13007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13007/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Gomori methenamine silver stain showing fungal elements in lung tissue.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of lung tissue. Numerous fungal elements, including branching hyphae and yeast-like structures, are visible, stained black against a green background. The tissue appears to have areas of cellular debris and inflammation. The staining highlights fungal organisms, aiding in their identification.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "yeast-like structures",
+        "green background typical of GMS stain",
+        "cellular debris and inflammation"
+      ],
+      "keywords": [
+        "gomori methenamine silver stain",
+        "fungal infection",
+        "lung tissue",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection in lung",
+        "lung histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:01+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 235,
+      "total_tokens": 803
+    }
+  },
+  "Case_13007/figure3.jpg": {
+    "case_id": "Case_13007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13007/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Stained preparation showing cysts and trophozoites of a protozoan organism.",
+      "detailed_description": "This image shows a stained microscopic preparation highlighting protozoan cysts and trophozoites. The cysts are round and darkly stained, while the trophozoites appear more irregular in shape. The background contains scattered debris and other cellular material. The stain used appears to differentiate the protozoan structures from the surrounding material, with some red and blue staining visible.",
+      "visible_findings": [
+        "round, darkly stained cysts",
+        "irregularly shaped trophozoites",
+        "background debris and cellular material",
+        "red and blue staining differentiation"
+      ],
+      "keywords": [
+        "stain",
+        "microscopy",
+        "protozoan",
+        "cyst",
+        "trophozoite",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "stained microscopy",
+        "protozoan cysts",
+        "trophozoites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 251,
+      "total_tokens": 819
+    }
+  }
+}

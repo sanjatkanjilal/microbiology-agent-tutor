@@ -1,0 +1,293 @@
+{
+  "Case_10003/figure1.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. There are bilateral pulmonary infiltrates, more pronounced in the right middle and lower lung zones. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion. The bony thoracic structures, including the ribs and clavicles, are intact. The image is labeled with 'L' indicating the left side.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "normal cardiac silhouette",
+        "intact bony thoracic structures",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "thoracic cavity",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:01+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_10003/figure2.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure2.jpg",
+    "source_caption": "CT of the head.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT of the head showing a focal lesion in the left temporal region.",
+      "detailed_description": "This axial CT image of the head demonstrates a focal hypodense lesion in the left temporal region, indicated by an arrow. The lesion appears well-circumscribed, with surrounding tissue showing no significant mass effect or midline shift. Bone structures and other intracranial features are visible, and the scan is performed without contrast enhancement.",
+      "visible_findings": [
+        "focal hypodense lesion in the left temporal region",
+        "no significant mass effect",
+        "no midline shift",
+        "normal appearance of bone structures"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "temporal lesion",
+        "hypodense",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "temporal lesion",
+        "brain imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:03+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 225,
+      "total_tokens": 812
+    }
+  },
+  "Case_10003/figure3.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure3.jpg",
+    "source_caption": "CT of the head, reformatted.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Coronal CT of the head showing a focal lesion in the basal ganglia region.",
+      "detailed_description": "This is a coronal CT image of the head. A focal hypodense lesion is visible in the right basal ganglia region, indicated by an arrow. The lesion appears well-demarcated and may suggest an abscess, infarct, or other pathology. Surrounding structures, including the ventricles, are visible and appear symmetric. No obvious midline shift or gross mass effect is noted.",
+      "visible_findings": [
+        "focal hypodense lesion in the right basal ganglia",
+        "arrow indicating the lesion",
+        "symmetric ventricles",
+        "no midline shift"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "basal ganglia",
+        "lesion",
+        "coronal",
+        "infection",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "coronal ct",
+        "brain lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:03+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 245,
+      "total_tokens": 835
+    }
+  },
+  "Case_10003/figure4.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure4.jpg",
+    "source_caption": "MRI of the head, FLAIR.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial FLAIR MRI of the head showing hyperintense lesions.",
+      "detailed_description": "This is an axial FLAIR MRI image of the head. The image demonstrates hyperintense lesions in the bilateral temporal lobes, suggestive of edema or inflammation. The ventricles and surrounding structures are visible, and the orbit and optic nerves are also included in the field of view. The FLAIR sequence highlights areas of abnormal fluid signal while suppressing normal cerebrospinal fluid signal.",
+      "visible_findings": [
+        "hyperintense lesions in bilateral temporal lobes",
+        "normal suppression of cerebrospinal fluid signal",
+        "visible orbits and optic nerves"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "flair",
+        "temporal lobe",
+        "hyperintense lesions",
+        "edema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "flair sequence",
+        "temporal lobe lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:05+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 248,
+      "total_tokens": 839
+    }
+  },
+  "Case_10003/figure6.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure6.jpg",
+    "source_caption": "MRI of the head, T1 post contrast enhancement.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "MRI of the head, T1 post-contrast enhancement.",
+      "detailed_description": "This axial T1-weighted post-contrast MRI image of the head shows symmetrical enhancement patterns in the brain. The orbits, nasal cavity, and surrounding structures are visible. No obvious focal lesions, masses, or abnormal enhancement are apparent in this image. The contrast enhancement highlights vascular and meningeal structures.",
+      "visible_findings": [
+        "axial view of the brain",
+        "symmetrical enhancement patterns",
+        "visible orbits and nasal cavity",
+        "no focal lesions or abnormal enhancement"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "t1 post-contrast",
+        "brain",
+        "axial view",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "t1 post-contrast mri",
+        "brain imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:05+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 228,
+      "total_tokens": 821
+    }
+  },
+  "Case_10003/figure5.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure5.jpg",
+    "source_caption": "MRI of the head, T2-weighted.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial T2-weighted MRI of the head.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the head. The image shows hyperintense cerebrospinal fluid in the ventricles and sulci, consistent with T2-weighted imaging. The brain parenchyma appears symmetric, and no obvious focal lesions, masses, or midline shift are visible. The orbits and surrounding soft tissues are also included in the field of view.",
+      "visible_findings": [
+        "hyperintense cerebrospinal fluid in ventricles and sulci",
+        "symmetric brain parenchyma",
+        "no focal lesions or masses",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "t2-weighted",
+        "brain",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "t2-weighted brain imaging",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:06+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 247,
+      "total_tokens": 839
+    }
+  },
+  "Case_10003/figure7.jpg": {
+    "case_id": "Case_10003",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10003/figure7.jpg",
+    "source_caption": "Graph of DNA melting curve analysis. The 'A' and 'B' curves represent control samples with both HSV-1 and HSV-2 DNA present, and the 'C' curve represents the patient's CSF specimen, demonstrating that only HSV-1 DNA is present.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "DNA melting curve analysis showing HSV-1 and HSV-2 peaks.",
+      "detailed_description": "This image depicts a graph of DNA melting curve analysis. The x-axis represents temperature (°C), while the y-axis represents fluorescence intensity. Two distinct peaks are labeled as 'HSV-1 Peak' and 'HSV-2 Peak,' corresponding to the melting temperatures of HSV-1 and HSV-2 DNA, respectively. Curve 'A' and 'B' represent control samples containing both HSV-1 and HSV-2 DNA, showing peaks at both locations. Curve 'C,' representing the patient's CSF specimen, demonstrates a single peak at the HSV-1 location, indicating the presence of HSV-1 DNA only.",
+      "visible_findings": [
+        "Two labeled peaks: HSV-1 Peak and HSV-2 Peak.",
+        "Curve 'A' and 'B' with peaks at both HSV-1 and HSV-2 locations.",
+        "Curve 'C' with a single peak at the HSV-1 location.",
+        "Temperature and fluorescence intensity axes."
+      ],
+      "keywords": [
+        "dna melting curve",
+        "hsv-1",
+        "hsv-2",
+        "graph",
+        "molecular diagnostics"
+      ],
+      "reveal_triggers": [
+        "dna melting curve",
+        "hsv-1 and hsv-2 analysis",
+        "molecular diagnostics graph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:08+00:00",
+    "usage": {
+      "prompt_tokens": 636,
+      "completion_tokens": 320,
+      "total_tokens": 956
+    }
+  }
+}

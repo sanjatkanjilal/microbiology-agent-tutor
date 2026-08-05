@@ -1,0 +1,124 @@
+{
+  "Case_03040/figure1.jpg": {
+    "case_id": "Case_03040",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03040/figure1.jpg",
+    "source_caption": "Physical findings on the face.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial skin with numerous pustules and papules.",
+      "detailed_description": "This clinical photograph shows the face of a patient with numerous erythematous pustules and papules distributed across the nose, cheeks, and surrounding areas. The lesions appear raised and some have central purulent material. The image is de-identified with a black bar obscuring the eyes.",
+      "visible_findings": [
+        "numerous erythematous pustules",
+        "papules with central purulent material",
+        "lesions distributed across the nose and cheeks"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "pustules",
+        "papules",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial pustules",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:29+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 215,
+      "total_tokens": 803
+    }
+  },
+  "Case_03040/figure3.jpg": {
+    "case_id": "Case_03040",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03040/figure3.jpg",
+    "source_caption": "Figure 3. Appearance after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "elbow and surrounding skin",
+      "short_caption": "Post-treatment appearance of the elbow with residual hyperpigmented macules.",
+      "detailed_description": "This clinical photograph shows the elbow and surrounding skin. The skin appears dry with residual hyperpigmented macules scattered across the area. There is no evidence of active inflammation, ulceration, or exudate. The image suggests healing or resolution of a prior dermatologic or infectious condition.",
+      "visible_findings": [
+        "hyperpigmented macules",
+        "dry skin",
+        "absence of active inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "elbow",
+        "skin",
+        "hyperpigmentation",
+        "post-treatment"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "elbow rash",
+        "post-treatment skin changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:31+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 203,
+      "total_tokens": 793
+    }
+  },
+  "Case_03040/figure2.jpg": {
+    "case_id": "Case_03040",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03040/figure2.jpg",
+    "source_caption": "Upper extremity physical findings.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper extremity",
+      "short_caption": "Papulonodular lesions on the upper extremity.",
+      "detailed_description": "This clinical photograph shows the upper extremity, including the arm and elbow, with numerous scattered papulonodular lesions. The lesions are erythematous to violaceous, dome-shaped, and vary in size. The distribution appears diffuse, with no clear clustering. The skin surrounding the lesions shows no significant erythema or scaling.",
+      "visible_findings": [
+        "numerous papulonodular lesions",
+        "erythematous to violaceous coloration",
+        "dome-shaped morphology",
+        "diffuse distribution on the upper extremity"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "upper extremity",
+        "papulonodular lesions",
+        "skin findings",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "upper extremity lesions",
+        "papulonodular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:32+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  }
+}

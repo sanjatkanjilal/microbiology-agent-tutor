@@ -1,0 +1,83 @@
+{
+  "Case_04029/figure1.jpg": {
+    "case_id": "Case_04029",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04029/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremities",
+      "short_caption": "Erythematous rash with petechiae on the lower extremities.",
+      "detailed_description": "This image shows the lower extremities of a child lying on a white surface. The skin exhibits a widespread erythematous rash with petechial lesions, particularly concentrated on the anterior and lateral aspects of the legs. The petechiae are small, non-blanching, red to purple spots. The child is wearing green shorts, and a green tourniquet is visible on the left leg, suggesting a clinical examination setting.",
+      "visible_findings": [
+        "erythematous rash",
+        "petechial lesions",
+        "non-blanching spots",
+        "tourniquet on left leg"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "petechiae",
+        "lower extremities",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "petechial rash",
+        "child with rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:38+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  },
+  "Case_04029/figure2.jpg": {
+    "case_id": "Case_04029",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04029/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "feet and lower legs",
+      "short_caption": "Erythematous maculopapular rash on the feet and lower legs.",
+      "detailed_description": "This image shows the dorsal aspect of the feet and lower legs. There is a diffuse, erythematous maculopapular rash visible on the skin. The lesions are small, scattered, and appear slightly raised. The surrounding skin shows no significant swelling or ulceration. The image is well-lit, and the rash distribution is clearly visible.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "scattered distribution",
+        "no visible swelling or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "feet",
+        "rash",
+        "maculopapular",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 231,
+      "total_tokens": 799
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "Case_05004/figure1.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure1.jpg",
+    "source_caption": "MRI scan of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the spine showing abnormalities in vertebral bodies and intervertebral spaces.",
+      "detailed_description": "This sagittal MRI image of the spine demonstrates irregularities in the vertebral bodies and intervertebral spaces. There is evidence of abnormal signal intensity in several vertebrae, suggestive of potential infection or inflammation. The spinal alignment appears preserved, but the affected areas show changes consistent with possible osteomyelitis or discitis. The image is de-identified and includes a watermark from the source.",
+      "visible_findings": [
+        "irregular signal intensity in vertebral bodies",
+        "abnormalities in intervertebral spaces",
+        "preserved spinal alignment"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "vertebrae",
+        "infection",
+        "osteomyelitis",
+        "discitis"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "vertebral infection",
+        "discitis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:13+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 243,
+      "total_tokens": 831
+    }
+  },
+  "Case_05004/figure2.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure2.jpg",
+    "source_caption": "MRI scan of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the spine showing abnormalities.",
+      "detailed_description": "This sagittal MRI image of the spine demonstrates the vertebral column and surrounding soft tissues. There are visible irregularities in the vertebral bodies and possible abnormal signal intensities, suggesting pathology such as infection, inflammation, or degenerative changes. The spinal cord and intervertebral discs are also partially visualized.",
+      "visible_findings": [
+        "sagittal view of the spine",
+        "irregularities in vertebral bodies",
+        "possible abnormal signal intensities",
+        "soft tissue structures partially visualized"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "sagittal",
+        "vertebral abnormalities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "vertebral infection",
+        "sagittal mri of spine"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:14+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 228,
+      "total_tokens": 816
+    }
+  },
+  "Case_05004/figure4.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure4.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing abnormalities in the basal cisterns.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain. The basal cisterns appear abnormal, with possible effacement or enhancement suggestive of inflammation or infection. The ventricles and surrounding brain parenchyma are visible, with no obvious mass effect or midline shift. The scan is labeled with right (R) and left (L) for orientation.",
+      "visible_findings": [
+        "abnormal basal cisterns",
+        "no obvious mass effect",
+        "no midline shift",
+        "ventricles appear normal in size"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "axial",
+        "basal cisterns",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "axial brain scan",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:16+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_05004/figure3.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure3.jpg",
+    "source_caption": "MRI scan of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the spine showing vertebral and paraspinal abnormalities.",
+      "detailed_description": "This sagittal MRI image of the spine demonstrates multiple vertebral bodies with abnormal signal intensity, suggestive of pathology. There is evidence of paraspinal soft tissue involvement, with possible abscess formation or edema. The intervertebral discs appear irregular in some areas, and there is a loss of normal disc height in certain segments. The imaging is consistent with an infectious or inflammatory process, such as vertebral osteomyelitis or discitis.",
+      "visible_findings": [
+        "abnormal signal intensity in vertebral bodies",
+        "paraspinal soft tissue involvement",
+        "irregular intervertebral discs",
+        "loss of normal disc height"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "vertebral osteomyelitis",
+        "discitis",
+        "paraspinal abscess"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "vertebral infection",
+        "discitis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:17+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 258,
+      "total_tokens": 846
+    }
+  },
+  "Case_05004/figure5.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure5.jpg",
+    "source_caption": "Biopsy of the 7th thoracic vertebra (T7).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "thoracic vertebra (T7)",
+      "short_caption": "Histopathology of T7 vertebra biopsy showing granulomatous inflammation with caseation necrosis.",
+      "detailed_description": "This histopathology image shows a biopsy specimen from the 7th thoracic vertebra (T7). The image reveals granulomatous inflammation characterized by central caseation necrosis surrounded by cellular infiltrates. The architecture suggests a chronic infectious process, potentially consistent with tuberculosis or another granulomatous disease. The staining technique highlights the tissue structure and necrotic areas.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "central caseation necrosis",
+        "surrounding cellular infiltrates"
+      ],
+      "keywords": [
+        "histopathology",
+        "thoracic vertebra",
+        "granuloma",
+        "caseation necrosis",
+        "biopsy",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "biopsy of T7",
+        "vertebral histopathology",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:17+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 251,
+      "total_tokens": 848
+    }
+  },
+  "Case_05004/figure6.jpg": {
+    "case_id": "Case_05004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05004/figure6.jpg",
+    "source_caption": "Biopsy of the 7th thoracic vertebra (T7).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "thoracic vertebra (T7)",
+      "short_caption": "Histopathology of T7 vertebral biopsy showing lamellar bone and possible inflammatory changes.",
+      "detailed_description": "This histopathology image shows a section of lamellar bone with characteristic wavy patterns of bone matrix. There are areas suggestive of inflammatory changes, including possible cellular infiltrates or resorption zones. The staining technique highlights the bone structure, but additional stains or magnifications may be needed to confirm the presence of infectious organisms or specific pathology.",
+      "visible_findings": [
+        "lamellar bone with wavy matrix",
+        "possible inflammatory changes",
+        "no clear evidence of microorganisms in this view"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone biopsy",
+        "vertebra",
+        "T7",
+        "lamellar bone",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "bone biopsy",
+        "vertebral histology",
+        "T7 biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:24+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 234,
+      "total_tokens": 831
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "Case_02031/figure1.jpg": {
+    "case_id": "Case_02031",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02031/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing patchy opacities in the lungs.",
+      "detailed_description": "This is a frontal chest radiograph of a pediatric patient. There are patchy opacities visible in both lungs, more prominent on the right side, suggesting a possible infectious or inflammatory process. The heart and mediastinal structures appear within normal limits for the age. The ribs and bony structures are intact, and no obvious fractures are seen. The image is de-identified, with black boxes obscuring identifying information.",
+      "visible_findings": [
+        "patchy opacities in both lungs",
+        "more prominent involvement on the right lung",
+        "normal heart and mediastinal structures",
+        "intact ribs and bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pediatric",
+        "opacities",
+        "infection",
+        "thorax"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pediatric radiograph"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:08+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 256,
+      "total_tokens": 842
+    }
+  },
+  "Case_02031/figure2.jpg": {
+    "case_id": "Case_02031",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02031/figure2.jpg",
+    "source_caption": "Worsening chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing abnormal opacities in the right lung field.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thoracic cavity. There is a prominent opacity in the right lung field, suggestive of consolidation or infiltrate. The left lung appears relatively clear. The cardiac silhouette is partially visible, and there are no obvious signs of pleural effusion or pneumothorax. The image suggests a possible infectious or inflammatory process in the right lung.",
+      "visible_findings": [
+        "opacity in the right lung field",
+        "clear left lung field",
+        "no visible pleural effusion",
+        "no evidence of pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pneumonia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:09+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 244,
+      "total_tokens": 833
+    }
+  },
+  "Case_02031/figure3.jpg": {
+    "case_id": "Case_02031",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02031/figure3.jpg",
+    "source_caption": "MRI scan of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Sagittal MRI of the spine showing abnormalities in vertebral bodies and intervertebral discs.",
+      "detailed_description": "This sagittal MRI image of the spine demonstrates multiple vertebral bodies and intervertebral discs. There are areas of abnormal signal intensity within the vertebral bodies, suggestive of possible infection or inflammation. The intervertebral discs appear irregular in some regions, and there may be evidence of disc space narrowing. The image is taken in a T1-weighted sequence, as indicated by the contrast pattern.",
+      "visible_findings": [
+        "abnormal signal intensity in vertebral bodies",
+        "irregular intervertebral discs",
+        "possible disc space narrowing"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "vertebral body",
+        "disc space",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "vertebral infection",
+        "disc space narrowing"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:11+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 239,
+      "total_tokens": 827
+    }
+  }
+}

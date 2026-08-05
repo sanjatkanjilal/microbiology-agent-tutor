@@ -1,0 +1,375 @@
+{
+  "Case_05012/figure1.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure1.jpg",
+    "source_caption": "MRI scan of brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing ring-enhancing lesions.",
+      "detailed_description": "This axial MRI image of the brain demonstrates multiple ring-enhancing lesions, predominantly in the right hemisphere. The lesions are surrounded by areas of hypointensity, suggestive of edema. The imaging is consistent with contrast-enhanced T1-weighted sequences, as evidenced by the bright enhancement of the lesion margins. These findings may indicate infectious or neoplastic processes, such as abscesses or metastases.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "surrounding hypointense edema",
+        "predominance in the right hemisphere"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "contrast",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "neuroimaging in infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:00+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 229,
+      "total_tokens": 816
+    }
+  },
+  "Case_05012/figure2.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure2.jpg",
+    "source_caption": "MRI scan of brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing a ring-enhancing lesion.",
+      "detailed_description": "This axial MRI image of the brain demonstrates a prominent ring-enhancing lesion in the right hemisphere, near the basal ganglia. The lesion is surrounded by hypointense edema, and there is midline shift to the left, suggesting mass effect. The imaging characteristics are consistent with an infectious or neoplastic etiology, such as an abscess or tumor. Contrast enhancement is evident, highlighting the lesion's margins.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right hemisphere",
+        "surrounding hypointense edema",
+        "midline shift to the left",
+        "contrast enhancement of lesion margins"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "edema",
+        "contrast",
+        "infection",
+        "abscess",
+        "tumor"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:04+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 253,
+      "total_tokens": 840
+    }
+  },
+  "Case_05012/figure4.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure4.jpg",
+    "source_caption": "Gram stain of brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing parasitic structures.",
+      "detailed_description": "This histopathology image shows brain tissue with eosinophilic staining. A prominent elongated structure resembling a parasitic organism is visible, surrounded by a background of neural tissue. The structure appears to have internal segmentation or striation, suggestive of a helminth or larval form. The surrounding tissue shows some vacuolation and possible inflammatory changes.",
+      "visible_findings": [
+        "elongated parasitic structure",
+        "eosinophilic staining",
+        "vacuolated neural tissue",
+        "possible inflammatory changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "parasite",
+        "helminth",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "parasitic infection in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  },
+  "Case_05012/figure3.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure3.jpg",
+    "source_caption": "MRI scan of brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing ring-enhancing lesions.",
+      "detailed_description": "This axial T1-weighted MRI with contrast shows multiple ring-enhancing lesions in the brain, particularly in the right hemisphere. The lesions are surrounded by areas of hypointensity, suggestive of edema. These findings are consistent with infectious or neoplastic processes, such as abscesses or metastases. The ventricles appear normal in size, and there is no midline shift.",
+      "visible_findings": [
+        "ring-enhancing lesions in the right hemisphere",
+        "surrounding hypointensity indicative of edema",
+        "normal ventricular size",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "edema",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:05+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  },
+  "Case_05012/figure5.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure5.jpg",
+    "source_caption": "Gram stain of brain biopsy.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Gram stain of brain biopsy showing branching fungal hyphae.",
+      "detailed_description": "This image shows a Gram-stained section of brain tissue. The most prominent feature is the presence of darkly stained, branching fungal hyphae. The background consists of pink-stained tissue, consistent with brain parenchyma. The hyphae appear septate and are irregularly branching, suggesting a fungal etiology. No bacterial forms are evident in this field.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate hyphae",
+        "pink-stained brain parenchyma"
+      ],
+      "keywords": [
+        "gram stain",
+        "brain biopsy",
+        "fungal infection",
+        "hyphae",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of brain tissue",
+        "fungal infection in brain",
+        "brain biopsy pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:07+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 231,
+      "total_tokens": 819
+    }
+  },
+  "Case_05012/figure7.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure7.jpg",
+    "source_caption": "Detail of Figure 6.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing fungal elements with surrounding tissue reaction.",
+      "detailed_description": "This histopathology image demonstrates fungal elements, visible as small, round-to-oval structures stained in red, scattered within a background of pale-staining tissue. The surrounding tissue shows evidence of inflammation and necrosis. The staining technique appears to be a fungal-specific stain, such as Gomori methenamine silver (GMS) or periodic acid-Schiff (PAS), highlighting the fungal elements distinctly. No specific anatomical site is discernible from the image.",
+      "visible_findings": [
+        "red-stained fungal elements",
+        "pale-staining necrotic tissue",
+        "inflammatory reaction in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "tissue necrosis",
+        "inflammation",
+        "fungal stain"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "tissue stain for fungi",
+        "PAS or GMS stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:08+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 250,
+      "total_tokens": 838
+    }
+  },
+  "Case_05012/figure8.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure8.jpg",
+    "source_caption": "GMS stain of brain biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "GMS stain of brain biopsy showing fungal elements.",
+      "detailed_description": "This is a photomicrograph of brain tissue stained with Gomori methenamine silver (GMS). The image shows numerous darkly stained, branching fungal hyphae and yeast-like forms against a greenish background of tissue. The fungal elements are prominent and clustered in some areas, consistent with invasive fungal infection. The GMS stain highlights fungal cell walls, aiding in their identification.",
+      "visible_findings": [
+        "darkly stained fungal hyphae",
+        "yeast-like forms",
+        "branching fungal structures",
+        "greenish background tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "brain biopsy",
+        "fungal infection",
+        "histopathology",
+        "fungal hyphae",
+        "yeast forms"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "brain biopsy",
+        "fungal elements",
+        "histopathology of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:09+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 245,
+      "total_tokens": 834
+    }
+  },
+  "Case_05012/figure6.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure6.jpg",
+    "source_caption": "H and E stain of brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "H&E stain of brain biopsy showing fungal elements.",
+      "detailed_description": "This is a histopathological image of a brain biopsy stained with hematoxylin and eosin (H&E). The image shows necrotic brain tissue with scattered fungal elements, appearing as branching hyphae with septations. The background includes areas of hemorrhage and inflammatory infiltrates. The fungal morphology is suggestive of an invasive fungal infection, possibly mucormycosis or aspergillosis, though further identification would require additional stains or culture.",
+      "visible_findings": [
+        "branching fungal hyphae with septations",
+        "necrotic brain tissue",
+        "areas of hemorrhage",
+        "inflammatory infiltrates"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "h&e stain",
+        "fungal infection",
+        "hyphae",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "brain biopsy",
+        "fungal infection",
+        "histopathology of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:11+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 259,
+      "total_tokens": 849
+    }
+  },
+  "Case_05012/figure9.jpg": {
+    "case_id": "Case_05012",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05012/figure9.jpg",
+    "source_caption": "GMS stain of brain biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "brain tissue",
+      "short_caption": "GMS stain of brain biopsy showing fungal elements.",
+      "detailed_description": "This is a photomicrograph of brain tissue stained with Gomori methenamine silver (GMS) stain. The image highlights darkly stained fungal elements, including septate hyphae and possibly yeast forms, against a pale green background of tissue. The fungal structures are prominent and consistent with an invasive fungal infection. The GMS stain is commonly used to identify fungal organisms in tissue specimens.",
+      "visible_findings": [
+        "darkly stained fungal hyphae",
+        "septate hyphae",
+        "pale green background tissue",
+        "possible yeast forms"
+      ],
+      "keywords": [
+        "gms stain",
+        "brain biopsy",
+        "fungal infection",
+        "histopathology",
+        "fungal hyphae"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "brain biopsy",
+        "fungal elements in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:12+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 238,
+      "total_tokens": 827
+    }
+  }
+}

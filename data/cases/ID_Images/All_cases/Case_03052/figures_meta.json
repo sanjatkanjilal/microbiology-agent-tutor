@@ -1,0 +1,86 @@
+{
+  "Case_03052/figure1.jpg": {
+    "case_id": "Case_03052",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03052/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest",
+      "short_caption": "Skin lesion with central necrosis and surrounding erythema on the chest near the areola.",
+      "detailed_description": "This clinical photograph shows a skin lesion on the chest near the areola. The lesion has a central necrotic area with a dark eschar, surrounded by erythema and mild swelling. The areola appears hyperpigmented and is adjacent to the lesion. A measurement scale is included for size reference.",
+      "visible_findings": [
+        "central necrotic lesion with dark eschar",
+        "surrounding erythema",
+        "adjacent hyperpigmented areola",
+        "measurement scale present"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "skin lesion",
+        "necrosis",
+        "erythema",
+        "eschar"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "chest lesion",
+        "necrotic eschar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_03052/figure2.jpg": {
+    "case_id": "Case_03052",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03052/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the back",
+      "short_caption": "Three ulcerative skin lesions with central necrosis and surrounding erythema.",
+      "detailed_description": "This clinical photograph shows three distinct ulcerative lesions on the skin of the back. Each lesion has a central area of necrosis with a dark eschar surrounded by erythematous borders. The lesions are evenly spaced, and a ruler is included in the image for scale, indicating the approximate size of the ulcers. The surrounding skin appears otherwise unremarkable.",
+      "visible_findings": [
+        "three ulcerative lesions",
+        "central necrosis with dark eschar",
+        "surrounding erythema",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "necrosis",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin ulcers",
+        "necrotic lesions",
+        "infectious skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Case_07004/figure1.jpg": {
+    "case_id": "Case_07004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07004/figure1.jpg",
+    "source_caption": "Figure 1. H and E stain of a bone marrow biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "H and E stain of a bone marrow biopsy showing cellular atypia and inclusions.",
+      "detailed_description": "This is a high-power histopathology image of a bone marrow biopsy stained with hematoxylin and eosin (H and E). The field shows numerous cells with atypical morphology, including enlarged nuclei, prominent nucleoli, and cytoplasmic inclusions. There is a mix of cell types, with some appearing dysplastic. The background is cellular, consistent with bone marrow architecture.",
+      "visible_findings": [
+        "enlarged nuclei",
+        "prominent nucleoli",
+        "cytoplasmic inclusions",
+        "cellular background"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "h and e stain",
+        "cellular atypia",
+        "cytoplasmic inclusions"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "h and e stain",
+        "histopathology of bone marrow"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:28+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 247,
+      "total_tokens": 843
+    }
+  },
+  "Case_07004/figure2.jpg": {
+    "case_id": "Case_07004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07004/figure2.jpg",
+    "source_caption": "H and E stain of marrow, showing viral inclusion bodies (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "H&E stain of bone marrow showing viral inclusion bodies.",
+      "detailed_description": "This is a high-magnification histopathology image of bone marrow stained with hematoxylin and eosin (H&E). The image shows numerous hematopoietic cells, with some cells containing prominent intranuclear viral inclusion bodies (indicated by arrows). These inclusions appear as dense, eosinophilic structures within the nuclei, consistent with a viral infection. The surrounding marrow architecture includes a mix of myeloid and erythroid precursors.",
+      "visible_findings": [
+        "intranuclear viral inclusion bodies",
+        "hematopoietic cells",
+        "eosinophilic staining of inclusions",
+        "mixed myeloid and erythroid precursors"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "H&E stain",
+        "viral inclusions",
+        "hematopoietic cells"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "bone marrow biopsy",
+        "viral inclusions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:31+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 260,
+      "total_tokens": 857
+    }
+  }
+}

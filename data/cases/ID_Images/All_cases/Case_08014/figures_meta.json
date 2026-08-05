@@ -1,0 +1,130 @@
+{
+  "Case_08014/figure1.jpg": {
+    "case_id": "Case_08014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08014/figure1.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung abnormalities. There is a diffuse, reticular pattern with areas of ground-glass opacities and interstitial thickening, predominantly in the lower lung zones. The mediastinum appears central, and no significant pleural effusion is visible. The findings are suggestive of a diffuse interstitial process.",
+      "visible_findings": [
+        "bilateral reticular pattern in the lungs",
+        "ground-glass opacities",
+        "interstitial thickening",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "interstitial thickening",
+        "diffuse lung disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "interstitial lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:12+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 232,
+      "total_tokens": 819
+    }
+  },
+  "Case_08014/figure2.jpg": {
+    "case_id": "Case_08014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08014/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung involvement with patchy areas of ground-glass opacities and consolidation, predominantly in the lower lobes. The findings suggest a diffuse inflammatory or infectious process. The mediastinum and bony structures appear unremarkable. No contrast enhancement is evident, indicating a non-contrast study.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidation in lower lobes",
+        "normal mediastinum",
+        "non-contrast study"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:14+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 230,
+      "total_tokens": 817
+    }
+  },
+  "Case_08014/figure3.jpg": {
+    "case_id": "Case_08014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08014/figure3.jpg",
+    "source_caption": "Figure 3. BAL cytopathology.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung (bronchoalveolar lavage)",
+      "short_caption": "Cytopathology of BAL showing fungal elements with budding yeast forms.",
+      "detailed_description": "This image shows a cytopathology preparation from a bronchoalveolar lavage (BAL) sample stained with a fungal stain (likely GMS or PAS). Numerous round to oval yeast forms are visible, some of which exhibit budding. The background contains cellular debris and scattered inflammatory cells. A large, darkly stained nucleus of a host cell is also prominent in the field. The findings are consistent with a fungal infection, potentially involving a yeast species.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "budding yeast forms",
+        "darkly stained host cell nucleus",
+        "background of cellular debris and inflammatory cells"
+      ],
+      "keywords": [
+        "cytopathology",
+        "fungal infection",
+        "bronchoalveolar lavage",
+        "yeast",
+        "budding",
+        "GMS stain",
+        "PAS stain"
+      ],
+      "reveal_triggers": [
+        "BAL cytopathology",
+        "fungal stain",
+        "yeast infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:15+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 267,
+      "total_tokens": 858
+    }
+  }
+}

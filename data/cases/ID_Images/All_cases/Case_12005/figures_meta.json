@@ -1,0 +1,43 @@
+{
+  "Case_12005/figure1.jpg": {
+    "case_id": "Case_12005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_12005/figure1.jpg",
+    "source_caption": "CT of the brain, without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT of the brain without contrast showing ventricular enlargement.",
+      "detailed_description": "This is an axial non-contrast CT image of the brain. The lateral ventricles appear symmetrically enlarged, with prominent frontal and occipital horns, suggesting hydrocephalus. The brain parenchyma appears otherwise unremarkable, with no evidence of acute hemorrhage or mass effect. The image is de-identified and shows no patient-identifying information.",
+      "visible_findings": [
+        "enlarged lateral ventricles",
+        "prominent frontal and occipital horns",
+        "no acute hemorrhage",
+        "no mass effect"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "hydrocephalus",
+        "ventricular enlargement",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "non-contrast ct",
+        "ventricular enlargement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:54:34+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 232,
+      "total_tokens": 822
+    }
+  }
+}

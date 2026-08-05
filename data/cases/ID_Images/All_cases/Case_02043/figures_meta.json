@@ -1,0 +1,214 @@
+{
+  "Case_02043/figure1.jpg": {
+    "case_id": "Case_02043",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02043/figure1.jpg",
+    "source_caption": "Pre-operative chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung opacities and mediastinal shift.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing bilateral lung fields. There is significant opacification of the right hemithorax, with a mediastinal shift towards the left, suggesting volume loss or mass effect on the right side. The left lung appears hyperinflated, likely compensatory. The diaphragm on the right side is elevated. No visible air-fluid levels or clear pleural effusion are noted.",
+      "visible_findings": [
+        "right hemithorax opacification",
+        "mediastinal shift to the left",
+        "elevated right hemidiaphragm",
+        "hyperinflation of the left lung"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "mediastinal shift",
+        "right lung pathology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung opacity",
+        "mediastinal shift"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:46+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 261,
+      "total_tokens": 849
+    }
+  },
+  "Case_02043/figure3.jpg": {
+    "case_id": "Case_02043",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02043/figure3.jpg",
+    "source_caption": "Admission chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing right upper lobe consolidation.",
+      "detailed_description": "This is a frontal chest radiograph showing increased opacification in the right upper lobe, consistent with consolidation. The heart and mediastinal contours appear normal. The left lung field is clear. No obvious pleural effusion or pneumothorax is visible. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "right upper lobe consolidation",
+        "clear left lung field",
+        "normal heart and mediastinal contours",
+        "no visible pleural effusion or pneumothorax",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "consolidation",
+        "right upper lobe",
+        "pneumonia"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumonia",
+        "lung consolidation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:49+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 245,
+      "total_tokens": 832
+    }
+  },
+  "Case_02043/figure4.jpg": {
+    "case_id": "Case_02043",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02043/figure4.jpg",
+    "source_caption": "Chest CT scan. Link to Highest Resolution Image Available",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing a large cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image reveals a large cavitary lesion in the right lung with thickened walls and internal air-filled spaces. The left lung appears relatively normal in this slice. The mediastinum is midline, and no significant pleural effusion is visible. The findings are suggestive of a necrotizing process, such as an abscess or cavitary infection.",
+      "visible_findings": [
+        "large cavitary lesion in the right lung",
+        "thickened cavity walls",
+        "internal air-filled spaces",
+        "normal-appearing left lung in this slice",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "abscess",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "cavitary lesion",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:49+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 253,
+      "total_tokens": 846
+    }
+  },
+  "Case_02043/figure5.jpg": {
+    "case_id": "Case_02043",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02043/figure5.jpg",
+    "source_caption": "Chest radiograph at six month follow-up.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph at six-month follow-up showing residual abnormalities.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields, the heart, and the mediastinum. There is evidence of residual abnormalities in the right upper lung field, including increased opacity suggestive of scarring or fibrosis. The left lung appears relatively clear. The mediastinum is midline, and no significant pleural effusion or pneumothorax is visible. The bony structures, including ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "increased opacity in the right upper lung field",
+        "clear left lung field",
+        "midline mediastinum",
+        "no pleural effusion or pneumothorax",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung",
+        "opacity",
+        "fibrosis",
+        "follow-up",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection follow-up",
+        "radiograph of chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:53+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 266,
+      "total_tokens": 857
+    }
+  },
+  "Case_02043/figure2.jpg": {
+    "case_id": "Case_02043",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02043/figure2.jpg",
+    "source_caption": "Pre-operative chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing abnormal lung findings.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity. There is evidence of abnormal opacification in the right lung field, with possible consolidation or mass effect. The lung markings appear distorted, and there may be volume loss or pleural thickening. The heart and diaphragm are partially visible, with no clear abnormalities in these structures. The image is of diagnostic quality and demonstrates findings suggestive of a pulmonary pathology.",
+      "visible_findings": [
+        "abnormal opacification in the right lung field",
+        "distorted lung markings",
+        "possible volume loss or pleural thickening",
+        "partially visible heart and diaphragm"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "pulmonary pathology",
+        "lateral view"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lateral chest radiograph",
+        "lung findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 251,
+      "total_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Case_03106/figure1.jpg": {
+    "case_id": "Case_03106",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03106/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "penis",
+      "short_caption": "Ulceration with purulent discharge on the penile shaft.",
+      "detailed_description": "This clinical photograph shows a close-up view of the penile shaft with a visible ulceration. The lesion is characterized by an irregular border and is associated with purulent yellowish discharge. The surrounding skin appears erythematous and inflamed. The image suggests an infectious or inflammatory process, possibly a sexually transmitted infection.",
+      "visible_findings": [
+        "ulceration on penile shaft",
+        "purulent yellowish discharge",
+        "erythema and inflammation of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "penis",
+        "ulcer",
+        "purulent discharge",
+        "infection",
+        "sexually transmitted infection"
+      ],
+      "reveal_triggers": [
+        "penile ulcer",
+        "genital lesion",
+        "sexually transmitted infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:14+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  }
+}

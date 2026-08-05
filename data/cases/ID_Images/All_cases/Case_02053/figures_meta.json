@@ -1,0 +1,277 @@
+{
+  "Case_02053/figure1.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:23:18+00:00"
+  },
+  "Case_02053/figure2.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:23:20+00:00"
+  },
+  "Case_02053/figure3.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a cavitary lesion in the right lung, with surrounding consolidation and possible air-fluid level. The mediastinum and left lung appear unremarkable. The image is presented in a lung window setting, highlighting pulmonary parenchymal abnormalities.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "surrounding consolidation",
+        "possible air-fluid level",
+        "normal appearance of the left lung",
+        "mediastinum appears unremarkable"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "pulmonary infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:31+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 220,
+      "total_tokens": 806
+    }
+  },
+  "Case_02053/figure4.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure4.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT scan demonstrates bilateral lung abnormalities. There are areas of ground-glass opacities and consolidation, particularly in the right lung, with some sparing of the left lung. The mediastinum and central airways appear patent. The scan is in a lung window setting, highlighting parenchymal changes.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidation more prominent in the right lung",
+        "patent central airways",
+        "lung window setting"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:34+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_02053/figure5.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure5.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing hyperintense lesions.",
+      "detailed_description": "This axial T2-weighted MRI of the brain demonstrates hyperintense lesions in the periventricular white matter. The ventricles appear symmetrically enlarged, and the surrounding brain parenchyma shows abnormal signal intensity. The image is well-centered and provides clear visualization of the cerebral hemispheres and midline structures.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "symmetrically enlarged ventricles",
+        "abnormal signal intensity in brain parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "hyperintense lesions",
+        "periventricular",
+        "ventricular enlargement"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain mri",
+        "t2-weighted brain scan"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:35+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 238,
+      "total_tokens": 824
+    }
+  },
+  "Case_02053/figure6.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure6.jpg",
+    "source_caption": "Methenamine silver stain of right leg skin biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Methenamine silver stain of skin biopsy showing fungal elements.",
+      "detailed_description": "This image shows a methenamine silver stain of a skin biopsy. The stain highlights fungal elements, which appear as dark black or brown structures against a greenish background. The fungal forms include round yeast-like cells and branching hyphae, consistent with fungal infection. The staining technique enhances the visibility of fungal cell walls, aiding in diagnosis.",
+      "visible_findings": [
+        "dark black or brown fungal elements",
+        "round yeast-like cells",
+        "branching hyphae",
+        "greenish background from the stain"
+      ],
+      "keywords": [
+        "methenamine silver stain",
+        "skin biopsy",
+        "fungal infection",
+        "yeast",
+        "hyphae",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "methenamine silver stain",
+        "skin biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:39+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 234,
+      "total_tokens": 827
+    }
+  },
+  "Case_02053/figure8.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure8.jpg",
+    "source_caption": "Lactophenol blue stain (80x), photo by Lynn Bry, M.D.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol blue stain showing fungal hyphae and conidia.",
+      "detailed_description": "This image shows a lactophenol blue stain at 80x magnification. The fungal structures include septate hyphae and conidia, which are stained blue. The hyphae are long, filamentous, and branching, while the conidia are oval and clustered. The stain highlights the fungal morphology, aiding in identification.",
+      "visible_findings": [
+        "septate hyphae",
+        "branching filaments",
+        "oval conidia",
+        "blue staining of fungal structures"
+      ],
+      "keywords": [
+        "lactophenol blue stain",
+        "fungus",
+        "hyphae",
+        "conidia",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "lactophenol blue stain",
+        "fungal microscopy",
+        "hyphae and conidia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:42+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 229,
+      "total_tokens": 828
+    }
+  },
+  "Case_02053/figure7.jpg": {
+    "case_id": "Case_02053",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02053/figure7.jpg",
+    "source_caption": "Lactophenol blue stain (40x), photo by Lynn Bry, M.D.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Lactophenol blue stain showing fungal hyphae and conidia at 40x magnification.",
+      "detailed_description": "This image shows a lactophenol blue stain at 40x magnification. The fungal structures include septate hyphae and oval-shaped conidia, which are stained blue. The hyphae appear filamentous and branch at acute angles, while the conidia are arranged in clusters or singly along the hyphae. The background is clear, highlighting the fungal elements.",
+      "visible_findings": [
+        "septate hyphae",
+        "branching at acute angles",
+        "oval-shaped conidia",
+        "blue staining of fungal structures"
+      ],
+      "keywords": [
+        "lactophenol blue stain",
+        "fungus",
+        "hyphae",
+        "conidia",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lactophenol blue stain",
+        "fungal microscopy",
+        "hyphae and conidia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:42+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 250,
+      "total_tokens": 849
+    }
+  }
+}

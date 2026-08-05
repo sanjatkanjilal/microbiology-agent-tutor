@@ -1,13 +1,13 @@
 {
     "name": "tests_management",
-    "description": "Guides test selection, interpretation, and teaches WHY tests work. Use for: (1) 'what tests should I order?', (2) 'what else can I test?', (3) 'I don't know what to order', (4) 'help me with tests', (5) discussing test interpretation, (6) asking about treatment. This is the TEACHING agent for tests - it explains mechanisms. For getting ACTUAL test results after ordering, use patient tool.",
+    "description": "Structured management deep-dive (admission to discharge). Use for the Management module: stabilisation, source control, empiric/targeted therapy, monitoring, escalation, de-escalation, and follow-up. NOT for bedside investigation results (use patient) or pathophysiology (use pathophys_epi).",
     "type": "TestsManagementTool",
     "parameter": {
         "type": "object",
         "properties": {
             "input_text": {
                 "type": "string",
-                "description": "The student's question or input about tests and management"
+                "description": "The student's question or input about management"
             },
             "model": {
                 "type": "string",
@@ -21,12 +21,11 @@
     "cacheable": false,
     "metadata": {
         "phase": "tests_management",
-        "agent_type": "test_guidance",
+        "agent_type": "management_deep_dive",
         "features": [
-            "test_selection",
-            "result_interpretation",
-            "first_principles_teaching",
-            "treatment_planning"
+            "structured_management_walkthrough",
+            "guideline_anchored",
+            "complication_scenarios"
         ]
     }
 }

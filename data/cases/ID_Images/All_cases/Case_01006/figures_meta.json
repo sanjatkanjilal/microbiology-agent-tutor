@@ -1,0 +1,164 @@
+{
+  "Case_01006/figure1.jpg": {
+    "case_id": "Case_01006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01006/figure1.jpg",
+    "source_caption": "Figure 1. Head CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial head CT scan showing multiple hypodense lesions.",
+      "detailed_description": "This axial CT scan of the head reveals multiple hypodense lesions scattered throughout the brain parenchyma. The lesions vary in size and are suggestive of space-occupying processes. There is no clear evidence of midline shift or significant mass effect. The scan is non-contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "multiple hypodense lesions in the brain parenchyma",
+        "no visible midline shift",
+        "no significant mass effect",
+        "non-contrast imaging"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "brain",
+        "hypodense lesions",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "brain lesions",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:05+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 220,
+      "total_tokens": 810
+    }
+  },
+  "Case_01006/figure4.jpg": {
+    "case_id": "Case_01006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01006/figure4.jpg",
+    "source_caption": "GMS stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "GMS stain showing fungal hyphae and spores.",
+      "detailed_description": "This is a microscopic image stained with Gomori methenamine silver (GMS), highlighting fungal elements. The fungal hyphae appear as black, branching structures against a greenish-blue background. Rounded fungal spores are also visible. The stain is commonly used to identify fungal organisms in tissue samples.",
+      "visible_findings": [
+        "black, branching fungal hyphae",
+        "rounded fungal spores",
+        "greenish-blue background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal hyphae",
+        "spores",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "fungal hyphae under microscope"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:05+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 215,
+      "total_tokens": 801
+    }
+  },
+  "Case_01006/figure2.jpg": {
+    "case_id": "Case_01006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01006/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Special stain showing filamentous branching organisms.",
+      "detailed_description": "This image shows a microscopic field stained with a special stain, likely a modified acid-fast or Gram stain. Filamentous, branching organisms are visible, appearing as darkly stained structures against a lighter background. The surrounding field contains amorphous material and cellular debris, suggesting an infectious or inflammatory process. The morphology is consistent with filamentous bacteria, such as Nocardia or Actinomyces.",
+      "visible_findings": [
+        "filamentous branching organisms",
+        "darkly stained structures",
+        "lighter background with amorphous material",
+        "cellular debris"
+      ],
+      "keywords": [
+        "stain",
+        "filamentous bacteria",
+        "branching organisms",
+        "infectious diseases",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "special stain",
+        "filamentous bacteria",
+        "branching organisms on microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_01006/figure3.jpg": {
+    "case_id": "Case_01006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01006/figure3.jpg",
+    "source_caption": "Fite stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fite stain showing acid-fast bacilli.",
+      "detailed_description": "This image shows a Fite stain, a specialized staining technique used to identify acid-fast organisms. Numerous blue-stained background cells are visible, likely representing host tissue or inflammatory cells. Thin, elongated, pink-stained structures consistent with acid-fast bacilli are seen, indicative of organisms such as Mycobacterium species. The bacilli are scattered and appear as slender, curved rods.",
+      "visible_findings": [
+        "pink-stained, slender, curved rods (acid-fast bacilli)",
+        "blue-stained background cells",
+        "scattered distribution of bacilli"
+      ],
+      "keywords": [
+        "fite stain",
+        "acid-fast bacilli",
+        "mycobacteria",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "fite stain",
+        "acid-fast organisms",
+        "mycobacteria histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:06+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 237,
+      "total_tokens": 823
+    }
+  }
+}

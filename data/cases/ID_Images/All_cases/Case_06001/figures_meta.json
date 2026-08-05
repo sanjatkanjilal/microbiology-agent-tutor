@@ -1,0 +1,370 @@
+{
+  "Case_06001/figure1.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure1.jpg",
+    "source_caption": "MRI scan of the spine.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine, lumbar region",
+      "short_caption": "MRI of the lumbar spine showing an abnormal lesion.",
+      "detailed_description": "This sagittal T2-weighted MRI image of the lumbar spine shows a hyperintense lesion in the vertebral body, likely involving the L4 vertebra. The lesion appears to extend into the adjacent intervertebral disc space, suggesting possible discitis or osteomyelitis. There is also evidence of surrounding soft tissue involvement and edema. The spinal cord and surrounding structures are visible, with no apparent compression.",
+      "visible_findings": [
+        "hyperintense lesion in the L4 vertebral body",
+        "extension into adjacent intervertebral disc space",
+        "soft tissue involvement and edema",
+        "no spinal cord compression"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "lumbar",
+        "osteomyelitis",
+        "discitis",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "spine MRI",
+        "lumbar infection",
+        "vertebral osteomyelitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:15+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 252,
+      "total_tokens": 840
+    }
+  },
+  "Case_06001/figure2.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure2.jpg",
+    "source_caption": "Primary gram stain of aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain of aspirate showing mixed bacterial morphologies.",
+      "detailed_description": "This gram stain image shows a mixture of bacterial morphologies, including gram-positive cocci and gram-negative bacilli, against a background of cellular debris. The staining highlights the bacterial cell walls, with gram-positive organisms appearing purple and gram-negative organisms appearing pink. The image suggests a polymicrobial infection, possibly from an abscess or other mixed-source infection.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "gram-negative bacilli",
+        "background cellular debris",
+        "polymicrobial appearance"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "aspirate",
+        "polymicrobial",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "bacterial infection",
+        "polymicrobial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:16+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 220,
+      "total_tokens": 809
+    }
+  },
+  "Case_06001/figure5.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure5.jpg",
+    "source_caption": "Detail of L5 biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "L5 vertebral biopsy",
+      "short_caption": "Histopathology of L5 biopsy showing fungal elements with surrounding inflammation.",
+      "detailed_description": "This histopathology image shows a section of tissue stained with hematoxylin and eosin (H&E). The field contains fungal elements, visible as round to oval structures with a clear halo, consistent with yeast forms. These are surrounded by inflammatory cells, including histiocytes and lymphocytes. The arrow highlights a fungal element. The background shows disorganized tissue architecture, suggesting infection and inflammation.",
+      "visible_findings": [
+        "fungal elements (yeast forms) with clear halos",
+        "inflammatory infiltrate including histiocytes and lymphocytes",
+        "disorganized tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "L5 biopsy",
+        "fungal infection",
+        "yeast forms",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "fungal infection biopsy",
+        "histopathology of vertebra",
+        "L5 biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:20+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 250,
+      "total_tokens": 838
+    }
+  },
+  "Case_06001/figure6.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure6.jpg",
+    "source_caption": "Gram stain of culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in a culture.",
+      "detailed_description": "This image shows a Gram stain of a bacterial culture. Numerous gram-positive bacilli are visible, appearing as pink to red rod-shaped structures distributed throughout the field. The background is clear, consistent with a culture preparation. The morphology suggests a uniform population of bacteria.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "pink to red rod-shaped bacteria",
+        "clear background indicating culture preparation"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "culture",
+        "gram-positive",
+        "bacilli"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial culture",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:20+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 193,
+      "total_tokens": 780
+    }
+  },
+  "Case_06001/figure3.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure3.jpg",
+    "source_caption": "Biopsy of L5 vertebra.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "vertebra (L5)",
+      "short_caption": "Histopathology of L5 vertebra biopsy showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows a biopsy specimen from the L5 vertebra stained with hematoxylin and eosin (H&E). The tissue demonstrates granulomatous inflammation characterized by clusters of epithelioid histiocytes, multinucleated giant cells, and lymphocytic infiltration. There are also areas of necrosis, consistent with caseating granulomas. These findings are suggestive of an infectious etiology, such as tuberculosis.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "lymphocytic infiltration",
+        "caseating necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "vertebra",
+        "granuloma",
+        "infection",
+        "tuberculosis",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "vertebral biopsy",
+        "granulomatous inflammation",
+        "bone infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:22+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 269,
+      "total_tokens": 859
+    }
+  },
+  "Case_06001/figure7.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure7.jpg",
+    "source_caption": "Detail of Figure 6.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a gram stain of bacterial organisms. The organisms appear as gram-positive cocci, arranged predominantly in clusters, which is characteristic of staphylococcal species. The background is clear, with no visible host cells or debris, suggesting a pure bacterial sample. The staining technique highlights the pink and purple coloration typical of gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive cocci",
+        "clusters",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "staphylococcal clusters"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:24+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 207,
+      "total_tokens": 795
+    }
+  },
+  "Case_06001/figure4.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure4.jpg",
+    "source_caption": "Detail of Figure 3.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing fungal elements with surrounding inflammation.",
+      "detailed_description": "This histopathology image shows a tissue section stained with hematoxylin and eosin (H&E). Numerous fungal elements, appearing as round to oval yeast-like structures, are visible within the tissue. The surrounding area shows evidence of inflammation, with infiltrating inflammatory cells. The fungal elements are scattered and vary in size, consistent with a fungal infection.",
+      "visible_findings": [
+        "round to oval yeast-like fungal elements",
+        "inflammatory cell infiltration",
+        "scattered fungal elements within tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "yeast",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "tissue section with yeast",
+        "H&E stain of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:24+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  },
+  "Case_06001/figure8.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure8.jpg",
+    "source_caption": "Brucella colonies on horse blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Colonies on a horse blood agar plate.",
+      "detailed_description": "This image shows a culture plate with horse blood agar as the medium. The plate has visible streaking patterns consistent with microbiological inoculation techniques. Small, pinpoint colonies are visible along the streak lines, suggesting bacterial growth. The upper portion of the image is obscured by a beige overlay, but the visible areas demonstrate typical colony morphology.",
+      "visible_findings": [
+        "horse blood agar plate",
+        "streaking pattern",
+        "small pinpoint colonies",
+        "beige overlay obscuring part of the image"
+      ],
+      "keywords": [
+        "culture plate",
+        "bacterial colonies",
+        "horse blood agar",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "bacterial growth",
+        "horse blood agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:26+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 212,
+      "total_tokens": 804
+    }
+  },
+  "Case_06001/figure9.jpg": {
+    "case_id": "Case_06001",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06001/figure9.jpg",
+    "source_caption": "Urease slants, Brucella inoculate on right.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Urease test slants showing positive and negative results.",
+      "detailed_description": "The image shows two urease test slants in test tubes. The tube on the left has an orange color, indicating a negative urease test. The tube on the right has a bright pink color, indicating a positive urease test. The labels on the tubes suggest specific inoculation, with the right tube potentially inoculated with Brucella as per the case caption. The color change in the positive test is due to the production of ammonia, which raises the pH and turns the indicator pink.",
+      "visible_findings": [
+        "orange slant on the left (negative urease test)",
+        "pink slant on the right (positive urease test)",
+        "black caps on both tubes",
+        "labels affixed to the tubes"
+      ],
+      "keywords": [
+        "urease test",
+        "culture plate",
+        "biochemical test",
+        "Brucella",
+        "positive result",
+        "negative result"
+      ],
+      "reveal_triggers": [
+        "urease test",
+        "biochemical testing",
+        "Brucella culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:31+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 273,
+      "total_tokens": 869
+    }
+  }
+}

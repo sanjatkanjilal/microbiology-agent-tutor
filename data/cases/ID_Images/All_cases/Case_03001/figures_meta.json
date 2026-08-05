@@ -1,0 +1,380 @@
+{
+  "Case_03001/figure1.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure1.jpg",
+    "source_caption": "Figure 1. Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying both lungs. There are bilateral pulmonary infiltrates, more pronounced in the right lung, with areas of increased opacity suggestive of consolidation. The heart and mediastinal structures appear within normal limits. The image quality is adequate for interpretation, and no obvious pleural effusion or pneumothorax is visible.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "right-sided predominance of opacities",
+        "no visible pleural effusion",
+        "no visible pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:32+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 233,
+      "total_tokens": 823
+    }
+  },
+  "Case_03001/figure2.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure2.jpg",
+    "source_caption": "Biopsy result.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing granulomatous inflammation with necrosis.",
+      "detailed_description": "This histopathology image shows a tissue section stained with hematoxylin and eosin (H&E). The composition reveals granulomatous inflammation characterized by clusters of epithelioid macrophages and multinucleated giant cells, surrounded by lymphocytes. Central areas of necrosis are visible, suggesting caseating granulomas, which are often associated with infections like tuberculosis. The magnification appears to be medium power, allowing visualization of cellular detail and tissue architecture.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "epithelioid macrophages",
+        "multinucleated giant cells",
+        "lymphocytic infiltration",
+        "central necrosis (caseating granulomas)"
+      ],
+      "keywords": [
+        "histopathology",
+        "granuloma",
+        "necrosis",
+        "tuberculosis",
+        "infectious disease",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "biopsy result",
+        "granulomatous inflammation",
+        "caseating necrosis",
+        "tuberculosis histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:34+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 294,
+      "total_tokens": 880
+    }
+  },
+  "Case_03001/figure5.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure5.jpg",
+    "source_caption": "Lung nodules.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lung",
+      "short_caption": "Gross pathology of lung showing multiple nodules.",
+      "detailed_description": "This is a gross pathology photograph of a lung specimen. The surface shows numerous irregularly distributed nodules of varying sizes, some of which appear to have central cavitation. The tissue appears hyperemic and inflamed. A ruler is included for scale, indicating the approximate size of the nodules. The findings suggest a pathological process involving the lung parenchyma, possibly infectious or neoplastic in nature.",
+      "visible_findings": [
+        "multiple lung nodules",
+        "irregular distribution",
+        "central cavitation in some nodules",
+        "hyperemic tissue",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lung",
+        "nodules",
+        "gross pathology",
+        "cavitation"
+      ],
+      "reveal_triggers": [
+        "lung nodules",
+        "gross pathology of lung",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:36+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 236,
+      "total_tokens": 822
+    }
+  },
+  "Case_03001/figure8.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure8.jpg",
+    "source_caption": "Giemsa stain showing Aspergillus.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Giemsa stain showing fungal hyphae consistent with Aspergillus.",
+      "detailed_description": "This image shows a Giemsa-stained preparation with numerous branching, septate fungal hyphae. The hyphae are slender and exhibit acute angle branching, which is characteristic of Aspergillus species. The background is lightly stained, providing contrast to the darkly stained fungal elements. The morphology is consistent with a fungal infection, likely Aspergillus.",
+      "visible_findings": [
+        "Branching fungal hyphae",
+        "Septate hyphae",
+        "Acute angle branching",
+        "Giemsa stain with contrasting background"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "aspergillus",
+        "fungal hyphae",
+        "branching",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "aspergillus",
+        "fungal infection",
+        "microscopy of fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:38+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 242,
+      "total_tokens": 833
+    }
+  },
+  "Case_03001/figure7.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure7.jpg",
+    "source_caption": "Microabscess, at higher magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing microabscess with fungal hyphae.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a microabscess characterized by a dense collection of inflammatory cells, including neutrophils. Interspersed within the inflammatory infiltrate are branching fungal hyphae, which appear as elongated, filamentous structures. The hyphae exhibit septation and acute angle branching, suggestive of a fungal infection. The background shows necrotic tissue and cellular debris.",
+      "visible_findings": [
+        "microabscess with inflammatory cells",
+        "branching fungal hyphae with septation",
+        "necrotic tissue and cellular debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "microabscess",
+        "fungal infection",
+        "H&E stain",
+        "hyphae",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "histopathology of abscess",
+        "fungal infection microscopy",
+        "H&E stain with hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:38+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 262,
+      "total_tokens": 853
+    }
+  },
+  "Case_03001/figure6.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure6.jpg",
+    "source_caption": "Microabscess containing Aspergillus hyphae.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Histopathology showing a microabscess with fungal hyphae.",
+      "detailed_description": "This histopathology image shows a microabscess characterized by a central area of necrosis surrounded by inflammatory cells. Within the necrotic area, thin, branching fungal hyphae are visible, consistent with Aspergillus species. The tissue is stained with hematoxylin and eosin (H&E), highlighting the cellular and fungal structures. The fungal hyphae appear septate and branching at acute angles, which is a typical feature of Aspergillus.",
+      "visible_findings": [
+        "microabscess with central necrosis",
+        "septate fungal hyphae with acute angle branching",
+        "surrounding inflammatory cell infiltrate",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "microabscess",
+        "fungal infection",
+        "aspergillus",
+        "H&E stain",
+        "tissue"
+      ],
+      "reveal_triggers": [
+        "histopathology of fungal infection",
+        "aspergillus microabscess",
+        "H&E stain of tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:38+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 277,
+      "total_tokens": 870
+    }
+  },
+  "Case_03001/figure4.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure4.jpg",
+    "source_caption": "Post-mortem appearance of lungs.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lungs",
+      "short_caption": "Post-mortem photograph of lungs showing diffuse consolidation and hemorrhagic appearance.",
+      "detailed_description": "This image shows a post-mortem specimen of both lungs, placed on a flat surface with a ruler for scale. The lungs exhibit diffuse consolidation and a hemorrhagic appearance, with multiple small cavities or defects visible across the surface. The texture suggests significant pathological changes, potentially indicative of severe infection, inflammation, or hemorrhage. The coloration is predominantly dark red, consistent with congestion or hemorrhagic involvement.",
+      "visible_findings": [
+        "diffuse consolidation of lung tissue",
+        "hemorrhagic appearance",
+        "small cavities or defects on the surface",
+        "dark red coloration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lungs",
+        "post-mortem",
+        "hemorrhagic",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "post-mortem lung specimen",
+        "infectious lung pathology",
+        "gross lung examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:39+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 250,
+      "total_tokens": 840
+    }
+  },
+  "Case_03001/figure3.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure3.jpg",
+    "source_caption": "Detail of Figure 2.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Histopathology of lung tissue showing inflammation and necrosis.",
+      "detailed_description": "This histopathology image shows lung tissue with areas of necrosis and inflammatory infiltrates. The tissue appears disorganized, with prominent inflammatory cells, including neutrophils and mononuclear cells, scattered throughout. There are regions of cellular debris consistent with necrosis. The sample is stained with hematoxylin and eosin (H&E), highlighting cellular and tissue structures.",
+      "visible_findings": [
+        "inflammatory infiltrates",
+        "necrosis",
+        "disorganized tissue architecture",
+        "presence of neutrophils and mononuclear cells",
+        "H&E stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "inflammation",
+        "necrosis",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "tissue necrosis",
+        "H&E stain of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:42+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_03001/figure9.jpg": {
+    "case_id": "Case_03001",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03001/figure9.jpg",
+    "source_caption": "Destruction of blood vessels in lung tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Histopathology showing blood vessel destruction in lung tissue.",
+      "detailed_description": "This histopathology image shows cross-sections of blood vessels within lung tissue. The vessel walls appear disrupted and necrotic, with evidence of fibrinoid necrosis and inflammatory infiltrates. The surrounding lung parenchyma shows signs of damage, and there is a clear loss of normal architecture. The staining technique highlights the structural changes, with areas of necrosis and inflammation prominently visible.",
+      "visible_findings": [
+        "disrupted blood vessel walls",
+        "fibrinoid necrosis",
+        "inflammatory infiltrates",
+        "damaged lung parenchyma",
+        "loss of normal tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "blood vessel destruction",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "blood vessel destruction",
+        "infectious disease pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:45+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 245,
+      "total_tokens": 836
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "Case_22007/figure3.png": {
+    "case_id": "Case_22007",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22007/figure3.png",
+    "source_caption": "Fig 3A-B. A, Surgical resection specimen showing mural thickening of the colon with an adjacent circumscribed mass (asterisk) and necrotic area (arrow). B, Histopathologic examination of colon showing broad, infrequently septate hyphae surrounded by an eosinophilic sheath (Splendore-Hoeppli phenomenon) (periodic acid–Schiff stain X 400)",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:06:41+00:00"
+  },
+  "Case_22007/figure1.png": {
+    "case_id": "Case_22007",
+    "filename": "figure1.png",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22007/figure1.png",
+    "source_caption": "Fig 1. Axial (Image A) and coronal (Image B) reformatted images showing diffuse long segment colonic mural thickening in the residual ascending and transverse colon (arrows).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "colon",
+      "short_caption": "Axial and coronal CT images showing diffuse colonic mural thickening in the ascending and transverse colon.",
+      "detailed_description": "This image consists of axial (left) and coronal (right) reformatted CT images of the abdomen. Both images demonstrate diffuse, long-segment mural thickening of the colonic wall in the residual ascending and transverse colon, as indicated by arrows. The thickened colonic wall appears hypodense relative to the surrounding structures, consistent with inflammatory or infectious colitis. Adjacent fat stranding is also visible, suggesting pericolonic inflammation.",
+      "visible_findings": [
+        "diffuse colonic mural thickening",
+        "involvement of ascending and transverse colon",
+        "adjacent fat stranding",
+        "hypodense colonic wall"
+      ],
+      "keywords": [
+        "ct",
+        "colon",
+        "mural thickening",
+        "colitis",
+        "inflammation",
+        "abdomen"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "colonic thickening",
+        "infectious colitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:43+00:00",
+    "usage": {
+      "prompt_tokens": 761,
+      "completion_tokens": 262,
+      "total_tokens": 1023
+    }
+  },
+  "Case_22007/figure2.png": {
+    "case_id": "Case_22007",
+    "filename": "figure2.png",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22007/figure2.png",
+    "source_caption": "Fig 2. A, Severe granulomatous inflammation. The arrow shows a foreign-body type multinucleated giant cell engulfing fungal zygospores, characterized by a thin eosinophilic wall and foamy cytoplasm. B, Broad infrequently septate hyphae (arrow) surrounded by strongly eosinophilic material (Splendore-Hoeppli phenomenon) in a background of mixed leukocytic infiltrate attended by numerous eosinophils,",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Granulomatous inflammation with fungal elements and Splendore-Hoeppli phenomenon.",
+      "detailed_description": "This image shows two histopathology panels stained with hematoxylin and eosin (H&E). Panel A highlights severe granulomatous inflammation with a multinucleated giant cell (indicated by an arrow) engulfing fungal zygospores, which have a thin eosinophilic wall and foamy cytoplasm. Panel B demonstrates broad, infrequently septate fungal hyphae (indicated by an arrow) surrounded by strongly eosinophilic material, consistent with the Splendore-Hoeppli phenomenon. Both panels show a background of mixed leukocytic infiltrate, including numerous eosinophils.",
+      "visible_findings": [
+        "multinucleated giant cell engulfing fungal zygospores",
+        "thin eosinophilic fungal walls",
+        "broad, infrequently septate fungal hyphae",
+        "Splendore-Hoeppli phenomenon",
+        "mixed leukocytic infiltrate with eosinophils"
+      ],
+      "keywords": [
+        "histopathology",
+        "granulomatous inflammation",
+        "fungal infection",
+        "Splendore-Hoeppli phenomenon",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "Splendore-Hoeppli phenomenon",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:45+00:00",
+    "usage": {
+      "prompt_tokens": 679,
+      "completion_tokens": 346,
+      "total_tokens": 1025
+    }
+  },
+  "Case_22007/figure4.png": {
+    "case_id": "Case_22007",
+    "filename": "figure4.png",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22007/figure4.png",
+    "source_caption": "Fig 3C-D. C, Fungal culture on chloramphenicol Sabouraud dextrose agar showing waxy cream colonies with radiate fissures surrounded by large mucoid enteric colonies. D, Lactophenol blue preparation of culture showing characteristic clavate conidia.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal culture and lactophenol blue preparation showing characteristic fungal morphology.",
+      "detailed_description": "Panel C shows a fungal culture on chloramphenicol Sabouraud dextrose agar with waxy cream-colored colonies exhibiting radiate fissures, surrounded by large mucoid colonies suggestive of enteric contamination. Panel D displays a lactophenol blue preparation of the fungal culture, highlighting characteristic clavate conidia (indicated by arrows) and septate hyphae. The preparation provides detailed visualization of fungal structures under light microscopy.",
+      "visible_findings": [
+        "waxy cream-colored colonies with radiate fissures on agar",
+        "large mucoid colonies surrounding the fungal growth",
+        "clavate conidia visible in lactophenol blue preparation",
+        "septate hyphae in lactophenol blue preparation"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal culture",
+        "lactophenol blue",
+        "fungal morphology",
+        "conidia",
+        "septate hyphae"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "lactophenol blue preparation",
+        "fungal identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:46+00:00",
+    "usage": {
+      "prompt_tokens": 641,
+      "completion_tokens": 280,
+      "total_tokens": 921
+    }
+  }
+}

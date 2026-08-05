@@ -1,0 +1,254 @@
+{
+  "Case_07014/figure1.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying diffuse bilateral pulmonary infiltrates, predominantly in the lower lung zones. The infiltrates appear patchy and heterogeneous, suggesting possible infection or inflammatory processes. The cardiac silhouette is visible, but no gross cardiomegaly is noted. There are no clear signs of pleural effusion or pneumothorax.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "patchy and heterogeneous opacities",
+        "predominantly lower lung zone involvement",
+        "no gross cardiomegaly",
+        "absence of pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infection",
+        "lower lung zones"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:19+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_07014/figure3.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image shows bilateral lung abnormalities with diffuse areas of ground-glass opacities and consolidation. There is evidence of septal thickening and possible cavitary lesions in the upper lobes. The mediastinum and airways appear central and patent. The findings suggest a diffuse infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "consolidation",
+        "septal thickening",
+        "possible cavitary lesions",
+        "central and patent airways"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:21+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 230,
+      "total_tokens": 816
+    }
+  },
+  "Case_07014/figure2.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure2.jpg",
+    "source_caption": "Chest radiograph, lateral.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing abnormal opacities.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity. There are areas of increased opacity in the lung fields, particularly in the posterior and lower regions, suggestive of consolidation or infiltrates. The bony structures, including the ribs and vertebrae, are visible. The diaphragm and heart borders are partially obscured, likely due to the opacities.",
+      "visible_findings": [
+        "increased opacity in the lung fields",
+        "posterior and lower lung involvement",
+        "partially obscured diaphragm and heart borders",
+        "visible bony structures including ribs and vertebrae"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "lung opacity",
+        "thorax",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung opacity",
+        "chest imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  },
+  "Case_07014/figure4.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure4.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT scan demonstrates extensive bilateral lung abnormalities. There are diffuse areas of ground-glass opacities and consolidation, predominantly in the lower lobes. The findings suggest a pattern consistent with severe pulmonary infection or inflammatory process. The mediastinum appears unremarkable, and no pleural effusion is evident in this image.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation",
+        "predominance in lower lobes",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:25+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_07014/figure6.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure6.jpg",
+    "source_caption": "H and E stain of lung biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of lung tissue. The sample demonstrates dense inflammatory infiltrates composed of numerous mononuclear cells and scattered polymorphonuclear leukocytes. The background includes areas of alveolar structure and interstitial thickening. No clear evidence of organisms is visible in this field, but the inflammation suggests an infectious or inflammatory process.",
+      "visible_findings": [
+        "dense inflammatory infiltrates",
+        "mononuclear cells",
+        "scattered polymorphonuclear leukocytes",
+        "alveolar structure",
+        "interstitial thickening"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "H&E stain",
+        "histopathology of lung",
+        "inflammatory infiltrates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:25+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 248,
+      "total_tokens": 838
+    }
+  },
+  "Case_07014/figure5.jpg": {
+    "case_id": "Case_07014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07014/figure5.jpg",
+    "source_caption": "Fungal microorganisms that were morphologically consistent with Paracoccidioides were seen. Pathological examination of the biopsy (Figure 6) showed mixed acute and chronic inflammation and poorly formed granulomas, and no malignant cells. There were no acid-fast organisms.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fungal microorganisms with morphology consistent with Paracoccidioides in a stained tissue sample.",
+      "detailed_description": "This image shows a stained tissue sample with fungal microorganisms visible. The organisms appear as round to oval structures with multiple peripheral budding, resembling a 'pilot's wheel' morphology, which is characteristic of Paracoccidioides species. The background shows a mix of cellular debris and inflammatory cells. The staining technique highlights the fungal structures, likely using a fungal-specific stain such as Gomori methenamine silver (GMS) or periodic acid-Schiff (PAS).",
+      "visible_findings": [
+        "Round to oval fungal organisms with multiple peripheral budding ('pilot's wheel' morphology).",
+        "Stained tissue background with inflammatory cells and debris.",
+        "Fungal-specific stain enhancing organism visibility."
+      ],
+      "keywords": [
+        "other stain",
+        "fungal infection",
+        "paracoccidioides",
+        "tissue biopsy",
+        "pilot's wheel morphology"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "paracoccidioides morphology",
+        "tissue biopsy with fungi"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:42:27+00:00",
+    "usage": {
+      "prompt_tokens": 634,
+      "completion_tokens": 271,
+      "total_tokens": 905
+    }
+  }
+}

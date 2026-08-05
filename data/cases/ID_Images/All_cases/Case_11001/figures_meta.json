@@ -1,0 +1,246 @@
+{
+  "Case_11001/figure1.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure1.jpg",
+    "source_caption": "Radiograph of lower leg.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Radiograph of the lower leg showing normal bony structures.",
+      "detailed_description": "This is an anteroposterior radiograph of the lower leg, including the tibia and fibula. The bony structures appear intact, with no obvious fractures, lytic lesions, or periosteal reactions. The soft tissue contours are unremarkable, and there are no visible signs of infection or abnormal calcifications. The image is well-centered and of good quality.",
+      "visible_findings": [
+        "intact tibia and fibula",
+        "no fractures or lytic lesions",
+        "no periosteal reaction",
+        "normal soft tissue contours"
+      ],
+      "keywords": [
+        "radiograph",
+        "lower leg",
+        "tibia",
+        "fibula",
+        "bone",
+        "normal"
+      ],
+      "reveal_triggers": [
+        "lower leg x-ray",
+        "tibia and fibula radiograph",
+        "bone imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:08+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  },
+  "Case_11001/figure2.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure2.jpg",
+    "source_caption": "Radiograph of the lower leg.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "ankle",
+      "short_caption": "Lateral radiograph of the right ankle.",
+      "detailed_description": "This is a lateral radiograph of the right ankle, showing the distal tibia, fibula, talus, and calcaneus. The bony structures appear intact without obvious fractures or dislocations. The joint spaces are preserved, and there are no visible signs of soft tissue swelling or gas. The image is labeled with an 'R' marker indicating the right side.",
+      "visible_findings": [
+        "lateral view of the right ankle",
+        "intact bony structures",
+        "preserved joint spaces",
+        "no visible soft tissue abnormalities"
+      ],
+      "keywords": [
+        "radiograph",
+        "ankle",
+        "lateral view",
+        "bone",
+        "joint"
+      ],
+      "reveal_triggers": [
+        "ankle x-ray",
+        "lateral radiograph of ankle",
+        "right ankle imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:10+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 231,
+      "total_tokens": 820
+    }
+  },
+  "Case_11001/figure3.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure3.jpg",
+    "source_caption": "MRI of the tibia, T2-weighted.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "tibia",
+      "short_caption": "MRI of the tibia, T2-weighted, showing a hyperintense lesion.",
+      "detailed_description": "This is a T2-weighted MRI image of the tibia in the sagittal plane. A well-defined, hyperintense lesion is visible within the diaphysis of the tibia, suggesting a fluid-filled or necrotic area. Surrounding soft tissue appears normal, with no obvious signs of edema or inflammation. The cortical bone appears intact without evidence of fracture.",
+      "visible_findings": [
+        "hyperintense lesion in the tibial diaphysis",
+        "intact cortical bone",
+        "no surrounding soft tissue edema"
+      ],
+      "keywords": [
+        "mri",
+        "tibia",
+        "t2-weighted",
+        "bone lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "tibia mri",
+        "bone infection imaging",
+        "t2-weighted mri of tibia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:10+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 240,
+      "total_tokens": 833
+    }
+  },
+  "Case_11001/figure5.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure5.jpg",
+    "source_caption": "Culture of the specimen on blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Blood agar plate showing bacterial colonies with varying morphologies.",
+      "detailed_description": "The image shows a blood agar plate with bacterial colonies of varying sizes and morphologies. Some colonies appear large, smooth, and circular, while others are smaller and more irregular. The plate is held by a gloved hand, and the background is slightly out of focus. The red coloration of the agar indicates the use of blood agar, which supports the growth of a wide range of bacteria and allows for hemolysis observation.",
+      "visible_findings": [
+        "blood agar plate with red coloration",
+        "bacterial colonies of varying sizes and morphologies",
+        "gloved hand holding the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture on blood agar",
+        "bacterial growth",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:11+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 237,
+      "total_tokens": 828
+    }
+  },
+  "Case_11001/figure4.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure4.jpg",
+    "source_caption": "Gram stain of the specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing mixed cellularity and fungal elements.",
+      "detailed_description": "This gram stain image shows a mixed field with prominent fungal elements, including septate hyphae, visible against a background of inflammatory cells and debris. The fungal hyphae appear as elongated, branching structures, while the inflammatory cells are scattered throughout. The staining highlights the fungal morphology and cellular components, aiding in the identification of a fungal infection.",
+      "visible_findings": [
+        "septate fungal hyphae",
+        "inflammatory cells",
+        "background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "fungal infection",
+        "hyphae",
+        "inflammatory cells",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "fungal elements",
+        "septate hyphae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:13+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 212,
+      "total_tokens": 800
+    }
+  },
+  "Case_11001/figure6.jpg": {
+    "case_id": "Case_11001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11001/figure6.jpg",
+    "source_caption": "Culture of the specimen on MacConkey agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on MacConkey agar plate.",
+      "detailed_description": "This image shows a MacConkey agar plate with bacterial growth. The plate is held by a gloved hand, and the growth appears as colonies on the agar surface. The agar has a characteristic reddish hue, typical of MacConkey agar. The bacterial colonies are concentrated in specific areas, suggesting selective growth. A black bar obscures part of the image, likely for de-identification purposes.",
+      "visible_findings": [
+        "MacConkey agar plate with reddish hue",
+        "bacterial colonies on agar surface",
+        "gloved hand holding the plate",
+        "black bar obscuring part of the image"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "bacterial growth",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "macconkey agar",
+        "bacterial colonies"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:14+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 240,
+      "total_tokens": 833
+    }
+  }
+}

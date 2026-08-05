@@ -1,0 +1,292 @@
+{
+  "Case_13014/figure1.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure1.jpg",
+    "source_caption": "Pathological examination of the liver.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of the liver showing steatosis.",
+      "detailed_description": "This histopathological image of liver tissue demonstrates numerous clear vacuoles within the cytoplasm of hepatocytes, consistent with steatosis (fat accumulation). The vacuoles are variably sized and displace the nuclei to the periphery of the cells. The tissue is stained with hematoxylin and eosin (H&E), highlighting the pink cytoplasm and clear lipid vacuoles. No inflammatory infiltrates or fibrosis are evident in this field.",
+      "visible_findings": [
+        "clear vacuoles in hepatocytes",
+        "displacement of nuclei to cell periphery",
+        "hematoxylin and eosin (H&E) stain",
+        "absence of fibrosis or inflammation"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "steatosis",
+        "fat accumulation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "fatty liver",
+        "steatosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:44+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 267,
+      "total_tokens": 856
+    }
+  },
+  "Case_13014/figure7.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure7.jpg",
+    "source_caption": "Immunohistochemical staining for HSV-1 in adrenal tissue.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "adrenal tissue",
+      "short_caption": "Immunohistochemical staining for HSV-1 in adrenal tissue.",
+      "detailed_description": "This image shows adrenal tissue stained with immunohistochemistry for HSV-1. Brown staining indicates positive areas where HSV-1 antigen is present, while unstained or lightly stained areas represent negative regions. The tissue architecture is visible, with scattered nuclei and cytoplasmic staining. The staining pattern suggests viral involvement in the tissue.",
+      "visible_findings": [
+        "brown immunohistochemical staining indicating HSV-1 antigen presence",
+        "scattered nuclei",
+        "cytoplasmic staining in affected cells"
+      ],
+      "keywords": [
+        "immunohistochemistry",
+        "adrenal tissue",
+        "HSV-1",
+        "infectious diseases",
+        "viral infection"
+      ],
+      "reveal_triggers": [
+        "immunohistochemistry",
+        "HSV-1",
+        "adrenal tissue",
+        "viral infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:44+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 233,
+      "total_tokens": 828
+    }
+  },
+  "Case_13014/figure6.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure6.jpg",
+    "source_caption": "Immunohistochemical staining for HSV-1 in liver tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Immunohistochemical staining for HSV-1 in liver tissue.",
+      "detailed_description": "This histopathological image shows liver tissue stained using immunohistochemical techniques to detect HSV-1. The tissue demonstrates a background of hepatocytes with scattered lipid vacuoles, characteristic of steatosis. A central area of staining is visible, indicating HSV-1 antigen presence. The brown staining highlights areas of viral antigen localization, while the surrounding tissue appears unstained or lightly counterstained.",
+      "visible_findings": [
+        "immunohistochemical staining",
+        "brown-stained areas indicating HSV-1 antigen",
+        "background of hepatocytes with lipid vacuoles",
+        "steatosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "immunohistochemistry",
+        "HSV-1",
+        "viral infection",
+        "steatosis"
+      ],
+      "reveal_triggers": [
+        "HSV-1 liver histology",
+        "immunohistochemical staining for HSV",
+        "liver infection pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:44+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 262,
+      "total_tokens": 857
+    }
+  },
+  "Case_13014/figure2.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure2.jpg",
+    "source_caption": "Pathological examination of the liver.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver showing steatosis and inflammation.",
+      "detailed_description": "This histopathological image of liver tissue, stained with hematoxylin and eosin (H&E), shows prominent macrovesicular steatosis with large lipid vacuoles displacing the nuclei of hepatocytes. There is evidence of inflammatory cell infiltration in the surrounding parenchyma. The tissue architecture is disrupted, consistent with pathological changes such as fatty liver disease or infectious hepatitis.",
+      "visible_findings": [
+        "macrovesicular steatosis with large lipid vacuoles",
+        "displaced hepatocyte nuclei",
+        "inflammatory cell infiltration",
+        "disrupted liver parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "steatosis",
+        "inflammation",
+        "H&E stain",
+        "fatty liver"
+      ],
+      "reveal_triggers": [
+        "liver biopsy",
+        "histopathology of liver",
+        "fatty liver disease",
+        "H&E liver stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:44+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  },
+  "Case_13014/figure4.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure4.jpg",
+    "source_caption": "Pathological examination of the liver, viral inclusions shown with arrows.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Histopathology of liver showing viral inclusions highlighted by arrows.",
+      "detailed_description": "This histopathological image of liver tissue, stained with hematoxylin and eosin (H&E), shows hepatocytes with prominent viral inclusions marked by arrows. The inclusions appear as dense, eosinophilic structures within the cytoplasm of affected cells. Surrounding hepatocytes exhibit varying degrees of vacuolation and cytoplasmic changes. The tissue architecture suggests viral involvement, with potential hepatocellular damage.",
+      "visible_findings": [
+        "cytoplasmic viral inclusions marked by arrows",
+        "vacuolated hepatocytes",
+        "eosinophilic staining of inclusions",
+        "altered liver tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "viral inclusions",
+        "hepatocytes",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver histopathology",
+        "viral inclusions in liver",
+        "H&E stain of liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:46+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 258,
+      "total_tokens": 854
+    }
+  },
+  "Case_13014/figure5.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure5.jpg",
+    "source_caption": "Pathological examination of the adrenal gland, viral inclusions shown with arrows.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "adrenal gland",
+      "short_caption": "Histopathology of adrenal gland showing viral inclusions.",
+      "detailed_description": "This is a histopathological image of adrenal gland tissue stained with hematoxylin and eosin (H&E). The tissue shows prominent viral inclusions, indicated by arrows, within the cytoplasm of cells. The inclusions are darkly stained and distinct from the surrounding cellular structures. The background shows normal adrenal gland architecture with scattered nuclei and cytoplasmic detail.",
+      "visible_findings": [
+        "darkly stained viral inclusions in cytoplasm",
+        "normal adrenal gland architecture in background",
+        "arrows pointing to inclusions"
+      ],
+      "keywords": [
+        "histopathology",
+        "adrenal gland",
+        "viral inclusions",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "adrenal gland pathology",
+        "viral inclusions",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:47+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 234,
+      "total_tokens": 831
+    }
+  },
+  "Case_13014/figure3.jpg": {
+    "case_id": "Case_13014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13014/figure3.jpg",
+    "source_caption": "Pathological examination of the adrenal gland.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "adrenal gland",
+      "short_caption": "Histopathology of the adrenal gland showing cellular changes.",
+      "detailed_description": "This histopathology image shows a section of the adrenal gland stained with hematoxylin and eosin (H&E). The tissue demonstrates a mix of cellular changes, including areas of necrosis, inflammatory infiltrates, and scattered nuclei with varying sizes and shapes. The background appears eosinophilic with some cellular debris, suggesting tissue damage or infection.",
+      "visible_findings": [
+        "eosinophilic background",
+        "scattered nuclei with varying sizes and shapes",
+        "areas of necrosis",
+        "inflammatory infiltrates"
+      ],
+      "keywords": [
+        "histopathology",
+        "adrenal gland",
+        "H&E stain",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "adrenal gland histology",
+        "H&E stain of adrenal",
+        "infectious adrenal pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 234,
+      "total_tokens": 824
+    }
+  }
+}

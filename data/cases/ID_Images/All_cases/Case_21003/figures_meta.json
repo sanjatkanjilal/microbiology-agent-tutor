@@ -1,0 +1,208 @@
+{
+  "Case_21003/figure1.jpg": {
+    "case_id": "Case_21003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21003/figure1.jpg",
+    "source_caption": "Chest radiograph. Right upper lobe opacity, effacement of 3rd right rib.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing right upper lobe opacity and effacement of the 3rd right rib.",
+      "detailed_description": "This is a frontal chest radiograph showing a focal opacity in the right upper lobe region. There is effacement of the 3rd right rib, suggesting possible bony involvement or overlying soft tissue abnormality. The lung fields otherwise appear clear, and the cardiac silhouette is within normal limits. Medical devices, including ECG leads, are visible on the chest wall.",
+      "visible_findings": [
+        "right upper lobe opacity",
+        "effacement of the 3rd right rib",
+        "normal cardiac silhouette",
+        "visible ECG leads"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "right upper lobe opacity",
+        "rib effacement",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "right upper lobe opacity",
+        "rib effacement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:50+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 247,
+      "total_tokens": 848
+    }
+  },
+  "Case_21003/figure2.jpg": {
+    "case_id": "Case_21003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21003/figure2.jpg",
+    "source_caption": "Chest CT scan. Large lesion at the right lung apex with associated numerous spiculated nodules throughout the bilateral lungs.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "lungs",
+      "short_caption": "Chest CT showing a large lesion in the right lung apex with spiculated nodules bilaterally.",
+      "detailed_description": "This chest CT scan shows axial views of the thorax. A large, irregular lesion is visible in the right lung apex, with spiculated margins. Numerous smaller spiculated nodules are scattered throughout both lungs, suggesting a diffuse process. The lung parenchyma appears abnormal with areas of increased density corresponding to the nodules. No clear pleural effusion or significant mediastinal lymphadenopathy is visible in these slices.",
+      "visible_findings": [
+        "large lesion in the right lung apex",
+        "spiculated margins of the lesion",
+        "numerous spiculated nodules in bilateral lungs",
+        "no visible pleural effusion",
+        "no significant mediastinal lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "lungs",
+        "spiculated nodules",
+        "right lung apex",
+        "diffuse lung lesions"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung lesion",
+        "spiculated nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:53+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 274,
+      "total_tokens": 880
+    }
+  },
+  "Case_21003/figure5.jpg": {
+    "case_id": "Case_21003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21003/figure5.jpg",
+    "source_caption": "H&E stain, 10x. Sulfur granule with filamentous organisms inside.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing sulfur granule with filamentous organisms.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a sulfur granule characterized by a dense, centrally located aggregate of filamentous organisms. Surrounding the granule are inflammatory cells, including neutrophils, which are visible as smaller, blue-stained structures. The filamentous organisms within the granule are stained pink to purple, highlighting their morphology. The magnification appears to be approximately 10x, as noted in the case text.",
+      "visible_findings": [
+        "sulfur granule with filamentous organisms",
+        "pink to purple staining of central aggregate",
+        "blue-stained inflammatory cells surrounding the granule"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "sulfur granule",
+        "filamentous organisms",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "histopathology of sulfur granule",
+        "h&e stain of filamentous organisms",
+        "granule with inflammatory cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:55+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 284,
+      "total_tokens": 884
+    }
+  },
+  "Case_21003/figure3.jpg": {
+    "case_id": "Case_21003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21003/figure3.jpg",
+    "source_caption": "Spine MRI. Paravertebral soft tissue component extending into spinal canal causing severe canal narrowing and cord compression.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "spine",
+      "short_caption": "Spine MRI showing paravertebral soft tissue mass with spinal canal narrowing and cord compression.",
+      "detailed_description": "This image is a spine MRI with axial and sagittal views. The axial images show a paravertebral soft tissue mass extending into the spinal canal, causing severe narrowing of the canal. The sagittal view highlights significant spinal cord compression at the affected levels. The mass appears to involve the vertebral bodies and adjacent soft tissues, with possible inflammatory or infectious etiology.",
+      "visible_findings": [
+        "paravertebral soft tissue mass",
+        "spinal canal narrowing",
+        "spinal cord compression",
+        "vertebral body involvement"
+      ],
+      "keywords": [
+        "mri",
+        "spine",
+        "paravertebral mass",
+        "cord compression",
+        "spinal canal narrowing"
+      ],
+      "reveal_triggers": [
+        "spine mri",
+        "cord compression",
+        "paravertebral mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:56+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 239,
+      "total_tokens": 843
+    }
+  },
+  "Case_21003/figure4.jpg": {
+    "case_id": "Case_21003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21003/figure4.jpg",
+    "source_caption": "H&E stain (A,C) and GMS stain (B), 10x.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E and GMS stains showing fungal elements at 10x magnification.",
+      "detailed_description": "This composite image includes three panels of histopathologic stains. Panel A shows an H&E stain highlighting a central area of necrosis surrounded by inflammatory cells. Panel B demonstrates a GMS stain, which highlights fungal elements in green against a pale background. Panel C combines features of both stains, showing fungal elements within tissue. The magnification is approximately 10x, and the fungal morphology is consistent with septate hyphae.",
+      "visible_findings": [
+        "H&E stain with necrosis and inflammation (Panel A)",
+        "GMS stain highlighting fungal elements (Panel B)",
+        "Fungal hyphae visible within tissue (Panel C)"
+      ],
+      "keywords": [
+        "histopathology",
+        "H&E stain",
+        "GMS stain",
+        "fungal infection",
+        "10x magnification",
+        "fungal hyphae"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "GMS stain",
+        "fungal histopathology",
+        "10x magnification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:58+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 272,
+      "total_tokens": 872
+    }
+  }
+}

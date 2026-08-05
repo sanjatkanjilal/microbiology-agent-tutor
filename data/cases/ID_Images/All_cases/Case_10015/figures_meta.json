@@ -1,0 +1,86 @@
+{
+  "Case_10015/figure1.jpg": {
+    "case_id": "Case_10015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10015/figure1.jpg",
+    "source_caption": "Endometrial biopsy, hematoxylin and eosin stain (600 x magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "endometrium",
+      "short_caption": "Endometrial biopsy, hematoxylin and eosin stain at 600x magnification.",
+      "detailed_description": "This histopathology image shows an endometrial biopsy stained with hematoxylin and eosin (H&E) at 600x magnification. The tissue contains inflammatory cells, including numerous macrophages and lymphocytes, with some multinucleated giant cells visible. A prominent circular structure resembling a fungal spore or yeast form is present, surrounded by inflammatory cells. The background shows stromal tissue with mild distortion.",
+      "visible_findings": [
+        "inflammatory cells including macrophages and lymphocytes",
+        "multinucleated giant cells",
+        "prominent circular structure resembling a fungal spore or yeast",
+        "stromal tissue with mild distortion"
+      ],
+      "keywords": [
+        "histopathology",
+        "endometrium",
+        "hematoxylin and eosin",
+        "inflammation",
+        "fungal infection",
+        "giant cells"
+      ],
+      "reveal_triggers": [
+        "endometrial biopsy",
+        "H&E stain",
+        "histopathology of endometrium",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:45+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 282,
+      "total_tokens": 883
+    }
+  },
+  "Case_10015/figure2.jpg": {
+    "case_id": "Case_10015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10015/figure2.jpg",
+    "source_caption": "Endometrial biopsy with acid-fast stain (1000 x magnification).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "endometrium",
+      "short_caption": "Endometrial biopsy with acid-fast stain showing acid-fast bacilli.",
+      "detailed_description": "This image shows a high-magnification (1000x) view of an endometrial biopsy stained with an acid-fast stain. The background tissue appears blue, while several slender, rod-shaped organisms stain bright red, consistent with acid-fast bacilli. The staining highlights the presence of mycobacterial organisms within the tissue.",
+      "visible_findings": [
+        "blue-stained background tissue",
+        "slender, rod-shaped red organisms",
+        "acid-fast staining pattern"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "endometrium",
+        "biopsy",
+        "mycobacteria",
+        "infectious disease",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "endometrial biopsy",
+        "mycobacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:52+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 243,
+      "total_tokens": 840
+    }
+  }
+}

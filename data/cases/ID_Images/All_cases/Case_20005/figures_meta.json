@@ -1,0 +1,205 @@
+{
+  "Case_20005/figure1.jpg": {
+    "case_id": "Case_20005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20005/figure1.jpg",
+    "source_caption": "Gram stain, Blood: 100x Oil immersion: predominantly gram-positive rods, non-spore forming.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood",
+      "short_caption": "Gram stain of blood showing predominantly gram-positive rods.",
+      "detailed_description": "This image shows a Gram stain of a blood sample viewed under 100x oil immersion. Numerous gram-positive rods are visible, appearing as purple-stained, elongated structures. The rods are non-spore forming and are distributed throughout the field, with some clustering noted. The background is clear, consistent with a de-identified blood smear preparation.",
+      "visible_findings": [
+        "numerous gram-positive rods",
+        "purple-stained elongated structures",
+        "non-spore forming morphology",
+        "some clustering of rods"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood",
+        "gram-positive rods",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood",
+        "gram-positive rods",
+        "blood smear"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:16+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 218,
+      "total_tokens": 821
+    }
+  },
+  "Case_20005/figure3.jpg": {
+    "case_id": "Case_20005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20005/figure3.jpg",
+    "source_caption": "Chest X-Ray (CXR) on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing bilateral pulmonary findings.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. There are bilateral pulmonary opacities, more pronounced in the right lung, suggestive of consolidation or infiltrates. The heart size appears within normal limits. Medical devices, including ECG leads and possibly a nasogastric tube, are visible. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "right lung findings more pronounced",
+        "normal heart size",
+        "presence of medical devices (ECG leads, possible nasogastric tube)"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "pulmonary opacities",
+        "medical devices",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "lung findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:18+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 237,
+      "total_tokens": 829
+    }
+  },
+  "Case_20005/figure2.jpg": {
+    "case_id": "Case_20005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20005/figure2.jpg",
+    "source_caption": "Blood Culture showing small grey alpha hemolytic colonies at 48 hours.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Blood agar plate showing small grey alpha-hemolytic colonies at 48 hours.",
+      "detailed_description": "This image shows a blood agar plate with small, grey colonies exhibiting alpha hemolysis (partial hemolysis, creating a greenish discoloration around the colonies). The colonies are distributed in streak patterns, consistent with bacterial growth after 48 hours of incubation. The plate appears to have been inoculated using a streaking method to isolate individual colonies.",
+      "visible_findings": [
+        "small grey colonies",
+        "alpha hemolysis (greenish discoloration around colonies)",
+        "streak pattern of bacterial growth"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "alpha hemolysis",
+        "bacterial colonies",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood culture",
+        "alpha hemolysis",
+        "bacterial growth on blood agar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:19+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 230,
+      "total_tokens": 827
+    }
+  },
+  "Case_20005/figure5.jpg": {
+    "case_id": "Case_20005",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20005/figure5.jpg",
+    "source_caption": "Transesophageal Echocardiogram image of vegetation on Aortic Valve.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Transesophageal echocardiogram showing echodensity suggestive of vegetation on the aortic valve.",
+      "detailed_description": "This transesophageal echocardiogram (TEE) image shows a hyperechoic, irregular structure attached to the aortic valve, consistent with vegetation. The surrounding cardiac structures appear normal, and the vegetation is prominently visualized in the plane of the aortic valve. The image is labeled with an ECG tracing at the bottom, confirming synchronization with the cardiac cycle.",
+      "visible_findings": [
+        "hyperechoic irregular structure on aortic valve",
+        "normal surrounding cardiac structures",
+        "ECG tracing at the bottom of the image"
+      ],
+      "keywords": [
+        "ultrasound",
+        "transesophageal echocardiogram",
+        "aortic valve",
+        "vegetation",
+        "infective endocarditis"
+      ],
+      "reveal_triggers": [
+        "transesophageal echocardiogram",
+        "aortic valve vegetation",
+        "infective endocarditis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:23+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 256,
+      "total_tokens": 853
+    }
+  },
+  "Case_20005/figure4.jpg": {
+    "case_id": "Case_20005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20005/figure4.jpg",
+    "source_caption": "Transesophageal Echocardiogram image of vegetation on Tricuspid Valve.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "tricuspid valve",
+      "short_caption": "Transesophageal echocardiogram showing vegetations on the tricuspid valve.",
+      "detailed_description": "This transesophageal echocardiogram image demonstrates a hyperechoic, irregular mass attached to the tricuspid valve, consistent with vegetations. The vegetations are likely mobile and appear to protrude into the right atrium. The surrounding cardiac structures are partially visualized, and the image includes an ECG tracing at the bottom for synchronization.",
+      "visible_findings": [
+        "hyperechoic irregular mass on tricuspid valve",
+        "vegetations protruding into right atrium",
+        "partial visualization of surrounding cardiac structures",
+        "ECG tracing at the bottom of the image"
+      ],
+      "keywords": [
+        "ultrasound",
+        "transesophageal echocardiogram",
+        "tricuspid valve",
+        "vegetation",
+        "infective endocarditis"
+      ],
+      "reveal_triggers": [
+        "transesophageal echocardiogram",
+        "tricuspid valve vegetation",
+        "endocarditis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:23+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 263,
+      "total_tokens": 861
+    }
+  }
+}

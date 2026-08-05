@@ -1,0 +1,206 @@
+{
+  "Case_09022/figure1.jpg": {
+    "case_id": "Case_09022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09022/figure1.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. There are bilateral patchy opacities predominantly in the mid and lower lung zones, consistent with pulmonary infiltrates. The heart size appears normal, and there is no obvious pleural effusion or pneumothorax. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "bilateral patchy pulmonary opacities",
+        "normal heart size",
+        "no visible pleural effusion",
+        "no pneumothorax",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary infiltrates",
+        "lungs",
+        "infection",
+        "thorax"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:23+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_09022/figure2.jpg": {
+    "case_id": "Case_09022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09022/figure2.jpg",
+    "source_caption": "Chest radiograph, lateral view, on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing lung abnormalities.",
+      "detailed_description": "This is a lateral view chest radiograph showing the thoracic cavity. There is evidence of increased opacification in the lower lung fields, suggestive of consolidation or fluid accumulation. The diaphragm and posterior costophrenic angle appear blunted, which may indicate pleural effusion. The bony structures, including the ribs and spine, are visible and appear intact.",
+      "visible_findings": [
+        "increased opacification in lower lung fields",
+        "blunted posterior costophrenic angle",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lung consolidation",
+        "pleural effusion"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung opacity",
+        "pleural effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:31+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 232,
+      "total_tokens": 824
+    }
+  },
+  "Case_09022/figure5.jpg": {
+    "case_id": "Case_09022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09022/figure5.jpg",
+    "source_caption": "Sputum culture on blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Sputum culture on blood agar showing hemolysis and colony growth.",
+      "detailed_description": "This image shows a blood agar plate with bacterial colonies from a sputum culture. The plate demonstrates areas of beta-hemolysis, characterized by clear zones around the colonies, indicating complete lysis of red blood cells. A white antibiotic disk is visible on the right side of the plate, with no apparent zone of inhibition around it. The colonies are concentrated in streaked areas, suggesting isolation through streak plating.",
+      "visible_findings": [
+        "blood agar plate with red background",
+        "bacterial colonies with beta-hemolysis",
+        "white antibiotic disk with no inhibition zone",
+        "streaked growth pattern"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "sputum",
+        "bacterial colonies",
+        "beta-hemolysis",
+        "antibiotic disk"
+      ],
+      "reveal_triggers": [
+        "sputum culture",
+        "blood agar plate",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:37+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 263,
+      "total_tokens": 854
+    }
+  },
+  "Case_09022/figure3.jpg": {
+    "case_id": "Case_09022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09022/figure3.jpg",
+    "source_caption": "Gram stain of sputum.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Gram stain of sputum showing fungal hyphae.",
+      "detailed_description": "This image shows a Gram stain of sputum with prominent fungal hyphae visible as branching, filamentous structures. The background contains scattered inflammatory cells and debris. The hyphae appear to be stained red, consistent with fungal elements, while the background cellular material is less prominently stained. This suggests a fungal infection in the respiratory tract.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "scattered inflammatory cells",
+        "background debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "fungal hyphae",
+        "respiratory infection",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "fungal infection",
+        "respiratory tract infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:40+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 224,
+      "total_tokens": 812
+    }
+  },
+  "Case_09022/figure4.jpg": {
+    "case_id": "Case_09022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09022/figure4.jpg",
+    "source_caption": "Gram stain of sputum.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Gram stain of sputum showing gram-positive cocci in chains.",
+      "detailed_description": "This image shows a Gram stain of sputum with numerous gram-positive cocci arranged in chains, consistent with streptococcal morphology. The background contains cellular debris and faintly stained host cells. The cocci appear dark blue to purple against a reddish-pink background, typical of Gram staining. The arrangement in chains is a key diagnostic feature.",
+      "visible_findings": [
+        "gram-positive cocci in chains",
+        "reddish-pink background",
+        "cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "gram-positive cocci",
+        "streptococcal morphology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "respiratory infection",
+        "streptococcal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 235,
+      "total_tokens": 823
+    }
+  }
+}

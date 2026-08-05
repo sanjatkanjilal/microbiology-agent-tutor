@@ -1,0 +1,86 @@
+{
+  "Case_02044/figure1.jpg": {
+    "case_id": "Case_02044",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02044/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Erythematous nodules and ulcers on the forearm.",
+      "detailed_description": "This clinical photograph shows the forearm of an elderly individual with multiple erythematous nodules and ulcers. Some lesions appear raised and inflamed, with one showing a central crust or scab. The lesions are distributed along the extensor surface of the forearm. The surrounding skin shows mild erythema but no significant swelling or discharge is visible.",
+      "visible_findings": [
+        "erythematous nodules",
+        "ulcerated lesions",
+        "central crusting on one lesion",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "nodules",
+        "ulcers",
+        "infectious diseases",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "forearm nodules",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_02044/figure2.jpg": {
+    "case_id": "Case_02044",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02044/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Forearm with erythematous nodules and ulcerations, suggestive of cutaneous infection.",
+      "detailed_description": "The image shows the forearm of a patient with multiple erythematous nodules and ulcerations distributed along the skin. Some lesions appear raised and inflamed, while others show signs of crusting or breakdown. The pattern suggests a possible infectious process, such as sporotrichosis or another cutaneous infection. The patient is wearing a hospital gown, indicating a clinical setting.",
+      "visible_findings": [
+        "erythematous nodules",
+        "ulcerations",
+        "linear distribution of lesions",
+        "crusting and inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "skin lesions",
+        "nodules",
+        "ulcerations",
+        "cutaneous infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "cutaneous nodules",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 254,
+      "total_tokens": 822
+    }
+  }
+}

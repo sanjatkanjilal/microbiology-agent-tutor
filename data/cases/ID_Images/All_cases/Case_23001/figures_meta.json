@@ -1,0 +1,86 @@
+{
+  "Case_23001/figure1.jpg": {
+    "case_id": "Case_23001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23001/figure1.jpg",
+    "source_caption": "Figure 1, Brain MRI with contrast. Parenchymal volume loss, disproportionately involving the cerebellum, appears increased compared to CT neck performed 6 years earlier.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Sagittal brain MRI with contrast showing cerebellar volume loss.",
+      "detailed_description": "This sagittal T1-weighted brain MRI with contrast demonstrates significant parenchymal volume loss, particularly involving the cerebellum. The cerebellar folia appear more prominent, consistent with atrophy. The brainstem and surrounding structures are visualized, with no overt mass effect or acute abnormalities. The contrast enhancement highlights normal vascular and meningeal structures without abnormal enhancement.",
+      "visible_findings": [
+        "cerebellar atrophy with prominent folia",
+        "normal brainstem appearance",
+        "no acute mass effect",
+        "contrast enhancement without abnormal findings"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "cerebellum",
+        "atrophy",
+        "contrast",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "cerebellar atrophy",
+        "neuroimaging with contrast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:47+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 243,
+      "total_tokens": 859
+    }
+  },
+  "Case_23001/figure2.jpg": {
+    "case_id": "Case_23001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23001/figure2.jpg",
+    "source_caption": "Figure 2, Neck CT without contrast. Performed 6 years earlier, shown for comparison.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Sagittal neck CT without contrast showing anatomical structures for comparison.",
+      "detailed_description": "This sagittal CT image of the neck, performed without contrast, shows the bony and soft tissue anatomy of the cervical spine, pharynx, and surrounding structures. The image is in grayscale, with clear visualization of the vertebral bodies, airway, and soft tissues. No obvious acute abnormalities are visible, and the image appears to be provided for comparison with a more recent study.",
+      "visible_findings": [
+        "sagittal view of cervical spine",
+        "airway structures visible",
+        "no contrast enhancement",
+        "normal bony alignment"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "sagittal",
+        "comparison",
+        "cervical spine",
+        "airway"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "sagittal ct",
+        "cervical spine imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:55+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 236,
+      "total_tokens": 838
+    }
+  }
+}

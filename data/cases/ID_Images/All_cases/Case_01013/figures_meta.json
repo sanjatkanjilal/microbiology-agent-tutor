@@ -1,0 +1,83 @@
+{
+  "Case_01013/figure1.jpg": {
+    "case_id": "Case_01013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01013/figure1.jpg",
+    "source_caption": "Figure 1. Abdominal scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing abnormal findings in the right kidney.",
+      "detailed_description": "This is an axial CT scan of the abdomen. The right kidney appears abnormal, with evidence of hypodense areas suggestive of possible abscesses or infarcts. The left kidney appears normal in comparison. The surrounding structures, including the aorta and vertebrae, are visible and appear unremarkable. The scan is performed without clear indication of contrast use.",
+      "visible_findings": [
+        "hypodense areas in the right kidney",
+        "normal appearance of the left kidney",
+        "visible aorta and vertebrae"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidney",
+        "abscess",
+        "hypodense lesion"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "kidney lesion",
+        "infectious kidney findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:44+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 227,
+      "total_tokens": 817
+    }
+  },
+  "Case_01013/figure2.jpg": {
+    "case_id": "Case_01013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01013/figure2.jpg",
+    "source_caption": "Sigmoidoscopy findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Sigmoidoscopy showing erythematous and inflamed colonic mucosa.",
+      "detailed_description": "This endoscopic image shows the colonic mucosa with diffuse erythema and inflammation. The mucosal surface appears irregular, with visible vascular patterns and areas of hyperemia. There are no clear ulcerations or exudates visible in this image. The findings are consistent with mucosal irritation or inflammation, potentially due to infectious or inflammatory causes.",
+      "visible_findings": [
+        "diffuse erythema",
+        "irregular mucosal surface",
+        "visible vascular patterns",
+        "areas of hyperemia"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "sigmoidoscopy",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "sigmoidoscopy",
+        "colonic inflammation",
+        "endoscopic findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  }
+}

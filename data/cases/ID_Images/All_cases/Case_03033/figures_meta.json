@@ -1,0 +1,170 @@
+{
+  "Case_03033/figure2.jpg": {
+    "case_id": "Case_03033",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03033/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT scan demonstrates both lungs with multiple small nodular opacities and areas of ground-glass attenuation. The findings are distributed bilaterally and appear more prominent in the peripheral lung fields. The trachea and main bronchi are visible and appear patent. No significant pleural effusion or pneumothorax is noted.",
+      "visible_findings": [
+        "bilateral small nodular opacities",
+        "ground-glass attenuation",
+        "patent trachea and bronchi",
+        "no pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "ground-glass",
+        "infectious diseases",
+        "pulmonary findings"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:44+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_03033/figure1.jpg": {
+    "case_id": "Case_03033",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03033/figure1.jpg",
+    "source_caption": "Neck CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT scan of the neck showing soft tissue swelling.",
+      "detailed_description": "This axial CT image of the neck demonstrates soft tissue swelling and asymmetry, particularly on the right side. There is evidence of hypodense areas suggestive of fluid collection, possibly an abscess. The airway appears patent, but there is notable compression from the surrounding soft tissue. Bone structures, including the cervical vertebrae, appear intact. No contrast enhancement is visible, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "soft tissue swelling on the right side",
+        "hypodense area suggestive of fluid collection",
+        "patent airway with mild compression",
+        "intact cervical vertebrae"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "soft tissue swelling",
+        "abscess",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "neck ct",
+        "soft tissue infection",
+        "abscess imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:46+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_03033/figure3.jpg": {
+    "case_id": "Case_03033",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03033/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Neck with subcutaneous swelling and skin discoloration.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the neck. There is a prominent subcutaneous swelling in the lower neck region, with overlying skin discoloration suggestive of erythema and possible ecchymosis. Additionally, there are two small punctate lesions or scars on the upper chest, possibly indicative of prior drainage or trauma. The findings may suggest an infectious or inflammatory process.",
+      "visible_findings": [
+        "subcutaneous swelling in the neck",
+        "overlying skin discoloration (erythema and ecchymosis)",
+        "punctate lesions or scars on the upper chest"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "swelling",
+        "erythema",
+        "infection",
+        "punctate lesions"
+      ],
+      "reveal_triggers": [
+        "neck swelling",
+        "skin discoloration",
+        "infectious neck lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:27:55+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  },
+  "Case_03033/figure4.jpg": {
+    "case_id": "Case_03033",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03033/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "neck",
+      "short_caption": "Enlarged, erythematous swelling on the lateral neck.",
+      "detailed_description": "This clinical photograph shows a large, erythematous, and indurated swelling on the lateral aspect of the neck. The lesion appears to be subcutaneous and is associated with overlying skin discoloration, suggesting inflammation or infection. The borders are ill-defined, and there is no visible drainage or ulceration. The surrounding skin shows mild erythema and no other obvious lesions.",
+      "visible_findings": [
+        "large swelling on the lateral neck",
+        "erythema overlying the swelling",
+        "induration of the lesion",
+        "no visible drainage or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "neck",
+        "swelling",
+        "erythema",
+        "infection",
+        "induration"
+      ],
+      "reveal_triggers": [
+        "neck swelling",
+        "skin infection",
+        "erythematous lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  }
+}

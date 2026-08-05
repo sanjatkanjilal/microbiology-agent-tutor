@@ -1,0 +1,295 @@
+{
+  "Case_24002/figure1.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure1.jpg",
+    "source_caption": "Figure 1a: Magnetic resonance imaging the brain with and without gadolinium, T2 fluid attenuated inversion recovery (FLAIR) images identifying lesions in his left cerebellum and right frontal cortex with rim-enhancement and surrounding vasogenic edema with mass effect concerning for malignancy.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T2 FLAIR showing lesions with rim-enhancement and surrounding edema.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain shows hyperintense lesions in the left cerebellum and right frontal cortex. The lesions exhibit rim-enhancement and are surrounded by vasogenic edema, which is causing mass effect. These findings are concerning for malignancy or infectious processes. The image is taken with and without gadolinium contrast.",
+      "visible_findings": [
+        "hyperintense lesions in left cerebellum and right frontal cortex",
+        "rim-enhancement of lesions",
+        "surrounding vasogenic edema",
+        "mass effect visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "lesions",
+        "rim-enhancement",
+        "vasogenic edema",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 flair lesions",
+        "rim-enhanced brain lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:35+00:00",
+    "usage": {
+      "prompt_tokens": 640,
+      "completion_tokens": 248,
+      "total_tokens": 888
+    }
+  },
+  "Case_24002/figure4.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure4.jpg",
+    "source_caption": "Figure 3: Positron emission tomography scan showing incidental finding of a left upper chest wall hypermetabolic soft tissue mass, initially read as concerning for malignancy.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "left upper chest wall",
+      "short_caption": "PET-CT showing hypermetabolic mass in the left upper chest wall.",
+      "detailed_description": "This is a PET-CT scan in axial view showing a hypermetabolic soft tissue mass in the left upper chest wall. The mass demonstrates increased radiotracer uptake, appearing bright yellow, which is suggestive of high metabolic activity. Surrounding structures, including the thoracic cavity and skeletal elements, are visible. The finding was initially interpreted as concerning for malignancy.",
+      "visible_findings": [
+        "hypermetabolic soft tissue mass in the left upper chest wall",
+        "bright yellow radiotracer uptake in the mass",
+        "normal surrounding thoracic structures"
+      ],
+      "keywords": [
+        "pet-ct",
+        "chest wall",
+        "hypermetabolic mass",
+        "soft tissue",
+        "radiotracer uptake"
+      ],
+      "reveal_triggers": [
+        "pet scan",
+        "hypermetabolic chest mass",
+        "soft tissue lesion on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:41+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 243,
+      "total_tokens": 859
+    }
+  },
+  "Case_24002/figure5.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure5.jpg",
+    "source_caption": "Figure 4: Gram stain from the aerobic blood culture bottle, showing thin, filamentous, Gram-positive rods and identified as Nocardia farcinica by matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing thin, filamentous, Gram-positive rods consistent with Nocardia species.",
+      "detailed_description": "This Gram stain image demonstrates thin, filamentous, Gram-positive rods stained in purple against a lighter background. The organisms are arranged in clusters and strands, characteristic of Nocardia species. The green arrow highlights a prominent filamentous structure. The image is from an aerobic blood culture bottle.",
+      "visible_findings": [
+        "thin, filamentous rods",
+        "Gram-positive staining (purple)",
+        "clustered and strand-like arrangement",
+        "green arrow marking a filamentous structure"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "nocardia",
+        "filamentous rods",
+        "gram-positive bacteria"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "nocardia identification",
+        "filamentous gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:43+00:00",
+    "usage": {
+      "prompt_tokens": 633,
+      "completion_tokens": 241,
+      "total_tokens": 874
+    }
+  },
+  "Case_24002/figure6.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure6.jpg",
+    "source_caption": "Figure 5: Abbreviated list of antimicrobial susceptibility by broth microdilution methodology from New York State Department and University of Texas at Tyler reference laboratories.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Antimicrobial susceptibility results via broth microdilution from NYS-DOH and UT Tyler reference laboratories.",
+      "detailed_description": "This image displays a tabular comparison of antimicrobial susceptibility results obtained through broth microdilution testing at two reference laboratories: NYS-DOH and UT Tyler. The table lists susceptibility interpretations (S = susceptible, Intermediate) and minimum inhibitory concentrations (MICs) for four antibiotics: Amikacin, Linezolid, TMP-SMX, and Imipenem. The MIC values are provided in micrograms per milliliter (µg/mL), with slight variations between the laboratories for Imipenem susceptibility. The NYS-DOH results indicate Imipenem susceptibility with MIC ≤ 0.25 µg/mL, while UT Tyler reports intermediate susceptibility with MIC = 8 µg/mL.",
+      "visible_findings": [
+        "Tabular format comparing antimicrobial susceptibility results.",
+        "Columns labeled for NYS-DOH and UT Tyler reference laboratories.",
+        "Susceptibility interpretations (S = susceptible, Intermediate).",
+        "MIC values provided for Amikacin, Linezolid, TMP-SMX, and Imipenem.",
+        "Variation in Imipenem susceptibility between laboratories."
+      ],
+      "keywords": [
+        "broth microdilution",
+        "antimicrobial susceptibility",
+        "MIC",
+        "reference laboratory",
+        "antibiotics"
+      ],
+      "reveal_triggers": [
+        "antimicrobial susceptibility testing",
+        "broth microdilution results",
+        "MIC comparison"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:45+00:00",
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 358,
+      "total_tokens": 972
+    }
+  },
+  "Case_24002/figure2.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure2.jpg",
+    "source_caption": "Figure 1b: Magnetic resonance imaging the brain with and without gadolinium, T2 fluid attenuated inversion recovery (FLAIR) images identifying lesions in his left cerebellum and right frontal cortex with rim-enhancement and surrounding vasogenic edema with mass effect concerning for malignancy.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T2 FLAIR, showing left cerebellar lesion with rim-enhancement and surrounding edema.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain demonstrates a hyperintense lesion in the left cerebellum with a hypointense rim, consistent with rim-enhancement. There is surrounding hyperintensity indicative of vasogenic edema. The lesion causes mass effect, displacing adjacent structures. The findings are concerning for a space-occupying lesion, potentially malignancy or an infectious process.",
+      "visible_findings": [
+        "hyperintense lesion in left cerebellum",
+        "hypointense rim around the lesion",
+        "surrounding vasogenic edema",
+        "mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "cerebellar lesion",
+        "rim-enhancement",
+        "vasogenic edema",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "cerebellar lesion",
+        "t2 flair imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:48+00:00",
+    "usage": {
+      "prompt_tokens": 640,
+      "completion_tokens": 265,
+      "total_tokens": 905
+    }
+  },
+  "Case_24002/figure3.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure3.jpg",
+    "source_caption": "Figure 2: Computed tomography of the patient's chest showing consolidation in the right lower lobe and patchy consolidation in the lingula, left lower lobe concerning for multifocal infection.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing consolidation in the right lower lobe and patchy consolidation in the left lower lobe.",
+      "detailed_description": "This axial chest CT image demonstrates areas of consolidation in the right lower lobe and patchy consolidation in the left lower lobe, particularly in the lingula. The findings are consistent with multifocal lung involvement, potentially due to an infectious process. The lung parenchyma shows areas of increased density, and the surrounding lung fields appear relatively clear. No pleural effusion or significant mediastinal abnormalities are visible in this slice.",
+      "visible_findings": [
+        "consolidation in the right lower lobe",
+        "patchy consolidation in the left lower lobe",
+        "relatively clear surrounding lung fields",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "consolidation",
+        "infection",
+        "multifocal",
+        "lingula"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung consolidation",
+        "multifocal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:48+00:00",
+    "usage": {
+      "prompt_tokens": 620,
+      "completion_tokens": 265,
+      "total_tokens": 885
+    }
+  },
+  "Case_24002/figure7.jpg": {
+    "case_id": "Case_24002",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24002/figure7.jpg",
+    "source_caption": "Figure 6: Patient plasma positive for neutralizing autoantibodies to granulocyte-macrophage colony-stimulating factor.",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Table showing patient plasma positive for anti-GM-CSF autoantibodies.",
+      "detailed_description": "This image contains a table summarizing the results of an assay testing for anti-cytokine autoantibodies in a patient's plasma. The table includes data for IL-17A, IFNγ, GM-CSF, IFNα, and IL-23, with columns for blank, normal control, and positive control. The patient's plasma shows elevated fluorescence intensity for GM-CSF, indicating the presence of neutralizing autoantibodies. A short explanatory text below the table confirms the result.",
+      "visible_findings": [
+        "Table with cytokine analytes (IL-17A, IFNγ, GM-CSF, IFNα, IL-23).",
+        "Elevated fluorescence intensity for GM-CSF in the patient's plasma.",
+        "Explanatory text confirming positive result for anti-GM-CSF autoantibodies."
+      ],
+      "keywords": [
+        "table",
+        "cytokines",
+        "autoantibodies",
+        "GM-CSF",
+        "fluorescence assay",
+        "immunology"
+      ],
+      "reveal_triggers": [
+        "cytokine autoantibodies",
+        "GM-CSF assay",
+        "fluorescence intensity table"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:55+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 306,
+      "total_tokens": 915
+    }
+  }
+}

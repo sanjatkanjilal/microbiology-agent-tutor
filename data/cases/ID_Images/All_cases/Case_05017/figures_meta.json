@@ -1,0 +1,44 @@
+{
+  "Case_05017/figure1.jpg": {
+    "case_id": "Case_05017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05017/figure1.jpg",
+    "source_caption": "Peripheral blood smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing a neutrophil with intracellular inclusions.",
+      "detailed_description": "This is a high-magnification image of a peripheral blood smear. The smear shows numerous red blood cells, most of which appear normocytic and normochromic. A single neutrophil is visible in the center of the field, containing prominent intracellular inclusions that are purple-stained. The staining technique highlights cellular details, suggesting the use of a Romanowsky-type stain (e.g., Wright-Giemsa).",
+      "visible_findings": [
+        "red blood cells appear normocytic and normochromic",
+        "a single neutrophil with prominent intracellular inclusions",
+        "purple-stained inclusions within the neutrophil",
+        "background of evenly distributed red blood cells"
+      ],
+      "keywords": [
+        "peripheral blood smear",
+        "neutrophil",
+        "intracellular inclusions",
+        "blood",
+        "wright stain",
+        "giemsa stain"
+      ],
+      "reveal_triggers": [
+        "peripheral blood smear",
+        "neutrophil inclusions",
+        "blood cell examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:33+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 275,
+      "total_tokens": 861
+    }
+  }
+}

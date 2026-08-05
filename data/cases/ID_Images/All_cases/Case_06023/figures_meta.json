@@ -1,0 +1,125 @@
+{
+  "Case_06023/figure3.jpg": {
+    "case_id": "Case_06023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06023/figure3.jpg",
+    "source_caption": "Figure 3. Gram stain of sputum specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum specimen)",
+      "short_caption": "Gram stain of sputum showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of a sputum specimen. Numerous gram-positive cocci in clusters are visible, consistent with the morphology of staphylococci. The background contains a mix of cellular debris and other material, stained in varying shades of pink and orange. The cocci appear dark purple, indicating their gram-positive nature.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "pink and orange background staining",
+        "cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "respiratory tract",
+        "gram-positive cocci",
+        "staphylococci",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "respiratory infection",
+        "staphylococcal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:37+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 236,
+      "total_tokens": 829
+    }
+  },
+  "Case_06023/figure2.jpg": {
+    "case_id": "Case_06023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06023/figure2.jpg",
+    "source_caption": "Chest radiograph upon return visit.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing right-sided pleural effusion.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating a significant right-sided pleural effusion. The right hemithorax appears uniformly opaque, with a blunted costophrenic angle and obscuration of the right lung field. The mediastinum is shifted slightly to the left, suggesting mass effect from the effusion. The left lung field appears clear, and bony structures are intact.",
+      "visible_findings": [
+        "right-sided pleural effusion",
+        "blunted right costophrenic angle",
+        "mediastinal shift to the left",
+        "clear left lung field"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pleural effusion",
+        "thorax",
+        "mediastinal shift",
+        "blunted costophrenic angle"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:37+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 250,
+      "total_tokens": 839
+    }
+  },
+  "Case_06023/figure1.jpg": {
+    "case_id": "Case_06023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06023/figure1.jpg",
+    "source_caption": "Chest radiograph on initial presentation.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral lung findings.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields. There is evidence of bilateral pulmonary infiltrates, particularly in the lower lung zones, which appear hazy and ill-defined. The cardiac silhouette is visible, and there is no obvious pleural effusion or pneumothorax. The bony structures, including the ribs and clavicles, are intact, and the trachea appears midline.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "hazy opacities in lower lung zones",
+        "midline trachea",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "infectious diseases",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:40+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 241,
+      "total_tokens": 830
+    }
+  }
+}

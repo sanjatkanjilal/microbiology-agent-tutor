@@ -1,0 +1,123 @@
+{
+  "Case_03011/figure1.jpg": {
+    "case_id": "Case_03011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03011/figure1.jpg",
+    "source_caption": "Figure 1. Carbol fuchsin stain of blood culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Carbol fuchsin stain of blood culture showing clusters of acid-fast bacilli.",
+      "detailed_description": "This image shows a carbol fuchsin-stained preparation of a blood culture. Numerous bright pink, rod-shaped organisms are visible, consistent with acid-fast bacilli. The organisms are arranged in clusters against a pale background. The staining technique highlights the acid-fast property of the organisms, which retain the red dye despite decolorization.",
+      "visible_findings": [
+        "bright pink rod-shaped organisms",
+        "clusters of organisms",
+        "pale background with scattered staining artifacts"
+      ],
+      "keywords": [
+        "carbol fuchsin stain",
+        "blood culture",
+        "acid-fast bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "carbol fuchsin stain",
+        "acid-fast bacilli",
+        "blood culture microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:33+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 228,
+      "total_tokens": 824
+    }
+  },
+  "Case_03011/figure3.jpg": {
+    "case_id": "Case_03011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03011/figure3.jpg",
+    "source_caption": "Haemophilus speciation plate (see Discussion).",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on a quadrant culture plate for Haemophilus speciation.",
+      "detailed_description": "This image shows a quadrant culture plate with distinct sections, including a red agar medium in one quadrant and clear agar in others. The plate is used for bacterial growth and speciation, likely for Haemophilus species. Growth patterns vary across the quadrants, suggesting differential nutrient requirements or selective media. A black bar obscures part of the image, but the visible areas show bacterial colonies in some quadrants.",
+      "visible_findings": [
+        "quadrant culture plate with red and clear agar",
+        "bacterial growth in some quadrants",
+        "black bar obscuring part of the image"
+      ],
+      "keywords": [
+        "culture plate",
+        "bacterial growth",
+        "haemophilus",
+        "speciation",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "haemophilus culture",
+        "bacterial speciation",
+        "quadrant plate"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:37+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  },
+  "Case_03011/figure2.jpg": {
+    "case_id": "Case_03011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03011/figure2.jpg",
+    "source_caption": "Mitral and aortic valves following resection.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "heart valves",
+      "short_caption": "Resected mitral and aortic valves showing vegetations and damage.",
+      "detailed_description": "This image shows two sets of resected heart valves labeled 'A' and 'B', placed against a black background with a measurement scale at the bottom. The valves exhibit irregular, friable, and yellowish vegetations consistent with infectious endocarditis. The structural integrity of the valves appears compromised, with visible fragmentation and fibrous tissue. The image highlights the pathological changes associated with valve infection and damage.",
+      "visible_findings": [
+        "resected heart valves labeled 'A' and 'B'",
+        "irregular, friable, yellowish vegetations",
+        "structural damage and fragmentation of valve tissue",
+        "measurement scale for size reference"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "heart valves",
+        "infectious endocarditis",
+        "vegetations",
+        "resected tissue"
+      ],
+      "reveal_triggers": [
+        "infected heart valves",
+        "endocarditis pathology",
+        "valve resection specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:45+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 261,
+      "total_tokens": 853
+    }
+  }
+}

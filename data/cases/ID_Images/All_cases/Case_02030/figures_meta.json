@@ -1,0 +1,126 @@
+{
+  "Case_02030/figure2.jpg": {
+    "case_id": "Case_02030",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02030/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing pleural effusion and lung consolidation.",
+      "detailed_description": "This axial chest CT image shows a large pleural effusion on the left side, with the fluid appearing as a homogenous, low-density area. The adjacent lung parenchyma demonstrates consolidation with increased density, suggesting possible infection or inflammation. The right lung appears aerated with no obvious abnormalities. The mediastinum is midline, and the bony structures appear intact.",
+      "visible_findings": [
+        "large left-sided pleural effusion",
+        "consolidation in the left lung",
+        "aerated right lung",
+        "midline mediastinum",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "lung consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pleural effusion",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:58+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_02030/figure1.jpg": {
+    "case_id": "Case_02030",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02030/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. There are bilateral patchy opacities predominantly in the mid and lower lung fields, consistent with pulmonary infiltrates. The cardiac silhouette appears normal in size, and there is no obvious pleural effusion or pneumothorax. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "bilateral patchy pulmonary infiltrates",
+        "normal cardiac silhouette size",
+        "no visible pleural effusion",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "infection",
+        "thorax"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:02+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 231,
+      "total_tokens": 817
+    }
+  },
+  "Case_02030/figure3.jpg": {
+    "case_id": "Case_02030",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02030/figure3.jpg",
+    "source_caption": "Immunohistochemical stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology with fungal elements stained using a special stain.",
+      "detailed_description": "This image shows a histopathological section stained with a special fungal stain, likely Gomori methenamine silver (GMS) or a similar technique. The fungal elements are highlighted in dark brown or black, contrasting against a blue-green background. The fungal morphology includes round to oval structures, consistent with yeast forms. The surrounding tissue appears to have cellular detail, suggesting an inflammatory response.",
+      "visible_findings": [
+        "darkly stained fungal elements (yeast forms)",
+        "blue-green background staining",
+        "round to oval fungal morphology",
+        "surrounding tissue with cellular detail"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal stain",
+        "yeast",
+        "gomori methenamine silver",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "histopathology of biopsy",
+        "GMS stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:06+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  }
+}

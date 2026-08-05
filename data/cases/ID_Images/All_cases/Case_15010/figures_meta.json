@@ -1,0 +1,82 @@
+{
+  "Case_15010/figure1.jpg": {
+    "case_id": "Case_15010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15010/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythema and swelling of the plantar surface of the foot.",
+      "detailed_description": "This clinical photograph shows the plantar surface of a foot with diffuse erythema and mild swelling. The redness is more pronounced on the medial aspect, and there is no visible ulceration or open wound. The surrounding skin appears intact, and the toes are visible in the upper part of the image. The patient is positioned on a medical examination table.",
+      "visible_findings": [
+        "diffuse erythema on the plantar surface",
+        "mild swelling",
+        "intact skin without visible ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "erythema",
+        "swelling",
+        "plantar surface"
+      ],
+      "reveal_triggers": [
+        "foot exam",
+        "erythema of foot",
+        "plantar swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_15010/figure2.jpg": {
+    "case_id": "Case_15010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15010/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremity",
+      "short_caption": "Diffuse petechial rash on the lower extremity.",
+      "detailed_description": "This image shows the lateral aspect of a lower extremity with a diffuse, non-blanching petechial rash. The rash consists of numerous small, red to purple macules distributed across the skin. The background skin appears otherwise unremarkable, and there is no visible swelling or ulceration. The patient is positioned on a white sheet, suggesting a clinical setting.",
+      "visible_findings": [
+        "diffuse petechial rash",
+        "non-blanching red to purple macules",
+        "no visible swelling or ulceration"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremity",
+        "petechial rash",
+        "non-blanching lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "petechial rash",
+        "skin findings",
+        "rash on leg"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  }
+}

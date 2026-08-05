@@ -1,0 +1,124 @@
+{
+  "Case_09011/figure1.jpg": {
+    "case_id": "Case_09011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09011/figure1.jpg",
+    "source_caption": "CT of the pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT of the pelvis showing a fluid collection with surrounding inflammation.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates a hypodense fluid collection in the midline, likely within the bladder or adjacent structures, with surrounding soft tissue stranding indicative of inflammation. The arrows point to the area of interest. The image also shows bony structures of the pelvis and adjacent soft tissues. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "hypodense fluid collection in the midline",
+        "soft tissue stranding around the collection",
+        "bony structures of the pelvis visible",
+        "no evidence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "fluid collection",
+        "inflammation",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "fluid collection in pelvis",
+        "non-contrast ct of pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:11+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 242,
+      "total_tokens": 829
+    }
+  },
+  "Case_09011/figure3.jpg": {
+    "case_id": "Case_09011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09011/figure3.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "unspecified tissue",
+      "short_caption": "H&E stain showing dense inflammatory infiltrate with necrosis.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a dense inflammatory infiltrate composed of numerous small, darkly stained nuclei, consistent with lymphocytes. Areas of necrosis are visible as pale, acellular regions. The tissue architecture is disrupted, suggesting significant inflammation and tissue damage. No specific organisms are identifiable in this image.",
+      "visible_findings": [
+        "dense inflammatory infiltrate",
+        "areas of necrosis",
+        "disrupted tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "H&E stain",
+        "inflammation",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "biopsy",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:15+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 223,
+      "total_tokens": 812
+    }
+  },
+  "Case_09011/figure2.jpg": {
+    "case_id": "Case_09011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09011/figure2.jpg",
+    "source_caption": "CT of the pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT of the pelvis showing enlarged lymph nodes.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates bilateral enlarged lymph nodes (labeled as LN) in the inguinal regions. The lymph nodes appear as well-defined, rounded structures with soft tissue density. The surrounding pelvic structures, including the bony pelvis and soft tissues, are visible. The image includes a small inset showing the scout view for anatomical orientation.",
+      "visible_findings": [
+        "bilateral enlarged lymph nodes in the inguinal regions",
+        "soft tissue density of lymph nodes",
+        "bony pelvis and surrounding soft tissues visible",
+        "scout view inset for orientation"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "lymph nodes",
+        "inguinal",
+        "enlargement"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "inguinal lymph nodes",
+        "lymphadenopathy on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:16+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  }
+}

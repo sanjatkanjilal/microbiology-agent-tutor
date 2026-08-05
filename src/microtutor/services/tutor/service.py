@@ -10,9 +10,9 @@ from microtutor.schemas.domain.domain import TutorContext, TutorResponse, TutorS
 from microtutor.core.logging.logging_config import log_agent_context
 from microtutor.tools import get_tool_engine
 from microtutor.core.config.config_helper import config as global_config  # read-only
-from microtutor.prompts.tutor_prompt import (
-    get_first_pt_sentence_generation_system_prompt,
-    get_first_pt_sentence_generation_user_prompt
+from microtutor.prompts.patient_prompts import (
+    get_docent_intro_template,
+    get_patient_greeting_user_prompt,
 )
 from microtutor.services.case import get_case
 from microtutor.core.llm.llm_client import LLMClient
@@ -20,7 +20,6 @@ from microtutor.services.guideline.cache import get_guidelines_cache
 from microtutor.utils.conversation_utils import (
     filter_system_messages,
     prepare_llm_messages,
-    get_cached_first_pt_sentence,
     has_cached_case
 )
 from microtutor.utils.phase_utils import (
@@ -36,6 +35,13 @@ from microtutor.prompts.tutor_prompt import get_system_message_template
 from microtutor.utils.protocols import ToolEngine, FeedbackClient
 
 logger = logging.getLogger(__name__)
+
+
+def _tutor_state_value(state: Any) -> str:
+    """Return TutorState string whether stored as enum or plain str (Pydantic use_enum_values)."""
+    if hasattr(state, "value"):
+        return state.value
+    return str(state)
 
 # -------- Data configuration --------
 
@@ -94,44 +100,32 @@ class TutorService:
     # ---------- Public API ----------
 
 
-    def _generate_first_pt_sentence_via_llm(self, case_description: str, model: str) -> str:
-        """Generate first patient sentence via LLM in the format of ambiguous_with_ages.json.
-        
-        The generated sentence should be a brief, ambiguous initial presentation
-        similar to the cached examples (e.g., "45-year-old man reports fatigue and expanding skin rash.").
-        
-        Args:
-            case_description: Full case description
-            model: Model name to use
-            
-        Returns:
-            Generated first patient sentence
-        """
-        system_prompt = get_first_pt_sentence_generation_system_prompt()
-        user_prompt = get_first_pt_sentence_generation_user_prompt(case_description)
-
+    def _generate_patient_greeting_via_llm(self, case_description: str, model: str) -> str:
+        """Generate first-person patient opening greeting (simplified-style)."""
+        user_prompt = get_patient_greeting_user_prompt(case_description)
         messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
+            {
+                "role": "system",
+                "content": "You write realistic patient opening lines for medical education cases.",
+            },
+            {"role": "user", "content": user_prompt},
         ]
-        
+
         response = self.llm_client.generate(
             messages=messages,
             model=model,
             tools=None,
             retries=4,
-            fallback_model=self.cfg.fallback_model
+            fallback_model=self.cfg.fallback_model,
         )
-        
+
         if not response:
-            return "A patient presents with concerning symptoms."
-        
-        sentence = response if isinstance(response, str) else response.get("content", "")
-        # Clean up any extra formatting
-        sentence = sentence.strip().strip('"').strip("'")
-        
-        logger.info(f"Generated first patient sentence via LLM: {sentence[:50]}...")
-        return sentence
+            return "Hi Doctor — I've been feeling really unwell and I'm worried."
+
+        greeting = response if isinstance(response, str) else response.get("content", "")
+        greeting = greeting.strip().strip('"').strip("'")
+        logger.info("Generated patient greeting via LLM: %s...", greeting[:60])
+        return greeting
 
 
     async def start_case(
@@ -140,76 +134,64 @@ class TutorService:
         case_id: str,
         model_name: Optional[str] = None,
         enable_guidelines: bool = False,
+        case_description: Optional[str] = None,
+        case_source: Optional[str] = None,
     ) -> TutorResponse:
-        """Start a new case for the given organism.
-        
-        Flow:
-        a) Organism has cached case AND cached first_pt_sentence → use cached sentence
-        b) Organism has cached case BUT no cached first_pt_sentence → generate sentence via LLM
-        c) Organism has NO cached case → generate case via QDRANT RAG, then generate first_pt_sentence
-        
-        Args:
-            organism: The microorganism name
-            case_id: Unique case identifier
-            model_name: Optional LLM model to use
-            
-        Returns:
-            TutorResponse with initial welcome message
-        """
+        """Start a new case: fixed docent intro + LLM patient first-person greeting."""
         t0 = datetime.now()
         model = model_name or self.cfg.model_name
 
-        # Check if organism has cached case (get in-memory cache if available)
-        from microtutor.services.case import CaseGeneratorRAGAgent
-        case_generator = CaseGeneratorRAGAgent()
-        organism_has_cached_case = has_cached_case(
-            organism,
-            self._cached_cases_dir,
-            case_generator_cache=case_generator.case_cache
-        )
-        
-        # Get or generate case description
-        case_desc = get_case(organism)
+        if case_description and case_description.strip():
+            case_desc = case_description.strip()
+            resolved_source = case_source or "bound_package"
+        else:
+            case_desc = get_case(organism)
+            from microtutor.services.case import CaseGeneratorRAGAgent
+            case_generator = CaseGeneratorRAGAgent()
+            organism_has_cached_case = has_cached_case(
+                organism,
+                self._cached_cases_dir,
+                case_generator_cache=case_generator.case_cache,
+            )
+            resolved_source = "cached" if organism_has_cached_case else "generated"
+
         if not case_desc:
             raise ValueError(f"Could not load or generate case for organism: {organism}")
 
-        # Get first patient sentence
-        # a) Check for cached first_pt_sentence
-        first_pt_sentence = get_cached_first_pt_sentence(organism, self._first_pt_sentence_path)
-        
-        if not first_pt_sentence:
-            # b) or c) Generate first_pt_sentence via LLM (using the case description)
-            logger.info("Generating first patient sentence via LLM")
-            first_pt_sentence = self._generate_first_pt_sentence_via_llm(case_desc, model)
+        docent_intro = get_docent_intro_template()
+        patient_greeting_raw = self._generate_patient_greeting_via_llm(case_desc, model)
+        from microtutor.services.case.speaker_markers import parse_speaker
 
-        # Format welcome message
-        response_text = (
-            "Welcome to today's case.\n\n"
-            f"{first_pt_sentence}\n\n"
-            "Begin by asking a more detailed history, requesting specific physical exam findings, "
-            "and ordering initial studies. Then we will move onto differential diagnosis, "
-            "management and feedback."
+        patient_greeting, greeting_speaker = parse_speaker(
+            patient_greeting_raw, default="patient"
         )
 
-        # Reset guidelines cache for this session if enabled
-        if self.enable_guidelines_prefetch and self.guidelines_cache:
-            # We don't need to clear the whole cache, just ensure we're starting fresh
-            # The client should clear its local state, but we can log it here
-            logger.info(f"Starting new case {case_id} - guidelines prefetch enabled: {enable_guidelines}")
+        opening_messages = [
+            {"speaker": "tutor", "content": docent_intro},
+            {"speaker": greeting_speaker, "content": patient_greeting},
+        ]
 
-        # Return immediately (guidelines load in background)
+        if self.enable_guidelines_prefetch and self.guidelines_cache:
+            logger.info(
+                f"Starting new case {case_id} - guidelines prefetch enabled: {enable_guidelines}"
+            )
+
         dt_ms = (datetime.now() - t0).total_seconds() * 1000
         return TutorResponse(
-            content=response_text,
+            content=docent_intro,
             tools_used=[],
             processing_time_ms=dt_ms,
             metadata={
-                "case_id": case_id, 
-                "organism": organism, 
-                "state": TutorState.INFORMATION_GATHERING.value, 
+                "case_id": case_id,
+                "organism": organism,
+                "state": TutorState.INFORMATION_GATHERING.value,
                 "model": model,
-                "guidelines_prefetching": self.enable_guidelines_prefetch and self.guidelines_cache is not None,
-                "case_source": "cached" if organism_has_cached_case else "generated"
+                "guidelines_prefetching": self.enable_guidelines_prefetch
+                and self.guidelines_cache is not None,
+                "case_source": resolved_source,
+                "presentation": patient_greeting,
+                "opening_messages": opening_messages,
+                "patient_greeting": patient_greeting,
             },
         )
 
@@ -351,6 +333,57 @@ class TutorService:
                 context.conversation_history.append({"role": "user", "content": enhanced_message})
         else:
             context.conversation_history.append({"role": "user", "content": enhanced_message})
+
+        route_to = (context.session_metadata or {}).get("route_to")
+        active_module = (context.session_metadata or {}).get("active_module")
+
+        if route_to == "tutor":
+            coach_resp = await self._docent_coach_reply(context, feedback_struct, t0)
+            return coach_resp
+
+        from microtutor.utils.module_routing import (
+            kickoff_message_for_module,
+            module_agent_for,
+            parse_module_transition,
+        )
+
+        # V4-style module tab click: "Let's move onto module: …" → kick off that agent
+        requested_module = parse_module_transition(message)
+        if requested_module:
+            active_module = requested_module
+            if context.session_metadata is None:
+                context.session_metadata = {}
+            context.session_metadata["active_module"] = requested_module
+
+        hard_agent = module_agent_for(active_module)
+        if hard_agent:
+            agent_message = (
+                kickoff_message_for_module(active_module)
+                if requested_module
+                else message
+            )
+            routed = await self._route_to_phase_agent(hard_agent, agent_message, context)
+            if routed:
+                if not (
+                    context.conversation_history
+                    and context.conversation_history[-1].get("role") == "assistant"
+                    and context.conversation_history[-1].get("content") == routed.content
+                ):
+                    context.conversation_history.append(
+                        {"role": "assistant", "content": routed.content}
+                    )
+                proposed_state = determine_phase_from_tools(
+                    routed.tools_used or [], context.current_state
+                )
+                if is_forward_transition(context.current_state, proposed_state):
+                    context.current_state = proposed_state
+                routed.metadata = {
+                    **(routed.metadata or {}),
+                    "current_phase": _tutor_state_value(context.current_state),
+                    "hard_route": hard_agent,
+                    "active_module": active_module,
+                }
+                return self._finalize_response(routed, t0)
         
         # Get system prompt for logging (not stored in history)
         tutor_system_prompt = get_system_message_template().format(
@@ -517,6 +550,90 @@ class TutorService:
             
         return None
 
+    async def _docent_coach_reply(
+        self,
+        context: TutorContext,
+        feedback_struct: list,
+        t0: datetime,
+    ) -> TutorResponse:
+        """Answer a student message addressed to Docent (Ask Docent), not the module agent."""
+        # Structural guard: never inject the case package into Ask Docent.
+        # The model only sees conversation turns, so it cannot leak unrevealed findings.
+        coach_system = """You are Docent, the expert microbiology preceptor coaching a medical student through a clinical case.
+
+The student is asking YOU directly for guidance. Your job is to coach process — not solve the case for them.
+
+You only know what is already in this conversation. There is no hidden case file, and you must not invent clinical facts (exam, labs, imaging, vitals, exposures) that were not already stated in chat. If something has not been elicited yet, point the student toward what to ask next — do not fill in the answer yourself.
+
+=== HOW TO HELP ===
+Keep replies short and actionable. Prefer this shape:
+1) One brief sentence framing how to think about what is known so far (presentation + DDx categories).
+2) Then **only the next 1–2 steps** (bullets are fine here). Each bullet = one thing to ask/examine/order next, plus a short "why" tied to the known facts.
+- Do NOT dump a full H&P, full ROS, or a long workup checklist. Prioritise the highest-yield next moves only.
+- Suggest categories of questions/assessment, not smoking-gun clues.
+- Do not name the organism or final diagnosis unless the student has already clearly reached it in the conversation and is asking you to confirm/discuss it.
+- Do not roleplay the patient or invent/read out exam or lab results.
+- End by sending them back to the patient/nurse with those few items.
+"""
+
+        llm_messages = prepare_llm_messages(context.conversation_history, coach_system)
+        response = self.llm_client.generate(
+            messages=llm_messages,
+            model=context.model_name,
+            tools=None,
+            retries=4,
+            fallback_model=self.cfg.fallback_model,
+        )
+        result_text = (
+            response
+            if isinstance(response, str)
+            else (response.get("content", "") if response else "")
+        )
+        if not result_text:
+            raise ValueError("Docent coach returned empty response.")
+
+        if not (
+            context.conversation_history
+            and context.conversation_history[-1].get("role") == "assistant"
+            and context.conversation_history[-1].get("content") == result_text
+        ):
+            context.conversation_history.append(
+                {"role": "assistant", "content": result_text}
+            )
+
+        return self._finalize_response(
+            TutorResponse(
+                content=result_text,
+                tools_used=[],
+                metadata={
+                    "speaker": "tutor",
+                    "route": "docent_coach",
+                    "case_id": context.case_id,
+                    "organism": context.organism,
+                },
+                feedback_examples=feedback_struct,
+            ),
+            t0,
+        )
+
+    def _patient_tool_args(self, context: TutorContext, message: str) -> Dict[str, Any]:
+        meta = context.session_metadata or {}
+        return {
+            "input_text": message,
+            "case": context.case_description or "",
+            "conversation_history": filter_system_messages(
+                context.conversation_history or []
+            ),
+            "model": context.get_model_name(),
+            "organism": context.organism or "",
+            "case_id": context.case_id or "",
+            "patient_style": meta.get("patient_style", "neutral"),
+            "allow_plausible_findings": bool(
+                meta.get("allow_plausible_findings", False)
+            ),
+            "figure_catalog": meta.get("figure_catalog") or [],
+        }
+
     async def _route_to_phase_agent(self, agent: Optional[str], message: str, context: TutorContext) -> Optional[TutorResponse]:
         """
         Route message directly to a phase-specific agent.
@@ -525,7 +642,7 @@ class TutorService:
         
         Args:
             agent: Agent name to route to
-            message: User message
+            message: User message (or synthetic module kickoff)
             context: Current conversation context
             
         Returns:
@@ -535,17 +652,34 @@ class TutorService:
             return None
 
         try:
-            # Pass filtered history (no system prompts) to tools
-            # Tools will add their own system prompt when calling LLM
-            filtered_history = filter_system_messages(context.conversation_history or [])
-            
-            tool_args = {
-                "input_text": message,
-                "case": context.case_description,
-                "conversation_history": filtered_history,
-                "model": context.get_model_name(),
-                "organism": context.organism or "",
-            }
+            # For LLM tools that read conversation_history, ensure `message` is the
+            # latest user turn seen by the agent (V4 kickoff replaces the tab-click text).
+            filtered_history = filter_system_messages(
+                context.conversation_history or []
+            )
+            hist_for_agent = list(filtered_history)
+            if hist_for_agent and hist_for_agent[-1].get("role") == "user":
+                if hist_for_agent[-1].get("content") != message:
+                    hist_for_agent[-1] = {
+                        **hist_for_agent[-1],
+                        "content": message,
+                    }
+            else:
+                hist_for_agent.append({"role": "user", "content": message})
+
+            if agent == "patient":
+                tool_args = self._patient_tool_args(context, message)
+                tool_args["conversation_history"] = hist_for_agent
+                tool_args["input_text"] = message
+            else:
+                tool_args = {
+                    "input_text": message,
+                    "case": context.case_description,
+                    "conversation_history": hist_for_agent,
+                    "model": context.get_model_name(),
+                    "organism": context.organism or "",
+                    "case_id": context.case_id or "",
+                }
             
             # Auto-load guidelines for management phase
             guidelines_debug = None
@@ -577,7 +711,7 @@ class TutorService:
             return TutorResponse(
                 content=content,
                 tools_used=[agent],
-                metadata={"phase_agent": agent, "current_phase": context.current_state.value, "phase_complete": complete},
+                metadata={"phase_agent": agent, "current_phase": _tutor_state_value(context.current_state), "phase_complete": complete},
             )
         except Exception as e:
             logger.error("Phase routing error (%s): %s", agent, e)
@@ -636,12 +770,39 @@ class TutorService:
             
             # Augment tool args with context for agentic tools
             # These tools need case, conversation_history, model to function properly
-            if tool_name in ["patient", "socratic", "tests_management", "feedback", "mcq_tool", "post_case_assessment"]:
+            if tool_name in [
+                "patient",
+                "socratic",
+                "tests_management",
+                "pathophys_epi",
+                "feedback",
+                "mcq_tool",
+                "post_case_assessment",
+            ]:
                 tool_args["case"] = context.case_description or ""
                 tool_args["conversation_history"] = context.conversation_history or []
                 tool_args["model"] = context.model_name or global_config.API_MODEL_NAME or "gpt-5"
                 tool_args["case_id"] = context.case_id or ""
                 tool_args["organism"] = context.organism or ""
+                if tool_name == "patient":
+                    meta = context.session_metadata or {}
+                    tool_args["patient_style"] = meta.get("patient_style", "neutral")
+                    tool_args["allow_plausible_findings"] = bool(
+                        meta.get("allow_plausible_findings", False)
+                    )
+                    # Prefer catalog from session metadata; fall back to bound package.
+                    catalog = meta.get("figure_catalog")
+                    if catalog is None and context.case_id:
+                        try:
+                            from microtutor.services.case.case_package import (
+                                get_case_package_store,
+                            )
+
+                            pkg = get_case_package_store().get(context.case_id)
+                            catalog = list(pkg.figure_catalog) if pkg else []
+                        except Exception:
+                            catalog = []
+                    tool_args["figure_catalog"] = catalog or []
             elif tool_name == "hint":
                 # Hint tool does NOT get the full case - only conversation history
                 # This prevents leaking undiscovered case information

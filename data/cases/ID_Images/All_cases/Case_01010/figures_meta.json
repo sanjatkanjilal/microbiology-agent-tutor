@@ -1,0 +1,84 @@
+{
+  "Case_01010/figure1.jpg": {
+    "case_id": "Case_01010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01010/figure1.jpg",
+    "source_caption": "Abdominal MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal MRI showing liver abscesses with hypointense lesions.",
+      "detailed_description": "This is an axial abdominal MRI scan showing the liver. Two hypointense lesions are visible in the liver parenchyma, marked by red arrows, suggestive of abscesses. The surrounding liver tissue appears relatively normal. The image provides good contrast between the lesions and the surrounding tissue, aiding in the identification of the abnormalities.",
+      "visible_findings": [
+        "hypointense lesions in the liver",
+        "red arrows marking the lesions",
+        "normal surrounding liver parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "liver",
+        "abscess",
+        "lesion",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "liver abscess",
+        "infectious lesion in liver"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:18+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 226,
+      "total_tokens": 813
+    }
+  },
+  "Case_01010/figure2.jpg": {
+    "case_id": "Case_01010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01010/figure2.jpg",
+    "source_caption": "Figure 2. Adrenal gland aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "adrenal gland",
+      "short_caption": "Adrenal gland aspirate with fungal elements visible on special stain.",
+      "detailed_description": "This is a microscopic image of an adrenal gland aspirate stained with a special fungal stain, likely Gomori methenamine silver (GMS). The image shows numerous small, darkly stained fungal elements against a green background, consistent with fungal hyphae or yeast forms. The staining highlights the fungal structures, making them easily distinguishable from the surrounding tissue.",
+      "visible_findings": [
+        "darkly stained fungal elements",
+        "green background indicating special fungal stain",
+        "clustered fungal structures"
+      ],
+      "keywords": [
+        "stain",
+        "adrenal gland",
+        "fungal infection",
+        "GMS stain",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "adrenal gland aspirate",
+        "fungal stain",
+        "GMS stain",
+        "microscopic fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:26+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 230,
+      "total_tokens": 822
+    }
+  }
+}

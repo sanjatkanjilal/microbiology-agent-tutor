@@ -1,0 +1,166 @@
+{
+  "Case_03015/figure3.jpg": {
+    "case_id": "Case_03015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03015/figure3.jpg",
+    "source_caption": "Culture results day 10.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Microscopic view of flagellated protozoa stained with Giemsa.",
+      "detailed_description": "This image shows multiple elongated, flagellated protozoa stained with Giemsa, appearing purple against a pale background. The organisms exhibit a spindle-shaped body with a prominent flagellum. Some forms appear curved, while others are straight. The staining highlights the internal structures and flagella, aiding in identification. This is consistent with a parasitic protozoan species.",
+      "visible_findings": [
+        "flagellated protozoa with elongated spindle-shaped bodies",
+        "purple staining with Giemsa",
+        "prominent flagella visible on several organisms",
+        "variation in curvature of the organisms"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "protozoa",
+        "flagellated organisms",
+        "microscopy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "microscopic protozoa",
+        "flagellated parasites"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 251,
+      "total_tokens": 839
+    }
+  },
+  "Case_03015/figure4.jpg": {
+    "case_id": "Case_03015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03015/figure4.jpg",
+    "source_caption": "Culture results day 10.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Microscopic view of flagellated protozoa stained for identification.",
+      "detailed_description": "This image shows a stained microscopic view of flagellated protozoa, likely from a culture plate. The organisms are elongated with visible flagella, suggesting motility. The stain highlights the internal structures and flagella, aiding in identification. The organisms are clustered centrally, with some dispersed in the surrounding field.",
+      "visible_findings": [
+        "flagellated protozoa visible",
+        "elongated morphology",
+        "stain highlights internal structures",
+        "flagella clearly visible"
+      ],
+      "keywords": [
+        "stain",
+        "protozoa",
+        "flagella",
+        "microscopy",
+        "culture"
+      ],
+      "reveal_triggers": [
+        "microscopic examination",
+        "protozoa culture",
+        "flagellated organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 216,
+      "total_tokens": 804
+    }
+  },
+  "Case_03015/figure2.jpg": {
+    "case_id": "Case_03015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03015/figure2.jpg",
+    "source_caption": "Bone marrow aspirate.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow aspirate showing cellular components and potential infectious elements.",
+      "detailed_description": "This is a high-magnification histopathology image of a bone marrow aspirate. The field contains various hematopoietic cells, including large nucleated cells and smaller round cells. Some cells appear to have abnormal morphology, such as vacuolization or irregular nuclear shapes. The background shows a mix of cellular debris and extracellular material. The staining highlights cellular nuclei in dark purple and cytoplasmic components in lighter shades.",
+      "visible_findings": [
+        "large nucleated cells with prominent nuclei",
+        "smaller round cells scattered throughout",
+        "possible vacuolization in some cells",
+        "purple staining of nuclei and lighter cytoplasmic staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "aspirate",
+        "hematopoietic cells",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "bone marrow aspirate",
+        "histopathology of marrow",
+        "hematopoietic cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:51+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 261,
+      "total_tokens": 848
+    }
+  },
+  "Case_03015/figure1.jpg": {
+    "case_id": "Case_03015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03015/figure1.jpg",
+    "source_caption": "Bone marrow aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Bone marrow aspirate showing intracellular and extracellular yeast forms.",
+      "detailed_description": "This is a high-power microscopic image of a bone marrow aspirate stained with a fungal stain. It shows multiple round to oval yeast forms, some of which are intracellular within macrophages, while others are extracellular. The yeast forms have a clear halo, suggestive of a capsule, and vary slightly in size. The background contains scattered hematopoietic cells and debris.",
+      "visible_findings": [
+        "intracellular yeast forms within macrophages",
+        "extracellular yeast forms with a clear halo",
+        "round to oval yeast morphology",
+        "background of hematopoietic cells and debris"
+      ],
+      "keywords": [
+        "bone marrow",
+        "yeast",
+        "fungal stain",
+        "intracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "bone marrow aspirate",
+        "fungal infection",
+        "microscopic yeast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:58+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 242,
+      "total_tokens": 829
+    }
+  }
+}

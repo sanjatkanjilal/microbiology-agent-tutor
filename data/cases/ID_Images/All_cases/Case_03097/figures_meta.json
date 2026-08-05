@@ -1,0 +1,44 @@
+{
+  "Case_03097/figure1.jpg": {
+    "case_id": "Case_03097",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03097/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand and fingers",
+      "short_caption": "Ulcerative and crusted lesions on the fingers of the hand.",
+      "detailed_description": "This clinical photograph shows the hand of a patient with multiple ulcerative and crusted lesions primarily affecting the fingers. The lesions appear irregular in shape, with areas of necrosis and crusting. The surrounding skin shows mild erythema. The lesions are distributed on the dorsal aspect of the fingers, with some sparing of the palm. The image suggests a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "ulcerative lesions on fingers",
+        "crusting and necrosis",
+        "mild surrounding erythema",
+        "irregular lesion borders"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "fingers",
+        "ulcerative lesions",
+        "crusting",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesions on hand",
+        "ulcerative lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:31:11+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 244,
+      "total_tokens": 668
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "Case_07009/figure1.jpg": {
+    "case_id": "Case_07009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07009/figure1.jpg",
+    "source_caption": "CT scan of the brain.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT scan of the brain showing hypodense areas.",
+      "detailed_description": "This is an axial non-contrast CT scan of the brain. The image shows hypodense areas in the brain parenchyma, particularly in the left hemisphere, which may suggest ischemic changes or edema. The ventricles appear slightly compressed, and there is no obvious midline shift. The orbits and surrounding structures are visible at the top of the image.",
+      "visible_findings": [
+        "hypodense areas in the brain parenchyma",
+        "no significant midline shift",
+        "slightly compressed ventricles",
+        "visible orbits and surrounding structures"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "hypodense",
+        "ischemia",
+        "edema",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "brain CT",
+        "head imaging",
+        "stroke CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 234,
+      "total_tokens": 822
+    }
+  },
+  "Case_07009/figure2.jpg": {
+    "case_id": "Case_07009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07009/figure2.jpg",
+    "source_caption": "Gram stain of spun CSF.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of spun CSF showing gram-negative diplococci.",
+      "detailed_description": "This Gram stain image shows numerous gram-negative diplococci, which appear as paired, pink-staining, kidney-shaped bacteria. The background contains cellular debris and faintly stained material, consistent with a spun cerebrospinal fluid (CSF) sample. The morphology and staining pattern are characteristic of gram-negative organisms, possibly Neisseria species.",
+      "visible_findings": [
+        "gram-negative diplococci",
+        "pink-staining bacteria",
+        "cellular debris in the background"
+      ],
+      "keywords": [
+        "gram stain",
+        "cerebrospinal fluid",
+        "gram-negative diplococci",
+        "infectious diseases",
+        "bacterial meningitis"
+      ],
+      "reveal_triggers": [
+        "gram stain of CSF",
+        "bacterial meningitis",
+        "neisseria meningitidis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:51+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 248,
+      "total_tokens": 837
+    }
+  },
+  "Case_07009/figure3.jpg": {
+    "case_id": "Case_07009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07009/figure3.jpg",
+    "source_caption": "Gram stain of CSF, with gram negative diplococci (arrows).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of CSF showing gram-negative diplococci (arrows).",
+      "detailed_description": "This is a high-magnification image of a Gram stain preparation of cerebrospinal fluid (CSF). Numerous pink-staining (gram-negative) diplococci are visible, some of which are indicated by arrows. The organisms are surrounded by a background of cellular debris and other structures consistent with CSF. The morphology and staining characteristics are consistent with gram-negative diplococci, which may suggest Neisseria meningitidis in the appropriate clinical context.",
+      "visible_findings": [
+        "pink-staining gram-negative diplococci",
+        "arrows pointing to specific diplococci",
+        "background of cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "csf",
+        "gram-negative diplococci",
+        "neisseria meningitidis",
+        "cerebrospinal fluid",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of csf",
+        "gram-negative diplococci",
+        "meningitis diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:55+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 270,
+      "total_tokens": 868
+    }
+  },
+  "Case_07009/figure4.jpg": {
+    "case_id": "Case_07009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07009/figure4.jpg",
+    "source_caption": "Chocolate agar plate with N. meningitidis colonies.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Chocolate agar plate with bacterial colonies.",
+      "detailed_description": "This image shows a chocolate agar plate with numerous small, round, and smooth bacterial colonies. The colonies are distributed in streak patterns, indicating a streak plate technique for bacterial isolation. The chocolate agar medium appears brown and opaque, characteristic of its composition, which supports the growth of fastidious organisms such as Neisseria species. The colonies are consistent with the morphology of Neisseria meningitidis, but definitive identification would require further testing.",
+      "visible_findings": [
+        "chocolate agar medium",
+        "small, round, smooth colonies",
+        "streak plate technique evident"
+      ],
+      "keywords": [
+        "culture plate",
+        "chocolate agar",
+        "bacterial colonies",
+        "neisseria meningitidis",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "chocolate agar",
+        "bacterial culture",
+        "neisseria meningitidis colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:58+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 235,
+      "total_tokens": 828
+    }
+  }
+}

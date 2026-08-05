@@ -1,0 +1,248 @@
+{
+  "Case_08022/figure3.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure3.jpg",
+    "source_caption": "HLA DR stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "HLA-DR immunohistochemical stain of a biopsy showing immune cell infiltration.",
+      "detailed_description": "This image shows an HLA-DR immunohistochemical stain of a biopsy specimen. The tissue is stained to highlight immune cells, with red-brown staining indicating areas of HLA-DR expression, likely corresponding to antigen-presenting cells such as macrophages or dendritic cells. The background tissue is counterstained in blue, providing contrast. The distribution of the red-brown staining suggests a dense infiltration of immune cells in the sampled area.",
+      "visible_findings": [
+        "red-brown staining indicating HLA-DR expression",
+        "blue counterstaining of background tissue",
+        "dense immune cell infiltration"
+      ],
+      "keywords": [
+        "hla-dr stain",
+        "immunohistochemistry",
+        "biopsy",
+        "immune cells",
+        "antigen-presenting cells"
+      ],
+      "reveal_triggers": [
+        "hla-dr stain",
+        "immunohistochemical stain",
+        "biopsy with immune cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:17+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 271,
+      "total_tokens": 860
+    }
+  },
+  "Case_08022/figure6.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure6.jpg",
+    "source_caption": "Electron microscopy of brain biopsy.",
+    "description": {
+      "modality": "electron microscopy",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Electron microscopy of brain biopsy showing cellular and subcellular structures.",
+      "detailed_description": "This electron microscopy image depicts brain tissue at high magnification. The image reveals various cellular and subcellular structures, including vacuoles, disrupted cellular membranes, and dense inclusions. The presence of vacuolization and irregular structures may suggest pathological changes, such as those seen in prion diseases or other neurodegenerative conditions. The grayscale contrast highlights the fine details of the tissue architecture.",
+      "visible_findings": [
+        "vacuolization",
+        "disrupted cellular membranes",
+        "dense inclusions",
+        "grayscale contrast typical of electron microscopy"
+      ],
+      "keywords": [
+        "electron microscopy",
+        "brain",
+        "biopsy",
+        "vacuolization",
+        "neurodegeneration",
+        "pathology"
+      ],
+      "reveal_triggers": [
+        "electron microscopy",
+        "brain biopsy",
+        "prion disease",
+        "neurodegeneration"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 242,
+      "total_tokens": 830
+    }
+  },
+  "Case_08022/figure1.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure1.jpg",
+    "source_caption": "Results of CSF analysis",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Tabular results of cerebrospinal fluid (CSF) analysis over multiple admissions.",
+      "detailed_description": "This image is a table summarizing cerebrospinal fluid (CSF) analysis results across multiple time points and hospital admissions. Parameters include white blood cell count, red blood cell count, glucose, and protein levels. The data shows dynamic changes in these parameters, with notable increases in protein levels and fluctuations in white blood cell counts over time. The table is labeled with dates corresponding to specific admissions and days of hospitalization.",
+      "visible_findings": [
+        "CSF white blood cell count fluctuates, peaking at 81 cells/mm³.",
+        "CSF red blood cell count decreases over time, starting at 271 cells/mm³.",
+        "CSF glucose levels decrease initially, then stabilize.",
+        "CSF protein levels progressively increase, reaching 2688 mg/dL."
+      ],
+      "keywords": [
+        "csf analysis",
+        "infectious diseases",
+        "laboratory results",
+        "table",
+        "protein elevation",
+        "glucose levels"
+      ],
+      "reveal_triggers": [
+        "csf analysis",
+        "lab results",
+        "infectious diseases case"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:23+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 288,
+      "total_tokens": 876
+    }
+  },
+  "Case_08022/figure5.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure5.jpg",
+    "source_caption": "CSF with foamy macrophages, Wright stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Cerebrospinal fluid with foamy macrophages, Wright stain.",
+      "detailed_description": "This Wright-stained image of cerebrospinal fluid shows numerous foamy macrophages with vacuolated cytoplasm. The cells are dispersed across the field, with some containing intracellular inclusions. The background is relatively clear, and the staining highlights cellular details, including nuclei and cytoplasmic vacuoles. The findings suggest a response to an infectious or inflammatory process.",
+      "visible_findings": [
+        "foamy macrophages with vacuolated cytoplasm",
+        "intracellular inclusions in some cells",
+        "clear background with dispersed cells"
+      ],
+      "keywords": [
+        "wright stain",
+        "csf",
+        "foamy macrophages",
+        "infectious diseases",
+        "cerebrospinal fluid"
+      ],
+      "reveal_triggers": [
+        "wright stain of csf",
+        "foamy macrophages",
+        "csf cytology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:23+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  },
+  "Case_08022/figure2.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure2.jpg",
+    "source_caption": "MRI of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Coronal MRI of the brain showing abnormal enhancement in the basal ganglia region.",
+      "detailed_description": "This is a coronal T1-weighted MRI image of the brain with contrast. There is abnormal hyperintense enhancement in the basal ganglia region, particularly on the right side, suggesting possible inflammation, infection, or other pathology. The surrounding brain parenchyma appears relatively normal, and the ventricles are symmetric. The image is labeled with 'R' indicating the right side.",
+      "visible_findings": [
+        "hyperintense enhancement in the basal ganglia",
+        "symmetrical ventricles",
+        "normal surrounding brain parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "basal ganglia",
+        "contrast enhancement",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "neuroimaging",
+        "basal ganglia lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:26+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 237,
+      "total_tokens": 824
+    }
+  },
+  "Case_08022/figure4.jpg": {
+    "case_id": "Case_08022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08022/figure4.jpg",
+    "source_caption": "PAS stain of brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "PAS stain of brain biopsy showing fungal elements.",
+      "detailed_description": "This histopathology image shows a brain biopsy stained with periodic acid-Schiff (PAS). The tissue demonstrates numerous round to oval fungal elements with a magenta hue, consistent with fungal organisms. The background shows neuropil and cellular debris, suggesting tissue damage. The PAS stain highlights polysaccharides in fungal cell walls, aiding in their visualization.",
+      "visible_findings": [
+        "round to oval fungal elements with magenta staining",
+        "neuropil and cellular debris",
+        "PAS stain highlighting fungal cell walls"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "PAS stain",
+        "fungal infection",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "brain biopsy",
+        "fungal infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:35+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 217,
+      "total_tokens": 805
+    }
+  }
+}

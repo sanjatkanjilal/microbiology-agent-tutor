@@ -1,0 +1,43 @@
+{
+  "Case_03108/figure1.jpg": {
+    "case_id": "Case_03108",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03108/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "genital region",
+      "short_caption": "Erythematous plaques and papules on the genital skin.",
+      "detailed_description": "This clinical photograph shows the genital region with multiple erythematous, scaly plaques and papules. The lesions appear irregular in shape and are distributed across the skin folds. The surrounding skin shows mild erythema, and the lesions are slightly raised. The image suggests an inflammatory or infectious dermatologic condition.",
+      "visible_findings": [
+        "erythematous plaques",
+        "scaly papules",
+        "irregular lesion borders",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "genital region",
+        "erythematous plaques",
+        "papules",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "genital skin lesions",
+        "erythematous plaques",
+        "infectious dermatology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:24+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "Case_04007/figure1.jpg": {
+    "case_id": "Case_04007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04007/figure1.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Multiple skin lesions on the dorsal hand.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a hand with multiple skin lesions. The lesions vary in size and appearance, including erythematous macules, papules, and some with central necrosis or crusting. The surrounding skin appears mildly erythematous, and there is no visible discharge. The lesions are scattered and appear to be at different stages of development.",
+      "visible_findings": [
+        "multiple skin lesions",
+        "erythematous macules and papules",
+        "central necrosis or crusting in some lesions",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesions",
+        "erythema",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:35+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 234,
+      "total_tokens": 819
+    }
+  },
+  "Case_04007/figure2.jpg": {
+    "case_id": "Case_04007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04007/figure2.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Multiple skin lesions on the dorsum of the hand.",
+      "detailed_description": "The image shows the dorsum of a hand with multiple erythematous papules and pustules, some with central umbilication or crusting. The lesions are scattered and vary slightly in size. The surrounding skin appears unremarkable. The presence of a ring on the finger suggests this is an adult hand.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules with central umbilication",
+        "crusting on some lesions",
+        "scattered distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesions",
+        "papules",
+        "pustules",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:35+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 241,
+      "total_tokens": 826
+    }
+  },
+  "Case_04007/figure3.jpg": {
+    "case_id": "Case_04007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04007/figure3.jpg",
+    "source_caption": "Skin lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm",
+      "short_caption": "Multiple erythematous skin lesions with central clearing on the arm.",
+      "detailed_description": "This clinical photograph shows multiple erythematous, circular lesions distributed on the skin of the arm. The lesions have a raised, red border and central clearing, giving them a target-like or annular appearance. The surrounding skin appears unremarkable. The image is well-focused and provides a clear view of the lesions' morphology.",
+      "visible_findings": [
+        "multiple circular erythematous lesions",
+        "raised red borders",
+        "central clearing",
+        "distribution on the arm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "arm",
+        "erythematous lesions",
+        "central clearing",
+        "annular lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythematous lesions",
+        "target lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:38+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 222,
+      "total_tokens": 807
+    }
+  }
+}

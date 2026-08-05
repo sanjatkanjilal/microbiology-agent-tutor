@@ -1,0 +1,81 @@
+{
+  "Case_02047/figure1.jpg": {
+    "case_id": "Case_02047",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02047/figure1.jpg",
+    "source_caption": "Figure 1. Gram stain.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in a cluster arrangement.",
+      "detailed_description": "This image shows a Gram stain under light microscopy. Numerous purple-staining, rod-shaped bacteria (gram-positive bacilli) are visible, arranged in clusters. The background is a uniform yellowish hue, typical of Gram staining. The morphology and arrangement suggest a bacterial species with a tendency to form clusters.",
+      "visible_findings": [
+        "purple-staining gram-positive bacilli",
+        "cluster arrangement of bacilli",
+        "yellowish background typical of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:03+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 207,
+      "total_tokens": 796
+    }
+  },
+  "Case_02047/figure2.jpg": {
+    "case_id": "Case_02047",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02047/figure2.jpg",
+    "source_caption": "Culture plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Blood agar culture plate showing bacterial growth.",
+      "detailed_description": "This image shows a blood agar culture plate with visible bacterial growth. The plate has a red background characteristic of blood agar, and there are areas of growth that appear as lighter, textured regions on the surface. The growth pattern suggests bacterial colonies, but no specific organism can be identified from this image alone. The plate is photographed from above, providing a clear view of the entire surface.",
+      "visible_findings": [
+        "red blood agar plate",
+        "bacterial colony growth",
+        "textured lighter regions indicating colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:09+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 209,
+      "total_tokens": 794
+    }
+  }
+}

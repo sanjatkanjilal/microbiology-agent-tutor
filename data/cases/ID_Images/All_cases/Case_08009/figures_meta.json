@@ -1,0 +1,208 @@
+{
+  "Case_08009/figure2.jpg": {
+    "case_id": "Case_08009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08009/figure2.jpg",
+    "source_caption": "Blood smear. (Image courtesy of Bernard Khor, MD, used with permission.)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Blood smear showing a bilobed white blood cell with prominent granules.",
+      "detailed_description": "This is a high-magnification image of a stained blood smear. The field shows numerous red blood cells with a central pale area, consistent with normal biconcave morphology. A single bilobed white blood cell with prominent purple-stained granules is visible in the center, likely an eosinophil. The background is clear, and the staining highlights cellular details effectively.",
+      "visible_findings": [
+        "bilobed white blood cell with purple-stained granules",
+        "numerous red blood cells with central pallor",
+        "clear background"
+      ],
+      "keywords": [
+        "blood smear",
+        "eosinophil",
+        "white blood cell",
+        "stain",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "eosinophil",
+        "stained peripheral blood"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:35+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 234,
+      "total_tokens": 833
+    }
+  },
+  "Case_08009/figure1.jpg": {
+    "case_id": "Case_08009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08009/figure1.jpg",
+    "source_caption": "Blood smear, on admission. (Image courtesy of Bernard Khor, MD, used with permission.)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Peripheral blood smear showing intracellular parasites and abnormal leukocytes.",
+      "detailed_description": "This is a high-power microscopic image of a peripheral blood smear stained with a Giemsa or similar stain. Numerous red blood cells are visible, with some containing intracellular ring-shaped structures consistent with parasitic infection (e.g., Plasmodium species). Several large, darkly stained leukocytes with atypical morphology are also present. The smear appears to show evidence of an infectious process, likely parasitic in nature.",
+      "visible_findings": [
+        "intracellular ring-shaped structures in red blood cells",
+        "abnormal leukocytes with atypical morphology",
+        "background of numerous red blood cells"
+      ],
+      "keywords": [
+        "blood smear",
+        "giemsa stain",
+        "intracellular parasites",
+        "plasmodium",
+        "infectious disease",
+        "hematology"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "giemsa stain",
+        "malaria",
+        "plasmodium infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:35+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 252,
+      "total_tokens": 854
+    }
+  },
+  "Case_08009/figure4.jpg": {
+    "case_id": "Case_08009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08009/figure4.jpg",
+    "source_caption": "Physical findings on day 3.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Multiple erythematous papules and pustules on the back.",
+      "detailed_description": "This clinical photograph shows the back of a patient with multiple erythematous papules and pustules, some of which have central necrosis or crusting. The lesions are scattered and vary in size, with surrounding erythema. The skin appears otherwise unremarkable, with no visible signs of extensive inflammation or systemic involvement.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules with central necrosis",
+        "scattered distribution",
+        "surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "papules",
+        "pustules",
+        "erythema",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:37+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 227,
+      "total_tokens": 816
+    }
+  },
+  "Case_08009/figure5.jpg": {
+    "case_id": "Case_08009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08009/figure5.jpg",
+    "source_caption": "Fluorescent stain of skin specimen for VZV antigen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "Fluorescent stain of skin specimen showing VZV antigen.",
+      "detailed_description": "This image shows a fluorescent stain of a skin specimen. A single bright green fluorescent signal is visible, indicating the presence of varicella-zoster virus (VZV) antigen. The background is dark, consistent with the use of immunofluorescence microscopy. The staining highlights a specific area of antigen localization, which is characteristic of VZV infection.",
+      "visible_findings": [
+        "bright green fluorescent signal",
+        "dark background",
+        "localized staining pattern"
+      ],
+      "keywords": [
+        "fluorescent stain",
+        "skin",
+        "vzv",
+        "immunofluorescence",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "fluorescent stain",
+        "vzv antigen",
+        "skin specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:40+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 217,
+      "total_tokens": 812
+    }
+  },
+  "Case_08009/figure3.jpg": {
+    "case_id": "Case_08009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08009/figure3.jpg",
+    "source_caption": "Physical findings on day 3.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial pustules and erythematous papules on day 3.",
+      "detailed_description": "This clinical photograph shows a close-up view of the face, focusing on the cheek and perioral region. Multiple erythematous papules and pustules are visible, with one pustule prominently located near the cheekbone. The surrounding skin appears mildly erythematous, with no visible signs of ulceration or crusting. The findings are consistent with an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous papules",
+        "pustules",
+        "mild surrounding erythema",
+        "no visible ulceration or crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "pustules",
+        "papules",
+        "erythema",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial pustules",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:48+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 242,
+      "total_tokens": 831
+    }
+  }
+}

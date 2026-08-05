@@ -1,0 +1,87 @@
+{
+  "Case_02051/figure1.jpg": {
+    "case_id": "Case_02051",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02051/figure1.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial head MRI showing abnormal findings in the brain.",
+      "detailed_description": "This axial MRI scan of the head demonstrates abnormal findings, including asymmetry in the brain parenchyma and areas of altered signal intensity. The scan appears to highlight potential pathology in the left hemisphere, with possible mass effect or edema. The image is in grayscale, typical of T1 or T2-weighted imaging, but the exact sequence is unclear. The surrounding bony structures and sinuses are also partially visible.",
+      "visible_findings": [
+        "asymmetry in brain parenchyma",
+        "areas of altered signal intensity",
+        "possible mass effect or edema",
+        "visible bony structures and sinuses"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "brain",
+        "lesion",
+        "neuroimaging",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain imaging",
+        "neuroinfection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:28+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_02051/figure2.jpg": {
+    "case_id": "Case_02051",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02051/figure2.jpg",
+    "source_caption": "Diffusion-weighted MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Diffusion-weighted MRI showing restricted diffusion in the brainstem and cerebellum.",
+      "detailed_description": "This diffusion-weighted MRI scan demonstrates areas of hyperintensity consistent with restricted diffusion in the brainstem and cerebellum. The findings suggest ischemia or infection, with a symmetric pattern visible in the posterior circulation territory. The image is in axial orientation, highlighting the posterior fossa structures.",
+      "visible_findings": [
+        "hyperintense signal in the brainstem",
+        "hyperintense signal in the cerebellum",
+        "symmetric involvement of posterior circulation territory"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "diffusion-weighted imaging",
+        "restricted diffusion",
+        "posterior circulation",
+        "brainstem",
+        "cerebellum"
+      ],
+      "reveal_triggers": [
+        "diffusion-weighted mri",
+        "brain ischemia",
+        "posterior circulation stroke",
+        "brainstem infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:28+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 237,
+      "total_tokens": 826
+    }
+  }
+}

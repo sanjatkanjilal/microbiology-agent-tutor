@@ -1,0 +1,43 @@
+{
+  "Case_03112/figure1.jpg": {
+    "case_id": "Case_03112",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03112/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Erythematous lesion with central ulceration on the cheek.",
+      "detailed_description": "This clinical photograph shows a close-up view of the cheek. A well-demarcated, erythematous lesion with a raised border and central ulceration is visible. The surrounding skin appears unremarkable, with no significant erythema or swelling extending beyond the lesion. The lesion's features suggest a localized skin infection or other dermatologic condition.",
+      "visible_findings": [
+        "erythematous lesion",
+        "raised border",
+        "central ulceration",
+        "localized distribution on the cheek"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "skin lesion",
+        "ulceration",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion on face",
+        "ulcerated lesion",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 223,
+      "total_tokens": 791
+    }
+  }
+}

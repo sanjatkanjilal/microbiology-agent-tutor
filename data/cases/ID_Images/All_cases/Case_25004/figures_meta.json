@@ -1,0 +1,126 @@
+{
+  "Case_25004/figure2.jpg": {
+    "case_id": "Case_25004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25004/figure2.jpg",
+    "source_caption": "Figure 2A. On follow-up, new nodules were observed tracking proximally toward the elbow, accompanied by tender, firm subcutaneous swelling over medial aspect of the left elbow.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Erythematous nodule with central crusting on the dorsum of the hand.",
+      "detailed_description": "This clinical photograph shows the dorsum of a hand with a prominent erythematous nodule that has central crusting. Surrounding the lesion, there is mild erythema and no overt signs of purulence. The lesion appears firm and raised, consistent with a subcutaneous process. No visible tracking or additional lesions are present in this image.",
+      "visible_findings": [
+        "erythematous nodule",
+        "central crusting",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "nodule",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand nodule",
+        "infectious skin process"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:39+00:00",
+    "usage": {
+      "prompt_tokens": 619,
+      "completion_tokens": 227,
+      "total_tokens": 846
+    }
+  },
+  "Case_25004/figure1.jpg": {
+    "case_id": "Case_25004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25004/figure1.jpg",
+    "source_caption": "At initial presentation, the patient had an ulcerated lesion with violaceous borders on dorsum of the left hand. Figure 2A. On follow-up, new nodules were observed tracking proximally toward the elbow, accompanied by tender, firm subcutaneous swelling over medial aspect of the left elbow. Figure 2B. On follow-up, new nodules were observed tracking proximally toward the elbow, accompanied by tender",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of left hand",
+      "short_caption": "Ulcerated lesion with violaceous borders on the dorsum of the left hand.",
+      "detailed_description": "The image shows the dorsum of a left hand with a central ulcerated lesion surrounded by violaceous, raised borders. The lesion appears erythematous and inflamed, with two central areas of tissue breakdown. The surrounding skin shows mild erythema but no overt signs of additional lesions or tracking. The setting suggests a clinical evaluation for a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "ulcerated lesion with violaceous borders",
+        "central areas of tissue breakdown",
+        "surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "ulcer",
+        "violaceous border",
+        "infectious lesion",
+        "skin"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcer on hand",
+        "violaceous border lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:39+00:00",
+    "usage": {
+      "prompt_tokens": 667,
+      "completion_tokens": 238,
+      "total_tokens": 905
+    }
+  },
+  "Case_25004/figure3.jpg": {
+    "case_id": "Case_25004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25004/figure3.jpg",
+    "source_caption": "Figure 2B. On follow-up, new nodules were observed tracking proximally toward the elbow, accompanied by tender, firm subcutaneous swelling over medial aspect of the left elbow.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left arm",
+      "short_caption": "Subcutaneous nodules and swelling tracking proximally on the left arm.",
+      "detailed_description": "This clinical photograph shows the medial aspect of the left arm. A gloved hand is palpating an area of subcutaneous swelling. Multiple small, erythematous nodules are visible, tracking proximally toward the elbow. The findings suggest a pattern consistent with lymphatic spread of an infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous subcutaneous nodules",
+        "proximal tracking pattern",
+        "localized swelling over medial left arm",
+        "gloved hand palpating the area"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "subcutaneous nodules",
+        "erythema",
+        "lymphatic spread",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "arm swelling",
+        "nodules on arm",
+        "lymphatic spread"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:45+00:00",
+    "usage": {
+      "prompt_tokens": 619,
+      "completion_tokens": 234,
+      "total_tokens": 853
+    }
+  }
+}

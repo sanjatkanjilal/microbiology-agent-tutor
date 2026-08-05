@@ -1,0 +1,246 @@
+{
+  "Case_04008/figure1.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing right lower lobe consolidation.",
+      "detailed_description": "This is a frontal chest radiograph showing increased opacification in the right lower lung field, consistent with consolidation. The heart and mediastinal contours appear normal. The left lung field is clear. There is no visible pleural effusion or pneumothorax. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "right lower lobe consolidation",
+        "normal heart and mediastinal contours",
+        "clear left lung field",
+        "no visible pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pneumonia",
+        "consolidation",
+        "lung",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumonia",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:34+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 229,
+      "total_tokens": 797
+    }
+  },
+  "Case_04008/figure4.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure4.jpg",
+    "source_caption": "RSV slide seen in Figure 3, using FITC filter.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent microscopy of a sample stained with FITC, showing scattered fluorescent particles.",
+      "detailed_description": "This image shows a fluorescent microscopy view of a sample stained with fluorescein isothiocyanate (FITC). The field contains scattered fluorescent particles, appearing as bright green and yellow spots against a dark background. The fluorescence suggests the presence of labeled antigens or organisms, consistent with immunofluorescence staining. The image is de-identified and does not provide specific anatomical context.",
+      "visible_findings": [
+        "scattered fluorescent particles",
+        "dark background",
+        "green and yellow fluorescence"
+      ],
+      "keywords": [
+        "fluorescent microscopy",
+        "FITC stain",
+        "immunofluorescence",
+        "infectious diseases",
+        "fluorescence"
+      ],
+      "reveal_triggers": [
+        "fluorescent microscopy",
+        "FITC stain",
+        "immunofluorescence slide"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:39+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 236,
+      "total_tokens": 831
+    }
+  },
+  "Case_04008/figure2.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral pulmonary infiltrates, predominantly in the lower lung fields. The infiltrates appear as patchy areas of increased attenuation, consistent with a possible infectious or inflammatory process. The heart and mediastinal structures are visible centrally, and there is no evidence of gross pleural effusion or pneumothorax. The image is in lung window settings, optimizing visualization of pulmonary parenchyma.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "patchy areas of increased attenuation",
+        "normal mediastinal structures",
+        "no pleural effusion or pneumothorax"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "lung window",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:40+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 244,
+      "total_tokens": 830
+    }
+  },
+  "Case_04008/figure3.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure3.jpg",
+    "source_caption": "RSV staining red (TRITC), pool antibodies in green.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fluorescent staining of RSV (red) and pooled antibodies (green).",
+      "detailed_description": "This image shows a fluorescent microscopy view with red-stained structures consistent with RSV (Respiratory Syncytial Virus) and green-stained areas representing pooled antibodies. The red staining is likely achieved using TRITC (tetramethylrhodamine isothiocyanate), while the green staining may involve a different fluorescent marker. The background is dark, enhancing the contrast of the fluorescent signals. The distribution of red and green signals suggests the presence of viral particles and immune response components.",
+      "visible_findings": [
+        "red fluorescent staining (TRITC) indicating RSV",
+        "green fluorescent staining indicating pooled antibodies",
+        "dark background for contrast"
+      ],
+      "keywords": [
+        "fluorescent microscopy",
+        "RSV",
+        "TRITC",
+        "antibodies",
+        "infectious diseases",
+        "staining"
+      ],
+      "reveal_triggers": [
+        "RSV staining",
+        "fluorescent microscopy",
+        "TRITC stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:47+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 263,
+      "total_tokens": 858
+    }
+  },
+  "Case_04008/figure5.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure5.jpg",
+    "source_caption": "RSV with FITC tag, apple-green fluorescence.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Fluorescent microscopy showing RSV with FITC tag, apple-green fluorescence.",
+      "detailed_description": "This image shows a fluorescent microscopy view of cells stained with a fluorescein isothiocyanate (FITC) tag. Apple-green fluorescence is visible, indicating the presence of respiratory syncytial virus (RSV). The background includes red autofluorescence or counterstaining, which contrasts with the green fluorescence of the tagged viral particles. The image is de-identified and used for educational purposes.",
+      "visible_findings": [
+        "apple-green fluorescence indicating RSV",
+        "red background fluorescence or counterstaining",
+        "dispersed fluorescent signals"
+      ],
+      "keywords": [
+        "fluorescent microscopy",
+        "RSV",
+        "FITC stain",
+        "apple-green fluorescence",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "RSV stain",
+        "fluorescent microscopy",
+        "FITC tag"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:48+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 238,
+      "total_tokens": 830
+    }
+  },
+  "Case_04008/figure6.jpg": {
+    "case_id": "Case_04008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04008/figure6.jpg",
+    "source_caption": "Detail of Figure 5.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent stain highlighting a green-stained organism among red-stained background material.",
+      "detailed_description": "This image shows a fluorescent microscopy field with a green-stained organism prominently visible against a background of red-stained material. The green fluorescence suggests the presence of a specific organism or antigen targeted by the stain, while the red fluorescence likely represents nonspecific background or counterstaining. The image is dark-field, with fluorescence providing contrast.",
+      "visible_findings": [
+        "green-stained organism",
+        "red-stained background material",
+        "dark-field fluorescence microscopy"
+      ],
+      "keywords": [
+        "fluorescence microscopy",
+        "infectious diseases",
+        "stain",
+        "organism detection"
+      ],
+      "reveal_triggers": [
+        "fluorescent stain",
+        "microscopy of infectious agent",
+        "green-stained organism"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 230,
+      "total_tokens": 818
+    }
+  }
+}

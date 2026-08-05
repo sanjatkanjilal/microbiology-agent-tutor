@@ -1,0 +1,329 @@
+{
+  "Case_10008/figure2.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure2.jpg",
+    "source_caption": "Physical findings on right hand, intra-operative.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:51:40+00:00"
+  },
+  "Case_10008/figure3.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure3.jpg",
+    "source_caption": "Physical findings on left ankle, intra-operative.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:51:41+00:00"
+  },
+  "Case_10008/figure1.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure1.jpg",
+    "source_caption": "Radiograph of the right hand, on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "right hand",
+      "short_caption": "Radiograph of the right hand showing bony structures and soft tissue.",
+      "detailed_description": "This is a plain radiograph of the right hand in a posteroanterior (PA) view. The image shows the bony structures of the hand, including the phalanges, metacarpals, and carpal bones, with no obvious fractures or dislocations. Soft tissue outlines are visible, and there is no apparent swelling or foreign body. The radiograph is labeled with an 'R' marker indicating the right side.",
+      "visible_findings": [
+        "intact bony structures",
+        "no visible fractures",
+        "normal alignment of joints",
+        "soft tissue outlines visible"
+      ],
+      "keywords": [
+        "radiograph",
+        "right hand",
+        "bony structures",
+        "soft tissue",
+        "PA view"
+      ],
+      "reveal_triggers": [
+        "hand x-ray",
+        "radiograph of hand",
+        "right hand imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:48+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 243,
+      "total_tokens": 835
+    }
+  },
+  "Case_10008/figure10.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure10.jpg",
+    "source_caption": "Physical findings, post-operatively.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "ankle",
+      "short_caption": "Ulcerated lesion with erythematous border on the ankle.",
+      "detailed_description": "This clinical photograph shows an ulcerated lesion on the lateral aspect of the ankle. The lesion has a central area of necrosis or fibrinous exudate surrounded by an erythematous and indurated border. The surrounding skin appears mildly swollen. The lesion is well-demarcated, and there is no visible drainage or crusting.",
+      "visible_findings": [
+        "ulcerated lesion",
+        "erythematous border",
+        "central necrosis or fibrinous exudate",
+        "induration",
+        "mild surrounding swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "ankle",
+        "ulcer",
+        "erythema",
+        "infection",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected ulcer",
+        "ankle wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 236,
+      "total_tokens": 825
+    }
+  },
+  "Case_10008/figure9.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure9.jpg",
+    "source_caption": "Physical findings, post-operatively.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:51:50+00:00"
+  },
+  "Case_10008/figure4.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure4.jpg",
+    "source_caption": "Gram stain of specimen.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing intracellular gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain of a specimen with numerous neutrophils containing intracellular gram-negative diplococci. The background is lightly stained, and the organisms appear as paired, kidney-shaped structures within the cytoplasm of the neutrophils. This finding is suggestive of a bacterial infection, potentially Neisseria species.",
+      "visible_findings": [
+        "intracellular gram-negative diplococci",
+        "numerous neutrophils",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "diplococci",
+        "neutrophils",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial infection",
+        "intracellular organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:51+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 213,
+      "total_tokens": 800
+    }
+  },
+  "Case_10008/figure5.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure5.jpg",
+    "source_caption": "H and E stain of biopsy, showing normal skin.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing normal histology.",
+      "detailed_description": "This is a histopathological image of skin tissue stained with hematoxylin and eosin (H&E). The epidermis is visible at the top, showing a stratified squamous epithelium with a normal arrangement of keratinocytes. The dermis lies beneath, containing connective tissue with no apparent abnormalities. The overall architecture and cellular morphology appear normal, with no evidence of inflammation, infection, or neoplastic changes.",
+      "visible_findings": [
+        "stratified squamous epithelium in the epidermis",
+        "normal keratinocyte arrangement",
+        "connective tissue in the dermis",
+        "absence of inflammation or abnormal cellular changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "normal histology",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "normal skin histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:53+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 253,
+      "total_tokens": 846
+    }
+  },
+  "Case_10008/figure6.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure6.jpg",
+    "source_caption": "H and E stain of skin, with a dense acute inflammatory infiltrate and dermal necrosis.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin showing acute inflammatory infiltrate and dermal necrosis.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis appears intact but shows some thinning. The dermis exhibits a dense acute inflammatory infiltrate, primarily composed of neutrophils, with areas of necrosis evident in the dermal layer. There is also evidence of tissue destruction and possible vascular involvement. The staining highlights cellular and structural details, aiding in the identification of inflammation and necrosis.",
+      "visible_findings": [
+        "intact but thinned epidermis",
+        "dense acute inflammatory infiltrate in dermis",
+        "dermal necrosis",
+        "predominance of neutrophils",
+        "tissue destruction"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "necrosis",
+        "dermal infiltrate"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "skin biopsy",
+        "acute inflammation",
+        "dermal necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:51:58+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 273,
+      "total_tokens": 875
+    }
+  },
+  "Case_10008/figure8.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure8.jpg",
+    "source_caption": "H and E stain, with necrosis and acute inflammation.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "H&E stain showing necrosis and acute inflammation.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a region of tissue with extensive necrosis characterized by loss of normal architecture and eosinophilic debris. Surrounding the necrotic area, there is evidence of acute inflammation, including numerous neutrophils. The image highlights the cellular and structural changes associated with tissue damage and infection.",
+      "visible_findings": [
+        "necrotic tissue with eosinophilic debris",
+        "numerous neutrophils indicating acute inflammation",
+        "loss of normal tissue architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "necrosis",
+        "acute inflammation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "necrosis",
+        "acute inflammation",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:01+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 236,
+      "total_tokens": 830
+    }
+  },
+  "Case_10008/figure7.jpg": {
+    "case_id": "Case_10008",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10008/figure7.jpg",
+    "source_caption": "H and E stain of skin, with epidermal necrosis and an intraepidermal blister.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin showing epidermal necrosis and intraepidermal blister formation.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin (H&E). The epidermis exhibits necrosis, with loss of normal cellular architecture and nuclear detail. An intraepidermal blister is visible, characterized by separation within the epidermal layer. The dermis beneath the necrotic epidermis appears relatively preserved, with some inflammatory infiltrate. The staining highlights the structural changes and cellular damage.",
+      "visible_findings": [
+        "epidermal necrosis",
+        "intraepidermal blister formation",
+        "loss of normal epidermal architecture",
+        "inflammatory infiltrate in the dermis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "epidermal necrosis",
+        "intraepidermal blister"
+      ],
+      "reveal_triggers": [
+        "H&E stain of skin",
+        "epidermal necrosis",
+        "intraepidermal blister"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:01+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 276,
+      "total_tokens": 879
+    }
+  }
+}

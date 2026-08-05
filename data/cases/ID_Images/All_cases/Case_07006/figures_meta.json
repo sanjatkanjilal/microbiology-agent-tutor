@@ -1,0 +1,170 @@
+{
+  "Case_07006/figure4.jpg": {
+    "case_id": "Case_07006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07006/figure4.jpg",
+    "source_caption": "Thin smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Thin smear showing intraerythrocytic parasites and a gametocyte.",
+      "detailed_description": "This is a thin blood smear stained with Giemsa stain, showing numerous red blood cells. Within some red blood cells, intraerythrocytic ring forms are visible, consistent with parasitic infection. Additionally, a darkly stained crescent-shaped gametocyte is present, which is characteristic of Plasmodium falciparum. The background is clear, and the red blood cells appear normochromic and normocytic.",
+      "visible_findings": [
+        "intraerythrocytic ring forms",
+        "crescent-shaped gametocyte",
+        "normochromic red blood cells"
+      ],
+      "keywords": [
+        "thin smear",
+        "giemsa stain",
+        "blood smear",
+        "plasmodium",
+        "malaria",
+        "ring forms",
+        "gametocyte"
+      ],
+      "reveal_triggers": [
+        "thin smear",
+        "giemsa stain",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:34+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 257,
+      "total_tokens": 842
+    }
+  },
+  "Case_07006/figure1.jpg": {
+    "case_id": "Case_07006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07006/figure1.jpg",
+    "source_caption": "Stain of whole blood specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Peripheral blood smear showing intracellular parasites.",
+      "detailed_description": "This is a high-magnification image of a stained peripheral blood smear. Numerous red blood cells are visible, with a few showing intracellular ring-shaped structures consistent with parasitic organisms. Two white blood cells are also present in the field. The staining technique highlights the intracellular parasites, likely Plasmodium species, within the red blood cells.",
+      "visible_findings": [
+        "numerous red blood cells",
+        "intracellular ring-shaped structures in some red blood cells",
+        "two white blood cells",
+        "staining highlights parasitic organisms"
+      ],
+      "keywords": [
+        "stain",
+        "blood smear",
+        "red blood cells",
+        "intracellular parasites",
+        "plasmodium",
+        "malaria"
+      ],
+      "reveal_triggers": [
+        "blood smear",
+        "stain of whole blood",
+        "malaria diagnosis",
+        "plasmodium"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:35+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 235,
+      "total_tokens": 824
+    }
+  },
+  "Case_07006/figure3.jpg": {
+    "case_id": "Case_07006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07006/figure3.jpg",
+    "source_caption": "Thin smear.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood smear",
+      "short_caption": "Thin blood smear showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a thin blood smear stained with Giemsa, showing numerous red blood cells with a single cell containing intraerythrocytic ring forms. The ring forms are characterized by a central vacuole and a thin cytoplasmic ring, consistent with Plasmodium species, indicative of malaria. The background shows a clear field with evenly distributed red blood cells.",
+      "visible_findings": [
+        "intraerythrocytic ring forms",
+        "red blood cells with uniform morphology",
+        "clear background"
+      ],
+      "keywords": [
+        "thin smear",
+        "giemsa stain",
+        "blood smear",
+        "plasmodium",
+        "malaria",
+        "ring forms"
+      ],
+      "reveal_triggers": [
+        "thin smear",
+        "giemsa stain",
+        "malaria blood smear",
+        "ring forms in red blood cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:41+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 239,
+      "total_tokens": 824
+    }
+  },
+  "Case_07006/figure2.jpg": {
+    "case_id": "Case_07006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07006/figure2.jpg",
+    "source_caption": "Thin smear of whole blood specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood",
+      "short_caption": "Thin smear of whole blood showing intraerythrocytic ring forms.",
+      "detailed_description": "This is a thin smear of whole blood stained with Giemsa stain. The image shows numerous red blood cells, most of which appear normal in size and shape. A single red blood cell contains an intraerythrocytic ring form, consistent with a parasitic infection such as malaria. The background is clear, and no significant leukocytes or platelets are visible in this field.",
+      "visible_findings": [
+        "red blood cells with normal morphology",
+        "intraerythrocytic ring form",
+        "clear background"
+      ],
+      "keywords": [
+        "thin smear",
+        "blood",
+        "giemsa stain",
+        "ring form",
+        "malaria",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "thin blood smear",
+        "giemsa stain of blood",
+        "malaria diagnosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:44+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 236,
+      "total_tokens": 825
+    }
+  }
+}

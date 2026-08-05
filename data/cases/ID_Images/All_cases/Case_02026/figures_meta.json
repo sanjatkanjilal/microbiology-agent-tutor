@@ -1,0 +1,44 @@
+{
+  "Case_02026/figure1.jpg": {
+    "case_id": "Case_02026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02026/figure1.jpg",
+    "source_caption": "Findings on surgery.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdominal cavity (presumed, based on surgical context)",
+      "short_caption": "Surgical specimen showing a cystic structure with multiple translucent vesicles.",
+      "detailed_description": "This image depicts a surgical specimen placed in a metal container. The specimen is a cystic structure with a thick outer wall, partially incised to reveal multiple translucent, grape-like vesicles within. The vesicles vary in size and are consistent with parasitic cysts, potentially hydatid cysts caused by Echinococcus species. The surrounding tissue appears to have some blood staining, suggesting recent surgical removal.",
+      "visible_findings": [
+        "cystic structure with thick outer wall",
+        "multiple translucent vesicles inside",
+        "blood-stained surrounding tissue"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "surgical specimen",
+        "cyst",
+        "vesicles",
+        "hydatid cyst",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "surgical specimen",
+        "parasitic cyst",
+        "hydatid cyst",
+        "echinococcus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:50+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 254,
+      "total_tokens": 840
+    }
+  }
+}

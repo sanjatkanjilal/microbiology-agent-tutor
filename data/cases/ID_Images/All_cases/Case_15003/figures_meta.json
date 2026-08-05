@@ -1,0 +1,254 @@
+{
+  "Case_15003/figure1.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure1.jpg",
+    "source_caption": "CT of the brain, without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT of the brain without contrast.",
+      "detailed_description": "This axial non-contrast CT image of the brain shows symmetrical brain structures with no evidence of midline shift. The ventricles appear normal in size and shape. There are no obvious hyperdense or hypodense lesions, hemorrhages, or mass effects visible in this slice. The bony structures of the skull are intact, and the sinuses appear clear.",
+      "visible_findings": [
+        "symmetrical brain structures",
+        "no midline shift",
+        "normal ventricles",
+        "no hyperdense or hypodense lesions",
+        "intact bony structures",
+        "clear sinuses"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "non-contrast",
+        "axial",
+        "neuroimaging",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "non-contrast ct",
+        "head imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:02+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 238,
+      "total_tokens": 828
+    }
+  },
+  "Case_15003/figure2.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure2.jpg",
+    "source_caption": "MRI of the brain, axial FLAIR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial FLAIR MRI of the brain showing abnormal signal intensity.",
+      "detailed_description": "This axial FLAIR MRI image of the brain shows hyperintense regions in the temporal lobes bilaterally, suggestive of pathological changes. The image is de-identified and demonstrates typical FLAIR imaging characteristics, including suppression of cerebrospinal fluid signal and enhancement of pathological processes. The symmetry and distribution of findings may indicate an infectious or inflammatory process.",
+      "visible_findings": [
+        "hyperintense signal in bilateral temporal lobes",
+        "FLAIR imaging with cerebrospinal fluid suppression",
+        "symmetrical abnormal signal intensity"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "temporal lobes",
+        "hyperintense signal",
+        "pathology"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair imaging",
+        "temporal lobe abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:04+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 250,
+      "total_tokens": 843
+    }
+  },
+  "Case_15003/figure4.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure4.jpg",
+    "source_caption": "MRI of the brain, T1 post gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T1 post-gadolinium showing a ring-enhancing lesion in the right cerebellar hemisphere.",
+      "detailed_description": "This axial T1-weighted MRI image with gadolinium contrast demonstrates a prominent ring-enhancing lesion in the right cerebellar hemisphere. The lesion has a hypointense center with a surrounding hyperintense rim, consistent with a ring-enhancing pattern. There is associated mass effect, with compression of adjacent structures. The surrounding brain parenchyma shows mild edema, indicated by hyperintensity in the surrounding tissue.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right cerebellar hemisphere",
+        "hypointense center with hyperintense rim",
+        "associated mass effect",
+        "mild surrounding edema"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "gadolinium",
+        "cerebellum",
+        "infection",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "ring-enhancing lesion",
+        "cerebellar lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:07+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 268,
+      "total_tokens": 862
+    }
+  },
+  "Case_15003/figure6.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure6.jpg",
+    "source_caption": "CT without contrast, 6 weeks follow-up.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT without contrast showing brain findings at 6-week follow-up.",
+      "detailed_description": "This axial CT image of the brain, obtained without contrast, demonstrates symmetrical brain structures with no evidence of acute hemorrhage, mass effect, or midline shift. The ventricles appear normal in size and shape, and there is no visible hydrocephalus. The image is consistent with a follow-up study, likely assessing for resolution or progression of a prior condition.",
+      "visible_findings": [
+        "symmetrical brain structures",
+        "no acute hemorrhage",
+        "no mass effect",
+        "no midline shift",
+        "normal ventricular size and shape"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "follow-up",
+        "non-contrast",
+        "axial"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "head imaging",
+        "non-contrast ct brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:07+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 229,
+      "total_tokens": 821
+    }
+  },
+  "Case_15003/figure3.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure3.jpg",
+    "source_caption": "MRI of the brain, axial FLAIR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial FLAIR MRI showing multiple hyperintense lesions in the brain.",
+      "detailed_description": "This is an axial FLAIR MRI image of the brain. It demonstrates multiple hyperintense lesions, some with surrounding edema, located in both hemispheres. The lesions appear irregular and are distributed in the white matter, with some involving the basal ganglia and thalamus. The findings suggest a pathological process, possibly infectious, inflammatory, or neoplastic in nature.",
+      "visible_findings": [
+        "multiple hyperintense lesions",
+        "surrounding edema",
+        "involvement of white matter",
+        "lesions in basal ganglia and thalamus"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "flair",
+        "hyperintense lesions",
+        "white matter",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "flair sequence",
+        "hyperintense brain lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:11+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 241,
+      "total_tokens": 834
+    }
+  },
+  "Case_15003/figure5.jpg": {
+    "case_id": "Case_15003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15003/figure5.jpg",
+    "source_caption": "MRI of the brain, T1 post gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain, T1 post-gadolinium showing ring-enhancing lesions.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain taken after gadolinium contrast administration. The image shows multiple ring-enhancing lesions, predominantly in the right hemisphere, with surrounding edema. These findings are suggestive of infectious or neoplastic processes, such as abscesses or metastases. The ventricles appear mildly compressed, and there is no clear evidence of midline shift.",
+      "visible_findings": [
+        "ring-enhancing lesions in the brain",
+        "surrounding edema",
+        "mild compression of ventricles"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1 post-gadolinium",
+        "ring-enhancing lesions",
+        "edema"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "t1 post-gadolinium"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:12+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 238,
+      "total_tokens": 832
+    }
+  }
+}

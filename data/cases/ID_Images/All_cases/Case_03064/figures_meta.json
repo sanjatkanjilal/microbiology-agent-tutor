@@ -1,0 +1,127 @@
+{
+  "Case_03064/figure3.jpg": {
+    "case_id": "Case_03064",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03064/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral lung abnormalities and pleural effusion.",
+      "detailed_description": "This axial chest CT image demonstrates significant abnormalities in both lungs. There are areas of consolidation and ground-glass opacities, particularly in the lower lobes. A large pleural effusion is visible on the left side, causing compression of the adjacent lung tissue. The mediastinum appears shifted slightly to the right, likely due to the effusion. No intravenous contrast is evident in this scan.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "ground-glass opacities",
+        "left-sided pleural effusion",
+        "mediastinal shift to the right"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "pleural effusion",
+        "consolidation",
+        "ground-glass opacities"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "pleural effusion imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:00+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_03064/figure1.jpg": {
+    "case_id": "Case_03064",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03064/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity, including the lungs, heart, and bony structures such as the ribs and spine. The lung fields appear symmetric, and the mediastinum is centrally located. No obvious consolidation, pleural effusion, or pneumothorax is visible. The image is labeled with 'L' to indicate the left side.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "centrally located mediastinum",
+        "no visible consolidation or effusion",
+        "normal bony thoracic structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "mediastinum",
+        "thoracic cavity",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "radiograph of lungs",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:03+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 239,
+      "total_tokens": 825
+    }
+  },
+  "Case_03064/figure2.jpg": {
+    "case_id": "Case_03064",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03064/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral cavitary lung lesions.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral cavitary lesions in the lungs, with areas of consolidation and air-fluid levels. The findings are suggestive of necrotizing pneumonia or abscess formation. The mediastinal structures appear midline, and there is no obvious pleural effusion. The image is in soft tissue window settings.",
+      "visible_findings": [
+        "bilateral cavitary lung lesions",
+        "air-fluid levels within cavities",
+        "areas of consolidation",
+        "midline mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesions",
+        "consolidation",
+        "necrotizing pneumonia"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abscess",
+        "cavitary lung lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:04+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 224,
+      "total_tokens": 810
+    }
+  }
+}

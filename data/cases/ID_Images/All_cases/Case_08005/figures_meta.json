@@ -1,0 +1,164 @@
+{
+  "Case_08005/figure1.jpg": {
+    "case_id": "Case_08005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08005/figure1.jpg",
+    "source_caption": "Stain of CSF cytospin.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Stained cytospin preparation of cerebrospinal fluid showing yeast forms.",
+      "detailed_description": "This image shows a stained cytospin preparation of cerebrospinal fluid (CSF). Numerous round to oval yeast forms are visible, some with a clear halo suggestive of a capsule. The background contains inflammatory cells, including neutrophils. The staining technique highlights the yeast morphology and their capsule, consistent with a fungal pathogen.",
+      "visible_findings": [
+        "round to oval yeast forms",
+        "clear halos around some yeast forms (capsule)",
+        "inflammatory cells, including neutrophils"
+      ],
+      "keywords": [
+        "stain",
+        "csf",
+        "cytospin",
+        "yeast",
+        "fungal infection",
+        "capsule"
+      ],
+      "reveal_triggers": [
+        "csf stain",
+        "fungal infection",
+        "yeast in csf"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:07+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 234,
+      "total_tokens": 825
+    }
+  },
+  "Case_08005/figure3.jpg": {
+    "case_id": "Case_08005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08005/figure3.jpg",
+    "source_caption": "Gram stain of aerobic blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive bacilli from an aerobic blood culture.",
+      "detailed_description": "This image shows a Gram stain of an aerobic blood culture. Numerous gram-positive bacilli are visible, appearing as purple rod-shaped organisms scattered throughout the field. The background is relatively clear, with no significant presence of other cell types or debris. The staining technique highlights the morphology of the bacteria, which are consistent with gram-positive organisms.",
+      "visible_findings": [
+        "purple rod-shaped gram-positive bacilli",
+        "scattered distribution of bacteria",
+        "clear background with no significant debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "blood culture",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:09+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 216,
+      "total_tokens": 805
+    }
+  },
+  "Case_08005/figure4.jpg": {
+    "case_id": "Case_08005",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08005/figure4.jpg",
+    "source_caption": "Culture of organism on blood agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial culture on blood agar plate showing growth.",
+      "detailed_description": "This image shows a blood agar plate with bacterial growth. The plate is red, characteristic of blood agar, and demonstrates streaked colonies with visible growth patterns. The streaking technique suggests isolation of bacterial colonies. The growth appears non-hemolytic, as there is no visible clearing or discoloration around the colonies.",
+      "visible_findings": [
+        "red blood agar plate",
+        "streaked bacterial colonies",
+        "no visible hemolysis"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood agar culture",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:10+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 205,
+      "total_tokens": 795
+    }
+  },
+  "Case_08005/figure2.jpg": {
+    "case_id": "Case_08005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08005/figure2.jpg",
+    "source_caption": "Stain of CSF cytospin.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Cytospin preparation of CSF showing numerous neutrophils and intracellular gram-negative diplococci.",
+      "detailed_description": "This image shows a cytospin preparation of cerebrospinal fluid (CSF) stained to highlight cellular and microbial elements. Numerous neutrophils are visible, characterized by their multilobed nuclei. Within some neutrophils, intracellular gram-negative diplococci are evident, suggesting a bacterial infection, likely meningitis. The background is relatively clear, with no significant debris or other cell types dominating the field.",
+      "visible_findings": [
+        "numerous neutrophils with multilobed nuclei",
+        "intracellular gram-negative diplococci",
+        "clear background with minimal debris"
+      ],
+      "keywords": [
+        "stain",
+        "csf",
+        "cytospin",
+        "neutrophils",
+        "gram-negative diplococci",
+        "meningitis"
+      ],
+      "reveal_triggers": [
+        "csf cytospin",
+        "stain of cerebrospinal fluid",
+        "neutrophils in csf"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:10+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 268,
+      "total_tokens": 859
+    }
+  }
+}

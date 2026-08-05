@@ -1,0 +1,126 @@
+{
+  "Case_04018/figure2.jpg": {
+    "case_id": "Case_04018",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04018/figure2.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing a lesion in the left temporal lobe.",
+      "detailed_description": "This is an axial T2-weighted MRI of the brain. There is a hyperintense lesion in the left temporal lobe with surrounding edema. The lesion appears to cause mild mass effect, with compression of adjacent structures. The imaging characteristics suggest a possible infectious or inflammatory process, though further clinical correlation is needed.",
+      "visible_findings": [
+        "hyperintense lesion in the left temporal lobe",
+        "surrounding edema",
+        "mild mass effect on adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "temporal lobe",
+        "lesion",
+        "edema",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "temporal lobe lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:53+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_04018/figure3.jpg": {
+    "case_id": "Case_04018",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04018/figure3.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing a large lesion with surrounding edema.",
+      "detailed_description": "This axial T2-weighted MRI of the brain shows a hyperintense lesion in the left cerebral hemisphere, likely in the frontal lobe. The lesion appears to have a central area of hyperintensity surrounded by a hypointense rim, suggestive of a capsule. There is significant surrounding hyperintensity consistent with vasogenic edema. Midline shift is evident, indicating mass effect. The imaging findings are suggestive of an abscess or other space-occupying lesion.",
+      "visible_findings": [
+        "hyperintense lesion in left cerebral hemisphere",
+        "surrounding hypointense rim (capsule)",
+        "vasogenic edema",
+        "midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "abscess",
+        "space-occupying lesion",
+        "edema",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "cerebral abscess",
+        "space-occupying lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:53+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 277,
+      "total_tokens": 865
+    }
+  },
+  "Case_04018/figure1.jpg": {
+    "case_id": "Case_04018",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04018/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Small lesion on the dorsal aspect of the hand.",
+      "detailed_description": "This image shows the dorsal aspect of a hand with a small, round, dark lesion visible on the skin. The lesion appears slightly raised and is located near the midline of the hand. The surrounding skin appears normal without significant erythema or swelling. The lighting is bright, and the image is slightly overexposed, which may obscure finer details.",
+      "visible_findings": [
+        "small, round, dark lesion",
+        "normal surrounding skin",
+        "slightly raised lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "skin lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand exam",
+        "infectious diseases skin findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:54+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 207,
+      "total_tokens": 775
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "Case_07028/figure1.jpg": {
+    "case_id": "Case_07028",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07028/figure1.jpg",
+    "source_caption": "Chest radiograph 13 days before admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and mediastinum.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields with no visible consolidation, effusion, or masses. The mediastinum appears normal in width, and the heart size is within normal limits. The bony structures, including the ribs, clavicles, and spine, are intact without obvious abnormalities. No foreign devices or pathologic findings are evident.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal mediastinum",
+        "normal heart size",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:05+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 225,
+      "total_tokens": 816
+    }
+  },
+  "Case_07028/figure2.jpg": {
+    "case_id": "Case_07028",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07028/figure2.jpg",
+    "source_caption": "Chest radiograph on admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing abnormal opacities in the right lung field.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating the thorax. There is an area of increased opacity in the right mid to lower lung field, suggestive of consolidation or infiltrate. The cardiac silhouette and mediastinal structures appear within normal limits. The left lung field appears clear. No obvious pleural effusion or pneumothorax is visible. Bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "increased opacity in the right mid to lower lung field",
+        "clear left lung field",
+        "normal cardiac silhouette",
+        "no visible pleural effusion or pneumothorax",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "pulmonary infiltrate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 261,
+      "total_tokens": 849
+    }
+  },
+  "Case_07028/figure3.jpg": {
+    "case_id": "Case_07028",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07028/figure3.jpg",
+    "source_caption": "CT scan of the chest, high resolution.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "High-resolution CT scan of the chest showing bilateral lung abnormalities.",
+      "detailed_description": "This is a high-resolution axial CT scan of the chest. The image demonstrates diffuse bilateral ground-glass opacities and interlobular septal thickening, particularly in the lower lung zones. The heart and central mediastinal structures appear normal in size and position. The findings are suggestive of a diffuse interstitial lung process, potentially consistent with an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "interlobular septal thickening",
+        "normal heart size and position",
+        "diffuse lung involvement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "interstitial lung disease",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:10+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 242,
+      "total_tokens": 833
+    }
+  },
+  "Case_07028/figure4.jpg": {
+    "case_id": "Case_07028",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07028/figure4.jpg",
+    "source_caption": "CT scan of the chest, with portion magnified.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of the chest showing bilateral lung abnormalities with a magnified portion.",
+      "detailed_description": "This axial CT scan of the chest demonstrates bilateral lung abnormalities, including diffuse ground-glass opacities and areas of consolidation. A magnified portion highlights the fine details of the abnormalities, which are distributed throughout both lungs. The mediastinum and heart are visible in the center, and no significant pleural effusion is noted. The findings suggest a diffuse pulmonary process, potentially infectious or inflammatory in nature.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation",
+        "magnified portion of lung abnormalities",
+        "mediastinum and heart visible",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung abnormalities",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:14+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 258,
+      "total_tokens": 851
+    }
+  },
+  "Case_07028/figure5.jpg": {
+    "case_id": "Case_07028",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07028/figure5.jpg",
+    "source_caption": "DFA of an induced sputum specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Direct fluorescent antibody (DFA) staining of an induced sputum specimen.",
+      "detailed_description": "This image shows a fluorescent microscopy view of an induced sputum specimen stained with a direct fluorescent antibody (DFA) technique. The bright green fluorescence indicates the presence of a target organism or antigen, surrounded by a darker background. The red and black areas represent unstained or non-fluorescent regions. The DFA technique is commonly used for detecting specific pathogens in clinical specimens.",
+      "visible_findings": [
+        "bright green fluorescent cluster",
+        "dark background with red and black areas",
+        "fluorescence indicative of a specific antigen or organism"
+      ],
+      "keywords": [
+        "dfa",
+        "fluorescent microscopy",
+        "sputum",
+        "respiratory infection",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "dfa stain",
+        "fluorescent microscopy",
+        "sputum specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:14+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 240,
+      "total_tokens": 830
+    }
+  }
+}

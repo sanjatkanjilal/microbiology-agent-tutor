@@ -1,0 +1,83 @@
+{
+  "Case_03132/figure2.jpg": {
+    "case_id": "Case_03132",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03132/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Microscopic view of round cyst-like structures stained with a special technique.",
+      "detailed_description": "This image shows multiple round, cyst-like structures with a distinct outer wall and a purple interior, surrounded by a dark granular background. The staining technique highlights these structures, suggesting a parasitic organism or fungal element. The cysts are evenly distributed and appear intact, with no visible signs of rupture. The background material is amorphous and granular, possibly representing debris or extracellular material.",
+      "visible_findings": [
+        "round cyst-like structures with purple interiors",
+        "distinct outer walls of the cysts",
+        "dark granular background"
+      ],
+      "keywords": [
+        "stain",
+        "cyst",
+        "microscopy",
+        "infectious disease",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "microscopy of cysts",
+        "special stain",
+        "parasitic structures"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  },
+  "Case_03132/figure1.jpg": {
+    "case_id": "Case_03132",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03132/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Microscopic image showing a stained oocyst with internal structures.",
+      "detailed_description": "This is a high-magnification microscopic image showing a single, round to oval oocyst stained with a pinkish hue. The oocyst contains visible internal structures, including several circular formations. The background appears granular and irregular, likely representing debris or other material in the sample. The staining technique highlights the oocyst distinctly against the darker background.",
+      "visible_findings": [
+        "round to oval oocyst",
+        "pinkish staining of the oocyst",
+        "internal circular structures within the oocyst",
+        "granular and irregular background"
+      ],
+      "keywords": [
+        "microscopy",
+        "oocyst",
+        "stain",
+        "infectious diseases",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "microscopic exam",
+        "stained oocyst",
+        "parasitology image"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  }
+}

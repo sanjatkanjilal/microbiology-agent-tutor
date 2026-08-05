@@ -1,0 +1,172 @@
+{
+  "Case_18010/figure1.jpg": {
+    "case_id": "Case_18010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18010/figure1.jpg",
+    "source_caption": "Fig 1: CT chest with contrast at presentation demonstrating a left hilum soft tissue mass (red arrow) measured at 20 mm diameter and a left lower lobe pulmonary artery filling defect with extensive infarction and hemorrhage.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest with contrast showing a left hilar mass and left lower lobe pulmonary artery filling defect.",
+      "detailed_description": "This axial CT image of the chest with contrast demonstrates a soft tissue mass at the left hilum, marked by a red arrow, measuring approximately 20 mm in diameter. Additionally, there is a filling defect in the left lower lobe pulmonary artery, consistent with a thrombus. Surrounding the defect, there is evidence of pulmonary infarction and hemorrhage, visible as heterogeneous opacities in the left lower lobe. The contrast enhancement highlights vascular structures and the extent of the abnormalities.",
+      "visible_findings": [
+        "left hilar soft tissue mass (20 mm)",
+        "left lower lobe pulmonary artery filling defect",
+        "pulmonary infarction and hemorrhage in the left lower lobe",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "contrast",
+        "hilar mass",
+        "pulmonary artery defect",
+        "pulmonary infarction",
+        "hemorrhage"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "pulmonary embolism",
+        "hilar mass",
+        "lung infarction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:08+00:00",
+    "usage": {
+      "prompt_tokens": 628,
+      "completion_tokens": 288,
+      "total_tokens": 916
+    }
+  },
+  "Case_18010/figure2.jpg": {
+    "case_id": "Case_18010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18010/figure2.jpg",
+    "source_caption": "Fig 2: CT Abdomen/Pelvis with contrast showing curvilinear calcification involving most of the bladder wall (arrow).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen and pelvis",
+      "short_caption": "CT abdomen/pelvis with contrast showing curvilinear calcification of the bladder wall (arrow).",
+      "detailed_description": "This coronal CT image of the abdomen and pelvis, obtained with contrast, demonstrates curvilinear calcification involving the majority of the bladder wall. The calcification is highlighted by the red arrow and is consistent with a pathological process affecting the bladder. Surrounding abdominal and pelvic structures appear within normal limits.",
+      "visible_findings": [
+        "curvilinear calcification of the bladder wall",
+        "contrast-enhanced abdominal and pelvic structures",
+        "red arrow indicating the bladder wall"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "pelvis",
+        "bladder",
+        "calcification",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "bladder calcification",
+        "contrast-enhanced ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:08+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 225,
+      "total_tokens": 834
+    }
+  },
+  "Case_18010/figure3.jpg": {
+    "case_id": "Case_18010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18010/figure3.jpg",
+    "source_caption": "Fig 3. H&E stain of lung biopsy (200x) demonstrating a granuloma surrounding two Schistosoma spp. ova (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing granuloma with Schistosoma spp. ova.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of lung tissue at 200x magnification. A granuloma is visible, characterized by a central area of inflammation surrounded by epithelioid macrophages and lymphocytes. Two Schistosoma spp. ova are present within the granuloma, identifiable by their characteristic oval shape and spines (indicated by arrows). The surrounding tissue shows evidence of inflammation and cellular infiltration.",
+      "visible_findings": [
+        "granuloma with central inflammation",
+        "two Schistosoma spp. ova with characteristic spines",
+        "surrounding inflammatory infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "schistosoma",
+        "ova",
+        "H&E stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "lung biopsy",
+        "H&E stain",
+        "granuloma with Schistosoma ova"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:10+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 269,
+      "total_tokens": 881
+    }
+  },
+  "Case_18010/figure4.jpg": {
+    "case_id": "Case_18010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18010/figure4.jpg",
+    "source_caption": "Fig 4: H&E stain of lung biopsy (600x). Cross-sectional view of Schistosoma spp. ovum (arrow).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "H&E stain of lung biopsy showing Schistosoma spp. ovum in cross-section.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of lung tissue at 600x magnification. A cross-sectional view of a Schistosoma spp. ovum is visible, marked by an arrow. The ovum has a characteristic oval shape with a thick shell and internal structures. Surrounding tissue shows inflammatory changes, including cellular infiltrates, consistent with a parasitic infection.",
+      "visible_findings": [
+        "oval-shaped Schistosoma spp. ovum with thick shell",
+        "internal structures within the ovum",
+        "inflammatory cellular infiltrates in surrounding tissue",
+        "pink and purple staining typical of H&E"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "schistosoma",
+        "ovum",
+        "parasitic infection",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lung biopsy",
+        "schistosoma ovum",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:29+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 276,
+      "total_tokens": 886
+    }
+  }
+}

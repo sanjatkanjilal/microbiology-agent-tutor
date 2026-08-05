@@ -94,6 +94,59 @@ const PHASES = [
   { id: "feedback", label: "Review", icon: "✅" },
 ];
 
+const PATIENT_STYLES = [
+  { id: "random", label: "Random" },
+  { id: "neutral", label: "Neutral" },
+  { id: "chatty", label: "Chatty" },
+  { id: "quick", label: "Quick" },
+  { id: "well_informed", label: "Well informed" },
+  { id: "shy", label: "Shy" },
+  { id: "depressed", label: "Depressed" },
+  { id: "anxious", label: "Anxious" },
+  { id: "avoidant_of_doctors", label: "Avoidant" },
+];
+
+function resolvePatientStyle(selection) {
+  if (selection === "random") {
+    const pool = PATIENT_STYLES.filter(s => s.id !== "random");
+    return pool[Math.floor(Math.random() * pool.length)].id;
+  }
+  return selection || "neutral";
+}
+
+function patientStyleLabel(styleId) {
+  return PATIENT_STYLES.find(s => s.id === styleId)?.label || styleId;
+}
+
+function moduleSendLabel(activeModule) {
+  switch (activeModule) {
+    case "history_taking": return "Send to case";
+    case "differential_diagnosis": return "Send to DDx";
+    case "management": return "Send to mgmt";
+    case "pathophys_epi": return "Send to pathophys";
+    default: return "Send to module";
+  }
+}
+
+function resolveSpeakerLabel(speaker) {
+  switch (speaker) {
+    case "patient": return "Patient";
+    case "family": return "Family";
+    case "nurse": return "Nurse";
+    case "tutor": return "Docent";
+    default: return "Docent";
+  }
+}
+
+function resolveSpeakerAvatar(speaker) {
+  switch (speaker) {
+    case "patient": return "🧑";
+    case "family": return "👪";
+    case "nurse": return "🩺";
+    default: return "👨‍⚕️";
+  }
+}
+
 const HOW_IT_WORKS_CONTENT = [
   "docent.ID teaches clinical infectious diseases through active case-based learning.",
   "Rather than presenting information to read, it puts you inside a case. You interview a patient, gather findings, reason through a differential diagnosis, and justify your management plan — guided throughout by Socratic questioning that never gives away the answer.",
@@ -113,6 +166,37 @@ function formatMessage(text) {
   out = out.replace(/\*(.*?)\*/g, "<em>$1</em>");
   out = out.replace(/\n/g, "<br/>");
   return out;
+}
+
+/** Merge backend emr_data into panel state, preserving seeded chief_complaint. */
+function applyEmrData(prev, nextData) {
+  if (!nextData || typeof nextData !== "object") return prev;
+  const merged = { ...prev, ...nextData };
+  if (prev?.chief_complaint && !merged.chief_complaint) {
+    merged.chief_complaint = prev.chief_complaint;
+  }
+  return merged;
+}
+
+/** Clinical one-liner from start_case — skips tutor welcome boilerplate. */
+function extractPresentation(data) {
+  const fromApi = (data?.presentation || data?.emr_data?.chief_complaint || "").trim();
+  if (fromApi && !/^welcome\b/i.test(fromApi)) return fromApi;
+
+  const text = (data?.initial_message || "").trim();
+  if (!text) return "";
+
+  // Prefer the paragraph after "Welcome to today's case."
+  const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  for (const p of paragraphs) {
+    if (/^welcome\b/i.test(p)) continue;
+    if (/^begin by asking/i.test(p)) continue;
+    const sentence = p.split(/(?<=[.!?])\s+/)[0]?.trim();
+    if (sentence && !/^welcome\b/i.test(sentence)) {
+      return /[.!?]$/.test(sentence) ? sentence : `${sentence}.`;
+    }
+  }
+  return "";
 }
 
 // ─── CSS variables injected into <head> ──────────────────────────────────────
@@ -621,6 +705,8 @@ function SetupScreen({ onStart }) {
   const [organism, setOrganism] = useState("");
   const [selectedModules, setSelectedModules] = useState([]);
   const [isRandom, setIsRandom] = useState(false);
+  const [styleSelection, setStyleSelection] = useState("neutral");
+  const [allowPlausibleFindings, setAllowPlausibleFindings] = useState(false);
 
   const toggleModule = (id) => {
     setSelectedModules(prev => prev.includes(id) ? prev.filter(m => m !== id) : [...prev, id]);
@@ -634,6 +720,7 @@ function SetupScreen({ onStart }) {
 
   const canStart = organism && selectedModules.length > 0;
   const orgLabel = ORGANISMS.find(o => o.value === organism)?.label || organism;
+  const resolvedPreviewStyle = styleSelection === "random" ? "?" : patientStyleLabel(styleSelection);
 
   return (
     <div style={{
@@ -697,8 +784,59 @@ function SetupScreen({ onStart }) {
               })}
             </div>
 
+            <div style={{ marginTop: 24 }}>
+              <p style={{ fontSize: 13, fontWeight: 500, color: "var(--text-secondary)", marginBottom: 8, letterSpacing: "0.03em" }}>
+                Patient style {styleSelection === "random" ? "(random at start)" : `— ${resolvedPreviewStyle}`}
+              </p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                {PATIENT_STYLES.map(st => {
+                  const active = styleSelection === st.id;
+                  return (
+                    <button
+                      key={st.id}
+                      type="button"
+                      onClick={() => setStyleSelection(st.id)}
+                      style={{
+                        padding: "6px 12px",
+                        borderRadius: 999,
+                        border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                        background: active ? "var(--bg-accent)" : "var(--surface-1)",
+                        color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                        fontSize: 12,
+                        cursor: "pointer",
+                        fontFamily: "var(--font-sans)",
+                      }}
+                    >
+                      {st.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <label style={{
+              display: "flex", alignItems: "flex-start", gap: 10, marginTop: 18,
+              fontSize: 13, color: "var(--text-secondary)", cursor: "pointer", fontFamily: "var(--font-sans)",
+            }}>
+              <input
+                type="checkbox"
+                checked={allowPlausibleFindings}
+                onChange={e => setAllowPlausibleFindings(e.target.checked)}
+                style={{ marginTop: 2 }}
+              />
+              <span>
+                <strong style={{ color: "var(--text-primary)" }}>Provide plausible Ix if missing from case</strong>
+                <br />
+                Off by default: unavailable tests return “not available”. When on, findings consistent with the case may be provided if not in the case data.
+              </span>
+            </label>
+
             <button
-              onClick={() => canStart && onStart(organism, selectedModules, isRandom)}
+              onClick={() => canStart && onStart(organism, selectedModules, isRandom, {
+                styleSelection,
+                patientStyle: resolvePatientStyle(styleSelection),
+                allowPlausibleFindings,
+              })}
               disabled={!canStart}
               style={{
                 marginTop: 20, width: "100%", padding: "11px",
@@ -731,26 +869,40 @@ function MessageBubble({ msg, onFeedback }) {
   const [feedbackGiven, setFeedbackGiven] = useState(null);
   if (msg.role === "system") return null;
 
+  const isStreamingWait = Boolean(msg.streaming) && !msg.content;
+  const speaker = isUser ? "user" : (msg.speaker || (msg.streaming ? null : "tutor"));
+  const avatar = isUser ? "👤" : (speaker ? resolveSpeakerAvatar(speaker) : null);
+  const speakerLabel = isUser || !speaker ? null : resolveSpeakerLabel(speaker);
+  const caseSide = speaker === "patient" || speaker === "family" || speaker === "nurse";
+
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-end" : "flex-start", marginBottom: 16 }}>
-      <div style={{ display: "flex", alignItems: "flex-start", gap: 8, maxWidth: "85%", flexDirection: isUser ? "row-reverse" : "row" }}>
-        <div style={{
-          width: 28, height: 28, borderRadius: "50%",
-          background: isUser ? "var(--bg-accent)" : "var(--surface-0)",
-          border: "1px solid var(--border)", display: "flex", alignItems: "center",
-          justifyContent: "center", fontSize: 13, flexShrink: 0, marginTop: 2,
-        }}>
-          {isUser ? "👤" : "👨‍⚕️"}
+      {!isUser && speakerLabel && (
+        <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 4, marginLeft: 36, fontFamily: "var(--font-sans)" }}>
+          {speakerLabel}
         </div>
+      )}
+      <div style={{ display: "flex", alignItems: "flex-start", gap: 8, maxWidth: "85%", flexDirection: isUser ? "row-reverse" : "row" }}>
+        {!isStreamingWait && (
+          <div style={{
+            width: 28, height: 28, borderRadius: "50%",
+            background: isUser ? "var(--bg-accent)" : (caseSide ? "var(--surface-2)" : "var(--surface-0)"),
+            border: "1px solid var(--border)", display: "flex", alignItems: "center",
+            justifyContent: "center", fontSize: 13, flexShrink: 0, marginTop: 2,
+          }}>
+            {avatar}
+          </div>
+        )}
         <div style={{
           background: isUser ? "var(--bg-accent)" : "var(--surface-1)",
           border: `1px solid ${isUser ? "var(--border-accent)" : "var(--border)"}`,
           borderRadius: isUser ? "16px 4px 16px 16px" : "4px 16px 16px 16px",
           padding: "10px 14px", fontSize: 14, lineHeight: 1.6,
           color: "var(--text-primary)", fontFamily: "var(--font-sans)",
+          marginLeft: isStreamingWait ? 36 : 0,
         }}>
           {msg.streaming ? (
-            <span>{msg.content}<span style={{ display: "inline-block", width: 6, height: 14, background: "var(--text-secondary)", marginLeft: 2, borderRadius: 1, animation: "blink 1s infinite" }} /></span>
+            <span>{msg.content || ""}<span style={{ display: "inline-block", width: 6, height: 14, background: "var(--text-secondary)", marginLeft: 2, borderRadius: 1, animation: "blink 1s infinite" }} /></span>
           ) : (
             <span dangerouslySetInnerHTML={{ __html: formatMessage(msg.content) }} />
           )}
@@ -778,10 +930,85 @@ function MessageBubble({ msg, onFeedback }) {
   );
 }
 
+// ─── Image lightbox ───────────────────────────────────────────────────────────
+
+function ImageLightbox({ src, alt, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [onClose]);
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={alt || "Enlarged image"}
+      onClick={onClose}
+      style={{
+        position: "fixed",
+        inset: 0,
+        zIndex: 10000,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: 24,
+        background: "rgba(8, 10, 14, 0.72)",
+        backdropFilter: "blur(10px)",
+        WebkitBackdropFilter: "blur(10px)",
+        cursor: "zoom-out",
+      }}
+    >
+      <button
+        type="button"
+        onClick={onClose}
+        aria-label="Close"
+        style={{
+          position: "absolute",
+          top: 16,
+          right: 18,
+          width: 36,
+          height: 36,
+          border: "none",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.12)",
+          color: "#fff",
+          fontSize: 22,
+          lineHeight: 1,
+          cursor: "pointer",
+          fontFamily: "var(--font-sans)",
+        }}
+      >
+        ×
+      </button>
+      <img
+        src={src}
+        alt={alt || ""}
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          maxWidth: "min(960px, 94vw)",
+          maxHeight: "90vh",
+          objectFit: "contain",
+          borderRadius: 6,
+          boxShadow: "0 20px 60px rgba(0,0,0,0.45)",
+          cursor: "default",
+          background: "#111",
+        }}
+      />
+    </div>
+  );
+}
+
 // ─── Collapsible Image ────────────────────────────────────────────────────────
 
 function CollapsibleImage({ title, src }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
+  const [lightbox, setLightbox] = useState(false);
   return (
     <div style={{ marginBottom: 8 }}>
       <button
@@ -798,9 +1025,67 @@ function CollapsibleImage({ title, src }) {
       </button>
       {open && (
         <div style={{ border: "1px solid var(--border)", borderTop: "none", borderRadius: "0 0 6px 6px", overflow: "hidden" }}>
-          <img src={src} alt={title} style={{ width: "100%", display: "block" }} />
+          <img
+            src={src}
+            alt={title}
+            title="Click to enlarge"
+            onClick={() => setLightbox(true)}
+            style={{ width: "100%", display: "block", cursor: "zoom-in" }}
+          />
         </div>
       )}
+      {lightbox && (
+        <ImageLightbox src={src} alt={title} onClose={() => setLightbox(false)} />
+      )}
+    </div>
+  );
+}
+
+// ─── Left Panel: Context Box ──────────────────────────────────────────────────
+
+function renderImagesSection(caseContext) {
+  if (!caseContext) return null;
+  const { availableFigures = [], revealedFigures = [], examImage, radiologyImage, radiologyNote, figures = [] } = caseContext;
+  
+  return (
+    <div style={{ marginTop: 14 }}>
+      {/* Status banner telling student images are available and how to unlock */}
+      {availableFigures.length > 0 && (
+        <div style={{
+          background: "var(--surface-0)", border: "1px dashed var(--border-strong)",
+          borderRadius: 6, padding: "10px 12px", marginBottom: 12, fontSize: 12,
+          color: "var(--text-secondary)", lineHeight: 1.5, fontFamily: "var(--font-sans)"
+        }}>
+          <div style={{ fontWeight: 600, color: "var(--text-accent)", marginBottom: 4 }}>
+            📷 Case Library Figures ({revealedFigures.length} of {availableFigures.length} Revealed)
+          </div>
+          {revealedFigures.length === 0 ? (
+            <span>Order imaging, request to examine a finding, or refer to a specific figure (e.g. “Figure 1”) to reveal case images. History questions alone (e.g. “any rashes?”) will not unlock figures.</span>
+          ) : (
+            <span>Figures relevant to your clinical orders/exam requests are below. Order other studies or name a figure to reveal more.</span>
+          )}
+        </div>
+      )}
+
+      {examImage && <CollapsibleImage title="Exam finding" src={examImage} />}
+      {radiologyImage && (
+        <>
+          <CollapsibleImage title="Radiology" src={radiologyImage} />
+          {radiologyNote && (
+            <div style={{ fontSize: 12, color: "var(--text-secondary)", marginTop: 4, lineHeight: 1.5 }}>{radiologyNote}</div>
+          )}
+        </>
+      )}
+      {figures && figures.map((figUrl, idx) => (
+        <CollapsibleImage key={idx} title={`Figure ${idx + (examImage ? 1 : 0) + (radiologyImage ? 1 : 0) + 1}`} src={figUrl} />
+      ))}
+      {revealedFigures && revealedFigures.map((figUrl, idx) => {
+        const match = figUrl.match(/figure(\d+)/i);
+        const figNum = match ? match[1] : idx + 1;
+        return (
+          <CollapsibleImage key={figUrl} title={`Figure ${figNum}`} src={figUrl} />
+        );
+      })}
     </div>
   );
 }
@@ -809,7 +1094,7 @@ function CollapsibleImage({ title, src }) {
 
 function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImportToEMR }) {
   const isHistory = module === "history_taking";
-  const isPathophys = module === "pathophys_epi";
+  const isPathophys = module === "pathophysiology" || module === "case_summary";
   const [imported, setImported] = useState(false);
 
   const handleImport = () => {
@@ -848,12 +1133,15 @@ function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImp
         </div>
 
         {isHistory ? (
-          <div style={{
-            background: "var(--bg-accent)", border: "1px solid var(--border-accent)",
-            borderRadius: 8, padding: "10px 12px", fontSize: 13, lineHeight: 1.6,
-            color: "var(--text-primary)", fontStyle: "italic", fontFamily: "var(--font-sans)",
-          }}>
-            {chiefComplaint || <span style={{ color: "var(--text-muted)" }}>Waiting for case to start…</span>}
+          <div>
+            <div style={{
+              background: "var(--bg-accent)", border: "1px solid var(--border-accent)",
+              borderRadius: 8, padding: "10px 12px", fontSize: 13, lineHeight: 1.6,
+              color: "var(--text-primary)", fontStyle: "italic", fontFamily: "var(--font-sans)",
+            }}>
+              {chiefComplaint || <span style={{ color: "var(--text-muted)" }}>Waiting for case to start…</span>}
+            </div>
+            {renderImagesSection(caseContext)}
           </div>
         ) : caseContext ? (
           <div style={{ fontSize: 13, color: "var(--text-primary)", lineHeight: 1.6, fontFamily: "var(--font-sans)" }}>
@@ -910,16 +1198,7 @@ function ContextPanel({ module, chiefComplaint, caseContext, revealedInfo, onImp
               </div>
             )}
 
-            {/* Collapsible images */}
-            {caseContext.examImage && <CollapsibleImage title="Exam finding" src={caseContext.examImage} />}
-            {caseContext.radiologyImage && (
-              <>
-                <CollapsibleImage title="Radiology" src={caseContext.radiologyImage} />
-                {caseContext.radiologyNote && (
-                  <div style={{ fontSize: 12, color: "var(--text-secondary)", marginTop: 4, lineHeight: 1.5 }}>{caseContext.radiologyNote}</div>
-                )}
-              </>
-            )}
+            {renderImagesSection(caseContext)}
           </div>
         ) : (
           <span style={{ fontSize: 13, color: "var(--text-muted)" }}>Waiting for case to start…</span>
@@ -1016,6 +1295,25 @@ function CurbsideConsult() {
 }
 
 // ─── Right Panel: Electronic Medical Record ───────────────────────────────────
+function renderEMRText(text) {
+  if (Array.isArray(text)) {
+    return <ul style={{ margin: 0, paddingLeft: 14 }}>{text.map((v, i) => <li key={i} style={{ marginBottom: 2 }}>{v}</li>)}</ul>;
+  }
+  if (!text) return null;
+  const str = String(text);
+  if (str.includes('\n') || str.trim().startsWith('-') || str.trim().startsWith('•') || str.trim().startsWith('*')) {
+    const lines = str.split('\n').filter(l => l.trim().length > 0);
+    return (
+      <ul style={{ margin: 0, paddingLeft: 14 }}>
+        {lines.map((line, i) => {
+          const cleaned = line.replace(/^[-*•]\s*/, '').trim();
+          return cleaned ? <li key={i} style={{ marginBottom: 2 }}>{cleaned}</li> : null;
+        })}
+      </ul>
+    );
+  }
+  return str;
+}
 
 function EMRSection({ title, fields, data, emptyMsg }) {
   const entries = fields.filter(f => data[f.key]);
@@ -1036,10 +1334,7 @@ function EMRSection({ title, fields, data, emptyMsg }) {
             padding: "6px 9px", background: "var(--surface-0)",
             border: "1px solid var(--border)", borderRadius: 5, fontFamily: "var(--font-sans)",
           }}>
-            {Array.isArray(data[f.key])
-              ? <ul style={{ margin: 0, paddingLeft: 14 }}>{data[f.key].map((v, i) => <li key={i} style={{ marginBottom: 2 }}>{v}</li>)}</ul>
-              : String(data[f.key])
-            }
+            {renderEMRText(data[f.key])}
           </div>
         </div>
       ))}
@@ -1053,14 +1348,38 @@ const emrGroupLabel = {
   borderBottom: "1px solid var(--border)", paddingBottom: 4, marginBottom: 8,
 };
 
-function EMRPanel({ module, emrData, hasHistoryModule }) {
+function EMRPanel({ module, emrData, hasHistoryModule, emrBusy, onRefresh, refreshing }) {
   const data = emrData || {};
-  const isEmpty = Object.keys(data).length === 0;
+  const isEmpty = Object.keys(data).filter(k => data[k]).length === 0;
 
   return (
     <div style={{ height: "100%", overflowY: "auto", padding: "12px 12px 20px" }}>
-      <div style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 14 }}>
-        Electronic Medical Record
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 14 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em" }}>
+          Electronic Medical Record
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          {emrBusy && (
+            <span style={{ fontSize: 10, color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>Updating…</span>
+          )}
+          {onRefresh && (
+            <button
+              type="button"
+              onClick={onRefresh}
+              disabled={refreshing || emrBusy}
+              title="Rebuild EMR from full conversation"
+              style={{
+                padding: "3px 8px", borderRadius: "var(--radius)",
+                border: "1px solid var(--border-strong)", background: "transparent",
+                color: refreshing || emrBusy ? "var(--text-muted)" : "var(--text-secondary)",
+                cursor: refreshing || emrBusy ? "default" : "pointer",
+                fontSize: 11, fontFamily: "var(--font-sans)",
+              }}
+            >
+              {refreshing ? "Rebuilding…" : "Refresh"}
+            </button>
+          )}
+        </div>
       </div>
 
       {isEmpty ? (
@@ -1126,7 +1445,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
                   <div key={f.key} style={{ marginBottom: 6 }}>
                     <div style={{ fontSize: 10, color: "var(--text-muted)", marginBottom: 1 }}>{f.label}</div>
                     <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                      {Array.isArray(data[f.key]) ? data[f.key].join(", ") : String(data[f.key])}
+                      {renderEMRText(data[f.key])}
                     </div>
                   </div>
                 ))
@@ -1138,10 +1457,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
               <div style={{ marginBottom: 6 }}>
                 <div style={{ fontSize: 10, fontWeight: 700, color: "var(--text-accent)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>Microbiology</div>
                 <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                  {Array.isArray(data.microbiology)
-                    ? <ul style={{ margin: 0, paddingLeft: 14 }}>{data.microbiology.map((v, i) => <li key={i}>{v}</li>)}</ul>
-                    : String(data.microbiology)
-                  }
+                  {renderEMRText(data.microbiology)}
                 </div>
               </div>
             )}
@@ -1151,7 +1467,7 @@ function EMRPanel({ module, emrData, hasHistoryModule }) {
               <div style={{ marginBottom: 6 }}>
                 <div style={{ fontSize: 10, fontWeight: 700, color: "var(--text-accent)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>Histopathology</div>
                 <div style={{ fontSize: 12, color: "var(--text-primary)", padding: "5px 8px", background: "var(--surface-0)", border: "1px solid var(--border)", borderRadius: 5 }}>
-                  {String(data.histopathology)}
+                  {renderEMRText(data.histopathology)}
                 </div>
               </div>
             )}
@@ -1236,7 +1552,15 @@ function ModuleProgressBar({ modules, activeModule, onSwitchModule, progress }) 
 
 // ─── Chat Screen ──────────────────────────────────────────────────────────────
 
-function ChatScreen({ organism, modules, isRandom, onEndCase }) {
+function ChatScreen({
+  organism,
+  modules,
+  isRandom,
+  libraryCaseId,
+  initialPatientStyle,
+  initialAllowPlausibleFindings,
+  onEndCase,
+}) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -1250,8 +1574,14 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
   const [caseContext, setCaseContext] = useState(null);
   const [revealedInfo, setRevealedInfo] = useState({});
   const [progress, setProgress] = useState({});
-  // EMR data persists across module switches; initialized from caseContext for non-history modules
   const [emrData, setEmrData] = useState({});
+  const [emrBusy, setEmrBusy] = useState(false);
+  const [emrRefreshing, setEmrRefreshing] = useState(false);
+  const [resolvedOrganism, setResolvedOrganism] = useState(organism || "");
+  const [patientStyle, setPatientStyle] = useState(initialPatientStyle || "neutral");
+  const [allowPlausibleFindings, setAllowPlausibleFindings] = useState(!!initialAllowPlausibleFindings);
+  const [showStylePicker, setShowStylePicker] = useState(false);
+  const [sendTarget, setSendTarget] = useState("module");
   const hasHistoryModule = modules.includes("history_taking");
 
   const historyRef = useRef([]);
@@ -1262,37 +1592,114 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
     if (chatboxRef.current) chatboxRef.current.scrollTop = chatboxRef.current.scrollHeight;
   }, [messages]);
 
+  // Poll structured EMR notes (src_simplified-style background extraction)
   useEffect(() => {
+    if (!caseActive || !caseId) return undefined;
+    let cancelled = false;
+    const poll = async () => {
+      try {
+        const res = await fetch(`${API_BASE}/emr_notes/${encodeURIComponent(caseId)}`);
+        if (!res.ok) return;
+        const data = await res.json();
+        if (cancelled) return;
+        if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+        setEmrBusy(Boolean(data.emr_busy));
+      } catch {
+        // ignore transient poll errors
+      }
+    };
+    poll();
+    const interval = setInterval(poll, emrBusy ? 1500 : 4000);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
+  }, [caseActive, caseId, emrBusy]);
+
+  useEffect(() => {
+    // React StrictMode remounts in dev and re-runs this effect. Cancel stale
+    // responses so a slower second start_case cannot overwrite the UI with a
+    // different randomized library case / greeting.
+    let cancelled = false;
+    const controller = new AbortController();
+
     (async () => {
       try {
+        const payload = {
+          case_id: caseId,
+          model_name: null,
+          enable_guidelines: false,
+          patient_style: patientStyle,
+          allow_plausible_findings: allowPlausibleFindings,
+        };
+        if (libraryCaseId) payload.library_case_id = libraryCaseId;
+        if (organism) payload.organism = organism;
         const res = await fetch(`${API_BASE}/start_case`, {
-          method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ organism, case_id: caseId, model_name: null, enable_guidelines: false }),
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+          signal: controller.signal,
         });
         if (!res.ok) throw new Error(`Server error ${res.status}`);
         const data = await res.json();
-        const msg = { role: "assistant", content: data.initial_message };
-        historyRef.current = [msg];
-        setMessages([msg]);
-        // Extract chief complaint from first message (first sentence of patient speech)
-        const firstSentence = data.initial_message.split(/[.!?]/)[0]?.trim();
-        if (firstSentence) setChiefComplaint(firstSentence + ".");
-        // Extract structured context from history
+        if (cancelled) return;
+
+        if (data.organism) setResolvedOrganism(data.organism);
+        if (data.patient_style) setPatientStyle(data.patient_style);
+        if (typeof data.allow_plausible_findings === "boolean") {
+          setAllowPlausibleFindings(data.allow_plausible_findings);
+        }
+
+        const opening = (data.opening_messages && data.opening_messages.length > 0)
+          ? data.opening_messages.map(m => ({
+            role: "assistant",
+            speaker: m.speaker || "tutor",
+            content: stripAgentMarkers(m.content || ""),
+          }))
+          : [{ role: "assistant", speaker: "tutor", content: stripAgentMarkers(data.initial_message || "") }];
+
+        historyRef.current = opening;
+        setMessages(opening);
+
+        const caseSpeakerMsg = opening.find(m => m.speaker && m.speaker !== "tutor");
+        const presentation = (
+          stripAgentMarkers(data.presentation || "")
+          || caseSpeakerMsg?.content
+          || extractPresentation(data)
+          || ""
+        ).trim();
+        if (presentation) setChiefComplaint(presentation);
+        setEmrData(prev => ({
+          ...prev,
+          chief_complaint: presentation || "Initial presentation",
+        }));
+        if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+        setEmrBusy(true);
         if (data.history) extractCaseContext(data);
         setCaseActive(true);
       } catch (err) {
+        if (cancelled || err?.name === "AbortError") return;
         setError(`Could not connect to server: ${err.message}`);
       } finally {
-        setStarting(false);
-        setTimeout(() => inputRef.current?.focus(), 100);
+        if (!cancelled) {
+          setStarting(false);
+          setTimeout(() => inputRef.current?.focus(), 100);
+        }
       }
     })();
+
+    return () => {
+      cancelled = true;
+      controller.abort();
+    };
   }, []);
 
-  const sendMessage = useCallback(async () => {
-    const text = input.trim();
+  const sendMessage = useCallback(async (overrideText, options = {}) => {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
     if (!text || loading || !caseActive) return;
-    setInput("");
+    const moduleForSend = options.activeModule || activeModule;
+    const routeToDocent = options.routeToDocent ?? (sendTarget === "docent");
+    if (typeof overrideText !== "string") setInput("");
     setError(null);
 
     const userMsg = { role: "user", content: text };
@@ -1306,12 +1713,26 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
     try {
       const res = await fetch(`${API_BASE}/chat`, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: text, history: historyRef.current, organism_key: organism, case_id: caseId, model_name: null, feedback_enabled: true, current_phase: currentPhase }),
+        body: JSON.stringify({
+          message: text,
+          history: historyRef.current,
+          organism_key: resolvedOrganism || organism,
+          case_id: caseId,
+          model_name: null,
+          feedback_enabled: true,
+          current_phase: currentPhase,
+          patient_style: patientStyle,
+          allow_plausible_findings: allowPlausibleFindings,
+          active_module: moduleForSend,
+          route_to: routeToDocent ? "tutor" : null,
+        }),
       });
       if (!res.ok) throw new Error(`Server error ${res.status}`);
 
       const contentType = res.headers.get("content-type") || "";
       let responseText = "";
+      let toolsUsed = [];
+      let replySpeaker = routeToDocent ? "tutor" : "patient";
 
       if (contentType.includes("text/event-stream")) {
         const reader = res.body.getReader();
@@ -1326,6 +1747,13 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
                 if (p.content) { responseText += p.content; setMessages(prev => prev.map(m => m.id === streamingId ? { ...m, content: responseText } : m)); }
                 if (p.phase) setCurrentPhase(p.phase);
                 if (p.revealed_info) setRevealedInfo(prev => ({ ...prev, ...p.revealed_info }));
+                if (p.emr_data) setEmrData(prev => applyEmrData(prev, p.emr_data));
+                if (typeof p.emr_busy === "boolean") setEmrBusy(p.emr_busy);
+                if (Array.isArray(p.tools_used)) toolsUsed = p.tools_used;
+                if (Array.isArray(p.revealed_figures) && p.revealed_figures.length) {
+                  applyRevealedFigureNumbers(p.revealed_figures, setCaseContext);
+                }
+                if (p.speaker) replySpeaker = p.speaker;
               } catch {}
             }
           }
@@ -1333,42 +1761,97 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       } else {
         const data = await res.json();
         responseText = data.response || data.content || data.message || JSON.stringify(data);
+        toolsUsed = data.tools_used || data.metadata?.tools_used || [];
         if (data.metadata?.current_phase) setCurrentPhase(data.metadata.current_phase);
         if (data.metadata?.revealed_info) {
           setRevealedInfo(prev => ({ ...prev, ...data.metadata.revealed_info }));
-          setEmrData(prev => ({ ...prev, ...data.metadata.revealed_info }));
         }
-        // Increment progress for active module
+        if (data.emr_data) {
+          setEmrData(prev => applyEmrData(prev, data.emr_data));
+        } else if (Array.isArray(data.emr_notes) && data.emr_notes.length) {
+          setEmrBusy(true);
+        }
+        if (typeof data.emr_busy === "boolean") setEmrBusy(data.emr_busy);
+        else setEmrBusy(true);
+        const revealedNums = data.revealed_figures || data.metadata?.revealed_figures;
+        if (Array.isArray(revealedNums) && revealedNums.length) {
+          applyRevealedFigureNumbers(revealedNums, setCaseContext);
+        }
+        if (data.speaker || data.metadata?.speaker) {
+          replySpeaker = data.speaker || data.metadata.speaker;
+        } else if (toolsUsed.includes("patient")) {
+          replySpeaker = "patient";
+        } else if (toolsUsed.includes("socratic") || toolsUsed.includes("tests_management") || toolsUsed.includes("pathophys_epi")) {
+          replySpeaker = "tutor";
+        } else if (routeToDocent) {
+          replySpeaker = "tutor";
+        }
         setProgress(prev => ({
           ...prev,
-          [activeModule]: Math.min(100, (prev[activeModule] || 0) + 12),
+          [moduleForSend]: Math.min(100, (prev[moduleForSend] || 0) + 12),
         }));
       }
 
-      const aMsg = { role: "assistant", content: responseText };
+      const cleanReply = stripAgentMarkers(responseText);
+      const aMsg = { role: "assistant", speaker: replySpeaker, content: cleanReply };
       historyRef.current = [...historyRef.current, aMsg];
       setMessages(prev => prev.map(m => m.id === streamingId ? aMsg : m));
+      if (routeToDocent) setSendTarget("module");
     } catch (err) {
       setMessages(prev => prev.filter(m => m.id !== streamingId));
       setError(`Message failed: ${err.message}`);
     } finally {
       setLoading(false);
     }
-  }, [input, loading, caseActive, organism, caseId, currentPhase, activeModule]);
+  }, [input, loading, caseActive, organism, resolvedOrganism, caseId, currentPhase, activeModule, patientStyle, allowPlausibleFindings, sendTarget]);
 
+  // V4-style: clicking a module tab sends a transition and kicks off that module's agent
+  const transitionToModule = useCallback((modId) => {
+    if (!caseActive || loading || !modId || modId === activeModule) return;
+    const mod = MODULES.find(m => m.id === modId);
+    if (!mod) return;
+    setActiveModule(modId);
+    setSendTarget("module");
+    sendMessage(`Let's move onto module: ${mod.label}`, {
+      activeModule: modId,
+      routeToDocent: false,
+    });
+  }, [caseActive, loading, activeModule, sendMessage]);
   const handleFeedback = useCallback(async (msg, rating) => {
     try {
       await fetch(`${API_BASE}/feedback`, {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ rating, message: msg.content, history: historyRef.current, case_id: caseId, organism }),
+        body: JSON.stringify({ rating, message: msg.content, history: historyRef.current, case_id: caseId, organism: resolvedOrganism || organism }),
       });
     } catch {}
-  }, [caseId, organism]);
+  }, [caseId, organism, resolvedOrganism]);
+
+  const handleEmrRefresh = useCallback(async () => {
+    if (!caseId || emrRefreshing) return;
+    setEmrRefreshing(true);
+    setEmrBusy(true);
+    try {
+      const res = await fetch(`${API_BASE}/emr_refresh/${encodeURIComponent(caseId)}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ history: historyRef.current }),
+      });
+      if (!res.ok) throw new Error(`Server error ${res.status}`);
+      const data = await res.json();
+      if (data.emr_data) setEmrData(prev => applyEmrData(prev, data.emr_data));
+      setEmrBusy(Boolean(data.emr_busy));
+    } catch (err) {
+      console.error("EMR refresh failed:", err);
+    } finally {
+      setEmrRefreshing(false);
+    }
+  }, [caseId, emrRefreshing]);
 
   const handleKeyDown = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } };
 
   const [revealed, setRevealed] = useState(false);
-  const orgLabel = ORGANISMS.find(o => o.value === organism)?.label || organism;
+  const displayOrganism = resolvedOrganism || organism;
+  const orgLabel = ORGANISMS.find(o => o.value === displayOrganism)?.label || displayOrganism;
 
   return (
     <div style={{ display: "flex", flexDirection: "column", flex: 1, overflow: "hidden", fontFamily: "var(--font-sans)" }}>
@@ -1416,6 +1899,42 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
               )}
             </>
           )}
+          <button
+            type="button"
+            onClick={() => setShowStylePicker(true)}
+            title="Change patient style"
+            style={{
+              padding: "3px 10px",
+              borderRadius: 999,
+              border: "1px solid var(--border-strong)",
+              background: "var(--surface-0)",
+              color: "var(--text-secondary)",
+              cursor: "pointer",
+              fontSize: 11,
+              fontFamily: "var(--font-sans)",
+            }}
+          >
+            Patient: {patientStyleLabel(patientStyle)}
+          </button>
+          <label
+            title="Provide plausible investigations if missing from case data"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 5,
+              fontSize: 11,
+              color: "var(--text-muted)",
+              cursor: "pointer",
+              fontFamily: "var(--font-sans)",
+            }}
+          >
+            <input
+              type="checkbox"
+              checked={allowPlausibleFindings}
+              onChange={e => setAllowPlausibleFindings(e.target.checked)}
+            />
+            Provide plausible Ix if missing from case
+          </label>
         </div>
 
         {/* New case button — prominent */}
@@ -1433,7 +1952,7 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
       <ModuleProgressBar
         modules={modules}
         activeModule={activeModule}
-        onSwitchModule={setActiveModule}
+        onSwitchModule={transitionToModule}
         progress={progress}
       />
 
@@ -1490,11 +2009,40 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
           )}
 
           {/* Input bar */}
-          <div style={{ padding: "10px 12px", borderTop: "1px solid var(--border)", background: "var(--surface-1)", display: "flex", gap: 6, alignItems: "flex-end", flexShrink: 0 }}>
+          <div style={{ padding: "10px 12px", borderTop: "1px solid var(--border)", background: "var(--surface-1)", flexShrink: 0 }}>
+            <div style={{ display: "flex", gap: 6, marginBottom: 8, flexWrap: "wrap" }}>
+              {[
+                { id: "module", label: moduleSendLabel(activeModule) },
+                { id: "docent", label: "Ask Docent" },
+              ].map(opt => {
+                const active = sendTarget === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    type="button"
+                    onClick={() => setSendTarget(opt.id)}
+                    disabled={!caseActive || loading}
+                    style={{
+                      padding: "5px 10px",
+                      borderRadius: 999,
+                      border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                      background: active ? "var(--bg-accent)" : "var(--surface-0)",
+                      color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                      fontSize: 12,
+                      cursor: caseActive && !loading ? "pointer" : "default",
+                      fontFamily: "var(--font-sans)",
+                    }}
+                  >
+                    {opt.label}
+                  </button>
+                );
+              })}
+            </div>
+            <div style={{ display: "flex", gap: 6, alignItems: "flex-end" }}>
             <textarea ref={inputRef} value={input}
               onChange={e => { setInput(e.target.value); e.target.style.height = "auto"; e.target.style.height = Math.min(e.target.scrollHeight, 120) + "px"; }}
               onKeyDown={handleKeyDown}
-              placeholder={caseActive ? "Message the tutor…" : "Waiting for case to start…"}
+              placeholder={caseActive ? (sendTarget === "docent" ? "Ask Docent for coaching…" : "Message the case…") : "Waiting for case to start…"}
               disabled={!caseActive || loading} rows={1}
               style={{
                 flex: 1, padding: "8px 10px", borderRadius: "var(--radius)",
@@ -1510,7 +2058,8 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
               color: input.trim() && !loading && caseActive ? "var(--on-accent)" : "var(--text-disabled)",
               cursor: input.trim() && !loading && caseActive ? "pointer" : "default",
               fontSize: 13, fontWeight: 500, fontFamily: "var(--font-sans)", flexShrink: 0,
-            }}>Send</button>
+            }}>{sendTarget === "docent" ? "Ask" : "Send"}</button>
+            </div>
           </div>
         </div>
 
@@ -1523,9 +2072,44 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
             module={activeModule}
             emrData={emrData}
             hasHistoryModule={hasHistoryModule}
+            emrBusy={emrBusy}
+            onRefresh={handleEmrRefresh}
+            refreshing={emrRefreshing}
           />
         </div>
       </div>
+
+      {showStylePicker && (
+        <Modal title="Patient style" onClose={() => setShowStylePicker(false)}>
+          <p style={{ fontSize: 13, color: "var(--text-secondary)", margin: "0 0 12px", fontFamily: "var(--font-sans)" }}>
+            Affects how the patient speaks in history (1st person). Exam and test results stay neutral clinical style.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {PATIENT_STYLES.filter(s => s.id !== "random").map(st => {
+              const active = patientStyle === st.id;
+              return (
+                <button
+                  key={st.id}
+                  type="button"
+                  onClick={() => { setPatientStyle(st.id); setShowStylePicker(false); }}
+                  style={{
+                    padding: "8px 14px",
+                    borderRadius: 999,
+                    border: active ? "1.5px solid var(--border-accent)" : "1px solid var(--border-strong)",
+                    background: active ? "var(--bg-accent)" : "var(--surface-1)",
+                    color: active ? "var(--text-accent)" : "var(--text-secondary)",
+                    fontSize: 13,
+                    cursor: "pointer",
+                    fontFamily: "var(--font-sans)",
+                  }}
+                >
+                  {st.label}
+                </button>
+              );
+            })}
+          </div>
+        </Modal>
+      )}
     </div>
   );
 
@@ -1550,8 +2134,60 @@ function ChatScreen({ organism, modules, isRandom, onEndCase }) {
         imaging: d.imaging || "",
       });
     }
-    setCaseContext(null);
+    const figUrls = (data.case_library_id && data.figures && data.figures.length > 0)
+      ? data.figures.map(f => `/case-images/${data.case_library_id}/${f}`)
+      : [];
+    const newContext = {
+      presentation: data.presentation || (data.case_data && (data.case_data.hpi || data.case_data.history_of_present_illness)) || null,
+      examFindings: data.examFindings || (data.case_data && (data.case_data.physical_exam || data.case_data.exam)) || null,
+      investigations: data.investigations || (data.case_data && (data.case_data.labs || data.case_data.laboratory_results)) || null,
+      diagnosis: data.diagnosis || (data.case_data && data.case_data.diagnosis) || null,
+      assessment: data.assessment || (data.case_data && data.case_data.assessment) || null,
+      examImage: data.examImage || null,
+      radiologyImage: data.radiologyImage || null,
+      radiologyNote: data.radiologyNote || null,
+      figures: [],
+      availableFigures: figUrls,
+      revealedFigures: [],
+    };
+    setCaseContext(newContext);
   }
+}
+
+/** Unlock case figures from backend LLM reveal (validated figure numbers). */
+function applyRevealedFigureNumbers(figureNumbers, setCaseContext) {
+  if (!Array.isArray(figureNumbers) || figureNumbers.length === 0) return;
+  setCaseContext(prev => {
+    if (!prev?.availableFigures?.length) return prev;
+    const available = prev.availableFigures;
+    const currentRevealed = prev.revealedFigures || [];
+    const toAdd = [];
+    for (const raw of figureNumbers) {
+      const n = Number(raw);
+      if (!Number.isFinite(n)) continue;
+      const url = available.find(u => u.toLowerCase().includes(`figure${n}.`));
+      if (url && !currentRevealed.includes(url) && !toAdd.includes(url)) toAdd.push(url);
+    }
+    if (toAdd.length === 0) return prev;
+    return { ...prev, revealedFigures: [...currentRevealed, ...toAdd] };
+  });
+}
+
+/** Defensive strip if agent markers leak into displayed chat text. */
+function stripAgentMarkers(text) {
+  if (!text) return text;
+  return String(text)
+    .replace(/\[\[\s*speaker\s*:\s*(patient|family|nurse|tutor)\s*\]\]/gi, "")
+    .replace(/\[\[\s*display_figure\s*:\s*\d+\s*\]\]/gi, "")
+    .replace(/\bdisplay_figure\s*\(\s*\d+\s*\)/gi, "")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+/** @deprecated use stripAgentMarkers */
+function stripDisplayFigureMarkers(text) {
+  return stripAgentMarkers(text);
 }
 
 function AboutImageSlot({
@@ -1827,11 +2463,12 @@ function CaseText({ text, figures, caseId }) {
   );
 }
 
-function CaseDetailPage({ caseId, onBack }) {
+function CaseDetailPage({ caseId, onBack, onStartTutoring }) {
   const [activeTab, setActiveTab] = useState("History");
   const [caseData, setCaseData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [tutorModules, setTutorModules] = useState(["history_taking"]);
 
   useEffect(() => {
     setLoading(true);
@@ -1871,6 +2508,24 @@ function CaseDetailPage({ caseId, onBack }) {
   );
 
   const figures = caseData.figures || [];
+  const organismTags = tagsByType(caseData.tags, "organism");
+  const primaryOrganism = organismTags[0] || "";
+  const canTutor = tutorModules.length > 0;
+
+  const toggleTutorModule = (id) => {
+    setTutorModules(prev =>
+      prev.includes(id) ? prev.filter(m => m !== id) : [...prev, id]
+    );
+  };
+
+  const startTutoring = () => {
+    if (!canTutor || !onStartTutoring) return;
+    onStartTutoring({
+      libraryCaseId: caseId,
+      organism: primaryOrganism,
+      modules: tutorModules,
+    });
+  };
 
   const renderContent = () => {
     if (activeTab === "Diagnosis") {
@@ -1927,11 +2582,36 @@ function CaseDetailPage({ caseId, onBack }) {
               display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28,
             }}>🦠</div>
           )}
-          <div>
+          <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontSize: 11, color: "var(--text-muted)", marginBottom: 4, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.06em" }}>{caseId}</div>
             <h1 style={{ fontSize: 24, fontWeight: 600, color: "var(--text-primary)", margin: 0, lineHeight: 1.3, letterSpacing: "-0.02em" }}>
               {caseData.title}
             </h1>
+            {primaryOrganism && (
+              <div style={{ marginTop: 6, fontSize: 13, color: "var(--text-secondary)", fontStyle: "italic" }}>
+                {primaryOrganism}
+              </div>
+            )}
+            {onStartTutoring && (
+              <button
+                onClick={startTutoring}
+                disabled={!canTutor}
+                style={{
+                  marginTop: 14,
+                  padding: "9px 16px",
+                  borderRadius: "var(--radius)",
+                  border: "none",
+                  background: canTutor ? "var(--fill-accent)" : "var(--fill-disabled)",
+                  color: canTutor ? "var(--on-accent)" : "var(--text-disabled)",
+                  cursor: canTutor ? "pointer" : "default",
+                  fontSize: 13,
+                  fontWeight: 600,
+                  fontFamily: "var(--font-sans)",
+                }}
+              >
+                Start tutoring this case
+              </button>
+            )}
           </div>
         </div>
 
@@ -1987,6 +2667,47 @@ function CaseDetailPage({ caseId, onBack }) {
                   {figures.map((f, idx) => (
                     <CollapsibleImage key={f} title={`Figure ${idx + 1}`} src={`/case-images/${caseId}/${f}`} />
                   ))}
+                </div>
+              </div>
+            )}
+
+            {onStartTutoring && (
+              <div style={{ border: "1px solid var(--border)", borderRadius: 8, overflow: "hidden", background: "var(--surface-1)", marginBottom: 14 }}>
+                <div style={{ padding: "10px 14px", borderBottom: "1px solid var(--border)", background: "var(--surface-0)" }}>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "var(--text-primary)" }}>Tutor modules</div>
+                </div>
+                <div style={{ padding: "10px 14px", display: "flex", flexDirection: "column", gap: 8 }}>
+                  {MODULES.map(mod => {
+                    const active = tutorModules.includes(mod.id);
+                    return (
+                      <label key={mod.id} style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", fontSize: 13, color: "var(--text-secondary)", fontFamily: "var(--font-sans)" }}>
+                        <input
+                          type="checkbox"
+                          checked={active}
+                          onChange={() => toggleTutorModule(mod.id)}
+                        />
+                        <span>{mod.label}</span>
+                      </label>
+                    );
+                  })}
+                  <button
+                    onClick={startTutoring}
+                    disabled={!canTutor}
+                    style={{
+                      marginTop: 4,
+                      padding: "8px 12px",
+                      borderRadius: "var(--radius)",
+                      border: "none",
+                      background: canTutor ? "var(--fill-accent)" : "var(--fill-disabled)",
+                      color: canTutor ? "var(--on-accent)" : "var(--text-disabled)",
+                      cursor: canTutor ? "pointer" : "default",
+                      fontSize: 13,
+                      fontWeight: 600,
+                      fontFamily: "var(--font-sans)",
+                    }}
+                  >
+                    Start tutoring
+                  </button>
                 </div>
               </div>
             )}
@@ -2335,6 +3056,9 @@ export default function DocentID() {
   const [modal, setModal] = useState(null);
 
   const [caseIsRandom, setCaseIsRandom] = useState(false);
+  const [libraryCaseId, setLibraryCaseId] = useState(null);
+  const [casePatientStyle, setCasePatientStyle] = useState("neutral");
+  const [caseAllowPlausibleFindings, setCaseAllowPlausibleFindings] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
   const authToken = user?.token || "";
 
@@ -2393,10 +3117,38 @@ export default function DocentID() {
     setCaseOrganism(null);
     setCaseModules([]);
     setCaseIsRandom(false);
+    setLibraryCaseId(null);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
     setModal(null);
   };
-  const handleStartCase = (organism, modules, isRandom) => { setCaseOrganism(organism); setCaseModules(modules); setCaseIsRandom(!!isRandom); setScreen("chat"); };
-  const handleEndCase = () => { setCaseOrganism(null); setCaseModules([]); setCaseIsRandom(false); setScreen("setup"); };
+  const handleStartCase = (organism, modules, isRandom, options = {}) => {
+    setCaseOrganism(organism);
+    setCaseModules(modules);
+    setCaseIsRandom(!!isRandom);
+    setLibraryCaseId(null);
+    setCasePatientStyle(options.patientStyle || resolvePatientStyle(options.styleSelection || "neutral"));
+    setCaseAllowPlausibleFindings(!!options.allowPlausibleFindings);
+    setScreen("chat");
+  };
+  const handleStartFromLibrary = ({ libraryCaseId: libId, organism, modules }) => {
+    setCaseOrganism(organism || libId);
+    setCaseModules(modules?.length ? modules : ["history_taking"]);
+    setCaseIsRandom(false);
+    setLibraryCaseId(libId);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
+    setScreen("chat");
+  };
+  const handleEndCase = () => {
+    setCaseOrganism(null);
+    setCaseModules([]);
+    setCaseIsRandom(false);
+    setLibraryCaseId(null);
+    setCasePatientStyle("neutral");
+    setCaseAllowPlausibleFindings(false);
+    setScreen("setup");
+  };
 
   useEffect(() => {
     if (!authToken || screen === "login") return;
@@ -2453,7 +3205,17 @@ export default function DocentID() {
         />
 
         {screen === "setup" && <SetupScreen onStart={handleStartCase} />}
-        {screen === "chat" && caseOrganism && <ChatScreen organism={caseOrganism} modules={caseModules} isRandom={caseIsRandom} onEndCase={handleEndCase} />}
+        {screen === "chat" && caseOrganism && (
+          <ChatScreen
+            organism={caseOrganism}
+            modules={caseModules}
+            isRandom={caseIsRandom}
+            libraryCaseId={libraryCaseId}
+            initialPatientStyle={casePatientStyle}
+            initialAllowPlausibleFindings={caseAllowPlausibleFindings}
+            onEndCase={handleEndCase}
+          />
+        )}
         {screen === "about_architecture" && <AboutArchitecturePage onBack={() => navigate("setup")} />}
         {screen === "about_team" && <AboutTeamPage onBack={() => navigate("setup")} />}
         {screen === "case_library" && <CaseLibraryPage onBack={() => navigate("setup")} onOpenCase={openCase} />}
@@ -2461,7 +3223,13 @@ export default function DocentID() {
           && <TagReviewPage onBack={() => navigate("setup")} authToken={authToken} currentUser={user} />}
         {screen === "tasks" && <TasksPage onBack={() => navigate("setup")} authToken={authToken} />}
         {screen === "admin" && user.role === "admin" && <AdminPage onBack={() => navigate("setup")} authToken={authToken} />}
-        {screen === "case_detail" && selectedCase && <CaseDetailPage caseId={selectedCase} onBack={() => navigate("case_library")} />}
+        {screen === "case_detail" && selectedCase && (
+          <CaseDetailPage
+            caseId={selectedCase}
+            onBack={() => navigate("case_library")}
+            onStartTutoring={handleStartFromLibrary}
+          />
+        )}
 
         {modal === "howitworks" && (
           <Modal title="How it works" onClose={() => setModal(null)}>

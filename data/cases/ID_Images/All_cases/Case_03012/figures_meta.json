@@ -1,0 +1,95 @@
+{
+  "Case_03012/figure3.jpg": {
+    "case_id": "Case_03012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03012/figure3.jpg",
+    "source_caption": "Physical finding on leg.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:25:28+00:00"
+  },
+  "Case_03012/figure1.jpg": {
+    "case_id": "Case_03012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03012/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythematous and swollen foot with signs of inflammation.",
+      "detailed_description": "This clinical photograph shows a dorsal view of a foot with marked erythema, swelling, and a shiny appearance of the skin. The redness extends across the dorsal aspect and appears to involve the surrounding soft tissues. There are no visible open wounds or ulcerations, but the findings suggest significant inflammation, possibly cellulitis or another infectious process.",
+      "visible_findings": [
+        "erythema on the dorsal foot",
+        "swelling and shiny skin",
+        "no visible open wounds"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "erythema",
+        "swelling",
+        "inflammation",
+        "cellulitis"
+      ],
+      "reveal_triggers": [
+        "foot infection",
+        "skin erythema",
+        "swollen foot"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 218,
+      "total_tokens": 786
+    }
+  },
+  "Case_03012/figure2.jpg": {
+    "case_id": "Case_03012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03012/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Skin lesion with discoloration and necrosis on the forearm.",
+      "detailed_description": "This clinical photograph shows a forearm with a prominent area of skin discoloration and necrosis. The lesion appears violaceous with central darkening, suggesting necrosis, and is surrounded by erythematous changes. The surrounding skin shows no overt swelling or additional lesions. The image suggests a localized infectious or vascular process.",
+      "visible_findings": [
+        "violaceous discoloration on the forearm",
+        "central necrosis within the lesion",
+        "surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "skin lesion",
+        "necrosis",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "forearm necrosis",
+        "infectious skin process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 217,
+      "total_tokens": 785
+    }
+  }
+}

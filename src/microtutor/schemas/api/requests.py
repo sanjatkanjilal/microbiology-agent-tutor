@@ -5,7 +5,7 @@ Each model includes validation, examples, and comprehensive documentation.
 """
 
 from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field, field_validator, ConfigDict
+from pydantic import BaseModel, Field, field_validator, model_validator, ConfigDict
 from typing import Annotated
 from datetime import datetime
 
@@ -49,20 +49,26 @@ class StartCaseRequest(BaseModel):
     """Request to start a new medical microbiology case.
     
     Attributes:
-        organism: The microorganism for the case
+        organism: The microorganism for the case (optional if library_case_id set)
         case_id: Client-generated unique case ID
+        library_case_id: Optional explicit case_library id (e.g. Case_02032)
         model_name: Optional LLM model to use
     """
     
-    organism: Annotated[str, Field(min_length=1)] = Field(
-        ..., 
-        description="Organism name for the case",
+    organism: Optional[Annotated[str, Field(min_length=1)]] = Field(
+        default=None,
+        description="Organism name for the case (derived from library case if omitted)",
         json_schema_extra={"example": "staphylococcus aureus"}
     )
     case_id: Annotated[str, Field(min_length=1)] = Field(
         ...,
         description="Client-generated unique case ID",
         json_schema_extra={"example": "case_2024_abc123"}
+    )
+    library_case_id: Optional[str] = Field(
+        default=None,
+        description="Explicit case_library id to bind (skips organism random pick)",
+        json_schema_extra={"example": "Case_02032"},
     )
     model_name: Optional[str] = Field(
         default=None,
@@ -72,14 +78,38 @@ class StartCaseRequest(BaseModel):
         default=False,
         description="Whether to enable clinical guidelines for this case"
     )
+    patient_style: Optional[str] = Field(
+        default="neutral",
+        description="Patient communication style (1st-person history voice)",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=False,
+        description="When true, invent plausible ix findings if not in case data",
+    )
     
     @field_validator('organism')
     @classmethod
-    def organism_not_empty(cls, v: str) -> str:
-        """Ensure organism name is not just whitespace."""
+    def organism_not_empty(cls, v: Optional[str]) -> Optional[str]:
+        """Ensure organism name is not just whitespace when provided."""
+        if v is None:
+            return None
         if not v.strip():
             raise ValueError('Organism name cannot be empty')
         return v.strip().lower()
+
+    @field_validator('library_case_id')
+    @classmethod
+    def library_case_id_strip(cls, v: Optional[str]) -> Optional[str]:
+        if v is None:
+            return None
+        cleaned = v.strip()
+        return cleaned or None
+
+    @model_validator(mode="after")
+    def require_organism_or_library_case(self) -> "StartCaseRequest":
+        if not self.library_case_id and not self.organism:
+            raise ValueError("Provide organism and/or library_case_id")
+        return self
     
     model_config = ConfigDict(
         json_schema_extra={
@@ -145,6 +175,22 @@ class ChatRequest(BaseModel):
     current_phase: Optional[str] = Field(
         default=None,
         description="Frontend-reported current phase (e.g. 'information_gathering', 'differential_diagnosis', 'tests_management', 'feedback')"
+    )
+    patient_style: Optional[str] = Field(
+        default=None,
+        description="Patient communication style; updates session when provided",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=None,
+        description="Ix policy toggle; updates session when provided",
+    )
+    active_module: Optional[str] = Field(
+        default=None,
+        description="Frontend module id (e.g. history_taking, differential_diagnosis)",
+    )
+    route_to: Optional[str] = Field(
+        default=None,
+        description="Explicit route: 'tutor' for Ask Docent coach; omit for module agent",
     )
     
     @field_validator('message')

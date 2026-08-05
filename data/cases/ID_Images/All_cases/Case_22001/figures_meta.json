@@ -1,0 +1,252 @@
+{
+  "Case_22001/figure1.jpg": {
+    "case_id": "Case_22001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure1.jpg",
+    "source_caption": "Fig 1A. Physical exam finding of left shoulder violaceous red papule. Fig 1B. Physical exam finding of left shoulder violaceous red papules with central crusting.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left shoulder",
+      "short_caption": "Violaceous red papules on the left shoulder, one with central crusting.",
+      "detailed_description": "The image consists of two panels labeled A and B, showing close-up views of the left shoulder. Panel A depicts a single violaceous red papule with a slightly raised appearance. Panel B shows a similar lesion with central crusting. The surrounding skin appears intact without significant erythema or swelling. Gloves are visible in panel A, indicating a clinical examination setting.",
+      "visible_findings": [
+        "violaceous red papule in panel A",
+        "violaceous red papule with central crusting in panel B",
+        "intact surrounding skin",
+        "clinical examination setting with gloves visible in panel A"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "papule",
+        "shoulder",
+        "crusting",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "shoulder lesion",
+        "papule with crusting"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:16+00:00",
+    "usage": {
+      "prompt_tokens": 620,
+      "completion_tokens": 264,
+      "total_tokens": 884
+    }
+  },
+  "Case_22001/figure2.jpg": {
+    "case_id": "Case_22001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure2.jpg",
+    "source_caption": "Fig 2. Physical exam finding of right nasal tip scab with left nasal ala crusting.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "nose",
+      "short_caption": "Right nasal tip scab and left nasal ala crusting.",
+      "detailed_description": "This clinical photograph shows a scab on the right nasal tip with dark discoloration, consistent with necrosis or eschar formation. Additionally, there is crusting and erythema visible on the left nasal ala. The surrounding skin appears mildly erythematous, with no obvious swelling or purulent discharge. The findings suggest localized tissue damage, potentially due to an infectious or inflammatory process.",
+      "visible_findings": [
+        "scab on right nasal tip",
+        "crusting on left nasal ala",
+        "mild erythema of surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "nose",
+        "scab",
+        "crusting",
+        "erythema",
+        "nasal lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "nasal lesion",
+        "facial infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:24+00:00",
+    "usage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 231,
+      "total_tokens": 972
+    }
+  },
+  "Case_22001/figure4.png": {
+    "case_id": "Case_22001",
+    "filename": "figure4.png",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure4.png",
+    "source_caption": "Fig 4. Tape prep with lactophenol cotton blue stain at 40x magnification on bronchial lavage fungal culture showing hyphae with tuberculate, thick-walled macroconidia consistent with Histoplasma capsulatum.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bronchial lavage",
+      "short_caption": "Lactophenol cotton blue stain showing hyphae and tuberculate macroconidia.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of a bronchial lavage fungal culture at 40x magnification. Numerous branching hyphae are visible, along with thick-walled, tuberculate macroconidia characteristic of certain fungal species. The macroconidia are oval-shaped with a rough surface, and the hyphae are thin and septate. The staining highlights the fungal structures in blue against a light background.",
+      "visible_findings": [
+        "branching, septate hyphae",
+        "thick-walled, tuberculate macroconidia",
+        "blue staining of fungal elements"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "fungal culture",
+        "bronchial lavage",
+        "hyphae",
+        "macroconidia",
+        "histoplasma",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "lactophenol cotton blue",
+        "bronchial lavage culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:27+00:00",
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 272,
+      "total_tokens": 903
+    }
+  },
+  "Case_22001/figure5.png": {
+    "case_id": "Case_22001",
+    "filename": "figure5.png",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure5.png",
+    "source_caption": "Fig 5. Gram stain at 100x magnification from bone marrow biopsy growth in bottle demonstrating yeast.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Gram stain at 100x magnification showing clusters of yeast from bone marrow biopsy growth.",
+      "detailed_description": "This image shows a Gram stain at 100x magnification. Two distinct clusters of round to oval yeast cells are visible, stained blue against a clear background. The yeast cells appear uniform in size and are arranged in tight groupings. The image is consistent with fungal elements, likely yeast, from a bone marrow biopsy culture.",
+      "visible_findings": [
+        "clusters of round to oval yeast cells",
+        "blue staining of yeast cells",
+        "clear background with no visible bacterial elements"
+      ],
+      "keywords": [
+        "gram stain",
+        "yeast",
+        "bone marrow",
+        "fungal infection",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of bone marrow",
+        "yeast infection",
+        "fungal elements in biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:27+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 225,
+      "total_tokens": 829
+    }
+  },
+  "Case_22001/figure6.png": {
+    "case_id": "Case_22001",
+    "filename": "figure6.png",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure6.png",
+    "source_caption": "Fig 6. GMS stain at 40x magnification on bone marrow biopsy demonstrating small budding yeast, unable to distinguish between Cryptococcus and Histoplasma.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bone marrow",
+      "short_caption": "GMS stain of bone marrow biopsy showing small budding yeast forms.",
+      "detailed_description": "This image shows a bone marrow biopsy stained with Gomori methenamine silver (GMS) at 40x magnification. The stain highlights small, round to oval yeast forms with occasional budding. The organisms are darkly stained against a green background, characteristic of fungal elements. The morphology is consistent with small budding yeast, but the stain does not allow differentiation between Cryptococcus and Histoplasma.",
+      "visible_findings": [
+        "small, round to oval yeast forms",
+        "occasional budding yeast",
+        "dark staining of fungal elements with GMS",
+        "green background typical of GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "bone marrow",
+        "fungal infection",
+        "yeast",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "bone marrow biopsy",
+        "fungal infection",
+        "yeast forms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:28+00:00",
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 249,
+      "total_tokens": 864
+    }
+  },
+  "Case_22001/figure3.png": {
+    "case_id": "Case_22001",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22001/figure3.png",
+    "source_caption": "Fig 3. Contrasted computed tomography of the chest. Axial view demonstrating diffuse bilateral ground glass and nodular opacities.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT with contrast showing diffuse bilateral ground-glass and nodular opacities.",
+      "detailed_description": "This is an axial view of a contrasted computed tomography (CT) scan of the chest. The image demonstrates diffuse bilateral ground-glass opacities and nodular opacities distributed throughout both lungs. The heart and mediastinum are centrally located, and the lung parenchyma shows areas of increased attenuation consistent with ground-glass changes. No pleural effusion or significant mediastinal lymphadenopathy is apparent in this slice.",
+      "visible_findings": [
+        "diffuse bilateral ground-glass opacities",
+        "nodular opacities in both lungs",
+        "normal-sized heart and mediastinum",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "nodular opacities",
+        "lung findings",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "ground-glass opacities",
+        "lung nodules",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:31+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 277,
+      "total_tokens": 886
+    }
+  }
+}

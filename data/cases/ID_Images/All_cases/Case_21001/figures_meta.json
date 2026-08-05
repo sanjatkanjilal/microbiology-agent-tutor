@@ -1,0 +1,214 @@
+{
+  "Case_21001/figure1.jpg": {
+    "case_id": "Case_21001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21001/figure1.jpg",
+    "source_caption": "Physical exam finding of the right lateral tongue ulcer.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right lateral tongue",
+      "short_caption": "Ulcerative lesion on the right lateral tongue.",
+      "detailed_description": "This clinical photograph shows a large ulcerative lesion on the right lateral aspect of the tongue. The lesion appears irregular with an erythematous base and surrounding tissue. There is evidence of fibrinous exudate within the ulcer bed, and the lesion is surrounded by inflamed mucosa. The image captures the tongue protruding from the mouth, providing a clear view of the affected area.",
+      "visible_findings": [
+        "ulcerative lesion on the right lateral tongue",
+        "erythematous base",
+        "fibrinous exudate within the ulcer",
+        "surrounding inflamed mucosa"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tongue",
+        "ulcer",
+        "infectious diseases",
+        "oral lesion"
+      ],
+      "reveal_triggers": [
+        "tongue ulcer",
+        "oral lesion",
+        "infectious diseases",
+        "physical exam finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:33+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 247,
+      "total_tokens": 839
+    }
+  },
+  "Case_21001/figure2.jpg": {
+    "case_id": "Case_21001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21001/figure2.jpg",
+    "source_caption": "Figure 2a.High resolution CT Chest without contrast. Axial view with multifocal nodules and opacities with surrounding ground glass halo.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "High-resolution CT chest showing multifocal nodules and opacities with surrounding ground-glass halos.",
+      "detailed_description": "This is an axial view from a high-resolution CT scan of the chest without contrast. The image demonstrates multiple bilateral pulmonary nodules and opacities, some of which are surrounded by ground-glass halos. These findings are suggestive of an infectious or inflammatory process. The trachea and mediastinum appear midline, and no significant pleural effusion is visible.",
+      "visible_findings": [
+        "bilateral pulmonary nodules",
+        "ground-glass halos surrounding some nodules",
+        "no significant pleural effusion",
+        "midline trachea and mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary nodules",
+        "ground-glass halo",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "pulmonary nodules",
+        "ground-glass halo"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:36+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 250,
+      "total_tokens": 861
+    }
+  },
+  "Case_21001/figure3.jpg": {
+    "case_id": "Case_21001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21001/figure3.jpg",
+    "source_caption": "Figure 2b. High resolution CT Chest without contrast. Partial cavitation in the right upper lobe with multifocal nodules.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "High-resolution CT chest showing cavitation in the right upper lobe with multifocal nodules.",
+      "detailed_description": "This is a coronal view from a high-resolution CT scan of the chest without contrast. The right upper lobe demonstrates a partially cavitated lesion, and there are multiple nodules scattered throughout both lungs. The findings suggest a possible infectious or inflammatory process. The lung parenchyma shows areas of increased density consistent with nodular opacities.",
+      "visible_findings": [
+        "partial cavitation in the right upper lobe",
+        "multifocal nodules in both lungs",
+        "no visible pleural effusion",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitation",
+        "nodules",
+        "infection",
+        "inflammatory"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung cavitation",
+        "pulmonary nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:37+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 243,
+      "total_tokens": 852
+    }
+  },
+  "Case_21001/figure4.jpg": {
+    "case_id": "Case_21001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21001/figure4.jpg",
+    "source_caption": "Hematoxylin and eosin (H&E) stain and GMS stain of the proximal jejunum. A) Submucosal inflammation and granulomas B) Granuloma C) Higher magnification of the granuloma to show histoplasmosis microorganisms D) GMS special stain for fungi, low magnification E) GMS special stain for fungi, high magnification. Photo courtesy of Sameer Al Diffalha, MD",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "proximal jejunum",
+      "short_caption": "GMS stain highlighting fungal microorganisms in the proximal jejunum.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of the proximal jejunum at high magnification. The fungal microorganisms are stained black against a green background, consistent with fungal elements. The surrounding tissue shows cellular structures and some inflammatory cells. The staining technique is specific for fungal organisms, aiding in their identification within the tissue.",
+      "visible_findings": [
+        "fungal microorganisms stained black",
+        "green background from GMS stain",
+        "inflammatory cells in the surrounding tissue"
+      ],
+      "keywords": [
+        "gms stain",
+        "fungal infection",
+        "proximal jejunum",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal histopathology",
+        "jejunal biopsy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:37+00:00",
+    "usage": {
+      "prompt_tokens": 672,
+      "completion_tokens": 228,
+      "total_tokens": 900
+    }
+  },
+  "Case_21001/figure5.jpg": {
+    "case_id": "Case_21001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21001/figure5.jpg",
+    "source_caption": "Hematoxylin and eosin (H&E) stain and GMS stain of the proximal jejunum. A) Submucosal inflammation and granulomas B) Granuloma C) Higher magnification of the granuloma to show histoplasmosis microorganisms D) GMS special stain for fungi, low magnification E) GMS special stain for fungi, high magnification. Photo courtesy of Sameer Al Diffalha, MD",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "proximal jejunum",
+      "short_caption": "H&E and GMS stains showing granulomas and fungal microorganisms in the proximal jejunum.",
+      "detailed_description": "This composite image includes five panels: (A) Low magnification H&E stain showing submucosal inflammation and granulomas in the proximal jejunum. (B) A closer view of a granuloma on H&E stain. (C) High magnification H&E stain highlighting intracellular fungal microorganisms consistent with Histoplasma. (D) Low magnification GMS stain showing fungal organisms within granulomas. (E) High magnification GMS stain clearly demonstrating the fungal microorganisms with their characteristic morphology. The GMS stain highlights the fungal cell walls in black against a green background.",
+      "visible_findings": [
+        "submucosal inflammation",
+        "granulomas",
+        "intracellular fungal microorganisms",
+        "fungal organisms highlighted by GMS stain",
+        "characteristic fungal morphology"
+      ],
+      "keywords": [
+        "histopathology",
+        "proximal jejunum",
+        "H&E stain",
+        "GMS stain",
+        "granulomas",
+        "fungal infection",
+        "histoplasmosis"
+      ],
+      "reveal_triggers": [
+        "H&E stain of jejunum",
+        "GMS stain for fungi",
+        "granulomas in histology",
+        "histoplasmosis histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:42+00:00",
+    "usage": {
+      "prompt_tokens": 672,
+      "completion_tokens": 334,
+      "total_tokens": 1006
+    }
+  }
+}

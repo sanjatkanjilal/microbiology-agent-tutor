@@ -1,0 +1,170 @@
+{
+  "Case_05008/figure1.jpg": {
+    "case_id": "Case_05008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05008/figure1.jpg",
+    "source_caption": "MRI scan of the brain (axial T1 with gadolinium).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI with gadolinium showing an enhancing lesion in the brain.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain with gadolinium contrast. The image shows a well-defined, enhancing lesion in the right posterior region of the brain. The lesion demonstrates contrast enhancement, suggesting disruption of the blood-brain barrier. Surrounding tissue appears relatively normal, and the ventricles are symmetric. The orbits and other structures are visible but do not show significant abnormalities.",
+      "visible_findings": [
+        "enhancing lesion in the right posterior brain",
+        "symmetric ventricles",
+        "normal appearance of surrounding brain tissue"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1-weighted",
+        "gadolinium",
+        "enhancing lesion",
+        "infection",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1 with gadolinium",
+        "enhancing brain lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:36+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 247,
+      "total_tokens": 844
+    }
+  },
+  "Case_05008/figure2.jpg": {
+    "case_id": "Case_05008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05008/figure2.jpg",
+    "source_caption": "MRI scan of the brain (axial T1 with gadolinium).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI with gadolinium of the brain.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain with gadolinium contrast. The image shows symmetrical structures of the brain, including the orbits, basal ganglia, and brainstem. There is no obvious enhancement or abnormal signal intensity visible in this slice. The gadolinium contrast highlights vascular structures and areas of potential blood-brain barrier disruption, but no pathological enhancement is apparent in this view.",
+      "visible_findings": [
+        "axial view of the brain",
+        "symmetrical brain structures",
+        "gadolinium contrast enhancement",
+        "no abnormal signal intensity or enhancement visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "axial",
+        "t1",
+        "gadolinium",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "axial t1 with gadolinium",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:39+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 251,
+      "total_tokens": 848
+    }
+  },
+  "Case_05008/figure3.jpg": {
+    "case_id": "Case_05008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05008/figure3.jpg",
+    "source_caption": "MRI scan of the brain (axial T1 with gadolinium).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI with gadolinium showing enhancement in the basal ganglia region.",
+      "detailed_description": "This axial T1-weighted MRI image with gadolinium contrast shows symmetrical enhancement in the basal ganglia region (indicated by arrows). The enhancement suggests an abnormal process, potentially infectious, inflammatory, or vascular in nature. The surrounding brain parenchyma appears relatively normal, and the ventricles are not significantly dilated. The image is de-identified and intended for educational purposes.",
+      "visible_findings": [
+        "symmetrical enhancement in the basal ganglia",
+        "normal surrounding brain parenchyma",
+        "no significant ventricular dilation"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1-weighted",
+        "gadolinium",
+        "basal ganglia",
+        "enhancement"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1 with gadolinium",
+        "basal ganglia enhancement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:42+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 246,
+      "total_tokens": 843
+    }
+  },
+  "Case_05008/figure4.jpg": {
+    "case_id": "Case_05008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05008/figure4.jpg",
+    "source_caption": "MRI scan of the brain (axial T1 with gadolinium).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI with gadolinium showing enhancement in the brainstem region.",
+      "detailed_description": "This axial T1-weighted MRI with gadolinium contrast demonstrates abnormal enhancement in the brainstem region, particularly around the pons and adjacent structures. The enhancement is highlighted by arrows, suggesting a pathological process such as inflammation, infection, or neoplasm. The surrounding brain parenchyma appears relatively normal, and no significant mass effect is evident.",
+      "visible_findings": [
+        "abnormal enhancement in the brainstem region",
+        "arrows indicating areas of interest",
+        "normal surrounding brain parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1",
+        "gadolinium",
+        "brainstem",
+        "enhancement",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t1 with gadolinium",
+        "brainstem enhancement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:44+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 240,
+      "total_tokens": 837
+    }
+  }
+}

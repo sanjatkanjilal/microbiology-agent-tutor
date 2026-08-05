@@ -1,0 +1,125 @@
+{
+  "Case_17008/figure1.jpg": {
+    "case_id": "Case_17008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17008/figure1.jpg",
+    "source_caption": "Hematoxylin and eosin stain of endometrial biopsy (40x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "endometrium",
+      "short_caption": "Hematoxylin and eosin stain of endometrial biopsy showing granuloma formation (40x).",
+      "detailed_description": "This hematoxylin and eosin-stained section of an endometrial biopsy shows a granuloma characterized by a central area of necrosis surrounded by epithelioid histiocytes and a rim of lymphocytes. The surrounding tissue displays inflammatory infiltrates. The magnification is approximately 40x, highlighting cellular details.",
+      "visible_findings": [
+        "central necrotic area",
+        "epithelioid histiocytes",
+        "rim of lymphocytes",
+        "inflammatory infiltrates in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "endometrium",
+        "granuloma",
+        "hematoxylin and eosin",
+        "necrosis",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "endometrial biopsy",
+        "granuloma",
+        "H&E stain",
+        "histopathology of endometrium"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:28+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 258,
+      "total_tokens": 858
+    }
+  },
+  "Case_17008/figure2.jpg": {
+    "case_id": "Case_17008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17008/figure2.jpg",
+    "source_caption": "Gram stain of endometrial biopsy (40x)",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "endometrium",
+      "short_caption": "Gram stain of endometrial biopsy showing bacterial colonies.",
+      "detailed_description": "This image shows a Gram stain of an endometrial biopsy at 40x magnification. The central area contains dense, purple-stained bacterial colonies, indicative of Gram-positive organisms. Surrounding the colonies is a background of lighter-stained tissue, likely representing the endometrial stroma. The distribution and density of the bacteria suggest localized infection.",
+      "visible_findings": [
+        "purple-stained bacterial colonies",
+        "lighter-stained endometrial tissue",
+        "localized clustering of bacteria"
+      ],
+      "keywords": [
+        "gram stain",
+        "endometrium",
+        "bacterial infection",
+        "biopsy",
+        "40x magnification"
+      ],
+      "reveal_triggers": [
+        "gram stain of endometrial biopsy",
+        "endometrial infection",
+        "bacterial colonies in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:30+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 227,
+      "total_tokens": 820
+    }
+  },
+  "Case_17008/figure3.jpg": {
+    "case_id": "Case_17008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17008/figure3.jpg",
+    "source_caption": "Methenamine silver stain of endometrial biopsy (40x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "endometrium",
+      "short_caption": "Methenamine silver stain of endometrial biopsy showing fungal elements (40x magnification).",
+      "detailed_description": "This is a high-magnification (40x) methenamine silver stain of an endometrial biopsy. The image highlights fungal elements, which appear as darkly stained, branching, septate hyphae against a green background. The surrounding tissue is less prominently stained, providing contrast to the fungal structures. The methenamine silver stain is commonly used to identify fungal organisms in tissue samples.",
+      "visible_findings": [
+        "darkly stained branching fungal hyphae",
+        "septate hyphae",
+        "green background tissue contrast"
+      ],
+      "keywords": [
+        "methenamine silver stain",
+        "endometrium",
+        "fungal hyphae",
+        "histopathology",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "methenamine silver stain",
+        "fungal infection biopsy",
+        "endometrial histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:40+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 251,
+      "total_tokens": 847
+    }
+  }
+}

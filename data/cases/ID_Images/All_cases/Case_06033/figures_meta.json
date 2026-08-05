@@ -1,0 +1,42 @@
+{
+  "Case_06033/figure1.jpg": {
+    "case_id": "Case_06033",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06033/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Close-up of skin with numerous small, white papules.",
+      "detailed_description": "This clinical photograph shows a close-up view of the skin. The surface is covered with numerous small, white papules distributed diffusely. The surrounding skin appears slightly erythematous and hair follicles are visible. The image suggests a dermatologic condition, possibly involving follicular or sweat gland involvement.",
+      "visible_findings": [
+        "numerous small, white papules",
+        "slightly erythematous skin",
+        "visible hair follicles"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "papules",
+        "dermatology",
+        "rash"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash with papules",
+        "dermatologic findings"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 205,
+      "total_tokens": 773
+    }
+  }
+}

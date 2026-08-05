@@ -1,0 +1,42 @@
+{
+  "Case_03120/figure1.jpg": {
+    "case_id": "Case_03120",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03120/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "periorbital skin",
+      "short_caption": "Multiple small, dome-shaped papules on the periorbital skin.",
+      "detailed_description": "This clinical photograph shows the periorbital region of an individual with multiple small, dome-shaped, flesh-colored papules. The lesions are distributed around the lower eyelid and adjacent cheek area. The skin appears otherwise normal, with no significant erythema or inflammation surrounding the lesions. The appearance is consistent with a benign condition, possibly molluscum contagiosum or another similar dermatologic entity.",
+      "visible_findings": [
+        "multiple small, dome-shaped papules",
+        "flesh-colored lesions",
+        "distribution around the lower eyelid and cheek"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "periorbital skin",
+        "papules",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "periorbital papules",
+        "molluscum contagiosum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 245,
+      "total_tokens": 813
+    }
+  }
+}

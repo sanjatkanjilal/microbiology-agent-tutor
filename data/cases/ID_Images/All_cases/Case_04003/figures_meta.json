@@ -1,0 +1,215 @@
+{
+  "Case_04003/figure5.jpg": {
+    "case_id": "Case_04003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04003/figure5.jpg",
+    "source_caption": "Acid-fast (Ziehl-Neelson) stain from culture.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Acid-fast (Ziehl-Neelson) stain showing branching filamentous structures.",
+      "detailed_description": "This image shows an acid-fast (Ziehl-Neelson) stain from a culture. The field contains branching, filamentous structures that stain bright red against a pale green background. These features are characteristic of acid-fast organisms, such as Nocardia species or Mycobacterium species. The branching morphology is particularly suggestive of Nocardia.",
+      "visible_findings": [
+        "Branching filamentous structures",
+        "Bright red staining on Ziehl-Neelson stain",
+        "Pale green background"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "ziehl-neelson",
+        "branching filaments",
+        "nocardia",
+        "mycobacterium",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "ziehl-neelson stain",
+        "branching filaments",
+        "nocardia culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:12+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 248,
+      "total_tokens": 843
+    }
+  },
+  "Case_04003/figure2.jpg": {
+    "case_id": "Case_04003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04003/figure2.jpg",
+    "source_caption": "Chest radiograph, lateral view.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph displaying the thoracic cavity. The image shows the lung fields, spine, and diaphragm. There is evidence of increased radiodensity in the lower lung fields, which may suggest consolidation or fluid accumulation. The heart and mediastinal structures are partially visible. The image quality is adequate for interpretation, with clear visualization of bony and soft tissue structures.",
+      "visible_findings": [
+        "lateral view of thorax",
+        "increased radiodensity in lower lung fields",
+        "spine and diaphragm visible",
+        "heart and mediastinal structures partially visible"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lung fields",
+        "radiodensity"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung imaging",
+        "thoracic radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:14+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 244,
+      "total_tokens": 833
+    }
+  },
+  "Case_04003/figure4.jpg": {
+    "case_id": "Case_04003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04003/figure4.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing cavitary lesion in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a cavitary lesion in the right lung, with surrounding consolidation and ground-glass opacities. The lesion appears irregular with thickened walls, suggestive of an infectious or inflammatory process. The left lung shows no comparable abnormalities. The mediastinum and bony structures appear unremarkable in this slice.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "surrounding consolidation",
+        "ground-glass opacities",
+        "normal left lung in this slice",
+        "unremarkable mediastinum and bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "infection",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "cavitary lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:14+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 240,
+      "total_tokens": 826
+    }
+  },
+  "Case_04003/figure3.jpg": {
+    "case_id": "Case_04003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04003/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates significant abnormalities in both lungs. The left lung shows areas of consolidation with air bronchograms, suggesting alveolar filling processes. The right lung exhibits patchy ground-glass opacities and consolidation. There is no clear evidence of pleural effusion or pneumothorax. The mediastinum appears central, and no gross abnormalities of the heart or great vessels are visible.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "air bronchograms in the left lung",
+        "patchy ground-glass opacities in the right lung",
+        "no pleural effusion",
+        "no pneumothorax"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "pneumonia imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:15+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 253,
+      "total_tokens": 839
+    }
+  },
+  "Case_04003/figure1.jpg": {
+    "case_id": "Case_04003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04003/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing right-sided pleural effusion.",
+      "detailed_description": "This is a frontal chest radiograph showing evidence of a right-sided pleural effusion, indicated by blunting of the right costophrenic angle and increased opacification in the right lower lung field. The left lung appears clear, and the cardiac silhouette is within normal limits. The trachea is midline, and there is no visible pneumothorax. The skeletal structures, including the clavicles and ribs, appear intact.",
+      "visible_findings": [
+        "right-sided pleural effusion",
+        "blunting of the right costophrenic angle",
+        "increased opacification in the right lower lung field",
+        "clear left lung",
+        "midline trachea",
+        "intact skeletal structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pleural effusion",
+        "thorax",
+        "costophrenic angle",
+        "opacification"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:20+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 278,
+      "total_tokens": 864
+    }
+  }
+}

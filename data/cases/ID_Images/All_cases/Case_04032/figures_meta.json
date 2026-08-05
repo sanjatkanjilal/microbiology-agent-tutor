@@ -1,0 +1,88 @@
+{
+  "Case_04032/figure1.jpg": {
+    "case_id": "Case_04032",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04032/figure1.jpg",
+    "source_caption": "CT scan of the head.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial CT scan of the head showing a ring-enhancing lesion in the right hemisphere.",
+      "detailed_description": "This axial non-contrast CT scan of the head shows a well-defined ring-enhancing lesion in the right hemisphere, near the basal ganglia. Surrounding the lesion is hypodense edema, and there is mild midline shift to the left. The ventricles appear slightly compressed on the right side. These findings are suggestive of a space-occupying lesion, possibly an abscess or neoplasm.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right hemisphere",
+        "surrounding hypodense edema",
+        "mild midline shift to the left",
+        "compression of the right lateral ventricle"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "ring-enhancing lesion",
+        "edema",
+        "midline shift",
+        "space-occupying lesion"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "ring-enhancing lesion",
+        "brain abscess",
+        "space-occupying lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:54+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 265,
+      "total_tokens": 853
+    }
+  },
+  "Case_04032/figure2.jpg": {
+    "case_id": "Case_04032",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04032/figure2.jpg",
+    "source_caption": "Figure 2. Follow up CT scanning, day 60.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Axial CT of the brain showing follow-up findings on day 60.",
+      "detailed_description": "This axial non-contrast CT image of the brain demonstrates symmetrical ventricular structures and no significant midline shift. There is evidence of hypodensity in the periventricular white matter, suggestive of chronic changes. The sulci and gyri appear preserved, and no acute hemorrhage or mass effect is visible. The findings may represent sequelae of a prior event or chronic pathology.",
+      "visible_findings": [
+        "symmetrical ventricular structures",
+        "hypodensity in periventricular white matter",
+        "no midline shift",
+        "no acute hemorrhage",
+        "preserved sulci and gyri"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "axial",
+        "hypodensity",
+        "chronic changes",
+        "ventricles"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "follow-up imaging",
+        "day 60 ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:57+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 249,
+      "total_tokens": 844
+    }
+  }
+}

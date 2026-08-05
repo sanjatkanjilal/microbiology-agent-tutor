@@ -1,0 +1,206 @@
+{
+  "Case_15002/figure3.jpg": {
+    "case_id": "Case_15002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15002/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Blood agar plate showing large, mucoid colonies.",
+      "detailed_description": "This image shows a blood agar plate with large, mucoid colonies that appear to have a smooth, shiny surface. The colonies are well-demarcated and exhibit a translucent to opaque appearance. The plate is being held with gloved hands, and the background is neutral. The growth pattern suggests a bacterial organism with a mucoid phenotype, potentially indicative of a capsule-producing pathogen.",
+      "visible_findings": [
+        "blood agar plate",
+        "large, mucoid colonies",
+        "smooth, shiny surface",
+        "well-demarcated growth"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "mucoid colonies",
+        "bacterial growth",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "bacterial culture",
+        "blood agar plate",
+        "mucoid colonies"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  },
+  "Case_15002/figure5.jpg": {
+    "case_id": "Case_15002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15002/figure5.jpg",
+    "source_caption": "Physical findings on 2nd day, after pars plana vitrectomy.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "eye",
+      "short_caption": "Postoperative findings on the second day after pars plana vitrectomy.",
+      "detailed_description": "This is a close-up clinical photograph of the right eye. The conjunctiva appears injected with prominent blood vessels, suggesting conjunctival hyperemia. The cornea is clear, and the pupil is round and reactive to light, with a central reflection visible. There is no obvious hypopyon or significant corneal edema. The image is consistent with postoperative changes following pars plana vitrectomy.",
+      "visible_findings": [
+        "conjunctival injection",
+        "clear cornea",
+        "round pupil",
+        "central light reflection"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "postoperative",
+        "pars plana vitrectomy",
+        "conjunctival injection"
+      ],
+      "reveal_triggers": [
+        "eye exam",
+        "postoperative eye",
+        "pars plana vitrectomy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:01+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 230,
+      "total_tokens": 827
+    }
+  },
+  "Case_15002/figure4.jpg": {
+    "case_id": "Case_15002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15002/figure4.jpg",
+    "source_caption": "Gram stain of Bacillus cereus group, not B. anthracis.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing Gram-positive rods consistent with Bacillus species.",
+      "detailed_description": "This Gram stain image shows numerous purple-staining, rod-shaped bacteria, consistent with Gram-positive bacilli. The rods are arranged in clusters and chains, characteristic of Bacillus species. The background is lightly stained, providing contrast to the bacteria. There is no evidence of spores visible in this field.",
+      "visible_findings": [
+        "purple-staining rods indicating Gram-positive bacteria",
+        "clustered and chain-like arrangement of rods",
+        "absence of visible spores in the field"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacillus",
+        "gram-positive rods",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacillus cereus",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:02+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 212,
+      "total_tokens": 810
+    }
+  },
+  "Case_15002/figure1.jpg": {
+    "case_id": "Case_15002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15002/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye and periorbital region",
+      "short_caption": "Erythema and swelling of the left eye with conjunctival injection.",
+      "detailed_description": "This clinical photograph shows the left eye and surrounding periorbital region. There is marked erythema and swelling of the upper and lower eyelids, with associated conjunctival injection and chemosis. The sclera appears inflamed, and there is evidence of discharge at the medial canthus. The patient’s upper eyelid is being lifted to better visualize the conjunctiva and sclera.",
+      "visible_findings": [
+        "erythema and swelling of the upper and lower eyelids",
+        "conjunctival injection",
+        "chemosis",
+        "discharge at the medial canthus"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "periorbital swelling",
+        "conjunctival injection",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "eye infection",
+        "periorbital swelling",
+        "red eye"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 255,
+      "total_tokens": 823
+    }
+  },
+  "Case_15002/figure2.jpg": {
+    "case_id": "Case_15002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15002/figure2.jpg",
+    "source_caption": "Gram stain of culture of anterior chamber aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "anterior chamber aspirate",
+      "short_caption": "Gram stain showing Gram-positive bacilli from anterior chamber aspirate.",
+      "detailed_description": "This is a Gram stain image viewed under a microscope, showing purple-staining Gram-positive bacilli against a light background. The bacilli appear rod-shaped and are scattered across the field. The image is consistent with a sample from an anterior chamber aspirate, as indicated in the case description.",
+      "visible_findings": [
+        "Gram-positive bacilli (purple rods)",
+        "Scattered distribution of organisms",
+        "Light background typical of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "anterior chamber",
+        "bacteria",
+        "gram-positive bacilli",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of anterior chamber aspirate",
+        "gram-positive bacilli",
+        "eye infection microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:03+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 219,
+      "total_tokens": 811
+    }
+  }
+}

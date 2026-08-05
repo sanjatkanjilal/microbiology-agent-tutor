@@ -1,0 +1,165 @@
+{
+  "Case_03049/figure1.jpg": {
+    "case_id": "Case_03049",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03049/figure1.jpg",
+    "source_caption": "Rash on back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous papule with surrounding redness on the back.",
+      "detailed_description": "This clinical photograph shows a portion of the back with a prominent erythematous papule at the center. The lesion is surrounded by mild redness, and there are scattered smaller red macules in the surrounding skin. The image is well-lit, and the lesion is clearly visible against the lighter skin tone.",
+      "visible_findings": [
+        "central erythematous papule",
+        "surrounding redness",
+        "scattered smaller red macules"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "erythematous papule",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "rash on back",
+        "skin lesion",
+        "erythematous papule"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:05+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 214,
+      "total_tokens": 800
+    }
+  },
+  "Case_03049/figure4.jpg": {
+    "case_id": "Case_03049",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03049/figure4.jpg",
+    "source_caption": "Detail of leg lesion.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Small ulcerated lesion with surrounding erythema on the leg.",
+      "detailed_description": "This clinical photograph shows a small, round, ulcerated lesion on the skin of the leg. The lesion has a dark, crusted center surrounded by a rim of erythema, suggesting inflammation. The surrounding skin appears otherwise unremarkable, with no visible signs of extensive swelling or additional lesions. The lesion's appearance is consistent with a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "small ulcerated lesion",
+        "dark crusted center",
+        "surrounding erythema",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "skin lesion",
+        "ulcer",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "leg ulcer",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:05+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 223,
+      "total_tokens": 810
+    }
+  },
+  "Case_03049/figure2.jpg": {
+    "case_id": "Case_03049",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03049/figure2.jpg",
+    "source_caption": "Rash on leg.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Erythematous maculopapular rash on the leg.",
+      "detailed_description": "The image shows a close-up view of the skin on the leg. There are multiple small, erythematous macules and papules scattered across the surface. The lesions are discrete and do not appear to coalesce. The surrounding skin appears normal without significant edema or scaling. The photograph is well-lit, and the lesions are clearly visible.",
+      "visible_findings": [
+        "erythematous macules",
+        "erythematous papules",
+        "discrete distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "rash",
+        "maculopapular",
+        "erythematous"
+      ],
+      "reveal_triggers": [
+        "rash on leg",
+        "skin exam",
+        "maculopapular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:08+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 227,
+      "total_tokens": 813
+    }
+  },
+  "Case_03049/figure3.jpg": {
+    "case_id": "Case_03049",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03049/figure3.jpg",
+    "source_caption": "Lesion on leg.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "leg",
+      "short_caption": "Small ulcerated lesion on the leg with surrounding erythema.",
+      "detailed_description": "The image shows a small, round, ulcerated lesion on the skin of the leg. The lesion has a dark central area suggestive of necrosis or scabbing, surrounded by a rim of erythema. The surrounding skin appears otherwise unremarkable, with no visible signs of extensive swelling or additional lesions. The lesion's characteristics may suggest an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "small round ulcerated lesion",
+        "dark central area (necrosis or scab)",
+        "surrounding erythema",
+        "no visible swelling or additional lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "leg",
+        "ulcer",
+        "erythema",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "leg ulcer",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:09+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 234,
+      "total_tokens": 821
+    }
+  }
+}

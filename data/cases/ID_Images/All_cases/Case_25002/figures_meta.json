@@ -1,0 +1,418 @@
+{
+  "Case_25002/figure3.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure3.jpg",
+    "source_caption": "Pathology Slide 2 (GMS) - Respiratory viral panel (Negative)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain showing fungal elements in lung tissue.",
+      "detailed_description": "This is a histopathology slide stained with Gomori methenamine silver (GMS), highlighting fungal elements as black or dark brown circular structures against a green background. The tissue appears to be lung parenchyma, with fungal organisms distributed throughout. The GMS stain is specific for fungal cell walls, aiding in the identification of fungal infections. No viral inclusions are visible, consistent with the negative respiratory viral panel.",
+      "visible_findings": [
+        "dark circular fungal elements",
+        "green-stained background tissue",
+        "fungal distribution within lung parenchyma"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung",
+        "fungal infection",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "lung histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:17+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 235,
+      "total_tokens": 834
+    }
+  },
+  "Case_25002/figure1.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure1.jpg",
+    "source_caption": "Initial CT from 2022",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial CT of the chest showing heterogeneous consolidation in the left lung.",
+      "detailed_description": "This axial CT image of the chest demonstrates significant heterogeneous consolidation in the left lung, with areas of air bronchograms visible. The right lung appears relatively clear. The mediastinum and heart are centrally located, and no obvious pleural effusion is seen. The image is a non-contrast study, as no enhancement is evident.",
+      "visible_findings": [
+        "heterogeneous consolidation in the left lung",
+        "air bronchograms in the left lung",
+        "clear right lung",
+        "no pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung consolidation",
+        "air bronchograms",
+        "thorax imaging"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:20+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 222,
+      "total_tokens": 811
+    }
+  },
+  "Case_25002/figure2.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure2.jpg",
+    "source_caption": "Pathology Slide 1(H&E stain)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology slide showing inflammation and necrosis (H&E stain).",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), shows a region of tissue with prominent inflammatory cell infiltration, including neutrophils and other immune cells, surrounding areas of necrosis. The tissue architecture is disrupted, and there are scattered cellular debris and eosinophilic necrotic material. The background shows preserved areas of tissue with less inflammation.",
+      "visible_findings": [
+        "inflammatory cell infiltration",
+        "necrotic tissue",
+        "disrupted tissue architecture",
+        "scattered cellular debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "h&e stain",
+        "inflammation",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "h&e stain",
+        "pathology slide",
+        "tissue necrosis",
+        "inflammatory histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:21+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 240,
+      "total_tokens": 831
+    }
+  },
+  "Case_25002/figure10.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure10.jpg",
+    "figure_number": 10,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure10.jpg",
+    "source_caption": "Trend of Urinary Antigen",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Graph showing the trend of urinary antigen levels over four years.",
+      "detailed_description": "This image is a line graph depicting the trend of urinary antigen levels (ng/mL) over a four-year period. The x-axis represents time in years, while the y-axis shows urinary antigen concentration. The graph includes annotations indicating clinical events, such as symptom resolution and re-development of symptoms (e.g., shortness of breath, cough, and hypoxia). Different antifungal treatments (voriconazole, posaconazole, itraconazole, and amphotericin B) are marked with symbols along the timeline. The urinary antigen levels decrease over time, with fluctuations corresponding to clinical events and treatment changes.",
+      "visible_findings": [
+        "Line graph with urinary antigen levels decreasing over time.",
+        "Annotations indicating clinical events and symptom progression.",
+        "Symbols representing antifungal treatments (voriconazole, posaconazole, itraconazole, amphotericin B).",
+        "Fluctuations in antigen levels corresponding to clinical events."
+      ],
+      "keywords": [
+        "graph",
+        "urinary antigen",
+        "trend",
+        "antifungal treatment",
+        "clinical timeline"
+      ],
+      "reveal_triggers": [
+        "urinary antigen trend",
+        "antifungal treatment timeline",
+        "infectious disease monitoring"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:24+00:00",
+    "usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 307,
+      "total_tokens": 1035
+    }
+  },
+  "Case_25002/figure5.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure5.jpg",
+    "source_caption": "Early 2024, 1st instance of worsening",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary infiltrates, with areas of ground-glass opacities and consolidation. The heart and mediastinal structures appear centrally located, and no significant pleural effusion is visible. The findings suggest a possible infectious or inflammatory process in the lungs.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "ground-glass opacities",
+        "consolidation",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "pulmonary infiltrates",
+        "ground-glass opacities",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:27+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 218,
+      "total_tokens": 812
+    }
+  },
+  "Case_25002/figure7.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure7.jpg",
+    "source_caption": "2025, prior to VATS guided biopsy",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung abnormalities, including areas of consolidation and ground-glass opacities. The findings are more pronounced in the lower lobes. The mediastinum appears central, and no significant pleural effusion is visible. The image is likely taken prior to a VATS-guided biopsy, as suggested by the case context.",
+      "visible_findings": [
+        "bilateral lung consolidation",
+        "ground-glass opacities",
+        "central mediastinum",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung abnormalities",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:29+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 232,
+      "total_tokens": 825
+    }
+  },
+  "Case_25002/figure8.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure8.jpg",
+    "source_caption": "Alveolar spaces are filled with proteinaceous material consistent with alveolar proteinosis.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of lung showing alveolar spaces filled with proteinaceous material.",
+      "detailed_description": "This histopathology image shows alveolar spaces filled with eosinophilic, proteinaceous material, consistent with alveolar proteinosis. The alveolar walls are thin and lined by flattened pneumocytes. Scattered inflammatory cells are visible within the interstitium. The staining technique appears to be hematoxylin and eosin (H&E), highlighting the proteinaceous material in pink and cellular components in purple.",
+      "visible_findings": [
+        "alveolar spaces filled with eosinophilic material",
+        "thin alveolar walls",
+        "scattered inflammatory cells",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "alveolar proteinosis",
+        "proteinaceous material",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "alveolar proteinosis",
+        "proteinaceous material in alveoli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:30+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 251,
+      "total_tokens": 851
+    }
+  },
+  "Case_25002/figure4.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure4.jpg",
+    "source_caption": "1 year into treatment (2023)",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial CT of the chest showing cavitary lesions and consolidation in the lungs.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung abnormalities. The left lung shows a large cavitary lesion with surrounding consolidation, while the right lung exhibits patchy areas of ground-glass opacities and consolidation. The mediastinum appears midline, and no significant pleural effusion is visible. The findings are consistent with chronic infectious or inflammatory processes, potentially tuberculosis or fungal infection.",
+      "visible_findings": [
+        "cavitary lesion in the left lung",
+        "consolidation surrounding the cavity",
+        "patchy ground-glass opacities in the right lung",
+        "no significant pleural effusion",
+        "midline mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lung",
+        "cavitation",
+        "consolidation",
+        "ground-glass opacities",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "cavitary lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:30+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 265,
+      "total_tokens": 856
+    }
+  },
+  "Case_25002/figure6.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure6.jpg",
+    "source_caption": "2 months later",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates significant abnormalities in both lungs. The left lung shows extensive areas of consolidation and ground-glass opacities, consistent with an infectious or inflammatory process. The right lung also shows patchy ground-glass opacities, though less extensive than the left. The heart and mediastinal structures appear centrally located, and no obvious pleural effusion is visible. The scan is likely performed without contrast.",
+      "visible_findings": [
+        "left lung consolidation",
+        "bilateral ground-glass opacities",
+        "no visible pleural effusion",
+        "normal mediastinal positioning"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "consolidation",
+        "ground-glass opacities",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:31+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 249,
+      "total_tokens": 836
+    }
+  },
+  "Case_25002/figure9.jpg": {
+    "case_id": "Case_25002",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25002/figure9.jpg",
+    "source_caption": "Alveolar spaces are filled with proteinaceous material consistent with alveolar proteinosis.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology showing alveolar spaces filled with proteinaceous material, consistent with alveolar proteinosis.",
+      "detailed_description": "This histopathology image demonstrates alveolar spaces filled with eosinophilic, proteinaceous material. The alveolar walls are thin and intact, with no significant inflammatory infiltrate visible. The pink staining suggests the use of hematoxylin and eosin (H&E) stain. The findings are consistent with pulmonary alveolar proteinosis, a condition characterized by the accumulation of surfactant-like material within the alveoli.",
+      "visible_findings": [
+        "eosinophilic proteinaceous material filling alveolar spaces",
+        "thin intact alveolar walls",
+        "absence of significant inflammatory infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "alveolar proteinosis",
+        "proteinaceous material",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "alveolar proteinosis",
+        "lung histopathology",
+        "proteinaceous material in alveoli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:32+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 258,
+      "total_tokens": 858
+    }
+  }
+}

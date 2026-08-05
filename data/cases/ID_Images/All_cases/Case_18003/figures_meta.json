@@ -1,0 +1,169 @@
+{
+  "Case_18003/figure3.jpg": {
+    "case_id": "Case_18003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18003/figure3.jpg",
+    "source_caption": "Figure 1c. Well-demarcated dense lesions separated from cleared skin at the line of patient’s swim trunks",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower back and upper buttocks",
+      "short_caption": "Erythematous rash with sharp demarcation at the swim trunk line.",
+      "detailed_description": "This clinical photograph shows an erythematous, maculopapular rash predominantly affecting the lower back and upper buttocks. The rash is sharply demarcated at the level of the swim trunk line, with the skin below this line appearing unaffected. The lesions are dense and confluent in the affected area, with no visible vesicles or pustules. The pattern suggests an irritant or contact dermatitis, potentially related to swimwear or exposure to waterborne irritants.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "sharp demarcation at swim trunk line",
+        "unaffected skin below the line",
+        "dense and confluent lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "rash",
+        "lower back",
+        "contact dermatitis",
+        "erythema",
+        "swim trunk line"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on lower back",
+        "contact dermatitis",
+        "swim trunk rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:32+00:00",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 277,
+      "total_tokens": 883
+    }
+  },
+  "Case_18003/figure4.jpg": {
+    "case_id": "Case_18003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18003/figure4.jpg",
+    "source_caption": "Immunofluorescent stain of varicella zoster virus from a vesicular lesion (60x). Using the fluorescein isothiocyanate (FITC) filter, VZV infected basal and/or parabasal epithelial cells will appear yellow-gold in color (white arrow).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "vesicular lesion",
+      "short_caption": "Immunofluorescent stain showing varicella zoster virus in epithelial cells (60x magnification).",
+      "detailed_description": "This image shows an immunofluorescent stain of a vesicular lesion, highlighting varicella zoster virus (VZV) infection. Using the fluorescein isothiocyanate (FITC) filter, infected basal and/or parabasal epithelial cells appear as yellow-gold fluorescent spots against a dark background. A white arrow points to a prominent fluorescent focus, indicating VZV-infected cells. The staining technique enhances the visualization of viral presence within the lesion.",
+      "visible_findings": [
+        "yellow-gold fluorescent spots indicating VZV-infected cells",
+        "dark background characteristic of immunofluorescence",
+        "white arrow pointing to a prominent fluorescent focus"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "varicella zoster virus",
+        "vesicular lesion",
+        "FITC stain",
+        "infected epithelial cells"
+      ],
+      "reveal_triggers": [
+        "immunofluorescent stain",
+        "varicella zoster virus",
+        "vesicular lesion",
+        "FITC filter"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:33+00:00",
+    "usage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 293,
+      "total_tokens": 935
+    }
+  },
+  "Case_18003/figure2.jpg": {
+    "case_id": "Case_18003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18003/figure2.jpg",
+    "source_caption": "Immunofluorescent stain of varicella zoster virus from a vesicular lesion (60x). Using the fluorescein isothiocyanate (FITC) filter, VZV infected basal and/or parabasal epithelial cells will appear yellow-gold in color (white arrow).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Diffuse vesicular rash on erythematous skin.",
+      "detailed_description": "This image shows a close-up view of skin with numerous small vesicles distributed over an erythematous base. The vesicles are uniform in size and appear to be filled with clear fluid. The surrounding skin is diffusely red, suggesting inflammation. The pattern is consistent with a vesicular rash, potentially caused by an infectious agent such as varicella zoster virus.",
+      "visible_findings": [
+        "diffuse erythema",
+        "numerous small vesicles",
+        "clear fluid within vesicles",
+        "uniform vesicle size"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "vesicular rash",
+        "erythema",
+        "varicella zoster virus"
+      ],
+      "reveal_triggers": [
+        "vesicular rash",
+        "skin exam",
+        "varicella zoster virus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:34+00:00",
+    "usage": {
+      "prompt_tokens": 642,
+      "completion_tokens": 232,
+      "total_tokens": 874
+    }
+  },
+  "Case_18003/figure1.jpg": {
+    "case_id": "Case_18003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18003/figure1.jpg",
+    "source_caption": "Figure 1a. Confluent raised erythematous and pruritic red plaques with vesicles atop plaques densely clustered on patient’s back.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Erythematous plaques with vesicles densely clustered on the back.",
+      "detailed_description": "This clinical photograph shows the back of a patient with widespread, confluent, raised erythematous plaques. The lesions are densely clustered and appear to have vesicles atop some of the plaques. The distribution is diffuse across the back, with no clear sparing of any region. The skin appears inflamed, and the lesions suggest a pruritic or inflammatory dermatosis.",
+      "visible_findings": [
+        "confluent erythematous plaques",
+        "vesicles atop plaques",
+        "diffuse distribution across the back",
+        "inflamed skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "erythematous plaques",
+        "vesicles",
+        "rash",
+        "inflammatory dermatosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on back",
+        "vesicular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:34+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 239,
+      "total_tokens": 852
+    }
+  }
+}

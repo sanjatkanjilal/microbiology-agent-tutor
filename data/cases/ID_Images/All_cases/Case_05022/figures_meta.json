@@ -1,0 +1,213 @@
+{
+  "Case_05022/figure2.jpg": {
+    "case_id": "Case_05022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05022/figure2.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing abnormal findings in the right kidney.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates the kidneys, spine, and surrounding structures. The right kidney appears enlarged with areas of hypoattenuation, suggesting possible infection, abscess, or infarction. The left kidney appears normal in size and density. There is no obvious free air or fluid collection in the peritoneal cavity. The scan is without contrast, as no enhancement is visible.",
+      "visible_findings": [
+        "enlarged right kidney",
+        "hypoattenuation in the right kidney",
+        "normal left kidney",
+        "no free air or fluid collection"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidney",
+        "infection",
+        "abscess",
+        "hypoattenuation"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "kidney infection",
+        "pyelonephritis",
+        "renal abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 244,
+      "total_tokens": 832
+    }
+  },
+  "Case_05022/figure3.jpg": {
+    "case_id": "Case_05022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05022/figure3.jpg",
+    "source_caption": "Abdominal CT scan with rupture into capsule.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT scan showing rupture into the capsule.",
+      "detailed_description": "This axial abdominal CT image demonstrates a large hypodense lesion in the right kidney with irregular margins and evidence of rupture into the surrounding capsule. There is associated perinephric stranding and fluid collection, suggesting leakage or hemorrhage. The left kidney appears unremarkable. No contrast enhancement is evident in the lesion, indicating necrosis or abscess formation.",
+      "visible_findings": [
+        "hypodense lesion in the right kidney",
+        "irregular margins of the lesion",
+        "rupture into the capsule",
+        "perinephric stranding",
+        "fluid collection around the kidney"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidney",
+        "rupture",
+        "capsule",
+        "lesion",
+        "perinephric fluid",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "kidney lesion",
+        "rupture into capsule"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:46+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 249,
+      "total_tokens": 840
+    }
+  },
+  "Case_05022/figure4.jpg": {
+    "case_id": "Case_05022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05022/figure4.jpg",
+    "source_caption": "Post-operative CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Post-operative CT scan showing an intra-abdominal fluid collection.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, well-defined fluid collection in the left upper quadrant, consistent with an abscess. The collection appears hypodense with peripheral enhancement, suggesting an inflammatory process. Adjacent structures, including the kidneys and vertebrae, are visible and appear unremarkable. The scan is likely performed with intravenous contrast, as evidenced by the enhancement of vascular structures and the abscess wall.",
+      "visible_findings": [
+        "large hypodense fluid collection in the left upper quadrant",
+        "peripheral enhancement of the fluid collection",
+        "adjacent organs appear unremarkable",
+        "contrast-enhanced vascular structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "abscess",
+        "post-operative",
+        "fluid collection",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "post-operative ct",
+        "abdominal abscess",
+        "intra-abdominal fluid collection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:47+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 255,
+      "total_tokens": 842
+    }
+  },
+  "Case_05022/figure5.jpg": {
+    "case_id": "Case_05022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05022/figure5.jpg",
+    "source_caption": "CT scan one year later with right lobe lesion.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "liver",
+      "short_caption": "CT scan showing a large lesion in the right hepatic lobe.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, well-defined, hypodense lesion in the right hepatic lobe. The lesion appears to have a rounded morphology and is distinct from the surrounding liver parenchyma. The rest of the liver shows normal attenuation without evidence of additional lesions. The surrounding structures, including the spine and ribs, appear intact.",
+      "visible_findings": [
+        "large hypodense lesion in the right hepatic lobe",
+        "normal attenuation of surrounding liver parenchyma",
+        "intact surrounding bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hepatic lesion",
+        "right lobe",
+        "hypodense lesion"
+      ],
+      "reveal_triggers": [
+        "ct of liver",
+        "hepatic lesion",
+        "abdominal ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:53+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 235,
+      "total_tokens": 828
+    }
+  },
+  "Case_05022/figure1.jpg": {
+    "case_id": "Case_05022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05022/figure1.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT scan of the abdomen showing a hypodense lesion in the liver.",
+      "detailed_description": "This axial CT scan of the abdomen demonstrates a hypodense lesion in the right lobe of the liver, suggestive of a possible abscess or cyst. The kidneys are symmetrically visualized, and no gross abnormalities are noted in their structure. The surrounding abdominal structures appear unremarkable. The scan is likely performed without contrast, as there is no evident enhancement of vascular structures or lesions.",
+      "visible_findings": [
+        "hypodense lesion in the right lobe of the liver",
+        "normal appearance of kidneys",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesion",
+        "hypodense",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "infectious abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:54+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  }
+}

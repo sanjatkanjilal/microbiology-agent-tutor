@@ -1,0 +1,88 @@
+{
+  "Case_14011/figure1.jpg": {
+    "case_id": "Case_14011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14011/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right arm and hand",
+      "short_caption": "Erythematous nodules along the right arm in a linear distribution.",
+      "detailed_description": "The image shows the dorsal aspect of the right arm and hand. Multiple erythematous, raised nodules are visible along the forearm in a linear pattern, extending proximally. The hand also appears swollen, with some erythema and scaling on the skin. The lesions suggest a possible lymphatic spread of infection or inflammation. The patient is wearing a hospital gown, indicating a clinical setting.",
+      "visible_findings": [
+        "erythematous nodules",
+        "linear distribution along the arm",
+        "swelling of the hand",
+        "scaling on the skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "nodules",
+        "erythema",
+        "lymphatic spread",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "nodules on arm",
+        "infectious lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:52+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 245,
+      "total_tokens": 813
+    }
+  },
+  "Case_14011/figure2.jpg": {
+    "case_id": "Case_14011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_14011/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Erythematous, scaly lesions on the dorsal hand with swelling and nodularity.",
+      "detailed_description": "This image shows the dorsal aspect of a hand with multiple erythematous, scaly plaques and nodular lesions. There is notable swelling, particularly over the second digit, which is indicated by an arrow. The lesions appear irregular and raised, with some areas of crusting. The surrounding skin shows mild erythema. The findings suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous plaques",
+        "scaly lesions",
+        "nodularity",
+        "swelling of the second digit",
+        "crusting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "erythema",
+        "scaling",
+        "nodules",
+        "swelling",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "hand lesions",
+        "skin infection",
+        "nodular swelling"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:58+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 239,
+      "total_tokens": 807
+    }
+  }
+}

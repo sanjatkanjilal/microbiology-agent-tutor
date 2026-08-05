@@ -1,0 +1,166 @@
+{
+  "Case_03060/figure1.jpg": {
+    "case_id": "Case_03060",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03060/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, periorbital region",
+      "short_caption": "Periorbital swelling and erythema on the right side.",
+      "detailed_description": "This clinical photograph shows the face with a focus on the periorbital region. The right eye exhibits significant periorbital swelling, erythema, and mild ecchymosis, suggestive of inflammation or infection. The left eye appears unaffected. A white adhesive strip is visible near the nasal bridge, possibly related to prior intervention or support.",
+      "visible_findings": [
+        "right periorbital swelling",
+        "erythema around the right eye",
+        "mild ecchymosis on the right side",
+        "normal appearance of the left eye"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "periorbital swelling",
+        "erythema",
+        "face",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "periorbital swelling",
+        "facial erythema",
+        "eye infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:48+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 245,
+      "total_tokens": 813
+    }
+  },
+  "Case_03060/figure2.jpg": {
+    "case_id": "Case_03060",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03060/figure2.jpg",
+    "source_caption": "Head CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head and orbit",
+      "short_caption": "Sagittal head CT showing a radiopaque foreign body in the orbit.",
+      "detailed_description": "This sagittal CT image of the head demonstrates a radiopaque foreign body within the orbit, likely corresponding to the eye. The surrounding soft tissues appear distorted, potentially indicating inflammation or infection. The bony structures of the orbit and adjacent sinuses are visible, with no obvious fractures noted in this view. The image is presented in a soft tissue window.",
+      "visible_findings": [
+        "radiopaque foreign body in the orbit",
+        "distortion of surrounding soft tissues",
+        "intact bony structures of the orbit"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "orbit",
+        "foreign body",
+        "infection",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "head CT",
+        "orbital foreign body",
+        "eye trauma"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:48+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 223,
+      "total_tokens": 809
+    }
+  },
+  "Case_03060/figure3.jpg": {
+    "case_id": "Case_03060",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03060/figure3.jpg",
+    "source_caption": "Head CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Sagittal head CT showing a lesion near the orbit.",
+      "detailed_description": "This sagittal CT image of the head demonstrates a well-defined, hypodense lesion adjacent to the orbit, marked by a blue arrow. The lesion appears to be located in the paranasal sinus region, possibly involving the ethmoid sinus. The surrounding bony structures appear intact, and no obvious signs of bony erosion are visible. The image is presented in a soft tissue window.",
+      "visible_findings": [
+        "hypodense lesion near the orbit",
+        "blue arrow marking the lesion",
+        "intact surrounding bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "orbit",
+        "lesion",
+        "paranasal sinus",
+        "ethmoid sinus"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "orbit lesion",
+        "paranasal sinus ct"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:52+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 228,
+      "total_tokens": 814
+    }
+  },
+  "Case_03060/figure4.jpg": {
+    "case_id": "Case_03060",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03060/figure4.jpg",
+    "source_caption": "Silver stain of debridement specimen.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "tissue specimen",
+      "short_caption": "Silver stain showing fungal hyphae in debridement specimen.",
+      "detailed_description": "This is a high-magnification image of a tissue specimen stained with a silver stain, highlighting fungal elements. The image shows numerous thin, branching, septate fungal hyphae with a characteristic morphology. The background consists of tissue structures with areas of cellular debris and extracellular matrix. The silver stain enhances the fungal structures, making them appear dark against a lighter background.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septate morphology",
+        "silver stain highlighting fungal elements",
+        "background tissue with cellular debris"
+      ],
+      "keywords": [
+        "silver stain",
+        "fungal hyphae",
+        "tissue specimen",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "fungal infection",
+        "histopathology of debridement specimen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:53+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 237,
+      "total_tokens": 827
+    }
+  }
+}

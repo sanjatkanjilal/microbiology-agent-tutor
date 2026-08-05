@@ -1,0 +1,289 @@
+{
+  "Case_07020/figure1.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the lower extremity",
+      "short_caption": "Multiple ulcerative skin lesions with crusting on the lower extremity.",
+      "detailed_description": "This clinical photograph shows multiple ulcerative lesions on the skin of the lower extremity. The lesions are round to oval, with central crusting and surrounding erythema. The distribution appears scattered, and the lesions vary in size. The surrounding skin shows no significant swelling or discoloration beyond the erythematous margins of the ulcers.",
+      "visible_findings": [
+        "multiple ulcerative lesions",
+        "central crusting",
+        "surrounding erythema",
+        "scattered distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcerative lesions",
+        "crusting",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "ulcerative lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  },
+  "Case_07020/figure4.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forehead",
+      "short_caption": "Multiple pustules and crusted lesions on the forehead.",
+      "detailed_description": "This clinical photograph shows the forehead of a patient with numerous pustules, some of which are crusted or healing. The lesions are distributed across the forehead, with varying sizes and stages of development. The skin surrounding the lesions appears mildly erythematous. No other parts of the face are visible in this image.",
+      "visible_findings": [
+        "multiple pustules",
+        "crusted lesions",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forehead",
+        "pustules",
+        "crusted lesions",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "pustules on forehead",
+        "infectious skin lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 208,
+      "total_tokens": 776
+    }
+  },
+  "Case_07020/figure2.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Ulcerated lesion with central necrosis and surrounding erythema on the skin.",
+      "detailed_description": "This clinical photograph shows a single ulcerated lesion on the skin. The lesion has a central area of necrosis with a dark eschar, surrounded by a rim of erythema. The surrounding skin appears intact, with no obvious satellite lesions. The lesion is well-demarcated and appears to be slightly raised at the edges.",
+      "visible_findings": [
+        "ulcerated lesion",
+        "central necrosis with dark eschar",
+        "surrounding erythema",
+        "well-demarcated borders"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "necrosis",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "ulcer with eschar",
+        "infectious skin disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 232,
+      "total_tokens": 800
+    }
+  },
+  "Case_07020/figure3.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, perioral region",
+      "short_caption": "Facial lesion near the lower lip with surrounding beard area.",
+      "detailed_description": "This clinical photograph shows the lower face of an individual, focusing on the perioral region. A raised, ulcerated lesion with a crusted surface is visible on the left side of the beard area below the lower lip. The surrounding skin appears slightly erythematous. The lips themselves appear unremarkable, and there is no visible discharge from the lesion.",
+      "visible_findings": [
+        "raised, ulcerated lesion with crusting",
+        "slight erythema around the lesion",
+        "normal-appearing lips"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "perioral",
+        "ulcerated lesion",
+        "infectious diseases",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial lesion",
+        "ulcerated lesion near lip"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:05+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 237,
+      "total_tokens": 805
+    }
+  },
+  "Case_07020/figure5.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure5.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "epithelial tissue",
+      "short_caption": "H&E stain of biopsy showing epithelial and subepithelial layers.",
+      "detailed_description": "This histopathology image shows a section of epithelial tissue stained with hematoxylin and eosin (H&E). The upper portion demonstrates a stratified squamous epithelium with a dense, darkly stained layer of cells, while the lower portion reveals the subepithelial connective tissue with a looser, lighter staining pattern. The tissue architecture is preserved, and no obvious signs of necrosis or significant inflammatory infiltrates are visible.",
+      "visible_findings": [
+        "stratified squamous epithelium",
+        "subepithelial connective tissue",
+        "H&E staining with distinct purple and pink hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "H&E stain",
+        "epithelial tissue",
+        "biopsy",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "histopathology of biopsy",
+        "epithelial tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:10+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  },
+  "Case_07020/figure6.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure6.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of skin biopsy showing epidermal hyperplasia and dermal inflammation.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin. The epidermis demonstrates hyperplasia with elongation of rete ridges. The dermis contains a dense inflammatory infiltrate, predominantly composed of lymphocytes. The overall architecture suggests a chronic inflammatory process. No organisms are directly visible in this stain.",
+      "visible_findings": [
+        "epidermal hyperplasia",
+        "elongated rete ridges",
+        "dense dermal inflammatory infiltrate",
+        "predominantly lymphocytic infiltrate"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "epidermal hyperplasia",
+        "dermal inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:11+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 240,
+      "total_tokens": 829
+    }
+  },
+  "Case_07020/figure7.jpg": {
+    "case_id": "Case_07020",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07020/figure7.jpg",
+    "source_caption": "While the pathogenesis of lues maligna is still unclear, host factors likely play an important role; patients are characteristically malnourished, cachectic and, increasingly, HIV-positive [Kumar and Muralidhar 1998, Don et al 1995]. Untreated or incompletely treated patients may have a recurrence of constitutional symptoms and severe, scarring ulcers, leading to the description of such lesions as",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin or soft tissue",
+      "short_caption": "Histopathology showing spirochetes in a tissue sample stained with Warthin-Starry silver stain.",
+      "detailed_description": "This histopathological image demonstrates a tissue section stained with Warthin-Starry silver stain, highlighting spirochetes (indicated by arrows) as thin, dark, spiral-shaped organisms. The background shows a dense inflammatory infiltrate with numerous cells, likely representing a host immune response. The spirochetes are distributed in the tissue, consistent with an infectious etiology such as syphilis. The stain enhances the visibility of these organisms against the cellular background.",
+      "visible_findings": [
+        "spiral-shaped spirochetes stained dark",
+        "dense inflammatory infiltrate",
+        "Warthin-Starry silver stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "spirochetes",
+        "warthin-starry stain",
+        "syphilis",
+        "infectious disease",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "histopathology of syphilis",
+        "warthin-starry stain",
+        "spirochetes in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:43:18+00:00",
+    "usage": {
+      "prompt_tokens": 669,
+      "completion_tokens": 295,
+      "total_tokens": 964
+    }
+  }
+}

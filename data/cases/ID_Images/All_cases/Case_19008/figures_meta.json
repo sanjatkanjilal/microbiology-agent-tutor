@@ -1,0 +1,338 @@
+{
+  "Case_19008/figure2.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure2.jpg",
+    "source_caption": "Figure 2: Bronchial Alveolar Lavage with pathognomonic Coccidioides spherule filled with endospores. (Fontana Masson stain, cropped, original magnification 200x).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "bronchoalveolar lavage",
+      "short_caption": "Fontana Masson stain showing a Coccidioides spherule with endospores.",
+      "detailed_description": "This image shows a stained preparation of bronchoalveolar lavage fluid. A large, round spherule is visible in the center, containing multiple smaller endospores. The background contains scattered cellular debris and other structures. The stain highlights fungal elements, with the spherule appearing darkly pigmented against a pink background. The image is cropped and appears to be taken at 200x magnification.",
+      "visible_findings": [
+        "large spherule with internal endospores",
+        "pink-stained background with scattered debris",
+        "darkly pigmented fungal elements"
+      ],
+      "keywords": [
+        "fontana masson stain",
+        "bronchoalveolar lavage",
+        "coccidioides",
+        "spherule",
+        "fungal infection",
+        "endospores",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "bronchoalveolar lavage",
+        "fungal stain",
+        "coccidioides spherule",
+        "fontana masson"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:34+00:00",
+    "usage": {
+      "prompt_tokens": 629,
+      "completion_tokens": 279,
+      "total_tokens": 908
+    }
+  },
+  "Case_19008/figure1.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure1.jpg",
+    "source_caption": "Figure 1: CT chest. An axial view of his lungs shows extensive reticulonodular opacities seen diffusely throughout his lungs, measuring about 2mm",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT chest showing diffuse reticulonodular opacities in both lungs.",
+      "detailed_description": "This axial CT image of the chest demonstrates diffuse reticulonodular opacities throughout both lungs. The opacities are small, measuring approximately 2 mm, and are distributed symmetrically. The mediastinum and central airways appear unremarkable. No significant pleural effusion or pneumothorax is visible. The findings suggest an interstitial lung process.",
+      "visible_findings": [
+        "diffuse reticulonodular opacities",
+        "bilateral lung involvement",
+        "no significant pleural effusion",
+        "normal-appearing mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "reticulonodular opacities",
+        "interstitial lung disease"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung opacities",
+        "reticulonodular pattern"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:35+00:00",
+    "usage": {
+      "prompt_tokens": 618,
+      "completion_tokens": 251,
+      "total_tokens": 869
+    }
+  },
+  "Case_19008/figure7.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure7.jpg",
+    "source_caption": "Figure 7: Lymphoplasmacytic leptomeningeal infiltrate with numerous spherules containing endospores. Focal breakthrough of the pia into the brain parenchyma. (H&E with luxol fast blue, 100X magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "central nervous system (leptomeninges and brain parenchyma)",
+      "short_caption": "Histopathology showing lymphoplasmacytic leptomeningeal infiltrate with spherules containing endospores.",
+      "detailed_description": "This histopathology image demonstrates a dense lymphoplasmacytic infiltrate within the leptomeninges, with focal extension into the underlying brain parenchyma. Numerous large spherules containing endospores are visible, consistent with a fungal etiology. The tissue is stained with hematoxylin and eosin (H&E) and luxol fast blue, highlighting the cellular and structural details. Magnification is approximately 100X.",
+      "visible_findings": [
+        "lymphoplasmacytic infiltrate in leptomeninges",
+        "spherules containing endospores",
+        "focal extension into brain parenchyma",
+        "H&E and luxol fast blue staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "leptomeninges",
+        "brain parenchyma",
+        "fungal infection",
+        "spherules",
+        "endospores",
+        "H&E",
+        "luxol fast blue"
+      ],
+      "reveal_triggers": [
+        "histopathology of CNS",
+        "fungal infection in brain",
+        "spherules with endospores",
+        "H&E with luxol fast blue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:38+00:00",
+    "usage": {
+      "prompt_tokens": 637,
+      "completion_tokens": 329,
+      "total_tokens": 966
+    }
+  },
+  "Case_19008/figure3.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure3.jpg",
+    "source_caption": "Figure 3: Autopsy findings showed diffuse nodularity of the lung pleural surfaces.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lungs",
+      "short_caption": "Autopsy findings show diffuse nodularity of lung pleural surfaces.",
+      "detailed_description": "This image shows the gross pathology of lungs removed during autopsy. The pleural surfaces exhibit diffuse nodularity, with irregular, raised lesions distributed across both lungs. The nodules are prominent and involve the entire pleural surface, suggesting a pathological process such as metastatic disease, granulomatous inflammation, or mesothelioma. The central structures, including the trachea and main bronchi, are visible, and the lungs appear well-preserved for examination.",
+      "visible_findings": [
+        "diffuse nodularity on pleural surfaces",
+        "irregular raised lesions",
+        "bilateral lung involvement",
+        "central trachea and bronchi visible"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lungs",
+        "pleural nodularity",
+        "autopsy",
+        "gross pathology"
+      ],
+      "reveal_triggers": [
+        "autopsy findings",
+        "lung pleural nodularity",
+        "gross pathology of lungs"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:38+00:00",
+    "usage": {
+      "prompt_tokens": 600,
+      "completion_tokens": 252,
+      "total_tokens": 852
+    }
+  },
+  "Case_19008/figure6.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure6.jpg",
+    "source_caption": "Figure 6: Grossly enlarged axillary lymph nodes (1.8 - 6.5 cm) with confluent necrosis (cross sections).",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "axillary lymph nodes",
+      "short_caption": "Grossly enlarged axillary lymph nodes with areas of necrosis on cross-section.",
+      "detailed_description": "This image shows four cross-sections of grossly enlarged lymph nodes, ranging in size. The cut surfaces reveal pale yellow to tan areas with central regions of softening and necrosis, consistent with confluent necrosis. The surrounding tissue appears fibrotic and irregular. These findings are suggestive of a pathological process involving significant lymphadenopathy and necrosis.",
+      "visible_findings": [
+        "enlarged lymph nodes",
+        "pale yellow to tan coloration",
+        "central necrosis",
+        "irregular fibrotic tissue"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lymph nodes",
+        "necrosis",
+        "lymphadenopathy",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "lymph node biopsy",
+        "necrotic lymph nodes",
+        "gross pathology of lymph nodes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:42+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 240,
+      "total_tokens": 853
+    }
+  },
+  "Case_19008/figure4.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure4.jpg",
+    "source_caption": "Figure 4: Right lung axial cross sections revealed white nodular discolorations of the parenchymal surface.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right lung",
+      "short_caption": "Gross pathology of the right lung showing nodular discolorations and parenchymal abnormalities.",
+      "detailed_description": "This clinical photograph shows a gross pathological specimen of the right lung. The parenchymal surface exhibits irregular white nodular discolorations interspersed with areas of dark red and purple discoloration, suggestive of hemorrhage or congestion. The central bronchial structures are visible, and the overall texture of the lung appears abnormal, with evidence of consolidation or fibrosis. The findings are consistent with significant pathological changes, possibly due to infection or malignancy.",
+      "visible_findings": [
+        "white nodular discolorations on the parenchymal surface",
+        "dark red and purple areas suggestive of hemorrhage or congestion",
+        "visible central bronchial structures",
+        "irregular lung texture"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lung",
+        "gross pathology",
+        "nodular discoloration",
+        "parenchymal abnormalities"
+      ],
+      "reveal_triggers": [
+        "lung pathology",
+        "gross lung specimen",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:43+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 261,
+      "total_tokens": 865
+    }
+  },
+  "Case_19008/figure5.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure5.jpg",
+    "source_caption": "Figure 5: Microscopy shows pathognomonic spherules involving the lung parenchyma. H&E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung parenchyma",
+      "short_caption": "Histopathology shows spherules in lung parenchyma, H&E stain.",
+      "detailed_description": "This image shows two panels of histopathology slides stained with hematoxylin and eosin (H&E). Panel (a) is at 200x magnification, and panel (b) is at 400x magnification. Both panels highlight large, round spherules with thick walls and internal endospores, characteristic of a fungal infection. The surrounding lung parenchyma shows inflammatory infiltrates and tissue damage.",
+      "visible_findings": [
+        "large spherules with thick walls",
+        "internal endospores within spherules",
+        "inflammatory infiltrates in surrounding tissue",
+        "H&E stain with pink and purple hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "spherules",
+        "H&E stain",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "histopathology of lung",
+        "H&E stain of lung",
+        "fungal spherules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:44+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 271,
+      "total_tokens": 879
+    }
+  },
+  "Case_19008/figure8.jpg": {
+    "case_id": "Case_19008",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_19008/figure8.jpg",
+    "source_caption": "Figure 8: Leptomeningeal space with prominent lymphoplasmacytic infiltrate, numerous perivascular Coccidioides spherules. (H&E with luxol fast blue, 200X magnification).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "leptomeningeal space",
+      "short_caption": "Leptomeningeal space with lymphoplasmacytic infiltrate and numerous perivascular Coccidioides spherules.",
+      "detailed_description": "This histopathology image shows a section of the leptomeningeal space stained with hematoxylin and eosin (H&E) along with luxol fast blue. There is a prominent lymphoplasmacytic infiltrate, with numerous round, thick-walled spherules consistent with Coccidioides species. Some spherules contain endospores, while others appear empty. The perivascular distribution of the spherules is notable, and the magnification is approximately 200X.",
+      "visible_findings": [
+        "lymphoplasmacytic infiltrate",
+        "numerous thick-walled spherules",
+        "spherules with endospores",
+        "perivascular distribution of spherules"
+      ],
+      "keywords": [
+        "histopathology",
+        "leptomeningeal space",
+        "coccidioides",
+        "spherules",
+        "H&E",
+        "luxol fast blue",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "histopathology of meningitis",
+        "coccidioides spherules",
+        "leptomeningeal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:04:50+00:00",
+    "usage": {
+      "prompt_tokens": 628,
+      "completion_tokens": 312,
+      "total_tokens": 940
+    }
+  }
+}

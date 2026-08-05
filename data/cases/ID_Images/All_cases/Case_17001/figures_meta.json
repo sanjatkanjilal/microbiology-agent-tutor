@@ -1,0 +1,207 @@
+{
+  "Case_17001/figure1.jpg": {
+    "case_id": "Case_17001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17001/figure1.jpg",
+    "source_caption": "Left eye swelling at 2 weeks of illness",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye and periorbital region",
+      "short_caption": "Left periorbital swelling with erythema and discoloration.",
+      "detailed_description": "The image shows the left periorbital region of an adult with significant swelling, erythema, and purplish discoloration extending from the upper eyelid to the brow and lateral orbital area. The swelling appears asymmetric and localized to the left side. There is no visible discharge or ulceration. The black bar obscures the eye for de-identification purposes.",
+      "visible_findings": [
+        "left periorbital swelling",
+        "erythema and purplish discoloration",
+        "asymmetric involvement of the left side"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "periorbital swelling",
+        "erythema",
+        "left eye",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "periorbital swelling",
+        "left eye swelling",
+        "skin infection near eye"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:51+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 242,
+      "total_tokens": 834
+    }
+  },
+  "Case_17001/figure3.jpg": {
+    "case_id": "Case_17001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17001/figure3.jpg",
+    "source_caption": "Figure 3: Persistent left eye swelling (post-initial surgery) at 4 weeks of illness. Red arrow indicating the ulcer.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left eye",
+      "short_caption": "Persistent left eye swelling with visible ulceration and erythema at 4 weeks post-surgery.",
+      "detailed_description": "The image shows the left eye with significant swelling, erythema, and a visible ulceration along the upper eyelid margin. A red arrow points to the ulcerated area, which appears necrotic and crusted. The surrounding tissue is inflamed, with notable redness and edema. Surgical sutures are visible, indicating prior intervention. The patient is draped in a surgical field, suggesting a clinical setting.",
+      "visible_findings": [
+        "swelling of the left eye",
+        "erythema around the eyelid",
+        "ulceration with necrotic crusting on the upper eyelid",
+        "surgical sutures present"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "eye",
+        "swelling",
+        "ulcer",
+        "erythema",
+        "post-surgical complication"
+      ],
+      "reveal_triggers": [
+        "eye swelling",
+        "post-surgical infection",
+        "ulcer on eyelid"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:54+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 264,
+      "total_tokens": 873
+    }
+  },
+  "Case_17001/figure4.jpg": {
+    "case_id": "Case_17001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17001/figure4.jpg",
+    "source_caption": "Figure 4: Fite’s acid fast stain demonstrating acid fast bacilli (AFB). Red arrow indicating the AFB.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Fite’s acid-fast stain showing acid-fast bacilli (AFB) with a red arrow indicating one organism.",
+      "detailed_description": "This image shows a Fite’s acid-fast stain, which highlights acid-fast bacilli (AFB) as bright pink or red structures against a pale background. A red arrow is used to indicate one of the AFB. The surrounding tissue appears lightly stained in blue, consistent with the counterstain. The image demonstrates the characteristic morphology and staining properties of AFB.",
+      "visible_findings": [
+        "acid-fast bacilli stained red",
+        "pale blue background counterstain",
+        "red arrow pointing to one bacillus"
+      ],
+      "keywords": [
+        "fite stain",
+        "acid-fast bacilli",
+        "afb",
+        "infectious diseases",
+        "microbiology",
+        "staining technique"
+      ],
+      "reveal_triggers": [
+        "fite stain",
+        "acid-fast bacilli",
+        "afb stain",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:54+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 247,
+      "total_tokens": 855
+    }
+  },
+  "Case_17001/figure2.jpg": {
+    "case_id": "Case_17001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17001/figure2.jpg",
+    "source_caption": "Figure 2: CT of orbits. Red arrow indicating periorbital soft tissue swelling.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "orbits",
+      "short_caption": "Axial CT of orbits showing periorbital soft tissue swelling (red arrow).",
+      "detailed_description": "This axial CT image of the orbits demonstrates asymmetrical soft tissue swelling around the right orbit, indicated by a red arrow. The swelling appears to involve the periorbital region, with no obvious bony destruction or intraorbital abnormalities visible. The nasal cavity and sinuses are partially visualized, with no clear evidence of sinus opacification in this slice. The image is in soft tissue window settings.",
+      "visible_findings": [
+        "asymmetrical periorbital soft tissue swelling on the right",
+        "no obvious bony destruction",
+        "normal appearance of the left orbit"
+      ],
+      "keywords": [
+        "ct",
+        "orbits",
+        "periorbital swelling",
+        "soft tissue",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct of orbits",
+        "periorbital swelling",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:55+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 249,
+      "total_tokens": 851
+    }
+  },
+  "Case_17001/figure5.jpg": {
+    "case_id": "Case_17001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17001/figure5.jpg",
+    "source_caption": "Figure 5: Photo at 3 months of follow-up demonstrating significant improvement.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face, periocular region",
+      "short_caption": "Clinical photograph showing a healing lesion near the lateral canthus at 3 months follow-up.",
+      "detailed_description": "This image depicts the lateral periocular region of a patient, showing a healing lesion near the lateral canthus. The area appears mildly erythematous with some residual scarring and no active discharge or significant swelling. The lesion shows signs of improvement, consistent with the caption indicating follow-up at 3 months.",
+      "visible_findings": [
+        "healing lesion near lateral canthus",
+        "mild erythema",
+        "residual scarring",
+        "absence of active discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "periocular",
+        "healing lesion",
+        "follow-up"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial lesion",
+        "periocular infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:56+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 225,
+      "total_tokens": 823
+    }
+  }
+}

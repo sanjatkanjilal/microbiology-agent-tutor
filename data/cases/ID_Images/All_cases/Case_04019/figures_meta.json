@@ -1,0 +1,45 @@
+{
+  "Case_04019/figure1.jpg": {
+    "case_id": "Case_04019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04019/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Multiple necrotic ulcers with erythematous borders on the lower leg.",
+      "detailed_description": "The image shows the lower leg with multiple irregularly shaped ulcers. The ulcers have necrotic centers with yellowish-green exudate and surrounding erythematous borders. The surrounding skin appears inflamed, and there is evidence of tissue breakdown. A towel is partially visible, suggesting the patient is in a clinical or care setting.",
+      "visible_findings": [
+        "irregularly shaped ulcers",
+        "necrotic centers with yellow-green exudate",
+        "erythematous borders",
+        "inflamed surrounding skin",
+        "evidence of tissue breakdown"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "necrotic ulcers",
+        "skin infection",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin ulcers",
+        "necrotic lesions",
+        "infected wounds",
+        "lower leg infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:33:58+00:00",
+    "usage": {
+      "prompt_tokens": 424,
+      "completion_tokens": 244,
+      "total_tokens": 668
+    }
+  }
+}

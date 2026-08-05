@@ -1,0 +1,43 @@
+{
+  "Case_04058/figure1.jpg": {
+    "case_id": "Case_04058",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04058/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Stained microscopic image of a tapeworm scolex and proglottids.",
+      "detailed_description": "This image shows a stained microscopic view of a tapeworm, highlighting the scolex at the top and several proglottids extending downward. The scolex has two prominent suckers, which are used for attachment to the host's intestinal wall. The proglottids are segmented and increase in size as they extend away from the scolex. The staining enhances the structural details, making the internal and external features more visible.",
+      "visible_findings": [
+        "scolex with two suckers",
+        "segmented proglottids",
+        "stained preparation"
+      ],
+      "keywords": [
+        "stain",
+        "tapeworm",
+        "scolex",
+        "proglottids",
+        "parasite",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "tapeworm",
+        "scolex",
+        "parasite microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:35:56+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  }
+}

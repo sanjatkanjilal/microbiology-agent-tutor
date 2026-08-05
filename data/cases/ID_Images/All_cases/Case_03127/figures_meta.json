@@ -1,0 +1,58 @@
+{
+  "Case_03127/figure2.jpg": {
+    "case_id": "Case_03127",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03127/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:31:45+00:00"
+  },
+  "Case_03127/figure1.jpg": {
+    "case_id": "Case_03127",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03127/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremities",
+      "short_caption": "Erythematous, blistering lesions on both lower legs.",
+      "detailed_description": "This image shows both lower legs with widespread erythema, areas of hyperpigmentation, and multiple fluid-filled blisters. Some blisters appear ruptured, leaving erosions. The lesions are distributed symmetrically and involve the anterior and lateral aspects of the legs. The skin appears swollen, suggesting inflammation or edema.",
+      "visible_findings": [
+        "erythema",
+        "fluid-filled blisters",
+        "ruptured blisters with erosions",
+        "hyperpigmentation",
+        "swelling of the lower legs"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremities",
+        "blisters",
+        "erythema",
+        "skin lesions",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower extremity lesions",
+        "blisters on legs",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:46+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 238,
+      "total_tokens": 806
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "Case_18001/figure1.jpg": {
+    "case_id": "Case_18001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18001/figure1.jpg",
+    "source_caption": "CT scan of the chest showed incomplete anterior segmental collapse and mucus plugging with mild bronchiectasis of the right upper lobe.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing mucus plugging and mild bronchiectasis in the right upper lobe.",
+      "detailed_description": "This axial CT scan of the chest demonstrates findings in the right upper lobe, including areas of mucus plugging and mild bronchiectasis. There is evidence of partial collapse of the anterior segment of the right upper lobe. The left lung appears aerated without significant abnormalities. The image is in lung window settings, allowing for clear visualization of the airways and lung parenchyma.",
+      "visible_findings": [
+        "Mucus plugging in the right upper lobe",
+        "Mild bronchiectasis in the right upper lobe",
+        "Partial collapse of the anterior segment of the right upper lobe",
+        "Normal aeration of the left lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "right upper lobe",
+        "mucus plugging",
+        "bronchiectasis",
+        "lung collapse"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "right upper lobe collapse",
+        "bronchiectasis",
+        "mucus plugging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:16+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 272,
+      "total_tokens": 880
+    }
+  },
+  "Case_18001/figure2.jpg": {
+    "case_id": "Case_18001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18001/figure2.jpg",
+    "source_caption": "CT scan of the chest showed moderate lingular cylindrical bronchiectasis with peribronchial thickening and the adjacent tree-in-bud opacification.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing bronchiectasis with peribronchial thickening and tree-in-bud opacities.",
+      "detailed_description": "This axial CT image of the chest demonstrates moderate cylindrical bronchiectasis, particularly evident in the lingular region. There is associated peribronchial thickening and adjacent tree-in-bud opacities, which are suggestive of small airway inflammation or infection. The findings are consistent with a process involving the bronchi and small airways, such as an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "cylindrical bronchiectasis in the lingular region",
+        "peribronchial thickening",
+        "tree-in-bud opacities",
+        "normal lung parenchyma in other regions"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "bronchiectasis",
+        "tree-in-bud",
+        "peribronchial thickening",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "bronchiectasis",
+        "tree-in-bud opacities",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:19+00:00",
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 277,
+      "total_tokens": 891
+    }
+  },
+  "Case_18001/figure5.jpg": {
+    "case_id": "Case_18001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18001/figure5.jpg",
+    "source_caption": "Bronchoscopic examination of the anterior segment of the right upper lobe post mucus plug removal.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "right upper lobe bronchus",
+      "short_caption": "Bronchoscopic view of the anterior segment of the right upper lobe post mucus plug removal.",
+      "detailed_description": "This bronchoscopic image shows the interior of the bronchial lumen, likely from the anterior segment of the right upper lobe. The mucosa appears erythematous and inflamed, with no visible mucus plug or obstruction. The lumen is patent, and the surrounding tissue shows mild irregularity but no significant structural deformities. The image is consistent with post-intervention findings following mucus plug removal.",
+      "visible_findings": [
+        "erythematous bronchial mucosa",
+        "patent bronchial lumen",
+        "absence of mucus plug",
+        "mild mucosal irregularity"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchoscopy",
+        "right upper lobe",
+        "bronchial lumen",
+        "mucus plug removal"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "endoscopic view of bronchus",
+        "right upper lobe bronchus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:22+00:00",
+    "usage": {
+      "prompt_tokens": 601,
+      "completion_tokens": 260,
+      "total_tokens": 861
+    }
+  },
+  "Case_18001/figure4.jpg": {
+    "case_id": "Case_18001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18001/figure4.jpg",
+    "source_caption": "Bronchoscopic removal of the mucous plug.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "bronchus",
+      "short_caption": "Bronchoscopic removal of a mucous plug.",
+      "detailed_description": "This endoscopic image shows the interior of a bronchus with a yellowish mucous plug being removed using a bronchoscope. The bronchial mucosa appears smooth and pink, consistent with normal anatomy, while the mucous plug is prominently visible as a pale yellow obstruction. The image demonstrates the process of clearing airway obstructions via bronchoscopy.",
+      "visible_findings": [
+        "yellowish mucous plug in bronchus",
+        "smooth pink bronchial mucosa",
+        "bronchoscope instrument visible"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchus",
+        "mucous plug",
+        "airway obstruction",
+        "bronchoscopy"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "mucous plug removal",
+        "airway obstruction"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:25+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 225,
+      "total_tokens": 817
+    }
+  },
+  "Case_18001/figure3.jpg": {
+    "case_id": "Case_18001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18001/figure3.jpg",
+    "source_caption": "Bronchoscopic examination demonstrated viscous yellowish mucus plug obstructing the anterior segment of the right upper lobe.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "right upper lobe bronchus",
+      "short_caption": "Bronchoscopic view showing a yellowish mucus plug obstructing the right upper lobe bronchus.",
+      "detailed_description": "This bronchoscopic image shows a viscous, yellowish mucus plug partially obstructing the lumen of the anterior segment of the right upper lobe bronchus. The surrounding mucosa appears erythematous and inflamed. The mucus plug has a glossy appearance, consistent with its viscous nature. The image is well-focused, highlighting the obstruction and the adjacent bronchial wall.",
+      "visible_findings": [
+        "yellowish mucus plug",
+        "partial obstruction of bronchial lumen",
+        "erythematous and inflamed mucosa",
+        "glossy appearance of mucus"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchoscopy",
+        "right upper lobe",
+        "mucus plug",
+        "airway obstruction",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "airway obstruction",
+        "mucus plug in bronchus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:26+00:00",
+    "usage": {
+      "prompt_tokens": 605,
+      "completion_tokens": 259,
+      "total_tokens": 864
+    }
+  }
+}

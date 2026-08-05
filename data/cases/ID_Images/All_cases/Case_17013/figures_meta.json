@@ -1,0 +1,306 @@
+{
+  "Case_17013/figure1.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure1.jpg",
+    "source_caption": "Figure 1a. Coronal section of CT abdomen. Arrows indicate two large hypoechoic liver lesions; the regular walls are consistent with cystic lesions. Also indicated: a large cystic lesion in the small bowel mesentery.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT of the abdomen showing large hypodense cystic lesions in the liver and mesentery.",
+      "detailed_description": "This coronal CT image of the abdomen reveals two large hypodense lesions in the liver, consistent with cystic lesions, as indicated by arrows. The lesions have regular, well-defined walls. Additionally, a large cystic lesion is visible in the small bowel mesentery, also marked by an arrow. The image demonstrates good contrast resolution, allowing clear visualization of the lesions against the surrounding tissues.",
+      "visible_findings": [
+        "Two large hypodense cystic lesions in the liver with regular walls.",
+        "A large cystic lesion in the small bowel mesentery.",
+        "Arrows marking the lesions for emphasis."
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "cystic lesion",
+        "mesentery",
+        "hypodense",
+        "coronal"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "liver cysts",
+        "mesenteric cyst",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:01+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 269,
+      "total_tokens": 901
+    }
+  },
+  "Case_17013/figure4.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure4.jpg",
+    "source_caption": "Microscopic features of the ruptured mesenteric cyst (at high power)",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:01:01+00:00"
+  },
+  "Case_17013/figure3.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure3.jpg",
+    "source_caption": "Microscopic features of the ruptured mesenteric cyst (at low power) demonstrating multiple layers of parasite-derived cyst wall",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan showing a large mesenteric cyst in the abdomen.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large, well-defined cystic lesion in the mesentery, measuring 6.7 x 10 x 8.5 cm as indicated by the annotation. The cyst appears to have thin walls and is likely fluid-filled, with no evidence of calcification or solid components. Surrounding abdominal structures are displaced but not invaded, consistent with a benign process. The image does not directly show microscopic features of the cyst wall.",
+      "visible_findings": [
+        "large cystic lesion in the mesentery",
+        "thin-walled structure",
+        "displacement of surrounding abdominal structures",
+        "annotated dimensions of the cyst"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "mesenteric cyst",
+        "cystic lesion",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct of abdomen",
+        "mesenteric cyst",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:03+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 257,
+      "total_tokens": 864
+    }
+  },
+  "Case_17013/figure5.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure5.jpg",
+    "source_caption": "Microscopic features of the ruptured mesenteric cyst (at low power) demonstrating multiple layers of parasite-derived cyst wall",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mesentery",
+      "short_caption": "Low-power histopathology of a ruptured mesenteric cyst showing parasite-derived multilayered cyst wall.",
+      "detailed_description": "This histopathology image, captured at low magnification, shows a ruptured mesenteric cyst with distinct multilayered structures. The cyst wall exhibits concentric layers of varying thickness, consistent with parasite-derived material. The image highlights the structural complexity of the cyst wall, which may include laminated layers and fibrous components. No cellular infiltrates or surrounding tissue are prominently visible at this magnification.",
+      "visible_findings": [
+        "multilayered cyst wall",
+        "concentric lamination",
+        "ruptured cyst structure"
+      ],
+      "keywords": [
+        "histopathology",
+        "mesenteric cyst",
+        "parasite",
+        "cyst wall",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "histopathology of mesenteric cyst",
+        "parasite cyst wall",
+        "low-power microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:05+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 261,
+      "total_tokens": 868
+    }
+  },
+  "Case_17013/figure6.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure6.jpg",
+    "source_caption": "CT abdomen at 7 months of follow- up demonstrating compromised integrity of the cyst consistent with transitional phase",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "abdominal cyst wall",
+      "short_caption": "Histopathology showing the cyst wall with transitional phase changes.",
+      "detailed_description": "This histopathology image shows a section of a cyst wall stained with hematoxylin and eosin (H&E). The wall demonstrates a layered structure with cellular components and a transition zone. The integrity of the cyst wall appears compromised, with evidence of inflammatory infiltrates and possible degeneration. The image provides microscopic details consistent with a transitional phase of cyst evolution.",
+      "visible_findings": [
+        "layered cyst wall structure",
+        "inflammatory infiltrates",
+        "compromised integrity of the cyst wall",
+        "transitional phase changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "cyst wall",
+        "transitional phase",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of cyst",
+        "cyst wall changes",
+        "H&E stain of abdominal cyst"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:06+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 239,
+      "total_tokens": 842
+    }
+  },
+  "Case_17013/figure7.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure7.jpg",
+    "source_caption": "PAIR (Puncture-Aspiration–Injection–Re-aspiration) of the right hepatic lobe cyst via CT guidance",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "right hepatic lobe",
+      "short_caption": "PAIR procedure of a hepatic cyst under CT guidance.",
+      "detailed_description": "The image consists of two axial CT scans of the abdomen. The left panel shows a large, well-defined cystic lesion in the right hepatic lobe, consistent with a hepatic cyst. The right panel demonstrates the PAIR procedure in progress, with a needle inserted into the cyst under CT guidance. The cyst appears partially decompressed, and there is evidence of injected material or aspiration. The scans are non-contrast, and the needle trajectory is clearly visualized.",
+      "visible_findings": [
+        "large cystic lesion in the right hepatic lobe",
+        "needle inserted into the cyst under CT guidance",
+        "partial decompression of the cyst",
+        "evidence of injected material or aspiration"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hepatic cyst",
+        "PAIR procedure",
+        "needle aspiration",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "PAIR procedure",
+        "hepatic cyst",
+        "CT-guided aspiration",
+        "liver imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:07+00:00",
+    "usage": {
+      "prompt_tokens": 748,
+      "completion_tokens": 286,
+      "total_tokens": 1034
+    }
+  },
+  "Case_17013/figure8.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure8.jpg",
+    "source_caption": "CT abdomen at 7 months of follow- up demonstrating compromised integrity of the cyst consistent with transitional phase",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT abdomen showing a cyst with compromised integrity, consistent with a transitional phase.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a large cystic lesion in the upper abdomen. The cyst appears to have irregular margins and compromised integrity, with evidence of internal debris or partial collapse. Adjacent structures, including the liver and spleen, are visible. The findings are consistent with a transitional phase of a cystic lesion, potentially due to infection or degeneration.",
+      "visible_findings": [
+        "large cystic lesion in the upper abdomen",
+        "irregular cyst margins",
+        "internal debris or partial collapse of the cyst",
+        "adjacent liver and spleen visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "cyst",
+        "transitional phase",
+        "infectious disease",
+        "compromised integrity"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "cystic lesion",
+        "infectious disease imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:07+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 243,
+      "total_tokens": 846
+    }
+  },
+  "Case_17013/figure2.jpg": {
+    "case_id": "Case_17013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17013/figure2.jpg",
+    "source_caption": "Macroscopic picture of ruptured mesenteric cyst",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal CT showing two large cystic lesions in the mesentery.",
+      "detailed_description": "This axial CT image of the abdomen shows two large, well-defined cystic lesions in the mesenteric region. The lesions are labeled with their respective dimensions: 4.9 x 5.8 x 5.4 cm and 7.7 x 8.6 x 8.3 cm. The cysts appear hypodense relative to surrounding tissues, with no clear evidence of internal septations or solid components. The surrounding abdominal structures are visible, and there is no obvious sign of rupture or leakage in this image.",
+      "visible_findings": [
+        "two large cystic lesions in the mesentery",
+        "dimensions labeled on the image",
+        "hypodense appearance of the cysts",
+        "no visible internal septations or solid components"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "mesenteric cyst",
+        "cystic lesion",
+        "hypodense"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "mesenteric cyst",
+        "cystic lesion in abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:08+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 283,
+      "total_tokens": 876
+    }
+  }
+}

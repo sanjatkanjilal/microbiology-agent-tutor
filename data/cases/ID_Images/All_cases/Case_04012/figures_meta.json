@@ -1,0 +1,376 @@
+{
+  "Case_04012/figure1.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure1.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing cortical abnormalities.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the brain. The image demonstrates hyperintense signal abnormalities in the cortical regions, particularly along the gyri, suggesting possible edema or inflammation. The sulci appear prominent, and there is no obvious midline shift. The image is de-identified and shows no patient-specific information.",
+      "visible_findings": [
+        "hyperintense signal in cortical regions",
+        "prominent sulci",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "cortical abnormalities",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 221,
+      "total_tokens": 809
+    }
+  },
+  "Case_04012/figure2.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure2.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI scan of the brain showing cortical and subcortical structures.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the brain. The image shows clear delineation of the cortical gyri and sulci, with hyperintense signal in the cerebrospinal fluid spaces. The midline structures appear intact, and there is no obvious mass effect or midline shift. The image quality allows for detailed visualization of both cortical and subcortical structures.",
+      "visible_findings": [
+        "axial T2-weighted MRI",
+        "clear cortical gyri and sulci",
+        "hyperintense cerebrospinal fluid spaces",
+        "intact midline structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "cortex",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "neuroimaging",
+        "t2-weighted mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 245,
+      "total_tokens": 833
+    }
+  },
+  "Case_04012/figure7.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure7.jpg",
+    "source_caption": "Brain biopsy viewed under low power magnification.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Brain biopsy under low-power magnification showing inflammatory infiltrates and necrosis.",
+      "detailed_description": "This histopathology image shows a brain biopsy under low-power magnification. The tissue demonstrates significant inflammatory infiltrates, including numerous small, darkly stained nuclei consistent with lymphocytes. There are areas of necrosis with loss of normal brain architecture and scattered larger cells with prominent nuclei. The background appears eosinophilic, suggesting tissue damage or necrosis. This pattern is consistent with an infectious or inflammatory process in the brain.",
+      "visible_findings": [
+        "inflammatory infiltrates with small, darkly stained nuclei",
+        "areas of necrosis",
+        "loss of normal brain architecture",
+        "scattered larger cells with prominent nuclei",
+        "eosinophilic background"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "biopsy",
+        "inflammation",
+        "necrosis",
+        "low power"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "low power brain inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:05+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 262,
+      "total_tokens": 853
+    }
+  },
+  "Case_04012/figure8.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure8.jpg",
+    "source_caption": "Brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain tissue",
+      "short_caption": "Histopathology of brain tissue showing spongiform changes and vacuolation.",
+      "detailed_description": "This histopathology image shows brain tissue with prominent spongiform changes, characterized by vacuolation and loss of normal architecture. Numerous vacuoles of varying sizes are visible within the neuropil, along with scattered nuclei. The tissue appears stained with hematoxylin and eosin (H&E), highlighting cellular and structural abnormalities consistent with prion disease or other neurodegenerative conditions.",
+      "visible_findings": [
+        "spongiform changes",
+        "vacuolation in neuropil",
+        "scattered nuclei",
+        "loss of normal brain architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "spongiform changes",
+        "vacuolation",
+        "neurodegeneration",
+        "prion disease",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain tissue",
+        "spongiform encephalopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:08+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 270,
+      "total_tokens": 855
+    }
+  },
+  "Case_04012/figure4.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure4.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing a hyperintense lesion in the left hemisphere.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain demonstrates a hyperintense lesion in the left hemisphere, involving both cortical and subcortical regions. The lesion appears to cause mass effect, with effacement of adjacent sulci and midline shift towards the right. The surrounding tissue shows signs of edema, as evidenced by the diffuse hyperintensity. No contrast enhancement is visible in this image.",
+      "visible_findings": [
+        "hyperintense lesion in the left hemisphere",
+        "mass effect with midline shift",
+        "effacement of adjacent sulci",
+        "surrounding edema"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "hyperintense lesion",
+        "mass effect",
+        "edema",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "hyperintense lesion in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:09+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 252,
+      "total_tokens": 840
+    }
+  },
+  "Case_04012/figure3.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure3.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing cortical and subcortical abnormalities.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain shows hyperintense lesions in the cortical and subcortical regions. The lesions are bilateral and asymmetrical, with a predilection for the frontal lobes. The sulci and gyri are well-defined, and there is no evidence of midline shift or significant mass effect. The findings may suggest an infectious, inflammatory, or demyelinating process.",
+      "visible_findings": [
+        "hyperintense lesions in cortical and subcortical regions",
+        "bilateral and asymmetrical distribution",
+        "no midline shift or significant mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "hyperintense lesions",
+        "cortical abnormalities",
+        "subcortical abnormalities"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "neurological imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:10+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 254,
+      "total_tokens": 842
+    }
+  },
+  "Case_04012/figure6.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure6.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing hyperintensity in the periventricular white matter.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the brain. The ventricles are symmetrically enlarged, and there is marked hyperintensity in the periventricular white matter, suggestive of edema, demyelination, or gliosis. The cortical and subcortical structures appear preserved. No obvious mass effect or midline shift is visible.",
+      "visible_findings": [
+        "hyperintensity in periventricular white matter",
+        "symmetrically enlarged ventricles",
+        "no midline shift",
+        "no obvious mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "periventricular hyperintensity",
+        "ventricular enlargement"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "periventricular hyperintensity"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:14+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 255,
+      "total_tokens": 843
+    }
+  },
+  "Case_04012/figure5.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure5.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing abnormal signal in the right hemisphere.",
+      "detailed_description": "This axial T2-weighted MRI image of the brain shows hyperintense signal changes in the right hemisphere, particularly in the white matter. The lesion appears to involve the frontal and parietal lobes, with some mass effect and midline shift toward the left. The surrounding sulci appear effaced, suggesting edema. No clear evidence of hemorrhage is visible.",
+      "visible_findings": [
+        "hyperintense lesion in the right hemisphere",
+        "midline shift to the left",
+        "effacement of sulci in the right hemisphere",
+        "involvement of frontal and parietal lobes"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "hyperintense lesion",
+        "edema",
+        "midline shift",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2-weighted mri",
+        "neurological imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:16+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 250,
+      "total_tokens": 838
+    }
+  },
+  "Case_04012/figure9.jpg": {
+    "case_id": "Case_04012",
+    "filename": "figure9.jpg",
+    "figure_number": 9,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04012/figure9.jpg",
+    "source_caption": "Brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain tissue showing inflammation and necrosis.",
+      "detailed_description": "This histopathology image shows brain tissue with prominent necrosis and inflammatory infiltrates. Numerous round, dark-staining nuclei are visible, consistent with infiltrating inflammatory cells. There are areas of eosinophilic necrosis and scattered cellular debris. The presence of these findings suggests an infectious or inflammatory process in the brain. The staining technique appears to be hematoxylin and eosin (H&E).",
+      "visible_findings": [
+        "necrotic brain tissue",
+        "inflammatory cell infiltrates",
+        "eosinophilic necrosis",
+        "dark-staining nuclei"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "infectious brain lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:17+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 238,
+      "total_tokens": 823
+    }
+  }
+}

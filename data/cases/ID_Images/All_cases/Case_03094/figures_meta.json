@@ -1,0 +1,42 @@
+{
+  "Case_03094/figure1.jpg": {
+    "case_id": "Case_03094",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03094/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "chest and upper abdomen",
+      "short_caption": "Hypopigmented macules on the chest and upper abdomen.",
+      "detailed_description": "The image shows the anterior chest and upper abdomen of a patient with multiple hypopigmented macules distributed symmetrically. The lesions are well-demarcated, round to oval in shape, and vary slightly in size. The surrounding skin appears normal in color and texture. No signs of erythema, scaling, or inflammation are visible.",
+      "visible_findings": [
+        "multiple hypopigmented macules",
+        "symmetrical distribution",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "chest",
+        "abdomen",
+        "hypopigmented macules",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hypopigmented macules",
+        "chest rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  }
+}

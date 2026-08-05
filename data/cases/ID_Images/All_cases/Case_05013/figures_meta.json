@@ -1,0 +1,205 @@
+{
+  "Case_05013/figure2.jpg": {
+    "case_id": "Case_05013",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05013/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in clusters.",
+      "detailed_description": "This image shows a Gram stain with numerous purple-staining bacilli, indicating gram-positive bacteria. The bacilli are arranged in clusters, with some appearing as single rods and others in small groups. The background is clear, with no visible host cells or debris. The staining technique highlights the bacterial morphology and arrangement.",
+      "visible_findings": [
+        "purple-staining bacilli",
+        "gram-positive bacteria",
+        "clustered arrangement",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:17+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 204,
+      "total_tokens": 792
+    }
+  },
+  "Case_05013/figure4.jpg": {
+    "case_id": "Case_05013",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05013/figure4.jpg",
+    "source_caption": "Loeffler slant.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Loeffler slant showing bacterial growth.",
+      "detailed_description": "This image shows a test tube containing a Loeffler slant, a specialized culture medium. The medium appears pale yellow, with visible bacterial growth forming a whitish, opaque colony near the slanted surface. The tube is capped with a black lid, and the background is out of focus, suggesting a laboratory setting. Loeffler slants are often used for culturing specific bacteria, such as Corynebacterium species.",
+      "visible_findings": [
+        "pale yellow slanted medium",
+        "opaque whitish bacterial colony",
+        "test tube with black cap"
+      ],
+      "keywords": [
+        "culture plate",
+        "Loeffler slant",
+        "bacterial growth",
+        "laboratory",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "Loeffler slant",
+        "bacterial culture",
+        "microbiology lab"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:18+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_05013/figure1.jpg": {
+    "case_id": "Case_05013",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05013/figure1.jpg",
+    "source_caption": "Gram stain of throat culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "throat culture",
+      "short_caption": "Gram stain showing gram-positive bacilli from a throat culture.",
+      "detailed_description": "This is a Gram stain of a throat culture showing numerous gram-positive bacilli. The bacilli appear as purple rod-shaped organisms, some of which are arranged in clusters or short chains. The background is clear, with no visible host cells or debris. The staining technique highlights the morphology of the bacteria, consistent with gram-positive organisms.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "rod-shaped organisms",
+        "clusters and short chains of bacteria",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "throat culture",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "bacterial morphology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "throat culture",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:19+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 219,
+      "total_tokens": 807
+    }
+  },
+  "Case_05013/figure5.jpg": {
+    "case_id": "Case_05013",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05013/figure5.jpg",
+    "source_caption": "Growth on blood agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on blood agar plate.",
+      "detailed_description": "This image shows a blood agar plate with bacterial growth. The colonies are medium-sized, round, and exhibit a shiny appearance. The streaking pattern suggests isolation of individual colonies. The blood agar medium appears intact, with no visible hemolysis around the colonies. A black box obscures part of the image, but the visible findings are sufficient to describe the bacterial growth.",
+      "visible_findings": [
+        "bacterial colonies on blood agar",
+        "shiny, round colonies",
+        "no visible hemolysis",
+        "streaking pattern for isolation"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "growth on blood agar",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:19+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 221,
+      "total_tokens": 808
+    }
+  },
+  "Case_05013/figure3.jpg": {
+    "case_id": "Case_05013",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05013/figure3.jpg",
+    "source_caption": "Tellurite plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Tellurite agar plate showing black colonies.",
+      "detailed_description": "This image shows a tellurite agar plate with multiple black colonies, indicative of bacterial growth. The black pigmentation is characteristic of certain organisms that reduce tellurite, such as Corynebacterium diphtheriae. The plate is labeled with text, and a portion of the label has been redacted to maintain de-identification. The colonies are distributed unevenly across the plate, with some clustering near the edges.",
+      "visible_findings": [
+        "tellurite agar plate",
+        "black pigmented colonies",
+        "uneven colony distribution",
+        "redacted label on plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "tellurite agar",
+        "black colonies",
+        "bacterial growth",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "tellurite plate",
+        "bacterial culture",
+        "black colonies on agar"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:21+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 235,
+      "total_tokens": 822
+    }
+  }
+}

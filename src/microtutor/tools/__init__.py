@@ -69,6 +69,7 @@ from microtutor.tools.patient import PatientTool, run_patient
 from microtutor.tools.socratic import SocraticTool, run_socratic  
 from microtutor.tools.hint import HintTool, run_hint
 from microtutor.tools.tests_management import TestsManagementTool, run_tests_management
+from microtutor.tools.pathophys_epi import PathophysEpiTool, run_pathophys_epi
 from microtutor.tools.feedback import FeedbackTool, run_feedback
 from microtutor.tools.post_case_assessment import PostCaseAssessmentTool, run_post_case_assessment
 
@@ -97,6 +98,7 @@ __all__ = [
     'SocraticTool',
     'HintTool',
     'TestsManagementTool',
+    'PathophysEpiTool',
     'FeedbackTool',
     'PostCaseAssessmentTool',
     'MCQTool',  # Legacy, prefer PostCaseAssessmentTool
@@ -106,6 +108,7 @@ __all__ = [
     'run_socratic',
     'run_hint',
     'run_tests_management',
+    'run_pathophys_epi',
     'run_feedback',
     'run_post_case_assessment',
 ]

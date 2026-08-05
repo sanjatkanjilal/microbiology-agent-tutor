@@ -1,0 +1,126 @@
+{
+  "Case_04022/figure1.jpg": {
+    "case_id": "Case_04022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04022/figure1.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing lung parenchyma and mediastinal structures.",
+      "detailed_description": "This axial CT scan of the chest demonstrates the lung parenchyma, mediastinal structures, and airways. The lung fields appear symmetric, with visible vascular markings and no obvious consolidation, mass, or pleural effusion. The mediastinum is centrally located, and the trachea is midline. No significant abnormalities are apparent in this image.",
+      "visible_findings": [
+        "symmetric lung fields",
+        "normal vascular markings",
+        "no visible consolidation or mass",
+        "no pleural effusion",
+        "midline trachea"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "mediastinum",
+        "normal anatomy"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung imaging",
+        "mediastinal structures"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:01+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_04022/figure3.jpg": {
+    "case_id": "Case_04022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04022/figure3.jpg",
+    "source_caption": "Stain of resected lung nodule.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung nodule",
+      "short_caption": "GMS stain of a resected lung nodule showing fungal elements.",
+      "detailed_description": "This image shows a Gomori methenamine silver (GMS) stain of a resected lung nodule. The background tissue appears green, while numerous black, round to oval fungal elements are scattered throughout, consistent with fungal organisms. The staining highlights the fungal cell walls, making them prominent against the background. This pattern is typical of fungal infections in tissue.",
+      "visible_findings": [
+        "green-stained background tissue",
+        "black, round to oval fungal elements",
+        "prominent fungal cell walls highlighted by GMS stain"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung",
+        "fungal infection",
+        "histopathology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "lung nodule histology",
+        "fungal infection stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:02+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 235,
+      "total_tokens": 827
+    }
+  },
+  "Case_04022/figure2.jpg": {
+    "case_id": "Case_04022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04022/figure2.jpg",
+    "source_caption": "Stain of resected lung nodule.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of a resected lung nodule showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows lung tissue with granulomatous inflammation characterized by central necrosis surrounded by epithelioid histiocytes and multinucleated giant cells. The surrounding lung parenchyma appears disrupted, with evidence of inflammatory infiltrates. The stain used is hematoxylin and eosin (H&E), highlighting cellular and tissue architecture.",
+      "visible_findings": [
+        "granulomas with central necrosis",
+        "epithelioid histiocytes",
+        "multinucleated giant cells",
+        "inflammatory infiltrates",
+        "disrupted lung parenchyma"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "H&E stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lung nodule histology",
+        "granuloma in lung",
+        "H&E stain of lung tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:05+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 255,
+      "total_tokens": 847
+    }
+  }
+}

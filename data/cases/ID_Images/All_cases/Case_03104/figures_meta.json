@@ -1,0 +1,43 @@
+{
+  "Case_03104/figure1.jpg": {
+    "case_id": "Case_03104",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03104/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "axilla",
+      "short_caption": "Hyperpigmented and erythematous rash in the axilla.",
+      "detailed_description": "This clinical photograph shows the left axilla with a hyperpigmented, violaceous rash extending outward from the axillary fold. The affected area appears macular with some erythematous and darker discoloration. Surrounding the central lesion are scattered erythematous macules and papules. The skin texture appears slightly irregular, and there is no visible ulceration or exudate.",
+      "visible_findings": [
+        "hyperpigmentation in the axilla",
+        "violaceous discoloration",
+        "scattered erythematous macules and papules",
+        "no visible ulceration or exudate"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "axilla",
+        "rash",
+        "hyperpigmentation",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "axillary rash",
+        "hyperpigmented rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:18+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 244,
+      "total_tokens": 812
+    }
+  }
+}

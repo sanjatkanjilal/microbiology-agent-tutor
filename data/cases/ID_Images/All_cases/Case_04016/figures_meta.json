@@ -1,0 +1,82 @@
+{
+  "Case_04016/figure2.jpg": {
+    "case_id": "Case_04016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04016/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli in a characteristic arrangement.",
+      "detailed_description": "This image shows a Gram stain of bacterial organisms. The organisms appear as gram-positive bacilli (purple rods) arranged in clusters and short chains. The staining technique highlights the thick peptidoglycan cell walls of the bacteria, which retain the crystal violet stain. The background is clear, providing good contrast for the visualization of the organisms.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "purple staining indicating gram positivity",
+        "clustered and short chain arrangements"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "gram-positive bacilli"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:46+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 211,
+      "total_tokens": 799
+    }
+  },
+  "Case_04016/figure1.jpg": {
+    "case_id": "Case_04016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04016/figure1.jpg",
+    "source_caption": "Stain of growth from blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain of bacterial growth from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of bacterial growth from a blood culture. Numerous Gram-positive bacilli are visible, appearing as purple rod-shaped organisms distributed throughout the field. The background is clear, and the organisms are densely clustered in some areas, with individual bacilli visible in others. The staining technique highlights the Gram-positive nature of the bacteria.",
+      "visible_findings": [
+        "Gram-positive bacilli (purple rod-shaped organisms)",
+        "Densely clustered and scattered distribution",
+        "Clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "blood culture",
+        "gram-positive bacilli",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "blood culture",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:46+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 214,
+      "total_tokens": 804
+    }
+  }
+}

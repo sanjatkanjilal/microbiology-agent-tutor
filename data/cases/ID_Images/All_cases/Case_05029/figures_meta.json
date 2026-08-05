@@ -1,0 +1,84 @@
+{
+  "Case_05029/figure1.jpg": {
+    "case_id": "Case_05029",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05029/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-negative diplococci and neutrophils.",
+      "detailed_description": "This is a high-magnification image of a Gram stain. Numerous neutrophils are visible, characterized by their multi-lobed nuclei. Among the neutrophils, there are gram-negative diplococci, which appear as paired, pink-staining cocci. The background is relatively clear, with no significant debris or other organisms visible. This finding is consistent with an infectious process involving gram-negative diplococci.",
+      "visible_findings": [
+        "gram-negative diplococci",
+        "numerous neutrophils with multi-lobed nuclei",
+        "pink-staining organisms",
+        "clear background"
+      ],
+      "keywords": [
+        "gram stain",
+        "diplococci",
+        "neutrophils",
+        "infectious diseases",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "bacterial infection",
+        "neutrophils and diplococci"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  },
+  "Case_05029/figure2.jpg": {
+    "case_id": "Case_05029",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05029/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Histopathologic image showing intracellular and extracellular organisms stained with a special stain.",
+      "detailed_description": "This is a histopathologic image stained with a special stain, likely Giemsa or a similar stain, highlighting numerous oval to round organisms. The organisms are present both intracellularly and extracellularly, with some clustering within host cells. The background shows a pale pink matrix, likely representing tissue or cellular debris. The organisms are stained a reddish hue, contrasting with the lighter background.",
+      "visible_findings": [
+        "oval to round organisms",
+        "intracellular and extracellular distribution",
+        "reddish staining of organisms",
+        "pale pink background matrix"
+      ],
+      "keywords": [
+        "histopathology",
+        "special stain",
+        "intracellular organisms",
+        "extracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "histopathology of infectious organism",
+        "special stain for pathogens",
+        "intracellular organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:38:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  }
+}

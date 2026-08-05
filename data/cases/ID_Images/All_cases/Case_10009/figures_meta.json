@@ -1,0 +1,83 @@
+{
+  "Case_10009/figure2.jpg": {
+    "case_id": "Case_10009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10009/figure2.jpg",
+    "source_caption": "Lateral view of chest.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Lateral chest radiograph showing abnormal opacities in the lung field.",
+      "detailed_description": "This is a lateral chest radiograph showing the thoracic cavity. There are prominent opacities in the posterior lung field, suggestive of consolidation or infiltrates. The diaphragm and vertebral column are visible, and the lung fields appear asymmetrical. The findings may indicate an infectious or inflammatory process.",
+      "visible_findings": [
+        "prominent opacities in the posterior lung field",
+        "visible diaphragm and vertebral column",
+        "asymmetry in lung fields"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "lateral view",
+        "lung opacities",
+        "thoracic cavity",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung consolidation",
+        "chest radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:01+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 224,
+      "total_tokens": 812
+    }
+  },
+  "Case_10009/figure1.jpg": {
+    "case_id": "Case_10009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10009/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thoracic cavity. The lung fields are visible bilaterally, with no obvious consolidation, cavitation, or pleural effusion. The mediastinal structures, including the heart and trachea, appear midline and unremarkable. The bony structures, including the ribs, clavicles, and spine, are also visible and appear intact. No foreign objects or devices are noted.",
+      "visible_findings": [
+        "clear bilateral lung fields",
+        "midline trachea and mediastinum",
+        "intact bony structures",
+        "no visible pleural effusion or consolidation"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lungs",
+        "mediastinum",
+        "normal findings"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:01+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 253,
+      "total_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "Case_03038/figure3.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure3.jpg",
+    "source_caption": "Lung histopathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Lung histopathology showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows lung tissue with granulomatous inflammation. The granulomas are characterized by a central area of necrosis surrounded by a collection of inflammatory cells, including macrophages and lymphocytes. The tissue is stained with hematoxylin and eosin (H&E), highlighting cellular and structural details. No organisms are directly visible in this image, but the pattern is suggestive of an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "central necrosis",
+        "surrounding inflammatory cells",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "granuloma",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "granuloma",
+        "H&E stain of lung tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 240,
+      "total_tokens": 827
+    }
+  },
+  "Case_03038/figure2.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure2.jpg",
+    "source_caption": "Heart histopathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "heart",
+      "short_caption": "Histopathology of heart tissue showing inflammatory infiltrate.",
+      "detailed_description": "This histopathology image shows cardiac tissue with prominent inflammatory infiltrates, primarily composed of lymphocytes, within the myocardial interstitium. The myocardial fibers appear disorganized in areas, with some evidence of damage or degeneration. The staining technique appears to be hematoxylin and eosin (H&E), highlighting cellular and tissue structures.",
+      "visible_findings": [
+        "inflammatory infiltrates in myocardial interstitium",
+        "lymphocyte predominance",
+        "disorganized myocardial fibers",
+        "evidence of tissue damage or degeneration"
+      ],
+      "keywords": [
+        "histopathology",
+        "heart",
+        "myocarditis",
+        "inflammation",
+        "lymphocytes",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "heart histology",
+        "myocarditis",
+        "cardiac inflammation",
+        "H&E stain of heart"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 254,
+      "total_tokens": 841
+    }
+  },
+  "Case_03038/figure4.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure4.jpg",
+    "source_caption": "Liver histopathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "liver",
+      "short_caption": "Liver histopathology showing central necrosis and inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows liver tissue stained with hematoxylin and eosin (H&E). A central area of necrosis is visible, surrounded by preserved hepatocytes and inflammatory infiltrates. The infiltrates appear to consist of mixed inflammatory cells, and there is evidence of tissue damage. The section is well-stained, with clear differentiation of cellular and necrotic areas.",
+      "visible_findings": [
+        "central necrosis",
+        "inflammatory infiltrates",
+        "preserved hepatocytes at the periphery",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "liver",
+        "necrosis",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "liver histopathology",
+        "tissue necrosis",
+        "inflammatory infiltrates"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:18+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 237,
+      "total_tokens": 824
+    }
+  },
+  "Case_03038/figure1.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing diffuse opacification of the lower lung fields.",
+      "detailed_description": "This is a frontal chest radiograph showing significant diffuse opacification in the lower lung fields bilaterally, consistent with consolidation or fluid accumulation. The heart silhouette is partially obscured, suggesting possible involvement of the perihilar regions. The ribs and bony structures appear intact, and there is no obvious evidence of pneumothorax. The image quality is sufficient for interpretation, and no external devices or lines are visible.",
+      "visible_findings": [
+        "diffuse opacification in lower lung fields",
+        "obscured heart silhouette",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lung opacification",
+        "consolidation",
+        "infectious diseases",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung consolidation",
+        "radiograph of chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:18+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 245,
+      "total_tokens": 831
+    }
+  },
+  "Case_03038/figure7.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure7.jpg",
+    "source_caption": "Bone marrow.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "bone marrow",
+      "short_caption": "Histopathology of bone marrow showing cellular and structural details.",
+      "detailed_description": "This histopathology image shows a section of bone marrow with a mix of hematopoietic cells and adipocytes. The marrow appears to have a normal architecture with trabecular bone visible on the right side of the image. Hematopoietic elements are interspersed with fat spaces, and the staining highlights cellular details. No overt signs of infection, malignancy, or fibrosis are evident in this image.",
+      "visible_findings": [
+        "trabecular bone on the right",
+        "adipocytes interspersed with hematopoietic cells",
+        "normal marrow architecture",
+        "staining highlights cellular details"
+      ],
+      "keywords": [
+        "histopathology",
+        "bone marrow",
+        "hematopoietic cells",
+        "adipocytes",
+        "staining"
+      ],
+      "reveal_triggers": [
+        "bone marrow biopsy",
+        "histopathology of bone marrow",
+        "marrow examination"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:20+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 253,
+      "total_tokens": 838
+    }
+  },
+  "Case_03038/figure6.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure6.jpg",
+    "source_caption": "Adrenal histopathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "adrenal gland",
+      "short_caption": "Histopathology of the adrenal gland showing central necrosis.",
+      "detailed_description": "This histopathology image shows a section of the adrenal gland stained with hematoxylin and eosin (H&E). The central area exhibits necrosis, characterized by the loss of cellular detail and a pale, amorphous appearance. Surrounding the necrotic area, there is a rim of preserved adrenal tissue with visible nuclei and cellular architecture. The image demonstrates features consistent with tissue damage, possibly due to infection or ischemia.",
+      "visible_findings": [
+        "central necrosis with pale, amorphous appearance",
+        "rim of preserved adrenal tissue",
+        "loss of cellular detail in necrotic area",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "adrenal gland",
+        "necrosis",
+        "H&E stain",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "adrenal histopathology",
+        "necrosis in adrenal gland",
+        "H&E stain of adrenal tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:21+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 261,
+      "total_tokens": 849
+    }
+  },
+  "Case_03038/figure5.jpg": {
+    "case_id": "Case_03038",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03038/figure5.jpg",
+    "source_caption": "Ovarian histopathology.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "ovary",
+      "short_caption": "Histopathology of ovarian tissue showing granulomatous inflammation.",
+      "detailed_description": "This histopathology image shows ovarian tissue with granulomatous inflammation. The granulomas are composed of collections of epithelioid macrophages and multinucleated giant cells, surrounded by lymphocytes. The background stroma appears fibrotic, and there are scattered areas of necrosis. The staining technique appears to be hematoxylin and eosin (H&E), providing detailed cellular morphology.",
+      "visible_findings": [
+        "granulomas with epithelioid macrophages",
+        "multinucleated giant cells",
+        "lymphocytic infiltration",
+        "fibrotic stroma",
+        "scattered necrosis"
+      ],
+      "keywords": [
+        "histopathology",
+        "ovary",
+        "granuloma",
+        "inflammation",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "ovarian histopathology",
+        "granulomatous inflammation",
+        "H&E stain of ovary"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:24+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 257,
+      "total_tokens": 846
+    }
+  }
+}

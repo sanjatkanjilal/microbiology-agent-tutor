@@ -1,0 +1,126 @@
+{
+  "Case_25006/figure2.jpeg": {
+    "case_id": "Case_25006",
+    "filename": "figure2.jpeg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25006/figure2.jpeg",
+    "source_caption": "Figure 2: Photos taken on day 5 on Chocolate agar",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial colonies on Chocolate agar, day 5 of incubation.",
+      "detailed_description": "This image shows a Chocolate agar plate with bacterial colonies after 5 days of incubation. The colonies are round, smooth, and creamy in appearance, with some variation in size. The plate has been streaked for isolation, and the growth pattern suggests successful isolation of individual colonies in certain areas. The background of the agar is a rich brown, characteristic of Chocolate agar, which supports the growth of fastidious organisms.",
+      "visible_findings": [
+        "round, smooth, creamy bacterial colonies",
+        "variation in colony size",
+        "streaking pattern for isolation",
+        "brown background characteristic of Chocolate agar"
+      ],
+      "keywords": [
+        "culture plate",
+        "chocolate agar",
+        "bacterial colonies",
+        "microbiology",
+        "isolation"
+      ],
+      "reveal_triggers": [
+        "chocolate agar",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:48+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 239,
+      "total_tokens": 835
+    }
+  },
+  "Case_25006/figure3.jpeg": {
+    "case_id": "Case_25006",
+    "filename": "figure3.jpeg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25006/figure3.jpeg",
+    "source_caption": "Photos taken on day 5 on blood agar",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Colonies on blood agar after 5 days of incubation.",
+      "detailed_description": "This image shows a blood agar plate with multiple bacterial colonies. The colonies are white to grayish in color, with varying sizes and textures. Some colonies appear smooth and round, while others are more irregular. The plate is labeled and appears to be incubated for 5 days, as indicated in the case text. No hemolysis is clearly visible around the colonies.",
+      "visible_findings": [
+        "white to grayish bacterial colonies",
+        "varying colony sizes and textures",
+        "no clear hemolysis visible"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial colonies",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood agar",
+        "bacterial culture",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:51+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 221,
+      "total_tokens": 813
+    }
+  },
+  "Case_25006/figure1.jpeg": {
+    "case_id": "Case_25006",
+    "filename": "figure1.jpeg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25006/figure1.jpeg",
+    "source_caption": "CT Chest without contrast",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest without contrast showing cavitary lesions and consolidation in the right lung.",
+      "detailed_description": "This axial CT image of the chest, performed without contrast, demonstrates significant abnormalities in the right lung. There are multiple cavitary lesions with surrounding consolidation, suggestive of necrotizing infection or abscess formation. The left lung appears relatively spared. No contrast enhancement is visible, consistent with a non-contrast study.",
+      "visible_findings": [
+        "cavitary lesions in the right lung",
+        "consolidation in the right lung",
+        "relatively normal appearance of the left lung",
+        "absence of contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesion",
+        "consolidation",
+        "infection",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung infection",
+        "cavitary lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:53+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  }
+}

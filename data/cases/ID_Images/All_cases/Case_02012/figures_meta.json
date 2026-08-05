@@ -1,0 +1,107 @@
+{
+  "Case_02012/figure1.jpg": {
+    "case_id": "Case_02012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02012/figure1.jpg",
+    "source_caption": "Physical finding for spouse.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:20:31+00:00"
+  },
+  "Case_02012/figure2.jpg": {
+    "case_id": "Case_02012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02012/figure2.jpg",
+    "source_caption": "Findings on laparotomy.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:20:32+00:00"
+  },
+  "Case_02012/figure3.jpg": {
+    "case_id": "Case_02012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02012/figure3.jpg",
+    "source_caption": "Gram stain of ascitic fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "ascitic fluid",
+      "short_caption": "Gram stain of ascitic fluid showing gram-positive bacilli.",
+      "detailed_description": "This image shows a Gram stain of ascitic fluid. Multiple gram-positive bacilli are visible, appearing as purple rod-shaped organisms. Some are arranged in chains, while others are seen singly or in pairs. The background is reddish, consistent with the staining technique. No clear evidence of host cells, such as neutrophils, is visible in this field.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "rod-shaped organisms",
+        "some bacilli in chains",
+        "reddish background typical of Gram stain"
+      ],
+      "keywords": [
+        "gram stain",
+        "ascitic fluid",
+        "gram-positive bacilli",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of ascitic fluid",
+        "bacterial infection in ascites",
+        "gram-positive rods in fluid"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:44+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 236,
+      "total_tokens": 825
+    }
+  },
+  "Case_02012/figure4.jpg": {
+    "case_id": "Case_02012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02012/figure4.jpg",
+    "source_caption": "Mesenteric lymph node.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mesenteric lymph node",
+      "short_caption": "Histopathology of a mesenteric lymph node showing a rod-shaped organism.",
+      "detailed_description": "This histopathology image shows a section of a mesenteric lymph node with numerous inflammatory cells and a prominent rod-shaped organism visible in the center. The background consists of cellular debris and inflammatory infiltrates, suggesting an infectious process. The staining technique highlights the organism and cellular structures, though the specific stain type is not labeled.",
+      "visible_findings": [
+        "rod-shaped organism",
+        "inflammatory infiltrates",
+        "cellular debris"
+      ],
+      "keywords": [
+        "histopathology",
+        "mesenteric lymph node",
+        "rod-shaped organism",
+        "infection",
+        "inflammatory cells"
+      ],
+      "reveal_triggers": [
+        "histopathology of lymph node",
+        "infectious lymphadenitis",
+        "rod-shaped bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:20:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 223,
+      "total_tokens": 811
+    }
+  }
+}

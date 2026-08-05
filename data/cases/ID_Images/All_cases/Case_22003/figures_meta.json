@@ -1,0 +1,125 @@
+{
+  "Case_22003/figure2.png": {
+    "case_id": "Case_22003",
+    "filename": "figure2.png",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22003/figure2.png",
+    "source_caption": "Figure 2: Chest X-ray demonstrating ground-glass opacities in the upper and lower lobes consistent with pneumonia.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing bilateral ground-glass opacities in the upper and lower lobes.",
+      "detailed_description": "This is an upright, frontal chest radiograph showing diffuse bilateral ground-glass opacities predominantly in the upper and lower lobes. The heart size appears normal, and there is no evidence of pleural effusion. The lung markings are visible, and the opacities are patchy and ill-defined. The image includes monitoring leads visible on the chest.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "normal heart size",
+        "no pleural effusion",
+        "monitoring leads present"
+      ],
+      "keywords": [
+        "chest x-ray",
+        "thorax",
+        "ground-glass opacities",
+        "pneumonia",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumonia imaging",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:35+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 249,
+      "total_tokens": 856
+    }
+  },
+  "Case_22003/figure1.png": {
+    "case_id": "Case_22003",
+    "filename": "figure1.png",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22003/figure1.png",
+    "source_caption": "Figure 1: Respiratory panel obtained via nasopharyngeal swab",
+    "description": {
+      "modality": "other",
+      "anatomical_site": "nasopharynx",
+      "short_caption": "Respiratory panel results from a nasopharyngeal swab.",
+      "detailed_description": "This image shows a tabular report of a respiratory pathogen panel obtained via nasopharyngeal swab. The table lists various respiratory pathogens, including adenovirus, coronaviruses, influenza viruses, parainfluenza viruses, respiratory syncytial virus, and others. Each pathogen is marked as 'Not Detected' in the results column. The report includes a reference to the FDA website for further information about the test. The image is de-identified and includes a copyright notice from IDSA 2022.",
+      "visible_findings": [
+        "Tabular format listing respiratory pathogens.",
+        "All pathogens marked as 'Not Detected'.",
+        "Reference to FDA website for test information.",
+        "De-identified with copyright notice."
+      ],
+      "keywords": [
+        "respiratory panel",
+        "nasopharyngeal swab",
+        "pathogen testing",
+        "infectious diseases",
+        "diagnostic report"
+      ],
+      "reveal_triggers": [
+        "respiratory panel",
+        "nasopharyngeal swab results",
+        "pathogen testing"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:36+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 285,
+      "total_tokens": 884
+    }
+  },
+  "Case_22003/figure3.png": {
+    "case_id": "Case_22003",
+    "filename": "figure3.png",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_22003/figure3.png",
+    "source_caption": "Figure 3: Chest CT: Hazy ground glass densities in the lower lobes bilaterally with bilateral pleural effusions.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral ground-glass opacities and pleural effusions.",
+      "detailed_description": "This axial chest CT image demonstrates bilateral hazy ground-glass opacities predominantly in the lower lobes. There are also bilateral pleural effusions visible, with fluid layering in the dependent portions of the thoracic cavity. The mediastinal structures appear central, and no significant shift is noted. The findings suggest a diffuse pulmonary process, possibly infectious or inflammatory in nature.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "bilateral pleural effusions",
+        "central mediastinal structures",
+        "no significant mediastinal shift"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "ground-glass opacities",
+        "pleural effusion",
+        "lower lobes"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "ground-glass opacities",
+        "pleural effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:36+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 246,
+      "total_tokens": 855
+    }
+  }
+}

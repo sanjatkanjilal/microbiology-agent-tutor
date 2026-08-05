@@ -1,0 +1,167 @@
+{
+  "Case_03042/figure4.jpg": {
+    "case_id": "Case_03042",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03042/figure4.jpg",
+    "source_caption": "Mantoux test result.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Induration at the Mantoux test site.",
+      "detailed_description": "This clinical photograph shows a raised, firm, and well-demarcated area of induration on the skin, consistent with a positive Mantoux test. The induration is surrounded by faintly visible pen markings, likely used to measure the diameter of the reaction. The skin appears hyperpigmented, and the reaction is localized to the forearm. This finding suggests a hypersensitivity response, often used to assess exposure to Mycobacterium tuberculosis.",
+      "visible_findings": [
+        "raised, firm area of induration",
+        "well-demarcated margins",
+        "pen markings outlining the reaction",
+        "localized hyperpigmentation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "mantoux test",
+        "induration",
+        "tuberculosis screening"
+      ],
+      "reveal_triggers": [
+        "mantoux test",
+        "tuberculosis skin test",
+        "induration measurement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:40+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 245,
+      "total_tokens": 832
+    }
+  },
+  "Case_03042/figure2.jpg": {
+    "case_id": "Case_03042",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03042/figure2.jpg",
+    "source_caption": "Lesions on pinna.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "pinna (ear) and adjacent skin",
+      "short_caption": "Lesions on the pinna and surrounding skin.",
+      "detailed_description": "This clinical photograph shows the lateral aspect of the pinna and adjacent skin. The skin appears hyperpigmented with subtle irregularities. There are no overtly raised lesions or ulcerations visible in this image, but the texture suggests possible scarring or post-inflammatory changes. The image is well-lit and focuses on the ear and surrounding area.",
+      "visible_findings": [
+        "hyperpigmentation of the skin",
+        "subtle irregularities in texture",
+        "no overt raised lesions or ulcerations"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "pinna",
+        "ear",
+        "skin lesions",
+        "hyperpigmentation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lesions on pinna",
+        "ear lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:43+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 220,
+      "total_tokens": 808
+    }
+  },
+  "Case_03042/figure1.jpg": {
+    "case_id": "Case_03042",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03042/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back and left arm",
+      "short_caption": "Diffuse rash with scaly plaques on the back and arm.",
+      "detailed_description": "This clinical photograph shows the back and left arm of a patient with a diffuse, scaly rash. The skin appears hyperpigmented with numerous small, scaly plaques distributed across the back and extending to the arm. There is a notable lesion on the left elbow with central ulceration. The findings are consistent with a generalized dermatologic condition, possibly infectious or inflammatory in nature.",
+      "visible_findings": [
+        "diffuse scaly plaques",
+        "hyperpigmentation",
+        "central ulceration on left elbow",
+        "generalized rash distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "scaly plaques",
+        "ulceration"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash",
+        "scaly plaques",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:43+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  },
+  "Case_03042/figure3.jpg": {
+    "case_id": "Case_03042",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03042/figure3.jpg",
+    "source_caption": "Necrotic leg lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower legs",
+      "short_caption": "Multiple necrotic and ulcerative lesions on the lower legs.",
+      "detailed_description": "This image shows the posterior aspect of both lower legs. Numerous necrotic, ulcerative, and crusted lesions are visible, with some areas showing dark eschar formation. The lesions vary in size and are scattered across the skin. The surrounding skin appears hyperpigmented in some areas, with no visible signs of active bleeding or purulent discharge. The image is well-lit, and the lesions are clearly visible for assessment.",
+      "visible_findings": [
+        "multiple necrotic lesions",
+        "ulcerative and crusted areas",
+        "dark eschar formation",
+        "hyperpigmented surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower legs",
+        "necrotic lesions",
+        "ulcers",
+        "infectious diseases",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "necrotic leg lesions",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:45+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 249,
+      "total_tokens": 837
+    }
+  }
+}

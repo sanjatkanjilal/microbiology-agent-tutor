@@ -1,0 +1,42 @@
+{
+  "Case_18017/figure1.jpg": {
+    "case_id": "Case_18017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18017/figure1.jpg",
+    "source_caption": "Figure 1. CSF gram stain",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of CSF showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a gram stain of cerebrospinal fluid (CSF). Numerous gram-positive cocci, appearing as purple spherical organisms, are visible in clusters. The background is lightly stained, consistent with the fluid matrix of CSF. The organisms' morphology and arrangement suggest a bacterial etiology, potentially indicative of a staphylococcal infection.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "purple spherical organisms",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "gram stain",
+        "csf",
+        "cocci",
+        "bacteria",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "csf gram stain",
+        "gram stain of cerebrospinal fluid",
+        "bacterial meningitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:57+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 223,
+      "total_tokens": 814
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "Case_05011/figure1.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing a circular foreign object in the right hemithorax.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thoracic cavity. A circular, radiopaque foreign object is visible in the right hemithorax, likely within the soft tissue or pleural space. The lung fields appear otherwise clear, and the cardiac silhouette is within normal limits. No obvious signs of consolidation, effusion, or pneumothorax are noted. The bony thorax and diaphragm appear intact.",
+      "visible_findings": [
+        "radiopaque circular object in the right hemithorax",
+        "clear lung fields",
+        "normal cardiac silhouette",
+        "intact bony thorax and diaphragm"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "foreign object",
+        "lung fields",
+        "radiopaque"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "foreign body in thorax",
+        "radiopaque object in chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:55+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 258,
+      "total_tokens": 844
+    }
+  },
+  "Case_05011/figure4.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure4.jpg",
+    "source_caption": "Modified acid fast stain of sputum.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "respiratory tract (sputum)",
+      "short_caption": "Modified acid-fast stain of sputum showing filamentous branching organisms.",
+      "detailed_description": "This image shows a modified acid-fast stain of a sputum sample. Filamentous, branching organisms are visible, stained in red-pink against a blue background, consistent with the morphology of Nocardia species. The background contains cellular debris and other non-specific material. The staining highlights the acid-fast nature of the organisms, aiding in their identification.",
+      "visible_findings": [
+        "filamentous branching organisms stained red-pink",
+        "blue background indicating counterstain",
+        "cellular debris and non-specific material"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "sputum",
+        "nocardia",
+        "branching organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "sputum sample",
+        "nocardia morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:55+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 236,
+      "total_tokens": 826
+    }
+  },
+  "Case_05011/figure3.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure3.jpg",
+    "source_caption": "Gram stain of sputum sample.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "sputum sample",
+      "short_caption": "Gram stain of sputum showing filamentous branching structures.",
+      "detailed_description": "This image shows a Gram stain of a sputum sample. The field contains filamentous, branching structures consistent with bacterial morphology, likely indicative of Actinomyces or Nocardia species. The background contains scattered debris and cellular material. The staining highlights the filamentous organisms in red, suggesting they are Gram-positive.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "red-stained organisms (Gram-positive)",
+        "background debris and cellular material"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "filamentous bacteria",
+        "infectious diseases",
+        "actinomyces",
+        "nocardia"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "filamentous bacteria",
+        "respiratory infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:56+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 225,
+      "total_tokens": 814
+    }
+  },
+  "Case_05011/figure2.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure2.jpg",
+    "source_caption": "Gram stain of sputum sample.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "respiratory tract (sputum sample)",
+      "short_caption": "Gram stain of sputum showing mixed bacterial morphologies.",
+      "detailed_description": "This Gram stain image shows a sputum sample with a mix of bacterial morphologies. Numerous gram-positive cocci in clusters and gram-negative bacilli are visible, along with background cellular debris and mucus. The sample appears to be moderately cellular, with some areas of dense staining. The image suggests a polymicrobial infection or contamination.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "gram-negative bacilli",
+        "background mucus and cellular debris",
+        "polymicrobial appearance"
+      ],
+      "keywords": [
+        "gram stain",
+        "sputum",
+        "bacteria",
+        "polymicrobial",
+        "respiratory infection"
+      ],
+      "reveal_triggers": [
+        "gram stain of sputum",
+        "respiratory infection",
+        "bacterial infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:56+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 230,
+      "total_tokens": 819
+    }
+  },
+  "Case_05011/figure5.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure5.jpg",
+    "source_caption": "Modified acid fast stain of growth from modified Thayer Martin plate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Modified acid-fast stain showing branching filamentous organisms.",
+      "detailed_description": "This image shows a modified acid-fast stain of a sample, revealing branching, filamentous organisms stained in red against a pale blue background. The morphology is consistent with organisms such as Nocardia species. The branching structure and staining pattern are characteristic of partially acid-fast bacteria. The image appears to be from a culture plate, as suggested by the caption.",
+      "visible_findings": [
+        "branching filamentous organisms",
+        "red-stained structures on pale blue background",
+        "modified acid-fast staining pattern"
+      ],
+      "keywords": [
+        "modified acid-fast stain",
+        "branching filaments",
+        "nocardia",
+        "culture",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "modified acid-fast stain",
+        "nocardia morphology",
+        "branching bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:57+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 219,
+      "total_tokens": 814
+    }
+  },
+  "Case_05011/figure6.jpg": {
+    "case_id": "Case_05011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05011/figure6.jpg",
+    "source_caption": "Gram stain of growth from Thayer Martin plate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing branching Gram-positive bacilli.",
+      "detailed_description": "This Gram stain image shows thin, branching, filamentous structures consistent with Gram-positive bacilli. The organisms are stained purple, indicating their Gram-positive nature. The background is lightly stained, with some cellular debris visible. The morphology suggests a filamentous bacterium, potentially from a genus like Nocardia or Actinomyces.",
+      "visible_findings": [
+        "branching filamentous structures",
+        "Gram-positive staining (purple)",
+        "background with cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "branching bacilli",
+        "filamentous bacteria",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "branching bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:36:58+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 210,
+      "total_tokens": 802
+    }
+  }
+}

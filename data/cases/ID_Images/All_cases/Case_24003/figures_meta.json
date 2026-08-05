@@ -1,0 +1,86 @@
+{
+  "Case_24003/figure1.jpg": {
+    "case_id": "Case_24003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24003/figure1.jpg",
+    "source_caption": "Figure 1: A well-circumscribed, nontender, indurated, erythematous nodular lesion is seen on the patient’s lower abdomen.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower abdomen",
+      "short_caption": "Erythematous, indurated nodule with central ulceration on the lower abdomen.",
+      "detailed_description": "The image shows a well-circumscribed, erythematous, indurated nodule located on the lower abdomen. The lesion has a central ulceration with a slightly depressed center, surrounded by an area of erythema. The skin around the lesion appears intact, and there is no visible drainage. A ruler is present for scale, indicating the lesion is approximately 2-3 cm in diameter.",
+      "visible_findings": [
+        "erythematous nodule",
+        "central ulceration",
+        "induration",
+        "surrounding intact skin",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower abdomen",
+        "erythematous nodule",
+        "ulceration",
+        "induration",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "abdominal nodule",
+        "infectious skin finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:48+00:00",
+    "usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 257,
+      "total_tokens": 874
+    }
+  },
+  "Case_24003/figure2.jpg": {
+    "case_id": "Case_24003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_24003/figure2.jpg",
+    "source_caption": "Figure 2: CT abdomen showed a 4.8 x 2.0 cm soft tissue mass in the right lower abdominal subcutaneous fat abutting the skin.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT abdomen showing a soft tissue mass in the right lower abdominal subcutaneous fat.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a well-defined soft tissue mass measuring approximately 5.7 x 2.0 cm in the right lower abdominal subcutaneous fat. The mass appears to abut the overlying skin without clear evidence of invasion into deeper structures. Surrounding fat stranding is visible, suggesting possible inflammation or infection. The image includes measurement annotations for the lesion dimensions.",
+      "visible_findings": [
+        "soft tissue mass in right lower abdominal subcutaneous fat",
+        "dimensions annotated as 5.7 x 2.0 cm",
+        "mass abutting the skin",
+        "surrounding fat stranding"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "soft tissue mass",
+        "subcutaneous fat",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "ct abdomen",
+        "soft tissue mass",
+        "abdominal imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:50+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 248,
+      "total_tokens": 864
+    }
+  }
+}

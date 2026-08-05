@@ -1,0 +1,87 @@
+{
+  "Case_21007/figure1.jpg": {
+    "case_id": "Case_21007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21007/figure1.jpg",
+    "source_caption": "Figure 1A. Initial left groin lesion",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left groin",
+      "short_caption": "Erythematous lesion with central ulceration in the left groin.",
+      "detailed_description": "The image shows an erythematous area of skin with a central ulcerated lesion. The surrounding skin appears inflamed, with a shiny texture suggesting possible edema or irritation. The lesion is small and localized, with no visible discharge or crusting. The photograph is labeled 'A' in the bottom left corner.",
+      "visible_findings": [
+        "erythematous skin",
+        "central ulceration",
+        "localized inflammation",
+        "shiny skin texture"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "groin",
+        "ulceration",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "groin lesion",
+        "infectious skin ulcer"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:13+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 236,
+      "total_tokens": 829
+    }
+  },
+  "Case_21007/figure2.jpg": {
+    "case_id": "Case_21007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_21007/figure2.jpg",
+    "source_caption": "B shows axial T1 weighted post-contrast MRI image depicting multiple enhancing cerebral lesions consistent with disseminated tularemia. Figure 2C shows a sagittal view T1 weighted post-contrast MRI depicting multiple ring-enhancing lesions. Figure 2D is from the final MRI showing residual lesions after completed therapy.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Post-contrast MRI showing multiple cerebral lesions, including ring-enhancing lesions and residual findings post-treatment.",
+      "detailed_description": "This composite image includes three post-contrast T1-weighted MRI views of the brain. Panel B shows an axial view with multiple enhancing lesions scattered throughout the cerebral parenchyma. Panel C presents a sagittal view highlighting multiple ring-enhancing lesions, consistent with infectious or inflammatory processes. Panel D demonstrates an axial view after therapy, showing residual lesions with reduced enhancement compared to earlier images. The findings suggest disseminated intracranial involvement, potentially due to an infectious etiology such as tularemia.",
+      "visible_findings": [
+        "multiple enhancing cerebral lesions in axial view (B)",
+        "ring-enhancing lesions in sagittal view (C)",
+        "residual lesions with reduced enhancement post-treatment in axial view (D)"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "post-contrast",
+        "cerebral lesions",
+        "ring-enhancing lesions",
+        "infectious disease",
+        "tularemia"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "post-contrast imaging",
+        "ring-enhancing lesions",
+        "infectious intracranial lesions"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:06:13+00:00",
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 311,
+      "total_tokens": 956
+    }
+  }
+}

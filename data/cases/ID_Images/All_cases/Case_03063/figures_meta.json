@@ -1,0 +1,123 @@
+{
+  "Case_03063/figure2.jpg": {
+    "case_id": "Case_03063",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03063/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "upper arm",
+      "short_caption": "Skin lesion on the upper arm with central clearing and peripheral erythema.",
+      "detailed_description": "This clinical photograph shows the upper arm of a patient with a single, well-demarcated skin lesion. The lesion is circular, with central clearing and a slightly raised, erythematous border. The surrounding skin appears normal. The patient is partially draped in a medical gown, and no other lesions are visible in this image.",
+      "visible_findings": [
+        "circular skin lesion",
+        "central clearing",
+        "erythematous border",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "upper arm",
+        "erythema",
+        "central clearing"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythematous border",
+        "rash on arm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:02+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 219,
+      "total_tokens": 787
+    }
+  },
+  "Case_03063/figure3.jpg": {
+    "case_id": "Case_03063",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03063/figure3.jpg",
+    "source_caption": "Acid-fast stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing red-stained bacilli within a tissue biopsy.",
+      "detailed_description": "This image depicts an acid-fast stain of a tissue biopsy. Numerous slender, rod-shaped bacilli are visible, stained bright red against a blue background, consistent with acid-fast organisms. The surrounding tissue appears to have a fibrous or cellular matrix, stained in varying shades of blue and purple. The staining highlights the presence of mycobacteria or other acid-fast organisms within the tissue.",
+      "visible_findings": [
+        "red-stained rod-shaped bacilli",
+        "blue and purple stained tissue matrix",
+        "acid-fast staining pattern"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "biopsy",
+        "mycobacteria",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "biopsy of infected tissue",
+        "mycobacteria histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:05+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 250,
+      "total_tokens": 838
+    }
+  },
+  "Case_03063/figure1.jpg": {
+    "case_id": "Case_03063",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03063/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Clinical photograph showing the back with faint linear erythematous marks.",
+      "detailed_description": "This clinical photograph depicts the back of a patient. The skin shows faint linear erythematous marks, which may represent scratch marks or superficial abrasions. The surrounding skin appears otherwise normal, with no overt signs of rash, swelling, or other lesions. The image is well-lit, and the anatomical landmarks of the back are clearly visible.",
+      "visible_findings": [
+        "faint linear erythematous marks",
+        "normal surrounding skin",
+        "no visible rash or swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "erythematous marks",
+        "skin findings",
+        "linear lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "back photograph",
+        "linear erythema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:07+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 216,
+      "total_tokens": 784
+    }
+  }
+}

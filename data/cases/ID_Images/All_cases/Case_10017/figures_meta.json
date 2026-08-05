@@ -1,0 +1,86 @@
+{
+  "Case_10017/figure1.jpg": {
+    "case_id": "Case_10017",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10017/figure1.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT of the abdomen showing abnormal findings.",
+      "detailed_description": "This is a coronal CT image of the abdomen. The image demonstrates multiple abnormal findings, including areas of bowel distension and possible fluid collections. The liver, kidneys, and other abdominal organs are partially visible. The scan appears to be contrast-enhanced, as evidenced by the differentiation of vascular structures and organs.",
+      "visible_findings": [
+        "coronal view of the abdomen",
+        "bowel distension",
+        "possible fluid collections",
+        "contrast-enhanced structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "coronal",
+        "contrast",
+        "bowel distension",
+        "fluid collection"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "contrast-enhanced ct",
+        "infectious disease imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:59+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 215,
+      "total_tokens": 802
+    }
+  },
+  "Case_10017/figure2.jpg": {
+    "case_id": "Case_10017",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10017/figure2.jpg",
+    "source_caption": "Peritoneal fluid, Romanowsky stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "peritoneal fluid",
+      "short_caption": "Peritoneal fluid stained with Romanowsky stain showing inflammatory cells and microorganisms.",
+      "detailed_description": "This image shows a Romanowsky-stained preparation of peritoneal fluid. Numerous inflammatory cells, including neutrophils, are visible, along with clusters of microorganisms that appear as small, round, purple-stained structures. The background contains cellular debris and proteinaceous material. The stain highlights cellular and microbial details, aiding in the identification of infection.",
+      "visible_findings": [
+        "numerous neutrophils",
+        "clusters of purple-stained microorganisms",
+        "cellular debris",
+        "proteinaceous background material"
+      ],
+      "keywords": [
+        "romanowsky stain",
+        "peritoneal fluid",
+        "inflammatory cells",
+        "microorganisms",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "peritoneal fluid",
+        "romanowsky stain",
+        "infectious peritonitis",
+        "stained fluid cytology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:04+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 258,
+      "total_tokens": 850
+    }
+  }
+}

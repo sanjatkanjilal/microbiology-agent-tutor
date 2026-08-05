@@ -1,0 +1,44 @@
+{
+  "Case_03084/figure1.jpg": {
+    "case_id": "Case_03084",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03084/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right thigh",
+      "short_caption": "Extensive ulcerated plaques and nodules on the right thigh.",
+      "detailed_description": "This clinical photograph shows the right thigh with numerous ulcerated plaques and nodules. The lesions are irregularly shaped, some with central necrosis and crusting. Surrounding erythema is visible, and the lesions appear to vary in size. The distribution is dense, with some coalescence of lesions. The skin surrounding the lesions shows signs of inflammation.",
+      "visible_findings": [
+        "ulcerated plaques",
+        "nodules with central necrosis",
+        "crusting",
+        "erythema",
+        "dense lesion distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "ulcerated plaques",
+        "nodules",
+        "infectious skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin lesions",
+        "ulcerated plaques on thigh"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:49+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  }
+}

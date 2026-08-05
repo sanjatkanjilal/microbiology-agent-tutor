@@ -1,0 +1,255 @@
+{
+  "Case_25001/figure1.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure1.jpg",
+    "source_caption": "Abdominal skin rash",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdomen",
+      "short_caption": "Purpuric rash on the abdominal skin.",
+      "detailed_description": "This clinical photograph shows the anterior abdominal wall with numerous irregularly shaped, dark red to purple macules and patches consistent with purpura. The lesions vary in size and are non-blanching. A medical device (likely an ECG lead) is visible on the right side of the image, and a ruler is present on the left for scale.",
+      "visible_findings": [
+        "irregular purpuric macules and patches",
+        "non-blanching lesions",
+        "presence of medical device (ECG lead)",
+        "ruler for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "abdomen",
+        "purpura",
+        "rash",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "abdominal rash",
+        "purpura",
+        "non-blanching rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:07+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 232,
+      "total_tokens": 819
+    }
+  },
+  "Case_25001/figure5.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure5.jpg",
+    "source_caption": "Skin, abdomen punch biopsy",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin, abdomen",
+      "short_caption": "Histopathology of skin biopsy showing parasitic structure within tissue.",
+      "detailed_description": "This histopathology image shows a high-magnification view of a skin punch biopsy from the abdomen. The tissue is stained with hematoxylin and eosin (H&E), highlighting cellular and extracellular structures. A prominent parasitic structure, likely a nematode, is visible within the tissue. Surrounding the parasite are inflammatory cells and disrupted connective tissue, indicative of a host immune response.",
+      "visible_findings": [
+        "parasitic structure resembling a nematode",
+        "inflammatory cells surrounding the parasite",
+        "disrupted connective tissue",
+        "hematoxylin and eosin staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin biopsy",
+        "abdomen",
+        "parasite",
+        "nematode",
+        "hematoxylin and eosin",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "histopathology of abdomen",
+        "parasitic infection",
+        "nematode in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:11+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 284,
+      "total_tokens": 872
+    }
+  },
+  "Case_25001/figure4.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure4.jpg",
+    "source_caption": "Stool Ova & Parasite test",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "stool sample",
+      "short_caption": "Microscopic view of a helminth from a stool Ova & Parasite test.",
+      "detailed_description": "This image shows a long, slender, and tapered organism under a microscope, consistent with a helminth. The organism appears brownish and segmented, with a smooth surface. The background contains amorphous debris, typical of stool samples. The image likely represents a parasite identified during an Ova & Parasite test.",
+      "visible_findings": [
+        "long, slender organism",
+        "brownish coloration",
+        "tapered ends",
+        "background of stool debris"
+      ],
+      "keywords": [
+        "microscopy",
+        "stool",
+        "ova and parasite test",
+        "helminth",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "stool exam",
+        "ova and parasite test",
+        "helminth identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:16+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 225,
+      "total_tokens": 815
+    }
+  },
+  "Case_25001/figure3.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure3.jpg",
+    "source_caption": "Small bowel, duodenum, biopsy. Acute duodenitis with strongyloides organisms.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "small bowel, duodenum",
+      "short_caption": "Duodenal biopsy showing acute duodenitis with Strongyloides organisms.",
+      "detailed_description": "This histopathology image shows a section of duodenal tissue stained with hematoxylin and eosin (H&E). The mucosa exhibits inflammatory changes consistent with acute duodenitis, including infiltration by inflammatory cells. Multiple cross-sections of Strongyloides stercoralis larvae are visible within the tissue, characterized by their distinct cuticle, internal structures, and size. The surrounding epithelial architecture appears disrupted, with evidence of tissue damage.",
+      "visible_findings": [
+        "cross-sections of Strongyloides larvae",
+        "inflammatory cell infiltration",
+        "disrupted epithelial architecture",
+        "evidence of acute duodenitis"
+      ],
+      "keywords": [
+        "histopathology",
+        "duodenum",
+        "small bowel",
+        "strongyloides",
+        "acute duodenitis",
+        "biopsy",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "duodenal biopsy",
+        "strongyloides histology",
+        "acute duodenitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:16+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 276,
+      "total_tokens": 878
+    }
+  },
+  "Case_25001/figure2.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure2.jpg",
+    "source_caption": "Skin, abdomen punch biopsy",
+    "description": {
+      "modality": "other",
+      "anatomical_site": null,
+      "short_caption": "Bronchoalveolar lavage (BAL) results showing abnormal findings.",
+      "detailed_description": "This image displays a table summarizing bronchoalveolar lavage (BAL) laboratory results. Key findings include a bloody and cloudy appearance of the lavage fluid, elevated red blood cell (RBC) count at 13,350, and a differential cell count with 33% neutrophils, 19% lymphocytes, 5% monocytes, 37% macrophages, and 6% eosinophils. These findings suggest an inflammatory or infectious process in the lungs.",
+      "visible_findings": [
+        "bloody appearance of BAL fluid",
+        "cloudy appearance of BAL fluid",
+        "elevated RBC count (13,350)",
+        "differential cell count: neutrophils 33%, lymphocytes 19%, monocytes 5%, macrophages 37%, eosinophils 6%"
+      ],
+      "keywords": [
+        "bronchoalveolar lavage",
+        "BAL",
+        "lung",
+        "inflammation",
+        "infection",
+        "laboratory results"
+      ],
+      "reveal_triggers": [
+        "BAL results",
+        "lung lavage",
+        "bronchoalveolar lavage analysis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:16+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 289,
+      "total_tokens": 877
+    }
+  },
+  "Case_25001/figure6.jpg": {
+    "case_id": "Case_25001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_25001/figure6.jpg",
+    "source_caption": "Stool Ova & Parasite test",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Coronal CT image of the thorax showing bilateral lung abnormalities.",
+      "detailed_description": "This coronal CT image of the thorax demonstrates bilateral lung fields with areas of abnormal opacification. The lung parenchyma appears heterogeneous, with regions of increased density suggestive of consolidation or infiltrates. The mediastinum and diaphragm are partially visible. No clear evidence of pleural effusion is seen in this image.",
+      "visible_findings": [
+        "bilateral lung opacities",
+        "heterogeneous lung parenchyma",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "opacities",
+        "infectious diseases",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:08:18+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 220,
+      "total_tokens": 810
+    }
+  }
+}

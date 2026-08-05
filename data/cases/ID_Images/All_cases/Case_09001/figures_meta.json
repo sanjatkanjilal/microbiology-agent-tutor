@@ -1,0 +1,86 @@
+{
+  "Case_09001/figure1.jpg": {
+    "case_id": "Case_09001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09001/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Ulcerated lesion with erythematous border on the dorsum of the hand.",
+      "detailed_description": "The image shows the dorsum of a hand with a single, well-demarcated ulcerative lesion. The lesion has a red, moist base with areas of crusting and surrounding erythema. The edges appear slightly raised, and there is no visible purulent discharge. The surrounding skin shows mild erythema but no overt swelling.",
+      "visible_findings": [
+        "ulcerated lesion with red base",
+        "surrounding erythema",
+        "raised lesion edges",
+        "no visible purulence"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "ulcer",
+        "erythema",
+        "infectious diseases",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion on hand",
+        "ulcerated lesion",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:32+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 239,
+      "total_tokens": 807
+    }
+  },
+  "Case_09001/figure2.jpg": {
+    "case_id": "Case_09001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09001/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Ulcerated lesion with erythematous base on the dorsum of the hand.",
+      "detailed_description": "The image shows a single, well-demarcated ulcerated lesion on the dorsum of the hand. The lesion has an erythematous base with areas of granulation tissue and surrounding erythema. There is no visible purulent discharge, but the lesion appears inflamed. The surrounding skin shows mild erythema, suggesting localized inflammation.",
+      "visible_findings": [
+        "ulcerated lesion",
+        "erythematous base",
+        "granulation tissue",
+        "surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "ulcer",
+        "erythema",
+        "granulation tissue",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "hand ulcer",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:37+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  }
+}

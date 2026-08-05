@@ -1,0 +1,175 @@
+{
+  "Case_17011/figure1.jpg": {
+    "case_id": "Case_17011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17011/figure1.jpg",
+    "source_caption": "CT Brain (non-contrast) at admission demonstrating a large hypodense lesion in medial frontoparietal area with peripheral enhancement and surrounding edema (red arrow).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Non-contrast CT brain showing a hypodense lesion in the medial frontoparietal area with peripheral enhancement.",
+      "detailed_description": "This is a non-contrast axial CT image of the brain. A large hypodense lesion is visible in the medial frontoparietal region, with a red arrow pointing to the area of interest. The lesion demonstrates peripheral enhancement and is surrounded by significant vasogenic edema, which appears as hypodense regions in the adjacent white matter. The findings suggest a space-occupying lesion with associated mass effect.",
+      "visible_findings": [
+        "hypodense lesion in medial frontoparietal area",
+        "peripheral enhancement around the lesion",
+        "surrounding vasogenic edema",
+        "red arrow indicating the lesion"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "hypodense lesion",
+        "frontoparietal",
+        "edema",
+        "peripheral enhancement"
+      ],
+      "reveal_triggers": [
+        "ct brain",
+        "hypodense lesion",
+        "brain edema",
+        "space-occupying lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:56+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 269,
+      "total_tokens": 885
+    }
+  },
+  "Case_17011/figure3.jpg": {
+    "case_id": "Case_17011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17011/figure3.jpg",
+    "source_caption": "Follow-up CT Brain (non-contrast) at 10 months demonstrating A) calcification of the lesion in the medial frontoparietal area with an area of encephalomalacia and B) a right calcified frontal lesion that was not apparent in the initial imaging study.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "blood or tissue smear",
+      "short_caption": "A stained microscopic image showing a flagellated protozoan with labeled structures.",
+      "detailed_description": "This image depicts a stained microscopic view of a flagellated protozoan. Key structures are labeled, including the flagellum, kinetoplast, and nucleus. The organism appears elongated with a distinct flagellum extending from one end. The kinetoplast is visible near the nucleus, characteristic of certain protozoan parasites. The background shows a few other cellular or debris elements, but the focus is on the labeled organism.",
+      "visible_findings": [
+        "flagellated protozoan",
+        "labeled structures: flagellum, kinetoplast, nucleus",
+        "elongated organism morphology",
+        "stained preparation"
+      ],
+      "keywords": [
+        "stain",
+        "microscopy",
+        "protozoan",
+        "flagellum",
+        "kinetoplast",
+        "nucleus",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "stained smear",
+        "protozoan microscopy",
+        "flagellated organism"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:00+00:00",
+    "usage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 263,
+      "total_tokens": 902
+    }
+  },
+  "Case_17011/figure4.jpg": {
+    "case_id": "Case_17011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17011/figure4.jpg",
+    "source_caption": "Follow-up CT Brain (non-contrast) at 10 months demonstrating A) calcification of the lesion in the medial frontoparietal area with an area of encephalomalacia and B) a right calcified frontal lesion that was not apparent in the initial imaging study.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "brain",
+      "short_caption": "Non-contrast CT brain showing calcified lesions in the medial frontoparietal and right frontal areas.",
+      "detailed_description": "This non-contrast axial CT image of the brain demonstrates a calcified lesion in the medial frontoparietal region (labeled A) with surrounding encephalomalacia. Additionally, a smaller calcified lesion is visible in the right frontal region (labeled P), which was reportedly not present in earlier imaging. The calcifications are hyperdense, and the surrounding brain parenchyma shows changes consistent with chronic injury.",
+      "visible_findings": [
+        "calcified lesion in medial frontoparietal region",
+        "encephalomalacia surrounding the medial lesion",
+        "calcified lesion in the right frontal region",
+        "no contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "brain",
+        "calcification",
+        "encephalomalacia",
+        "frontoparietal",
+        "frontal",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "brain ct",
+        "calcified brain lesion",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:01+00:00",
+    "usage": {
+      "prompt_tokens": 639,
+      "completion_tokens": 269,
+      "total_tokens": 908
+    }
+  },
+  "Case_17011/figure2.jpg": {
+    "case_id": "Case_17011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17011/figure2.jpg",
+    "source_caption": "Figure 2a. Direct microscopic exam of CSF (10x) demonstrating a Trypanosoma cruzi trypomastigote (red arrows showing its kinetoplast and flagellum)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Microscopic exam of CSF showing a Trypanosoma cruzi trypomastigote with kinetoplast and flagellum.",
+      "detailed_description": "This is a microscopic image of cerebrospinal fluid (CSF) viewed at 10x magnification. A single Trypanosoma cruzi trypomastigote is visible, with red arrows pointing to its kinetoplast and flagellum. The organism exhibits the characteristic elongated shape with a visible undulating membrane and a prominent kinetoplast, aiding in its identification. The background appears unstained or lightly stained, typical of direct wet mount preparations.",
+      "visible_findings": [
+        "Trypanosoma cruzi trypomastigote",
+        "kinetoplast highlighted by red arrow",
+        "flagellum highlighted by red arrow",
+        "elongated organism with undulating membrane"
+      ],
+      "keywords": [
+        "microscopy",
+        "csf",
+        "trypanosoma cruzi",
+        "trypomastigote",
+        "kinetoplast",
+        "flagellum",
+        "parasitology"
+      ],
+      "reveal_triggers": [
+        "csf microscopy",
+        "trypanosoma cruzi",
+        "trypomastigote in csf",
+        "parasitic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:03+00:00",
+    "usage": {
+      "prompt_tokens": 623,
+      "completion_tokens": 312,
+      "total_tokens": 935
+    }
+  }
+}

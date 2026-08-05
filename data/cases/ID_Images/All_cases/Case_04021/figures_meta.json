@@ -1,0 +1,84 @@
+{
+  "Case_04021/figure1.jpg": {
+    "case_id": "Case_04021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04021/figure1.jpg",
+    "source_caption": "CT scan of the pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT of the pelvis showing bilateral gluteal abscesses.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates bilateral fluid collections in the gluteal regions, consistent with abscesses. The collections appear hypodense relative to surrounding soft tissue, with some peripheral enhancement suggestive of inflammation. The central low-density areas likely represent purulent material. The image also shows bilateral femoral heads and surrounding musculature.",
+      "visible_findings": [
+        "bilateral hypodense fluid collections in the gluteal regions",
+        "peripheral enhancement of the collections",
+        "normal appearance of femoral heads",
+        "soft tissue inflammation surrounding the collections"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "gluteal abscess",
+        "fluid collection",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "gluteal abscess",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_04021/figure2.jpg": {
+    "case_id": "Case_04021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04021/figure2.jpg",
+    "source_caption": "CT scan of the pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT scan of the pelvis showing soft tissue and bony structures.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates soft tissue structures, bony anatomy, and pelvic organs. The image appears to be in a soft tissue window setting, with clear visualization of the pelvic bones, musculature, and fat planes. No obvious abnormalities such as masses, fluid collections, or fractures are immediately apparent. The bladder is visible in the midline, and the iliac bones are symmetrically positioned.",
+      "visible_findings": [
+        "axial view of the pelvis",
+        "soft tissue and bony structures visible",
+        "bladder visible in the midline",
+        "no obvious masses or fluid collections"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "axial",
+        "soft tissue",
+        "bony structures"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "ct scan of pelvis",
+        "axial pelvis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:00+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 246,
+      "total_tokens": 834
+    }
+  }
+}

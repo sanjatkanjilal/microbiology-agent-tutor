@@ -1,0 +1,330 @@
+{
+  "Case_09012/figure4.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure4.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing intra-abdominal findings.",
+      "detailed_description": "This is an axial CT image of the abdomen. The scan shows multiple abdominal structures, including the liver, stomach, intestines, and retroperitoneal space. There is evidence of abnormal fluid collections in the peritoneal cavity, suggestive of ascites. The bowel loops appear mildly distended, and there is a possible thickening of the intestinal wall, which could indicate inflammation or infection. The image is in grayscale, with contrast-enhanced structures visible.",
+      "visible_findings": [
+        "abnormal fluid collections in the peritoneal cavity",
+        "mildly distended bowel loops",
+        "possible intestinal wall thickening",
+        "contrast-enhanced abdominal structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "ascites",
+        "intestinal wall thickening",
+        "peritoneal cavity",
+        "fluid collection"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "peritoneal fluid",
+        "infectious abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 260,
+      "total_tokens": 847
+    }
+  },
+  "Case_09012/figure2.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung fields with areas of abnormality. There are patchy, ground-glass opacities visible in both lungs, particularly in the periphery. The mediastinum appears central, and no significant pleural effusion is noted. The image is de-identified and shows no patient-identifying information.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "no significant pleural effusion",
+        "central mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:17+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 219,
+      "total_tokens": 806
+    }
+  },
+  "Case_09012/figure1.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph showing the thoracic cavity. There are bilateral pulmonary infiltrates, more prominent in the lower lung zones, with areas of increased opacity. The cardiac silhouette appears normal in size, and the diaphragm is well-defined. No obvious pleural effusion or pneumothorax is visible. The bony structures, including the ribs and clavicles, appear intact.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "increased opacity in lower lung zones",
+        "normal cardiac silhouette",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "pulmonary infiltrates",
+        "infection",
+        "opacity"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:17+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 232,
+      "total_tokens": 818
+    }
+  },
+  "Case_09012/figure3.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure3.jpg",
+    "source_caption": "CT of the pelvis.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial CT of the pelvis showing soft tissue and bony structures.",
+      "detailed_description": "This axial CT image of the pelvis demonstrates the bony structures, including the iliac bones and sacrum, as well as soft tissue structures. There is a central density in the pelvic cavity, which may represent a foreign body, calcification, or other pathology. The image is de-identified and includes clear labeling of right (R) and left (L) sides.",
+      "visible_findings": [
+        "bony structures of the pelvis visible",
+        "soft tissue structures in the pelvic cavity",
+        "central density in the pelvic cavity",
+        "right (R) and left (L) markers visible"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "axial",
+        "soft tissue",
+        "bony structures",
+        "foreign body"
+      ],
+      "reveal_triggers": [
+        "pelvic CT",
+        "axial CT of pelvis",
+        "CT scan showing pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:21+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 247,
+      "total_tokens": 834
+    }
+  },
+  "Case_09012/figure5.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure5.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing red-stained organisms against a pale background.",
+      "detailed_description": "This image shows an acid-fast stain with multiple red-stained, round to slightly irregular structures against a pale background. The red staining indicates the presence of acid-fast organisms, likely mycobacteria. The background appears granular and lightly stained, consistent with cellular debris or extracellular material. The image is magnified to highlight the organisms' morphology.",
+      "visible_findings": [
+        "red-stained round to irregular structures",
+        "pale granular background",
+        "acid-fast staining pattern"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "mycobacteria",
+        "infectious disease",
+        "microbiology",
+        "staining technique"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "mycobacteria stain",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:23+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 222,
+      "total_tokens": 790
+    }
+  },
+  "Case_09012/figure6.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure6.jpg",
+    "source_caption": "Growth of liver aspirate on MacConkey agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "liver (source of aspirate)",
+      "short_caption": "Growth of liver aspirate on MacConkey agar showing pink, lactose-fermenting colonies.",
+      "detailed_description": "This image shows a MacConkey agar plate with bacterial growth. The colonies appear pink, indicating lactose fermentation. The plate is being held in a gloved hand, and the background includes laboratory equipment. The growth pattern suggests the presence of a Gram-negative, lactose-fermenting organism, commonly associated with enteric bacteria.",
+      "visible_findings": [
+        "pink colonies on MacConkey agar",
+        "lactose fermentation evident",
+        "growth pattern consistent with Gram-negative bacteria"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "liver aspirate",
+        "lactose fermentation",
+        "bacterial growth"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "liver aspirate culture",
+        "bacterial growth on agar"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:28+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 237,
+      "total_tokens": 830
+    }
+  },
+  "Case_09012/figure8.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure8.jpg",
+    "source_caption": "String test.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "String test demonstrating viscous colonies on an agar plate.",
+      "detailed_description": "This image shows a culture plate with multiple white, mucoid colonies on a red agar medium. A blue loop tool is being used to lift one of the colonies, demonstrating a string-like, viscous consistency characteristic of certain bacterial species, such as Klebsiella pneumoniae. The background is blurred, focusing attention on the colonies and the string test being performed.",
+      "visible_findings": [
+        "red agar medium",
+        "white, mucoid colonies",
+        "blue loop tool lifting a colony",
+        "string-like viscous consistency of colony"
+      ],
+      "keywords": [
+        "culture plate",
+        "string test",
+        "mucoid colonies",
+        "bacteria",
+        "agar",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "string test",
+        "culture plate",
+        "mucoid colonies",
+        "bacterial identification"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:35+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 236,
+      "total_tokens": 821
+    }
+  },
+  "Case_09012/figure7.jpg": {
+    "case_id": "Case_09012",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09012/figure7.jpg",
+    "source_caption": "Hypermucoviscous colonies on MacConkey agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Hypermucoviscous colonies on MacConkey agar.",
+      "detailed_description": "This image shows a MacConkey agar plate with multiple large, mucoid colonies. The colonies appear hypermucoviscous, with a shiny and sticky appearance, consistent with certain bacterial strains known for this phenotype. The agar has a reddish hue typical of MacConkey agar, which is used to differentiate lactose-fermenting from non-lactose-fermenting organisms. Some areas of the plate are obscured by black redaction marks.",
+      "visible_findings": [
+        "large, shiny, hypermucoviscous colonies",
+        "reddish MacConkey agar background",
+        "black redaction marks obscuring parts of the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "hypermucoviscous colonies",
+        "bacterial growth",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "bacterial culture",
+        "hypermucoviscous colonies"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:38+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 262,
+      "total_tokens": 857
+    }
+  }
+}

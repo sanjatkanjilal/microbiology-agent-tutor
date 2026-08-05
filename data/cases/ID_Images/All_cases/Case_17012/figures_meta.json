@@ -1,0 +1,126 @@
+{
+  "Case_17012/figure1.jpg": {
+    "case_id": "Case_17012",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17012/figure1.jpg",
+    "source_caption": "Erythematous papular rash over anterior right thigh. The patient had the same rash over her back, abdomen, and bilateral thighs.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right thigh",
+      "short_caption": "Erythematous papular rash on the anterior right thigh.",
+      "detailed_description": "This clinical photograph shows the anterior aspect of the right thigh with multiple small erythematous papules scattered across the skin. The lesions are discrete and appear mildly inflamed. There are markings on the skin, possibly for clinical reference or biopsy site identification. The surrounding skin appears otherwise normal, with no significant edema or excoriation visible.",
+      "visible_findings": [
+        "erythematous papules",
+        "discrete distribution",
+        "clinical markings on the skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "rash",
+        "papules",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "rash on thigh",
+        "papular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:57+00:00",
+    "usage": {
+      "prompt_tokens": 611,
+      "completion_tokens": 215,
+      "total_tokens": 826
+    }
+  },
+  "Case_17012/figure2.jpg": {
+    "case_id": "Case_17012",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17012/figure2.jpg",
+    "source_caption": "MRI brain without contrast at initial presentation. Axial T2 FLAIR showed T2 hyperintensity at the left thalamus (arrow).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2 FLAIR MRI showing hyperintensity in the left thalamus.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain demonstrates a focal area of hyperintensity in the left thalamus, as indicated by the red arrow. The hyperintensity is well-defined and localized, suggesting a potential pathological process. Surrounding brain structures appear normal without evidence of mass effect or midline shift. No contrast enhancement is used in this image.",
+      "visible_findings": [
+        "T2 hyperintensity in the left thalamus",
+        "normal appearance of surrounding brain structures",
+        "no evidence of midline shift or mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "thalamus",
+        "hyperintensity",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "t2 flair",
+        "thalamic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:59+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 245,
+      "total_tokens": 857
+    }
+  },
+  "Case_17012/figure3.jpg": {
+    "case_id": "Case_17012",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17012/figure3.jpg",
+    "source_caption": "MRI brain with gadolinium contrast at initial presentation. Axial T2 FLAIR showed T2 hyperintensity at the left substantia nigra (arrow) and leptomeningeal enhancement in the temporal horn of the left lateral ventricle (asterisk).",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2 FLAIR MRI showing left substantia nigra hyperintensity and leptomeningeal enhancement in the left temporal horn.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain demonstrates a hyperintense signal in the left substantia nigra (indicated by an arrow) and leptomeningeal enhancement in the temporal horn of the left lateral ventricle (marked by an asterisk). Gadolinium contrast was used, as evidenced by the enhancement pattern. The findings suggest localized inflammation or infection involving these regions.",
+      "visible_findings": [
+        "T2 hyperintensity in the left substantia nigra",
+        "Leptomeningeal enhancement in the left temporal horn",
+        "Use of gadolinium contrast"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "substantia nigra",
+        "leptomeningeal enhancement",
+        "temporal horn",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "t2 flair",
+        "substantia nigra hyperintensity",
+        "leptomeningeal enhancement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:02+00:00",
+    "usage": {
+      "prompt_tokens": 637,
+      "completion_tokens": 283,
+      "total_tokens": 920
+    }
+  }
+}

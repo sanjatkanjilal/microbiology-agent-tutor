@@ -1,0 +1,214 @@
+{
+  "Case_06019/figure5.jpg": {
+    "case_id": "Case_06019",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06019/figure5.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm",
+      "short_caption": "Ecchymotic lesions with central necrosis on the arm.",
+      "detailed_description": "This clinical photograph shows the arm of a patient with multiple ecchymotic patches, some of which exhibit central necrosis. The lesions are irregularly shaped, with areas of dark discoloration and surrounding erythema. The skin appears intact without overt ulceration. The patient is wearing a green medical gown, and there are wires visible in the background, suggesting a clinical setting.",
+      "visible_findings": [
+        "ecchymotic patches",
+        "central necrosis",
+        "irregular lesion borders",
+        "surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "ecchymosis",
+        "necrosis",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "arm lesions",
+        "ecchymosis with necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:06+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 230,
+      "total_tokens": 798
+    }
+  },
+  "Case_06019/figure1.jpg": {
+    "case_id": "Case_06019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06019/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesions with eschar formation in a pediatric patient.",
+      "detailed_description": "This clinical photograph shows the left side of a pediatric patient's face. Multiple erythematous papules and macules are visible, with one prominent lesion exhibiting a dark, necrotic eschar. The surrounding skin appears mildly erythematous. The lesions are scattered across the cheek and near the jawline. The image is de-identified, with the eyes obscured for privacy.",
+      "visible_findings": [
+        "multiple erythematous papules and macules",
+        "one lesion with a dark necrotic eschar",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "eschar",
+        "papules",
+        "infectious disease",
+        "pediatric"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "facial lesions",
+        "eschar"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:09+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 235,
+      "total_tokens": 803
+    }
+  },
+  "Case_06019/figure2.jpg": {
+    "case_id": "Case_06019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06019/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Necrotic lesion with surrounding erythema on the dorsum of the hand.",
+      "detailed_description": "The image shows the dorsum of a hand with a necrotic lesion characterized by a black eschar surrounded by erythema. There are additional punctate marks or abrasions nearby. An intravenous catheter is visible on the wrist, suggesting the patient is receiving medical care. The lesion's appearance is consistent with tissue necrosis, possibly due to an infectious or vascular cause.",
+      "visible_findings": [
+        "black necrotic eschar",
+        "surrounding erythema",
+        "punctate marks or abrasions",
+        "intravenous catheter on wrist"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "necrotic lesion",
+        "eschar",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "necrotic eschar",
+        "hand infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:11+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 247,
+      "total_tokens": 815
+    }
+  },
+  "Case_06019/figure4.jpg": {
+    "case_id": "Case_06019",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06019/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "bilateral lower legs and feet",
+      "short_caption": "Erythematous rash with swelling and bruising on both lower legs and feet.",
+      "detailed_description": "This clinical photograph shows both lower legs and feet with extensive erythema, swelling, and areas of bruising. The erythema is diffuse and patchy, with some areas appearing more intensely red. There is a visible puncture wound or lesion on the dorsal aspect of the left foot, which may suggest a possible entry site for infection. The skin appears edematous, and the distribution suggests a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "diffuse erythema on both lower legs and feet",
+        "swelling and edema",
+        "bruising or ecchymosis",
+        "puncture wound or lesion on the left foot"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower legs",
+        "feet",
+        "erythema",
+        "swelling",
+        "bruising",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower leg rash",
+        "infectious rash",
+        "cellulitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 274,
+      "total_tokens": 842
+    }
+  },
+  "Case_06019/figure3.jpg": {
+    "case_id": "Case_06019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06019/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower extremities",
+      "short_caption": "Erythematous rash with purpuric lesions on the lower extremities.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of both feet and lower legs. There is a diffuse erythematous rash with areas of purpura and ecchymosis, particularly prominent on the right foot and lower leg. A necrotic lesion with a central eschar is visible on the right leg. The findings suggest a vasculitic or infectious process. The image is well-lit, and the patient is positioned supine with the legs resting on a white sheet.",
+      "visible_findings": [
+        "diffuse erythema",
+        "purpuric lesions",
+        "necrotic lesion with eschar",
+        "ecchymosis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower extremities",
+        "rash",
+        "purpura",
+        "necrosis",
+        "infection",
+        "vasculitis"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "purpuric lesions",
+        "necrotic eschar",
+        "lower extremity infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:12+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 271,
+      "total_tokens": 839
+    }
+  }
+}

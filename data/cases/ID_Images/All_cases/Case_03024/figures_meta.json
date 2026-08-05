@@ -1,0 +1,218 @@
+{
+  "Case_03024/figure1.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:26:22+00:00"
+  },
+  "Case_03024/figure4.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure4.jpg",
+    "source_caption": "Wound culture plate under microscope.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": null,
+      "short_caption": "Microscopic view of fungal elements with hyphae and budding yeast forms.",
+      "detailed_description": "This image shows a microscopic view of fungal elements, including branching hyphae and numerous budding yeast forms. The organisms are stained to enhance visibility, with the hyphae appearing as elongated structures and the yeast forms as round or oval buds. The image is taken under high magnification, likely using a light microscope.",
+      "visible_findings": [
+        "branching hyphae",
+        "budding yeast forms",
+        "stained fungal elements"
+      ],
+      "keywords": [
+        "microscopy",
+        "fungal elements",
+        "hyphae",
+        "yeast",
+        "stain"
+      ],
+      "reveal_triggers": [
+        "fungal microscopy",
+        "yeast and hyphae",
+        "microscopic view of wound culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:29+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 215,
+      "total_tokens": 804
+    }
+  },
+  "Case_03024/figure5.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure5.jpg",
+    "source_caption": "Reaction to treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Diffuse maculopapular rash on the back.",
+      "detailed_description": "This clinical photograph shows the back of an individual with a diffuse maculopapular rash. The rash consists of small, erythematous macules and papules distributed across the skin. The image is well-lit, and the rash appears to be non-vesicular and non-confluent. The patient is wearing a patterned top, and no other abnormalities are visible in the surrounding skin.",
+      "visible_findings": [
+        "diffuse maculopapular rash",
+        "erythematous macules and papules",
+        "non-vesicular lesions",
+        "non-confluent distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "rash",
+        "maculopapular",
+        "erythematous lesions"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "maculopapular rash",
+        "reaction to treatment"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:32+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 242,
+      "total_tokens": 828
+    }
+  },
+  "Case_03024/figure6.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure6.jpg",
+    "source_caption": "Two months after treatment.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Linear erythematous lesions on the forearm, two months after treatment.",
+      "detailed_description": "This clinical photograph shows the forearm of a patient with linear erythematous lesions extending proximally from the wrist. The lesions appear to follow a lymphatic distribution, with some areas of mild scabbing or crusting, particularly near the wrist. The surrounding skin is otherwise unremarkable, and there is no visible swelling or significant discoloration beyond the lesions.",
+      "visible_findings": [
+        "linear erythematous lesions",
+        "scabbing or crusting near the wrist",
+        "lesions following a lymphatic distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "erythematous lesions",
+        "lymphatic distribution",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "forearm lesions",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:33+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  },
+  "Case_03024/figure3.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure3.jpg",
+    "source_caption": "Culture plate of wound.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Bacterial colonies on a culture plate from a wound specimen.",
+      "detailed_description": "This image shows a round culture plate with bacterial colonies growing on an agar medium. The colonies appear as small, raised, and pigmented formations, with some showing a brownish coloration. The plate is labeled with 'PVD,' and there are black redactions obscuring parts of the image. The background is a textured surface, likely a laboratory bench. The colonies suggest microbial growth from a wound specimen.",
+      "visible_findings": [
+        "bacterial colonies on agar",
+        "brownish pigmentation in some colonies",
+        "plate labeled 'PVD'",
+        "black redactions obscuring parts of the image"
+      ],
+      "keywords": [
+        "culture plate",
+        "bacterial colonies",
+        "wound specimen",
+        "microbiology",
+        "agar"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "wound culture",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:38+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  },
+  "Case_03024/figure2.jpg": {
+    "case_id": "Case_03024",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03024/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on extremity",
+      "short_caption": "Ulcerated lesion with erythematous border and central necrotic tissue.",
+      "detailed_description": "This clinical photograph shows an ulcerated lesion on the skin of an extremity. The lesion has a central area of necrotic tissue with a yellowish appearance, surrounded by erythema and mild swelling. The edges of the lesion are irregular, and there is no visible purulent drainage. The surrounding skin appears inflamed.",
+      "visible_findings": [
+        "ulcerated lesion",
+        "central necrotic tissue",
+        "erythematous border",
+        "mild swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "necrosis",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected ulcer",
+        "necrotic skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:39+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 227,
+      "total_tokens": 795
+    }
+  }
+}

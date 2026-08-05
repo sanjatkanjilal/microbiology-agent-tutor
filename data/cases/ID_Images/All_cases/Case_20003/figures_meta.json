@@ -1,0 +1,126 @@
+{
+  "Case_20003/figure1.jpg": {
+    "case_id": "Case_20003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20003/figure1.jpg",
+    "source_caption": "Ongoing swelling of the Left Knee 12 Weeks from Initial Presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left knee",
+      "short_caption": "Swelling and surgical scar on the left knee 12 weeks post-initial presentation.",
+      "detailed_description": "This image shows a left knee with visible swelling and a linear surgical scar on the anterior aspect. The scar appears to be healing, with some discoloration and mild surrounding erythema. The knee is visibly enlarged compared to normal anatomy, suggesting ongoing inflammation or fluid accumulation. The surrounding skin appears intact without overt signs of infection such as purulent discharge.",
+      "visible_findings": [
+        "swelling of the left knee",
+        "linear surgical scar on the anterior knee",
+        "mild erythema around the scar",
+        "no visible purulent discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "left knee",
+        "swelling",
+        "surgical scar",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "knee swelling",
+        "post-surgical knee",
+        "infectious arthritis",
+        "knee inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:02+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 241,
+      "total_tokens": 837
+    }
+  },
+  "Case_20003/figure3.jpg": {
+    "case_id": "Case_20003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20003/figure3.jpg",
+    "source_caption": "Improved swelling of the left knee 16 Weeks after initial presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left knee",
+      "short_caption": "Improved swelling of the left knee with visible scarring 16 weeks post-presentation.",
+      "detailed_description": "This clinical photograph shows the anterior aspect of the left knee. There is visible scarring along the midline, likely indicative of prior surgical intervention or trauma. The knee appears less swollen compared to acute presentations of joint inflammation or infection. Skin texture and coloration suggest healing, with no overt signs of erythema or active infection.",
+      "visible_findings": [
+        "midline scarring on the left knee",
+        "absence of significant swelling",
+        "no visible erythema or active inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "knee",
+        "scar",
+        "healing",
+        "swelling",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "knee swelling",
+        "post-infection healing",
+        "skin exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:04+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 223,
+      "total_tokens": 818
+    }
+  },
+  "Case_20003/figure2.jpg": {
+    "case_id": "Case_20003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_20003/figure2.jpg",
+    "source_caption": "Left 4th metacarpophalangeal joint involvement 12 weeks after initial presentation",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hand, 4th metacarpophalangeal joint",
+      "short_caption": "Swelling of the left 4th metacarpophalangeal joint.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of the left hand. There is visible swelling and mild erythema localized to the 4th metacarpophalangeal joint. The surrounding skin appears intact without overt ulceration or drainage. The other joints of the hand appear unremarkable, and there is no visible deformity or discoloration of the fingers.",
+      "visible_findings": [
+        "swelling of the left 4th metacarpophalangeal joint",
+        "mild erythema over the joint",
+        "intact surrounding skin",
+        "no visible deformity or drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "joint swelling",
+        "metacarpophalangeal joint",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "hand swelling",
+        "joint involvement",
+        "metacarpophalangeal joint"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:05:05+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 266,
+      "total_tokens": 868
+    }
+  }
+}

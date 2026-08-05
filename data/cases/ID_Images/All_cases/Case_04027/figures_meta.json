@@ -1,0 +1,130 @@
+{
+  "Case_04027/figure1.jpg": {
+    "case_id": "Case_04027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04027/figure1.jpg",
+    "source_caption": "Head CT scan without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "head",
+      "short_caption": "Axial head CT scan without contrast.",
+      "detailed_description": "This is an axial CT scan of the head performed without contrast. The image shows symmetrical brain parenchyma with no obvious midline shift, mass effect, or acute hemorrhage. The sulci and gyri appear preserved, and the ventricles are normal in size and configuration. The bone window demonstrates intact calvarium without fractures.",
+      "visible_findings": [
+        "symmetrical brain parenchyma",
+        "no midline shift",
+        "no acute hemorrhage",
+        "normal ventricular size",
+        "intact calvarium"
+      ],
+      "keywords": [
+        "ct",
+        "head",
+        "axial",
+        "non-contrast",
+        "brain",
+        "ventricles",
+        "calvarium"
+      ],
+      "reveal_triggers": [
+        "head ct",
+        "non-contrast ct",
+        "brain imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:20+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 228,
+      "total_tokens": 816
+    }
+  },
+  "Case_04027/figure2.jpg": {
+    "case_id": "Case_04027",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04027/figure2.jpg",
+    "source_caption": "Head MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI of the brain showing periventricular hyperintensities.",
+      "detailed_description": "This is an axial T2-weighted MRI of the brain. The image demonstrates prominent periventricular hyperintensities surrounding the lateral ventricles, which are symmetrically enlarged. The hyperintensities suggest possible demyelination, inflammation, or chronic ischemic changes. The overall brain parenchyma appears otherwise preserved, with no visible mass effect or midline shift.",
+      "visible_findings": [
+        "periventricular hyperintensities",
+        "symmetrically enlarged lateral ventricles",
+        "no midline shift",
+        "no visible mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "periventricular hyperintensities",
+        "demyelination",
+        "inflammation",
+        "ischemia"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain imaging",
+        "periventricular changes"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:23+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 252,
+      "total_tokens": 838
+    }
+  },
+  "Case_04027/figure3.jpg": {
+    "case_id": "Case_04027",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04027/figure3.jpg",
+    "source_caption": "Head MRI scan with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial brain MRI with gadolinium showing symmetrical white matter changes.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the brain with gadolinium contrast. The image demonstrates symmetrical hyperintense changes in the periventricular white matter, particularly around the lateral ventricles. The ventricles appear normal in size and shape, with no evidence of mass effect or midline shift. The findings may suggest a demyelinating or infectious process.",
+      "visible_findings": [
+        "symmetrical hyperintense changes in periventricular white matter",
+        "normal-sized lateral ventricles",
+        "no midline shift or mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "gadolinium",
+        "white matter changes",
+        "periventricular",
+        "infection",
+        "demyelination"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain imaging",
+        "gadolinium contrast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:34:27+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 243,
+      "total_tokens": 833
+    }
+  }
+}

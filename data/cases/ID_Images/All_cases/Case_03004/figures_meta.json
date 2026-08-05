@@ -1,0 +1,146 @@
+{
+  "Case_03004/figure1.jpg": {
+    "case_id": "Case_03004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03004/figure1.jpg",
+    "source_caption": "Aortic valve vegetation.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:24:45+00:00"
+  },
+  "Case_03004/figure2.jpg": {
+    "case_id": "Case_03004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03004/figure2.jpg",
+    "source_caption": "Divided suture on allograft.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:24:47+00:00"
+  },
+  "Case_03004/figure4.jpg": {
+    "case_id": "Case_03004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03004/figure4.jpg",
+    "source_caption": "Valve tissue with hyphal invasion (silver stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "valve tissue",
+      "short_caption": "Valve tissue with hyphal invasion visualized using silver stain.",
+      "detailed_description": "This histopathology image shows valve tissue stained with a silver stain, highlighting fungal hyphae. The hyphae appear as dark, filamentous structures infiltrating the tissue. The background tissue is stained green, providing contrast to the fungal elements. The image demonstrates extensive fungal invasion, consistent with invasive fungal endocarditis.",
+      "visible_findings": [
+        "dark filamentous hyphae infiltrating tissue",
+        "green-stained background tissue",
+        "silver stain technique highlighting fungal structures"
+      ],
+      "keywords": [
+        "histopathology",
+        "valve tissue",
+        "silver stain",
+        "fungal hyphae",
+        "invasive fungal infection"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "fungal endocarditis",
+        "histopathology of valve tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:50+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 228,
+      "total_tokens": 820
+    }
+  },
+  "Case_03004/figure3.jpg": {
+    "case_id": "Case_03004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03004/figure3.jpg",
+    "source_caption": "Valve tissue, septate hyphae on Wright’s stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "valve tissue",
+      "short_caption": "Histopathology of valve tissue showing septate hyphae on Wright's stain.",
+      "detailed_description": "This histopathology image shows valve tissue stained with Wright's stain. The tissue contains numerous septate hyphae, which are elongated fungal structures with visible septations. The hyphae are distributed throughout the tissue matrix, suggesting fungal invasion. The staining highlights the fungal morphology against the background tissue, aiding in identification.",
+      "visible_findings": [
+        "septate hyphae visible within tissue matrix",
+        "elongated fungal structures with septations",
+        "background valve tissue stained with Wright's stain"
+      ],
+      "keywords": [
+        "histopathology",
+        "valve tissue",
+        "septate hyphae",
+        "wright's stain",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "valve histopathology",
+        "wright's stain of fungal infection",
+        "septate hyphae in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:50+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 255,
+      "total_tokens": 850
+    }
+  },
+  "Case_03004/figure5.jpg": {
+    "case_id": "Case_03004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03004/figure5.jpg",
+    "source_caption": "Valve tissue with hyphal elements (silver stain).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "valve tissue",
+      "short_caption": "Valve tissue with fungal hyphal elements visualized using silver stain.",
+      "detailed_description": "This histopathology image shows valve tissue stained with a silver stain, highlighting numerous fungal hyphal elements. The hyphae appear as elongated, branching structures with high contrast against the background tissue. The silver stain technique is commonly used to identify fungal organisms in tissue samples. The image suggests invasive fungal infection involving the valve tissue.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "silver stain highlighting fungal elements",
+        "background tissue structure visible"
+      ],
+      "keywords": [
+        "histopathology",
+        "valve tissue",
+        "silver stain",
+        "fungal infection",
+        "hyphae"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "fungal hyphae in tissue",
+        "histopathology of valve"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:52+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 236,
+      "total_tokens": 828
+    }
+  }
+}

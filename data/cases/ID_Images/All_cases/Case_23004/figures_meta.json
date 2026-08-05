@@ -1,0 +1,165 @@
+{
+  "Case_23004/figure2.jpg": {
+    "case_id": "Case_23004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23004/figure2.jpg",
+    "source_caption": "Figure 2, Photo of Right Sternoclavicular Joint",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right sternoclavicular joint",
+      "short_caption": "Erythematous swelling over the right sternoclavicular joint.",
+      "detailed_description": "The image shows a close-up view of the right sternoclavicular joint. There is a prominent erythematous swelling with a smooth surface, suggesting localized inflammation. The surrounding skin appears intact without visible ulceration or drainage. The swelling is well-circumscribed and appears tender, consistent with an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous swelling",
+        "smooth surface",
+        "localized inflammation",
+        "intact surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "sternoclavicular joint",
+        "swelling",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "sternoclavicular joint swelling",
+        "skin exam",
+        "infectious arthritis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:05+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 225,
+      "total_tokens": 820
+    }
+  },
+  "Case_23004/figure3.jpg": {
+    "case_id": "Case_23004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23004/figure3.jpg",
+    "source_caption": "Figure 3, Left Hand Radiograph",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "left hand",
+      "short_caption": "Radiograph of the left hand showing bony structures and soft tissue.",
+      "detailed_description": "This is a plain radiograph of the left hand in a posteroanterior (PA) view. The bony structures, including the phalanges, metacarpals, and carpal bones, are clearly visible. The soft tissue outlines are also discernible. No obvious fractures, dislocations, or lytic lesions are apparent in this image. A radiopaque marker labeled 'L' confirms the laterality as the left hand.",
+      "visible_findings": [
+        "clear visualization of phalanges, metacarpals, and carpal bones",
+        "no obvious fractures or dislocations",
+        "soft tissue outlines visible",
+        "radiopaque marker indicating left hand"
+      ],
+      "keywords": [
+        "radiograph",
+        "left hand",
+        "bones",
+        "soft tissue",
+        "PA view"
+      ],
+      "reveal_triggers": [
+        "hand x-ray",
+        "left hand radiograph",
+        "bony structures of the hand"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:07+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 261,
+      "total_tokens": 852
+    }
+  },
+  "Case_23004/figure1.jpg": {
+    "case_id": "Case_23004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23004/figure1.jpg",
+    "source_caption": "Figure 1, Photo of Right Wrist",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right wrist",
+      "short_caption": "Clinical photograph of the right wrist showing a swollen, erythematous lesion.",
+      "detailed_description": "This image shows the dorsal aspect of the right wrist with a prominent, well-demarcated swelling. The lesion appears erythematous and raised, with smooth overlying skin. There is no visible ulceration or drainage. The surrounding skin shows mild discoloration, but no overt signs of additional lesions or trauma.",
+      "visible_findings": [
+        "swelling over the right wrist",
+        "erythema of the overlying skin",
+        "smooth, intact skin surface",
+        "no visible ulceration or drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "right wrist",
+        "swelling",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "wrist swelling",
+        "infectious lesion on wrist"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:11+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 228,
+      "total_tokens": 819
+    }
+  },
+  "Case_23004/figure4.jpg": {
+    "case_id": "Case_23004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23004/figure4.jpg",
+    "source_caption": "Figure 4, Right Hand Radiograph",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand",
+      "short_caption": "Radiograph of the right hand showing bony abnormalities.",
+      "detailed_description": "This is an X-ray image of the right hand. The bones of the hand, including the phalanges, metacarpals, and carpals, are visible. There are signs of bony abnormalities, including possible joint deformities and irregularities in bone structure. A marker indicating 'R' confirms the laterality as the right hand.",
+      "visible_findings": [
+        "bony abnormalities",
+        "joint deformities",
+        "irregular bone structure",
+        "right hand marker"
+      ],
+      "keywords": [
+        "radiograph",
+        "right hand",
+        "bony abnormalities",
+        "joint deformities"
+      ],
+      "reveal_triggers": [
+        "hand x-ray",
+        "right hand radiograph",
+        "bony abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:14+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 214,
+      "total_tokens": 805
+    }
+  }
+}

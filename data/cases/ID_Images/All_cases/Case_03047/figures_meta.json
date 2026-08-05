@@ -1,0 +1,86 @@
+{
+  "Case_03047/figure1.jpg": {
+    "case_id": "Case_03047",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03047/figure1.jpg",
+    "source_caption": "MRI scan of the head.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "MRI of the head showing a large, well-defined lesion in the left temporal lobe.",
+      "detailed_description": "This axial MRI image of the head demonstrates a large, well-circumscribed lesion in the left temporal lobe. The lesion appears hyperintense relative to surrounding brain tissue, suggesting a cystic or necrotic component. There is associated mass effect with compression of adjacent structures. The surrounding brain tissue shows mild edema. The imaging characteristics are consistent with an intracranial abscess or other space-occupying lesion.",
+      "visible_findings": [
+        "large, well-defined lesion in the left temporal lobe",
+        "hyperintense signal within the lesion",
+        "mass effect on adjacent structures",
+        "mild surrounding edema"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "brain",
+        "temporal lobe",
+        "lesion",
+        "abscess",
+        "space-occupying lesion"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "brain lesion",
+        "temporal lobe abscess"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 264,
+      "total_tokens": 852
+    }
+  },
+  "Case_03047/figure2.jpg": {
+    "case_id": "Case_03047",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03047/figure2.jpg",
+    "source_caption": "MRI scan of the head.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "MRI of the head showing a large intracranial lesion with surrounding edema.",
+      "detailed_description": "This is a coronal MRI image of the head, showing a large, well-defined intracranial lesion in the left hemisphere. The lesion appears hyperintense, with surrounding hypointense areas suggestive of edema. The mass effect is evident, with midline shift and compression of adjacent structures. The image likely uses contrast enhancement, as the lesion demonstrates differential signal intensity compared to surrounding tissues.",
+      "visible_findings": [
+        "large hyperintense intracranial lesion",
+        "surrounding hypointense edema",
+        "midline shift",
+        "compression of adjacent structures"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "intracranial lesion",
+        "edema",
+        "contrast enhancement"
+      ],
+      "reveal_triggers": [
+        "mri of the head",
+        "intracranial lesion",
+        "brain imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:04+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 240,
+      "total_tokens": 828
+    }
+  }
+}

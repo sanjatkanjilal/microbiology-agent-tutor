@@ -1,0 +1,172 @@
+{
+  "Case_16007/figure4.jpg": {
+    "case_id": "Case_16007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16007/figure4.jpg",
+    "source_caption": "MRI (Figure 3, with arrows added) showing leptomeningeal enhancement in the frontal lobes.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI showing leptomeningeal enhancement in the frontal lobes.",
+      "detailed_description": "This axial MRI image of the brain, obtained with contrast and using a FLAIR sequence, demonstrates abnormal leptomeningeal enhancement in the frontal lobes. The enhancement is highlighted by arrows, indicating areas of increased signal intensity along the meninges. The ventricles appear normal in size and shape, and there is no evidence of mass effect or midline shift.",
+      "visible_findings": [
+        "leptomeningeal enhancement in the frontal lobes",
+        "contrast-enhanced FLAIR sequence",
+        "normal ventricular size and shape",
+        "no midline shift or mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "leptomeningeal enhancement",
+        "contrast",
+        "flair sequence",
+        "frontal lobes"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "leptomeningeal enhancement",
+        "contrast mri of brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:27+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 264,
+      "total_tokens": 868
+    }
+  },
+  "Case_16007/figure2.jpg": {
+    "case_id": "Case_16007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16007/figure2.jpg",
+    "source_caption": "Sagittal T1 MRI scan, VIBE sequence, with reconstruction.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Sagittal T1-weighted MRI with contrast showing brain structures.",
+      "detailed_description": "This sagittal T1-weighted MRI image with contrast demonstrates detailed visualization of the brain, including the midline structures such as the corpus callosum, brainstem, and cerebellum. The VIBE sequence provides high-resolution imaging, and the contrast enhancement highlights vascular structures and potential lesions. No obvious abnormalities are visible in this image, but further clinical correlation is necessary.",
+      "visible_findings": [
+        "sagittal view of the brain",
+        "contrast-enhanced structures",
+        "midline anatomy including corpus callosum and brainstem",
+        "no overt lesions or masses visible"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "sagittal",
+        "t1-weighted",
+        "contrast",
+        "vibe sequence",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "sagittal t1 mri",
+        "vibe sequence mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:30+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 257,
+      "total_tokens": 854
+    }
+  },
+  "Case_16007/figure1.jpg": {
+    "case_id": "Case_16007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16007/figure1.jpg",
+    "source_caption": "Axial T2 MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T2-weighted MRI showing a lesion in the posterior fossa.",
+      "detailed_description": "This axial T2-weighted MRI scan of the brain shows a hyperintense lesion in the posterior fossa, measuring approximately 4.2 mm in diameter. The lesion is located near the midline, adjacent to the cerebellum, and appears well-circumscribed. Surrounding structures, including the brainstem and cerebellar hemispheres, are visible. The scan is labeled with orientation markers (A, P, L, R) and includes a measurement scale.",
+      "visible_findings": [
+        "hyperintense lesion in the posterior fossa",
+        "well-circumscribed lesion measuring 4.2 mm",
+        "adjacent cerebellar and brainstem structures visible",
+        "orientation markers (A, P, L, R)"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2-weighted",
+        "posterior fossa",
+        "lesion",
+        "cerebellum"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 axial mri",
+        "posterior fossa lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:32+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 286,
+      "total_tokens": 875
+    }
+  },
+  "Case_16007/figure3.jpg": {
+    "case_id": "Case_16007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16007/figure3.jpg",
+    "source_caption": "A post-contrast coronal T2 MRI FLAIR image.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial post-contrast T2 FLAIR MRI of the brain.",
+      "detailed_description": "This is an axial T2 FLAIR MRI image of the brain, taken post-contrast. The ventricles are symmetrically enlarged, and there is hyperintensity in the periventricular white matter, which may suggest inflammation, infection, or demyelination. The cortical and subcortical structures appear intact, with no evidence of mass effect or midline shift. The image is labeled as a post-contrast study, but no clear enhancement is visible in this slice.",
+      "visible_findings": [
+        "symmetrically enlarged ventricles",
+        "periventricular white matter hyperintensity",
+        "no mass effect",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "post-contrast",
+        "ventricular enlargement",
+        "periventricular hyperintensity"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 flair",
+        "post-contrast mri",
+        "ventricular enlargement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:34+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 275,
+      "total_tokens": 871
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Case_05026/figure1.jpg": {
+    "case_id": "Case_05026",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05026/figure1.jpg",
+    "source_caption": "Perirectal lesions secondary to herpes simplex virus, type 2 (HSV-2) are shown.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "perirectal region",
+      "short_caption": "Perirectal vesicular lesions suggestive of herpes simplex virus infection.",
+      "detailed_description": "The image shows the perirectal region with multiple small, grouped vesicular lesions on an erythematous base. The lesions are well-demarcated and appear to be in varying stages of development, consistent with a viral etiology such as herpes simplex virus (HSV). The surrounding skin shows mild erythema without significant ulceration or necrosis.",
+      "visible_findings": [
+        "grouped vesicular lesions",
+        "erythematous base",
+        "perirectal location"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "perirectal",
+        "vesicles",
+        "herpes simplex virus",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "perirectal lesions",
+        "skin exam",
+        "vesicular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:59+00:00",
+    "usage": {
+      "prompt_tokens": 603,
+      "completion_tokens": 222,
+      "total_tokens": 825
+    }
+  }
+}

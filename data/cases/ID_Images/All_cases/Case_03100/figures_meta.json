@@ -1,0 +1,44 @@
+{
+  "Case_03100/figure1.jpg": {
+    "case_id": "Case_03100",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03100/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "buttock and upper thigh",
+      "short_caption": "Grouped vesicles and erosions on the buttock and upper thigh.",
+      "detailed_description": "This clinical photograph shows a cluster of vesicles and erosions on the buttock and upper thigh. The lesions are grouped and appear to follow a linear or dermatomal distribution. The surrounding skin shows mild erythema, and some vesicles appear to have ruptured, forming crusts. The pattern and appearance suggest a vesicular dermatosis, potentially infectious in origin.",
+      "visible_findings": [
+        "grouped vesicles",
+        "erosions with crusting",
+        "linear or dermatomal distribution",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "buttock",
+        "vesicles",
+        "erosions",
+        "dermatomal distribution",
+        "infectious dermatosis"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesicular rash",
+        "dermatomal rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 246,
+      "total_tokens": 814
+    }
+  }
+}

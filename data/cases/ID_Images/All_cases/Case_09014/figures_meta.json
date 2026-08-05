@@ -1,0 +1,211 @@
+{
+  "Case_09014/figure2.jpg": {
+    "case_id": "Case_09014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09014/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT of the chest showing bilateral cavitary lesions.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung involvement with multiple cavitary lesions, predominantly in the upper lobes. The cavities have thick walls and are surrounded by areas of ground-glass opacities. The mediastinum and heart are centrally located, and no significant pleural effusion is visible. The findings are suggestive of an infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral cavitary lesions",
+        "thick-walled cavities",
+        "ground-glass opacities",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavitary lesions",
+        "infection",
+        "ground-glass opacities"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavities",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:26+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 233,
+      "total_tokens": 820
+    }
+  },
+  "Case_09014/figure1.jpg": {
+    "case_id": "Case_09014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09014/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph demonstrating bilateral pulmonary infiltrates, predominantly in the lower lung zones. The heart size appears within normal limits, and there is no obvious pleural effusion. The infiltrates are patchy and may suggest an infectious or inflammatory process. The bony structures, including the ribs and spine, appear intact.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "predominantly lower lung zone involvement",
+        "normal heart size",
+        "no visible pleural effusion",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary infiltrates",
+        "infection",
+        "lower lung zones",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "lung infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:36+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 233,
+      "total_tokens": 819
+    }
+  },
+  "Case_09014/figure3.jpg": {
+    "case_id": "Case_09014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09014/figure3.jpg",
+    "source_caption": "Hematoxylin and eosin stain of lung tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Hematoxylin and eosin stain of lung tissue showing inflammation and cellular changes.",
+      "detailed_description": "This hematoxylin and eosin-stained section of lung tissue reveals prominent inflammatory infiltrates, including numerous neutrophils and mononuclear cells. The architecture is disrupted, with areas of cellular debris and possible necrosis. The pink eosinophilic background represents extracellular matrix and cytoplasmic components, while the darker purple nuclei indicate dense cellular activity. These findings are consistent with an infectious or inflammatory process in the lung.",
+      "visible_findings": [
+        "inflammatory infiltrates with neutrophils and mononuclear cells",
+        "disrupted lung architecture",
+        "areas of cellular debris",
+        "eosinophilic extracellular matrix",
+        "dark purple nuclei indicating cellular activity"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "hematoxylin and eosin",
+        "inflammation",
+        "infection",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "lung histopathology",
+        "H&E stain of lung",
+        "infectious lung pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:36+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 274,
+      "total_tokens": 869
+    }
+  },
+  "Case_09014/figure4.jpg": {
+    "case_id": "Case_09014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09014/figure4.jpg",
+    "source_caption": "Gomori methenamine silver stain of lung tissue.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Gomori methenamine silver stain of lung tissue showing fungal elements.",
+      "detailed_description": "This Gomori methenamine silver (GMS) stain highlights numerous darkly stained fungal elements against a green background of lung tissue. The fungal structures appear as small, round to oval forms, some with budding morphology, consistent with yeast forms. The surrounding tissue shows no significant cellular detail due to the staining technique, but the fungal organisms are prominently visualized.",
+      "visible_findings": [
+        "darkly stained fungal elements",
+        "round to oval yeast forms",
+        "budding morphology",
+        "green background of lung tissue"
+      ],
+      "keywords": [
+        "gomori methenamine silver stain",
+        "lung tissue",
+        "fungal elements",
+        "yeast forms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gomori methenamine silver stain",
+        "lung biopsy",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:39+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 237,
+      "total_tokens": 830
+    }
+  },
+  "Case_09014/figure5.jpg": {
+    "case_id": "Case_09014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09014/figure5.jpg",
+    "source_caption": "Modified Giemsa stain of lung tissue.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "Modified Giemsa stain of lung tissue showing intracellular and extracellular organisms.",
+      "detailed_description": "This image shows a modified Giemsa stain of lung tissue. Numerous round to oval organisms are visible, some within host cells and others extracellularly. The organisms stain purple against a lighter background, with some variation in size. The tissue appears infiltrated with inflammatory cells, including macrophages, suggesting an infectious process. The staining highlights the organisms and cellular structures effectively.",
+      "visible_findings": [
+        "purple-staining round to oval organisms",
+        "intracellular and extracellular organisms",
+        "inflammatory cells, including macrophages",
+        "light background with contrast to stained elements"
+      ],
+      "keywords": [
+        "giemsa stain",
+        "lung tissue",
+        "infectious organisms",
+        "intracellular organisms",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "giemsa stain",
+        "lung tissue infection",
+        "histopathology of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:42+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 244,
+      "total_tokens": 835
+    }
+  }
+}

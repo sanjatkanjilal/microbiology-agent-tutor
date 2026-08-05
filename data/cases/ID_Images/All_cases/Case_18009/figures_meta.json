@@ -1,0 +1,292 @@
+{
+  "Case_18009/figure2.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure2.jpg",
+    "source_caption": "CT chest at presentation showing a conglomerate of lymph nodes in the left supraclavicular fossa (arrow), each measuring less than 1cm.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest, supraclavicular fossa",
+      "short_caption": "CT chest showing left supraclavicular lymph nodes (arrow), each measuring less than 1 cm.",
+      "detailed_description": "This axial CT image of the chest demonstrates a cluster of lymph nodes in the left supraclavicular fossa, indicated by a red arrow. The lymph nodes appear as small, rounded, soft tissue densities, each measuring less than 1 cm in size. Surrounding structures, including the clavicles and adjacent musculature, are visible. No significant mass effect or abnormal enhancement is noted.",
+      "visible_findings": [
+        "cluster of lymph nodes in the left supraclavicular fossa",
+        "lymph nodes measuring less than 1 cm",
+        "normal surrounding anatomical structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "supraclavicular fossa",
+        "lymph nodes",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "supraclavicular lymph nodes",
+        "infectious lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:51+00:00",
+    "usage": {
+      "prompt_tokens": 613,
+      "completion_tokens": 258,
+      "total_tokens": 871
+    }
+  },
+  "Case_18009/figure1.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure1.jpg",
+    "source_caption": "CT chest at presentation revealed mild left upper lobe consolidation (arrow) and two lung nodules of less than 5mm in diameter.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing mild left upper lobe consolidation and two small lung nodules.",
+      "detailed_description": "This axial CT image of the chest demonstrates mild consolidation in the left upper lobe, as indicated by the red arrow. Additionally, two small lung nodules, each less than 5 mm in diameter, are visible in the lung fields. The image is a non-contrast study, with clear visualization of the lung parenchyma and surrounding structures.",
+      "visible_findings": [
+        "mild left upper lobe consolidation",
+        "two lung nodules less than 5 mm in diameter",
+        "normal lung parenchyma in other regions"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "consolidation",
+        "nodule",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "lung consolidation",
+        "lung nodules"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:56+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 233,
+      "total_tokens": 843
+    }
+  },
+  "Case_18009/figure3.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure3.jpg",
+    "source_caption": "CT chest on day +11 of presentation showed a new miliary infiltrate and progressive lung consolidation (arrow).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT chest showing miliary infiltrates and progressive consolidation in the right lung (arrow).",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung fields with a miliary pattern of small nodular opacities, consistent with miliary infiltrates. There is a focal area of consolidation in the right lung, highlighted by the red arrow, which appears denser compared to the surrounding lung parenchyma. The trachea and mediastinal structures are midline, and no significant pleural effusion is visible. The findings suggest progressive pulmonary involvement.",
+      "visible_findings": [
+        "miliary pattern of small nodular opacities",
+        "focal consolidation in the right lung",
+        "midline trachea",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "miliary infiltrates",
+        "lung consolidation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "miliary infiltrates",
+        "lung consolidation",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:01+00:00",
+    "usage": {
+      "prompt_tokens": 604,
+      "completion_tokens": 266,
+      "total_tokens": 870
+    }
+  },
+  "Case_18009/figure4.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure4.jpg",
+    "source_caption": "Left Lymph node biopsy. H&E stain (4x). Necrotizing granulomatous lymphadenitis (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "H&E stain (4x) showing necrotizing granulomatous lymphadenitis with arrows indicating necrotic areas.",
+      "detailed_description": "This is a low-power (4x) histopathology image of a lymph node stained with hematoxylin and eosin (H&E). The tissue shows areas of necrosis (highlighted by arrows) surrounded by granulomatous inflammation. The necrotic regions appear pale and amorphous, while the surrounding granulomas are composed of dense cellular aggregates. This pattern is consistent with necrotizing granulomatous lymphadenitis.",
+      "visible_findings": [
+        "necrotic areas (pale, amorphous regions)",
+        "granulomas (dense cellular aggregates)",
+        "arrows marking necrotic regions"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "H&E stain",
+        "necrotizing granulomatous lymphadenitis",
+        "granulomas",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "lymph node biopsy",
+        "H&E stain",
+        "necrotizing granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:01+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 280,
+      "total_tokens": 888
+    }
+  },
+  "Case_18009/figure5.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure5.jpg",
+    "source_caption": "Direct microscopy of lymph node culture. Lactophenol cotton blue stain (40x). Numerous tuberculate, thick-walled macroconidia, between 8-15 µm in size (arrowheads) and septate hyphae (arrow).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lymph node culture",
+      "short_caption": "Lactophenol cotton blue stain showing tuberculate macroconidia and septate hyphae.",
+      "detailed_description": "This image shows a lactophenol cotton blue stain of a lymph node culture at 40x magnification. Numerous thick-walled, tuberculate macroconidia, measuring approximately 8-15 µm, are visible (indicated by arrowheads). Septate hyphae are also present and highlighted by an arrow. The stain provides clear contrast, allowing detailed visualization of fungal structures.",
+      "visible_findings": [
+        "tuberculate, thick-walled macroconidia (8-15 µm)",
+        "septate hyphae",
+        "lactophenol cotton blue stain"
+      ],
+      "keywords": [
+        "lactophenol cotton blue",
+        "macroconidia",
+        "septate hyphae",
+        "fungal culture",
+        "lymph node",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "lactophenol cotton blue stain",
+        "lymph node microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:02+00:00",
+    "usage": {
+      "prompt_tokens": 633,
+      "completion_tokens": 269,
+      "total_tokens": 902
+    }
+  },
+  "Case_18009/figure6.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure6.jpg",
+    "source_caption": "Left lung biopsy. Periodic Acid–Schiff (PAS) stain (40x). Small spherical budding yeast-forms suggestive of Histoplasma spp. observed in the cytoplasm of alveolar macrophage (arrow).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "PAS stain of lung biopsy showing small spherical budding yeast forms within alveolar macrophages.",
+      "detailed_description": "This is a histopathology image of a lung biopsy stained with Periodic Acid–Schiff (PAS) at 40x magnification. The image highlights small, spherical, budding yeast forms (indicated by a red arrow) located within the cytoplasm of alveolar macrophages. The yeast forms are consistent with fungal organisms, suggestive of Histoplasma spp. The PAS stain enhances the visualization of fungal cell walls, which appear magenta against a lighter background.",
+      "visible_findings": [
+        "small spherical budding yeast forms",
+        "yeast forms within alveolar macrophages",
+        "magenta-stained fungal cell walls",
+        "PAS stain highlighting fungal elements"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "PAS stain",
+        "fungal infection",
+        "yeast forms",
+        "alveolar macrophages"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "lung biopsy",
+        "fungal infection histology",
+        "Histoplasma spp."
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:05+00:00",
+    "usage": {
+      "prompt_tokens": 627,
+      "completion_tokens": 273,
+      "total_tokens": 900
+    }
+  },
+  "Case_18009/figure7.jpg": {
+    "case_id": "Case_18009",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18009/figure7.jpg",
+    "source_caption": "Left lung biopsy. GMS stain (40x). Numerous fungal elements suggestive of histoplasmosis, in the intracellullar alveolar macrophage (arrow).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "lung tissue",
+      "short_caption": "GMS stain of lung biopsy showing fungal elements within alveolar macrophages.",
+      "detailed_description": "This is a high-magnification image of lung tissue stained with Gomori methenamine silver (GMS). The stain highlights numerous small, round to oval fungal elements, which are darkly stained and located intracellularly within alveolar macrophages (indicated by the arrow). The surrounding tissue shows a network of alveolar structures with some cellular debris and background staining. The findings are consistent with fungal infection, potentially histoplasmosis.",
+      "visible_findings": [
+        "darkly stained fungal elements",
+        "intracellular location within alveolar macrophages",
+        "alveolar tissue structure",
+        "GMS stain highlighting fungal organisms"
+      ],
+      "keywords": [
+        "gms stain",
+        "lung biopsy",
+        "fungal infection",
+        "histoplasmosis",
+        "alveolar macrophages"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "lung biopsy",
+        "fungal infection",
+        "histoplasmosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:09+00:00",
+    "usage": {
+      "prompt_tokens": 615,
+      "completion_tokens": 256,
+      "total_tokens": 871
+    }
+  }
+}

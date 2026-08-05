@@ -1,0 +1,209 @@
+{
+  "Case_15008/figure1.jpg": {
+    "case_id": "Case_15008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15008/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing both lung fields, mediastinum, and diaphragm. The lung fields appear symmetrically aerated with no obvious focal consolidation, mass, or pleural effusion. The cardiac silhouette is within normal limits, and the diaphragm contours are smooth. No apparent bony abnormalities are visible in the ribs, clavicles, or spine.",
+      "visible_findings": [
+        "symmetrically aerated lung fields",
+        "normal cardiac silhouette",
+        "smooth diaphragm contours",
+        "no visible focal consolidation or effusion",
+        "no apparent bony abnormalities"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lungs",
+        "thorax",
+        "normal findings",
+        "radiology"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "radiograph of thorax",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:35+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 241,
+      "total_tokens": 827
+    }
+  },
+  "Case_15008/figure2.jpg": {
+    "case_id": "Case_15008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15008/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial CT image of the chest demonstrates the lungs, mediastinum, and surrounding structures. The lung fields show patchy areas of ground-glass opacities bilaterally, particularly in the lower lobes. The airways appear patent, and there is no obvious pleural effusion. The mediastinum and heart are centrally located, and no gross abnormalities are visible in the bony thorax.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "patent airways",
+        "no pleural effusion",
+        "normal mediastinal structures"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:37+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 240,
+      "total_tokens": 827
+    }
+  },
+  "Case_15008/figure3.jpg": {
+    "case_id": "Case_15008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15008/figure3.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing bilateral pulmonary abnormalities.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary findings. There are multiple nodular opacities in both lungs, some of which appear cavitary. The mediastinum and surrounding structures are visible, and there is no obvious pleural effusion. The image is in lung window settings, highlighting the pulmonary parenchyma and abnormalities.",
+      "visible_findings": [
+        "bilateral pulmonary nodules",
+        "cavitary lesions in both lungs",
+        "lung window settings"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "nodules",
+        "cavitation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung nodules",
+        "cavitary lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:37+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 217,
+      "total_tokens": 804
+    }
+  },
+  "Case_15008/figure4.jpg": {
+    "case_id": "Case_15008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15008/figure4.jpg",
+    "source_caption": "CT of the chest with angiography (CTA).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CTA of the chest showing vascular abnormalities.",
+      "detailed_description": "This axial CT angiography (CTA) image of the chest demonstrates contrast-enhanced vascular structures, including the aorta and pulmonary arteries. There appears to be a filling defect within the pulmonary arteries, suggestive of a pulmonary embolism. The surrounding lung parenchyma is partially visible, and no significant consolidation or mass effect is evident in this slice.",
+      "visible_findings": [
+        "contrast-enhanced vascular structures",
+        "filling defect in pulmonary arteries",
+        "normal-appearing surrounding lung parenchyma"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "angiography",
+        "pulmonary embolism",
+        "vascular",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "cta",
+        "pulmonary embolism",
+        "vascular imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:39+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 223,
+      "total_tokens": 815
+    }
+  },
+  "Case_15008/figure5.jpg": {
+    "case_id": "Case_15008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15008/figure5.jpg",
+    "source_caption": "Three-dimensional view of the CTA.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Three-dimensional CTA showing thoracic vasculature and cardiac structures.",
+      "detailed_description": "This is a three-dimensional reconstruction from a CT angiography (CTA) scan, showing the thoracic region. The image highlights the major blood vessels, including the aorta and its branches, as well as the heart. The vascular structures are well-defined, and the reconstruction provides a clear spatial relationship between the vessels and surrounding anatomy. The image appears to focus on the cardiovascular system, possibly for evaluation of vascular abnormalities or pathology.",
+      "visible_findings": [
+        "three-dimensional reconstruction",
+        "aorta and major branches visible",
+        "cardiac structures prominent",
+        "vascular anatomy clearly delineated"
+      ],
+      "keywords": [
+        "cta",
+        "thorax",
+        "vascular anatomy",
+        "3d reconstruction",
+        "cardiac imaging"
+      ],
+      "reveal_triggers": [
+        "cta",
+        "3d ct angiography",
+        "thoracic vasculature"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "low",
+    "generated_at": "2026-07-23T15:58:41+00:00",
+    "usage": {
+      "prompt_tokens": 445,
+      "completion_tokens": 239,
+      "total_tokens": 684
+    }
+  }
+}

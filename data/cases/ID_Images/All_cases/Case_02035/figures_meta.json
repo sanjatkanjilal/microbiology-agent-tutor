@@ -1,0 +1,166 @@
+{
+  "Case_02035/figure2.jpg": {
+    "case_id": "Case_02035",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02035/figure2.jpg",
+    "source_caption": "Sagittal chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Coronal CT scan of the pelvis showing a large fluid-filled structure.",
+      "detailed_description": "This coronal CT image of the pelvis reveals a large, well-defined, fluid-filled structure in the pelvic cavity, likely a cystic lesion or abscess. The surrounding bony structures, including the iliac bones, appear intact. The lesion demonstrates a homogenous low attenuation consistent with fluid density. No obvious calcifications or septations are visible within the lesion. The image is de-identified and labeled with a watermark.",
+      "visible_findings": [
+        "large fluid-filled structure in the pelvis",
+        "intact iliac bones",
+        "homogenous low attenuation within the lesion"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "fluid-filled lesion",
+        "cyst",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "pelvic ct",
+        "fluid-filled lesion",
+        "cystic structure on ct"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:27+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 238,
+      "total_tokens": 827
+    }
+  },
+  "Case_02035/figure1.jpg": {
+    "case_id": "Case_02035",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02035/figure1.jpg",
+    "source_caption": "Sagittal chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Coronal CT scan of the pelvis showing a fluid-filled structure.",
+      "detailed_description": "This coronal CT image of the pelvis demonstrates a well-defined, fluid-filled structure on the left side, likely within the pelvic cavity. The surrounding bony structures, including the sacrum and pelvic bones, appear intact. The image is in grayscale with good contrast, and the fluid-filled area appears hypodense compared to the surrounding tissues.",
+      "visible_findings": [
+        "fluid-filled hypodense structure in the pelvis",
+        "intact pelvic bones",
+        "normal sacral alignment"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "fluid-filled structure",
+        "coronal view",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "pelvic CT",
+        "fluid-filled lesion",
+        "coronal CT pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:27+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 218,
+      "total_tokens": 807
+    }
+  },
+  "Case_02035/figure3.jpg": {
+    "case_id": "Case_02035",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02035/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT showing bilateral lung fields and mediastinal structures.",
+      "detailed_description": "This axial chest CT image demonstrates the upper thoracic region, including the bilateral lung fields, mediastinum, and bony structures such as the ribs and vertebrae. The lung parenchyma appears dark due to air content, while the mediastinal structures and bones are denser and appear brighter. No obvious focal lesions, consolidations, or masses are visible in this image. The trachea is centrally located and patent.",
+      "visible_findings": [
+        "bilateral lung fields with normal aeration",
+        "centrally located patent trachea",
+        "normal-appearing mediastinal structures",
+        "bony structures including ribs and vertebrae"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "mediastinum",
+        "thorax",
+        "axial view"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "axial thoracic ct",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:35+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 260,
+      "total_tokens": 846
+    }
+  },
+  "Case_02035/figure4.jpg": {
+    "case_id": "Case_02035",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02035/figure4.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "thorax",
+      "short_caption": "Axial chest CT showing bilateral pulmonary findings.",
+      "detailed_description": "This axial chest CT image shows the thoracic cavity with clear visualization of the lungs, mediastinum, and bony structures. There are bilateral pulmonary findings, including areas of ground-glass opacities and possible cavitary lesions, particularly in the upper lobes. The bony structures, including the ribs and vertebrae, appear intact. No significant pleural effusion is evident. The image is de-identified and labeled with a watermark.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "possible cavitary lesions in upper lobes",
+        "intact bony structures",
+        "no significant pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "thorax",
+        "lungs",
+        "ground-glass opacities",
+        "cavitary lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "pulmonary infection",
+        "lung findings"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:36+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  }
+}

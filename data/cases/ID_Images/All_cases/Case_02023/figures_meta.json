@@ -1,0 +1,170 @@
+{
+  "Case_02023/figure4.jpg": {
+    "case_id": "Case_02023",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02023/figure4.jpg",
+    "source_caption": "Skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of skin biopsy showing fungal elements with surrounding inflammation.",
+      "detailed_description": "This histopathology image shows a high-power view of a skin biopsy stained with periodic acid-Schiff (PAS) stain. Numerous round to oval fungal elements are visible, highlighted in magenta, consistent with fungal hyphae or yeast forms. The surrounding tissue shows inflammatory infiltrates and some degree of cellular disruption. The magenta staining indicates the presence of polysaccharides in fungal cell walls.",
+      "visible_findings": [
+        "round to oval fungal elements stained magenta",
+        "inflammatory infiltrates in surrounding tissue",
+        "periodic acid-Schiff (PAS) stain highlighting fungal cell walls"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "fungal infection",
+        "PAS stain",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "fungal infection histology",
+        "PAS stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:34+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 239,
+      "total_tokens": 824
+    }
+  },
+  "Case_02023/figure1.jpg": {
+    "case_id": "Case_02023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02023/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial skin lesion with central ulceration and crusting.",
+      "detailed_description": "The image shows a close-up view of the skin on the face, focusing on a lesion below the eye. The lesion has a central area of ulceration with surrounding erythema and crusting. There are additional smaller lesions nearby, including a small papule with a dark center. The skin appears slightly erythematous in the surrounding area.",
+      "visible_findings": [
+        "central ulceration",
+        "crusting",
+        "erythema",
+        "adjacent smaller lesions",
+        "papule with dark center"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "skin lesion",
+        "ulceration",
+        "crusting",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "facial ulcer",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 227,
+      "total_tokens": 795
+    }
+  },
+  "Case_02023/figure3.jpg": {
+    "case_id": "Case_02023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02023/figure3.jpg",
+    "source_caption": "Figure 3. MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing abnormal hyperintensities.",
+      "detailed_description": "This axial MRI image of the brain demonstrates hyperintense lesions in the periventricular white matter, visible on a T2-weighted or FLAIR sequence. The ventricles appear normal in size and shape. The hyperintensities are suggestive of an inflammatory, infectious, or demyelinating process.",
+      "visible_findings": [
+        "hyperintense lesions in periventricular white matter",
+        "normal ventricular size and shape",
+        "symmetrical brain structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "hyperintensity",
+        "periventricular",
+        "t2-weighted",
+        "flair"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 hyperintensity",
+        "periventricular lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:38+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 225,
+      "total_tokens": 817
+    }
+  },
+  "Case_02023/figure2.jpg": {
+    "case_id": "Case_02023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02023/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Ulcerative lesion with eschar and surrounding erythema on the forearm.",
+      "detailed_description": "This clinical photograph shows a forearm with a central ulcerative lesion covered by a dark eschar. Surrounding the lesion is an area of erythema and scattered smaller erythematous papules. The skin appears inflamed, and the lesion is suggestive of a necrotic process. The image is well-lit, and the lesion is clearly visible.",
+      "visible_findings": [
+        "ulcerative lesion with central eschar",
+        "surrounding erythema",
+        "scattered erythematous papules",
+        "inflamed skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "ulcer",
+        "eschar",
+        "erythema",
+        "infectious diseases",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "ulcerative lesion",
+        "forearm skin infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 251,
+      "total_tokens": 819
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "Case_09007/figure2.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure2.jpg",
+    "source_caption": "Lateral chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph displaying the thoracic cavity, including the ribs, vertebrae, and diaphragm. The image shows clear lung fields without obvious consolidation, effusion, or masses. The heart and mediastinal structures are partially visible, and there is no apparent abnormal curvature of the spine. The diaphragm appears intact, and the gastric bubble is faintly visible below the diaphragm.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal rib and vertebral alignment",
+        "intact diaphragm",
+        "faint gastric bubble"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lungs",
+        "diaphragm",
+        "spine"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "thoracic radiograph",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:15+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 238,
+      "total_tokens": 826
+    }
+  },
+  "Case_09007/figure1.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing abnormal air collection under the right hemidiaphragm.",
+      "detailed_description": "This is an upright chest radiograph demonstrating the thoracic cavity. There is a clear presence of free air under the right hemidiaphragm, indicative of pneumoperitoneum, likely due to a perforated hollow viscus. The lung fields appear otherwise clear, and the cardiac silhouette is within normal limits. The bony structures, including ribs and spine, show no obvious abnormalities.",
+      "visible_findings": [
+        "free air under the right hemidiaphragm",
+        "normal lung fields",
+        "normal cardiac silhouette",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pneumoperitoneum",
+        "free air",
+        "diaphragm"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pneumoperitoneum",
+        "free air under diaphragm"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:16+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 251,
+      "total_tokens": 837
+    }
+  },
+  "Case_09007/figure4.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure4.jpg",
+    "source_caption": "Lateral neck radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "lateral neck",
+      "short_caption": "Lateral neck radiograph showing soft tissue swelling.",
+      "detailed_description": "This lateral neck radiograph demonstrates significant soft tissue swelling in the prevertebral space, particularly in the upper cervical region. The airway appears narrowed, and there is evidence of potential mass effect or inflammation. The bony structures of the cervical spine are intact, and the image is labeled with a left (L) marker. The radiograph is de-identified and includes a scale marker for reference.",
+      "visible_findings": [
+        "soft tissue swelling in the prevertebral space",
+        "narrowed airway",
+        "intact cervical spine bony structures",
+        "left (L) marker visible"
+      ],
+      "keywords": [
+        "lateral neck radiograph",
+        "soft tissue swelling",
+        "airway narrowing",
+        "cervical spine",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lateral neck x-ray",
+        "soft tissue swelling in neck",
+        "airway narrowing on radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:19+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 254,
+      "total_tokens": 842
+    }
+  },
+  "Case_09007/figure5.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure5.jpg",
+    "source_caption": "Lateral neck radiograph, with thumb sign (arrow).",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "lateral neck",
+      "short_caption": "Lateral neck radiograph showing the thumb sign (epiglottic swelling).",
+      "detailed_description": "This lateral neck radiograph demonstrates a prominent 'thumb sign,' indicative of epiglottic swelling. The airway appears narrowed at the level of the epiglottis, which is thickened and rounded. The surrounding soft tissues are visible, and the cervical spine is well-aligned. The image is labeled with a left marker (L) and was taken with the patient in a lateral position.",
+      "visible_findings": [
+        "thumb sign (epiglottic swelling)",
+        "narrowed airway at the level of the epiglottis",
+        "normal alignment of the cervical spine"
+      ],
+      "keywords": [
+        "lateral neck radiograph",
+        "thumb sign",
+        "epiglottitis",
+        "airway narrowing",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "lateral neck x-ray",
+        "thumb sign",
+        "epiglottitis imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:21+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 254,
+      "total_tokens": 848
+    }
+  },
+  "Case_09007/figure6.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure6.jpg",
+    "source_caption": "Sub-culture growing H. influenzae, type b.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Chocolate agar plate showing bacterial colonies.",
+      "detailed_description": "This image shows a chocolate agar plate with visible bacterial colonies. The colonies are small, round, and discrete, suggesting growth of a fastidious organism. The chocolate agar medium is enriched and supports the growth of organisms like Haemophilus influenzae. The plate appears to have been streaked for isolation, with colonies more concentrated in certain areas.",
+      "visible_findings": [
+        "chocolate agar plate",
+        "small, round bacterial colonies",
+        "streaking pattern for isolation"
+      ],
+      "keywords": [
+        "culture plate",
+        "chocolate agar",
+        "bacterial colonies",
+        "microbiology",
+        "haemophilus influenzae"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "chocolate agar",
+        "bacterial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:24+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 212,
+      "total_tokens": 806
+    }
+  },
+  "Case_09007/figure7.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure7.jpg",
+    "source_caption": "Gram stain of culture growth, showing H. influenzae type b.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing small Gram-negative coccobacilli.",
+      "detailed_description": "This image shows a Gram stain of bacterial culture growth. Numerous small, pink-staining (Gram-negative) coccobacilli are visible, arranged singly and in small clusters. The background is clear, consistent with a laboratory-prepared slide. The morphology is suggestive of organisms such as Haemophilus species, but definitive identification would require additional testing.",
+      "visible_findings": [
+        "small Gram-negative coccobacilli",
+        "pink staining",
+        "singly and clustered arrangement"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "coccobacilli",
+        "infectious diseases",
+        "laboratory"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "Haemophilus influenzae"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:29+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 222,
+      "total_tokens": 818
+    }
+  },
+  "Case_09007/figure3.jpg": {
+    "case_id": "Case_09007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09007/figure3.jpg",
+    "source_caption": "Neck radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "neck and upper thorax",
+      "short_caption": "Frontal neck radiograph showing cervical spine and upper thorax.",
+      "detailed_description": "This is a frontal radiograph of the neck and upper thorax. The cervical spine is visible in the midline, and the trachea appears centrally located. The clavicles and upper ribs are also visible. No obvious fractures, dislocations, or gross abnormalities are apparent. The soft tissues of the neck are unremarkable, and the lung apices are partially visible.",
+      "visible_findings": [
+        "cervical spine in midline",
+        "centrally located trachea",
+        "visible clavicles and upper ribs",
+        "no obvious fractures or dislocations",
+        "soft tissues appear unremarkable"
+      ],
+      "keywords": [
+        "radiograph",
+        "neck",
+        "cervical spine",
+        "thorax",
+        "trachea"
+      ],
+      "reveal_triggers": [
+        "neck radiograph",
+        "cervical spine x-ray",
+        "upper thorax imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:48:29+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 255,
+      "total_tokens": 841
+    }
+  }
+}

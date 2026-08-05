@@ -1,0 +1,87 @@
+{
+  "Case_03067/figure1.jpg": {
+    "case_id": "Case_03067",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03067/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left upper extremity",
+      "short_caption": "Bruising and discoloration on the left arm and hand.",
+      "detailed_description": "This clinical photograph shows the left arm and hand of a patient resting on a hospital bed. There are extensive areas of bruising, purpura, and discoloration visible on the forearm, elbow, and hand. An intravenous catheter is secured to the forearm with adhesive tape. The skin appears mottled, with some areas of erythema and ecchymosis. The findings suggest possible vascular compromise, coagulopathy, or infection-related skin changes.",
+      "visible_findings": [
+        "extensive bruising and purpura on the arm and hand",
+        "intravenous catheter secured with tape",
+        "mottled skin with areas of erythema and ecchymosis"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "hand",
+        "bruising",
+        "purpura",
+        "ecchymosis",
+        "vascular compromise",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "arm bruising",
+        "purpura on extremities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:21+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 292,
+      "total_tokens": 860
+    }
+  },
+  "Case_03067/figure2.jpg": {
+    "case_id": "Case_03067",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03067/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Clinical image of a hand with a necrotic lesion and surrounding erythema.",
+      "detailed_description": "This image shows the dorsum of an adult hand with a central necrotic lesion surrounded by erythema. The lesion has a dark eschar-like appearance, and the surrounding skin appears inflamed. An intravenous catheter is visible in the background, suggesting a hospitalized or clinical setting. The hand shows signs of aging, such as wrinkling and thinning of the skin.",
+      "visible_findings": [
+        "central necrotic lesion",
+        "surrounding erythema",
+        "dark eschar-like area",
+        "intravenous catheter in situ"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "necrotic lesion",
+        "erythema",
+        "eschar",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "hand lesion",
+        "necrotic skin lesion",
+        "infectious eschar"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:25+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 246,
+      "total_tokens": 814
+    }
+  }
+}

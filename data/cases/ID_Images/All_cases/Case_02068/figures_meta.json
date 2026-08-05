@@ -1,0 +1,127 @@
+{
+  "Case_02068/figure1.jpg": {
+    "case_id": "Case_02068",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02068/figure1.jpg",
+    "source_caption": "Pelvic CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial pelvic CT scan showing soft tissue and bony structures.",
+      "detailed_description": "This axial pelvic CT scan demonstrates the bony pelvis, soft tissue structures, and surrounding musculature. The image is taken without visible contrast enhancement. The central pelvic cavity is visible, with symmetrical iliac bones and soft tissue densities. No obvious abnormalities such as masses, fractures, or fluid collections are apparent in this image.",
+      "visible_findings": [
+        "axial view of the pelvis",
+        "symmetrical iliac bones",
+        "soft tissue structures in the pelvic cavity",
+        "no visible contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "pelvis",
+        "axial view",
+        "soft tissue",
+        "bony structures"
+      ],
+      "reveal_triggers": [
+        "pelvic CT scan",
+        "axial pelvis imaging",
+        "CT of pelvis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:22+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 222,
+      "total_tokens": 809
+    }
+  },
+  "Case_02068/figure3.jpg": {
+    "case_id": "Case_02068",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02068/figure3.jpg",
+    "source_caption": "Hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Hematoxylin and eosin stain showing fungal elements in tissue.",
+      "detailed_description": "This histopathology image, stained with hematoxylin and eosin (H&E), reveals fungal elements within tissue. The fungal structures are highlighted by arrowheads and appear as round to oval yeast forms with a thick capsule. The surrounding tissue shows evidence of inflammation and necrosis. An inset magnifies a region with clearer visualization of the fungal morphology.",
+      "visible_findings": [
+        "round to oval yeast forms with thick capsules",
+        "arrowheads marking fungal elements",
+        "background tissue showing inflammation and necrosis",
+        "inset magnifying fungal morphology"
+      ],
+      "keywords": [
+        "histopathology",
+        "hematoxylin and eosin",
+        "fungal infection",
+        "yeast forms",
+        "capsule",
+        "inflammation",
+        "necrosis"
+      ],
+      "reveal_triggers": [
+        "histopathology of fungal infection",
+        "H&E stain of tissue",
+        "fungal elements in histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:26+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 273,
+      "total_tokens": 865
+    }
+  },
+  "Case_02068/figure2.jpg": {
+    "case_id": "Case_02068",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02068/figure2.jpg",
+    "source_caption": "Silver stain of prostatic aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "prostate",
+      "short_caption": "Silver stain of prostatic aspirate showing fungal elements.",
+      "detailed_description": "This image shows a silver stain of a prostatic aspirate. The background is stained light blue, and numerous darkly stained, round to oval structures are visible, consistent with fungal elements such as yeast forms. The silver stain highlights the fungal cell walls, making them appear black against the blue background. The distribution of the fungal elements appears scattered and clustered in some areas.",
+      "visible_findings": [
+        "darkly stained round to oval fungal elements",
+        "light blue background",
+        "scattered and clustered distribution of fungal forms"
+      ],
+      "keywords": [
+        "silver stain",
+        "prostate",
+        "fungal elements",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "silver stain",
+        "prostatic aspirate",
+        "fungal infection",
+        "histopathology of prostate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:27+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 232,
+      "total_tokens": 822
+    }
+  }
+}

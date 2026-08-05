@@ -1,0 +1,166 @@
+{
+  "Case_03009/figure2.jpg": {
+    "case_id": "Case_03009",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03009/figure2.jpg",
+    "source_caption": "Physical findings on arm.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm",
+      "short_caption": "Multiple small papules with central umbilication on the arm.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of an arm with multiple small, discrete, dome-shaped papules. Many of the lesions exhibit central umbilication. The surrounding skin appears otherwise normal, with no significant erythema or scaling. The findings are suggestive of a viral etiology, such as molluscum contagiosum.",
+      "visible_findings": [
+        "multiple small papules",
+        "central umbilication of lesions",
+        "normal surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "arm",
+        "papules",
+        "umbilication",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "arm lesions",
+        "papules with umbilication"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:21+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 216,
+      "total_tokens": 803
+    }
+  },
+  "Case_03009/figure3.jpg": {
+    "case_id": "Case_03009",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03009/figure3.jpg",
+    "source_caption": "Wright stain of arm lesion.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "arm lesion",
+      "short_caption": "Wright stain showing clusters of intracellular and extracellular organisms.",
+      "detailed_description": "This Wright-stained smear shows clusters of small, round to oval organisms, some of which are intracellular within host cells, while others are extracellular. The organisms are stained purple, contrasting with the lighter background. The host cells appear to have a granular cytoplasm, and the smear is consistent with a cytologic preparation from a lesion.",
+      "visible_findings": [
+        "clusters of purple-stained organisms",
+        "intracellular organisms within host cells",
+        "extracellular organisms",
+        "granular cytoplasm of host cells"
+      ],
+      "keywords": [
+        "wright stain",
+        "arm lesion",
+        "intracellular organisms",
+        "extracellular organisms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "arm lesion smear",
+        "infectious organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:22+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 226,
+      "total_tokens": 814
+    }
+  },
+  "Case_03009/figure1.jpg": {
+    "case_id": "Case_03009",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03009/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "perioral region",
+      "short_caption": "Perioral skin lesion with central ulceration and erythematous border.",
+      "detailed_description": "This clinical photograph shows the perioral region of a patient. A prominent lesion is visible below the left side of the nose, characterized by a central ulceration with an erythematous border. The surrounding skin appears otherwise unremarkable, with no additional significant findings. The lesion's appearance suggests a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "central ulceration",
+        "erythematous border",
+        "isolated lesion below the nose"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "perioral",
+        "skin lesion",
+        "ulceration",
+        "erythema"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "perioral ulcer",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:22+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 221,
+      "total_tokens": 789
+    }
+  },
+  "Case_03009/figure4.jpg": {
+    "case_id": "Case_03009",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03009/figure4.jpg",
+    "source_caption": "Wright stain of face lesion.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "face lesion",
+      "short_caption": "Wright stain of a face lesion showing intracellular and extracellular amastigotes.",
+      "detailed_description": "This Wright-stained smear shows numerous intracellular and extracellular amastigotes, characterized by their round to oval shape, a nucleus, and a rod-shaped kinetoplast. The background contains cellular debris and scattered inflammatory cells. The staining highlights the organisms' internal structures, aiding in their identification. This is consistent with a parasitic infection, likely Leishmania species.",
+      "visible_findings": [
+        "intracellular amastigotes with nucleus and kinetoplast",
+        "extracellular amastigotes",
+        "pink and purple staining",
+        "cellular debris and inflammatory cells"
+      ],
+      "keywords": [
+        "wright stain",
+        "face lesion",
+        "amastigotes",
+        "parasitic infection",
+        "leishmania",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "wright stain",
+        "face lesion smear",
+        "amastigotes microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:27+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 248,
+      "total_tokens": 836
+    }
+  }
+}

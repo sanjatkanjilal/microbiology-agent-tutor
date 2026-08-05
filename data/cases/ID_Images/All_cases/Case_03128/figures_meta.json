@@ -1,0 +1,45 @@
+{
+  "Case_03128/figure1.jpg": {
+    "case_id": "Case_03128",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03128/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin",
+      "short_caption": "Ulcerated skin lesion with central eschar and erythematous border.",
+      "detailed_description": "This clinical photograph shows a well-demarcated ulcerated lesion on the skin. The lesion has a central black eschar surrounded by an erythematous border and a slightly raised edge. The surrounding skin appears unremarkable. The lesion is consistent with a necrotic process, possibly infectious or inflammatory in origin.",
+      "visible_findings": [
+        "central black eschar",
+        "erythematous border",
+        "ulcerated lesion",
+        "well-demarcated edges"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "ulcer",
+        "eschar",
+        "erythema",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "eschar",
+        "ulcerated skin",
+        "infectious skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:55+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 228,
+      "total_tokens": 796
+    }
+  }
+}

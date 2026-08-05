@@ -1,0 +1,251 @@
+{
+  "Case_17023/figure2.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure2.jpg",
+    "source_caption": "Figure 2: Violaceous hyperplastic lesions seen on the hard palate",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "oral cavity, hard palate",
+      "short_caption": "Violaceous hyperplastic lesions visible on the hard palate.",
+      "detailed_description": "This clinical photograph shows the oral cavity with a focus on the hard palate. Multiple violaceous, hyperplastic lesions are visible on the hard palate, with some areas appearing nodular or raised. The surrounding mucosa appears intact, and the lesions are localized without obvious ulceration. Teeth and tongue are also visible, providing anatomical context.",
+      "visible_findings": [
+        "violaceous hyperplastic lesions on the hard palate",
+        "nodular appearance of some lesions",
+        "intact surrounding mucosa"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "oral cavity",
+        "hard palate",
+        "violaceous lesions",
+        "hyperplastic lesions"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "hard palate lesions",
+        "violaceous lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:04+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 219,
+      "total_tokens": 816
+    }
+  },
+  "Case_17023/figure3.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure3.jpg",
+    "source_caption": "Figure 3: Chest CT (without contrast) demonstrated extensive bilateral axillary/hilar/pericardial/mediastinal/porta hepatis lymphadenopathy with associated compression of bronchi, large bilateral pleural effusions and bilateral central consolidation",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT shows bilateral pleural effusions, central consolidation, and lymphadenopathy.",
+      "detailed_description": "This axial chest CT image (without contrast) demonstrates extensive bilateral pleural effusions, visible as fluid collections in the pleural spaces. There is significant bilateral central consolidation, particularly in the lower lobes, consistent with dense opacification. Enlarged lymph nodes are evident in the mediastinal and hilar regions, suggesting lymphadenopathy. Compression of adjacent bronchi is also apparent. The image is grayscale with clear delineation of anatomical structures.",
+      "visible_findings": [
+        "bilateral pleural effusions",
+        "central consolidation in both lungs",
+        "mediastinal and hilar lymphadenopathy",
+        "bronchial compression"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "consolidation",
+        "lymphadenopathy",
+        "bronchial compression"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pleural effusion",
+        "lung consolidation",
+        "mediastinal lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:05+00:00",
+    "usage": {
+      "prompt_tokens": 632,
+      "completion_tokens": 267,
+      "total_tokens": 899
+    }
+  },
+  "Case_17023/figure4.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure4.jpg",
+    "source_caption": "Figure 4: Bronchoscopy image showed a raised purple lesion on the bronchial mucosa",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "bronchial mucosa",
+      "short_caption": "Bronchoscopy reveals a raised purple lesion on the bronchial mucosa.",
+      "detailed_description": "This bronchoscopy image shows the bronchial mucosa with a raised lesion circled in yellow. The lesion appears purple and irregular, contrasting with the surrounding mucosa, which is smooth and reddish. The lighting and magnification are typical of endoscopic imaging, allowing detailed visualization of the mucosal surface.",
+      "visible_findings": [
+        "raised lesion on bronchial mucosa",
+        "purple coloration of the lesion",
+        "smooth reddish surrounding mucosa"
+      ],
+      "keywords": [
+        "endoscopy",
+        "bronchial mucosa",
+        "lesion",
+        "infectious diseases",
+        "bronchoscopy"
+      ],
+      "reveal_triggers": [
+        "bronchoscopy",
+        "endoscopic lesion",
+        "bronchial mucosa exam"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:09+00:00",
+    "usage": {
+      "prompt_tokens": 602,
+      "completion_tokens": 222,
+      "total_tokens": 824
+    }
+  },
+  "Case_17023/figure6.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure6.jpg",
+    "source_caption": "Anti-HHV8 stain of inguinal lymph node showed the typical strong, nuclear but granular staining. (1000x)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "inguinal lymph node",
+      "short_caption": "Anti-HHV8 stain of inguinal lymph node showing strong nuclear granular staining.",
+      "detailed_description": "This image shows a high-power view (1000x magnification) of an inguinal lymph node stained with an anti-HHV8 immunohistochemical stain. The stain highlights several nuclei with strong, granular, brown staining against a blue counterstained background. The findings are consistent with HHV8-positive cells, which are often seen in conditions such as Kaposi sarcoma or HHV8-associated lymphoproliferative disorders.",
+      "visible_findings": [
+        "brown granular nuclear staining",
+        "blue counterstained background",
+        "high magnification (1000x)"
+      ],
+      "keywords": [
+        "hhv8",
+        "immunohistochemistry",
+        "lymph node",
+        "stain",
+        "infectious diseases",
+        "kaposi sarcoma"
+      ],
+      "reveal_triggers": [
+        "hhv8 stain",
+        "lymph node biopsy",
+        "kaposi sarcoma histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:10+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 259,
+      "total_tokens": 867
+    }
+  },
+  "Case_17023/figure1.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure1.jpg",
+    "source_caption": "Bluish/violaceous, hard, firm and nodular lesions seen on his a) left arm and b) left leg",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left arm and left leg",
+      "short_caption": "Bluish, firm nodular lesions on the left arm and left leg.",
+      "detailed_description": "This image shows two separate views of bluish to violaceous nodular lesions. Panel A depicts a single lesion on the left arm, while Panel B shows three similar lesions on the left leg. The lesions appear firm and raised, with a smooth surface. The surrounding skin appears unremarkable without significant erythema or swelling. The lesions are consistent with subcutaneous or dermal processes.",
+      "visible_findings": [
+        "bluish/violaceous nodules",
+        "firm, raised lesions",
+        "single lesion on left arm",
+        "three lesions on left leg",
+        "smooth lesion surfaces"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesions",
+        "nodules",
+        "left arm",
+        "left leg",
+        "bluish lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "nodular skin lesions",
+        "violaceous lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:15+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 249,
+      "total_tokens": 857
+    }
+  },
+  "Case_17023/figure5.jpg": {
+    "case_id": "Case_17023",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17023/figure5.jpg",
+    "source_caption": "Inguinal lymph node, core needle biopsy (H&E, 400X). There were abundant macrophages seen within an atypical lymphoid background. The vascular lesion was consistent with KS – seen as intertwined, and proliferating vascular spaces (shown with thickened endothelial lining) and stained positive for CD31.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "inguinal lymph node",
+      "short_caption": "Histopathology of inguinal lymph node showing vascular proliferation and atypical lymphoid background (H&E, 400X).",
+      "detailed_description": "This histopathology image shows a core needle biopsy of an inguinal lymph node stained with hematoxylin and eosin (H&E) at 400X magnification. The tissue demonstrates abundant macrophages within an atypical lymphoid background. Proliferating vascular spaces with thickened endothelial linings are evident, consistent with a vascular lesion such as Kaposi sarcoma. The intertwined vascular structures are prominent, and the overall architecture suggests a pathologic process.",
+      "visible_findings": [
+        "proliferating vascular spaces",
+        "thickened endothelial linings",
+        "abundant macrophages",
+        "atypical lymphoid background"
+      ],
+      "keywords": [
+        "histopathology",
+        "inguinal lymph node",
+        "vascular proliferation",
+        "H&E stain",
+        "Kaposi sarcoma"
+      ],
+      "reveal_triggers": [
+        "inguinal lymph node biopsy",
+        "H&E stain",
+        "vascular lesion",
+        "Kaposi sarcoma histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:19+00:00",
+    "usage": {
+      "prompt_tokens": 645,
+      "completion_tokens": 283,
+      "total_tokens": 928
+    }
+  }
+}

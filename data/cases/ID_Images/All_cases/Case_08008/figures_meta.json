@@ -1,0 +1,251 @@
+{
+  "Case_08008/figure1.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and mediastinum.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields bilaterally with no evidence of consolidation, effusion, or other abnormalities. The mediastinum appears midline, and the cardiac silhouette is within normal limits. The diaphragm is well-defined, and there are no visible bony abnormalities in the ribs, clavicles, or spine.",
+      "visible_findings": [
+        "clear lung fields bilaterally",
+        "midline mediastinum",
+        "normal cardiac silhouette",
+        "well-defined diaphragm",
+        "no visible bony abnormalities"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "thorax imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:24+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 232,
+      "total_tokens": 818
+    }
+  },
+  "Case_08008/figure2.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure2.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing bilateral lung findings.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral lung fields with areas of consolidation and ground-glass opacities, particularly in the lower lobes. The heart and mediastinal structures are centrally located, and there is no obvious pleural effusion. The findings may suggest an infectious or inflammatory process. No contrast enhancement is evident in this image.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation in the lower lobes",
+        "no pleural effusion",
+        "normal appearance of the heart and mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:27+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  },
+  "Case_08008/figure3.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure3.jpg",
+    "source_caption": "Lung nodule, trichrome stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lung",
+      "short_caption": "Histopathology of a lung nodule with trichrome stain.",
+      "detailed_description": "This histopathological image shows a cross-section of a lung nodule stained with trichrome. The stain highlights fibrotic tissue in blue, with central necrosis or granulomatous material visible in the center. The peripheral area shows a dense fibrotic capsule, while the central region contains two circular structures suggestive of fungal or parasitic elements. The trichrome stain is used to differentiate connective tissue components.",
+      "visible_findings": [
+        "fibrotic tissue stained blue",
+        "central necrotic or granulomatous material",
+        "two circular structures in the center",
+        "peripheral fibrotic capsule"
+      ],
+      "keywords": [
+        "histopathology",
+        "lung",
+        "nodule",
+        "trichrome stain",
+        "fibrosis",
+        "granuloma"
+      ],
+      "reveal_triggers": [
+        "lung nodule",
+        "trichrome stain",
+        "histopathology of lung"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:31+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 257,
+      "total_tokens": 848
+    }
+  },
+  "Case_08008/figure4.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure4.jpg",
+    "source_caption": "Detail of nodule, reticulin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "nodule",
+      "short_caption": "Histopathology of a nodule with reticulin stain showing central necrosis and surrounding fibrotic tissue.",
+      "detailed_description": "This histopathological image shows a cross-section of a nodule stained with reticulin. The central area exhibits necrosis with amorphous eosinophilic material, surrounded by fibrotic tissue and cellular infiltration. The reticulin stain highlights the fibrous network in the periphery of the lesion. The architecture suggests a granulomatous process with central necrosis, possibly indicative of an infectious or inflammatory etiology.",
+      "visible_findings": [
+        "central necrosis with eosinophilic material",
+        "surrounding fibrotic tissue",
+        "reticulin stain highlighting fibrous network",
+        "cellular infiltration at the periphery"
+      ],
+      "keywords": [
+        "histopathology",
+        "nodule",
+        "reticulin stain",
+        "necrosis",
+        "fibrosis",
+        "granuloma"
+      ],
+      "reveal_triggers": [
+        "reticulin stain",
+        "histopathology of nodule",
+        "granulomatous lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:33+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 276,
+      "total_tokens": 868
+    }
+  },
+  "Case_08008/figure6.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure6.jpg",
+    "source_caption": "Nematode in cross-section, reticulin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Cross-section of a nematode with reticulin stain.",
+      "detailed_description": "This histopathology image shows a cross-section of a nematode, stained with reticulin. The nematode's cuticle is visible as an outer layer, with internal structures including muscle chords and internal organs clearly delineated. Necrotic debris is present in the surrounding tissue, suggesting tissue damage or inflammation. The reticulin stain highlights the structural details of the nematode and surrounding tissue.",
+      "visible_findings": [
+        "cross-section of a nematode",
+        "outer cuticle layer",
+        "muscle chords visible internally",
+        "necrotic debris in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "nematode",
+        "reticulin stain",
+        "parasitology",
+        "cross-section"
+      ],
+      "reveal_triggers": [
+        "nematode cross-section",
+        "reticulin stain",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:34+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 251,
+      "total_tokens": 845
+    }
+  },
+  "Case_08008/figure5.jpg": {
+    "case_id": "Case_08008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08008/figure5.jpg",
+    "source_caption": "Detail of nodule, reticulin stain, with nematode fragments.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "nodule",
+      "short_caption": "Histopathology of a nodule showing nematode fragments in cross-section, reticulin stain.",
+      "detailed_description": "This histopathology image shows a cross-section of a nodule stained with reticulin. Multiple nematode fragments are visible within the tissue, identifiable by their characteristic morphology. Surrounding the nematode fragments are fibrous tissue and blood vessel walls, which are highlighted by the reticulin stain. The image provides clear evidence of parasitic involvement in the lesion.",
+      "visible_findings": [
+        "nematode fragments in cross-section",
+        "reticulin-stained fibrous tissue",
+        "blood vessel walls"
+      ],
+      "keywords": [
+        "histopathology",
+        "nodule",
+        "nematode",
+        "reticulin stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "reticulin stain",
+        "histopathology of nodule",
+        "nematode in tissue"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:43+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 245,
+      "total_tokens": 843
+    }
+  }
+}

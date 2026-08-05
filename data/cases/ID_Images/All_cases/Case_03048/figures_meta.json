@@ -1,0 +1,43 @@
+{
+  "Case_03048/figure1.jpg": {
+    "case_id": "Case_03048",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03048/figure1.jpg",
+    "source_caption": "Right arm and hand lesions.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "right hand and wrist",
+      "short_caption": "Ulcerative lesions on the right hand and wrist.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a right hand and wrist with two distinct ulcerative lesions. The lesions are circular, with raised, erythematous borders and central ulceration. Surrounding skin appears mildly erythematous. The lesions suggest a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "ulcerative lesions with raised borders",
+        "central ulceration",
+        "erythematous surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "wrist",
+        "ulcerative lesions",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesions",
+        "hand ulcers",
+        "infectious skin conditions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:04+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 212,
+      "total_tokens": 800
+    }
+  }
+}

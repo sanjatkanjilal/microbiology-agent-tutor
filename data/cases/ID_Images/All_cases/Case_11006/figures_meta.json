@@ -1,0 +1,212 @@
+{
+  "Case_11006/figure3.jpg": {
+    "case_id": "Case_11006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11006/figure3.jpg",
+    "source_caption": "Follow-up MRI of the brain and brainstem, with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and brainstem",
+      "short_caption": "Axial MRI of the brain and brainstem with gadolinium contrast.",
+      "detailed_description": "This is an axial T1-weighted MRI image of the brain and brainstem with gadolinium contrast. The image demonstrates clear visualization of the brainstem, cerebellum, and surrounding structures. There is enhancement of certain regions, suggesting possible areas of abnormal blood-brain barrier disruption or inflammation. No gross mass effect or midline shift is evident. The image quality is high, with good contrast resolution.",
+      "visible_findings": [
+        "axial view of brain and brainstem",
+        "gadolinium contrast enhancement",
+        "no gross mass effect",
+        "no midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "brainstem",
+        "gadolinium",
+        "contrast",
+        "axial view",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "gadolinium mri",
+        "neuroimaging with contrast"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:45+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 255,
+      "total_tokens": 852
+    }
+  },
+  "Case_11006/figure5.jpg": {
+    "case_id": "Case_11006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11006/figure5.jpg",
+    "source_caption": "Gram stain of CSF culture growth.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters.",
+      "detailed_description": "This image is a gram stain showing numerous gram-positive cocci arranged in clusters, consistent with the morphology of staphylococci. The organisms are stained purple, indicating their gram-positive nature, against a clear background. The clustering pattern is characteristic and suggests a potential staphylococcal species. No other cell types or debris are visible in this field.",
+      "visible_findings": [
+        "gram-positive cocci stained purple",
+        "clustered arrangement of cocci",
+        "clear background without debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "cocci",
+        "clusters",
+        "staphylococci",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of CSF",
+        "cocci in clusters",
+        "staphylococcal morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:47+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 221,
+      "total_tokens": 811
+    }
+  },
+  "Case_11006/figure2.jpg": {
+    "case_id": "Case_11006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11006/figure2.jpg",
+    "source_caption": "MRI of the cervical spine, with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "cervical spine",
+      "short_caption": "MRI of the cervical spine with gadolinium contrast.",
+      "detailed_description": "This is a sagittal T1-weighted MRI image of the cervical spine with gadolinium contrast. The spinal cord and surrounding structures are visible, with enhancement noted in certain areas, suggesting possible inflammation, infection, or other pathological processes. The vertebral bodies and intervertebral discs are also well visualized. The image appears to be de-identified and is labeled with imaging parameters.",
+      "visible_findings": [
+        "sagittal view of cervical spine",
+        "spinal cord visible with contrast enhancement",
+        "vertebral bodies and intervertebral discs visible",
+        "gadolinium contrast used"
+      ],
+      "keywords": [
+        "mri",
+        "cervical spine",
+        "gadolinium",
+        "contrast",
+        "spinal cord",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "cervical spine mri",
+        "spinal cord imaging",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:48+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 252,
+      "total_tokens": 845
+    }
+  },
+  "Case_11006/figure1.jpg": {
+    "case_id": "Case_11006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11006/figure1.jpg",
+    "source_caption": "MRI of the brain and brainstem, with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain and brainstem",
+      "short_caption": "Axial MRI of the brain and brainstem with gadolinium contrast.",
+      "detailed_description": "This is an axial MRI image of the brain and brainstem, obtained with gadolinium contrast. The image demonstrates clear visualization of the brainstem structures, cerebellum, and surrounding cerebrospinal fluid spaces. The enhancement pattern suggests the use of gadolinium, which highlights vascular and pathological structures. No obvious mass lesions or abnormal enhancement patterns are visible in this image.",
+      "visible_findings": [
+        "axial view of the brain and brainstem",
+        "gadolinium contrast enhancement",
+        "normal-appearing cerebellum and brainstem",
+        "clear cerebrospinal fluid spaces"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "brainstem",
+        "gadolinium",
+        "axial view",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "contrast-enhanced mri",
+        "axial brain imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:48+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 251,
+      "total_tokens": 846
+    }
+  },
+  "Case_11006/figure4.jpg": {
+    "case_id": "Case_11006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_11006/figure4.jpg",
+    "source_caption": "Follow-up MRI, with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head and neck",
+      "short_caption": "Axial MRI of the head and neck with gadolinium contrast.",
+      "detailed_description": "This axial MRI image of the head and neck shows soft tissue structures with gadolinium contrast enhancement. The image highlights symmetrical anatomy of the oropharyngeal region, cervical musculature, and surrounding soft tissues. No obvious mass lesions or significant asymmetry are visible. The contrast enhancement provides clear delineation of vascular and soft tissue structures.",
+      "visible_findings": [
+        "axial view of head and neck",
+        "gadolinium contrast enhancement",
+        "symmetrical soft tissue structures",
+        "no visible mass lesions"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "neck",
+        "gadolinium",
+        "contrast",
+        "axial view",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "mri of head and neck",
+        "gadolinium-enhanced mri",
+        "axial mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:53:51+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 239,
+      "total_tokens": 830
+    }
+  }
+}

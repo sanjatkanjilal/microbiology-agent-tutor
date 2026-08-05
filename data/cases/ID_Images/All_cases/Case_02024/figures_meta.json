@@ -1,0 +1,43 @@
+{
+  "Case_02024/figure1.jpg": {
+    "case_id": "Case_02024",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02024/figure1.jpg",
+    "source_caption": "Figure 1. Colonoscopic findings.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "colon",
+      "short_caption": "Colonoscopic image showing a worm-like structure in the colonic lumen.",
+      "detailed_description": "This colonoscopic image reveals a worm-like structure, likely a parasitic organism, within the colonic lumen. The surrounding mucosa appears erythematous, suggesting possible inflammation or irritation. The organism is slender, white, and curved, consistent with a helminthic parasite. The image is well-focused, highlighting the parasite against the mucosal background.",
+      "visible_findings": [
+        "worm-like structure in the colonic lumen",
+        "erythematous colonic mucosa",
+        "curved, slender, white organism"
+      ],
+      "keywords": [
+        "endoscopy",
+        "colon",
+        "parasite",
+        "helminth",
+        "colonic mucosa",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "colonoscopic findings",
+        "parasite in colon",
+        "endoscopy of colon"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:45+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 233,
+      "total_tokens": 823
+    }
+  }
+}

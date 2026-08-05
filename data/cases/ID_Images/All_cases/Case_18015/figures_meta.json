@@ -1,0 +1,212 @@
+{
+  "Case_18015/figure1.jpg": {
+    "case_id": "Case_18015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18015/figure1.jpg",
+    "source_caption": "Figure 1: Photograph of the distal right lower extremity skin lesion",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "distal right lower extremity",
+      "short_caption": "Photograph of a distal right lower extremity skin lesion with central necrosis and surrounding erythema.",
+      "detailed_description": "This clinical photograph shows a skin lesion on the distal right lower extremity. The lesion has a central area of necrosis with dark eschar, surrounded by erythema and scaling. The surrounding skin appears inflamed, with desquamation extending outward. A suture is visible near the lesion, suggesting prior intervention or biopsy. The lesion's appearance is consistent with an infectious or inflammatory process.",
+      "visible_findings": [
+        "central necrosis with dark eschar",
+        "surrounding erythema",
+        "scaling and desquamation",
+        "visible suture near the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "necrosis",
+        "erythema",
+        "lower extremity",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected wound",
+        "necrotic skin lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:45+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 256,
+      "total_tokens": 853
+    }
+  },
+  "Case_18015/figure2.jpg": {
+    "case_id": "Case_18015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18015/figure2.jpg",
+    "source_caption": "Figure 2: Photograph of the distal left lower extremity skin lesion",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "distal left lower extremity",
+      "short_caption": "Photograph of a skin lesion on the distal left lower extremity.",
+      "detailed_description": "The image shows a localized skin lesion on the distal left lower extremity. The lesion is characterized by a central necrotic area with black eschar, surrounded by an erythematous and indurated zone. The surrounding skin appears mildly swollen, and there is evidence of inflammation. The lesion's features suggest a possible infectious or necrotizing process.",
+      "visible_findings": [
+        "central necrotic area with black eschar",
+        "surrounding erythema and induration",
+        "localized swelling",
+        "signs of inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "lower extremity",
+        "necrosis",
+        "erythema",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "infected wound",
+        "lower extremity lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:45+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 241,
+      "total_tokens": 838
+    }
+  },
+  "Case_18015/figure3.jpg": {
+    "case_id": "Case_18015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18015/figure3.jpg",
+    "source_caption": "Figure 3: GMS stain of skin biopsy showed fungal elements/hyphae in areas of necrosis. These hyphae were focally twisted and ribbon-like, with only rare septae formation (100x oil immersion magnification)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "GMS stain of skin biopsy showing fungal hyphae in necrotic tissue.",
+      "detailed_description": "This image shows a GMS (Gomori methenamine silver) stain of a skin biopsy under high magnification (100x oil immersion). The fungal elements are prominently stained black against a green background. The hyphae appear ribbon-like, with occasional twisting and rare septation, consistent with fungal morphology. The surrounding tissue shows areas of necrosis, further highlighting the fungal invasion.",
+      "visible_findings": [
+        "black-stained fungal hyphae",
+        "ribbon-like and twisted morphology",
+        "rare septation in hyphae",
+        "green-stained necrotic background"
+      ],
+      "keywords": [
+        "gms stain",
+        "skin biopsy",
+        "fungal hyphae",
+        "necrosis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "skin biopsy with fungal elements"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:46+00:00",
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 249,
+      "total_tokens": 880
+    }
+  },
+  "Case_18015/figure4.jpg": {
+    "case_id": "Case_18015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18015/figure4.jpg",
+    "source_caption": "Figure 4: Fine white hyphae growth seen on Sabouraud-dextrose agar plate (day 3 of culture).",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "White hyphal growth on Sabouraud-dextrose agar plate.",
+      "detailed_description": "This image shows a Sabouraud-dextrose agar plate with fine, white, filamentous fungal growth consistent with hyphae. The growth radiates outward from two central inoculation points, forming a dense, fuzzy appearance. The colonies are surrounded by a lighter, diffuse zone of growth. The plate is being held in a gloved hand, suggesting a sterile handling environment.",
+      "visible_findings": [
+        "white, filamentous fungal growth",
+        "radiating hyphae from central points",
+        "dense, fuzzy colonies",
+        "lighter diffuse zone of growth"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal growth",
+        "hyphae",
+        "sabouraud-dextrose agar",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "sabouraud agar",
+        "hyphal growth",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:52+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 246,
+      "total_tokens": 855
+    }
+  },
+  "Case_18015/figure5.jpg": {
+    "case_id": "Case_18015",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18015/figure5.jpg",
+    "source_caption": "Figure 5: GMS stain of repeat skin debridement showed abundant ribbon-like hyphae with rare septae (40x magnification)",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "GMS stain showing abundant ribbon-like hyphae with rare septae.",
+      "detailed_description": "This is a Gomori methenamine silver (GMS) stain of a skin specimen obtained during repeat debridement. The image shows abundant ribbon-like fungal hyphae with rare septations, consistent with a fungal infection. The hyphae are stained black against a green background, characteristic of GMS staining. The magnification appears to be approximately 40x.",
+      "visible_findings": [
+        "ribbon-like fungal hyphae",
+        "rare septations",
+        "black-stained hyphae on green background",
+        "GMS stain pattern"
+      ],
+      "keywords": [
+        "gms stain",
+        "skin",
+        "fungal hyphae",
+        "ribbon-like",
+        "infectious diseases",
+        "histopathology"
+      ],
+      "reveal_triggers": [
+        "gms stain",
+        "fungal infection",
+        "skin biopsy",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:03:52+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 249,
+      "total_tokens": 861
+    }
+  }
+}

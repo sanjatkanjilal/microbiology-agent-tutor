@@ -1,0 +1,127 @@
+{
+  "Case_23006/figure2.jpg": {
+    "case_id": "Case_23006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23006/figure2.jpg",
+    "source_caption": "Dolmans RAV, Boel CHE, Lacle MM, Kusters JG. 2017. Clinical manifestations, treatment, and diagnosis of Tropheryma whipplei infections. Clin Microbiol Rev 30:529 –555, PMID: 28298472",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Histopathology showing foamy macrophages with intracellular organisms.",
+      "detailed_description": "This histopathology image shows a tissue section stained with hematoxylin and eosin (H&E). The field contains numerous foamy macrophages with pale cytoplasm and scattered intracellular structures. The background stroma appears mildly edematous, and there is a sparse inflammatory infiltrate. The findings are consistent with a tissue infection, potentially involving intracellular bacteria.",
+      "visible_findings": [
+        "foamy macrophages",
+        "intracellular structures",
+        "pale cytoplasm",
+        "sparse inflammatory infiltrate",
+        "edematous stroma"
+      ],
+      "keywords": [
+        "histopathology",
+        "tissue",
+        "foamy macrophages",
+        "intracellular organisms",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "histopathology of infected tissue",
+        "foamy macrophages",
+        "intracellular bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:24+00:00",
+    "usage": {
+      "prompt_tokens": 640,
+      "completion_tokens": 243,
+      "total_tokens": 883
+    }
+  },
+  "Case_23006/figure3.jpg": {
+    "case_id": "Case_23006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23006/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing fungal elements with surrounding necrosis.",
+      "detailed_description": "This histopathology image shows numerous fungal elements, including broad, ribbon-like hyphae with non-parallel walls and occasional branching. The surrounding tissue demonstrates necrosis and inflammatory infiltrates. The fungal morphology is consistent with organisms such as Mucorales. The image is stained with hematoxylin and eosin (H&E), highlighting the fungal structures and tissue architecture.",
+      "visible_findings": [
+        "broad, ribbon-like hyphae",
+        "non-parallel walls",
+        "occasional branching",
+        "necrosis of surrounding tissue",
+        "inflammatory infiltrates"
+      ],
+      "keywords": [
+        "histopathology",
+        "fungal infection",
+        "mucorales",
+        "necrosis",
+        "inflammation",
+        "h&e stain"
+      ],
+      "reveal_triggers": [
+        "fungal histopathology",
+        "tissue necrosis",
+        "h&e stain of fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:25+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 251,
+      "total_tokens": 819
+    }
+  },
+  "Case_23006/figure1.jpg": {
+    "case_id": "Case_23006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_23006/figure1.jpg",
+    "source_caption": "Figure 1: Transoesophageal echocardiogram demonstrating a large, pedunculated aortic valve vegetation in the mid-oesophageal aortic valve long axis view (left) and the mid-oesophageal aortic valve short axis view (right).",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "aortic valve",
+      "short_caption": "Transoesophageal echocardiogram showing a large pedunculated vegetation on the aortic valve.",
+      "detailed_description": "This image consists of two panels from a transoesophageal echocardiogram. The left panel shows the mid-oesophageal aortic valve long axis view, while the right panel shows the mid-oesophageal aortic valve short axis view. A large, pedunculated echogenic mass consistent with vegetation is visible on the aortic valve in both views. The vegetation appears irregular and mobile, suggesting infective endocarditis.",
+      "visible_findings": [
+        "large pedunculated vegetation on the aortic valve",
+        "mid-oesophageal long axis and short axis views",
+        "irregular echogenic mass"
+      ],
+      "keywords": [
+        "ultrasound",
+        "transoesophageal echocardiogram",
+        "aortic valve",
+        "vegetation",
+        "infective endocarditis"
+      ],
+      "reveal_triggers": [
+        "transoesophageal echocardiogram",
+        "aortic valve vegetation",
+        "infective endocarditis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:07:26+00:00",
+    "usage": {
+      "prompt_tokens": 634,
+      "completion_tokens": 268,
+      "total_tokens": 902
+    }
+  }
+}

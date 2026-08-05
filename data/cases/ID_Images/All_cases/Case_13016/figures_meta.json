@@ -1,0 +1,251 @@
+{
+  "Case_13016/figure2.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure2.jpg",
+    "source_caption": "Transthoracic echocardiogram, with a calcified mitral valve and mobile echodensity (arrows).",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "heart",
+      "short_caption": "Transthoracic echocardiogram showing a calcified mitral valve and mobile echodensity (arrows).",
+      "detailed_description": "This transthoracic echocardiogram image shows a parasternal long-axis view of the heart. The mitral valve appears calcified, with increased echogenicity consistent with calcification. A mobile echodensity is visible on the mitral valve, indicated by arrows, which may suggest a vegetation or thrombus. The image includes standard echocardiographic annotations such as depth and frequency settings. An ECG tracing is visible at the bottom of the image.",
+      "visible_findings": [
+        "calcified mitral valve",
+        "mobile echodensity on mitral valve",
+        "parasternal long-axis view",
+        "ECG tracing at the bottom"
+      ],
+      "keywords": [
+        "ultrasound",
+        "heart",
+        "mitral valve",
+        "calcification",
+        "vegetation",
+        "transthoracic echocardiogram"
+      ],
+      "reveal_triggers": [
+        "echocardiogram",
+        "mitral valve calcification",
+        "heart ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:49+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 275,
+      "total_tokens": 882
+    }
+  },
+  "Case_13016/figure1.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure1.jpg",
+    "source_caption": "CT of the chest, without contrast.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial chest CT without contrast showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial CT image of the chest, performed without contrast, reveals bilateral pulmonary infiltrates. The infiltrates are predominantly located in the lower lobes and appear patchy and dense. The mediastinum and heart are centrally located, and no significant pleural effusion is visible. The lung parenchyma demonstrates areas of consolidation suggestive of infection or inflammation.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "patchy areas of consolidation",
+        "no visible pleural effusion",
+        "mediastinum and heart centrally located"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "infection",
+        "consolidation",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pulmonary infiltrates",
+        "lung infection imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 235,
+      "total_tokens": 825
+    }
+  },
+  "Case_13016/figure3.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure3.jpg",
+    "source_caption": "H and E stain of the mitral valve.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mitral valve",
+      "short_caption": "H&E stain of the mitral valve showing inflammatory changes.",
+      "detailed_description": "This histopathology image shows a section of the mitral valve stained with hematoxylin and eosin (H&E). The tissue demonstrates inflammatory changes, including infiltrating immune cells and possible fibrin deposition. The arrow points to a region of interest, likely highlighting cellular infiltration or tissue damage. The pink and purple staining reflects the typical H&E staining pattern, with nuclei appearing dark purple and extracellular matrix and cytoplasm in varying shades of pink.",
+      "visible_findings": [
+        "inflammatory cell infiltration",
+        "pink extracellular matrix",
+        "dark purple-stained nuclei",
+        "arrow indicating a focal area of interest"
+      ],
+      "keywords": [
+        "histopathology",
+        "mitral valve",
+        "H&E stain",
+        "inflammation",
+        "infectious endocarditis"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "mitral valve histology",
+        "infective endocarditis pathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:58+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 255,
+      "total_tokens": 847
+    }
+  },
+  "Case_13016/figure4.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure4.jpg",
+    "source_caption": "PAS stain of the mitral valve.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "mitral valve",
+      "short_caption": "PAS stain of the mitral valve showing fungal elements.",
+      "detailed_description": "This PAS-stained histopathology image shows a section of the mitral valve with abundant fungal elements highlighted in magenta. The fungal hyphae are visible and appear septate, with branching at acute angles. The surrounding tissue demonstrates inflammatory infiltrates and necrosis. An inset magnifies the fungal structures for better visualization.",
+      "visible_findings": [
+        "PAS stain highlighting fungal elements in magenta",
+        "septate fungal hyphae with acute angle branching",
+        "inflammatory infiltrates in surrounding tissue",
+        "necrosis of valve tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "PAS stain",
+        "mitral valve",
+        "fungal infection",
+        "hyphae",
+        "infective endocarditis"
+      ],
+      "reveal_triggers": [
+        "PAS stain",
+        "mitral valve histology",
+        "fungal endocarditis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:58+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 243,
+      "total_tokens": 833
+    }
+  },
+  "Case_13016/figure5.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure5.jpg",
+    "source_caption": "H and E stain of pericardial tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "pericardial tissue",
+      "short_caption": "H&E stain of pericardial tissue showing inflammation and possible infectious involvement.",
+      "detailed_description": "This histopathology image shows a section of pericardial tissue stained with hematoxylin and eosin (H&E). The tissue appears to have areas of inflammation, with infiltrates of inflammatory cells visible. The inset highlights a region with more pronounced cellular detail, including possible clusters of microorganisms or necrotic debris. The staining technique provides contrast between cellular and extracellular components, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "pink-stained connective tissue",
+        "inflammatory cell infiltrates",
+        "possible clusters of microorganisms or necrotic debris",
+        "inset showing detailed cellular features"
+      ],
+      "keywords": [
+        "histopathology",
+        "pericardium",
+        "H&E stain",
+        "inflammation",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "pericardial biopsy",
+        "histopathology of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:00+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 260,
+      "total_tokens": 853
+    }
+  },
+  "Case_13016/figure6.jpg": {
+    "case_id": "Case_13016",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13016/figure6.jpg",
+    "source_caption": "PAS stain of pericardial tissue.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "pericardial tissue",
+      "short_caption": "PAS stain of pericardial tissue showing fungal elements.",
+      "detailed_description": "This histopathology image shows pericardial tissue stained with periodic acid-Schiff (PAS), highlighting fungal elements in magenta against a pink background. The fungal structures appear as branching hyphae or yeast-like forms, consistent with fungal infection. The tissue matrix shows inflammatory changes and possible necrosis. The PAS stain is used to identify polysaccharides in fungal cell walls.",
+      "visible_findings": [
+        "branching fungal hyphae or yeast-like forms",
+        "magenta staining of fungal elements",
+        "inflammatory changes in tissue",
+        "pink background matrix"
+      ],
+      "keywords": [
+        "histopathology",
+        "pas stain",
+        "pericardial tissue",
+        "fungal infection",
+        "fungal elements"
+      ],
+      "reveal_triggers": [
+        "pas stain",
+        "pericardial tissue",
+        "fungal histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:57:03+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 246,
+      "total_tokens": 837
+    }
+  }
+}

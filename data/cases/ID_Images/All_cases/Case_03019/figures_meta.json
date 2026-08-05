@@ -1,0 +1,169 @@
+{
+  "Case_03019/figure1.jpg": {
+    "case_id": "Case_03019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03019/figure1.jpg",
+    "source_caption": "Head CT scan without contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial brain MRI showing a large posterior fossa lesion.",
+      "detailed_description": "This axial MRI image of the brain demonstrates a large, well-defined lesion occupying the posterior fossa. The lesion appears hyperintense relative to surrounding structures, suggesting a mass effect. The cerebellum is displaced, and there is compression of adjacent structures. The image is taken without contrast, and the lesion's characteristics suggest a space-occupying process.",
+      "visible_findings": [
+        "large posterior fossa lesion",
+        "hyperintense signal within the lesion",
+        "displacement of cerebellar structures",
+        "compression of adjacent brain structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "posterior fossa",
+        "lesion",
+        "space-occupying process"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "posterior fossa lesion",
+        "space-occupying lesion in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:57+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "total_tokens": 824
+    }
+  },
+  "Case_03019/figure2.jpg": {
+    "case_id": "Case_03019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03019/figure2.jpg",
+    "source_caption": "Head MRI scan with contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "head",
+      "short_caption": "Axial head MRI with contrast showing a large lesion in the posterior fossa.",
+      "detailed_description": "This axial MRI image of the head, taken with contrast, reveals a large, well-demarcated lesion in the posterior fossa. The lesion appears hyperintense relative to surrounding structures, with dimensions labeled as 55.73 mm x 42.13 mm. The image includes clear visualization of the cerebellum and adjacent structures, with the lesion likely causing mass effect. The contrast enhancement suggests vascular or inflammatory involvement.",
+      "visible_findings": [
+        "large hyperintense lesion in posterior fossa",
+        "dimensions labeled as 55.73 mm x 42.13 mm",
+        "contrast enhancement visible",
+        "mass effect on surrounding structures"
+      ],
+      "keywords": [
+        "mri",
+        "head",
+        "posterior fossa",
+        "contrast",
+        "lesion",
+        "hyperintense",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "posterior fossa lesion",
+        "contrast-enhanced mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 264,
+      "total_tokens": 852
+    }
+  },
+  "Case_03019/figure3.jpg": {
+    "case_id": "Case_03019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03019/figure3.jpg",
+    "source_caption": "Figure 3. Histopathology of cerebellar mass.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cerebellum",
+      "short_caption": "Histopathology of cerebellar mass showing necrosis and fungal elements.",
+      "detailed_description": "This histopathology image shows a section of cerebellar tissue stained with hematoxylin and eosin (H&E). The section reveals extensive necrosis with a central area containing fungal elements, characterized by septate hyphae with acute angle branching. The surrounding tissue appears disrupted and infiltrated by inflammatory cells. These findings are consistent with an invasive fungal infection.",
+      "visible_findings": [
+        "necrotic tissue",
+        "septate fungal hyphae",
+        "acute angle branching",
+        "inflammatory cell infiltration"
+      ],
+      "keywords": [
+        "histopathology",
+        "cerebellum",
+        "fungal infection",
+        "necrosis",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of cerebellar mass",
+        "fungal infection in brain",
+        "H&E stain of cerebellum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:59+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 246,
+      "total_tokens": 841
+    }
+  },
+  "Case_03019/figure4.jpg": {
+    "case_id": "Case_03019",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03019/figure4.jpg",
+    "source_caption": "Follow-up MRI scan at four months.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing abnormalities in the posterior fossa.",
+      "detailed_description": "This axial MRI image of the brain demonstrates a lesion in the posterior fossa region, with apparent mass effect and distortion of surrounding structures. The lesion appears hypointense relative to the surrounding brain tissue. The cerebellum and brainstem are involved, with possible compression of adjacent structures. The image is de-identified and represents a follow-up scan, as noted in the case caption.",
+      "visible_findings": [
+        "lesion in the posterior fossa",
+        "mass effect on surrounding structures",
+        "hypointense signal in the lesion",
+        "involvement of cerebellum and brainstem"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "posterior fossa",
+        "lesion",
+        "mass effect",
+        "follow-up imaging"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "posterior fossa lesion",
+        "follow-up imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:26:07+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 247,
+      "total_tokens": 837
+    }
+  }
+}

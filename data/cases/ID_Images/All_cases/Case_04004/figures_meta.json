@@ -1,0 +1,124 @@
+{
+  "Case_04004/figure1.jpg": {
+    "case_id": "Case_04004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04004/figure1.jpg",
+    "source_caption": "Gram stain of spun cerebrospinal fluid.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of cerebrospinal fluid showing gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain of cerebrospinal fluid. Numerous gram-negative diplococci are visible, appearing as paired, pink-staining cocci. The background is lightly stained, consistent with a spun preparation of cerebrospinal fluid. The morphology and staining characteristics suggest a bacterial pathogen, potentially Neisseria species.",
+      "visible_findings": [
+        "gram-negative diplococci",
+        "pink-staining cocci in pairs",
+        "lightly stained background typical of cerebrospinal fluid preparation"
+      ],
+      "keywords": [
+        "gram stain",
+        "cerebrospinal fluid",
+        "gram-negative diplococci",
+        "bacterial infection",
+        "neisseria"
+      ],
+      "reveal_triggers": [
+        "gram stain of cerebrospinal fluid",
+        "cns infection",
+        "meningitis workup"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:23+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 252,
+      "total_tokens": 843
+    }
+  },
+  "Case_04004/figure2.jpg": {
+    "case_id": "Case_04004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04004/figure2.jpg",
+    "source_caption": "Detail of Figure 1.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain with numerous pink-staining (gram-negative) diplococci visible against a lighter background. The organisms are arranged in pairs and are surrounded by inflammatory cells, suggesting an infectious process. The staining technique highlights the characteristic morphology of the bacteria.",
+      "visible_findings": [
+        "pink-staining gram-negative diplococci",
+        "background of inflammatory cells",
+        "pairs of bacteria"
+      ],
+      "keywords": [
+        "gram stain",
+        "diplococci",
+        "gram-negative",
+        "bacteria",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial morphology",
+        "infectious process"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:23+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 196,
+      "total_tokens": 784
+    }
+  },
+  "Case_04004/figure3.jpg": {
+    "case_id": "Case_04004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04004/figure3.jpg",
+    "source_caption": "Figure 3. Gram stain of cerebrospinal fluid, high power.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of cerebrospinal fluid showing Gram-negative diplococci.",
+      "detailed_description": "This high-power Gram stain image shows numerous polymorphonuclear leukocytes (PMNs) with intracellular and extracellular Gram-negative diplococci. The organisms are pink, consistent with their Gram-negative staining properties. The background is lightly stained, and the focus is on the central cluster of diplococci. This finding is suggestive of bacterial meningitis, potentially caused by Neisseria meningitidis.",
+      "visible_findings": [
+        "Gram-negative diplococci",
+        "numerous polymorphonuclear leukocytes (PMNs)",
+        "intracellular and extracellular bacteria",
+        "pink-stained organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "cerebrospinal fluid",
+        "gram-negative diplococci",
+        "bacterial meningitis",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of cerebrospinal fluid",
+        "bacterial meningitis",
+        "neisseria meningitidis",
+        "cns infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:32:29+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 283,
+      "total_tokens": 880
+    }
+  }
+}

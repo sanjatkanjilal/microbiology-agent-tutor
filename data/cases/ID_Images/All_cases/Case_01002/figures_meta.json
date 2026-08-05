@@ -1,0 +1,139 @@
+{
+  "Case_01002/figure1.jpg": {
+    "case_id": "Case_01002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01002/figure1.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:18:37+00:00"
+  },
+  "Case_01002/figure3.jpg": {
+    "case_id": "Case_01002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01002/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "arm and torso",
+      "short_caption": "Infant with scattered erythematous papules on the arm and torso.",
+      "detailed_description": "This image shows the arm and torso of an infant with numerous erythematous papules distributed across the skin. The lesions are small, raised, and scattered, with no apparent coalescence. The infant's skin appears otherwise normal, with no visible signs of excoriation or secondary infection. The diaper and surrounding area are visible, suggesting the infant's age and context of care.",
+      "visible_findings": [
+        "scattered erythematous papules",
+        "distribution on arm and torso",
+        "infant skin with no excoriation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "infant",
+        "skin lesions",
+        "papules",
+        "rash",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "infant skin rash",
+        "papular rash",
+        "infectious rash in infant"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:42+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_01002/figure2.jpg": {
+    "case_id": "Case_01002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01002/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of an infant",
+      "short_caption": "Infant with widespread erythematous maculopapular rash.",
+      "detailed_description": "This image shows an infant lying on their back with a widespread erythematous maculopapular rash visible on the arms, legs, and torso. The rash appears as red, raised lesions of varying sizes. The infant is wearing a diaper, and their face is partially obscured for de-identification. A gloved hand is seen holding the infant's arm, suggesting a clinical setting.",
+      "visible_findings": [
+        "erythematous maculopapular rash",
+        "rash distributed on arms, legs, and torso",
+        "infant in clinical setting"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "infant",
+        "rash",
+        "maculopapular",
+        "skin lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "infant rash",
+        "maculopapular rash",
+        "skin lesions in newborn"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:53+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 250,
+      "total_tokens": 818
+    }
+  },
+  "Case_01002/figure4.jpg": {
+    "case_id": "Case_01002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01002/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin on the buttock",
+      "short_caption": "Erythematous, scaly rash on the buttock.",
+      "detailed_description": "This clinical photograph shows an erythematous, scaly rash on the skin of the buttock. The affected area appears dry with prominent scaling and irregular borders. The surrounding skin shows mild erythema, and there are no visible signs of ulceration or exudate. The image is well-lit, and the texture of the rash is clearly visible.",
+      "visible_findings": [
+        "erythematous patches",
+        "scaling",
+        "irregular borders",
+        "dry skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "rash",
+        "erythema",
+        "scaling",
+        "buttock"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "scaly rash",
+        "erythematous rash",
+        "dermatologic infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:18:55+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  }
+}

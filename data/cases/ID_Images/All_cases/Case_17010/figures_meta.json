@@ -1,0 +1,130 @@
+{
+  "Case_17010/figure1.jpg": {
+    "case_id": "Case_17010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17010/figure1.jpg",
+    "source_caption": "Computed tomography (CT) scan of the chest demonstrating enlarged mediastinal, supraclavicular, mesenteric, and retroperitoneal lymph nodes, the largest of which was 1.52 cm in diameter (red arrow).",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "CT scan of the chest showing an enlarged mediastinal lymph node (red arrow).",
+      "detailed_description": "This axial CT image of the chest demonstrates an enlarged mediastinal lymph node, highlighted by a red arrow. The node measures 1.52 cm in diameter, as indicated on the image. Surrounding structures, including the lungs and vertebrae, are visible, with no obvious signs of additional abnormalities in this slice. The scan appears to be performed with contrast, enhancing the visibility of vascular and lymphatic structures.",
+      "visible_findings": [
+        "enlarged mediastinal lymph node",
+        "red arrow marking the lymph node",
+        "contrast-enhanced vascular structures",
+        "vertebrae and lung parenchyma visible"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "mediastinal lymph node",
+        "enlarged lymph node",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "ct chest",
+        "mediastinal lymphadenopathy",
+        "enlarged lymph nodes on imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:45+00:00",
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 263,
+      "total_tokens": 894
+    }
+  },
+  "Case_17010/figure2.jpg": {
+    "case_id": "Case_17010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17010/figure2.jpg",
+    "source_caption": "A Diff-Quik stained specimen from a right supraclavicular lymph node core biopsy at 40X magnification reveals macrophages with numerous small (3-4 microns) intracytoplasmic yeast forms consistent with histoplasmosis (red arrow).",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "right supraclavicular lymph node",
+      "short_caption": "Diff-Quik stain of lymph node biopsy shows macrophages with intracytoplasmic yeast forms.",
+      "detailed_description": "This image shows a Diff-Quik stained specimen from a right supraclavicular lymph node core biopsy at 40X magnification. Numerous macrophages are visible, containing small (3-4 microns) round to oval yeast forms within their cytoplasm. The yeast forms are highlighted by a red arrow, and their size and morphology are consistent with histoplasmosis. The background contains scattered lymphocytes and other inflammatory cells.",
+      "visible_findings": [
+        "macrophages with intracytoplasmic yeast forms",
+        "small (3-4 microns) round to oval yeast forms",
+        "scattered lymphocytes in the background",
+        "red arrow highlighting yeast forms"
+      ],
+      "keywords": [
+        "diff-quik stain",
+        "lymph node",
+        "histoplasmosis",
+        "macrophages",
+        "yeast forms",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "diff-quik stain",
+        "lymph node biopsy",
+        "histoplasmosis",
+        "yeast forms in macrophages"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:46+00:00",
+    "usage": {
+      "prompt_tokens": 635,
+      "completion_tokens": 290,
+      "total_tokens": 925
+    }
+  },
+  "Case_17010/figure3.jpg": {
+    "case_id": "Case_17010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17010/figure3.jpg",
+    "source_caption": "H&E stain of the right supraclavicular lymph node core biopsy demonstrating granulomatous inflammation (red arrow) and giant cells (blue arrow). (40x)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "right supraclavicular lymph node",
+      "short_caption": "H&E stain showing granulomatous inflammation and multinucleated giant cells in a lymph node biopsy (40x).",
+      "detailed_description": "This is an H&E-stained histopathology slide of a right supraclavicular lymph node core biopsy at 40x magnification. The image demonstrates granulomatous inflammation, indicated by the red arrow, characterized by clusters of epithelioid histiocytes. The blue arrow highlights multinucleated giant cells, which are a hallmark of granulomatous processes. The background shows a mix of inflammatory cells and fibrotic tissue.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "inflammatory cell infiltrate",
+        "fibrotic tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "granulomatous inflammation",
+        "giant cells",
+        "H&E stain",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "granulomatous inflammation",
+        "giant cells"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:46+00:00",
+    "usage": {
+      "prompt_tokens": 616,
+      "completion_tokens": 306,
+      "total_tokens": 922
+    }
+  }
+}

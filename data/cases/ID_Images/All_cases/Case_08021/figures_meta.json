@@ -1,0 +1,87 @@
+{
+  "Case_08021/figure2.jpg": {
+    "case_id": "Case_08021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08021/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "bilateral feet and lower legs",
+      "short_caption": "Bilateral erythema and swelling of the feet and lower legs.",
+      "detailed_description": "This image shows both feet and lower legs with significant erythema and swelling. The skin appears diffusely red and shiny, suggesting inflammation or infection. There is no visible ulceration or drainage. The findings are symmetric, involving both feet and extending to the lower legs. The patient is positioned supine, and the image is taken from a top-down perspective.",
+      "visible_findings": [
+        "bilateral erythema of feet and lower legs",
+        "swelling of feet and lower legs",
+        "shiny skin appearance",
+        "no visible ulceration or drainage"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "feet",
+        "lower legs",
+        "erythema",
+        "swelling",
+        "inflammation",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "lower extremity swelling",
+        "bilateral erythema"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:16+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 247,
+      "total_tokens": 815
+    }
+  },
+  "Case_08021/figure1.jpg": {
+    "case_id": "Case_08021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08021/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm and hand",
+      "short_caption": "Erythematous rash and swelling on the forearm and hand.",
+      "detailed_description": "This clinical photograph shows the volar aspect of the forearm and hand. There is diffuse erythema extending from the forearm to the hand, accompanied by noticeable swelling. The erythema appears uniform, with no clear demarcation or focal lesions. The hand is slightly flexed, and the skin texture suggests inflammation. The image is taken under natural lighting on a white background.",
+      "visible_findings": [
+        "diffuse erythema on forearm and hand",
+        "swelling of the hand and forearm",
+        "no focal lesions or clear demarcation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "hand",
+        "erythema",
+        "swelling",
+        "rash",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "forearm swelling",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:47:17+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 245,
+      "total_tokens": 813
+    }
+  }
+}

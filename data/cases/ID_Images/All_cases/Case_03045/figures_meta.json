@@ -1,0 +1,43 @@
+{
+  "Case_03045/figure1.jpg": {
+    "case_id": "Case_03045",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03045/figure1.jpg",
+    "source_caption": "Cerebrospinal fluid.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "India ink stain of cerebrospinal fluid showing encapsulated yeast cells.",
+      "detailed_description": "This image shows an India ink preparation of cerebrospinal fluid. Multiple round, darkly stained yeast cells with a clear halo are visible, indicative of a polysaccharide capsule. The background is pale, with the ink providing contrast to highlight the capsules. This appearance is characteristic of Cryptococcus species.",
+      "visible_findings": [
+        "round yeast cells",
+        "dark staining with clear halos",
+        "contrast provided by India ink"
+      ],
+      "keywords": [
+        "india ink",
+        "cerebrospinal fluid",
+        "yeast",
+        "cryptococcus",
+        "stain",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "india ink stain",
+        "cerebrospinal fluid analysis",
+        "fungal meningitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:28:59+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 223,
+      "total_tokens": 811
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "Case_02059/figure1.jpg": {
+    "case_id": "Case_02059",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02059/figure1.jpg",
+    "source_caption": "Abdominal CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal CT scan showing abdominal structures.",
+      "detailed_description": "This is an axial view of an abdominal CT scan. The image shows the kidneys, abdominal aorta, and surrounding soft tissues. There is no visible contrast enhancement, suggesting it may be a non-contrast study. The organs appear symmetric, and no obvious masses, fluid collections, or abnormalities are immediately apparent. The bowel loops are visible, but no dilatation or obstruction is evident.",
+      "visible_findings": [
+        "bilateral kidneys visible",
+        "abdominal aorta in the midline",
+        "no obvious masses or fluid collections",
+        "no bowel obstruction or dilatation"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "kidneys",
+        "aorta",
+        "soft tissue",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "ct scan of abdomen",
+        "axial ct abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:05+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 238,
+      "total_tokens": 825
+    }
+  },
+  "Case_02059/figure2.jpg": {
+    "case_id": "Case_02059",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02059/figure2.jpg",
+    "source_caption": "Abdominal MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal MRI scan showing bilateral kidneys and surrounding structures.",
+      "detailed_description": "This is an axial abdominal MRI scan showing the kidneys bilaterally, with clear visualization of the renal parenchyma and surrounding structures. The liver is visible in the upper portion of the image, and the vertebral column is centrally located. The image appears to be a T2-weighted sequence, as fluid-filled structures such as the renal pelvis and vasculature are hyperintense. No obvious masses, abscesses, or other abnormalities are immediately apparent.",
+      "visible_findings": [
+        "bilateral kidneys visible",
+        "vertebral column centrally located",
+        "liver visible in upper portion",
+        "hyperintense renal pelvis and vasculature"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "kidneys",
+        "liver",
+        "renal pelvis",
+        "t2-weighted"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "kidney imaging",
+        "renal mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:06+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 256,
+      "total_tokens": 843
+    }
+  },
+  "Case_02059/figure3.jpg": {
+    "case_id": "Case_02059",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02059/figure3.jpg",
+    "source_caption": "Abdominal MRI scan.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial abdominal MRI showing abdominal structures.",
+      "detailed_description": "This is an axial T2-weighted MRI image of the abdomen. The kidneys are visible bilaterally, with normal corticomedullary differentiation. The liver and spleen are seen in their respective anatomical positions. There is no obvious evidence of mass lesions, fluid collections, or organ enlargement. The bowel loops appear unremarkable, and no free air or fluid is evident.",
+      "visible_findings": [
+        "bilateral kidneys with normal corticomedullary differentiation",
+        "liver and spleen in normal anatomical positions",
+        "no obvious mass lesions or fluid collections",
+        "unremarkable bowel loops"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "axial",
+        "kidneys",
+        "liver",
+        "spleen",
+        "normal anatomy"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "axial mri of abdomen",
+        "kidney imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:08+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 248,
+      "total_tokens": 835
+    }
+  }
+}

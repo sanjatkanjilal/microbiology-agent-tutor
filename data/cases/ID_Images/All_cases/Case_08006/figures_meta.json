@@ -1,0 +1,208 @@
+{
+  "Case_08006/figure1.jpg": {
+    "case_id": "Case_08006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08006/figure1.jpg",
+    "source_caption": "CT scan of the neck.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "neck",
+      "short_caption": "Axial CT scan of the neck showing a hypodense lesion with surrounding inflammation.",
+      "detailed_description": "This axial CT image of the neck demonstrates a hypodense lesion on the right side, indicated by an arrow. The lesion appears to be surrounded by soft tissue swelling and possible inflammatory changes. The scan is taken without contrast, as no enhancement is visible. The anatomical structures of the neck, including muscles and airways, are visible in cross-section.",
+      "visible_findings": [
+        "hypodense lesion on the right side of the neck",
+        "soft tissue swelling around the lesion",
+        "normal anatomical structures of the neck in cross-section"
+      ],
+      "keywords": [
+        "ct",
+        "neck",
+        "hypodense lesion",
+        "soft tissue swelling",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "neck CT",
+        "hypodense lesion in neck",
+        "soft tissue swelling on CT"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:13+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 234,
+      "total_tokens": 822
+    }
+  },
+  "Case_08006/figure2.jpg": {
+    "case_id": "Case_08006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08006/figure2.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing normal lung fields and mediastinal structures.",
+      "detailed_description": "This is a frontal chest radiograph showing clear lung fields with no visible consolidations, masses, or effusions. The heart size appears within normal limits, and the mediastinal contours are unremarkable. The diaphragm is well-defined bilaterally, and there is no evidence of pneumothorax or other acute abnormalities. The bony structures, including the ribs, clavicles, and spine, appear intact.",
+      "visible_findings": [
+        "clear lung fields",
+        "normal heart size",
+        "intact bony structures",
+        "well-defined diaphragms",
+        "no visible consolidations or effusions"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "normal findings",
+        "lungs",
+        "mediastinum"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "normal chest radiograph",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:14+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 250,
+      "total_tokens": 836
+    }
+  },
+  "Case_08006/figure3.jpg": {
+    "case_id": "Case_08006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08006/figure3.jpg",
+    "source_caption": "Chest radiograph, lateral view.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Lateral chest radiograph showing thoracic structures.",
+      "detailed_description": "This is a lateral view chest radiograph showing the thoracic cavity, including the vertebral column, ribs, and lung fields. The diaphragm is visible at the lower aspect of the image. The lung fields appear relatively clear, and no obvious consolidations, masses, or effusions are noted. The heart shadow is partially visible anteriorly. The image quality is adequate for evaluation of thoracic structures.",
+      "visible_findings": [
+        "clear lung fields",
+        "visible vertebral column",
+        "diaphragm contour visible",
+        "no obvious masses or effusions"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "thorax",
+        "lungs",
+        "diaphragm"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "thoracic imaging",
+        "lung radiograph"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:15+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 238,
+      "total_tokens": 827
+    }
+  },
+  "Case_08006/figure4.jpg": {
+    "case_id": "Case_08006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08006/figure4.jpg",
+    "source_caption": "H and E stain of excised lymph node.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "lymph node",
+      "short_caption": "H&E stain of excised lymph node showing granulomatous inflammation with multinucleated giant cells.",
+      "detailed_description": "This is a histopathological image of a lymph node stained with hematoxylin and eosin (H&E). The tissue shows granulomatous inflammation characterized by clusters of epithelioid histiocytes and multinucleated giant cells (indicated by the arrow). Surrounding areas show lymphoid tissue with scattered inflammatory cells. The architecture suggests a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "granulomatous inflammation",
+        "multinucleated giant cells",
+        "epithelioid histiocytes",
+        "lymphoid tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "lymph node",
+        "H&E stain",
+        "granuloma",
+        "giant cells",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "lymph node biopsy",
+        "granulomatous inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:17+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 256,
+      "total_tokens": 848
+    }
+  },
+  "Case_08006/figure5.jpg": {
+    "case_id": "Case_08006",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08006/figure5.jpg",
+    "source_caption": "Acid-fast stain of growth from fine needle aspiration.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Acid-fast stain showing branching filamentous organisms.",
+      "detailed_description": "This image shows an acid-fast stain of a specimen, likely from a fine needle aspiration. The stain highlights branching, filamentous organisms in red against a pale blue background, consistent with acid-fast bacteria. The branching morphology is characteristic of certain genera such as *Nocardia* or *Mycobacterium*. The image is magnified to clearly display the filamentous structure.",
+      "visible_findings": [
+        "branching filamentous organisms",
+        "red-stained structures (acid-fast positive)",
+        "pale blue background"
+      ],
+      "keywords": [
+        "acid-fast stain",
+        "branching filaments",
+        "nocardia",
+        "mycobacterium",
+        "infectious diseases",
+        "fine needle aspiration"
+      ],
+      "reveal_triggers": [
+        "acid-fast stain",
+        "branching bacteria",
+        "fine needle aspiration cytology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:18+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 232,
+      "total_tokens": 824
+    }
+  }
+}

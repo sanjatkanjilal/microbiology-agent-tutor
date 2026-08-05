@@ -1,0 +1,43 @@
+{
+  "Case_02072/figure1.jpg": {
+    "case_id": "Case_02072",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02072/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing abnormal opacities in the right lung field.",
+      "detailed_description": "This is a frontal chest radiograph with visible opacities in the right lung field, suggestive of consolidation or mass effect. The heart silhouette appears shifted slightly to the left, and the diaphragm is visible with potential blunting of the right costophrenic angle. The image is de-identified and shows no patient-specific information.",
+      "visible_findings": [
+        "opacity in the right lung field",
+        "possible consolidation or mass effect",
+        "leftward shift of heart silhouette",
+        "blunting of the right costophrenic angle"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "lung opacity",
+        "consolidation",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung infection",
+        "radiograph of thorax"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:32+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 237,
+      "total_tokens": 823
+    }
+  }
+}

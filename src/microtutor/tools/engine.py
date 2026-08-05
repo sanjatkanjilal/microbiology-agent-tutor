@@ -30,6 +30,7 @@ class MicroTutorToolEngine:
             from microtutor.tools.socratic import SocraticTool
             from microtutor.tools.hint import HintTool
             from microtutor.tools.tests_management import TestsManagementTool
+            from microtutor.tools.pathophys_epi import PathophysEpiTool
             from microtutor.tools.feedback import FeedbackTool
             from microtutor.tools.mcq import MCQTool
             from microtutor.tools.post_case_assessment import PostCaseAssessmentTool
@@ -38,11 +39,12 @@ class MicroTutorToolEngine:
             register_tool_class("SocraticTool", SocraticTool)
             register_tool_class("HintTool", HintTool)
             register_tool_class("TestsManagementTool", TestsManagementTool)
+            register_tool_class("PathophysEpiTool", PathophysEpiTool)
             register_tool_class("FeedbackTool", FeedbackTool)
             register_tool_class("MCQTool", MCQTool)
             register_tool_class("PostCaseAssessmentTool", PostCaseAssessmentTool)
             
-            logger.info("Registered 7 tool classes")
+            logger.info("Registered 8 tool classes")
         except ImportError as e:
             logger.warning(f"Could not import tool classes: {e}")
     

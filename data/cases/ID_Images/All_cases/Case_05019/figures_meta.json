@@ -1,0 +1,88 @@
+{
+  "Case_05019/figure2.jpg": {
+    "case_id": "Case_05019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05019/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Swollen and erythematous finger with subungual discoloration.",
+      "detailed_description": "This clinical photograph shows a finger with marked swelling, erythema, and tenderness, particularly around the distal phalanx. The nail bed appears discolored, and there is a prominent area of redness extending from the nail fold. The findings suggest an infectious or inflammatory process, such as a paronychia or felon.",
+      "visible_findings": [
+        "swelling of the distal finger",
+        "erythema around the nail fold",
+        "subungual discoloration",
+        "shiny, taut skin over the affected area"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "infection",
+        "swelling",
+        "erythema",
+        "nail fold",
+        "paronychia"
+      ],
+      "reveal_triggers": [
+        "finger infection",
+        "paronychia",
+        "swollen finger"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:35+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 235,
+      "total_tokens": 803
+    }
+  },
+  "Case_05019/figure1.jpg": {
+    "case_id": "Case_05019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_05019/figure1.jpg",
+    "source_caption": "Physical finding. Figure 2. Physical finding.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Swollen, erythematous finger with tense skin and possible underlying infection.",
+      "detailed_description": "This clinical photograph shows a finger with marked swelling, erythema, and a tense, shiny appearance of the overlying skin. The nail is intact, and there is no visible ulceration or drainage. The findings suggest an acute inflammatory or infectious process, such as cellulitis or a felon. The surrounding tissue appears relatively spared, and the image is taken against a blue drape background.",
+      "visible_findings": [
+        "swelling of the finger",
+        "erythema",
+        "tense, shiny skin",
+        "intact nail"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "swelling",
+        "erythema",
+        "infection",
+        "cellulitis",
+        "felon"
+      ],
+      "reveal_triggers": [
+        "swollen finger",
+        "skin infection",
+        "erythematous finger"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:37:35+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 240,
+      "total_tokens": 832
+    }
+  }
+}

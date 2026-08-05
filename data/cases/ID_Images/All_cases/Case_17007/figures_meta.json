@@ -1,0 +1,235 @@
+{
+  "Case_17007/figure1.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure1.jpg",
+    "source_caption": "7x14 cm firm mass protruding from left hip.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hip",
+      "short_caption": "Large firm mass protruding from the left hip.",
+      "detailed_description": "This clinical photograph shows a large, well-defined, firm mass protruding from the left hip region. The area has been prepped with an antiseptic solution, as evidenced by the orange discoloration of the skin. The mass appears smooth and dome-shaped, with no visible ulceration or discoloration of the overlying skin. The surrounding area is draped for a sterile procedure.",
+      "visible_findings": [
+        "large, dome-shaped mass",
+        "smooth overlying skin",
+        "orange antiseptic preparation",
+        "sterile draping around the site"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "left hip",
+        "mass",
+        "infectious diseases",
+        "skin preparation"
+      ],
+      "reveal_triggers": [
+        "skin mass",
+        "hip swelling",
+        "infectious diseases case"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:20+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 226,
+      "total_tokens": 821
+    }
+  },
+  "Case_17007/figure5.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure5.jpg",
+    "source_caption": "Figure 4a. Photographs from intra-operative examination. Intra-operative examination of the cyst contents revealed yellow necrotic material containing transparent fluid-filled sacs.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:00:21+00:00"
+  },
+  "Case_17007/figure6.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure6.jpg",
+    "source_caption": "Figure 4b. Photographs from intra-operative examination. Intra-operative examination of the cyst contents revealed yellow necrotic material containing transparent fluid-filled sacs.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T16:00:22+00:00"
+  },
+  "Case_17007/figure4.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure4.jpg",
+    "source_caption": "Figure 3b. Contrast Enhanced Pelvic MRI – T2 weighted coronal view. Multi-loculated 7 x 17 x 11 cm mass arising from the gluteus maximus. Circumscribed by thin capsule/ pseudocapsule and containing numerous round foci measuring up to 1.2 cm.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis/gluteal region",
+      "short_caption": "Pelvic MRI (T2-weighted coronal) showing a multi-loculated mass with round hyperintense foci.",
+      "detailed_description": "This T2-weighted coronal MRI image of the pelvis demonstrates a large, multi-loculated mass arising from the gluteus maximus. The mass is well-circumscribed by a thin capsule or pseudocapsule and contains numerous round hyperintense foci, the largest measuring approximately 1.2 cm. The surrounding soft tissues appear intact without significant infiltration. The findings are suggestive of a lesion with cystic or necrotic components.",
+      "visible_findings": [
+        "multi-loculated mass in the gluteal region",
+        "thin capsule or pseudocapsule surrounding the mass",
+        "numerous round hyperintense foci within the mass",
+        "no significant infiltration of surrounding soft tissues"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "gluteus maximus",
+        "mass",
+        "t2-weighted",
+        "hyperintense foci",
+        "capsule"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "gluteal mass",
+        "t2-weighted imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:32+00:00",
+    "usage": {
+      "prompt_tokens": 649,
+      "completion_tokens": 302,
+      "total_tokens": 951
+    }
+  },
+  "Case_17007/figure2.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure2.jpg",
+    "source_caption": "Ultrasound of gluteal cyst. Subcutaneous 16 x 8 x 17 cm coarsely echogenic lesion containing numerous round anechoic cysts measuring up to 1.2 cm.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "left gluteal region",
+      "short_caption": "Ultrasound of left gluteal region showing a large lesion with multiple anechoic cystic structures.",
+      "detailed_description": "This ultrasound image of the left gluteal region demonstrates a large, coarsely echogenic lesion measuring approximately 16.3 cm in length. The lesion contains numerous round anechoic cystic structures, each measuring up to 1.2 cm in diameter. The surrounding tissue appears heterogeneous, and the cystic structures are well-demarcated within the lesion. The image is labeled 'LONG LT GLUTEAL PALP,' indicating a longitudinal view of the left gluteal area.",
+      "visible_findings": [
+        "Large coarsely echogenic lesion",
+        "Multiple round anechoic cystic structures",
+        "Lesion measuring approximately 16.3 cm in length",
+        "Heterogeneous surrounding tissue"
+      ],
+      "keywords": [
+        "ultrasound",
+        "gluteal region",
+        "cystic lesion",
+        "anechoic structures",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gluteal ultrasound",
+        "subcutaneous cyst",
+        "cystic lesion on ultrasound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:32+00:00",
+    "usage": {
+      "prompt_tokens": 624,
+      "completion_tokens": 289,
+      "total_tokens": 913
+    }
+  },
+  "Case_17007/figure3.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure3.jpg",
+    "source_caption": "Figure 3a. Contrast Enhanced Pelvic MRI – T1 weighted axial view. Multi-loculated 7 x 17 x 11 cm mass arising from the gluteus maximus. Circumscribed by thin capsule/ pseudocapsule and containing numerous round foci measuring up to 1.2 cm.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "pelvis",
+      "short_caption": "Axial T1-weighted MRI showing a multi-loculated mass in the gluteus maximus.",
+      "detailed_description": "This axial T1-weighted contrast-enhanced MRI image depicts a large, multi-loculated mass measuring approximately 7 x 17 x 11 cm arising from the gluteus maximus muscle. The lesion is circumscribed by a thin capsule or pseudocapsule and contains numerous round foci, the largest measuring up to 1.2 cm. The mass is located on the right side of the pelvis, as indicated by the red arrow. Adjacent pelvic structures appear unremarkable.",
+      "visible_findings": [
+        "multi-loculated mass in the gluteus maximus",
+        "thin capsule or pseudocapsule surrounding the lesion",
+        "numerous round foci within the mass",
+        "right-sided pelvic involvement"
+      ],
+      "keywords": [
+        "mri",
+        "pelvis",
+        "gluteus maximus",
+        "mass",
+        "contrast-enhanced",
+        "t1-weighted"
+      ],
+      "reveal_triggers": [
+        "pelvic mri",
+        "gluteus maximus mass",
+        "t1-weighted axial mri"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:32+00:00",
+    "usage": {
+      "prompt_tokens": 648,
+      "completion_tokens": 295,
+      "total_tokens": 943
+    }
+  },
+  "Case_17007/figure7.jpg": {
+    "case_id": "Case_17007",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17007/figure7.jpg",
+    "source_caption": "Figure 4c. Photographs from intra-operative examination. Intra-operative examination of the cyst contents revealed yellow necrotic material containing transparent fluid-filled sacs.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "abdominal cavity (intra-operative specimen)",
+      "short_caption": "Intra-operative photograph showing yellow necrotic material with transparent fluid-filled sacs.",
+      "detailed_description": "This clinical photograph depicts material obtained during an intra-operative examination. The specimen consists of yellowish necrotic tissue interspersed with multiple transparent, fluid-filled sacs of varying sizes. The sacs appear to have a smooth surface and are distributed among the necrotic material. The background is a blue surgical drape, indicating the sterile field of the operating room.",
+      "visible_findings": [
+        "yellow necrotic material",
+        "transparent fluid-filled sacs",
+        "smooth surface of sacs",
+        "blue surgical drape background"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "intra-operative",
+        "cyst contents",
+        "necrotic material",
+        "fluid-filled sacs"
+      ],
+      "reveal_triggers": [
+        "intra-operative photograph",
+        "cyst contents",
+        "fluid-filled sacs",
+        "necrotic material"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:00:36+00:00",
+    "usage": {
+      "prompt_tokens": 614,
+      "completion_tokens": 245,
+      "total_tokens": 859
+    }
+  }
+}

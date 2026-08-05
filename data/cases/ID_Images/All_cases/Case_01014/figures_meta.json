@@ -1,0 +1,123 @@
+{
+  "Case_01014/figure1.jpg": {
+    "case_id": "Case_01014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01014/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "nose",
+      "short_caption": "Facial lesion on the nose of a young child.",
+      "detailed_description": "This clinical photograph shows the face of a young child with a small, raised lesion on the nasal bridge. The lesion appears erythematous with a central crust or scab. The surrounding skin shows no significant erythema or swelling. The image has been de-identified with black bars obscuring the eyes and mouth.",
+      "visible_findings": [
+        "small raised lesion on nasal bridge",
+        "central crust or scab on the lesion",
+        "no significant surrounding erythema or swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "nose",
+        "facial lesion",
+        "child",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin lesion on nose",
+        "facial lesion in child",
+        "infectious disease skin finding"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:39+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 220,
+      "total_tokens": 788
+    }
+  },
+  "Case_01014/figure2.jpg": {
+    "case_id": "Case_01014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01014/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Facial lesion with central ulceration in a pediatric patient.",
+      "detailed_description": "This clinical photograph shows a close-up view of the face of a pediatric patient. A single lesion is visible on the nasal area, characterized by erythema and a central ulceration with crusting. The surrounding skin appears mildly inflamed. The image is de-identified with a black bar obscuring the eyes.",
+      "visible_findings": [
+        "erythematous lesion on the nose",
+        "central ulceration with crusting",
+        "mild surrounding inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "pediatric",
+        "ulcer",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "facial lesion",
+        "skin ulcer",
+        "pediatric skin infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:46+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 213,
+      "total_tokens": 781
+    }
+  },
+  "Case_01014/figure3.jpg": {
+    "case_id": "Case_01014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_01014/figure3.jpg",
+    "source_caption": "Figure 3. Physical findings at follow-up.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Clinical photograph showing the face of a young child during follow-up.",
+      "detailed_description": "This image shows the face of a young child with a black bar obscuring the eyes for de-identification. The child appears to be placing fingers in their mouth. No overt signs of rash, swelling, or other abnormalities are visible on the exposed skin of the face. The photograph is taken at close range, focusing on the facial region.",
+      "visible_findings": [
+        "child's face with eyes obscured by a black bar",
+        "fingers in the mouth",
+        "no visible rash or swelling on the face"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "child",
+        "follow-up",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "physical findings",
+        "child face",
+        "follow-up examination"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:19:47+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 219,
+      "total_tokens": 811
+    }
+  }
+}

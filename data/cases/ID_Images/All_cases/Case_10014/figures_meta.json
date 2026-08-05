@@ -1,0 +1,251 @@
+{
+  "Case_10014/figure3.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the thigh",
+      "short_caption": "Erythematous skin lesion with surrounding demarcation and ruler for scale.",
+      "detailed_description": "This clinical photograph shows an erythematous, irregularly shaped skin lesion on the thigh. The lesion is outlined with a marker, and a ruler is placed adjacent to it for scale, indicating a size of approximately 7 cm in its longest dimension. The lesion appears inflamed, with a red hue and slightly irregular borders. The label 'Timepoint B' suggests this is part of a time-sequenced observation.",
+      "visible_findings": [
+        "erythematous skin lesion",
+        "irregular borders",
+        "marker outline around lesion",
+        "ruler for scale",
+        "label 'Timepoint B'"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "erythema",
+        "lesion",
+        "inflammation",
+        "thigh"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "erythema",
+        "infectious skin condition",
+        "thigh lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:36+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 259,
+      "total_tokens": 827
+    }
+  },
+  "Case_10014/figure1.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "forearm",
+      "short_caption": "Two puncture wounds with surrounding erythema on the forearm.",
+      "detailed_description": "The image shows the forearm of a patient with two puncture wounds approximately 2 cm apart. Both wounds exhibit surrounding erythema and mild ecchymosis. The wounds appear to have been sutured, and a measuring tape is placed adjacent to the site for scale. The surrounding skin shows no overt signs of necrosis or significant swelling.",
+      "visible_findings": [
+        "two puncture wounds",
+        "surrounding erythema",
+        "mild ecchymosis",
+        "sutures in place",
+        "measuring tape for scale"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "forearm",
+        "puncture wounds",
+        "erythema",
+        "sutures"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "puncture wounds",
+        "infected wound"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:41+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 234,
+      "total_tokens": 802
+    }
+  },
+  "Case_10014/figure2.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "thigh",
+      "short_caption": "Erythematous lesion with central necrosis and surrounding induration on the thigh.",
+      "detailed_description": "This clinical photograph shows a large, erythematous lesion on the thigh with a central area of necrosis and surrounding induration. The lesion is outlined with a marker, and a ruler is placed for size reference, indicating the lesion is approximately 5 cm in diameter. Labels 'A' and 'B' are marked on the image, likely for clinical reference. The lesion suggests a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "erythematous lesion",
+        "central necrosis",
+        "surrounding induration",
+        "ruler for size reference",
+        "outline marking the lesion"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "thigh",
+        "erythema",
+        "necrosis",
+        "induration",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "thigh infection",
+        "erythema with necrosis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 256,
+      "total_tokens": 824
+    }
+  },
+  "Case_10014/figure5.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure5.jpg",
+    "source_caption": "Skin biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Histopathology of a skin biopsy showing fungal elements.",
+      "detailed_description": "This histopathology image shows a section of skin tissue stained with hematoxylin and eosin (H&E). Numerous darkly stained fungal elements, consistent with yeast forms, are visible within the dermis, surrounded by inflammatory cells. The fungal elements are highlighted in a circled area, suggesting their diagnostic significance. The background shows normal skin architecture with some disruption due to inflammation.",
+      "visible_findings": [
+        "darkly stained fungal elements (yeast forms)",
+        "inflammatory cell infiltrate",
+        "disrupted skin architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "fungal infection",
+        "yeast",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "fungal infection histology",
+        "H&E stain of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:47+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 229,
+      "total_tokens": 814
+    }
+  },
+  "Case_10014/figure4.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure4.jpg",
+    "source_caption": "Skin biopsy, hematoxylin and eosin stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "Skin biopsy with hematoxylin and eosin stain showing perivascular inflammation.",
+      "detailed_description": "This histopathology image shows a section of skin stained with hematoxylin and eosin. The dermis contains a prominent perivascular inflammatory infiltrate, with lymphocytes and other mononuclear cells surrounding a blood vessel. The surrounding connective tissue appears pink and wavy, consistent with collagen fibers. No clear evidence of necrosis, granulomas, or microorganisms is visible in this image.",
+      "visible_findings": [
+        "perivascular inflammatory infiltrate",
+        "mononuclear cells surrounding blood vessels",
+        "pink wavy collagen fibers in the dermis"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "hematoxylin and eosin",
+        "perivascular inflammation",
+        "dermis"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "perivascular inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:48+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 244,
+      "total_tokens": 838
+    }
+  },
+  "Case_10014/figure6.jpg": {
+    "case_id": "Case_10014",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10014/figure6.jpg",
+    "source_caption": "Gram stain of growth from blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters from a blood culture.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. Numerous gram-positive cocci are visible, arranged predominantly in clusters. The organisms are stained purple, consistent with their gram-positive nature. The background is relatively clear, with no significant debris or other cell types visible. This morphology is suggestive of staphylococcal species.",
+      "visible_findings": [
+        "gram-positive cocci",
+        "clustered arrangement",
+        "purple staining of organisms"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "clusters",
+        "staphylococcus"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "staphylococcus morphology",
+        "gram-positive cocci in clusters"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:52:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 218,
+      "total_tokens": 808
+    }
+  }
+}

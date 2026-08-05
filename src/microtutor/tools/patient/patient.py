@@ -9,7 +9,7 @@ from typing import Dict, Any, Optional
 from microtutor.schemas.tools.tool_models import AgenticTool
 from microtutor.schemas.tools.tool_errors import ToolLLMError
 from microtutor.core.llm.llm_router import chat_complete
-from microtutor.prompts.patient_prompts import get_patient_system_prompt
+from microtutor.prompts.patient_prompts import format_patient_system_prompt
 from microtutor.core.logging.logging_config import log_agent_context
 
 # Import audio matcher for respiratory sounds
@@ -122,9 +122,16 @@ class PatientTool(AgenticTool):
             input_text = kwargs.get('input_text', '')
             conversation_history = kwargs.get('conversation_history', [])
             
-            # Get system prompt template and format with case
-            system_prompt_template = get_patient_system_prompt()
-            system_prompt = system_prompt_template.format(case=case)
+            patient_style = kwargs.get("patient_style")
+            allow_plausible = bool(kwargs.get("allow_plausible_findings", False))
+            figure_catalog = kwargs.get("figure_catalog") or []
+
+            system_prompt = format_patient_system_prompt(
+                case,
+                patient_style=patient_style,
+                allow_plausible_findings=allow_plausible,
+                figure_catalog=figure_catalog,
+            )
             
             # Use conversation_history which already includes feedback at the end
             # Feedback was added to the last user message in tutor_service_v2.py
@@ -190,7 +197,11 @@ class PatientTool(AgenticTool):
             case=case,
             input_text=input_text,
             conversation_history=arguments.get('conversation_history', []),
-            model=arguments.get('model', 'gpt-5')
+            model=arguments.get('model', 'gpt-5'),
+            case_id=arguments.get('case_id', 'unknown'),
+            patient_style=arguments.get('patient_style'),
+            allow_plausible_findings=arguments.get('allow_plausible_findings', False),
+            figure_catalog=arguments.get('figure_catalog') or [],
         )
         
         # Check for audio data

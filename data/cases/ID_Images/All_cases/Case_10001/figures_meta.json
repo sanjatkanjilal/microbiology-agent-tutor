@@ -1,0 +1,300 @@
+{
+  "Case_10001/figure2.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure2.jpg",
+    "source_caption": null,
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:50:25+00:00"
+  },
+  "Case_10001/figure4.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure4.jpg",
+    "source_caption": "Figure 3, with arrows showing spores.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": null,
+      "short_caption": "Gram stain showing gram-positive bacilli with spores indicated by arrows.",
+      "detailed_description": "This image shows a gram stain with pink and purple-stained structures. The arrows point to gram-positive bacilli with visible spores. The bacilli are rod-shaped and arranged in clusters and chains. The staining highlights the spores as clear or unstained areas within the rods.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "spores indicated by arrows",
+        "rod-shaped bacteria",
+        "pink and purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "spores",
+        "gram-positive",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial spores",
+        "infectious disease microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:36+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 203,
+      "total_tokens": 794
+    }
+  },
+  "Case_10001/figure5.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure5.jpg",
+    "source_caption": "Culture of surgical specimen, with an uninoculated plate on right.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": "null",
+      "short_caption": "Bacterial culture on blood agar with uninoculated plate on the right.",
+      "detailed_description": "The image shows two blood agar plates. The plate on the left has visible bacterial growth in streak patterns, suggesting inoculation and subsequent colony formation. The plate on the right is uninoculated, serving as a control. The growth on the left plate appears dense and uniform, indicating successful culture of the specimen. The red color of the agar is characteristic of blood agar, commonly used to grow and differentiate bacterial species.",
+      "visible_findings": [
+        "bacterial growth in streak patterns on the left plate",
+        "uninoculated blood agar plate on the right",
+        "red coloration characteristic of blood agar"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "bacterial growth",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "culture plate",
+        "bacterial growth",
+        "blood agar culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:39+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 241,
+      "total_tokens": 837
+    }
+  },
+  "Case_10001/figure6.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure6.jpg",
+    "source_caption": "Gram stain of culture growth.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive bacilli from culture growth.",
+      "detailed_description": "This image shows a Gram stain of cultured bacterial growth. Numerous purple-staining, rod-shaped organisms (gram-positive bacilli) are visible, arranged singly, in pairs, and in short chains. The background is clear, consistent with a culture preparation. The staining highlights the morphology and gram-positive nature of the bacteria.",
+      "visible_findings": [
+        "purple-staining rod-shaped bacteria",
+        "gram-positive bacilli",
+        "arrangement in singles, pairs, and short chains",
+        "clear background typical of culture preparation"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive bacilli",
+        "culture",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "bacterial culture",
+        "gram-positive rods"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:44+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 220,
+      "total_tokens": 808
+    }
+  },
+  "Case_10001/figure3.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure3.jpg",
+    "source_caption": "Gram stain of superficial swab of operative site.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "operative site (superficial swab)",
+      "short_caption": "Gram stain showing gram-positive bacilli from a superficial swab of an operative site.",
+      "detailed_description": "This image shows a Gram stain of a superficial swab from an operative site. Numerous gram-positive bacilli are visible, appearing as pink to purple rod-shaped organisms. The background is relatively sparse, with no clear evidence of polymorphonuclear leukocytes or other cellular debris. The staining technique highlights the morphology of the bacteria, suggesting their gram-positive nature.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "rod-shaped organisms",
+        "pink to purple staining",
+        "sparse background"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive bacilli",
+        "operative site",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of operative site",
+        "gram-positive bacilli",
+        "infectious diseases microscopy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:45+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 236,
+      "total_tokens": 828
+    }
+  },
+  "Case_10001/figure1.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left upper extremity",
+      "short_caption": "Extensive erythema and ecchymosis on the left arm and shoulder.",
+      "detailed_description": "The image shows a left upper extremity with extensive erythema and dark purple ecchymosis extending from the shoulder to the forearm. The skin appears swollen, with areas of discoloration suggesting possible tissue damage or infection. The patient is lying on their side, and the arm is positioned in a slightly flexed posture. No visible open wounds or drainage are present in this view.",
+      "visible_findings": [
+        "extensive erythema",
+        "dark purple ecchymosis",
+        "swelling of the left arm",
+        "discoloration extending from shoulder to forearm"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "left arm",
+        "erythema",
+        "ecchymosis",
+        "swelling",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infected arm",
+        "soft tissue infection"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:45+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 251,
+      "total_tokens": 819
+    }
+  },
+  "Case_10001/figure8.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure8.jpg",
+    "source_caption": "H and E stain of muscle (high magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "muscle",
+      "short_caption": "H&E stain of muscle showing inflammatory changes.",
+      "detailed_description": "This is a high-magnification histopathology image of muscle tissue stained with hematoxylin and eosin (H&E). The muscle fibers appear pink with eosinophilic staining, and there are areas of disruption and inflammatory infiltrates in the interstitial spaces. The image demonstrates changes consistent with myositis or another inflammatory process affecting the muscle.",
+      "visible_findings": [
+        "eosinophilic muscle fibers",
+        "interstitial inflammatory infiltrates",
+        "disruption of normal muscle architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "muscle",
+        "h&e stain",
+        "inflammation",
+        "myositis"
+      ],
+      "reveal_triggers": [
+        "h&e stain of muscle",
+        "histopathology of muscle",
+        "muscle inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:50+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 224,
+      "total_tokens": 817
+    }
+  },
+  "Case_10001/figure7.jpg": {
+    "case_id": "Case_10001",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_10001/figure7.jpg",
+    "source_caption": "H and E stain of muscle (low magnification)",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "muscle",
+      "short_caption": "H&E stain of muscle tissue at low magnification.",
+      "detailed_description": "This histopathology image shows muscle tissue stained with hematoxylin and eosin (H&E) at low magnification. The muscle fibers appear pink with eosinophilic staining, and the nuclei are visible as darker purple structures. Adipose tissue is present in the upper portion of the image, characterized by clear vacuolated spaces. The arrangement of muscle fibers and the presence of adipose tissue suggest a normal or mildly altered architecture.",
+      "visible_findings": [
+        "pink eosinophilic muscle fibers",
+        "purple nuclei within muscle fibers",
+        "adipose tissue with vacuolated spaces",
+        "low magnification view"
+      ],
+      "keywords": [
+        "histopathology",
+        "muscle",
+        "H&E stain",
+        "adipose tissue",
+        "low magnification"
+      ],
+      "reveal_triggers": [
+        "H&E stain",
+        "muscle biopsy",
+        "histopathology of muscle"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:50:51+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 255,
+      "total_tokens": 848
+    }
+  }
+}

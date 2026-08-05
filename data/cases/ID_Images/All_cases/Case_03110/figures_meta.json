@@ -1,0 +1,45 @@
+{
+  "Case_03110/figure1.jpg": {
+    "case_id": "Case_03110",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03110/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lateral torso",
+      "short_caption": "Grouped vesicular lesions on an erythematous base on the lateral torso.",
+      "detailed_description": "This clinical photograph shows a cluster of vesicular lesions on an erythematous base distributed along a dermatomal pattern on the lateral torso. The lesions appear to be at various stages, with some vesicles intact and others crusted. The distribution suggests a unilateral involvement, consistent with a dermatomal pattern. The surrounding skin shows mild erythema without significant swelling.",
+      "visible_findings": [
+        "grouped vesicular lesions",
+        "erythematous base",
+        "crusting of some lesions",
+        "dermatomal distribution",
+        "unilateral involvement"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "vesicles",
+        "rash",
+        "dermatomal",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "vesicular rash",
+        "dermatomal rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:27+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 242,
+      "total_tokens": 810
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "Case_13011/figure1.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure1.jpg",
+    "source_caption": "A chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities and medical devices.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing bilateral pulmonary opacities, more pronounced in the right lung, suggestive of consolidation or infiltrates. Medical devices, including ECG leads and a nasogastric tube, are visible. The cardiac silhouette appears enlarged, and there is evidence of a possible pleural effusion in the right lower lung field. The image is de-identified and includes standard radiographic markers.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "right-sided consolidation or infiltrates",
+        "medical devices (ECG leads, nasogastric tube)",
+        "enlarged cardiac silhouette",
+        "possible right pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary opacities",
+        "consolidation",
+        "pleural effusion",
+        "medical devices"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "pleural effusion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:19+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 276,
+      "total_tokens": 863
+    }
+  },
+  "Case_13011/figure2.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure2.jpg",
+    "source_caption": "Radiograph of the chest, lateral view.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Lateral chest radiograph showing lung fields and thoracic structures.",
+      "detailed_description": "This is a lateral chest radiograph displaying the thoracic cavity. The lung fields are visible, with some areas of increased opacity in the lower lung zones, which may suggest consolidation or fluid accumulation. The diaphragm and heart borders are also visible. The bony structures, including the ribs and vertebrae, are well-defined. No obvious foreign bodies or gross abnormalities are noted.",
+      "visible_findings": [
+        "lateral view of the chest",
+        "lung fields with areas of increased opacity",
+        "diaphragm and heart borders visible",
+        "bony structures including ribs and vertebrae"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "lateral view",
+        "lungs",
+        "thoracic cavity",
+        "opacity"
+      ],
+      "reveal_triggers": [
+        "lateral chest x-ray",
+        "lung radiograph",
+        "chest imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:19+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 245,
+      "total_tokens": 836
+    }
+  },
+  "Case_13011/figure3.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure3.jpg",
+    "source_caption": "CT of the chest",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT of the chest showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary infiltrates, predominantly in the right lung. There are areas of ground-glass opacities and consolidation, suggesting an infectious or inflammatory process. The mediastinum and heart are centrally located, and no obvious pleural effusion is visible. The image is in lung window settings, enhancing the visualization of parenchymal abnormalities.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "ground-glass opacities",
+        "consolidation",
+        "no visible pleural effusion"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pulmonary infiltrates",
+        "ground-glass opacities",
+        "consolidation",
+        "lung window"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infiltrates",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:22+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 241,
+      "total_tokens": 828
+    }
+  },
+  "Case_13011/figure5.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure5.jpg",
+    "source_caption": "CT of the chest, one month after first admission.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral pulmonary abnormalities one month after admission.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pulmonary abnormalities, including patchy areas of ground-glass opacities and consolidations. The findings are more prominent in the lower lung fields. There is no clear evidence of pleural effusion or significant mediastinal lymphadenopathy. The image is consistent with a follow-up study, likely assessing progression or resolution of an infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "patchy consolidations",
+        "no pleural effusion",
+        "no significant mediastinal lymphadenopathy"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "lung infection",
+        "pulmonary abnormalities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:23+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 244,
+      "total_tokens": 837
+    }
+  },
+  "Case_13011/figure4.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure4.jpg",
+    "source_caption": "Radiograph of the chest, one month after first admission.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest",
+      "short_caption": "Chest radiograph showing bilateral pulmonary opacities and medical devices.",
+      "detailed_description": "This is a frontal chest radiograph showing bilateral pulmonary opacities, more prominent in the lower lung fields. There are medical devices visible, including a right-sided central venous catheter and a left-sided pacemaker or defibrillator. The heart appears enlarged, and there is evidence of possible pleural effusion or consolidation in the lower zones. The image quality is adequate for interpretation.",
+      "visible_findings": [
+        "bilateral pulmonary opacities",
+        "right-sided central venous catheter",
+        "left-sided pacemaker or defibrillator",
+        "enlarged cardiac silhouette",
+        "possible pleural effusion or consolidation in lower lung zones"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "pulmonary opacities",
+        "medical devices",
+        "pleural effusion",
+        "consolidation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infection",
+        "medical devices in chest"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:23+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 262,
+      "total_tokens": 856
+    }
+  },
+  "Case_13011/figure6.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure6.jpg",
+    "source_caption": "Figure 6. Blood culture growth, gram stain (400x magnification).",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain of blood culture showing filamentous structures, suggestive of fungal or bacterial growth.",
+      "detailed_description": "This image shows a gram stain of a blood culture at 400x magnification. The central feature is a dense, tangled network of filamentous structures, which are darkly stained against a lighter background. These filaments suggest the presence of a filamentous organism, such as a fungus or actinomycete. The background contains scattered debris and lighter staining material, consistent with the culture medium.",
+      "visible_findings": [
+        "dense filamentous network",
+        "dark staining of filaments",
+        "lighter background with scattered debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "filamentous organism",
+        "infectious disease",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "blood culture gram stain",
+        "filamentous organism",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:24+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 234,
+      "total_tokens": 832
+    }
+  },
+  "Case_13011/figure7.jpg": {
+    "case_id": "Case_13011",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_13011/figure7.jpg",
+    "source_caption": "Blood culture growth, Hanks Acid Fast Stain.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "null",
+      "short_caption": "Hanks Acid Fast Stain of blood culture showing filamentous branching structures.",
+      "detailed_description": "This image shows a stained preparation from a blood culture using Hanks Acid Fast Stain. The field reveals filamentous, branching structures stained blue against a purple background, consistent with acid-fast organisms. The morphology suggests the presence of filamentous bacteria or fungi. The background appears granular, likely representing cellular debris or other culture components.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "blue staining of organisms",
+        "purple granular background"
+      ],
+      "keywords": [
+        "hanks acid fast stain",
+        "blood culture",
+        "filamentous organisms",
+        "branching structures",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "blood culture",
+        "acid fast stain",
+        "filamentous bacteria",
+        "stain of culture"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:56:25+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 237,
+      "total_tokens": 830
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Case_15006/figure3.jpg": {
+    "case_id": "Case_15006",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15006/figure3.jpg",
+    "source_caption": "Blood culture growth on MacConkey agar plate.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Bacterial growth on MacConkey agar plate.",
+      "detailed_description": "This image shows a MacConkey agar plate with visible bacterial growth. The colonies appear as smooth, round, and pinkish in color, indicating lactose fermentation. The plate is uniformly streaked, suggesting a streak plate technique was used for isolation. The pink coloration of the colonies is characteristic of lactose-fermenting Gram-negative bacteria, such as Escherichia coli.",
+      "visible_findings": [
+        "MacConkey agar plate",
+        "pink bacterial colonies",
+        "smooth, round colony morphology",
+        "evidence of lactose fermentation"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "bacterial growth",
+        "lactose fermentation",
+        "microbiology",
+        "gram-negative bacteria"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "bacterial culture",
+        "lactose fermenting bacteria"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:18+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 250,
+      "total_tokens": 842
+    }
+  },
+  "Case_15006/figure4.jpg": {
+    "case_id": "Case_15006",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15006/figure4.jpg",
+    "source_caption": "Gram stain of colony growth from blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing gram-positive bacilli from colony growth.",
+      "detailed_description": "This image shows a Gram stain of bacterial colony growth, likely from a blood culture. Numerous gram-positive bacilli are visible, appearing as pink to purple rod-shaped organisms scattered across the field. The background is clear, and the organisms are evenly distributed, suggesting a pure culture. The staining technique highlights the morphology and arrangement of the bacteria.",
+      "visible_findings": [
+        "gram-positive bacilli",
+        "rod-shaped organisms",
+        "even distribution of bacteria",
+        "pink to purple staining"
+      ],
+      "keywords": [
+        "gram stain",
+        "bacteria",
+        "gram-positive",
+        "bacilli",
+        "blood culture",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain",
+        "blood culture",
+        "bacterial morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:18+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 215,
+      "total_tokens": 806
+    }
+  },
+  "Case_15006/figure1.jpg": {
+    "case_id": "Case_15006",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15006/figure1.jpg",
+    "source_caption": "CT of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Coronal CT of the chest showing a fluid collection with an arrow indicating the lesion.",
+      "detailed_description": "This coronal CT image of the chest shows a hypodense fluid collection in the right thoracic cavity, adjacent to the pleura. The lesion is marked with an arrow, suggesting its clinical significance. The ribs and vertebral column are visible, providing anatomical context. No contrast enhancement is evident in this image.",
+      "visible_findings": [
+        "hypodense fluid collection in the right thoracic cavity",
+        "arrow indicating the lesion",
+        "adjacent ribs and vertebral column visible"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "fluid collection",
+        "thoracic cavity",
+        "pleura"
+      ],
+      "reveal_triggers": [
+        "chest CT",
+        "fluid collection in thorax",
+        "pleural lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:22+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 222,
+      "total_tokens": 809
+    }
+  },
+  "Case_15006/figure2.jpg": {
+    "case_id": "Case_15006",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15006/figure2.jpg",
+    "source_caption": "CT of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen showing a hypodense lesion in the right psoas muscle.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense lesion in the right psoas muscle, indicated by an arrow. The lesion appears well-defined and is consistent with a possible abscess or fluid collection. Surrounding structures, including the spine and adjacent musculature, are visible. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "hypodense lesion in right psoas muscle",
+        "arrow indicating the lesion",
+        "spinal structures and adjacent musculature visible"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "psoas muscle",
+        "abscess",
+        "fluid collection",
+        "non-contrast"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "psoas abscess",
+        "fluid collection in abdomen"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:25+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 239,
+      "total_tokens": 826
+    }
+  }
+}

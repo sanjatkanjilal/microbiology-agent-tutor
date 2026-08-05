@@ -1,0 +1,44 @@
+{
+  "Case_06027/figure1.jpg": {
+    "case_id": "Case_06027",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06027/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "skin of the thigh",
+      "short_caption": "Large tense bulla with discoloration on the thigh.",
+      "detailed_description": "This clinical photograph shows a large, tense bulla on the skin of the thigh. The lesion has a yellowish-brown discoloration with some areas of whitish desquamation or crusting. The surrounding skin appears erythematous but intact. The lesion is well-demarcated and appears to be fluid-filled, suggesting a possible infectious or inflammatory etiology.",
+      "visible_findings": [
+        "large tense bulla",
+        "yellowish-brown discoloration",
+        "whitish desquamation or crusting",
+        "erythematous surrounding skin"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin",
+        "bulla",
+        "thigh",
+        "infection",
+        "blister"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "bulla on thigh",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:40:56+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 236,
+      "total_tokens": 804
+    }
+  }
+}

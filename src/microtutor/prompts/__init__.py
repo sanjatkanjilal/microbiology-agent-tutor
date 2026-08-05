@@ -5,9 +5,10 @@ This module contains all prompts for the tutor and agent tools.
 
 Agents:
 - patient: Simulates patient responses
-- socratic: Socratic questioning
+- socratic: Differential diagnosis deep-dive (V4 DDx)
 - hint: Progressive hints
-- tests_management: Test selection and management guidance
+- tests_management: Management deep-dive (V4 Tx)
+- pathophys_epi: Pathophysiology & epidemiology deep-dive
 - feedback: Final feedback on performance
 - post_case_assessment: Targeted MCQ generation after case
 """
@@ -24,6 +25,15 @@ from microtutor.prompts.tutor_prompt import (
 # Agent prompts
 from microtutor.prompts.patient_prompts import (
     get_patient_system_prompt,
+    format_patient_system_prompt,
+    get_patient_greeting_user_prompt,
+    get_docent_intro_template,
+    DOCENT_INTRO_TEMPLATE,
+    PATIENT_STYLES,
+    DEFAULT_PATIENT_STYLE,
+    normalize_patient_style,
+    get_patient_style_instructions,
+    get_ix_policy_instructions,
 )
 
 from microtutor.prompts.socratic_prompts import (
@@ -36,6 +46,10 @@ from microtutor.prompts.hint_prompts import (
 
 from microtutor.prompts.tests_management_prompts import (
     get_tests_management_system_prompt,
+)
+
+from microtutor.prompts.pathophys_epi_prompts import (
+    get_pathophys_epi_system_prompt,
 )
 
 from microtutor.prompts.final_feedback_agent_prompts import (
@@ -56,12 +70,23 @@ __all__ = [
     "get_first_pt_sentence_generation_user_prompt",
     # Patient prompts
     "get_patient_system_prompt",
+    "format_patient_system_prompt",
+    "get_patient_greeting_user_prompt",
+    "get_docent_intro_template",
+    "DOCENT_INTRO_TEMPLATE",
+    "PATIENT_STYLES",
+    "DEFAULT_PATIENT_STYLE",
+    "normalize_patient_style",
+    "get_patient_style_instructions",
+    "get_ix_policy_instructions",
     # Socratic prompts
     "get_socratic_system_prompt",
     # Hint prompts
     "get_hint_system_prompt",
     # Tests management prompts
     "get_tests_management_system_prompt",
+    # Pathophys & epi prompts
+    "get_pathophys_epi_system_prompt",
     # Feedback prompts
     "get_feedback_system_prompt",
     # Post-case assessment prompts

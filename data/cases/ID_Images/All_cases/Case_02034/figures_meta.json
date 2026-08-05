@@ -1,0 +1,209 @@
+{
+  "Case_02034/figure1.jpg": {
+    "case_id": "Case_02034",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02034/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing bilateral pulmonary infiltrates.",
+      "detailed_description": "This is a frontal chest radiograph displaying the thorax. There are diffuse bilateral pulmonary infiltrates, more prominent in the mid and lower lung zones. The heart size appears within normal limits, and there is no obvious pleural effusion or pneumothorax. The findings are consistent with a possible infectious or inflammatory process.",
+      "visible_findings": [
+        "bilateral pulmonary infiltrates",
+        "normal heart size",
+        "no visible pleural effusion",
+        "no evidence of pneumothorax"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pulmonary infiltrates",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pulmonary infiltrates",
+        "thoracic imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:18+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 223,
+      "total_tokens": 809
+    }
+  },
+  "Case_02034/figure3.jpg": {
+    "case_id": "Case_02034",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02034/figure3.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT scan showing cavitary lesions in the right lung.",
+      "detailed_description": "This axial chest CT image demonstrates a cavitary lesion in the right lung with surrounding areas of consolidation and ground-glass opacities. The left lung appears relatively spared. The findings are consistent with a severe infectious or inflammatory process, potentially tuberculosis or a fungal infection. The image is de-identified and shows no patient-identifying information.",
+      "visible_findings": [
+        "cavitary lesion in the right lung",
+        "surrounding consolidation",
+        "ground-glass opacities",
+        "relatively normal left lung"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lung",
+        "cavity",
+        "infection",
+        "consolidation",
+        "ground-glass"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung cavity",
+        "infectious lung disease"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:19+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 229,
+      "total_tokens": 815
+    }
+  },
+  "Case_02034/figure5.jpg": {
+    "case_id": "Case_02034",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02034/figure5.jpg",
+    "source_caption": "Fluorescent stain of gray colony growth.",
+    "description": {
+      "modality": "fluorescent stain",
+      "anatomical_site": null,
+      "short_caption": "Fluorescent stain showing three glowing colonies.",
+      "detailed_description": "This image shows three distinct, glowing colonies under fluorescent staining. The colonies appear circular and are evenly spaced in a linear arrangement. The fluorescence suggests the presence of a specific organism or substance that binds to the fluorescent stain. The background is dark, enhancing the visibility of the glowing colonies.",
+      "visible_findings": [
+        "three glowing circular colonies",
+        "linear arrangement of colonies",
+        "dark background enhancing fluorescence"
+      ],
+      "keywords": [
+        "fluorescent stain",
+        "colonies",
+        "microbiology",
+        "fluorescence",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fluorescent stain",
+        "colony growth",
+        "microbiology image"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:19+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 201,
+      "total_tokens": 792
+    }
+  },
+  "Case_02034/figure2.jpg": {
+    "case_id": "Case_02034",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02034/figure2.jpg",
+    "source_caption": "Chest CT scan.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Chest CT showing bilateral lung abnormalities.",
+      "detailed_description": "This axial chest CT image demonstrates extensive bilateral lung abnormalities. There are patchy areas of ground-glass opacities and consolidation predominantly in the lower lobes. The findings suggest a diffuse process, potentially infectious or inflammatory in nature. The mediastinum and bony structures appear unremarkable.",
+      "visible_findings": [
+        "bilateral ground-glass opacities",
+        "areas of consolidation",
+        "predominant involvement of lower lobes",
+        "normal mediastinum"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "lungs",
+        "ground-glass opacities",
+        "consolidation",
+        "infection",
+        "inflammation"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "lung infection",
+        "ground-glass opacities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:29+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 221,
+      "total_tokens": 807
+    }
+  },
+  "Case_02034/figure4.jpg": {
+    "case_id": "Case_02034",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02034/figure4.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal and bacterial colonies on an agar culture plate.",
+      "detailed_description": "This image shows a culture plate with mixed microbial growth. The plate contains both fungal colonies, which appear as fluffy, filamentous growths, and bacterial colonies, which are smooth and creamy in texture. The fungal colonies are distributed across the plate with a characteristic mold-like appearance, while the bacterial colony is prominent in the center, with a white, opaque, and smooth morphology. The agar medium is dark, suggesting it may be Sabouraud agar or another medium suitable for fungal growth.",
+      "visible_findings": [
+        "fluffy, filamentous fungal colonies",
+        "smooth, creamy bacterial colony",
+        "dark agar medium"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colony",
+        "bacterial colony",
+        "agar",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "bacterial culture",
+        "mixed microbial growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:22:34+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 240,
+      "total_tokens": 808
+    }
+  }
+}

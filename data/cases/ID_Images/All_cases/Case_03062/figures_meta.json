@@ -1,0 +1,164 @@
+{
+  "Case_03062/figure2.jpg": {
+    "case_id": "Case_03062",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03062/figure2.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing multiple ring-enhancing lesions.",
+      "detailed_description": "This coronal MRI image of the brain demonstrates multiple ring-enhancing lesions, predominantly in the right hemisphere. The lesions are of varying sizes and are surrounded by areas of hypointensity, suggestive of edema. The findings are consistent with a differential that includes infectious or neoplastic processes, such as abscesses or metastases. The use of contrast is evident from the enhancement pattern.",
+      "visible_findings": [
+        "multiple ring-enhancing lesions",
+        "predominantly in the right hemisphere",
+        "surrounding hypointense areas suggestive of edema"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesions",
+        "edema",
+        "contrast"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesions",
+        "neuroimaging of infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:52+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 231,
+      "total_tokens": 819
+    }
+  },
+  "Case_03062/figure3.jpg": {
+    "case_id": "Case_03062",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03062/figure3.jpg",
+    "source_caption": "Gram stain of abscess aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "abscess aspirate",
+      "short_caption": "Gram stain showing filamentous branching structures in abscess aspirate.",
+      "detailed_description": "This Gram stain image shows filamentous, branching structures consistent with bacterial morphology. The filaments appear gram-positive, with a beaded appearance along their length. The background contains amorphous material and cellular debris, suggesting an inflammatory or infectious process. This morphology is characteristic of certain filamentous bacteria, such as Actinomyces or Nocardia.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "gram-positive staining",
+        "beaded appearance of filaments",
+        "background of amorphous material and cellular debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "abscess",
+        "filamentous bacteria",
+        "branching structures",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of abscess aspirate",
+        "filamentous bacteria",
+        "branching structures on gram stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:54+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 241,
+      "total_tokens": 831
+    }
+  },
+  "Case_03062/figure1.jpg": {
+    "case_id": "Case_03062",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03062/figure1.jpg",
+    "source_caption": "MRI scan of the brain.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI of the brain showing a ring-enhancing lesion in the left hemisphere.",
+      "detailed_description": "This axial MRI image of the brain demonstrates a prominent ring-enhancing lesion in the left hemisphere, suggestive of a focal abnormality. The lesion is surrounded by an area of hypointensity, likely indicative of edema. The surrounding brain parenchyma appears compressed, and there is a midline shift to the right. The imaging characteristics are consistent with an infectious or neoplastic process.",
+      "visible_findings": [
+        "ring-enhancing lesion in the left hemisphere",
+        "surrounding hypointense edema",
+        "midline shift to the right"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "ring-enhancing lesion",
+        "edema",
+        "midline shift"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "ring-enhancing lesion",
+        "neuroimaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:29:58+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 234,
+      "total_tokens": 822
+    }
+  },
+  "Case_03062/figure4.jpg": {
+    "case_id": "Case_03062",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03062/figure4.jpg",
+    "source_caption": "Fungal stain of abscess aspirate.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "abscess aspirate",
+      "short_caption": "Fungal stain showing a fungal hypha and sporangium.",
+      "detailed_description": "This image shows a fungal stain of an abscess aspirate. A prominent fungal hypha is visible, extending to a sporangium with a well-defined spore-containing structure. The background appears to contain scattered cellular debris and amorphous material. The fungal morphology is consistent with a filamentous fungus, and the sporangium suggests a specific fungal genus, though further identification would require additional context or testing.",
+      "visible_findings": [
+        "filamentous fungal hypha",
+        "sporangium with spores",
+        "scattered background debris"
+      ],
+      "keywords": [
+        "fungal stain",
+        "abscess aspirate",
+        "hypha",
+        "sporangium",
+        "infectious diseases",
+        "microscopy"
+      ],
+      "reveal_triggers": [
+        "fungal stain",
+        "abscess microscopy",
+        "filamentous fungus"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:03+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 240,
+      "total_tokens": 831
+    }
+  }
+}

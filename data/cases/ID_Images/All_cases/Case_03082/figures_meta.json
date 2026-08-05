@@ -1,0 +1,43 @@
+{
+  "Case_03082/figure1.jpg": {
+    "case_id": "Case_03082",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03082/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Multiple ulcerated and crusted lesions on the back.",
+      "detailed_description": "This clinical photograph shows the back of a patient with numerous ulcerated, crusted, and hyperpigmented lesions of varying sizes. The lesions are scattered across the entire back, with some appearing to be healing and others showing active inflammation. The skin surrounding the lesions appears normal. The image is well-lit, and the lesions are clearly visible.",
+      "visible_findings": [
+        "multiple ulcerated lesions",
+        "crusted lesions",
+        "hyperpigmented areas",
+        "scattered distribution"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "ulcerated lesions",
+        "crusted lesions",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infectious skin lesions",
+        "back lesions"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:30:47+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 214,
+      "total_tokens": 782
+    }
+  }
+}

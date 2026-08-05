@@ -1,0 +1,43 @@
+{
+  "Case_02065/figure1.jpg": {
+    "case_id": "Case_02065",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02065/figure1.jpg",
+    "source_caption": "Findings on laparoscopy.",
+    "description": {
+      "modality": "endoscopy",
+      "anatomical_site": "abdominal cavity",
+      "short_caption": "Laparoscopic view showing inflamed peritoneal surfaces with fibrinous exudates.",
+      "detailed_description": "This laparoscopic image shows inflamed and erythematous peritoneal surfaces with irregular fibrinous exudates scattered across the tissue. The findings suggest an inflammatory or infectious process within the abdominal cavity. The image is taken under standard laparoscopic lighting, with no additional contrast or staining.",
+      "visible_findings": [
+        "inflamed peritoneal surfaces",
+        "fibrinous exudates",
+        "erythema"
+      ],
+      "keywords": [
+        "endoscopy",
+        "laparoscopy",
+        "peritoneum",
+        "inflammation",
+        "fibrinous exudates",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "laparoscopy",
+        "abdominal infection",
+        "peritoneal inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:24:17+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 241,
+      "total_tokens": 829
+    }
+  }
+}

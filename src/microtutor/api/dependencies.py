@@ -126,8 +126,10 @@ def init_database():
         if database_url:
             try:
                 logger.info(f"Initializing database connection...")
-                # Add SSL parameter to the URL for Render PostgreSQL
-                db_url_with_ssl = database_url + "?sslmode=require"
+                # Only Postgres needs/accepts sslmode; SQLite (and others) don't.
+                db_url_with_ssl = database_url
+                if database_url.startswith("postgresql") and "sslmode" not in database_url:
+                    db_url_with_ssl = database_url + "?sslmode=require"
                 _engine = create_engine(
                     db_url_with_ssl,
                     pool_pre_ping=True,  # Enable connection health checks
@@ -145,16 +147,15 @@ def init_database():
                 logger.info("Creating database tables...")
                 Base.metadata.create_all(bind=_engine)
                 
-                # Verify tables were created by checking if they exist
-                with _engine.connect() as conn:
-                    result = conn.execute(text("""
-                        SELECT table_name 
-                        FROM information_schema.tables 
-                        WHERE table_schema = 'public' 
-                        AND table_name IN ('cases', 'conversation_logs', 'feedback', 'cost_logs')
-                    """))
-                    tables = [row[0] for row in result.fetchall()]
-                    logger.info(f"✅ Database tables created: {tables}")
+                # Verify tables were created — use SQLAlchemy's dialect-agnostic
+                # inspector instead of a Postgres-only information_schema query,
+                # so this works identically on SQLite, Postgres, etc.
+                from sqlalchemy import inspect
+                inspector = inspect(_engine)
+                existing_tables = set(inspector.get_table_names())
+                wanted_tables = {'cases', 'conversation_logs', 'feedback', 'cost_logs'}
+                tables = sorted(existing_tables & wanted_tables)
+                logger.info(f"✅ Database tables created: {tables}")
                 
                 logger.info("✅ Successfully connected to database and created/verified tables")
             except Exception as e:
@@ -220,4 +221,3 @@ def test_db_connection():
         yield db
     finally:
         db.close()
-

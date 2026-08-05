@@ -1,0 +1,84 @@
+{
+  "Case_07029/figure1.jpg": {
+    "case_id": "Case_07029",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07029/figure1.jpg",
+    "source_caption": "Chest radiograph.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing left-sided opacity and right-sided hyperlucency.",
+      "detailed_description": "This is a frontal chest radiograph showing significant findings. The left hemithorax demonstrates a dense opacity suggestive of consolidation, effusion, or collapse. The right hemithorax appears hyperlucent, possibly due to compensatory overinflation or pneumothorax. The mediastinum is slightly shifted to the left, indicating possible volume loss on the left side. The image is labeled with an 'L' marker indicating the left side.",
+      "visible_findings": [
+        "left-sided dense opacity",
+        "right-sided hyperlucency",
+        "mediastinal shift to the left",
+        "label indicating left side"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "opacity",
+        "hyperlucency",
+        "mediastinal shift"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "lung opacity",
+        "mediastinal shift"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:15+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 254,
+      "total_tokens": 840
+    }
+  },
+  "Case_07029/figure2.jpg": {
+    "case_id": "Case_07029",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_07029/figure2.jpg",
+    "source_caption": "Chest radiograph, after chest tube placement.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest radiograph showing post chest tube placement findings.",
+      "detailed_description": "This is an anteroposterior chest radiograph showing the thorax. A chest tube is visible on the left side, with its course extending into the pleural cavity. There is evidence of a left-sided pleural effusion or consolidation, as indicated by the opacification in the lower left lung field. The right lung appears relatively clear. The mediastinum is slightly shifted to the right, possibly due to volume loss or pressure changes on the left side.",
+      "visible_findings": [
+        "chest tube on the left side",
+        "left-sided pleural effusion or consolidation",
+        "mediastinal shift to the right",
+        "relatively clear right lung field"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "pleural effusion",
+        "chest tube",
+        "mediastinal shift"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "pleural effusion",
+        "chest tube placement"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:19+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 266,
+      "total_tokens": 857
+    }
+  }
+}

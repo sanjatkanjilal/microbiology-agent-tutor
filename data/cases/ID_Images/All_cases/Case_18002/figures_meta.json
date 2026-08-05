@@ -1,0 +1,205 @@
+{
+  "Case_18002/figure2.jpg": {
+    "case_id": "Case_18002",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18002/figure2.jpg",
+    "source_caption": "Growth of the organism on a MacConkey agar plate after 24 hours of incubation. Translucent colonies are seen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Growth of translucent colonies on MacConkey agar after 24 hours of incubation.",
+      "detailed_description": "The image shows a MacConkey agar plate with visible growth of translucent colonies after 24 hours of incubation. The plate is held by a gloved hand, and the colonies appear as pale, non-lactose-fermenting growths against the pinkish background of the agar. The translucent nature of the colonies suggests the organism does not ferment lactose, which is consistent with the selective and differential properties of MacConkey agar.",
+      "visible_findings": [
+        "MacConkey agar plate",
+        "translucent colonies",
+        "non-lactose-fermenting growth",
+        "pinkish agar background"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "translucent colonies",
+        "non-lactose fermenter",
+        "bacterial growth"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "bacterial culture",
+        "non-lactose fermenting colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:22+00:00",
+    "usage": {
+      "prompt_tokens": 607,
+      "completion_tokens": 256,
+      "total_tokens": 863
+    }
+  },
+  "Case_18002/figure1.jpg": {
+    "case_id": "Case_18002",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18002/figure1.jpg",
+    "source_caption": "Growth of the organism on a blood agar plate after 24 hours of incubation. A translucent flat colony that spreads across the plate is seen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Growth of translucent, spreading colonies on blood agar after 24 hours of incubation.",
+      "detailed_description": "This image shows a blood agar plate with growth of translucent, flat colonies that spread across the surface of the medium. The colonies appear to have a smooth texture and demonstrate a spreading pattern, consistent with an organism capable of motility or surface expansion. The plate is held in a gloved hand, and the background is neutral, emphasizing the culture plate.",
+      "visible_findings": [
+        "translucent colonies",
+        "flat, spreading growth",
+        "blood agar plate",
+        "smooth colony texture"
+      ],
+      "keywords": [
+        "culture plate",
+        "blood agar",
+        "translucent colonies",
+        "spreading growth",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "blood agar culture",
+        "bacterial growth",
+        "spreading colonies"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:26+00:00",
+    "usage": {
+      "prompt_tokens": 610,
+      "completion_tokens": 222,
+      "total_tokens": 832
+    }
+  },
+  "Case_18002/figure3.jpg": {
+    "case_id": "Case_18002",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18002/figure3.jpg",
+    "source_caption": "Growth of the organism on Hektoen enteric agar plate after 24 hours of incubation. Translucent colonies are seen.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Growth of colonies on Hektoen enteric agar after 24 hours of incubation.",
+      "detailed_description": "This image shows a Hektoen enteric agar plate with visible bacterial growth after 24 hours of incubation. The colonies appear translucent and are distributed across the streaked sections of the plate. The green coloration of the agar is characteristic of Hektoen enteric medium, which is used to differentiate enteric pathogens. The plate is being held by a gloved hand, indicating proper laboratory handling.",
+      "visible_findings": [
+        "translucent colonies on agar",
+        "green Hektoen enteric agar",
+        "streaked growth pattern",
+        "gloved hand holding the plate"
+      ],
+      "keywords": [
+        "culture plate",
+        "hektoen enteric agar",
+        "bacterial growth",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "hektoen enteric agar",
+        "bacterial culture",
+        "agar plate growth"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:30+00:00",
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 252,
+      "total_tokens": 861
+    }
+  },
+  "Case_18002/figure4.jpg": {
+    "case_id": "Case_18002",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18002/figure4.jpg",
+    "source_caption": "Triple sugar iron (TSI) agar slant of the organism after 24 hours of incubation. This slant contains glucose, sucrose, and lactose. The top portion of the slant is considered the aerobic portion due to its exposure to air and the butt of the slant is considered the anaerobic portion. Glucose fermentation is indicated by the presence of an acidic (A) reaction in the butt of the slant. Sucrose and l",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Triple sugar iron (TSI) agar slant showing differential fermentation results.",
+      "detailed_description": "This image shows a TSI agar slant in a test tube after 24 hours of incubation. The slant has a red (alkaline) appearance in the aerobic portion (top) and a yellow (acidic) appearance in the anaerobic portion (butt), indicating glucose fermentation but no sucrose or lactose fermentation. The medium is tilted to display the color changes clearly. The test is used to differentiate bacterial species based on their carbohydrate fermentation and gas production.",
+      "visible_findings": [
+        "red coloration in the slant (alkaline reaction)",
+        "yellow coloration in the butt (acidic reaction)",
+        "no visible gas production or black precipitate"
+      ],
+      "keywords": [
+        "tsi agar",
+        "culture plate",
+        "bacterial fermentation",
+        "glucose fermentation",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "tsi agar test",
+        "bacterial fermentation",
+        "glucose fermentation test"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:31+00:00",
+    "usage": {
+      "prompt_tokens": 675,
+      "completion_tokens": 255,
+      "total_tokens": 930
+    }
+  },
+  "Case_18002/figure5.jpg": {
+    "case_id": "Case_18002",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_18002/figure5.jpg",
+    "source_caption": "Lysine iron agar slant of the organism after 24 hours of incubation. This slant is used for the detection of lysine deaminase and lysine decarboxylase. If lysine deaminase is present, the top of the slant will turn a red color and if lysine decarboxylase is present the butt of the slant will turn a purple color. Shigella spp. are negative for both lysine deaminase and lysine decarboxylase producin",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Lysine iron agar slant showing results after 24 hours of incubation.",
+      "detailed_description": "The image shows a lysine iron agar (LIA) slant in a test tube. The slant portion is purple, indicating the absence of lysine deaminase activity. The butt of the slant is brownish-yellow, suggesting the absence of lysine decarboxylase activity. This pattern is consistent with organisms such as Shigella spp., which are negative for both lysine deaminase and lysine decarboxylase.",
+      "visible_findings": [
+        "purple slant indicating no lysine deaminase activity",
+        "brownish-yellow butt indicating no lysine decarboxylase activity",
+        "clear separation between slant and butt"
+      ],
+      "keywords": [
+        "lysine iron agar",
+        "culture plate",
+        "biochemical test",
+        "lysine deaminase",
+        "lysine decarboxylase"
+      ],
+      "reveal_triggers": [
+        "lysine iron agar",
+        "LIA test",
+        "biochemical test for lysine metabolism"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:32+00:00",
+    "usage": {
+      "prompt_tokens": 689,
+      "completion_tokens": 273,
+      "total_tokens": 962
+    }
+  }
+}

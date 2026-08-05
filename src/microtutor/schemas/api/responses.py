@@ -10,6 +10,13 @@ from datetime import datetime
 from .requests import Message
 
 
+class OpeningMessage(BaseModel):
+    """One message in the case opening sequence."""
+
+    speaker: str = Field(..., description="tutor, patient, family, or nurse")
+    content: str = Field(..., description="Message text")
+
+
 class StartCaseResponse(BaseModel):
     """Response when starting a new case.
     
@@ -36,19 +43,56 @@ class StartCaseResponse(BaseModel):
         ...,
         description="Organism for this case"
     )
+    case_library_id: Optional[str] = Field(
+        default=None,
+        description="Matched case-library folder id for figure URLs"
+    )
+    figures: Optional[List[str]] = Field(
+        default_factory=list,
+        description="Figure filenames available for this case"
+    )
+    emr_notes: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Structured EMR notes snapshot (usually empty at start)"
+    )
+    emr_data: Optional[Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="EMR panel field map derived from emr_notes"
+    )
+    presentation: Optional[str] = Field(
+        default=None,
+        description="Patient first-person greeting (chief complaint seed)",
+    )
+    opening_messages: Optional[List[OpeningMessage]] = Field(
+        default_factory=list,
+        description="Ordered tutor intro then patient greeting",
+    )
+    patient_style: Optional[str] = Field(
+        default="neutral",
+        description="Active patient communication style for this session",
+    )
+    allow_plausible_findings: Optional[bool] = Field(
+        default=False,
+        description="Whether plausible ix invention is enabled",
+    )
     
     model_config = ConfigDict(
         json_schema_extra={
             "example": {
-                "initial_message": "Welcome! Let me present a 45-year-old patient...",
+                "initial_message": "Welcome to today's case...",
+                "opening_messages": [
+                    {"speaker": "tutor", "content": "Welcome to today's case..."},
+                    {"speaker": "patient", "content": "Hi Doctor, I'm Sarah..."},
+                ],
                 "history": [
-                    {
-                        "role": "assistant",
-                        "content": "Welcome! Let me present a 45-year-old patient..."
-                    }
+                    {"role": "assistant", "content": "Welcome to today's case...", "speaker": "tutor"},
+                    {"role": "assistant", "content": "Hi Doctor, I'm Sarah...", "speaker": "patient"},
                 ],
                 "case_id": "case_2024_abc123",
-                "organism": "staphylococcus aureus"
+                "organism": "staphylococcus aureus",
+                "presentation": "Hi Doctor, I'm Sarah...",
+                "patient_style": "neutral",
+                "allow_plausible_findings": False,
             }
         }
     )
@@ -83,6 +127,26 @@ class ChatResponse(BaseModel):
     feedback_examples: Optional[List[Dict[str, Any]]] = Field(
         default_factory=list,
         description="AI feedback examples used to guide the response"
+    )
+    emr_notes: Optional[List[Dict[str, Any]]] = Field(
+        default_factory=list,
+        description="Structured EMR notes snapshot at response time (may still be updating)"
+    )
+    emr_data: Optional[Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="EMR panel field map derived from emr_notes"
+    )
+    emr_busy: Optional[bool] = Field(
+        default=False,
+        description="True if background EMR extraction is still running"
+    )
+    revealed_figures: Optional[List[int]] = Field(
+        default_factory=list,
+        description="Figure numbers the patient/tutor agent requested to display this turn",
+    )
+    speaker: Optional[str] = Field(
+        default=None,
+        description="Who spoke this turn: patient, family, nurse, or tutor (Docent)",
     )
     
     model_config = ConfigDict(

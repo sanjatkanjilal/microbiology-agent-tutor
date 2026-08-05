@@ -1,0 +1,334 @@
+{
+  "Case_03008/figure1.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure1.jpg",
+    "source_caption": "MRI scan with gadolinium.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI with gadolinium showing a lesion in the posterior fossa.",
+      "detailed_description": "This is an axial MRI scan of the brain with gadolinium contrast. The image demonstrates a hyperintense lesion in the posterior fossa, likely involving the cerebellum. The lesion appears well-circumscribed with possible mass effect on surrounding structures. The contrast enhancement suggests a vascularized or inflammatory process.",
+      "visible_findings": [
+        "hyperintense lesion in the posterior fossa",
+        "contrast enhancement of the lesion",
+        "mass effect on surrounding structures"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "posterior fossa",
+        "lesion",
+        "gadolinium",
+        "contrast enhancement"
+      ],
+      "reveal_triggers": [
+        "mri scan",
+        "brain lesion",
+        "posterior fossa mass"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:07+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 221,
+      "total_tokens": 810
+    }
+  },
+  "Case_03008/figure4.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure4.jpg",
+    "source_caption": "Brain biopsy results.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain tissue showing inflammatory changes and necrosis.",
+      "detailed_description": "This histopathology image shows brain tissue with prominent inflammatory changes, including dense infiltrates of inflammatory cells. There are areas of necrosis with loss of normal architecture, and some regions show microabscess formation. The staining technique appears to be hematoxylin and eosin (H&E), highlighting cellular and structural details. The findings are consistent with an infectious or inflammatory process in the brain.",
+      "visible_findings": [
+        "dense inflammatory cell infiltrates",
+        "areas of necrosis",
+        "microabscess formation",
+        "loss of normal brain architecture"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "inflammation",
+        "necrosis",
+        "infection",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "inflammatory brain lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:09+00:00",
+    "usage": {
+      "prompt_tokens": 586,
+      "completion_tokens": 237,
+      "total_tokens": 823
+    }
+  },
+  "Case_03008/figure3.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure3.jpg",
+    "source_caption": "Brain biopsy of cerebellum.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "cerebellum",
+      "short_caption": "Histopathology of cerebellum showing inflammatory infiltrates.",
+      "detailed_description": "This histopathology image shows a section of cerebellar tissue stained with hematoxylin and eosin (H&E). There is a dense inflammatory infiltrate, predominantly composed of small, darkly stained lymphocytes, with a focal area of necrosis or tissue disruption in the center. The surrounding tissue shows gliosis and scattered inflammatory cells. The findings suggest an infectious or inflammatory process affecting the cerebellum.",
+      "visible_findings": [
+        "dense lymphocytic infiltrates",
+        "focal necrosis or tissue disruption",
+        "gliosis in surrounding tissue",
+        "scattered inflammatory cells"
+      ],
+      "keywords": [
+        "histopathology",
+        "cerebellum",
+        "inflammation",
+        "infection",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "cerebellum histology",
+        "H&E stain of cerebellum"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:09+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 251,
+      "total_tokens": 840
+    }
+  },
+  "Case_03008/figure5.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure5.jpg",
+    "source_caption": "Brain biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "brain",
+      "short_caption": "Histopathology of brain tissue showing inflammation and vascular changes.",
+      "detailed_description": "This histopathology image shows brain tissue stained with hematoxylin and eosin (H&E). There is prominent perivascular inflammation with a cuff of inflammatory cells surrounding a blood vessel. The surrounding parenchyma shows evidence of gliosis and scattered inflammatory infiltrates. The findings are consistent with an infectious or inflammatory process affecting the brain.",
+      "visible_findings": [
+        "perivascular inflammatory cell cuffing",
+        "gliosis in the brain parenchyma",
+        "scattered inflammatory infiltrates",
+        "vascular involvement"
+      ],
+      "keywords": [
+        "histopathology",
+        "brain",
+        "inflammation",
+        "perivascular cuffing",
+        "gliosis",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "brain biopsy",
+        "histopathology of brain",
+        "perivascular inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:13+00:00",
+    "usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 236,
+      "total_tokens": 821
+    }
+  },
+  "Case_03008/figure7.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure7.jpg",
+    "source_caption": "Splendore-Hoeppli reaction.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing Splendore-Hoeppli reaction around a fungal or parasitic structure.",
+      "detailed_description": "This histopathology image shows a central structure, likely a fungal or parasitic organism, surrounded by an eosinophilic, radiating material consistent with the Splendore-Hoeppli phenomenon. The surrounding material appears amorphous and brightly eosinophilic, indicative of immune complex deposition. The image is stained with hematoxylin and eosin (H&E), highlighting cellular and extracellular details. The reaction is a hallmark of certain infections, such as those caused by fungi or parasites.",
+      "visible_findings": [
+        "central organism-like structure",
+        "radiating eosinophilic material",
+        "immune complex deposition",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "splendore-hoeppli",
+        "fungal infection",
+        "parasitic infection",
+        "immune reaction",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "splendore-hoeppli reaction",
+        "histopathology of fungal infection",
+        "parasitic immune response"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:13+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 281,
+      "total_tokens": 872
+    }
+  },
+  "Case_03008/figure8.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure8.jpg",
+    "figure_number": 8,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure8.jpg",
+    "source_caption": "An ovum with lateral spine.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "null",
+      "short_caption": "Histopathology showing an ovum with a lateral spine.",
+      "detailed_description": "This histopathological image shows a single ovum with a prominent lateral spine, surrounded by numerous inflammatory cells. The ovum has a thick shell and internal granular contents. The lateral spine is a distinguishing morphological feature. The background consists of densely packed cells, likely inflammatory or immune cells, stained in shades of purple and pink, suggesting the use of hematoxylin and eosin (H&E) staining.",
+      "visible_findings": [
+        "ovum with a lateral spine",
+        "thick shell and granular internal contents",
+        "surrounding inflammatory cells",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "ovum",
+        "lateral spine",
+        "parasitology",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of parasite",
+        "ovum with lateral spine",
+        "H&E stain of egg"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:13+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 246,
+      "total_tokens": 835
+    }
+  },
+  "Case_03008/figure2.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure2.jpg",
+    "source_caption": "Head MRI scan T1.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial T1-weighted MRI of the brain.",
+      "detailed_description": "This is an axial T1-weighted MRI scan of the brain. The image shows the base of the skull, including the orbits and cerebellum. The scan appears to be post-contrast, as there is enhancement visible in certain areas, suggesting possible pathology. The symmetry of the structures and any abnormal signal intensities should be evaluated for further interpretation.",
+      "visible_findings": [
+        "axial view of the brain",
+        "orbits and cerebellum visible",
+        "contrast enhancement in some regions"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "axial",
+        "t1-weighted",
+        "contrast",
+        "neuroimaging"
+      ],
+      "reveal_triggers": [
+        "head mri",
+        "brain imaging",
+        "t1-weighted mri"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:18+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 225,
+      "total_tokens": 813
+    }
+  },
+  "Case_03008/figure6.jpg": {
+    "case_id": "Case_03008",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03008/figure6.jpg",
+    "source_caption": "Splendore-Hoeppli reaction on low power.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "tissue (unspecified)",
+      "short_caption": "Splendore-Hoeppli reaction visible on low-power histopathology.",
+      "detailed_description": "This histopathology image shows a low-power view of tissue with an eosinophilic, amorphous material surrounding a central structure, consistent with the Splendore-Hoeppli phenomenon. The surrounding tissue contains inflammatory cells, including numerous neutrophils and possibly eosinophils. The central structure may represent a fungal or parasitic organism, though its identity is not definitively visible in this image. The pink staining suggests the use of hematoxylin and eosin (H&E) stain.",
+      "visible_findings": [
+        "eosinophilic amorphous material surrounding a central structure",
+        "inflammatory infiltrate in surrounding tissue",
+        "low-power magnification",
+        "H&E staining"
+      ],
+      "keywords": [
+        "histopathology",
+        "splendore-hoeppli",
+        "low power",
+        "h&e stain",
+        "inflammation",
+        "eosinophilic material"
+      ],
+      "reveal_triggers": [
+        "splendore-hoeppli reaction",
+        "histopathology of infection",
+        "low-power tissue stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:25:21+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 290,
+      "total_tokens": 884
+    }
+  }
+}

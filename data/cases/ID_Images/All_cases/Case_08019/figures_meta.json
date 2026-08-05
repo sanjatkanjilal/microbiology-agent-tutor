@@ -1,0 +1,208 @@
+{
+  "Case_08019/figure5.jpg": {
+    "case_id": "Case_08019",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08019/figure5.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing a hypodense lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense lesion in the liver, likely in the right lobe. The lesion appears well-circumscribed and distinct from the surrounding liver parenchyma. Adjacent structures, including the kidneys and bowel, are visible but appear unremarkable. The scan is performed with contrast, as evidenced by the enhancement of vascular structures.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "contrast-enhanced vascular structures",
+        "normal appearance of kidneys and bowel"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver lesion",
+        "hypodense",
+        "contrast-enhanced"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "hypodense liver finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 231,
+      "total_tokens": 819
+    }
+  },
+  "Case_08019/figure4.jpg": {
+    "case_id": "Case_08019",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08019/figure4.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing a hypodense lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense lesion in the liver, likely in the right lobe. The lesion appears well-circumscribed and is distinct from the surrounding liver parenchyma. Adjacent structures, including the stomach and kidneys, are visible. No obvious signs of free air or fluid collections are noted in this image.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "well-circumscribed lesion",
+        "normal appearance of adjacent structures",
+        "no free air or fluid collections"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesion",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "liver lesion",
+        "hypodense liver finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 235,
+      "total_tokens": 823
+    }
+  },
+  "Case_08019/figure2.jpg": {
+    "case_id": "Case_08019",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08019/figure2.jpg",
+    "source_caption": "Ultrasonogram of abdomen.",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal ultrasound showing a hypoechoic lesion with measurements.",
+      "detailed_description": "This is an abdominal ultrasound image showing a hypoechoic lesion in the liver. The lesion is measured with calipers, indicating dimensions of approximately 7.82 cm by 7.33 cm. The surrounding liver parenchyma appears heterogeneous. The image is de-identified and includes a scale bar and measurement annotations.",
+      "visible_findings": [
+        "hypoechoic lesion in the liver",
+        "caliper measurements indicating lesion size",
+        "heterogeneous liver parenchyma",
+        "scale bar and measurement annotations"
+      ],
+      "keywords": [
+        "ultrasound",
+        "abdomen",
+        "liver",
+        "hypoechoic lesion",
+        "measurement",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal ultrasound",
+        "liver lesion",
+        "hypoechoic lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:49+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_08019/figure3.jpg": {
+    "case_id": "Case_08019",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08019/figure3.jpg",
+    "source_caption": "CT scan of the abdomen.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT scan of the abdomen showing a hypodense lesion in the liver.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates a hypodense lesion in the liver, likely in the right hepatic lobe. The lesion appears well-demarcated and may represent an abscess or other pathological process. Surrounding liver parenchyma appears relatively normal. The scan is performed without visible contrast enhancement, and the vertebral body is visible posteriorly for orientation.",
+      "visible_findings": [
+        "hypodense lesion in the liver",
+        "well-demarcated margins of the lesion",
+        "normal-appearing surrounding liver parenchyma",
+        "vertebral body visible posteriorly"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "hypodense lesion",
+        "abscess",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "liver lesion",
+        "hypodense liver finding"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:50+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 249,
+      "total_tokens": 837
+    }
+  },
+  "Case_08019/figure1.jpg": {
+    "case_id": "Case_08019",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08019/figure1.jpg",
+    "source_caption": "Radiograph of the chest and abdomen.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "chest and upper abdomen",
+      "short_caption": "Chest radiograph showing air-fluid levels and abnormal gas distribution.",
+      "detailed_description": "This is an upright chest radiograph displaying the thoracic cavity and upper abdomen. Notable findings include air-fluid levels in the left hemithorax, suggestive of a diaphragmatic hernia or bowel perforation with pneumothorax. The lung fields appear asymmetrical, with the left side showing reduced aeration. The gastric bubble is visible, and there is abnormal gas distribution in the upper abdomen. The bony structures, including the ribs and spine, appear intact.",
+      "visible_findings": [
+        "air-fluid levels in the left hemithorax",
+        "reduced aeration in the left lung",
+        "abnormal gas distribution in the upper abdomen",
+        "intact bony structures"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "air-fluid levels",
+        "diaphragmatic hernia",
+        "pneumothorax",
+        "gas distribution"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "air-fluid levels",
+        "diaphragmatic hernia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:46:51+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 283,
+      "total_tokens": 873
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "Case_15004/figure1.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure1.jpg",
+    "source_caption": "Physical findings, left flank.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left flank",
+      "short_caption": "Erythematous patch on the left flank.",
+      "detailed_description": "The image shows a localized erythematous patch on the left flank. The area appears mildly inflamed with no visible ulceration, scaling, or discharge. The surrounding skin is normal in color and texture. The lesion is subtle and does not exhibit distinct borders.",
+      "visible_findings": [
+        "localized erythematous patch",
+        "mild inflammation",
+        "absence of ulceration, scaling, or discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "skin lesion",
+        "erythema",
+        "left flank"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "erythematous patch",
+        "flank lesion"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:07+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 198,
+      "total_tokens": 786
+    }
+  },
+  "Case_15004/figure2.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure2.jpg",
+    "source_caption": "CT of the abdomen, axial view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Axial CT of the abdomen showing intra-abdominal structures.",
+      "detailed_description": "This axial CT image of the abdomen demonstrates various intra-abdominal structures, including the vertebral column centrally, the kidneys laterally, and bowel loops. The image is grayscale, with soft tissue and fluid densities visible. No contrast enhancement is apparent, suggesting it may be a non-contrast study. There are no overt signs of abnormal masses, fluid collections, or other pathology visible in this image.",
+      "visible_findings": [
+        "vertebral column in the midline",
+        "kidneys visible bilaterally",
+        "bowel loops in the periphery",
+        "no obvious contrast enhancement"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "axial view",
+        "kidneys",
+        "bowel loops",
+        "vertebral column"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "axial abdomen scan",
+        "kidney imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:08+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 242,
+      "total_tokens": 832
+    }
+  },
+  "Case_15004/figure3.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure3.jpg",
+    "source_caption": "CT of the abdomen, coronal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "CT of the abdomen, coronal view showing multiple renal cysts.",
+      "detailed_description": "This coronal CT image of the abdomen demonstrates bilateral kidneys with multiple cystic lesions, consistent with polycystic kidney disease. The liver appears enlarged, and there is no obvious evidence of acute intra-abdominal pathology. The image is de-identified and shows soft tissue, bone structures, and abdominal organs in detail.",
+      "visible_findings": [
+        "bilateral kidneys with multiple cystic lesions",
+        "enlarged liver",
+        "normal visualization of abdominal organs and bony structures"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "renal cysts",
+        "polycystic kidney disease",
+        "coronal view"
+      ],
+      "reveal_triggers": [
+        "abdominal ct",
+        "renal cysts",
+        "polycystic kidney disease imaging"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:08+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 225,
+      "total_tokens": 816
+    }
+  },
+  "Case_15004/figure7.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure7.jpg",
+    "figure_number": 7,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure7.jpg",
+    "source_caption": "Gross pathology of excised left kidney.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:58:08+00:00"
+  },
+  "Case_15004/figure5.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure5.jpg",
+    "source_caption": "Gram stain of aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing numerous neutrophils and gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of an aspirate. Numerous polymorphonuclear neutrophils are visible, characterized by their multi-lobed nuclei. Interspersed among the neutrophils are gram-positive cocci arranged in clusters, which is suggestive of a staphylococcal species. The background appears to contain some amorphous material, likely representing cellular debris.",
+      "visible_findings": [
+        "Numerous polymorphonuclear neutrophils with multi-lobed nuclei",
+        "Gram-positive cocci in clusters",
+        "Amorphous background material"
+      ],
+      "keywords": [
+        "gram stain",
+        "aspirate",
+        "neutrophils",
+        "gram-positive cocci",
+        "clusters",
+        "staphylococcus"
+      ],
+      "reveal_triggers": [
+        "gram stain of aspirate",
+        "gram-positive cocci",
+        "staphylococcus infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:11+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 246,
+      "total_tokens": 834
+    }
+  },
+  "Case_15004/figure6.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure6.jpg",
+    "figure_number": 6,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure6.jpg",
+    "source_caption": "Overnight growth of Proteus mirabilis on MacConkey agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Overnight growth of Proteus mirabilis on MacConkey agar.",
+      "detailed_description": "This image shows a culture plate containing MacConkey agar with visible bacterial growth. The colonies appear to spread in a swarming pattern, which is characteristic of Proteus species. The agar is light pink, consistent with MacConkey medium, and there is no evidence of lactose fermentation, as the colonies are not pink. Black boxes obscure some text on the plate, but the visible growth pattern strongly suggests Proteus mirabilis.",
+      "visible_findings": [
+        "swarming bacterial growth",
+        "light pink MacConkey agar",
+        "non-lactose fermenting colonies"
+      ],
+      "keywords": [
+        "culture plate",
+        "macconkey agar",
+        "proteus mirabilis",
+        "bacterial growth",
+        "swarming"
+      ],
+      "reveal_triggers": [
+        "macconkey agar",
+        "proteus mirabilis culture",
+        "bacterial swarming"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:12+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 241,
+      "total_tokens": 836
+    }
+  },
+  "Case_15004/figure4.jpg": {
+    "case_id": "Case_15004",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15004/figure4.jpg",
+    "source_caption": "CT of abdomen, coronal view.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "abdomen",
+      "short_caption": "Coronal CT of the abdomen showing multiple hypodense lesions in the liver and kidneys.",
+      "detailed_description": "This coronal CT image of the abdomen demonstrates multiple hypodense lesions in both the liver and kidneys, suggestive of abscesses or cystic lesions. The liver appears enlarged, and the lesions are of varying sizes. The kidneys also show similar hypodense areas, with the right kidney appearing slightly more affected. The image is in a soft tissue window, providing clear visualization of the abdominal organs and potential pathology.",
+      "visible_findings": [
+        "multiple hypodense lesions in the liver",
+        "hypodense lesions in both kidneys",
+        "enlarged liver",
+        "soft tissue window settings"
+      ],
+      "keywords": [
+        "ct",
+        "abdomen",
+        "liver",
+        "kidneys",
+        "hypodense lesions",
+        "abscess",
+        "cystic lesions"
+      ],
+      "reveal_triggers": [
+        "abdominal CT",
+        "liver lesions",
+        "kidney lesions",
+        "infectious disease imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:18+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 262,
+      "total_tokens": 852
+    }
+  }
+}

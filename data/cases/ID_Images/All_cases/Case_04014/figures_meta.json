@@ -1,0 +1,95 @@
+{
+  "Case_04014/figure1.jpg": {
+    "case_id": "Case_04014",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04014/figure1.jpg",
+    "source_caption": "Physical findings after initial incision and drainage.",
+    "description": null,
+    "error": "content_policy_violation",
+    "error_detail": "Error code: 400 - {'error': {'message': 'Your input image may contain content that is not allowed by our content safety system.', 'type': 'invalid_request_error', 'param': None, 'code': 'content_policy_violation'}}",
+    "model": "gpt-4o-1120",
+    "generated_at": "2026-07-23T15:33:10+00:00"
+  },
+  "Case_04014/figure2.jpg": {
+    "case_id": "Case_04014",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04014/figure2.jpg",
+    "source_caption": "CT scan of the chest.",
+    "description": {
+      "modality": "CT",
+      "anatomical_site": "chest",
+      "short_caption": "Axial CT scan of the chest showing bilateral pleural effusions.",
+      "detailed_description": "This axial CT image of the chest demonstrates bilateral pleural effusions, more prominent on the left side. The lung parenchyma appears compressed by the fluid, and there is evidence of mediastinal structures in the midline. The image also shows bony structures of the thoracic cage and soft tissues. No contrast enhancement is evident, suggesting this is a non-contrast study.",
+      "visible_findings": [
+        "bilateral pleural effusions",
+        "compression of lung parenchyma",
+        "midline mediastinal structures",
+        "bony thoracic cage visible"
+      ],
+      "keywords": [
+        "ct",
+        "chest",
+        "pleural effusion",
+        "lung",
+        "thorax"
+      ],
+      "reveal_triggers": [
+        "chest ct",
+        "pleural effusion",
+        "lung imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:20+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 237,
+      "total_tokens": 825
+    }
+  },
+  "Case_04014/figure3.jpg": {
+    "case_id": "Case_04014",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_04014/figure3.jpg",
+    "source_caption": "Gram stain of purulent discharge.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "null",
+      "short_caption": "Gram stain showing filamentous branching structures.",
+      "detailed_description": "This Gram stain image demonstrates filamentous, branching structures that are stained red, consistent with Gram-positive organisms. The background appears sparsely populated, with no significant presence of other cellular components or organisms. The branching morphology is suggestive of filamentous bacteria, such as Actinomyces or Nocardia. The image is de-identified and focuses on the microbial structures.",
+      "visible_findings": [
+        "filamentous branching structures",
+        "red staining consistent with Gram-positive organisms",
+        "sparse background with minimal debris"
+      ],
+      "keywords": [
+        "gram stain",
+        "filamentous bacteria",
+        "branching structures",
+        "infectious diseases",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of purulent discharge",
+        "branching bacteria",
+        "filamentous organisms"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:33:22+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 225,
+      "total_tokens": 814
+    }
+  }
+}

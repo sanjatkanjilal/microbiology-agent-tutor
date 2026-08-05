@@ -1,0 +1,209 @@
+{
+  "Case_08010/figure1.jpg": {
+    "case_id": "Case_08010",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08010/figure1.jpg",
+    "source_caption": "Gram stain of CSF cytospin.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "cerebrospinal fluid",
+      "short_caption": "Gram stain of CSF cytospin showing intracellular gram-negative diplococci.",
+      "detailed_description": "This image shows a Gram stain of a cerebrospinal fluid (CSF) cytospin preparation. Numerous polymorphonuclear leukocytes (PMNs) are visible, with some containing intracellular gram-negative diplococci. The background is relatively clear, consistent with a cytospin preparation. The findings suggest a bacterial meningitis, potentially caused by Neisseria meningitidis or a similar organism.",
+      "visible_findings": [
+        "intracellular gram-negative diplococci",
+        "numerous polymorphonuclear leukocytes (PMNs)",
+        "clear background typical of cytospin preparation"
+      ],
+      "keywords": [
+        "gram stain",
+        "csf",
+        "cytospin",
+        "meningitis",
+        "intracellular bacteria",
+        "diplococci"
+      ],
+      "reveal_triggers": [
+        "gram stain of csf",
+        "bacterial meningitis",
+        "csf cytospin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:45+00:00",
+    "usage": {
+      "prompt_tokens": 591,
+      "completion_tokens": 262,
+      "total_tokens": 853
+    }
+  },
+  "Case_08010/figure4.jpg": {
+    "case_id": "Case_08010",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08010/figure4.jpg",
+    "source_caption": "Gram stain of abscess aspirate.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "abscess aspirate",
+      "short_caption": "Gram stain of abscess aspirate showing gram-positive cocci in clusters.",
+      "detailed_description": "This image shows a Gram stain of an abscess aspirate. Numerous gram-positive cocci in clusters are visible, stained dark purple, consistent with a bacterial infection. The background contains cellular debris and inflammatory cells, indicative of an abscess environment. The staining highlights the morphology of the bacteria and the inflammatory response.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "cellular debris",
+        "inflammatory cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "abscess",
+        "bacteria",
+        "infection",
+        "gram-positive cocci"
+      ],
+      "reveal_triggers": [
+        "gram stain of abscess",
+        "bacterial infection",
+        "abscess aspirate"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:45+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 213,
+      "total_tokens": 803
+    }
+  },
+  "Case_08010/figure2.jpg": {
+    "case_id": "Case_08010",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08010/figure2.jpg",
+    "source_caption": "MRI of the brain, T2 axial FLAIR.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T2 axial FLAIR showing a hyperintense lesion with surrounding edema.",
+      "detailed_description": "This axial T2 FLAIR MRI image of the brain demonstrates a hyperintense lesion in the right hemisphere, likely in the parietal lobe. The lesion has a central hypointense area suggestive of necrosis or cystic change, surrounded by a hyperintense rim and extensive perilesional edema. The surrounding brain tissue shows mass effect with midline shift. The imaging findings are consistent with an infectious or neoplastic process.",
+      "visible_findings": [
+        "hyperintense lesion in the right hemisphere",
+        "central hypointense area within the lesion",
+        "perilesional edema",
+        "mass effect with midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t2 flair",
+        "hyperintense lesion",
+        "edema",
+        "mass effect"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "t2 flair",
+        "hyperintense lesion in brain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:46+00:00",
+    "usage": {
+      "prompt_tokens": 594,
+      "completion_tokens": 263,
+      "total_tokens": 857
+    }
+  },
+  "Case_08010/figure3.jpg": {
+    "case_id": "Case_08010",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08010/figure3.jpg",
+    "source_caption": "MRI of the brain, T1 FLAIR post contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "MRI brain, T1 FLAIR post-contrast showing a ring-enhancing lesion.",
+      "detailed_description": "This axial T1-weighted FLAIR post-contrast MRI image of the brain shows a prominent ring-enhancing lesion in the right hemisphere, suggestive of a focal pathology such as an abscess or tumor. The lesion has a hypointense center with a surrounding hyperintense rim, indicating contrast enhancement. Adjacent vasogenic edema is visible as hyperintensity in the surrounding parenchyma. The midline structures appear preserved without significant shift.",
+      "visible_findings": [
+        "ring-enhancing lesion in the right hemisphere",
+        "hypointense center with hyperintense rim",
+        "vasogenic edema surrounding the lesion",
+        "no significant midline shift"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "t1 flair",
+        "post-contrast",
+        "ring-enhancing lesion",
+        "vasogenic edema"
+      ],
+      "reveal_triggers": [
+        "mri brain",
+        "ring-enhancing lesion",
+        "post-contrast imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:47+00:00",
+    "usage": {
+      "prompt_tokens": 595,
+      "completion_tokens": 267,
+      "total_tokens": 862
+    }
+  },
+  "Case_08010/figure5.jpg": {
+    "case_id": "Case_08010",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08010/figure5.jpg",
+    "source_caption": "MRI of the brain, 1 year later.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "brain",
+      "short_caption": "Axial MRI of the brain showing periventricular hyperintensities.",
+      "detailed_description": "This axial MRI image of the brain demonstrates hyperintense signal abnormalities in the periventricular white matter, consistent with T2-weighted or FLAIR imaging. The ventricles appear symmetrically enlarged, and there is no evidence of acute mass effect or midline shift. The findings may suggest chronic white matter changes, such as demyelination or gliosis.",
+      "visible_findings": [
+        "periventricular hyperintensities",
+        "symmetrically enlarged ventricles",
+        "no midline shift",
+        "no acute mass effect"
+      ],
+      "keywords": [
+        "mri",
+        "brain",
+        "periventricular hyperintensities",
+        "white matter changes",
+        "t2-weighted",
+        "flair"
+      ],
+      "reveal_triggers": [
+        "brain mri",
+        "periventricular changes",
+        "white matter hyperintensities"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:45:48+00:00",
+    "usage": {
+      "prompt_tokens": 592,
+      "completion_tokens": 249,
+      "total_tokens": 841
+    }
+  }
+}

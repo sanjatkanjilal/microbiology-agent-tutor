@@ -1,0 +1,125 @@
+{
+  "Case_15005/figure2.jpg": {
+    "case_id": "Case_15005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15005/figure2.jpg",
+    "source_caption": "Abdominal MRI with contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal MRI with contrast showing liver lesions.",
+      "detailed_description": "This is a contrast-enhanced abdominal MRI image focusing on the liver. The liver demonstrates multiple hyperintense lesions, with one lesion prominently marked by an arrow. The lesions appear irregular and are suggestive of abscesses or other focal pathology. The surrounding liver parenchyma shows normal signal intensity. The image is taken in an axial plane.",
+      "visible_findings": [
+        "hyperintense lesions in the liver",
+        "arrow marking a prominent lesion",
+        "contrast-enhanced imaging"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "liver",
+        "contrast",
+        "lesions",
+        "abscess"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "liver abscess",
+        "contrast-enhanced imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:14+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 218,
+      "total_tokens": 806
+    }
+  },
+  "Case_15005/figure3.jpg": {
+    "case_id": "Case_15005",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15005/figure3.jpg",
+    "source_caption": "Ultrasound of the neck with an enlarged right submandibular lymph node (up to 2.86 cm by 1.59 cm).",
+    "description": {
+      "modality": "ultrasound",
+      "anatomical_site": "neck, right submandibular region",
+      "short_caption": "Ultrasound showing an enlarged right submandibular lymph node measuring 2.86 cm by 1.59 cm.",
+      "detailed_description": "This sagittal ultrasound image depicts an enlarged lymph node in the right submandibular region. The node is oval-shaped with well-defined borders and measures 2.86 cm in length and 1.59 cm in width, as indicated by the measurement markers. The echotexture appears heterogeneous, with some hypoechoic areas visible. The surrounding tissue shows no obvious abnormalities.",
+      "visible_findings": [
+        "enlarged oval-shaped lymph node",
+        "dimensions marked as 2.86 cm by 1.59 cm",
+        "heterogeneous echotexture",
+        "hypoechoic areas within the node"
+      ],
+      "keywords": [
+        "ultrasound",
+        "neck",
+        "submandibular lymph node",
+        "enlarged lymph node",
+        "heterogeneous echotexture"
+      ],
+      "reveal_triggers": [
+        "neck ultrasound",
+        "submandibular lymphadenopathy",
+        "enlarged lymph node imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.99
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:15+00:00",
+    "usage": {
+      "prompt_tokens": 612,
+      "completion_tokens": 284,
+      "total_tokens": 896
+    }
+  },
+  "Case_15005/figure1.jpg": {
+    "case_id": "Case_15005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_15005/figure1.jpg",
+    "source_caption": "Abdominal MRI with contrast.",
+    "description": {
+      "modality": "MRI",
+      "anatomical_site": "abdomen",
+      "short_caption": "Abdominal MRI with contrast showing liver lesions.",
+      "detailed_description": "This is a contrast-enhanced axial abdominal MRI image. The liver is prominently visualized, and there are multiple hypodense lesions (arrows) within the liver parenchyma. These lesions appear irregular and may suggest abscesses or other focal hepatic pathology. The surrounding abdominal structures are less prominently visualized.",
+      "visible_findings": [
+        "hypodense lesions in the liver",
+        "arrows marking focal abnormalities",
+        "contrast-enhanced liver parenchyma"
+      ],
+      "keywords": [
+        "mri",
+        "abdomen",
+        "liver",
+        "contrast",
+        "lesions",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "abdominal mri",
+        "liver lesions",
+        "contrast-enhanced imaging"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:58:21+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 216,
+      "total_tokens": 804
+    }
+  }
+}

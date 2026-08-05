@@ -1,0 +1,43 @@
+{
+  "Case_03101/figure1.jpg": {
+    "case_id": "Case_03101",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_03101/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "oral cavity (tongue)",
+      "short_caption": "Clinical photograph showing ulcerative lesions on the tongue.",
+      "detailed_description": "This image depicts the tongue of a patient with visible ulcerative lesions. The lesions appear as irregular, erythematous areas with central ulceration. Surrounding tissue shows mild swelling and erythema. The lips and perioral skin are visible but appear unaffected. The photograph is taken in natural lighting, focusing on the oral cavity.",
+      "visible_findings": [
+        "irregular ulcerative lesions on the tongue",
+        "erythematous surrounding tissue",
+        "central ulceration of lesions"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "tongue",
+        "oral cavity",
+        "ulcer",
+        "erythema",
+        "infectious disease"
+      ],
+      "reveal_triggers": [
+        "oral exam",
+        "tongue lesion",
+        "ulcerative lesion in mouth"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:31:09+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 226,
+      "total_tokens": 794
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "Case_08003/figure1.jpg": {
+    "case_id": "Case_08003",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08003/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "foot",
+      "short_caption": "Erythematous rash with maculopapular lesions on the dorsal foot.",
+      "detailed_description": "This clinical photograph shows the dorsal aspect of a foot with a diffuse erythematous rash. The rash is characterized by maculopapular lesions that are irregularly distributed. There is no visible ulceration or vesiculation. The skin appears inflamed, with areas of redness and slight swelling. The toenails are intact, and no obvious signs of necrosis or purulent discharge are present.",
+      "visible_findings": [
+        "diffuse erythema",
+        "maculopapular rash",
+        "no ulceration or vesiculation",
+        "mild swelling"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "foot",
+        "rash",
+        "erythema",
+        "maculopapular",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "skin rash",
+        "foot rash",
+        "maculopapular rash",
+        "infectious rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 253,
+      "total_tokens": 821
+    }
+  },
+  "Case_08003/figure3.jpg": {
+    "case_id": "Case_08003",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08003/figure3.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "hand",
+      "short_caption": "Vesiculopustular lesions and erosions on the hand.",
+      "detailed_description": "This image shows the dorsal aspect of a hand with multiple vesiculopustular lesions and areas of superficial erosion. The lesions are scattered and vary in size, with some appearing as intact vesicles and others as ruptured, leaving erythematous bases. The surrounding skin shows mild erythema but no significant swelling. The findings suggest an infectious or inflammatory process affecting the skin.",
+      "visible_findings": [
+        "vesiculopustular lesions",
+        "superficial erosions",
+        "erythematous bases",
+        "mild surrounding erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "vesicles",
+        "pustules",
+        "erosions",
+        "skin infection"
+      ],
+      "reveal_triggers": [
+        "skin lesions on hand",
+        "vesicles and pustules",
+        "infectious skin condition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.98
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:44+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 241,
+      "total_tokens": 809
+    }
+  },
+  "Case_08003/figure2.jpg": {
+    "case_id": "Case_08003",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08003/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "dorsum of the hand",
+      "short_caption": "Erythematous papules and vesicles on the dorsum of the hand.",
+      "detailed_description": "This clinical photograph shows the dorsum of a hand with multiple erythematous papules, vesicles, and areas of excoriation. The lesions are distributed diffusely across the hand, with some coalescing into larger patches. The skin appears inflamed, and there is no visible ulceration or necrosis. The findings suggest an inflammatory or infectious process.",
+      "visible_findings": [
+        "erythematous papules",
+        "vesicles",
+        "diffuse distribution",
+        "excoriation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "vesicles",
+        "papules",
+        "erythema",
+        "skin lesions"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand rash",
+        "vesicular rash"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:46+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 233,
+      "total_tokens": 801
+    }
+  },
+  "Case_08003/figure4.jpg": {
+    "case_id": "Case_08003",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08003/figure4.jpg",
+    "source_caption": "H and E stain of biopsy.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "skin",
+      "short_caption": "H&E stain of a skin biopsy showing epidermal and dermal changes.",
+      "detailed_description": "This histopathology image shows a hematoxylin and eosin (H&E) stained section of skin. The epidermis appears intact but shows some irregularities, while the dermis contains inflammatory infiltrates. There is evidence of cellular changes suggestive of an infectious or inflammatory process. The image highlights the interface between the epidermis and dermis, with visible structural alterations.",
+      "visible_findings": [
+        "epidermal layer with irregularities",
+        "dermal inflammatory infiltrates",
+        "interface changes between epidermis and dermis",
+        "H&E stain with pink and purple hues"
+      ],
+      "keywords": [
+        "histopathology",
+        "skin",
+        "H&E stain",
+        "inflammation",
+        "biopsy"
+      ],
+      "reveal_triggers": [
+        "skin biopsy",
+        "H&E stain",
+        "histopathology of skin"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:49+00:00",
+    "usage": {
+      "prompt_tokens": 589,
+      "completion_tokens": 243,
+      "total_tokens": 832
+    }
+  },
+  "Case_08003/figure5.jpg": {
+    "case_id": "Case_08003",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_08003/figure5.jpg",
+    "source_caption": "IgA immunofluorescent stain of biopsy.",
+    "description": {
+      "modality": "other stain",
+      "anatomical_site": "skin",
+      "short_caption": "IgA immunofluorescent stain showing linear deposition along the dermoepidermal junction.",
+      "detailed_description": "This image shows an IgA immunofluorescent stain of a skin biopsy. There is a bright, linear fluorescence pattern along the dermoepidermal junction, consistent with IgA deposition. The background tissue appears darker, with no significant fluorescence outside the junction. The fluorescence highlights the interface between the epidermis and dermis, suggesting a possible autoimmune or immune-complex-mediated process.",
+      "visible_findings": [
+        "linear fluorescence at dermoepidermal junction",
+        "dark background with no significant fluorescence",
+        "clear delineation of epidermis and dermis"
+      ],
+      "keywords": [
+        "immunofluorescence",
+        "skin",
+        "IgA",
+        "dermoepidermal junction",
+        "biopsy",
+        "autoimmune"
+      ],
+      "reveal_triggers": [
+        "IgA immunofluorescence",
+        "skin biopsy",
+        "linear deposition"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:44:50+00:00",
+    "usage": {
+      "prompt_tokens": 593,
+      "completion_tokens": 256,
+      "total_tokens": 849
+    }
+  }
+}

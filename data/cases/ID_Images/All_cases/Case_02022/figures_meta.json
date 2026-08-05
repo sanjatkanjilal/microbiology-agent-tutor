@@ -1,0 +1,205 @@
+{
+  "Case_02022/figure4.jpg": {
+    "case_id": "Case_02022",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02022/figure4.jpg",
+    "source_caption": "Culture results by light microscopy. Figure 5. Culture results by light microscopy.",
+    "description": {
+      "modality": "light microscopy",
+      "anatomical_site": null,
+      "short_caption": "Light microscopy showing fungal hyphae with septations.",
+      "detailed_description": "This light microscopy image shows branching fungal hyphae with visible septations. The hyphae appear elongated and tubular, with occasional branching at acute angles. The background is lightly stained, providing contrast to the fungal structures. The image suggests a fungal organism, likely a mold, based on the morphology.",
+      "visible_findings": [
+        "branching fungal hyphae",
+        "septations visible in hyphae",
+        "acute angle branching",
+        "lightly stained background"
+      ],
+      "keywords": [
+        "light microscopy",
+        "fungal hyphae",
+        "septations",
+        "branching",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "light microscopy of mold",
+        "hyphae with septations"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:28+00:00",
+    "usage": {
+      "prompt_tokens": 598,
+      "completion_tokens": 218,
+      "total_tokens": 816
+    }
+  },
+  "Case_02022/figure3.jpg": {
+    "case_id": "Case_02022",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02022/figure3.jpg",
+    "source_caption": "Culture results on Sabouraud agar.",
+    "description": {
+      "modality": "culture plate",
+      "anatomical_site": null,
+      "short_caption": "Fungal colony growth on Sabouraud agar.",
+      "detailed_description": "This image shows a culture plate containing Sabouraud agar with a fungal colony growing at its center. The colony appears circular with a dense, white, and slightly fluffy texture radiating outward. The surrounding agar is clear, and no other colonies are visible. The growth pattern and texture are consistent with fungal morphology.",
+      "visible_findings": [
+        "circular fungal colony",
+        "white, fluffy texture",
+        "clear surrounding agar"
+      ],
+      "keywords": [
+        "culture plate",
+        "fungal colony",
+        "sabouraud agar",
+        "microbiology",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "sabouraud agar",
+        "microbiology plate"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:28+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 204,
+      "total_tokens": 794
+    }
+  },
+  "Case_02022/figure1.jpg": {
+    "case_id": "Case_02022",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02022/figure1.jpg",
+    "source_caption": "Left leg angiogram.",
+    "description": {
+      "modality": "angiogram",
+      "anatomical_site": "left leg",
+      "short_caption": "Angiogram of the left leg showing vascular anatomy and catheter placement.",
+      "detailed_description": "This image is an angiogram of the left leg, showing the vascular anatomy with a catheter in place. The femoral artery and its branches are visible, with contrast highlighting the arterial lumen. There are markers (arrows) indicating specific areas of interest, possibly stenosis or occlusion. The catheter appears to be positioned in the proximal femoral artery.",
+      "visible_findings": [
+        "contrast-enhanced arterial lumen",
+        "catheter in the proximal femoral artery",
+        "arrows marking areas of interest in the vasculature"
+      ],
+      "keywords": [
+        "angiogram",
+        "left leg",
+        "vascular anatomy",
+        "catheter",
+        "contrast imaging"
+      ],
+      "reveal_triggers": [
+        "angiogram",
+        "vascular imaging",
+        "left leg angiogram"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:28+00:00",
+    "usage": {
+      "prompt_tokens": 587,
+      "completion_tokens": 226,
+      "total_tokens": 813
+    }
+  },
+  "Case_02022/figure5.jpg": {
+    "case_id": "Case_02022",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02022/figure5.jpg",
+    "source_caption": "Culture results by light microscopy.",
+    "description": {
+      "modality": "light microscopy",
+      "anatomical_site": null,
+      "short_caption": "Light microscopy showing fungal sporangia with sporangiospores.",
+      "detailed_description": "This light microscopy image depicts two fungal sporangia, each containing numerous sporangiospores. The sporangia are spherical structures with a granular appearance, and they are connected to hyphae. The image is likely stained to enhance contrast, though the specific stain is not identified. The structures are characteristic of certain fungal species.",
+      "visible_findings": [
+        "spherical fungal sporangia",
+        "numerous sporangiospores within sporangia",
+        "hyphal connections to sporangia"
+      ],
+      "keywords": [
+        "light microscopy",
+        "fungus",
+        "sporangia",
+        "sporangiospores",
+        "hyphae",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "fungal culture",
+        "light microscopy of fungus",
+        "sporangia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:31+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 232,
+      "total_tokens": 820
+    }
+  },
+  "Case_02022/figure2.jpg": {
+    "case_id": "Case_02022",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02022/figure2.jpg",
+    "source_caption": "Histopathology of the arterial wall.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "arterial wall",
+      "short_caption": "Histopathology of the arterial wall with GMS and H&E staining.",
+      "detailed_description": "This composite image shows histopathological sections of the arterial wall stained with GMS (top right and top left) and H&E (bottom left). The GMS-stained sections highlight fungal hyphae, which appear as black, branching structures within the tissue. The H&E-stained section reveals inflammatory infiltrates and tissue damage, consistent with an infectious process. The findings suggest fungal invasion of the arterial wall.",
+      "visible_findings": [
+        "black, branching fungal hyphae on GMS staining",
+        "inflammatory infiltrates on H&E staining",
+        "tissue damage in the arterial wall"
+      ],
+      "keywords": [
+        "histopathology",
+        "arterial wall",
+        "fungal infection",
+        "GMS stain",
+        "H&E stain"
+      ],
+      "reveal_triggers": [
+        "histopathology of arterial wall",
+        "fungal infection",
+        "GMS stain",
+        "H&E stain"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:21:32+00:00",
+    "usage": {
+      "prompt_tokens": 590,
+      "completion_tokens": 257,
+      "total_tokens": 847
+    }
+  }
+}

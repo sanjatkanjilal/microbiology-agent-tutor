@@ -1,0 +1,84 @@
+{
+  "Case_16005/figure1.jpg": {
+    "case_id": "Case_16005",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16005/figure1.jpg",
+    "source_caption": "Physical finding of left hand.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "left hand",
+      "short_caption": "Ulcerated lesion on the left middle finger with surrounding erythema.",
+      "detailed_description": "This clinical photograph shows the palmar aspect of the left hand. The middle finger exhibits an ulcerated lesion with a central area of tissue loss and surrounding erythema. The lesion appears to be well-demarcated, with no visible purulent discharge. The remaining fingers and palm show no overt abnormalities. The image suggests a localized infectious or inflammatory process.",
+      "visible_findings": [
+        "ulcerated lesion on the middle finger",
+        "central tissue loss",
+        "surrounding erythema",
+        "no visible discharge"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "hand",
+        "ulcer",
+        "erythema",
+        "infection",
+        "left hand"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hand lesion",
+        "ulcer on finger"
+      ],
+      "contains_phi_redaction": true,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:06+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 229,
+      "total_tokens": 817
+    }
+  },
+  "Case_16005/figure2.jpg": {
+    "case_id": "Case_16005",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_16005/figure2.jpg",
+    "source_caption": "Gram stain from blood culture.",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain showing gram-positive cocci in clusters from a blood culture.",
+      "detailed_description": "This image is a Gram stain from a blood culture specimen. It shows numerous gram-positive cocci arranged in clusters, which are stained purple, consistent with their ability to retain the crystal violet dye. The background appears pale pink, indicating the counterstain. The morphology and clustering are suggestive of staphylococcal species. No other organisms or significant debris are visible.",
+      "visible_findings": [
+        "gram-positive cocci in clusters",
+        "purple staining of organisms",
+        "pale pink background"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-positive cocci",
+        "staphylococcus",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood",
+        "blood culture gram stain",
+        "staphylococcus morphology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:59:07+00:00",
+    "usage": {
+      "prompt_tokens": 588,
+      "completion_tokens": 228,
+      "total_tokens": 816
+    }
+  }
+}

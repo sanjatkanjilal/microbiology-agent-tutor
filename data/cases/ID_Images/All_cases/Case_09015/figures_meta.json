@@ -1,0 +1,165 @@
+{
+  "Case_09015/figure3.jpg": {
+    "case_id": "Case_09015",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09015/figure3.jpg",
+    "source_caption": "Cryptosporidium on H and E stain of gallbladder (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gallbladder",
+      "short_caption": "Cryptosporidium organisms on H&E stain of gallbladder epithelium (arrows).",
+      "detailed_description": "This histopathology image shows a section of gallbladder tissue stained with hematoxylin and eosin (H&E). The epithelial lining is visible, with small, round to oval basophilic structures (indicated by arrows) attached to the epithelial surface. These structures are consistent with Cryptosporidium organisms. The surrounding tissue shows mild inflammatory changes.",
+      "visible_findings": [
+        "epithelial lining of gallbladder",
+        "small basophilic round to oval structures attached to epithelium (arrows)",
+        "mild inflammatory changes in surrounding tissue"
+      ],
+      "keywords": [
+        "histopathology",
+        "gallbladder",
+        "cryptosporidium",
+        "h&e stain",
+        "infectious diseases"
+      ],
+      "reveal_triggers": [
+        "cryptosporidium histology",
+        "h&e stain of gallbladder",
+        "parasitic infection histopathology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:49+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 266,
+      "total_tokens": 865
+    }
+  },
+  "Case_09015/figure2.jpg": {
+    "case_id": "Case_09015",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09015/figure2.jpg",
+    "source_caption": "Histopathological examination of the gallbladder with H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gallbladder",
+      "short_caption": "Histopathological examination of the gallbladder with H&E stain showing epithelial and inflammatory changes.",
+      "detailed_description": "This histopathological image shows a section of gallbladder tissue stained with hematoxylin and eosin (H&E). The epithelium appears hyperplastic with tall columnar cells and basally located nuclei. There is evidence of inflammatory infiltrates in the lamina propria, consisting predominantly of lymphocytes. The architecture suggests chronic inflammation, possibly consistent with chronic cholecystitis. The staining highlights cellular and tissue details effectively.",
+      "visible_findings": [
+        "hyperplastic epithelium with tall columnar cells",
+        "basally located nuclei",
+        "inflammatory infiltrates in the lamina propria",
+        "lymphocyte predominance",
+        "chronic inflammatory changes"
+      ],
+      "keywords": [
+        "histopathology",
+        "gallbladder",
+        "H&E stain",
+        "chronic inflammation",
+        "cholecystitis"
+      ],
+      "reveal_triggers": [
+        "histopathology of gallbladder",
+        "H&E stain of gallbladder",
+        "chronic cholecystitis histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:49+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 290,
+      "total_tokens": 887
+    }
+  },
+  "Case_09015/figure4.jpg": {
+    "case_id": "Case_09015",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09015/figure4.jpg",
+    "source_caption": "Cryptosporidium on H and E stain of gallbladder (arrows).",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gallbladder",
+      "short_caption": "Cryptosporidium organisms on H&E stain of gallbladder epithelium (arrows).",
+      "detailed_description": "This histopathological image shows a section of gallbladder tissue stained with hematoxylin and eosin (H&E). The epithelial lining is visible, with small, round to oval basophilic structures (indicated by arrows) adherent to the epithelial surface. These structures are consistent with Cryptosporidium organisms. The surrounding tissue shows no significant inflammatory infiltrate in this field.",
+      "visible_findings": [
+        "gallbladder epithelium with intact lining",
+        "small, basophilic, round to oval structures on epithelial surface (arrows)",
+        "H&E stain with clear nuclear and cytoplasmic detail"
+      ],
+      "keywords": [
+        "histopathology",
+        "gallbladder",
+        "cryptosporidium",
+        "h&e stain",
+        "parasitic infection"
+      ],
+      "reveal_triggers": [
+        "cryptosporidium",
+        "h&e stain of gallbladder",
+        "parasitic infection histology"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:51+00:00",
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 276,
+      "total_tokens": 875
+    }
+  },
+  "Case_09015/figure1.jpg": {
+    "case_id": "Case_09015",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_09015/figure1.jpg",
+    "source_caption": "Histopathological examination of the gallbladder with H and E stain.",
+    "description": {
+      "modality": "histopathology",
+      "anatomical_site": "gallbladder",
+      "short_caption": "Histopathological examination of the gallbladder with H&E stain showing epithelial and inflammatory changes.",
+      "detailed_description": "This histopathological image shows a section of gallbladder tissue stained with hematoxylin and eosin (H&E). The epithelium appears hyperplastic with some areas of irregular architecture. There is a notable presence of inflammatory cells, including lymphocytes and plasma cells, within the lamina propria. The staining highlights cellular and nuclear details, aiding in the identification of pathological changes.",
+      "visible_findings": [
+        "hyperplastic epithelium",
+        "inflammatory infiltrate in lamina propria",
+        "irregular epithelial architecture",
+        "H&E staining with clear nuclear and cytoplasmic detail"
+      ],
+      "keywords": [
+        "histopathology",
+        "gallbladder",
+        "H&E stain",
+        "inflammation",
+        "epithelial changes"
+      ],
+      "reveal_triggers": [
+        "gallbladder histology",
+        "H&E stain of gallbladder",
+        "histopathology of inflammation"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:49:55+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 266,
+      "total_tokens": 863
+    }
+  }
+}

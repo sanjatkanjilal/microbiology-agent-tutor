@@ -1,0 +1,204 @@
+{
+  "Case_17021/figure1.jpg": {
+    "case_id": "Case_17021",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17021/figure1.jpg",
+    "source_caption": "Figure 1a. Image of hypopigmented rash on face",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "face",
+      "short_caption": "Hypopigmented patch on the cheek.",
+      "detailed_description": "This clinical photograph shows a hypopigmented patch on the cheek of an individual. The lesion appears to be well-demarcated with a slightly irregular border. The surrounding skin shows normal pigmentation. No visible signs of scaling, erythema, or ulceration are present. The image focuses on the lower face, including the cheek and part of the upper lip.",
+      "visible_findings": [
+        "hypopigmented patch on the cheek",
+        "well-demarcated lesion",
+        "absence of scaling or erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "face",
+        "hypopigmented patch",
+        "skin lesion"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hypopigmented rash",
+        "facial lesion"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:51+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 218,
+      "total_tokens": 815
+    }
+  },
+  "Case_17021/figure2.jpg": {
+    "case_id": "Case_17021",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17021/figure2.jpg",
+    "source_caption": "Chest X-ray at presentation. Scarring and bronchiectasis seen within the left upper lobe likely secondary to prior tuberculosis infection.",
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "back",
+      "short_caption": "Hypopigmented macules on the back, consistent with pityriasis versicolor.",
+      "detailed_description": "This clinical photograph shows the back of a patient with numerous small, hypopigmented macules distributed symmetrically across the upper back. The lesions are irregularly shaped, with some coalescing into larger patches. The skin texture appears normal without significant scaling or erythema. The findings are consistent with a superficial fungal infection, such as pityriasis versicolor.",
+      "visible_findings": [
+        "hypopigmented macules",
+        "symmetrical distribution",
+        "normal skin texture",
+        "no significant scaling or erythema"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "back",
+        "hypopigmented macules",
+        "pityriasis versicolor",
+        "fungal infection"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "hypopigmented lesions",
+        "fungal infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:51+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 241,
+      "total_tokens": 849
+    }
+  },
+  "Case_17021/figure5.jpg": {
+    "case_id": "Case_17021",
+    "filename": "figure5.jpg",
+    "figure_number": 5,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17021/figure5.jpg",
+    "source_caption": "Figure 3b. Gram stain of lymph node (100x)",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Gram stain of lymph node showing clusters of gram-positive cocci.",
+      "detailed_description": "This image shows a gram stain of a lymph node at 100x magnification. Numerous gram-positive cocci are visible, appearing as small, round, purple-stained organisms arranged in clusters. The background includes pink-stained host cells and extracellular material. A single leukocyte with a multilobed nucleus is also visible, suggesting an inflammatory response.",
+      "visible_findings": [
+        "clusters of gram-positive cocci",
+        "pink-stained background material",
+        "leukocyte with multilobed nucleus"
+      ],
+      "keywords": [
+        "gram stain",
+        "lymph node",
+        "gram-positive cocci",
+        "infection",
+        "bacteria"
+      ],
+      "reveal_triggers": [
+        "gram stain of lymph node",
+        "bacterial infection",
+        "infectious lymphadenitis"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:01:57+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 225,
+      "total_tokens": 821
+    }
+  },
+  "Case_17021/figure3.jpg": {
+    "case_id": "Case_17021",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17021/figure3.jpg",
+    "source_caption": "Chest X-ray at presentation. Scarring and bronchiectasis seen within the left upper lobe likely secondary to prior tuberculosis infection.",
+    "description": {
+      "modality": "chest radiograph",
+      "anatomical_site": "thorax",
+      "short_caption": "Chest X-ray showing scarring and bronchiectasis in the left upper lobe.",
+      "detailed_description": "This is a frontal chest radiograph showing evidence of scarring and bronchiectasis localized to the left upper lobe. The affected area demonstrates increased radiodensity and architectural distortion consistent with chronic structural lung changes. The remainder of the lung fields appear relatively clear, and there is no obvious acute consolidation or pleural effusion. The findings are suggestive of sequelae from prior pulmonary tuberculosis or another chronic inflammatory process.",
+      "visible_findings": [
+        "scarring in the left upper lobe",
+        "bronchiectasis in the left upper lobe",
+        "no acute consolidation",
+        "no pleural effusion"
+      ],
+      "keywords": [
+        "chest radiograph",
+        "thorax",
+        "bronchiectasis",
+        "scarring",
+        "tuberculosis sequelae"
+      ],
+      "reveal_triggers": [
+        "chest x-ray",
+        "bronchiectasis",
+        "tuberculosis scarring"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:00+00:00",
+    "usage": {
+      "prompt_tokens": 608,
+      "completion_tokens": 262,
+      "total_tokens": 870
+    }
+  },
+  "Case_17021/figure4.jpg": {
+    "case_id": "Case_17021",
+    "filename": "figure4.jpg",
+    "figure_number": 4,
+    "image_path": "data/cases/ID_Images/All_cases/Case_17021/figure4.jpg",
+    "source_caption": "Figure 3a. Gram stain of lymph node (50x)",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "lymph node",
+      "short_caption": "Gram stain of lymph node showing mixed bacterial morphology.",
+      "detailed_description": "This is a Gram stain image at approximately 50x magnification, showing a sample from a lymph node. The field contains numerous red-stained (Gram-negative) and purple-stained (Gram-positive) bacterial organisms, indicating mixed bacterial morphology. The background shows scattered cellular debris and inflammatory cells, consistent with an infectious process. The staining highlights the bacterial cell walls, aiding in differentiation between Gram-positive and Gram-negative organisms.",
+      "visible_findings": [
+        "red-stained (Gram-negative) bacteria",
+        "purple-stained (Gram-positive) bacteria",
+        "scattered cellular debris",
+        "inflammatory cells"
+      ],
+      "keywords": [
+        "gram stain",
+        "lymph node",
+        "bacteria",
+        "infection",
+        "mixed morphology"
+      ],
+      "reveal_triggers": [
+        "gram stain of lymph node",
+        "bacterial infection",
+        "infectious lymphadenopathy"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T16:02:00+00:00",
+    "usage": {
+      "prompt_tokens": 596,
+      "completion_tokens": 243,
+      "total_tokens": 839
+    }
+  }
+}

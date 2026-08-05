@@ -1,0 +1,130 @@
+{
+  "Case_02048/figure1.jpg": {
+    "case_id": "Case_02048",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02048/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower leg",
+      "short_caption": "Clinical photograph of a swollen, discolored lower leg with skin changes.",
+      "detailed_description": "This image shows a lower leg with significant swelling, erythema, and areas of dark discoloration. The skin appears tense and shiny, with some areas of bruising or necrosis. There are faint markings on the skin, possibly for tracking the progression of swelling or discoloration. The findings suggest a severe soft tissue infection or vascular compromise.",
+      "visible_findings": [
+        "swelling of the lower leg",
+        "erythema and dark discoloration",
+        "tense, shiny skin",
+        "possible necrosis or bruising",
+        "skin markings for tracking changes"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower leg",
+        "swelling",
+        "erythema",
+        "necrosis",
+        "infection",
+        "skin changes"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "infected leg",
+        "swollen leg",
+        "necrotizing infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:08+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 249,
+      "total_tokens": 817
+    }
+  },
+  "Case_02048/figure3.jpg": {
+    "case_id": "Case_02048",
+    "filename": "figure3.jpg",
+    "figure_number": 3,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02048/figure3.jpg",
+    "source_caption": "Gram stain of blood culture. (Photo by Lynn Bry, M.D.)",
+    "description": {
+      "modality": "gram stain",
+      "anatomical_site": "blood culture",
+      "short_caption": "Gram stain of blood culture showing gram-negative bacilli.",
+      "detailed_description": "This image shows a Gram stain of a blood culture specimen. Numerous pink-staining, rod-shaped bacteria (gram-negative bacilli) are visible, indicating a gram-negative bacterial infection. The background is relatively clear, suggesting a high concentration of bacteria in the sample. The staining technique highlights the characteristic morphology and gram-negative cell wall properties of the organisms.",
+      "visible_findings": [
+        "pink-staining rods consistent with gram-negative bacilli",
+        "clear background with no visible host cells",
+        "dense bacterial population"
+      ],
+      "keywords": [
+        "gram stain",
+        "blood culture",
+        "gram-negative bacilli",
+        "bacterial infection",
+        "microbiology"
+      ],
+      "reveal_triggers": [
+        "gram stain of blood culture",
+        "gram-negative rods",
+        "bacteremia"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:15+00:00",
+    "usage": {
+      "prompt_tokens": 597,
+      "completion_tokens": 223,
+      "total_tokens": 820
+    }
+  },
+  "Case_02048/figure2.jpg": {
+    "case_id": "Case_02048",
+    "filename": "figure2.jpg",
+    "figure_number": 2,
+    "image_path": "data/cases/ID_Images/All_cases/Case_02048/figure2.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "lower legs",
+      "short_caption": "Bilateral lower leg discoloration with erythema, swelling, and necrotic changes.",
+      "detailed_description": "This clinical photograph shows both lower legs of a patient. The left leg exhibits extensive erythema, swelling, and dark discoloration suggestive of necrosis, with a clear demarcation line. The right leg shows milder erythema and discoloration. The findings are consistent with a severe soft tissue infection, possibly necrotizing fasciitis or cellulitis with ischemic changes. The patient is positioned supine, and the legs are exposed for examination.",
+      "visible_findings": [
+        "erythema and swelling of the left leg",
+        "dark discoloration and necrotic changes on the left leg",
+        "milder erythema and discoloration on the right leg",
+        "clear demarcation line on the left leg"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "lower legs",
+        "erythema",
+        "necrosis",
+        "infection",
+        "soft tissue"
+      ],
+      "reveal_triggers": [
+        "skin exam",
+        "necrotizing fasciitis",
+        "cellulitis",
+        "lower leg infection"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 0.95
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:23:17+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 287,
+      "total_tokens": 855
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "pathophys_epi",
+    "description": "Interactive pathophysiology and epidemiology deep-dive. Use when the student is in the Pathophys & Epidemiology module: virulence factors, mechanisms linking clinical features to biology, look-alike mechanistic challenges, risk factors, and transmission. NOT for bedside history, ordering tests, or management planning.",
+    "type": "PathophysEpiTool",
+    "category": "educational_agents",
+    "cacheable": false,
+    "parameter": {
+        "type": "object",
+        "properties": {
+            "input_text": {
+                "type": "string",
+                "description": "The student's message during the pathophys/epi dialogue"
+            },
+            "model": {
+                "type": "string",
+                "description": "LLM model to use",
+                "default": "gpt-5"
+            }
+        },
+        "required": [
+            "input_text"
+        ]
+    },
+    "llm_config": {
+        "max_new_tokens": 800,
+        "temperature": 0.8
+    },
+    "metadata": {
+        "version": "1.0",
+        "author": "MicroTutor Team",
+        "use_case": "Pathophysiology and epidemiology deep-dive (ported from V4 src_simplified)",
+        "features": [
+            "mechanism_first_teaching",
+            "look_alike_challenges",
+            "epidemiology_integration"
+        ]
+    }
+}

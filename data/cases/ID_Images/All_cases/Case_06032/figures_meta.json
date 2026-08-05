@@ -1,0 +1,44 @@
+{
+  "Case_06032/figure1.jpg": {
+    "case_id": "Case_06032",
+    "filename": "figure1.jpg",
+    "figure_number": 1,
+    "image_path": "data/cases/ID_Images/All_cases/Case_06032/figure1.jpg",
+    "source_caption": null,
+    "description": {
+      "modality": "clinical photograph",
+      "anatomical_site": "finger",
+      "short_caption": "Dark necrotic lesion on the finger with surrounding erythema.",
+      "detailed_description": "This clinical photograph shows a dark, necrotic lesion on the finger, surrounded by erythematous tissue. The lesion appears well-demarcated with a central black eschar and peripheral redness, suggesting tissue necrosis and inflammation. The image is focused on the distal phalanx, and the surrounding skin texture is visible.",
+      "visible_findings": [
+        "dark necrotic eschar",
+        "surrounding erythema",
+        "well-demarcated lesion",
+        "localized inflammation"
+      ],
+      "keywords": [
+        "clinical photograph",
+        "finger",
+        "necrotic lesion",
+        "eschar",
+        "erythema",
+        "infection"
+      ],
+      "reveal_triggers": [
+        "skin lesion",
+        "necrotic eschar",
+        "infected finger"
+      ],
+      "contains_phi_redaction": false,
+      "confidence": 1.0
+    },
+    "model": "gpt-4o-1120",
+    "image_detail": "high",
+    "generated_at": "2026-07-23T15:41:04+00:00",
+    "usage": {
+      "prompt_tokens": 568,
+      "completion_tokens": 225,
+      "total_tokens": 793
+    }
+  }
+}
