@@ -20,7 +20,7 @@ venv/
 # ─── Environment & secrets ────────────────────────────────────────────────────
 **/.env
 **/env.dev
-dot_env_microtutor.txt     # LLM API credentials — never commit
+dot_env_microtutor.txt     
 
 # ─── Logs ─────────────────────────────────────────────────────────────────────
 *.log
@@ -28,6 +28,7 @@ case_feedback.log
 feedback.log
 debug_log.log
 llm_interactions.log
+logs/
 
 # ─── Legacy conversation artefacts ───────────────────────────────────────────
 conversation_history.txt
@@ -44,6 +45,7 @@ data/study_admin.db-shm
 data/study_admin.db-wal
 data/*.db-shm
 data/*.db-wal
+data/microtutor.db
 
 # ─── Frontend (Node / Vite) ───────────────────────────────────────────────────
 frontend/node_modules/
